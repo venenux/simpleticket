@@ -18,11 +18,11 @@ More information:
 ----------------
 
 We all forked the stupid poor wiki to more improved: [docs/wikiindex.md](docs/wikiindex.md) 
-But for admins/devels can go directly to install: [docs/wikiinstall1.md](docs/wikiinstall1.md) 
 Original osTicket forum can be point of help in old info: [http://osticket.com/forums/](http://osticket.com/forums/).
 
 ### Requirements ###
 ------------
+Complete installation procedure are in the install index docs: [docs/wikiinstall1.md](docs/wikiinstall1.md) 
   * HTTPD: prefered lighttpd or hiawatta
   * PHP: version 5.3 or greater with mysqli extension for PHP
   * DB: MySQL database only, version 5.0 or greater
@@ -33,7 +33,7 @@ Contributing
 ------------
 
 Contribution rules are in the [docs/wikicontributingrules.md](docs/wikicontributingrules.m
-d) document.
+d) document. **PLEASE READ IT for code pulls, translation and features contribution.**
 
 In quick resumen, create your own fork of the project and use
 [git-flow](https://github.com/nvie/gitflow) to create a new feature. Once
@@ -49,7 +49,7 @@ Rules for that pulls/merge requests:
 
 License
 -------
-simpleticket109 are released under GPL2 license too, diue as original, 
+simpleticket109 are released under GPL2 license too, due as original, 
 osTicket is released under the GPL2 license. See the included [LICENSE.txt](LICENSE.txt)
 file for the gory details of the General Public License.
 
