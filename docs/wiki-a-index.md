@@ -1,13 +1,23 @@
 * [README/index](README.md)
-* [wiki/documentation](wikiindex.md)
+* [wiki/documentation](wiki-a-index.md)
 
 simpleticket : osTicket 1.9 fork WIKI INDEX
 ==========================================
 
+firts of all there's two osticket excelent forks, apart of this, 
+
+* **[https://github.com/indefero/osTicketLARUEX](https://github.com/indefero/osTicketLARUEX)** a osticket very 
+customized, permits at the site of the users to customize the request of service, extended notifications alerts 
+expanded to groups and teams, redone some behaviour and focuses in easy of usage for nebiews. As a 
+plus adition, has a extra status "solved" apart of "open" and "closed" derivated status. but use 1.10 version unless.
+
+* **[]()** 
+
 ## Installation and configuration
 
-* Documentation for install are all in: [docs/wikiinstall1.md](docs/wikiinstall1.md) 
-* Contribution rules are in the [docs/wikicontributingrules.md](docs/wikicontributingrules.md) document.
+* Documentation for install are all in: [wiki-install1.md](wiki-install1.md) 
+* Contribution rules are in the [wiki-contributingrules.md](wiki-contributingrules.md) document.
+* Some wiki sql querys for reporting tools or specific made: [wiki-db-sqlreports.md](wiki-db-sqlreports.md) 
 
 ## Official osTicker original Resources
 
@@ -43,6 +53,10 @@ simpleticket : osTicket 1.9 fork WIKI INDEX
 
 *Modifies how the software works, without changing it.*
 
+* [TinyMCE](https://github.com/Micke1101/OSTicket-plugin-TinyMCE) - changes editor with advanced more rich-value editor for both client and agents.
+* [Merging](https://github.com/indefero/OSTicket-plugin-Merging) - addeds merging tickets for osticket as plugin.
+* [Autotask](https://github.com/indefero/OSTicket-plugin-Autotask) - Automaticly creates a task when a ticket is created
+* [Notefirst](https://github.com/indefero/osticket-plugin-notefirst) - Ensures that when you view a ticket, the "Post Internal Note" tab is highlighted event the response tab.
 * [Archiver](https://github.com/clonemeagain/osticket-plugin-archiver) - Archives tickets before delete, and allows for auto-pruning of old tickets.
 * [Attachment Preview](https://github.com/clonemeagain/attachment_preview) - Allows files attached to tickets to be embedded in the thread.
 * [Autocloser](https://github.com/clonemeagain/plugin-autocloser) - Automatically closes open tickets.
@@ -54,6 +68,11 @@ simpleticket : osTicket 1.9 fork WIKI INDEX
 * [Reporting](http://software-mods.com/reports.html) - Paid plugin for extensive reporting.
 * [Rewriter](https://github.com/clonemeagain/plugin-fwd-rewriter) - An osTicket plugin to rewrite incoming emails.
 
+### Extra scripts
+
+* [https://github.com/monkiki/osTicket-Addons](https://github.com/monkiki/osTicket-Addons) php script to assing to most free agent in cola. can find here in include/others
+* [https://github.com/magisjay/OsTicketProxy](https://github.com/magisjay/OsTicketProxy) php script to redirect Zappier php request to osticket url. can find here original script.
+* [https://github.com/SovGVD/osticket-api-class.git](https://github.com/SovGVD/osticket-api-class.git) php class to use own made api, can find here in include/others
 
 ### Third Party Integration 
 
@@ -63,7 +82,6 @@ simpleticket : osTicket 1.9 fork WIKI INDEX
 * [Trello](https://github.com/kyleladd/OSTicket-Trello-Plugin) - Integrates Trello with osTicket.
 * [Slack](https://github.com/clonemeagain/osticket-slack) - Sends notifications of new and updated tickets to a Slack channel.
  
-
 ## Themes
 
 *Require modifications to osTicket core.*

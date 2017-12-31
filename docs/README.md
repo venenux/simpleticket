@@ -1,5 +1,5 @@
 * [README/index](README.md)
-* [wiki/documentation](wikiindex.md)
+* [wiki/documentation](wiki-a-index.md)
 
 simpleticket : osTicket 1.9 fork
 ================================
@@ -18,13 +18,13 @@ archiving while providing customers with accountability and responsiveness they 
 More information:
 -----------------
 
-We all forked the stupid poor wiki to more improved: [wikiindex.md](wikiindex.md) 
+We all forked the stupid poor wiki to more improved: [wiki-a-index.md](wiki-a-index.md) 
 
-But for admins/devels can go directly to install: [wikiinstall1.md](wikiinstall1.md) 
+But for admins/devels can go directly to install: [wiki-install1.md](wiki-install1.md) 
 
 Original osTicket forum can be point of help in old info: [http://osticket.com/forums/](http://osticket.com/forums/).
 
-Contribution rules are in the [wikicontributingrules.md](wikicontributingrules.md) document.
+Contribution rules are in the [wiki-contributingrules.md](wiki-contributingrules.md) document.
 
 
 Features and improvements:

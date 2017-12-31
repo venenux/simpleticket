@@ -1,5 +1,5 @@
 * [README/index](docs/README.md)
-* [wiki/documentation](docs/wikiindex.md)
+* [wiki/documentation](docs/wiki-a-index.md)
 
 simpleticket : osTicket 1.9 fork
 ================================
@@ -44,14 +44,14 @@ Differences from original:
 More information:
 ----------------
 
-We all forked the stupid poor wiki to more improved: [docs/wikiindex.md](docs/wikiindex.md) 
+We all forked the stupid poor wiki to more improved: [docs/wiki-aindex.md](docs/wiki-a-index.md) 
 
 Original osTicket forum can be point of help in old info: [http://osticket.com/forums/](http://osticket.com/forums/).
 
 ### Requirements ###
 ------------
 
-Documentation for install are all in: [docs/wikiinstall1.md](docs/wikiinstall1.md) 
+Documentation for install are all in: [docs/wiki-install1.md](docs/wiki-install1.md) 
 the process it's so easy as easy to use like send a email to the system.
 
   * HTTPD: prefered lighttpd or hiawatta
@@ -63,8 +63,7 @@ the process it's so easy as easy to use like send a email to the system.
 Contributing
 ------------
 
-Contribution rules are in the [docs/wikicontributingrules.md](docs/wikicontributingrules.m
-d) document.
+Contribution rules are in the [docs/wiki-contributingrules.md](docs/wiki-contributingrules.md) document.
 
 In quick resumen, create your own fork of the project and use
 [git-flow](https://github.com/nvie/gitflow) to create a new feature. Once
