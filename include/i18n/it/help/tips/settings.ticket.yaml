@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Formato Numero Ticket
+  content: >
+    Questa impostazione viene utilizzata per generare i numeri dei tickets. Utilizzare i segni di hash ('#') dove i numeri devono essere inseriti. Qualsiasi altro testo nel formato numero verrà conservato. <span class="doc-desc-title"> Gli argomenti della guida</span> possono definire formati numerici personalizzati. <br/> <br/>Ad esempio per i numeri di sei cifre utilizzare, <code>######</code>.
+sequence_id:
+  title: Sequenza di numero di ticket
+  content: >
+    Scegliere una sequenza da cui derivare nuovi numeri di biglietto. Il sistema ha una sequenza crescente e una sequenza casuale di default. Si possono creare tante sequenze quante se ne desiderano. Utilizzare varie sequenze nella configurazione del <span class="doc-desc-title"> Formato di numero di ticket</span> per argomenti della guida.
+default_ticket_status:
+  title: Stato predefinito per i nuovi ticket
+  content: >
+    Scegliere lo stato di default per i nuovi ticket. Questo può essere definito per ogni argomento della guida, se desiderato. Esso può anche essere sovrascritto da un filtro di ticket.
+  links:
+    - 
+      title: Gestire lo stato dei Ticket
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: SLA predefinita
+  content: >
+    Scegliete il Service Level Agreement predefinito. Trascorso questo tempo il ticket sarà marcato come Scaduto.
+  links:
+    - 
+      title: Crea altri piani SLA
+      href: /scp/slas.php
+default_priority:
+  title: Priorità Predefinita
+  content: >
+    Scegliere la <span class="doc-desc-title">priorità</span> predefinita per i ticket che non hanno la priorità assegnata automaticamente. <br/> <br/> La Priorità può essere assegnata tramite:  la categoria, il dipartimento o tramite i filtri dei ticket.
+maximum_open_tickets:
+  title: Numero Massimo Ticket Aperti
+  content: >
+    Inserire il massimo <em>numero</em> di ticket che un utente può avere  <strong>aperto</strong> contemporaneamente nel sistema. <br><br>Immettere <span class="doc-desc-opt">0</span> Se si preferisce disattivare questa limitazione.
+agent_collision_avoidance:
+  title: Agente di prevenzione delle collisioni
+  content: >
+    Inserisci il periodo di tempo massimo a cui un Agente è consentito bloccare un ticket senza attività. <br><br> Inserisci <span class="doc-desc-opt">0</span> per disabilitare la funzionalità di blocco.
+email_ticket_priority:
+  title: Priorità del ticket tramite email
+  content: >
+    Utilizzare priorità email assegnata dal servizio di posta del destinatario
+show_related_tickets:
+  title: Visualizza Ticket Correlati
+  content: >
+    Visualizza tutti i relativi ticket al login dell'utente - altrimenti l'accesso è limitato alla visualizzazione di un ticket per login
+human_verification:
+  title: Verifica Umana
+  content: >
+    Abilitare il CAPTCHA sul portale del ciente per verificare che un ticket in entrata è il risultato dell'attività umana. <br><br>Richiede la libreria GDLib
+claim_tickets:
+  title: Assegna ticket alla risposta
+  content: >
+    Attivare questo per auto-assegnare i ticket non assegnati all'agente che risponde. <br><br> I ticket riaperti sono sempre assegnati all'ultimo rispondente.
+assigned_tickets:
+  title: Ticket Assegnati
+  content: >
+    Abilitare questa funzione per escludere i ticket assegnati dalla <span class="doc-desc-title">Coda di Ticket Aperti</span>.
+answered_tickets:
+  title: Ticket risposti
+  content: >
+    Abilitare questa funzionalità per mostrare i ticketrisposti nella<span class="doc-desc-title"> Coda di ticket risposti</span>. In caso contrario, saranno incluse nella <span class="doc-desc-title"> Coda di ticket aperti</span>.
+staff_identity_masking:
+  title: Mascheramento dell'identità dello staff
+  content: >
+    Se abilitato, questo nasconde il nome dell'agente al cliente durante una qualsiasi comunicazione.
+enable_html_ticket_thread:
+  title: Abilitare HTML nella discussione del Ticket
+  content: >
+    Se attivato, questo permetterà l'uso del formato RTF tra clienti e agenti.
+ticket_attachment_settings:
+  title: Ticket Thread allegati
+  content: >
+    Configurare le impostazioni per i file associati al campo <span class="doc-desc-title"> dettagli del problema</span>. Queste impostazioni vengono utilizzate per tutti i nuovi ticket e nuovi messaggi indipendentemente dal canale di origine (portale web, e-mail, api, ecc.).
+max_file_size:
+  title: Dimensione massima del File
+  content: >
+    Scegliere una dimensione massima del file per gli allegati caricati dagli agenti. Questo include allegati in scatola, articoli della knowledge base e allegati al ticket risposte.
+ticket_response_files:
+  title: File di risposta del ticket
+  content: >
+    Se attivato, gli eventuali allegati che un agente allega a una risposta a un ticket saranno inclusi anche nell'email per l'utente.

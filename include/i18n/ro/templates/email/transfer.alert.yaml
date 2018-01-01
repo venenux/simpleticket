@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  Tichet #%{ticket.number} transferat - %{ticket.dept.name}
+body: |2
+  <h3>Buna %{recipient.name},</h3>
+  Tichetul <a href="%{ticket.staff_link}">#%{ticket.number}</a> a fost transferat catre departamentul %{ticket.dept.name} de catre
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Pentru a vizualiza sau raspunde la acest tichet, te rugam sa te <a
+  href="%{ticket.staff_link}">autentifici</a> in platforma de management tichete suport.
+  </div>
+  <em style="font-size: small; ">Cu drag, Platforma de Suport Clienti</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

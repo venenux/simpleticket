@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API açarı
+  content: >
+    API açarları Tətbiqetmə Proqramlaşdırılması İnterfeysi (API) vasitəsilə müştərilərin yeni sorğularının təqdim edilməsinin təsdiqlənməsi üçün istifadə olunur. API açarları şifrəsiz göndəriləndən bəri onlar hər bir müştərinin şəbəkə IP ünvanı ilə əlaqədədir.
+  links:
+    - 
+      title: osTicket API sənədləşdirilməsi
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: İP ünvan
+  content: >
+    Müştərinin şəbəkə IP ünvanı. Hər bir xüsusi müştəri IP ünvanı tələb olunanda API açarlarını ayıracaq

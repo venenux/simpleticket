@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktinformācija
+  content: >
+    
+username:
+  title: Lietotāja vārds
+  content: >
+    Tikai Lietotājii ar Administratora statusu var nomainīt lietotājvārdu. Ja jūs esat Lietotājs ar Administratora privilēģijām, jūs varat to paveikt, izvēloties rediģēšanai Lietotāju no <span class="doc-desc-title">Darbinieku</span> tabulas.
+  links:
+    - 
+      title: Nomainiet lietotājvārdu kā Administrators
+      href: /scp/staff.php
+time_zone:
+  title: Laika josla
+  content: >
+    
+daylight_saving:
+  title: Pāreja uz vasaras laiku
+  content: >
+    
+maximum_page_size:
+  title: Maksimālais lapas izmērs
+  content: >
+    
+auto_refresh_rate:
+  title: Automātiskās atsvaidzināšanas intervāls
+  content: >
+    
+default_signature:
+  title: Noklusētais paraksts
+  content: >
+    
+default_paper_size:
+  title: Noklusētais papīra izmērs
+  content: >
+    
+show_assigned_tickets:
+  title: Parādīt piešķirtos pieteikumus
+  content: >
+    Iespējojiet šo, lai paslēptu jūsu vārdu no <span class="doc-desc-title">Atvērtie pieteikumi</span> skata tiem pieteikumiem, kas piešķirti Jums. Pēc iespējošanas jūsu vārds tiks aizvietots ar <span class="doc-desc-title">Departamenta</span> nosaukumu, kuram esat piesaistīts.
+password:
+  title: Parole
+  content: >
+    
+current_password:
+  title: Pašreizējā parole
+  content: >
+    
+new_password:
+  title: Jaunā parole
+  content: >
+    
+confirm_new_password:
+  title: Apstiprināt jauno paroli
+  content: >
+    
+signature:
+  title: Paraksts
+  content: >
+    Izveidojiet opcionālu <span class="doc-desc-title">Parakstu</span>, kurš var pēc izvēles parādīties pie jūsu izveidotajām atbildēm uz pieteikumiem. Tas, vai šis <span class="doc-desc-title">Paraksts</span> parādīsies, ir atkarīgs no <span class="doc-desc-title">E-pasta sagataves</span>, kas tiks izmantota, veidojot atbildi uz pieteikumu.
+  links:
+    - 
+      title: Izveidot epastu sagataves administrācijas panelī
+      href: /scp/templates.php

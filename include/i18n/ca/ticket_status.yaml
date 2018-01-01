@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: obrir
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Tickets oberts.
+- 
+  id: 2
+  name: Resolt
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Els Tickets resolts son Tickets tancats que poden ser reoberts pel usuari final. Aquest pot ser útil quan el contador és usat per a tancar els Tickets resolts amb un avís enviat al usuari final.
+- 
+  id: 3
+  name: Tancat
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Tickets marcats com a tancats no es tornaràn a obrir per l'usuari final. Als Tickets encara s'es podrà accedir en el panells client i personal.
+- 
+  id: 4
+  name: Arxivat
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Els Tickets només estàn disponible adminstrativament però només accessible en cues de Ticket.
+- 
+  id: 5
+  name: Eliminat
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tickets en cua per a l'elimininació. No accessible a les cues de Tickets.

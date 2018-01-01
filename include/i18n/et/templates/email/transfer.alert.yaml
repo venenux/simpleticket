@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  Pöördumise #%{ticket.number} suunamine - %{ticket.dept.name}
+body: |2
+  <h3>Tere, %{recipient.name}!</h3>
+  Pöördumine <a href="%{ticket.staff_link}">#%{ticket.number}</a> on suunatud %{ticket.dept.name} osakonnale
+  <strong>%{staff.name.short}</strong> poolt
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Pöördumisele vastamiseks või selle vaatamiseks <a
+  href="%{ticket.staff_link}">logi sisse</a> kasutajatoe süsteemi.
+  </div>
+  <em style="font-size: small; ">Sinu sõbralik klienditugi</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

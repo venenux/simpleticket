@@ -1,0 +1,42 @@
+---
+notes: |
+  Skickas till en handläggare när ett nytt ärende skapas i systemet. Detta gäller för ärenden som skapas via e-post, systemet eller api.
+subject: |
+  Nytt ärende
+body: |2
+  <h2>Hej %{recipient},</h2>
+  Ett nytt ärende #%{ticket.number} har skapats
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Från</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Avdelning</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>För att visa eller besvara ärendet, vänligen <a
+  href="%{ticket.staff_link}">logga in</a> i systemet</div>
+  <em style="font-size: small">Ditt kundtjänstsystem</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Drivs av osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

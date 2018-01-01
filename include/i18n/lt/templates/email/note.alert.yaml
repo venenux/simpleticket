@@ -1,0 +1,41 @@
+---
+notes: |
+  Pranešimas siunčiamas agentams kuomet vidinis veiksmas, pavyzdžiui: įrašas arba agento atsakas yra pridedamas prie užklausos.
+subject: |
+  Naujas Vidinis Veiklos Įspėjimas
+body: |
+  <h3><strong>Laba diena%{recipient.name},</strong></h3>
+  Agentas įvykdė veiksmus užklausoje<a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody><tr>
+  <td>
+  <strong>Nuo</strong>:
+  </td><td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Pavadinimas</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Norėdami peržiūrėti/atsakyti į užklausą, prašome<a
+  href="%{ticket.staff_link}"> prisijunkite</a>prie pagalbos užklausų sistemos
+  <br>
+  <br>
+  <em style="font-size: small; ">Jūsų draugiška vartotojų pagalbos sistema</em>
+  <br><img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,0 +1,25 @@
+---
+notes: |
+  Felhasználónak küldve, mikor a létrehozott hibajegyre egy automatikus, előre létrehozott válasz kerül csatolásra.
+  
+  Rendelkezésre álló változók: %{ticket.*}, %{response}
+subject: |
+  Re: [#%{ticket.number}] %{ticket.subject}
+body: |
+  <h3><strong>Kedves %{recipient.name.first},</strong></h3>
+  Kérését rögzítettük és a <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> számú hibajegyhez rendeltük a következő automatikus válasszal
+  <br>
+  <br>
+  Téma: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Tárgy: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">%{company.name} csapata,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Reméljük, hogy kérdéseire sikerült választ adnunk.  További megjegyzés vagy információ esetén, kérjük, jelen emailre válaszoljon vagy <a href="%{recipient.ticket_link}"><span style="color: rgb(84, 141, 212);" >jelentkezzen be fiókjába</span></a> a kérdései archívumának megtekintéséhez.</em></div>

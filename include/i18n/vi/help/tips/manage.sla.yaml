@@ -1,0 +1,13 @@
+---
+name:
+  title: Tên
+  content: >
+    Chọn một tên miêu tả cho<span class="doc-desc-title">dự án SLA</span>phản ánh mục tiêu của dự án đó.
+grace_period:
+  title: Thời hạn ưu đãi
+  content: >
+    Quyết định số giờ sau khi một lệnh được tạp mà nó sẽ được tự động gắn mắc quá hạn.<br><br><em>Số giờ này sẽ được đếm từ lệnh tạo giờ.</em>
+transient:
+  title: Tạm thời
+  content: >
+    Dự án SLA tạm thời có thể ghi đề bởi dự án không gia hạn trên<span class="doc-desc-opt">Phòng ban</span>chuyển sang hoặc khi<span class="doc-desc-title">tiêu đề trợ giúp</span>được thay đổi.

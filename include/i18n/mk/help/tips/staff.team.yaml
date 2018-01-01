@@ -1,0 +1,28 @@
+---
+teams:
+  title: Тимови
+  content: Тимовите се еден или повеќе претставници кои го обработуваат билетот. Членството во тимот може да се определи преку оддели.
+status:
+  title: Status
+  content: 'Ако е <span class="doc-desc-opt">оневозможено</span>, овај Тим нема да има можност за поставување на тикет ниту пак ќе прима Известувања &amp; Известувања за претходни задачи.'
+lead:
+  title: Водечки тим
+  content: '<span class="doc-desc-title">Тим</span> може да има назначено лидер кој ќе може да прима <span class="doc-desc-title">известувања&amp;</span> одвоени од членовите.'
+  links:
+    - 
+      title: 'Configure Alerts &amp; Notices'
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Доделување на известување
+  content: 'Можеш да оневозможиш <span class="doc-desc-title">доделено известување на тикет</span> за доделените тикето на тимот.'
+  links:
+    - 
+      title: 'Configure Alerts &amp; Notices'
+      href: /scp/settings.php?t=alerts
+members:
+  title: Членови на тимот
+  content: Членството на тимот се конфигурира преку профилот на Агентот.
+  links:
+    - 
+      title: Управување со вработените
+      href: /scp/staff.php

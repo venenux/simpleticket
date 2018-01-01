@@ -1,0 +1,40 @@
+---
+notes: Порака се испраќа до операторите кога се прима нова порака од страна на корисникот во врска со некој тикет. Ова може да се случи ако корисник одговори на емаил кој му го испратил тикет системот или ако посетил портал за корисничка подрска и испрати нова порака таму.
+subject: Внимание нова порака
+body: |
+  <h3><strong>Здраво %{recipient.name},</strong></h3>
+  Нова порака додадена на тикетот <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Од</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Оддел</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>За да погледниш или одговориш на тикетот, ве молиме <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >логирај се</span></a> на системот за подршка на тикети </div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Вашиот систем за подршка на корисници</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

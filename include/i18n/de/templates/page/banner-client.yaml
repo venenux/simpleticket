@@ -1,0 +1,6 @@
+---
+notes: >
+  Hier wird die Kopfzeile der Benutzer-Anmelde-Seite zusammengestellt. Es kann hilfreich sein, Ihre Benutzer über Ihre Anmelde- und Registrierungsrichtlinien zu informieren.
+name: "Bei %{company.name} anmelden"
+body: >
+  Um Sie besser zu unterstützen, ermutigen wir unsere Benutzer sich ein Konto zu registrieren.

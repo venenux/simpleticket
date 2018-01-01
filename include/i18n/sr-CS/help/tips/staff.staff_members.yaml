@@ -1,0 +1,7 @@
+---
+staff_members:
+  title: Zaposleni
+  content: 'Sledeća tabela prikazuje rezultate filtera iznad. Ako nije izabrano podešavanje filtera, onda će svi <span class="doc-desc-title">agenti</span> (osoblje) biti prikazani i podeljeni na stranice. Videti ispod sekciju sa stranicama radi navigacije kroz više rezultata.'
+status:
+  title: Status
+  content: 'Ovo će biti prikazano bilo da je <span class="doc-desc-title">agent</span> fiksiran, aktivan ili akvitan (na odmoru).'

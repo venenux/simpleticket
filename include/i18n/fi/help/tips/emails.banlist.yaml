@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Estetyt sähköpostiosoitteet
+  content: >
+    Saapuvat sähköpostit jotka ovat estettyjä hylätään automaattisesti.

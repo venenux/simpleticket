@@ -1,0 +1,34 @@
+---
+deptId: 1
+topicId: 1
+name: osTicket támogatás
+email: support@osticket.com
+source: Web
+subject: osTicket telepítve!
+message: |2
+  <p>
+  Köszönjük, hogy az osTicket programot választotta.
+  </p><p>
+  Kérjük, csatlakozzon az <a
+  href="http://osticket.com/forums">osTicket fórumhoz</a> és a <a
+  href="http://osticket.com/updates">levelező listánkhoz</a> hogy értesüljön
+  a legújabb híreinkről, új funkciókról és frissítésekről.
+  Az osTicket fórumon segítséget, útmutatást, ötleteket kaphat más osTicket felhasználóktól.
+  Az osTicket wiki gyűjtemény is hasznos lehet jó leírásokkal.
+  </p><p>
+  Ha egy magasabb szintű támogatást keres, akkor professzionális szolgáltatást és támogatást nyújtunk garantált válaszidővel,
+  és hozzáférést biztosítunk a központi fejlesztő csapathoz. Segítünk az osTicket testreszabásában vagy olyan funkciókat építünk be,
+  melyek megfelelnek az egyedi igényeinek.
+  </p><p>
+  	
+  Ha az osTicket telepítésének és karbantartásának gondolata ijesztő, ki lehet próbálni az osTicket-et általunk üzemeltetett változatban is a <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> -- oldalon. Nincs szükség telepítésre és az adatokat is importálni tudjuk!
+  A támogatói rendszerünk kulcsrakész rendszer, a legjobb osTicket-et adjuk, így a figyelmet az ügyfelekre lehet irányítani anélkül, hogy foglalkozni kellene a rendszer stabilitásával, fenntartásával, biztonságával.
+  </p><p>
+  Üdvözlettel,
+  </p><p>
+  -<br/>
+  osTicket Csapata http://osticket.com/
+  </p><p>
+  <strong>UI.</strong> Hogy a vásárlók valóban elégedettek és boldogok legyenek!
+  </p>

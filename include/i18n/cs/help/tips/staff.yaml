@@ -1,0 +1,20 @@
+---
+signature:
+  title: Podpis zaměstnance
+  content: |
+    Vytvořte podpis pracovníka pro odpovědi na požadavky. Tento podpis se
+    zobrazí jako možnost ve spodní části odpovědi na požadavky.
+type:
+  title: Typ účtu
+  content: |
+    Administrátoři mají práva pro přístup do Administrátorského rozhraní. Zaměstnanci mohou pouze spravovat tickety a databázi znalostí
+group:
+  title: Přiřazená skupina
+  content: |
+    Členství ve skupině vymezuje úlohu pracovníka v systému. Navštivte
+    stránku správy skupiny k nastavení, jaký přístup mají pracovníci k systému
+    zákaznické podpory.
+notes:
+  title: Interní poznámky
+  content: |
+    Vložte interní poznámky  týkající se osoby; poznámky mohou vidět jen administrátoři

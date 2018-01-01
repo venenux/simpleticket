@@ -1,0 +1,4 @@
+---
+notes: Ovaj šablon definiše stranicu prikazanu klijentima nakon izvršene registracije. On naglašava da će sistem nakon registracije poslati imejl sa verifikacionim linkom u sledećem koraku.
+name: Registracija naloga
+body: '<div><strong>Uspešno ste kreirali nalog.</strong><br/> <br /> Na unetu email adresu poslat Vam je email koji sadrži verifikacioni link.</div>'

@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Direcciones de correo electrónico bloqueados
+  content: >
+    Emails recibidos desde direcciones de correo electrónico bloqueados enumerados en la lista de bloqueo serán rechazados automáticamente.

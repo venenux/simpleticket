@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Saks aktivitet
+  content: >
+    Velg et datointervall til både diagrammet og tabellen (jfr <span class="doc-desc-title"> statistikk</span>) for å fokusere på tilsvarende data for disse datoene. Grafen nedenfor gjenspeiler alltid en bred oversikt over hele systemets data (feks. befolkning). Imidlertid kan du navigere gjennom tabellen <span class="doc-desc-title"> statistikk</span> nedenfor for å fokusere på et smalere tema (f.eks avdeling, emner eller ansatte). I tillegg kan du eksportere data som vises i <span class="doc-desc-title"> statistikktabellen</span>.
+report_timeframe:
+  title: Rapporter tidsramme
+  content: >
+    Velg en startdato for ønsket data ved hjelp av datovelgeren. Velg deretter tidsrom fra denne datoen til å definere sluttdatoen for data.
+statistics:
+  title: Statistikk
+  content: >
+    Gå til gjenstand for interesse ved å klikke på den aktuelle fanen for å vise de bestemte utvalget av data. I tabellen representerer sirkler størrelsen på den nominelle. Derfor, jo større tallet i en bestemt celle, større tilstøtende sirkelen blir.
+opened:
+  title: Åpnet
+  content: >
+    Dette representerer saker åpnet av agenter (dvs, internt åpnet) og ikke av klienter.
+assigned:
+  title: Tildelt
+  content: >
+    Systemet følger alle tilfelle der en sak manuelt eller automatisk tilordnes en bestemt avdeling eller Agent. Automatiske tildeling avhenger av satte innstillinger for <span class="doc-desc-title"> hjelpeemner</span> og <span class="doc-desc-title"> E-postfiltre</span> i Administrasjons-panelet.
+overdue:
+  title: Forfalt
+  content: >
+    Dette er antall saker som har brutt SLA Planen som de tilhørte.
+closed:
+  title: Stengt
+  content: >
+    Dette er hvor mange saker som ble lukket.
+reopened:
+  title: Gjenåpnet
+  content: >
+    Dette er antall saker som ble gjenåpnet av en Agent eller en klient som svarte etter at saken var lukket.
+service_time:
+  title: Servicetid
+  content: >
+    <span class="doc-desc-title"> Servicetid</span> er den tiden som begynner ved åpningen av en sak og slutter når saken er lukket. <span class="doc-desc-title"> ServiecTid</span>kolonnen her måler gjennomsnittstiden per sak i timer, innenfor angitt tidsrom.
+response_time:
+  title: Responstid
+  content: >
+    <span class="doc-desc-title"> Responstid</span> er en varighet som begynner med en klient korrespondanse og slutter når en Agent gjør et svar. Dette målet i tid er ikke eksklusivt til klientens korrespondanse med den første billett-åpningen. Dette refererer til hver handling av diskurs som stammer fra en klient.

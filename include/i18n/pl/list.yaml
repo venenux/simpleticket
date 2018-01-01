@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Status Zgłoszenia
+  name_plural: Statusy zgłoszenia
+  sort_mode: SortCol
+  masks: 13
+  notes: Statusy zgłoszenia
+  properties:
+    title: Szczegóły statusów zgłoszeń
+    instructions: Właściwości, które mogą być ustawione na statusie zgłoszenia.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Stan
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Stan zgłoszenia
+      - 
+        type: memo
+        name: description
+        label: Opis
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

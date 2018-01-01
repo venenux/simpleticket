@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: 處理中
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: 處理中...
+- 
+  id: 0
+  name: 已結案
+  state: resolved
+  mode: 3
+  sort: 0
+  flags: 0
+  properties:
+    description: >
+      「已結案」的案件可以由客戶再次重啟。此功能會在結案時發送通知給客戶。
+- 
+  id: 3
+  name: 已解決
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      案件已標為「結案」無法由客戶重啟案件。但案件內容仍然是可查閱的。
+- 
+  id: 4
+  name: 已封存
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      案件只可管理，但無法再度查閱。
+- 
+  id: 5
+  name: 已刪除
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      案件等待刪除。不能進行查閱。

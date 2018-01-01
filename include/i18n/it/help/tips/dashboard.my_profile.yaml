@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informazioni di contatto
+  content: >
+    
+username:
+  title: Nome utente
+  content: >
+    Solo gli agenti con lo status di Admin possono cambiare un nome utente. Se sei un agente con privilegi di amministratore, è possibile eseguire questa operazione selezionando un agente per modificare la tabella <span class="doc-desc-title">Staff Members</span>.
+  links:
+    - 
+      title: 'Avendo effettuato l''accesso come amministratore: cambiare un nome utente'
+      href: /SCP/staff.php
+time_zone:
+  title: Fuso orario
+  content: >
+    
+daylight_saving:
+  title: Imposta l'Ora Legale
+  content: >
+    
+maximum_page_size:
+  title: Massima dimensione della pagina
+  content: >
+    
+auto_refresh_rate:
+  title: Frequenza di aggiornamento automatico
+  content: >
+    
+default_signature:
+  title: Firma predefinita
+  content: >
+    
+default_paper_size:
+  title: Formato carta predefinito
+  content: >
+    
+show_assigned_tickets:
+  title: Mostra i ticket assegnati
+  content: >
+    Attivare per nascondere il tuo nome dalla coda  <span class="doc-desc-title">Ticket Aperti</span> per quei ticket che sono stati assegnati. Se nascosto, il nome del  <span class="doc-desc-title">Reparto</span> a cui appartieni verrà visualizzato dove normalmente verrebbe visualizzato il tuo nome.
+password:
+  title: Password
+  content: >
+    
+current_password:
+  title: Password attuale
+  content: >
+    
+new_password:
+  title: Nuova Password
+  content: >
+    
+confirm_new_password:
+  title: Conferma nuova Password
+  content: >
+    
+signature:
+  title: Firma
+  content: >
+    Creare una <span class="doc-desc-title"> firma</span> facoltativa da inserire alla fine della tua risposte al ticket. Se questa <span class="doc-desc-title"> firma</span> viene visualizzata, o no, dipende dal <span class="doc-desc-title"> Modello Email</span>scelto come biglietto di risposta.
+  links:
+    - 
+      title: Creare modelli di messaggi di posta elettronica nel pannello di amministrazione
+      href: /SCP/templates.php

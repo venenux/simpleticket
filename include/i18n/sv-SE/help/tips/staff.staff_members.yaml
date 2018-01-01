@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Medlemmar i personalen
+  content: >
+    Följande tabell visar resultatet av filtret ovan. Om inget filter valts kommer alla <span class="doc-desc-title">Agent</span> (Personal) <span class="doc-desc-title">Medlem</span> att visas och brytas upp per sida. Se sid-sektionen nedan.
+status:
+  title: Status
+  content: >
+    Detta kommer att visa om  <span class="doc-desc-title">Agenten</span> är Låst, Aktiv eller Aktive (Frånvarande).

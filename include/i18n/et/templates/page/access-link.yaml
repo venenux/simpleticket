@@ -1,0 +1,6 @@
+---
+notes: >
+  See mall määrab kliendile saadetava juurdepääsulingiga e-kirja teate sisu. Pöördumise number ja e-posti aadress on juurdepääsu lingi trigeriks.
+name: "Pöördumise [#%{ticket.number}] juurdepääsu link"
+body: >
+  <h3><strong>Tere, %{recipient.name.first}!</strong></h3> <div> Siin on juurdepääsu link pöördumisele #%{ticket.number}, mille kasutajatugi on Sinu eest registreerinud %{url}.<br /> <br /> Pöördumise staatust saad jälgida allpoololeval lingil klõpsates #%{ticket.number}.<br /> <br /> <a href="%{recipient.ticket_link}">%{recipient.ticket_link}</a><br /> <br /> Kui Sa <strong>pole</strong> kasutajatoe poole pöördunud, siis kustuta see e-kiri ja ignoreeri seda. Sinu konto on endiselt turvaline ja keegi teine pole saanud sellele ligipääsu. Keegi on ilmselt Sinu e-posti aadressi sisestades eksinud.<br /> <br /> --<br /> %{company.name} </div>

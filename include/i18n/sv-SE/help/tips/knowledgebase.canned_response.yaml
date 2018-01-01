@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Standardsvar
+  content: >
+    Skapa <span class="doc-desc-title">Standardsvar</span> som kan användas när du svarar på ärenden. Det kan även användas som <span class="doc-desc-title">Automatiskt svar på ärenden</span> enligt reglerna i <span class="doc-desc-title">Ärendefilterfunktionen</span>.
+  links:
+    - 
+      title: Skapa ett Ärendefilter
+      href: /scp/filters.php
+canned_attachments:
+  title: Standardbilagor
+  content: >
+    Lägg till en bilaga som du vill ska bifogas automatiskt i ärendesvar som använder det nya  <span class="doc-desc-title">Standardsvaret</span>.

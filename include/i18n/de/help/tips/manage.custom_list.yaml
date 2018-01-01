@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Benutzerdefinierte Listen
+  content: >
+    Ihre <span class="doc-desc-title">benutzerdefinierten Listen</span> werden Ihnen ermöglichen, Dropdown-Listen mit vordefinierten Auswahlmöglichkeiten zu erzeugen, welche der Benutzer in <span class="doc-desc-title">benutzerdefinierten Formularen</span> auswählen kann. Wenn Sie diese <span class="doc-desc-title">benutzerdefinierte Liste</span> für eine <span class="doc-desc-title">Filter-Regel</span> in einem <span class="doc-desc-title">Ticket-Filter</span> verwenden wollen, achten Sie bitte darauf, diese Liste dem <span class="doc-desc-title">Ticket Details</span>-Formular vorher hinzufügen müssen.
+name:
+  title: Name
+  content: >
+    
+plural_name:
+  title: Pluralname
+  content: >
+    
+sort_order:
+  title: Sortierung
+  content: >
+    
+list_s_initial_items:
+  title: Initiale Listenelemente
+  content: >
+    
+value:
+  title: Wert
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Abkürzungen und so. Wenn Sie interne Schlüssel für Elemente dieser Liste verwenden, können diese Schlüssel und Abkürzungen in diese Spalte eingeben werden. Wenn die benutzerdefinierte Liste als ein <span class="doc-desc-option">Autovervollständigungsfeld</span> gerendert wird, können die Abkürzungen verwendet werden, um nach den Listenelementen zu suchen.

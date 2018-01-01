@@ -1,0 +1,67 @@
+---
+username:
+  title: İstifadəçi adı
+  content: >
+    Xahiş edirik <span class="doc-desc-title">help deskiniz</span> üçün xüsusi agent <span class="doc-desc-title">istifadəçi adı</span> seçin.
+email_address:
+  title: E-poçt ünvanı
+  content: >
+    <span class="doc-desc-title">Help deskdən</span> <span class="doc-desc-title">siqnallar&amp; xəbərdarlıqlar</span> qəbul edəcək agent e-poçtunu daxil edin.
+  0: <br><br>
+  1: Heyət hər hansı istifadəçi adı və ya e-poçt ünvanı ilə heyət idarə panelinə daxil ola bilər.
+welcome_email:
+  title: Salamlama e-poçtu
+  content: >
+    Yeni agentə öz şəxsi şifrəsini quraşdıra biləcəyi hesaba giriş linki göndərin. Əgər yoxlanılmayıbsa, şifrəni quraşdırmağa və yeni heyətə giriş məlumatını xəbər ehtiyacınız olacaq.
+account_password:
+  title: Hesab şifrəsi
+  content: >
+    <span class="doc-desc-title">Administrator</span> olaraq, siz agentin şifrəsini dəyişə bilərsiniz.
+forced_password_change:
+  title: Məcburi şifrə dəyişmə
+  content: >
+    Əgər yeni agentin növbəti girişdə şifrəsini dəyişməsinə məcbur etmək istəyirsinizsə bunu aktiv edin.
+agents_signature:
+  title: Agentin imzası
+  content: >
+    Agent üçün sorğuya cavab verərkən seçilə biləcək imza yaradın.
+account_status:
+  title: Hesab statusu
+  content: >
+    Əgər agentin statusu <span class="doc-desc-opt">kiliklidirsə</span>, onlar help deskə daxil ola bilməyəcəklər.
+assigned_group:
+  title: Təyin olunmuş qrup
+  content: >
+    Bu agentə aid olması üçün seçdiyiniz <span class="doc-desc-title">qrup</span> agentin  <span class="doc-desc-title">help deskdə</span> olduğu müddətdə hansı icazələri olduğunu müəyyən edəcək.
+  links:
+    - 
+      title: Qrupları idarə edin
+      href: /scp/groups.php
+primary_department:
+  title: Əsas şöbə
+  content: >
+    Agentə məxsus əsas <span class="doc-desc-title">şöbəni</span> seçin.
+  links:
+    - 
+      title: Şöbələri idarə et
+      href: /scp/departments.php
+daylight_saving:
+  title: Yay vaxtı
+  content: >
+    Əgər yaya keçid vaxtının bu agentin vaxt qurşağına avtomatik olaraq gəlməsini istəyirsinizsə bu funksiyanı aktiv edin.
+limited_access:
+  title: Limitli giriş
+  content: >
+    Əgər aktivdirsə, agentin ancaq birbaşa ona yönləndirilmiş və ya komanda tərəfindən təyin olunmuş sorğulara girişi olacaq.
+directory_listing:
+  title: Rəhbərlik siyahısı
+  content: >
+    Əgər <span class="doc-desc-title">heyət rəhbərliyindəki</span> bu agenti siyahıya almaq istəyirsinizsə bunu aktiv edin.
+  links:
+    - 
+      title: Heyət rəhbərliyini ziyarət edin
+      href: /scp/directory.php
+vacation_mode:
+  title: Məzuniyyət rejimi
+  content: >
+    Əgər siz agentin statusunu <span class="doc-desc-opt">məzuniyyət rejiminə</span> dəyişsəniz, agent hər hansı <span class="doc-desc-title">xəbərdarlıq &amp; siqnalları</span> qəbul etməyəcək və sorğu tapşırıqları üçün aktiv olmayacaq.

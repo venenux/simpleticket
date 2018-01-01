@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Atividade do pedido de suporte
+  content: >
+    Selecione um intervalo de datas para fazer com que tanto o gráfico como a tabela  (cf. <span class="doc-desc-title"> Estatísticas</span>) mais abaixo, se foquem em quaisquer dados relacionados a essas datas. O gráfico abaixo sempre refletirá uma visão ampla dos dados do sistema  (ou seja, população). No entanto, você pode navegar através da tabela de <span class="doc-desc-title"> Estatísticas</span> abaixo e focar um tema mais restrito de interesse (por exemplo, Departamento, Tópicos ou Pessoal). Além disso, você pode exportar todos os dados atualmente exibidos na tabela <span class="doc-desc-title"> Estatísticas</span>.
+report_timeframe:
+  title: Intervalo de tempo do relatório
+  content: >
+    Escolha uma data de início para a amostra de dados desejada usando o selector de data. Em seguida, escolha o periodo de tempo a partir dessa data para definir a data final na sua amostra.
+statistics:
+  title: Estatísticas
+  content: >
+    Navegue até o assunto de interesse, clicando no separador apropriado, para exibir a amostra específica de dados. Dentro da tabela, os círculos representam o tamanho dos dados nominais. Portanto, quanto maior o número em uma célula específica, maior será o círculo adjacente.
+opened:
+  title: Aberto
+  content: >
+    Isto representa os tickets abertos por Agentes (ou seja, abertos internamente ) e não por Clientes.
+assigned:
+  title: Atribuído
+  content: >
+    O sistema rastreia cada evento no qual um pedido de suporte é automaticamente ou manualmente atribuído a um determinado Departamento ou Agente. Atribuições automáticas dependerão de configurações estabelecidas para <span class="doc-desc-title"> Tópicos de Ajuda</span> e <span class="doc-desc-title"> Filtros de E-mail</span> no Painel de Admin.
+overdue:
+  title: Em atraso
+  content: >
+    Esta é a quantidade de tickets que violaram o Plano de SLA a que pertenciam.
+closed:
+  title: Fechado
+  content: >
+    Quantidade de pedidos de suporte fechados.
+reopened:
+  title: Reaberto
+  content: >
+    Esta é a quantidade de tickets que foram reabertos por um Agente ou por um Cliente quando este respondeu enquanto o ticket estava com estado fechado.
+service_time:
+  title: Tempo do Serviço
+  content: >
+    <span class="doc-desc-title">Tempo do Serviço</span> é o tempo de duração do pedido de assistência, inicia quando um novo pedido é criado e termina quando o pedido é fechado. A coluna <span class="doc-desc-title">Tempo do Serviço</span> aqui mede o tempo médio de serviço por pedido de assistência, em horas, dentro do intervalo de datas especificado.
+response_time:
+  title: Tempo de Resposta
+  content: >
+    <span class="doc-desc-title">Tempo de Resposta</span> é um período de tempo que se inicia com a correspondência de qualquer Cliente e termina quando um Agente da equipa de suporte dá uma resposta. Esta medida de tempo não é exclusiva ao inicio da abertura do pedido de assistência pelo Cliente. Refere-se a cada ato de discurso proveniente de um Cliente.

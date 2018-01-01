@@ -1,0 +1,67 @@
+---
+page_title:
+  title: Сануулга ба мэдэгдэл
+  content: >
+    Анхааруулга болон Мэдээлэл нь хүсэлтийн янз бүрийн түвшинд ажилтнууд руу мэйлээр мэдээлэл илгээх юм.
+ticket_alert:
+  title: Шинэ Хүсэлтийн сануулга
+  content: >
+    <p> Шинэ хүсэлт үүсэхэд ажилтан руу анхааруулга илгээсэн. </p><p class="info-banner"> <i class="icon-info-sign"></i> Энэ анхааруулга нь хүсэлтийн шүүлтүүр эсвэл тусламжийн сэдвээр хуваарилагдаагүй бол ажиллана. </p>
+  links:
+    - 
+      title: Шинэ хүсэлтийн сануулгын стандарт загвар
+      href: /scp/templates.php?default_for=ticket.alert
+message_alert:
+  title: Шинэ Мессежийн Сануулга
+  content: >
+    Үүссэн хүсэлтэд хэрэглэгч мэдээлэл оруулахад ажилтан руу анхааруулга илгээсэн.
+  links:
+    - 
+      title: Шинэ мессежний сануулгын стандарт загвар
+      href: /scp/templates.php?default_for=message.alert
+internal_note_alert:
+  title: Шинэ дотоод үйл ажиллагааны мэдэгдэл
+  content: >
+    Дотоод тэмдэглэл оруулах эсвэл хүсэлтэд хэн нэг нь хариу өгөх зэрэг системийн дотоод үйл явдлын тухай ажилтанд илгээх Сануулга.
+  links:
+    - 
+      title: Хүсэлт шийдвэрлэх явцын тайлангийн стандарт загвар
+      href: /scp/templates.php?default_for=note.alert
+assignment_alert:
+  title: Хүсэлт даалгасан тухай сануулга
+  content: >
+    Хүсэлт даалгаж өгөхөд ажилтнуудад илгээх сануулга.
+  links:
+    - 
+      title: Хүсэлтийн даалгаврын тухай сануулгын стандарт загвар
+      href: /scp/templates.php?default_for=assigned.alert
+transfer_alert:
+  title: Шилжүүлгийн сануулга
+  content: >
+    Алба хооронд хүсэлт шилжүүлэхэд ажилтнуудад илгээх сануулга.
+  links:
+    - 
+      title: Хүсэлт шилжүүлэх тухай сануулгын стандарт загвар
+      href: /scp/templates.php?default_for=transfer.alert
+overdue_alert:
+  title: Хугацаа хэтэрсэн хүсэлтийн сануулга
+  content: >
+    Хүсэлтийг шийдвэрлэх огноо эсвэл Үйлчилгээний стандартын дагуу хугацаа нь хэтэрсэн үед ажилтнуудад илгээх сануулга.
+  links:
+    - 
+      title: Хуучирсан Хүсэлтийн тухай сануулгын стандарт загвар
+      href: /scp/templates.php?default_for=ticket.overdue
+    - 
+      title: Үйлчилгээний стандартуудыг зохицуулах
+      href: /scp/slas.php
+system_alerts:
+  title: Системийн сануулгууд
+  content: >
+    Системээс админ руу (%{config.admin_email}) чухал тохиолдлуудын мэдээллийг илгээсэн. <span class="doc-desc-title">Лог түвшин</span> хэсэгт тохируулснаар <span class="doc-desc-title">Системийн Лог</span> хэсэгт мөн харуулна
+  links:
+    - 
+      title: Системийн журнал үзэх
+      href: /scp/logs.php
+    - 
+      title: Админы имэйлийг солих
+      href: /scp/settings.php?t=emails

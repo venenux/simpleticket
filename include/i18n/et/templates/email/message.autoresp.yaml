@@ -1,0 +1,20 @@
+---
+notes: |
+  Saadetakse kliendile, kui klient lisab postituse oma pöördumisele. See juhtub, kui kleint vastab süsteemi poolt saadetud kirjale või saadab teate klienditoe portaalist.
+subject: |
+  Sõnumi kinnitus
+body: |
+  <h3><strong>Lugupeetud %{recipient.name.first}</strong></h3>
+  Teie vastus tugiteenuse päringule <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> on registreeritud
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  Teie %{company.name} meeskond<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Oma päringut näete <a
+  href="%{recipient.ticket_link}">siin</a></em>
+  </div>

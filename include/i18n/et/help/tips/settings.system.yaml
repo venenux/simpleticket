@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Kasutajatoe staatus
+  content: >
+    Kui staatus on <span class="doc-desc-opt">offlain</span>, siis kliendi kasutajaliides pole kättesaadav. See ei mõjuta agentide tööd agendi menüüs.
+helpdesk_url:
+  title: Kasutajatoe internetiaadress
+  content: >
+    See internetiaadress on Sinu osTicket süsteemi algaadress. Seda linki kasutatakse lõpp-kasutajale saadetavates e-kirjades.
+helpdesk_name_title:
+  title: Kasutajatoe nimetus/pealkiri
+  content: >
+    See pealkiri kuvatakse veebilehitseja saki pealkirjana ja seda kuvatakse ka järjehoidjatesse lisatud veebilehe nimetuse/pealkirjana.
+default_department:
+  title: Vaikimisi osakond
+  content: >
+    Vali pöördumistele, mida ei suunata automaatselt edasi, vaikimisi <span class="doc-desc-title">osakond </span> <br/><br/> Pöördumist saab edasi suunata teema, meiliaadressi või pöördumiste filtri seadete põhjal.
+default_page_size:
+  title: Lehe suurus vaikimisi
+  content: >
+    Vali, mitu pöördumist kuvatakse ühel lehel meeskonna menüüs. Iga agent saab seda arvu ise määrata oma konto alt <span class="doc-desc-title">minu eesistused</span>.
+default_log_level:
+  title: Sisselogimise tase vaikimisi
+  content: >
+    Määra minimaalne probleemide tase, mida salvestatakse <span class="doc-desc-title">süsteemi logis</span>.<span class="doc-desc-opt">Silumine</span> esindab vähimat tõsidust ja <span class="doc-desc-opt">Viga</span> tõsist probleemi. Näiteks, kui Sa soovid näha kõiki probleeme <span class="doc-desc-title">süsteemi logis</span>, vali <span class="doc-desc-opt">Silumine</span>.
+purge_logs:
+  title: Puhastus logid
+  content: >
+    Määra, kui kaua Sa soovid alles hoida<span class="doc-desc-title">süsteemi logi</span> enne, kui see kustutatakse.
+default_name_formatting:
+  title: Nime vorming vaikimisi
+  content: >
+    Vali süsteemis kasutatav nime vorming. E-kirja mall kasutab seda samuti nimede jaoks, kui teist vormingut pole määratud.
+  links:
+    - 
+      title: E-kirja malli toetatud muutujad
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Kuupäeva ja kellaaja valikud
+  content: >
+    Järgnevad seaded määravad kliendile kuupäeva ja aja. Sa võid muuta seda, kuidas neid kuvatakse, järgides PHP kuupäeva vormingut. Allpool olevad kuupäevad vaid illustreerivad vastavaid valitud väärtusi.
+  links:
+    - 
+      title: Vaata PHP kuupäeva vormingu tabelit
+      href: 'http://www.php.net/manual/en/function.date.php'

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Henkilöstö
+  content: >
+    Seuraava taulukko näyttää yllä olevan suodatuksen tulokset. Jos suodatinta ei ole valittu, niin kaikki <span class="doc-desc-title">Käsittelijät</span> (henkilökunta) <span class="doc-desc-title">Jäsenet</span> näytetään omilla sivuilla. Katso sivut alla nähdäksesi lisää tuloksia.
+status:
+  title: Tila
+  content: >
+    Tämä näyttää, onko <span class="doc-desc-title">Käsittelijän</span> tila Lukittu, Aktiivinen vai Lomalla.

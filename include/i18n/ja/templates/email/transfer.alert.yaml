@@ -1,0 +1,20 @@
+---
+notes: ""
+subject: '#%{ticket.number} チケットの担当変更 - 変更先：%{ticket.dept.name}'
+body: |2
+  <h3>%{recipient}様</h3>
+  <strong>%{staff.name.short}</strong>が<a href="%{ticket.staff_link}">#%{ticket.number}</a>を%{ticket.dept.name}担当に変更しました。
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>このチケットに返信する場合は サポートシステムへ<a
+  href="%{ticket.staff_link}">ログイン</a> してください。
+  </div>
+  <em style="font-size: small; ">カスタマーサポートシステム</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

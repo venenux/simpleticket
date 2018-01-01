@@ -1,0 +1,61 @@
+---
+deptId: 1
+topicId: 1
+name: پشتیبانی osTicket
+email: support@osticket.com
+source: وب سایت
+subject: osTicket نصب شد!
+message: |
+  <p>
+  با تشرک از شما به دلیل انتخاب osTicket</p><p>
+  <p>
+  برای اطلاع از اخبار، بروز رسانی های و هشدار های امنیتی حتما در <a href="http://osticket.com/forums">
+  فاروم osTicket osTicket</a>  و <a href="http://osticket.com/updates">
+  لیست پستی</a> ما عضو شوید! فاروم های osTicket هم مکانی مناسب برای دریافت کمک، راهنمایی، نکات و مساعدت از سایر کاربران osTicket می باشد. علاوه بر فاروم ها، پایگاه دانش osTicket مجموعه مفیدی از محتوای آموزشی، مستندات، و یادداشت هایی از جامعه کاربری را فراهم نموده است. ما مشارکت شما را در جامعه کاربران osTicket استقبال خواهیم نمود.
+  </p>
+  <p>
+  اگر 
+  </p>
+  <p>
+  در صورتی که مدیریت و ارتقاء این نسخه از osTicket دلهره آور است، شما می توانید
+  osTicket را به صورت یک سرویس میزبانی شده در http://www.supportsystem.com استفاده نمائید.
+  دیگر نیازی به ارتقاء سیستم نخواهید داشت و ما میتوانیم داده های شما را به سیستم پشتیبانی وارد کنیم! 
+  با استفاده از زیر ساخت سیستم پشتیبانی، و استفاده از osTicket در بهترین شرایط، شما برای تمرکز بر روی مشتریان خود تمرکز بیشتری خواهید داشت،  بدون اینکه نگران پایداری نرم افزار، نگهداری و امنیت آن باشید. 
+  </p>
+  <p>
+  -<br/>
+  تیم osTicket<br/>
+  http://osticket.com/
+  </p>
+  Please make sure you join the <a
+  href="http://osticket.com/forums">osTicket forums</a> and our <a
+  href="http://osticket.com/updates">mailing list</a> to stay up to date
+  on the latest news, security alerts and updates. The osTicket forums are
+  also a great place to get assistance, guidance, tips, and help from
+  other osTicket users.  In addition to the forums, the osTicket wiki
+  provides a useful collection of educational materials, documentation,
+  and notes from the community. We welcome your contributions to the
+  osTicket community.
+  </p><p>
+  If you are looking for a greater level of support, we provide
+  professional services and commercial support with guaranteed response
+  times, and access to the core development team. We can also help
+  customize osTicket or even add new features to the system to meet your
+  unique needs.
+  </p><p>
+  If the idea of managing and upgrading this osTicket installation is
+  daunting, you can try osTicket as a hosted service at <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
+  no installation required and we can import your data!  With
+  SupportSystem's turnkey infrastructure, you get osTicket at its best,
+  leaving you free to focus on your customers without the burden of making
+  sure the application is stable, maintained, and secure.
+  </p><p>
+  Cheers,
+  </p><p>
+  -<br/>
+  osTicket Team http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Don't just make customers happy, make happy
+  customers!
+  </p>

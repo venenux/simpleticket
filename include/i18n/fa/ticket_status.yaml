@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: باز
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: درخواست های باز.
+- 
+  id: 2
+  name: حل شده
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      درخواستهای انجام شده همان درخواستهای بسته شده هستند که می توانند توسط کاربر نهایی دوباره باز شوند . این ممکن است مفید باشد در مواقعی که یک عملی استفاده شود که درخواستهای انجام شده را  با یک یادداشت که به کاربر نهایی فرستاده می شود ببندد .
+- 
+  id: 3
+  name: بسته شده
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      درخواستهای بسته شده توسط کاربر نهایی قابل باز شدن نیستند اما این درخواستها توسط مشتریان و کارمندان قابل دسترس هستند .
+- 
+  id: 4
+  name: بایگانی شده
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      درخواستها فقط به صورت اداری قابل دسترس هستند اما در صف قابل دسترس نیستند .
+- 
+  id: 5
+  name: حذف شده
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      درخواست برای حذف در صف قرار گرفته است . و قابل دسترس نمی باشد .

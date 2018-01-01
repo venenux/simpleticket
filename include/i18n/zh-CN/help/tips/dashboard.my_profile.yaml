@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: 联系人信息
+  content: >
+    
+username:
+  title: 用户名
+  content: >
+    只有赋予管理权限的用户可以修改用户名. 如果您的帐号开通了管理权限，您可以在  <span class="doc-desc-title">Staff Members</span> 表内筛选用户然后修改.
+  links:
+    - 
+      title: 将用户名更改为管理员
+      href: /scp/staff.php
+time_zone:
+  title: 时区
+  content: >
+    
+daylight_saving:
+  title: 夏令时
+  content: >
+    
+maximum_page_size:
+  title: 最大页面大小
+  content: >
+    
+auto_refresh_rate:
+  title: 自动刷新频率
+  content: >
+    
+default_signature:
+  title: 默认签名
+  content: >
+    
+default_paper_size:
+  title: 默认页面大小
+  content: >
+    
+show_assigned_tickets:
+  title: 显示已分配的工单
+  content: >
+    开启此项功能，即可针对已分配的咨询在<span class="doc-desc-title">未完成咨询条数</span>队列中隐藏您的名字。隐藏完成后，您所属<span class="doc-desc-title">部门</span>的名称将替代您的名字，显示在名字栏内。
+password:
+  title: 密码
+  content: >
+    
+current_password:
+  title: 当前密码
+  content: >
+    
+new_password:
+  title: 新密码
+  content: >
+    
+confirm_new_password:
+  title: 确认新密码
+  content: >
+    
+signature:
+  title: 签名
+  content: >
+    创建一个可选的 <span class="doc-desc-title">签名</span>，可能会显示在你的工单回复页面的底部。这个 <span class="doc-desc-title">签名</span>是否出现，取决于工单回复中使用的<span class="doc-desc-title">邮件模板</span>。
+  links:
+    - 
+      title: 在管理面板中创建电子邮件模板
+      href: /scp/templates.php

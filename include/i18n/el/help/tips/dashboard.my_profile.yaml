@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Στοιχεία Επικοινωνίας
+  content: >
+    
+username:
+  title: Όνομα χρήστη
+  content: >
+    Μόνον οι Εκπρόσωποι με δικαιώματα διαχειριστή μπορούν να αλλάξουν ένα όνομα χρήστη. Εάν είστε Εκπρόσωπος με δικαιώματα διαχειριστή, μπορείτε να το πετύχετε αυτό επιλέγοντας ένα Εκπρόσωπο για επεξεργασία από τον πίνακα <span class="doc-desc-title">Μέλη Προσωπικού</span> .
+  links:
+    - 
+      title: Αλλάξετε ένα όνομα χρήστη ως διαχειριστής
+      href: /scp/staff.php
+time_zone:
+  title: Ζώνη Ώρας
+  content: >
+    
+daylight_saving:
+  title: Θερινή Ώρα
+  content: >
+    
+maximum_page_size:
+  title: Μέγιστο Μέγεθος Σελίδας
+  content: >
+    
+auto_refresh_rate:
+  title: Ρυθμός Αυτόματης Ανανέωσης
+  content: >
+    
+default_signature:
+  title: Προεπιλεγμένη Υπογραφή
+  content: >
+    
+default_paper_size:
+  title: Προεπιλεγμένο Μέγεθος Σελίδας
+  content: >
+    
+show_assigned_tickets:
+  title: Εμφάνιση Ανατεθειμένων Δελτίων
+  content: >
+    Ενεργοποιήστε αυτό για να αποκρύψετε το όνομά σας από την ουρά <span class="doc-desc-title">Ανοικτών Αιτημάτων</span> για τα αιτήματα τα οποία σας έχουν ανατεθεί. Κατά την απόκρυψη, το όνομα του <span class="doc-desc-title">Τμήματος</span> στο οποίο ανήκετε θα αντικαταστήσει το όνομά σας, το οποίο θα εμφανιζόταν κανονικά.
+password:
+  title: Κωδικός πρόσβασης
+  content: >
+    
+current_password:
+  title: Τρέχων Κωδικός Πρόσβασης
+  content: >
+    
+new_password:
+  title: Νέος Κωδικός Πρόσβασης
+  content: >
+    
+confirm_new_password:
+  title: Επιβεβαίωση Νέου Κωδικού
+  content: >
+    
+signature:
+  title: Υπογραφή
+  content: >
+    Δημιουργήστε μια προαιρετική <span class="doc-desc-title">Υπογραφή</span> που ίσως εμφανίζεται στο τέλος των αποκρίσεών σας στα Δελτία αιτημάτων. Αν αυτή η <span class="doc-desc-title">Υπογραφή</span> θα εμφανίζεται ή όχι, εξαρτάται από το <span class="doc-desc-title">Πρότυπο email</span> που θα χρησιμοποιηθεί κατά την απόκριση σε ένα Δελτίο.
+  links:
+    - 
+      title: Δημιουργήστε Πρότυπα email στον Πίνακα Διαχείρισης
+      href: /scp/templates.php

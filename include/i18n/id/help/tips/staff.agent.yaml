@@ -1,0 +1,67 @@
+---
+username:
+  title: Nama pengguna
+  content: >
+    Silahkan memilih agen<span class="doc-desc-title">Nama Pengguna</span>  yang  unik ke  <span class="doc-desc-title">Help Desk</span> Anda.
+email_address:
+  title: Alamat Email
+  content: >
+    Masukan email agen yang akan menerima <span class="doc-desc-title">Peringatan &amp; Pemberitahuan</span> dari <span class="doc-desc-title">Help Desk</span>.
+  0: <br><br>
+  1: ""
+welcome_email:
+  title: Email Selamat Datang
+  content: >
+    Kirim Agen baru sebuah akun mengakses tautan dari mana Agen akan dapat mengatur kata sandi mereka sendiri. Jika tidak dicentang, Anda perlu mengatur kata sandi dan mengkomunikasikan informasi log-in ke staf baru.
+account_password:
+  title: Kata Sandi Akun
+  content: >
+    Sebagai seorang <span class="doc-desc-title">administrator</span>, Anda dapat mengubah kata sandi Agen.
+forced_password_change:
+  title: Mengubah Kata Sandi dengan paksa
+  content: >
+    Aktifkan ini jika Anda ingin memaksa Agen baru untuk mengubah kata sandi mereka sendiri pada login berikutnya.
+agents_signature:
+  title: Signature Agen
+  content: >
+    Buat sebuah signature untuk Agen dimana dapat dipilih ketika membalas ke sebuah tiket.
+account_status:
+  title: Status Akun
+  content: >
+    Jika status Agen <span class="doc-desc-opt">Terkunci</span>, mereka tidak dapat masuk ke help desk.
+assigned_group:
+  title: Group Ditugaskan
+  content: >
+    <span class="doc-desc-title">Group</span> yang Anda pilih untuk Agen ini akan menentukan ijin yang  dimiliki Agen dalam <span class = "doc-desc-title"> Help Desk </span>.
+  links:
+    - 
+      title: Mengelola Grup
+      href: /scp/groups.php
+primary_department:
+  title: Departemen Utama
+  content: >
+    Pilih <span class="doc-desc-title">departmen</span> utama dimana Agen ini masuk.
+  links:
+    - 
+      title: Mengelola Departemen
+      href: /scp/departments.php
+daylight_saving:
+  title: Daylight Saving
+  content: >
+    Aktifkan fitur ini jika Anda ingin Daylight Saving secara otomatis berfungsi untuk zone waktu Agen.
+limited_access:
+  title: Akses Terbatas
+  content: >
+    Jika diaktifkan, Agen hanya akan memilik akses ke tiket yang ditugaskan secara langsung atau melalui Tim.
+directory_listing:
+  title: Daftar Direktori
+  content: >
+    Aktifkan ini jika Anda ingin daftar Agen ini pada <span class="doc-desc-title">Direktori Staff</span>.
+  links:
+    - 
+      title: Kunjungi Direktori Staf
+      href: /scp/directory.php
+vacation_mode:
+  title: Mode Liburan
+  content: >
+    Jika Anda mengubah status agen ke <span class="doc-desc-opt">Mode Liburan</span>, Agen tidak akan menerima <span class="doc-desc-title">Peringatan &amp; Pemberitahuan</span> begitu juga ketersediaan untuk penugasan tiket.

@@ -1,0 +1,33 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Almenn Fyrirspurn
+  notes: Spurningar varðandi vörur og þjónustu
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Athugasemdir
+  notes: Beiðnir sem varða sölu og reikningadeildir
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Tilkynna Vandamál
+  notes: Vörur, þjónusta eða búnaðar tengd vandamál
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Aðgangs Vandamál
+  notes: Tilkynna erfiðleika við að tengjast efnislegri eða sýndar eign

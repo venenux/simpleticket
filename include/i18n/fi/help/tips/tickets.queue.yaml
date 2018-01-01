@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Hakukenttä
+  content: >
+    
+advanced:
+  title: Laajennettu
+  content: >
+    Tarkenna hakuehtojasi. Kun olet tehnyt hakuvalinnat ja suorittanut haun voit <span class="doc-desc-title">Viedä </span> datan tikettisivun alareunasta.
+open_tickets_table:
+  title: Avoimien Tikettien Taulukko
+  content: >
+    Kaikki avoimet tiketit jotka tarvitsevat toimenpiteitä
+ticket:
+  title: Tiketti
+  content: >
+    
+date:
+  title: Päivämäärä
+  content: >
+    
+subject:
+  title: Aihe
+  content: >
+    
+from:
+  title: Lähettäjä
+  content: >
+    
+priority:
+  title: Prioriteetti
+  content: >
+    
+assigned_to:
+  title: Käsittelijä
+  content: >
+    
+export:
+  title: Vie
+  content: >
+    Vie näkyvät tiedot CSV-tiedostoon. CSV-tiedoston voi avata missä tahansa taulukkolaskentaohjelmassa (esim. Microsoft Excel, Apple Pages tai OpenOffice).
+advanced_search_dialog:
+  title: Laajennettu haku
+  content: >
+    
+adv_keyword:
+  title: Avainsana haku
+  content: >
+    Etsi osumia tikettien otsikoista, viesteistä sekä asiakkaiden ja tikettien muokatuista kentistä.
+adv_date_range:
+  title: Etsi ajanjaksolta
+  content: >
+    Määrittely tähän

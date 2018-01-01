@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: תמיכה
+  signature: מחלקת תמיכה
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: מכירות
+  signature: |
+    מכירות ושימור לקוחות
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: תחזוקה
+  signature: |
+    מחלקת תחזוקה
+  ispublic: 0
+  group_membership: 0

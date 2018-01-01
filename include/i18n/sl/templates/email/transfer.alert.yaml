@@ -1,0 +1,24 @@
+---
+notes: |
+  
+subject: |
+  Zahtevek #%{ticket.number} prenos na - %{ticket.dept.name}
+body: |2
+  <h3>Pozdravljeni %{recipient.name},</h3>
+  Zahtevek <a href="%{ticket.staff_link}">#%{ticket.number}</a> je bil prenešen na %{ticket.dept.name} oddelek po
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Da pogledate ali odgovorite na zahtevek, prosimo <a
+  href="%{ticket.staff_link}">prijavite se</a> na sistem tehnične pomoči.
+  </div>
+  <em style="font-size: small; ">Vaš prijazni sistem tehnične 
+  podpore</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Pogon na  osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

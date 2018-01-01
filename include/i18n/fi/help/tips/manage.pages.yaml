@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Sivuston sivut
+  content: >
+    Sivuston sivut voivat toimia pienenä sisällönhallintajärjestelmänä (CMS). Voit määrittää useita tervetuloa-, offline -ja kiitos sivuja ja määrittää ne Yrityksen asetukset-sivulta ja ohjeotsikoista.
+  links:
+    - 
+      title: Yrityksen asetukset
+      href: /scp/settings.php?t=pages
+type:
+  title: Tyyppi
+  content: >
+    <span class="doc-desc-opt">Offline</span> sivut ovat käytössä asiakasportaalissa jos tukipalvelu on pois päältä. <span class="doc-desc-opt">Tervetuloa</span> sivut ovat asiakkaan etusivuja asiakasportaalissa. <span class="doc-desc-opt">Kiitos</span> sivut on käytössä kun käyttäjä on lähettänyt uuden tiketin. <span class="doc-desc-opt">Muut</span> sivuja voidaan käyttää yksinkertaisina sisällönhallintasivuina (CMS).

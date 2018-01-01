@@ -1,0 +1,8 @@
+---
+notes: |
+  Dikirim ke pengguna ketika anggota staf membuat tiket atas nama pengguna. 
+  Hal ini sering terjadi ketika pengguna menghubungi lewat telepon.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Dear %{recipient.name.first},</strong></h3> Tim layanan pelanggan kami telah menciptakan Tiket, <a href="%{recipient.ticket_link}"> #%{ticket.number}</a> atas nama Anda, dengan rincian berikut dan ringkasan: <br><br>topik: <strong>%{ticket.topic.name}</strong> <br>subjek: <strong>%{ticket.subject}</strong> <br><br>%{message} <br><br>jika perlu, perwakilan akan tindak lanjut dengan Anda segera mungkin. Anda juga dapat <a href="%{recipient.ticket_link}"> melihat kemajuan tiket ini online</a>. <br><br><div style="color: rgb(127, 127, 127);"> Anda %{company.name} tim, <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small;"> <em>jika Anda ingin memberikan komentar tambahan atau informasi mengenai masalah, Silakan balas ke email ini atau <a href="%{recipient.ticket_link}"> <span style="color: rgb(84, 141, 212);" > login ke account Anda</span></a> untuk arsip lengkap dari permintaan dukungan Anda.</em></div>

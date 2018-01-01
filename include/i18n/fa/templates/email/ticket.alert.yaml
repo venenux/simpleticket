@@ -1,0 +1,42 @@
+---
+notes: |
+  زمانی برای کارشناس ارسال می شود که یک درخواست جدید در سیستم ثبت شده است. این مورد شامل تمام درخواست های ثبت شده از طریق ایمیل، درگاه وب یا رابط برنامه نویسی نرم افزار می شود.
+subject: |
+  هشدار درخواست جدید
+body: |2
+  <h2>سلام %{recipient},</h2>
+  یک درخواست جدید به شماره ی  #%{ticket.number} در سیستم افزوده شده است
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>از</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>بخش</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>برای مشاهده و پاسخگویی به درخواست  <a
+  href="%{ticket.staff_link}">وارد</a> سیستم پشتیبانی شوید</div>
+  <em style="font-size: small"></em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

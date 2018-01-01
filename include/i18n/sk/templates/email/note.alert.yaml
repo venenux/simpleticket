@@ -1,0 +1,7 @@
+---
+notes: |
+  Upozornenie posielané agentom v prípadoch ako pridanie internej poznámky alebo vytvorenie odpovede.
+subject: |
+  Upozornenie na novú internú aktivitu
+body: |
+  <h3><strong>Dobrý deň %{recipient.name},</strong></h3> k požiadavke <a href="%{ticket.staff_link}"> č. %{ticket.number}</a> bola pripojená interná poznámka či odpoveď <br><br><table><tbody><tr><td><strong>Od</strong>:</td> <td> %{note.poster}</td></tr> <tr><td><strong>Názov</strong>:</td> <td>%{note.title}</td></tr></tbody></table> <br>%{note.message} <br><br><hr>Pre zobrazenie/reákciu na požiadavku, prosím, <a href="%{ticket.staff_link}"> prihláste sa</a> do systému podpory. <br><br><em style="font-size: small;"> Váš systém zákaznickej podpory</em> <br><img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

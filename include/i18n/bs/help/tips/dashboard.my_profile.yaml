@@ -1,0 +1,51 @@
+---
+contact_information:
+  title: Informacije o Kontaktu
+  content: ""
+username:
+  title: Username
+  content: 'Samo agenti sa administratorskim statusom mogu promijeniti korisničko ime. Ako ste agent sa administratorskim privilegijama, možete to učiniti odabirom agenta sa liste <span class="doc-desc-title">Osoblje</span>.'
+  links:
+    - 
+      title: Promijeni korisničko ime kao administrator
+      href: /scp/staff.php
+time_zone:
+  title: Vremenska zona
+  content: ""
+daylight_saving:
+  title: Dnevna ušteda
+  content: ""
+maximum_page_size:
+  title: Maksimalna veličina stranice
+  content: ""
+auto_refresh_rate:
+  title: Auto osvježavanje
+  content: ""
+default_signature:
+  title: Zadani potpis
+  content: ""
+default_paper_size:
+  title: Zadana velićina lista
+  content: ""
+show_assigned_tickets:
+  title: Prikaži dodjeljene kartice
+  content: 'Omogućite ovo da sakrijete svoje ime sa liste <span class="doc-desc-title">Otvorene kartice</span> za one kartice koje ste dodijelili. Nakon sakrivanja imena, ispisivati će se naziv <span class="doc-desc-title">Odjel</span> kojem pripadate.'
+password:
+  title: Password
+  content: ""
+current_password:
+  title: Trenutna lozinka
+  content: ""
+new_password:
+  title: Nova lozinka
+  content: ""
+confirm_new_password:
+  title: Potvrdite novu lozinku
+  content: ""
+signature:
+  title: Potpis
+  content: 'Napravite opcionalni <span class="doc-desc-title">Potpis</span> koji će se možda nalaziti na dnu odgovora na tiket. Da li će se ovaj <span class="doc-desc-title">Potpis</span> nalaziti u odgovoru ili ne, ovisi o <span class="doc-desc-title">Email predložak</span> koji će se koristiti u odgovoru na tiket.'
+  links:
+    - 
+      title: Kreiraj Email predloške u Admin panelu
+      href: /scp/templates.php

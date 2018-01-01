@@ -1,0 +1,44 @@
+---
+new_ticket:
+  title: Új hibajegy
+  content: >
+    Engedélyezze ezt, ha automatikus válaszüzenetet akar küldeni a felhasználónak új jegy létrehozásakor.
+  links:
+    - 
+      title: Új automatikus válasz sablon
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Új dolgozói hibajegy
+  content: >
+    Értesítés kerül kiküldésre, amikor ez kezelő új hibajegyet hoz létre a felhasználó megbízásából. <em>A kezelő felülírhatja ezt az új jegy létrehozásakor.</em>
+  links:
+    - 
+      title: Új hibajegy jelzési sablon
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Új üzenet-visszaigazolás
+  content: >
+    Meglévő hibajegyen történő új üzenet csatolásakor visszaigazoló értesítés kerül kiküldésre.
+  links:
+    - 
+      title: Új üzenet visszaigazoló sablon
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Új üzenet jelzés
+  content: >
+    Továbbítsa a beérkezett üzeneteket az üzenet továbbítóval minden a hibajegyben érdekelt résztvevőnek.
+  links:
+    - 
+      title: Új tevékenység értesítő sablon
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Határérték túllépési értesítés
+  content: >
+    Az ügyfélnek Hibajegy elutasítva üzenet kerül küldésre, amikor túllépi a <span class="doc-desc-title">Maximális nyitott Hibajegyek</span> számát.
+  links:
+    - 
+      title: Limittúllépés értesítő sablon
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: Állítsa be a <em>Maximum nyitott Hibajegyek</em> számát.
+      href: /scp/settings?t=tickets

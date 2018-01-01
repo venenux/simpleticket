@@ -1,0 +1,7 @@
+---
+notes: >
+  Deze template definieert de pagina die aan klanten wordt weergegeven na het voltooien van het registratie formulier. De template zou moeten vermelden dat het systeem hun een email met bevestigingslink stuurt en wat de volgende stap in het registratieproces is.
+name: "Account registratie"
+body: >
+  
+  <div><strong>Bedankt voor het registreren van een account.</strong><br/> <br /> We hebben een e-mail verzonden naar het e-mail adres dat u opgegeven hebt. Klik alstublieft op de link in de mail om uw account te bevestigen en toegang tot uw tickets te krijgen. </div>

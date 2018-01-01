@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Aangepaste lijsten
+  content: >
+    Uw <span class="doc-desc-title">aangepaste lijsten</span> staat u toe om dropdowns met voorgedefinieerde opties aan te maken waaruit een Client in uw <span class="doc-desc-title">Aangepaste formulieren</span> kan selecteren. Als u deze <span class="doc-desc-title">aangepaste lijst</span>zou willen gebruiken als een <span class="doc-desc-title">doel</span> in een <span class="doc-desc-title">Ticket Filter</span>, moet u deze lijst toevoegen aan uw <span class="doc-desc-title">Ticket Details</span> formulier.
+name:
+  title: Naam
+  content: >
+    
+plural_name:
+  title: Naam in meervoud
+  content: >
+    
+sort_order:
+  title: Sorteervolgorde
+  content: >
+    
+list_s_initial_items:
+  title: Initiële lijst items
+  content: >
+    
+value:
+  title: Waarde
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Afkortingen en dergelijke. Als er toevallig interne codes worden gebruikt voor de items in deze lijst, kunnen deze codes en afkortingen worden ingevoerd in deze kolom. Als de aangepaste lijst wordt weergegeven als een <span class="doc-desc-option">TypeAhead</span>, kunnen deze afkortingen worden gebruikt om te zoeken naar items in de aangepaste lijst.

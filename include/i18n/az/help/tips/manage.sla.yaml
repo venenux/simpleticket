@@ -1,0 +1,13 @@
+---
+name:
+  title: Ad
+  content: >
+    Bu <span class="doc-desc-title">SLA plan</span> üçün məqsədini əks etdirəcək təsviri ad seçin.
+grace_period:
+  title: Güzəşt müddəti
+  content: >
+    Sorğu yaradılandan sonra avtomatik olaraq müddəti bitmiş qeyd ediləcək saatların sayını müəyyənləşdirin.  <br><br> <em>Saatlar sorğunun yaradılması vaxtından hesablanır.</em>
+transient:
+  title: Müvəqqəti
+  content: >
+    Müvəqqəti SLAlər keçici hesab olunur və  <span class="doc-desc-opt">şöbə</span> transferində qeyri-müvəqqəti SLA tərəfindən və ya <span class="doc-desc-title">kömək mövzusu</span> dəyişəndə ləğv edilə bilər.

@@ -1,0 +1,51 @@
+---
+contact_information:
+  title: お問い合わせ情報
+  content: ""
+username:
+  title: ユーザー名
+  content: 'Admin権限があるエージェントのみ、ユーザー名の変更が可能です。権限を持つエージェントの場合は、<span class="doc-desc-title"> スタッフのメンバー</span> テーブルから編集するエージェントを選択してユーザー名を変更して下さい。'
+  links:
+    - 
+      title: 管理者として、ユーザー名を変更します。
+      href: /scp/staff.php
+time_zone:
+  title: タイム ゾーン
+  content: ""
+daylight_saving:
+  title: 夏時間
+  content: ""
+maximum_page_size:
+  title: 最大ページ サイズ
+  content: ""
+auto_refresh_rate:
+  title: 自動リフレッシュ レート
+  content: ""
+default_signature:
+  title: 既定の署名
+  content: ""
+default_paper_size:
+  title: 既定の用紙サイズ
+  content: ""
+show_assigned_tickets:
+  title: 割り当てられたチケットを見る
+  content: '割り当てられているチケットを <span class="doc-desc-title"> オープン チケット</span> キューからあなたの名前を非表示にするを有効にします。非表示にするが有効の場合、あなたの名前が表示される部分が所属する <span class="doc-desc-title"> 部署</span> 名に置き換えられます。'
+password:
+  title: パスワード
+  content: ""
+current_password:
+  title: 現在のパスワード
+  content: ""
+new_password:
+  title: 新しいパスワード
+  content: ""
+confirm_new_password:
+  title: 新しいパスワードの確認
+  content: ""
+signature:
+  title: 署名
+  content: '返信チケットの末尾に表示される省略可能な <span class="doc-desc-title"> 署名</span> を作成します。 <span class="doc-desc-title"> 署名</span> が表示されるかどうかはチケットの <span class="doc-desc-title"> 電子メール テンプレート</span> に依存します。'
+  links:
+    - 
+      title: 管理者パネルで電子メール テンプレートを作成します。
+      href: /scp/templates.php

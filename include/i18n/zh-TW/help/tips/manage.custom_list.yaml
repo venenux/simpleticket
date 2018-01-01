@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: 自訂清單
+  content: >
+    您的<span class="doc-desc-title">自訂清單</span>允許您預先定義選項並新建下拉式清單方塊<span class="doc-desc-title">自訂表單</span>。若您想用在 <span class="doc-desc-title">自訂清單</span> 如 <span class="doc-desc-title">目標 </span> 在<span class="doc-desc-title">Ticket 篩選器</span>, 請務必將此清單添加到您的be sure to add this list to your <span class="doc-desc-title">Ticket 詳細資料</span> 表單內。
+name:
+  title: 名稱
+  content: >
+    
+plural_name:
+  title: 複數名稱
+  content: >
+    
+sort_order:
+  title: 排序次序
+  content: >
+    
+list_s_initial_items:
+  title: 初始專案清單
+  content: >
+    
+value:
+  title: 字段值
+  content: >
+    
+extra:
+  title: 額外
+  content: >
+    如縮寫詞等。如果你碰巧在此清單中的專案使用內部代碼，這些代碼和縮寫可以輸入此列中。如果作為 <span class="doc-desc-option"> TypeAhead</span> 呈現時的自訂清單，可以使用這些縮詞來搜索的自訂清單項。

@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Холбоо барих мэдээлэл
+  content: >
+    
+username:
+  title: Хэрэглэгчийн нэр
+  content: >
+    Зөвхөн Админ эрхтэй ажилтнууд хэрэглэгчийн нэр сольж чадна. Хэрвээ та Админ эрхтэй ажилтан бол <span class="doc-desc-title">Тусламжийн төвийн ажилтнууд</span> хүснэгтээс өөрчлөх ажилтнаа сонгоно уу.
+  links:
+    - 
+      title: Хэрэглэгчийн нэрийг Администратор болгож өөрчлөх
+      href: /scp/staff.php
+time_zone:
+  title: Цагийн бүс
+  content: >
+    
+daylight_saving:
+  title: Зуны цагийн хуваарь
+  content: >
+    
+maximum_page_size:
+  title: Хуудасны дээд хэмжээ
+  content: >
+    
+auto_refresh_rate:
+  title: Өөрөө шинэчлэх давтамж
+  content: >
+    
+default_signature:
+  title: Стандарт гарын үсэг
+  content: >
+    
+default_paper_size:
+  title: Стандарт хуудасны хэмжээ
+  content: >
+    
+show_assigned_tickets:
+  title: Даалгасан хүсэлтүүдийг харуулах
+  content: >
+    <span class="doc-desc-title">Нээлттэй Хүсэлтүүд</span> жагсаалтаас нэрээ нууцлах бол үүнийг идэвхжүүлж болно. Ингэж нууцалснаар танд хуваарилсан хүсэлтүүд нь танай <span class="doc-desc-title">Албанд</span> хуваарилагдсан мэт харагдана.
+password:
+  title: Нууц үг
+  content: >
+    
+current_password:
+  title: Одоогийн нууц үг
+  content: >
+    
+new_password:
+  title: Шинэ нууц үг
+  content: >
+    
+confirm_new_password:
+  title: Шинэ нууц үгийг давтан оруулах
+  content: >
+    
+signature:
+  title: Гарын үсэг
+  content: >
+    Хүсэлтэд хариу бичих үед таны өөрийн <span class="doc-desc-title">Гарын үсэг</span> доод хэсэгт нь харагдана. Энэхүү <span class="doc-desc-title">Гарын үсгийг</span> харуулах эсэхийг <span class="doc-desc-title">Мэйлийн загвар</span> хэсэгт тохируулна.
+  links:
+    - 
+      title: Удирдлагын Самбарт имэйл загвар үүсгэх
+      href: /scp/templates.php

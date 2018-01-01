@@ -1,0 +1,5 @@
+---
+notes: >
+  Ini adalah pesan awal dan banner yang ditampilkan pada halaman Log In staf. Input field pertama merujuk kepada teks berformat merah yang muncul di bagian atas. Textarea kedua adalah untuk konten banner yang seharusnya berfungsi sebagai disclaimer.
+name: "Otentikasi diperlukan"
+body: ""

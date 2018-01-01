@@ -1,0 +1,43 @@
+---
+notes: |
+  Bude odoslané zamestnancovi v okamihu pripojenia novej správy k zákazníckej požiadavke. Situácia môže nastať, ak používateľ reaguje na systémový e-mail alebo navštívi stránky zákazníckej podpory a zverejní novú správu.
+subject: |
+  Upozornenie na novú správu
+body: |2
+  <h3><strong>Dobrý deň %{recipient.name},</strong></h3>
+  Nová správa bola pridaná k tiketu ticket.staff_link}"&gt;"><a<br>
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+     <td>
+       <strong>Od</strong>:
+     </td>
+     <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Oddelenie</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pozrieť si alebo reagovať na správu môžete cez ticket.staff_link}"&gt;&lt;span style="color: rgb(84, 141, 212);"
+  &gt;"><a<br>
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"<br>
+  >Prihláste sa </span></a> do helpdesku</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Váš tím zákazníckej podpory</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"<br>
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

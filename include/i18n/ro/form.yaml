@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informații de contact
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Adresa de e-mail
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Nume
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numar de telefon
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Note interne
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Detalii tichet
+  instructions: Vă rugăm să descrieţi problema
+  notes: |
+    Acest formular va fi ataşat la fiecare bilet, indiferent de sursa acesteia. Puteţi adăuga orice câmpuri la acest formular şi ele vor fi disponibile pentru toate biletele, şi vor putea fi căutate cu căutare avansată şi filtrabile.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Sumarul problemei
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Detaliile problemei
+      hint: Detalii privind motivul(ele) de deschidere a biletului.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Prioritate
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Informaţii Companie
+  instructions: Detalii disponibile în template-urile de e-mail
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Numele companiei
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Site web
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numar de telefon
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Adresa
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informații despre organizație
+  instructions: Detalii despre organizația utilizatorului
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nume
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Adresa
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Site web
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Note interne
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

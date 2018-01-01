@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: สอบถามข้อมูลทั่วไป
+  notes: สอบถามเกี่ยวกับผลิตภัณฑ์หรือบริการ
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: ข้อเสนอแนะ
+  notes: |
+    Ticket ที่เกี่ยวข้องกับปัญหาหลักๆ ของแผนกขายและแผนกวางบิล
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: รายงานปัญหาที่พบ
+  notes: |
+    ปัญหาที่เกี่ยวข้องกับผลิตภัณฑ์ บริการ หรืออุปกรณ์
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: ปัญหาการเข้าใช้งาน
+  notes: |
+    แจ้งการไม่สามารถเข้าใช้สินทรัพย์ ทั้งที่ที่จับต้องได้และจับต้องไม่ได้

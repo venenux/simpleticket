@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Uždelstas atsakymas
+  content: >
+    Sukurkite <span class="doc-desc-title">Uždelstą atsakymą</span>, kuris gali būti įtrauktas į užklausos atsakymą. Tai taip pat gali būti naudojama kaip<span class="doc-desc-title">Automatinis atsakymas į užklausą</span> setup by a <span class="doc-desc-title">Užklausos filtras</span>.
+  links:
+    - 
+      title: Nustatyti užklausų filtrą
+      href: /scp/filters.php
+canned_attachments:
+  title: Automatiniai priedai
+  content: >
+    Prikabinkite failą, kurį norėtumėte automatiškai prikabinti prie atsakymo į užklausą, kuris naudoja naują <span class="doc-desc-title"> Uždelstą atsakymą</span>.

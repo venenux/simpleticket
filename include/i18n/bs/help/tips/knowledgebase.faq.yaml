@@ -1,0 +1,8 @@
+---
+listing_type:
+  title: Vrsta objava
+  content: 'Odaberite <span class="doc-desc-opt">javno (objava)</span> ukoliko želite da <span class="doc-desc-title"> FAQ "Često postavljana pitanja"</span> budu objavljena u javno dostupnoj bazi podataka, ukoliko je roditeljska kategorija javno objavljena.'
+  links:
+    - 
+      title: Omogući javnu bazu znanja za klijentov portal
+      href: /scp/settings.php?t=kb

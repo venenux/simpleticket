@@ -1,0 +1,42 @@
+---
+notes: |
+  Gửi đến một nhân viên khi một yêu cầu mới được tạo ra trong hệ thống. Điều này áp dụng cho yêu cầu tạo thông qua email, cổng thông tin web hoặc api.
+subject: |
+  Yêu cầu cảnh báo mới
+body: |2
+  <h2>Xin chào%{recipient.name},</h2>
+  Yêu cầu số #%{ticket.number} đã được tạo
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Từ</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Phòng ban</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Để xem chi tiết hoặc gửi phản hồi yêu cầu xin hãy<a
+  href="%{ticket.staff_link}">đăng nhập</a> vào hệ thống</div>
+  <em style="font-size: small">Your friendly Customer Support System</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

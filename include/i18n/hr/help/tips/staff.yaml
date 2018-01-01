@@ -1,0 +1,17 @@
+---
+signature:
+  title: Linija potpisa osoblja
+  content: |
+    Izradite potpis osoblja za odgovor na kartice. Ovaj potpis će se prikazivati kao opcija na dnu odgovora na karticu
+type:
+  title: Vrsta računa
+  content: |
+    Administratori imaju privilegiju pristupa Administratorskoj upravljačkoj ploči. Djelatnici mogu uređivati kartice i bazu znanja
+group:
+  title: Dodjeljena grupa
+  content: |
+    Članstvo u grupi definira djelatnikovu ulogu u sistemu. Posjetite stranicu za upravljanje grupama kako biste odredili pristup grupe unutar centra tehničke podrške
+notes:
+  title: Interne bilješke
+  content: |
+    Postavite interne bilješke o djelatnicima; bilješke su vidljive samo administratorima

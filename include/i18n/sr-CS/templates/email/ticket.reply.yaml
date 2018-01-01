@@ -1,0 +1,20 @@
+---
+notes: |
+  Šalјe se korisniku kada zaposleni odgovori na tiket.
+  Odgovor može kreirati samo zaposleni odgovarajućeg odelјenja.
+subject: 'Odgovor: %{ticket.subject}'
+body: |
+  <h3><strong>Poštovani %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Vaš %{company.name} tim,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Nadamo se da smo Vam dali odgovor na vaša pitanja. Ukoliko želite
+  da pružite dodatne komentare ili informacije, odgovorite na ovaj imejl
+  ili se
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >prijavite u Vaš korisnički nalog</a> za kompletnu arhivu svih dosadašnjih tiketa.</em></div>

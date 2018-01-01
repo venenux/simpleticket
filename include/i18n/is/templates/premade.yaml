@@ -1,0 +1,19 @@
+---
+- 
+  isenabled: 1
+  title: Hvað er osTicket (dæmi)?
+  response: 'osTicket er opin kóða verkbeiðna kerfi sem er notað víða, aðlaðandi mótval gegn dýrari og flóknari verkbeiðnakerfa - einfalt, létt, áreiðanlegt, opin kóði, vef viðmót og auðvelt að setja upp og nota.'
+  notes: ""
+  attachments:
+    - 
+      name: osTicket.txt
+      type: text/plain
+      data: Stöðluð viðhengi eru frábær!
+- 
+  isenabled: 1
+  title: Dæmi (með breytum)
+  response: |
+    Hæ %{ticket.name.first},
+    <br> <br>
+    Beiðnin númer #%{ticket.number} var stofnuð %{ticket.create_date} fyrir %{ticket.dept.name} deildina.
+  notes: ""

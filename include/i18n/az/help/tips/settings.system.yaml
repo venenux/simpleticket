@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk statusu
+  content: >
+    Əgər status <span class="doc-desc-opt">offline</span> vəziyyətə dəyişirsə, müştəri interfeysi deaktiv olunur. Bu, hər hansı agentin agent paneli ilə normal qarşılıqlı əlaqəsinə necəsə təsir etmir.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Bu URL sizin osTicket quraşdırmasının bazasıdır.  E-poçt kommunikasiyasında son istifadəçiləri sizin helpdeskə geri yönləndirmək üçün istifadə olunur.
+helpdesk_name_title:
+  title: Helpdesk ad/başlıq
+  content: >
+    Bu, browser vərəqəsində ortaya çıxan başlıqdır. Əgər sizin help desk səhifəniz seçilmişlərə əlavə olunubsa, bu saytın başlığı/adı olacaq.
+default_department:
+  title: Cari şöbə
+  content: >
+    Şöbəyə avtomatik olaraq yönləndirilməmiş sorğular üçün cari <span class="doc-desc-title">şöbə</span> seçin. <br/><br/> Sorğu help topic, gələn e-poçt və sorğu filteri tənzimləmələri bazasına yönləndirilə bilər.
+default_page_size:
+  title: Cari səhifə ölçüsü
+  content: >
+    Heyət panelində sorğu sıralarında hər səhifədə görünən elementlərin sayını seçin. Həmçinin hər bir agent bu sayı öz hesabı üçün <span class="doc-desc-title">seçdiklərim</span> adı altında quraşdıra bilər.
+default_log_level:
+  title: Cari giriş səviyyəsi
+  content: >
+    <span class="doc-desc-title">Sistem girişində</span> yazılacaq problemlərin minimum səviyyəsini müəyyənləşdirin. Ciddiyyətdə <span class="doc-desc-opt">sazlama</span> ən az, <span class="doc-desc-opt">xəta</span> ən böyük rol oynayır. Məsələn, əgər siz <span class="doc-desc-title">sistem girişlərində</span> bütün problemləri görmək istəyirsinizsə <span class="doc-desc-opt">sazlamanı</span> seçin.
+purge_logs:
+  title: Girişləri təmizlə
+  content: >
+    <span class="doc-desc-title">Sistem girişləri</span> silinməmişdən əvvəl onları nə qədər müddət saxlamaq istədiyinizi müəyyən edin.
+default_name_formatting:
+  title: Cari adın format edilməsi
+  content: >
+    Sistemdəki adlar üçün format seçin. Əgər dəyişkənlikdə başqa format xüsusiləşdirilməyibsə, e-poçt şablonları bunu adlar üçün istifadə edəcək.
+  links:
+    - 
+      title: Dəstəklənmiş e-poçt şablonu dəyişkənlikləri
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Tarix &amp; vaxtı variantları
+  content: >
+    Aşağıdakı tənzimləmələr müştərilər üçün tarixi &amp; vaxtı müəyyən edir. Siz onun necə görünməsini aşağıdakı PHP tarix formatı xarakteristikaları ilə dəyişə bilərsiniz. Aşağıda göstərilən tarixlər sadəcə onların necə görünəcəyini göstərir.
+  links:
+    - 
+      title: PHP vaxt formatı cədvəli
+      href: 'http://www.php.net/manual/en/function.date.php'

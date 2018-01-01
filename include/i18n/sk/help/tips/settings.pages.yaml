@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Informácie o spoločnosti
+  content: >
+    To sa vzťahuje na spoločnosť alebo organizáciu, ktorá bude prevádzkovať tento program. Tieto informácie sa použijú v odpovedajúcich emailoch (napr. pätička emailov), ktoré sa budú posielať ako odpoveď na tikety.
+  links:
+    - 
+      title: Základné informácie o firme
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Vstupná stránka
+  content: >
+    <span class="doc-desc-title">Vstupná stránka</span> sa zobrazí ako úvodná stránka helpdesku.
+offline_page:
+  title: Offline stránka
+  content: >
+    <span class="doc-desc-title">Offline stránka</span> se zobrazí pre užívateľov keď je helpdesk v stave offline , pozri Admin Panel -&gt; Nastavenie -&gt; Systém -&gt; Stav Helpdesku.
+default_thank_you_page:
+  title: Ďakujeme stránka
+  content: >
+    Stránka <span class="doc-desc-title">Ďakujeme</span>  sa zobrazí potom ako <span class="doc-desc-title">užívateľ</span> vytvorí nový tiket.<br/><br/> <span class="doc-desc-title">Ďakujeme</span> stránky sa môžu meniť na základe výberu predmetu tiketu.
+logos:
+  title: Logá
+  content: |2-
+     <span class="doc-desc-title">Logo</span>, ktoré sa zobrazí na úvodnej stránke pre užívateľov môžete samozrejme zmeniť.
+upload_a_new_logo:
+  title: Nahrať nové logo
+  content: >
+    Vyberte obrázok vo formáte gif, jpg alebo png. Veľkosť obrázka bude proporciálne zmenená. Pre zrýchlenie natiahnutia stránky odporúčame dodržať štandardnú veľkosť 817 x 170 pixelov.

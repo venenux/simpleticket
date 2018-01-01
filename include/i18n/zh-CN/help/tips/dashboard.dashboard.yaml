@@ -1,0 +1,42 @@
+---
+ticket_activity:
+  title: 工单活动
+  content: >
+    选择一个日期范围，使以下图表（参见<span class="doc-desc-title">统计表</span>）重点显示所选日期范围内的所有相关数据。下图将始终显示整个系统数据的全面概述情况（例如，人口）。然而，您可通过浏览以下<span class="doc-desc-title">统计</span>表重点显示特定的感兴趣主题（例如，部门、主题或工作人员）。此外，您可导出当前显示在<span class="doc-desc-title">统计</span>表中的所有数据。
+report_timeframe:
+  title: 报表时段
+  content: >
+    为时段样本选择一个起始日期，然后再选择一个结束日期。
+    
+statistics:
+  title: 统计
+  content: >
+    通过点击相应选项卡浏览感兴趣的主题，以查看数据的具体示例。表格内，圆圈表示标定数据的大小。因此，圆圈的大小取决于特定单元格内数字的大小。
+opened:
+  title: 已打开
+  content: >
+    表示由代理打开的工单系统（即内部打开）而不是由客户打开。
+assigned:
+  title: 已分配
+  content: >
+    系统可通过自动或手动分配至特定部门或代理的咨询追踪每一次事件。自动分配取决于管理员面板中<span class="doc-desc-title">帮助主题</span>和<span class="doc-desc-title">电子邮件筛选</span>的既定设置。
+overdue:
+  title: 过期
+  content: >
+    工单总数不符合服务等级协议（SLA）的计划。
+closed:
+  title: 已关闭
+  content: >
+    已被关闭的工单总数。
+reopened:
+  title: 重新开启
+  content: >
+    咨询处于关闭状态时，在代理或客户回应的情况下，这是由他们重新创建的咨询总条数。
+service_time:
+  title: 服务时间
+  content: >
+    <span class="doc-desc-title"> 服务时间</span> 是指第一份工单开始到最后一份工单结束时间。这里的 <span class="doc-desc-title">  服务时间</span> 是显示指定日期范围内的每份工单在一小时内的服务时间。
+response_time:
+  title: 响应时间
+  content: >
+    <span class="doc-desc-title">响应时间</span>是从客户的任何通信时间开始截至到服务人员作出反应所经历的时间长度。

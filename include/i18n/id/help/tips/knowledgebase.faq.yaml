@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Jenis/tipe listing
+  content: >
+    Pilih <span class="doc-desc-opt"> Umum (mempublikasikan)</span> jika Anda ingin ini <span class="doc-desc-title"> FAQ</span> diterbitkan di knowledgebase umum jika kategori induk adalah umum.
+  links:
+    - 
+      title: Mengaktifkan Knowledgebase umum untuk Portal klien
+      href: /scp/settings.php?t=kb

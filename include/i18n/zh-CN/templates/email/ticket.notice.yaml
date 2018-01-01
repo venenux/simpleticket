@@ -1,0 +1,28 @@
+---
+notes: |
+  当员工为客户创建新的咨询时通知客户。这种操作一般用于在客户已经来电过的情况下。
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>尊敬的 %{recipient.name.first}，</strong></h3>
+  我们的客户服务团队以您的名义创建了一条咨询，<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> 详情和摘要如下：
+  <br>
+  <br>
+  标题：<strong>%{ticket.topic.name}</strong>
+  <br>
+  主题：<strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  如有需要，业务代表会尽快跟进。您也可以<a href="%{recipient.ticket_link}">在线查阅咨询进度</a>。
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  您的 %{company.name} 团队，<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>如果您想提供有关问题的补充意见或信息，请回复此邮件或<a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >登录您的账户</span></a>以查阅您所提交问题的完整存档文件。</em></div>

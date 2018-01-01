@@ -1,0 +1,177 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informacje Kontaktowe
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Adres E-mail
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Imię i Nazwisko
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numer telefonu
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Notatki wewnętrzne
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Szczegóły Zgłoszenia
+  instructions: Opisz Swój Problem
+  notes: |
+    Ten formularz zostanie dołączony do każdego zgłoszenia, niezależnie od jego źródła.
+    Możesz dodać jakiekolwiek pola do tego formularza, które będą widoczne dla wszystkich zgłoszeń. Będzie można używać tych pól do zaawansowanego wyszukiwania i filtrowania.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Krótki Opis Problemu
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Szczegóły problemu
+      hint: Szczegóły dotyczące zgłoszenia.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Priorytet
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Dane Firmy
+  instructions: Szczegóły dostępne w szablonach wiadomości e-mail
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nazwa Firmy
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Strona internetowa
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numer telefonu
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Adres
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: O organizacji
+  instructions: Szczegóły dotyczące organizacji użytkownika
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nazwa
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Adres
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Strona internetowa
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Notatki wewnętrzne
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

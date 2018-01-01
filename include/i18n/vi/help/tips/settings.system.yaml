@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Trạng thái bảng trợ giúp
+  content: >
+    nếu trạng thái thay đổi tới <span class="doc-desc-opt"> ngoại tuyến</span>, thông tin hiển thị của Khách hàng sẽ biến mất. Điều này không ảnh hưởng tới bất kì hoạt động nào của nhân viên với việc điều khiển của họ.
+helpdesk_url:
+  title: bảng trợ giúp URL
+  content: >
+    URL này là link chung của việc cài đặt osTicket. Nó được sử dụng trong email trao đổi tới người dùng trực tiếp trên bảng trợ giúp.
+helpdesk_name_title:
+  title: Tên bảng trợ giúp
+  content: >
+    Đây là tiêu đề xuất hiện trong các tab trình duyệt. Nếu trang trợ giúp của bạn đã được đánh dấu thì đây sẽ là tiêu đề của trang.
+default_department:
+  title: Phòng ban mặc định
+  content: >
+    Chọn phòng ban mặc định<span class="doc-desc-title"> phòng ban</span> cho lệnh để  không tự động chuyển sang một phòng ban khác.<br/><br/> lệnh có thể chuyển dựa trên chủ đề trợ giúp, email đến hoặc cài đặt bộ lọc lệnh.
+default_page_size:
+  title: Kích thước trang mặc định
+  content: >
+    Chọn số lượng mục hiển thị trên mỗi trang trong dãy lệnh trong phần quản lý nhân viên. Mỗi nhân viên có thể lựa chọn con số cho tài khoản riêng của họ với lệnh<span class="doc-desc-title">Tùy chọn của tôi</span>.
+default_log_level:
+  title: Mức độ đăng nhập mặc định
+  content: >
+    Xác định mức độ thấp nhất của vấn đề sẽ được ghi nhận trong <span class="doc-desc-title"> đăng nhập hệ thống</span>. <span class="doc-desc-opt"> sửa lỗi</span> thể hiện mức độ nghiêm trọng thấp nhất và <span class="doc-desc-opt"> lỗi</span> cho mức độ nghiêm trọng cao nhất. Ví dụ, nếu bạn muốn nhìn thấy tất cả các vấn đề trong<span class="doc-desc-title"> đăng nhập hệ thống</span>, chọn <span class="doc-desc-opt"> sửa lỗi</span>.
+purge_logs:
+  title: từ chối đăng nhập
+  content: >
+    Xác định thời gian bạn muốn ở trong<span class="doc-desc-title"> đăng nhập hệ thống</span> trước khi hệ thống xóa.
+default_name_formatting:
+  title: Định dạng tên mặc định
+  content: >
+    chọn định dạng cho tên thông qua hệ thống. Email mẫu sẽ được sử dụng như tên nếu không có định dạng khác được chọn.
+  links:
+    - 
+      title: Các biến số email mẫu hỗ trợ
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: ngày&amp;các lựa chọn thời gian
+  content: >
+    Những cài đặt tiếp theo xác định ngày&amp; cài đặt thời gian cho Khách hàng. Bạn có thể thay đổi cách hiển thị của chúng bằng cách làm theo lựa chọn định dạng ngày PHP. Ngày hiển thị bên dưới sẽ chú giải đơn giản kết qủa của giá trị tương ứng.
+  links:
+    - 
+      title: Nhìn bảng định dạng ngày PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

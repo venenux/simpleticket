@@ -1,0 +1,19 @@
+---
+notes: |
+  Heyət üzvləri istifadəçilərin sorğularına cavab verəndə onlara göndərin.
+  Cavablar ancaq heyət üzvləri tərəfindən yaradılır.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Əziz %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Sizin %{company.name} komanda,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Ümid edirik bu cavab sizin sualı ətraflı cavablandırdı. Əgər elə deyilsə, xahiş edirik başqa e-poçt göndərməyin, bu e-poçta cavab yazın və ya 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" > hesabınıza daxil olun </a> bütün dəstək təkliflərinizi və cavablarınızı tamamilə arxivləşdirmək üçün.</em></div>

@@ -1,0 +1,69 @@
+---
+type:
+  title: Türü
+  content: >
+    <span class="doc-desc-opt">Özel</span>i seçerek bu bölümdeki atamaları Müşteri Portalından gizleyebilirsiniz. Ayrıca, <span class="doc-desc-opt">Özel</span> olarak etiketlendiği zaman <span class="doc-desc-title">Bölüm İmzası</span> e-posta cevaplarında görüntülenmeyecektir. <br/><br/> En azından bir bölümün <span class="doc-desc-opt">Halka açık</span> olması gerekmektedir
+email:
+  title: E-posta
+  content: >
+    Temcilcilerin Taleplere cevap yazdığı zaman kullanılacak e-posta adresi.
+template:
+  title: Şablon Seti
+  content: >
+    Bu bölüme yönlendirilen Otomatik Cevaplar ve Uyarı&amp; Bildirimler için kullanılacak E-posta <span class="doc-desc-title">Taslak Seti</span>.
+  links:
+    - 
+      title: Şablonları Yönet
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Bu bölüme gelen talepler için Servis Seviye Anlaşması.
+  links:
+    - 
+      title: SLA Planları Yönet
+      href: /scp/slas.php
+manager:
+  title: Bölüm Yöneticisi
+  content: >
+    Bu bölüm için <span class="doc-desc-title">Yönetici</span> seçin. <br/><br/> Yöneticiler özel bildirimler için yapılandırılabilirler ve ayrıca taleplerin sahiplerini değiştirebilirler.
+  links:
+    - 
+      title: Uyarı &amp; Bilgilendirmeleri Yönet
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Uyarıların &amp; Bildirimlerin Alıcıları
+  content: >
+    Belirlenen <span class="doc-desc-title">Uyarı &amp; Bildirimler</span> için alıcıları seçin.
+  links:
+    - 
+      title: Uyarıları &amp; Bilgilendirmeleri Yönet
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Talep Görevlendirme Kısıtlamaları
+  content: >
+    Bu özelliklle talep görevlendirmelerini sadece bu bölümün üyeleri ile sınırlandırın. Eğer <span class="doc-desc-title">Grup Üyeliği</span> açıksa bölüm erişimi Gruplara genişletilebilir.
+auto_response_settings:
+  title: Otomatik Yanıtlayıcı Ayarları
+  content: >
+    Bu sayede Bölüm için belirlenen Otomatik cevaplama ayarlarını çiğneyebilirsiniz.
+new_ticket:
+  title: Yeni Talep Otomatik Yanıtlama
+  content: >
+    İsterseniz bir talep oluşturulup Bölüme yönlendirildiğinde kullanıcıya gönderilen e-postayı kapatabilirsiniz.
+new_message:
+  title: Yeni Mesaj Otomatik Yanıtlama
+  content: >
+    İsterseniz bir bu bölümdeki mesaj için kullanıcıya otomatik olarak gönderilen doğrulama mesajını kapatabilirsiniz.
+auto_response_email:
+  title: Otomatik Cevap E-postası
+  content: >
+    Bu Bölümden gönderilecek otomatik cevaplar için e-posta adresi seçin.
+department_access:
+  title: Grup Erişimi
+  content: >
+    Başka bölüm temsilcilerin bu bölümün taleplerini görmesine izin ver.
+department_signature:
+  title: Bölüm İmzası
+  content: >
+    İmza <span class="doc-desc-opt">Halka Açık</span> bölümlerde Temsilcilerin cevaplarında seçenek olarak mevcuttur.

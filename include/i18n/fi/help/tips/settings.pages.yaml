@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Yrityksen tiedot
+  content: >
+    Tämä viittaa yritykseen tai organisaatioon joka hyötyy osTicketin ohjelmistosta ja sen tukihenkilöstöstä. Tieto tästä ilmenee sähköpostien allekirjoituksissa  (kuten, alatunnisteessa) kun tiketteihin vastataan Käsittelijän toimesta.
+  links:
+    - 
+      title: Yritystiedot lomake
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Aloitussivu
+  content: >
+    <span class="doc-desc-title">Aloitussivu</span> näytetään tukipalvelun etusivuna.
+offline_page:
+  title: Offline Sivu
+  content: >
+    <span class="doc-desc-title">Offline</span> sivu näytetään, kun tukipalvelu on pois käytöstä. Katso hallintapaneeli -&gt; Asetukset -&gt; Järjestelmä -&gt; Tukipalvelun tila.
+default_thank_you_page:
+  title: Oletus Kiitos sivu
+  content: >
+    <span class="doc-desc-title">Kiitos sivu</span> näytetään asiakkaalle kun <span class="doc-desc-title">Asiakas</span> lähettää uuden tiketin. <br/><br/> <span class="doc-desc-title">Kiitos</span> sivut voivat kuulua Ohjeotsikoihin.
+logos:
+  title: Logot
+  content: >
+    Voit valita <span class="doc-desc-title">Logon</span> jota käytetään Asiakassivustolla (kuten, sinun Tukisivut).
+upload_a_new_logo:
+  title: Lataa uusi logo
+  content: >
+    Valitse kuva .gif, .jpg tai .png muodossa. Skaalamme kuvan suhteessa alkuperäiseen kuvaan. Emme kuitenkaan, muuta alkuperäisen kuvan dataa. Siksi nopeuttaaksesi latausaikoja on suositeltavaa pitää kuvan koko lähellä oletuskuvakokoa (817px &times; 170px).

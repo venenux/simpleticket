@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  咨询%{ticket.number}移交 - %{ticket.dept.name}
+body: |2
+  <h3>您好 %{recipient},</h3>
+  咨询<a href="%{ticket.staff_link}">#%{ticket.number}</a>已经被 <strong>%{staff.name.short}</strong>移交到%{ticket.dept.name} 部门。
+  
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>如要查看或回复咨询, 请<a
+  href="%{ticket.staff_link}">登录</a>支援咨询系统.
+  </div>
+  <em style="font-size: small; ">您的友好客户支援系统</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

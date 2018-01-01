@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 0
+  name: Esimese taseme kasutajatugi
+  notes: Esimese taseme tugi, vastutab esmase suhtlemise eest klientidega

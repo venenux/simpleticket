@@ -1,0 +1,44 @@
+---
+notes: |
+  Ilmoitus lähetetään Käsittelijöille kun sisäinen muistiinpano tai Käsittelijän vastaus lisätään tikettiin.
+subject: |
+  Uusi sisäinen tapahtuma -ilmoitus
+body: |
+  <h3><strong>Hei %{recipient.name},</strong></h3>
+  Sisäinen muistio lisätty tikettiin <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Lähettäjä</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Otsikko</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Nähdäksesi tiketin avaa <a
+  href="%{ticket.staff_link}">kirjautumissivu</a> tikettijärjestelmään
+  <br>
+  <br>
+  <em style="font-size: small; ">Ystävällisesti tuki</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Käyttää osTicket-moottoria" width="126" height="19" style="width: 126px;">

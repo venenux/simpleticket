@@ -1,0 +1,28 @@
+---
+notes: |
+  Heyət üzvləri istifadəçilərin adından sorğu yaradanda göndərin. Bu, daha çox istifadəçinin telefonuna zəng gələndə baş verir.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Əziz %{recipient.name.first},</strong></h3>
+  Bizim müştəri xidməti sorğu yaradıb <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> sizin adınıza, izlənən detallar və icmalla:
+  <br>
+  <br>
+  Başlıq: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Mövzu: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Əgər lazımdırsa nümayəndə ən qısa zamanda sizinlə əlaqə saxlayacaq. Siz həmçinin <a href="%{recipient.ticket_link}">bu sorğunun proqresini online görə bilərsiniz</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Sizin %{company.name} komanda,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Əgər siz əlavə şərhlər və ya məsələyə görə məlumatla təmin olunmaq istəyirsinizsə, xahiş edirik bu e-poçta cavab verin və ya dəstək təkliflərinizi tamamilə arxivləşdirmək üçün <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >hesabınıza daxil olun</span></a>.</em></div>

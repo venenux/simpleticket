@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Campo de Procura
+  content: >
+    
+advanced:
+  title: Avançado
+  content: >
+    Seja mais preciso nos parâmetros de pesquisa. Uma vez selecionados os critérios de pesquisa avançada e efetuada a pesquisa, pode <span class="doc-desc-title">Exportar</span> os resultados da mesma, no final da página de pedidos.
+open_tickets_table:
+  title: Tabela de Pedidos em Aberto
+  content: >
+    Todos os pedidos em aberto e a necessitar de atenção
+ticket:
+  title: Pedido
+  content: >
+    
+date:
+  title: Data
+  content: >
+    
+subject:
+  title: Assunto
+  content: >
+    
+from:
+  title: De
+  content: >
+    
+priority:
+  title: Prioridade
+  content: >
+    
+assigned_to:
+  title: Atribuído a
+  content: >
+    
+export:
+  title: Exportar
+  content: >
+    Exporte a informação visível para um ficheiro CSV. Os ficheiros CSV podem ser abertos com qualquer software de folhas de cálculo (p.e., Microsoft Excel, Apple Pages, OpenOffice, etc.).
+advanced_search_dialog:
+  title: Pesquisa avançada
+  content: >
+    
+adv_keyword:
+  title: Pesquisar por palavra-chave
+  content: >
+    Encontrar correspondências baseadas nos assuntos e corpos dos pedidos, assim como no conteúdo textual dos campos personalizados associados aos utilizadores e pedidos.
+adv_date_range:
+  title: Pesquisar por intervalo de datas
+  content: >
+    Definição aqui

@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: ទំព័រគំរូអ៊ីម៉ែល
+  content: >
+    ទំព័រគំរូអ៊ីម៉ែលត្រូវបានប្រើដើម្បីផ្ញើការឆ្លើយតបដោយស្វ័យប្រវត្តិនិងការជូនដំណឹងសម្រាប់សកម្មភាពនានាដែលមានក្នុងជីវិតសំបុត្រមួយ។
+template_to_clone:
+  title: ទំព័រគំរូកំណត់ដើម្បីក្លូន
+  content: >
+    ជ្រើសទំព័រគំរូកំណត់ដើម្បីក្លូនឬគ្រាន់តែចាប់ផ្តើមជាមួយពុម្ពអ៊ីម៉ែលភាគហ៊ុន។
+language:
+  title: ភាសា
+  content: >
+    ជ្រើសភាសាចង់សម្រាប់ <span class="doc-desc-opt">stock</span> <span class="doc-desc-title">Email Template Set</span>. កញ្ចប់ភាសាដែលអាចប្រើបាននៅលើ osTicket.com ។
+  links:
+    - 
+      title: កញ្ចប់ភាសា
+      href: 'http://osticket.com/download'
+status:
+  title: ស្ថានភាព
+  content: >
+    <span class="doc-desc-opt">Enabled</span> កំណត់ពុម្ពអាចរកបាននឹងត្រូវបានផ្សារភ្ជាប់ជាមួយនឹង Department និងកំណត់ទៅជាលំនាំដើមរបស់ប្រព័ន្ធ system default។  កំណត់ពុម្ពនៅក្នុងការប្រើប្រាស់មិនអាចជា <span class="doc-desc-opt">Disabled</span>.

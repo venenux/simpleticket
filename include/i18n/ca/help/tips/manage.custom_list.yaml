@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Llista personalitzada
+  content: >
+    Les seues <span class="doc-desc-title"> llistes personalitzades</span> li permetràn crear quadres desplegables amb opcions predefinides des d'on pot seleccionar un Client en el seus <span class="doc-desc-title"> Formularis personalitzats</span>. Si li agradaria utilitzar aquesta <span class="doc-desc-title"> llista personalitzada</span> com un <span class="doc-desc-title"> objectiu</span> en un <span class="doc-desc-title"> Filtre de Tickets</span>, assegure-se d'afegir aquesta llista als seua  forma de <span class="doc-desc-title"> Detalls de Ticket</span>.
+name:
+  title: Nom
+  content: >
+    
+plural_name:
+  title: Nom en plural
+  content: >
+    
+sort_order:
+  title: Criteri d'ordenació
+  content: >
+    
+list_s_initial_items:
+  title: Elements inicials de la llista
+  content: >
+    
+value:
+  title: Valor
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Abreviatures i tal. Si passa a utilitzar els codis interns per als elements d'aquesta llista, els codis i les abreviatures es poden introduir en aquesta columna. Si la llista personalitzada es representa com<span class="doc-desc-option"> TypeAhead</span>, aquestes abreviatures es poden utilitzar per buscar els elements de la llista personalitzada.

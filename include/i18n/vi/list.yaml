@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Tình trạng yêu cầu
+  name_plural: Trạng thái Ticket
+  sort_mode: SortCol
+  masks: 13
+  notes: Trạng thái Ticket
+  properties:
+    title: Thuộc tính trang thái Ticket
+    instructions: Thuộc tính có thể được đặt trên một trạng thái Ticket.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Trạng thái
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Trạng thái yêu cầu
+      - 
+        type: memo
+        name: description
+        label: Mô tả
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: 封装回复
+  content: >
+    创建<span class="doc-desc-title">封装回复</span>，此类回复可包含在咨询回复内。通过<span class="doc-desc-title">咨询筛选</span>设置，还可用作<span class="doc-desc-title">咨询自动回复</span>。
+  links:
+    - 
+      title: 设置咨询筛选
+      href: /scp/filters.php
+canned_attachments:
+  title: 封装附件
+  content: >
+    借助全新<span class="doc-desc-title">封装回复</span>功能，添加要自动列入咨询回复的文件。

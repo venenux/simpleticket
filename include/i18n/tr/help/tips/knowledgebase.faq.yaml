@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Listeleme türü
+  content: >
+    Ana kategorinin ortak olması halinde, bu <span class="doc-desc-title"> SSS</span>'nin ortak bilgi bankasında yayınlanmasını isterseniz <span class="doc-desc-opt">Ortak(yayımla)</span> seçeneğini seçiniz.
+  links:
+    - 
+      title: Ortak Bilgi Bankası Kullanımını Kullanıcılar İçin Etkinleştir
+      href: /scp/settings.php?t=kb

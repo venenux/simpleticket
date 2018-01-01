@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Adrese Email interzise
+  content: >
+    Emailuri primite de la adrese de email din lista de emailuri interzise vor fi automat respinse.

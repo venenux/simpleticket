@@ -1,0 +1,28 @@
+---
+notes: |
+  Gửi đến một người dùng khi một nhân viên thay mặt người dùng tạo ra một yêu cầu. Trường hợp này thường được thực hiện khi người dùng gọi điện thoại đến nhân viên.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Gửi%{recipient.name.first},</strong></h3>
+  Đội hỗ trợ khách hàng đã tạo ra một lệnh,<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>thay mặt bạn, với những chi tiết và tổng kết sau:
+  <br>
+  <br>
+  Đề mục:<strong>%{ticket.topic.name}</strong>
+  <br>
+  Tiêu đề:<strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Nếu cần thiết, một đại diện sẽ hỗ trợ bạn sớm nhất có thể. Bạn cũng có thể<a href="%{recipient.ticket_link}">xem quá trình thực hiện lệnh trực tuyến</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Đội của bạn%{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Nếu bạn muốn cung cấp thêm bình luận hay thông tin liên quan đến vấn đề này, hãy trả lời thư này hoặc<a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >đăng nhập vào tài khoản của bạn</span></a>để có được một kho lưu trữ hoàn chỉnh cho những yêu cầu hỗ trợ của bạn.</em></div>

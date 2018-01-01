@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: Email sablonok
+  content: >
+    Az email sablon készletek automatikus válaszok és figyelmeztetések küldésére használható a hibajegy élettartama alatt felmerülő műveletekkor.
+template_to_clone:
+  title: Sablon másolásra
+  content: >
+    Válasszon egy sablon készletet másolásra vagy kezdje el a munkát az alap sablonokkal.
+language:
+  title: Nyelv
+  content: >
+    Válassza ki a kívánt nyelvet az <span class="doc-desc-opt">alap</span> <span class="doc-desc-title">Email sablon készlet</span>hez. A nyelvi csomagok elérhetőek az osTicket.com weboldalon.
+  links:
+    - 
+      title: osTicket nyelvi csomagok
+      href: 'http://osticket.com/download'
+status:
+  title: Állapot
+  content: >
+    <span class="doc-desc-opt">Engedélyezett</span> sablon készletek hozzárendelhetőek részlegekhez és alapértelmezettként beállíthatóak. A használatban lévő sablon készleteket nem lehet <span class="doc-desc-opt">letiltani</span>.

@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Politika isteka zaporke
+  content: >
+    Unesite koliko često (u mjesecima) će djelatnici biti primorani promjeniti zaporku. Ukoliko je onemogučeno (postavljeno na  "Ne ističe"), zaporke neće zastarjevati.
+password_expiration_policy:
+  title: Politika isteka zaporke
+  content: >
+    Odredite koliko često će djelatnici morati mjenjati svoje zaporke. Ukoliko je onemogučeno (npr., <span class="doc-desc-opt">Nema isteka</span>), zaporke neće zastarjevati.
+allow_password_resets:
+  title: Dopustite poništavanje zaporki
+  content: >
+    Omogućite ovo ukoliko želite prikazati <span class="doc-desc-title">Zaboravljena zaporka</span> link na <span class="doc-desc-title">panelu za prijavu djelatnika</span> nakon neuspješne prijave.
+reset_token_expiration:
+  title: Prozor za poništavanje zaporke
+  content: >
+    Odredite vrijeme (u minutama) koliko će  <span class="doc-desc-title"> token za poništavanje zaporke</span> biti valjan. Kada djelatnik zatraži <span class="doc-desc-title">poništavanje zaporke</span>, bit će mu poslan email sa tokenom koji će mu omogučiti poništavanje zaporke.
+staff_session_timeout:
+  title: Dopušteno trajanje neaktivnosti djelatnika
+  content: >
+    Odredite maksimalno dopušteno vrijeme (u minutama) nakon čijeg isteka djelatnik će se morati ponovno prijaviti. <br><br> Ukoliko želite onemogučiti <span class="doc-desc-title">Dopušteno trajanje neaktivnosti djelatnika</span>, unesite 0.
+client_session_timeout:
+  title: Dopušteno trajanje neaktivnosti korisnika
+  content: >
+    Odredite maksimalno dopušteno vrijeme (u minutama) nakon čijeg isteka korisnik će se morati ponovno prijaviti. <br><br> Ukoliko želite onemogučiti <span class="doc-desc-title">Dopušteno trajanje neaktivnosti djelatnika</span>, unesite 0.
+bind_staff_session_to_ip:
+  title: Poveži djelatnikovu sesiju sa IP adresom
+  content: >
+    Omogućite ovo okoliko želite da djelatnik bude upamćen po svojoj IP adresi kod prijave. <br><br>Ova opcija nije preporučljiva za djelatnike koji koriste dinamičke IP adrese.
+registration_method:
+  title: Opcije registracije
+  content: >
+    <span class="doc-desc-title">Metoda registracije</span> i <span class="doc-desc-title">Potrebna registracija</span> se koriste zajedno radi konfiguriranja kako se korisnici registriraju i kako koriste tehničku podršku. Tablica u nastavku je sažetak kako te dvije postavke tumači sustav. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Potrebna registracija</th> <th>Metoda registracije</th> <th>Rezultat</th></tr> <tr><td>Ne</td><td>Javno</td> <td>Registracija je preporučena, ali nije neophodna za otvaranje nove kartice.</td></tr> <tr><td>Da</td><td>Javno</td> <td>Registracija i prijava potrebni su za otvaranje nove kartice</td></tr> <tr><td>Ne</td><td>Privatno</td> <td>Bilo tko može otvoriti novu karticu, ali samo djelatnici mogu registrirati račune</td></tr> <tr><td>Da</td><td>Privatno</td> <td>Korisnik pristupa samo uz pozivnicu</td></tr> <tr><td>Ne</td><td>Onemogučeno</td> <td>Nitko se ne može prijavit za račun, ali svatko može otvoriti novu karticu . <em>Ovako je osTicket funkcionirao prije verzije 1.9</em></td></tr> <tr><td>Da</td><td>Onemogućeno</td> <td>Onemogućiti nove kartice putem web portala</td></tr> </tbody></table>
+client_verify_email:
+  title: Zahtjevaj email verifikaciju
+  content: >
+    Onemogućite ovu opciju kako biste omogućili korisnicima izravan pristup putem "Provjeri status kartice" na stranici prijave. Ukoliko je omogućeno, (što je osnovna postavka),korisnici će primiti email sa linkom putem kojeg će moći provjeriti status kartice. <br><br> Onemogućavanje email verifikacije može omogućiti drugim ljudima (npr. suradnici na kartici) da oponašaju vlasnika kartice.

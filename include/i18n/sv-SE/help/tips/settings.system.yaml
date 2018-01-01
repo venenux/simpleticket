@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk Status
+  content: >
+    Om statusen ändras till <span class="doc-desc-opt">Offline</span>, så kommer kund-gränssnittet att inaktiveras. Detta påverkar dock inte den vanliga gränssnittet för supportpersonalen.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Denna URL är basen i din osTicket installationen. Det används i e-post meddelanden för att skicka slutanvändare tillbaka till din supportwebbplats.
+helpdesk_name_title:
+  title: Namn/Titel på Supportsidan
+  content: >
+    Detta är titeln som syns i webbläsarens flik/titelrad. Om supportsidan läggs in som bokmärke i webbläsaren så blir detta namnet på bokmärket.
+default_department:
+  title: Standard-Avdelning
+  content: >
+    Välj standard-<span class="doc-desc-title">Avdelning</span> för ärenden som inte automatiskt tilldelas en avdelning. <br/><br/> Ärenden kan tilldelas automatiskt baserat på Hjälp-rubrik, inkommande e-post och ärendefilter-inställningar.
+default_page_size:
+  title: Standard-Sidstorlek
+  content: >
+    Välj antal poster som visas per sida i supportpersonalens Ärendekö. Varje person i supportpersonalen kan också själv specificera en egen siffra för denna inställning i <span class="doc-desc-title">Mina inställningar</span>.
+default_log_level:
+  title: Standardnivå för Loggning
+  content: >
+    Bestäm minimalt antal problem som ska registreras i <span class="doc-desc-title">system-loggen</span>. <span class="doc-desc-opt">Debug</span> motsvarar lägsta allvarlighetsgraden, och <span class="doc-desc-opt">Error</span> motsvarar den högsta. Vill du till exempel se alla problem som uppstått i <span class="doc-desc-title">System-Loggen</span>, välj <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Rensa Logg-filerna
+  content: >
+    Ange hur länge du vill att <span class="doc-desc-title">System-loggarna</span> sparas, innan de raderas.
+default_name_formatting:
+  title: Standard-Namnformatering
+  content: >
+    Välj format för namn i systemet. E-postmallar använder dessa format för namn om inget annat format är angivet för variabeln.
+  links:
+    - 
+      title: E-postmall-variabler som stöds
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Alternativ för Datum &amp; tid
+  content: >
+    Följande inställningar reglerar Datum &amp; Tid-inställningar för Kunder. Du kan ändra hur dessa visas genom att använda PHP-datumforma-tecken. Datumen som visas nedan är resultatet för de olika tecknen.
+  links:
+    - 
+      title: Se PHP-datumformat-tabellen
+      href: 'http://www.php.net/manual/en/function.date.php'

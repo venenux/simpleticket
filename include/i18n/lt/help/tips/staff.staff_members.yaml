@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Personalas
+  content: >
+    Toliau pateiktoje lentelėje rodomi aukščiau esančio filtro rezultatai. Jei nėra pasirenkami atitinkami filtro nustatymai, tuomet rodomi visi<span class="doc-desc-title">Agentai</span>(Darbuotojai)<span class="doc-desc-title">Nariai</span> ir paskirstyti puslapiuose. Žiūrėkite žemiau esančius skyrius, kad naršytumėte per daugiau rezultatų.
+status:
+  title: Būsena
+  content: >
+    Bus rodoma ar<span class="doc-desc-title">Agentas</span> yra Užblokuotas, Aktyvus, ar Atyvus (Atostogauja).

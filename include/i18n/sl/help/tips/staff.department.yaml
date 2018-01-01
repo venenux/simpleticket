@@ -1,0 +1,70 @@
+---
+type:
+  title: Tip
+  content: >
+    Izberi<span class="doc-desc-opt">zasebno</span>če želiš maskirati pristojne za ta oddelek v portalu.
+    Dodatno, kadar je označeno<span class="doc-desc-opt">zasebno</span>, <span class="doc-desc-title">oddelčni podpis</span>ne bo prikazan v e-poštnem odgovoru.<br/><br/>Vsaj en oddelek mora biti označen kot <span class="doc-desc-opt">javno</span>
+email:
+  title: Email
+  content: >
+    Naslov e-pošte, ki se uporabi pri pošiljanju obvestil uporabnikom kadar agent odgovorja na zahtevo.
+template:
+  title: Zbirka Predlog
+  content: >
+    Osnutek <span class="doc-desc-title">e-pošte</span> za samodejne odgovore in opozorila &amp; opozorila za zahtevke poslane temu oddelku.
+  links:
+    - 
+      title: Urejaj Predloge
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Nivo zagotavljanja storitev-SLA za zahteve usmerjene na ta oddelek.
+  links:
+    - 
+      title: Upravljajte s sporazumi o ravni storitev
+      href: /scp/slas.php
+manager:
+  title: Vodja oddelka
+  content: >
+    Izberi <span class="doc-desc-title">vodjo</span>za ta oddelek.<br/><br/>Vodjem se lahko nastavi, da prejemajo posebna opozorila in da zahtevku odstranijo pristojnega agenta.
+  links:
+    - 
+      title: Upravljaj opozorila &amp; Opombe
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Opozorila&amp; opombe prejemnika
+  content: >
+    Izberi prejemnike za nastavljena <span class="doc-desc-title">opozorila &amp; opombe</span>.
+  links:
+    - 
+      title: Upravljaj opozorila&amp; opombe
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Omejitve pri dodelitvi zhtevka
+  content: >
+    Omogoči, da omejiš dodelitev nalog samo članom tega oddelka. Članstvo se lahko razširi na skupine, če <span class="doc-desc-title">prejemniki opozoril &amp; opomb </span> vključujejo člane skupin.
+auto_response_settings:
+  title: Nastavitve avtomatičnega odzivnika
+  content: >
+    Omogoča preglasitev globalnih nastavitev samodejnega odgovora za ta oddelek.
+new_ticket:
+  title: Samodejni-odgovor na nov zahtevek
+  content: >
+    Lahko onemogočiš samodejni odgovor uporabnikom ob kreiranju novega zahtevka, ki je preusmerjen temu oddelku.
+new_message:
+  title: Samodejni odgovor novega sporočila
+  content: >
+    Lahko onemogočiš samodejno potrditev uporabniku ob novo objavljenih sporočilih za zahtevke v tem oddelku.
+auto_response_email:
+  title: E-poštni samodejni odgovor
+  content: >
+    Izberi e-poštni naslov, iz katerega se pošilja e-pošta za ta oddelek.
+department_access:
+  title: Skupinski dostop
+  content: >
+    Dovoli agentom iz drugih oddelkov dostop do zahtevkov tega oddelka.
+department_signature:
+  title: Podpis oddelka
+  content: >
+    Podpis je na voljo, kot izbira za <span class="doc-desc-opt">javne</span>oddelke, na zahtevo agenta.

@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Talep Etkinliği
+  content: >
+    Grafik ve tablonun (Örn.  <span class="doc-desc-title">İstatistik</span>) güncellenmesi için bir tarih aralığı belirleyin. Grafik sistemdeki tüm verinin bir önizlemesini yansıtacaktır (Örn. Popülasyon). Fakat  <span class="doc-desc-title">İstatistik</span> tablosu üzerinde gezinerek daha dar bir konuya inebilirsiniz (Örn. Bölümler, Konular veya Personel). Ek olarak,  <span class="doc-desc-title">İstatistik</span> tablosunda görüntülenen tüm veriyi dışarıya aktarabilirsiniz.
+report_timeframe:
+  title: Rapor Zaman Aralığı
+  content: >
+    İstenilen veri örneği için,Tarih seçici ile bir başlangıç tarihini seçiniz. Daha sonra, bu tarihten veri örneğinizin genişliğini belirleyecek, bitiş tarihini seçiniz.
+statistics:
+  title: İstatistikler
+  content: >
+    İlgi duyulan konu belirli örnek verileri görüntülemek için ilgili sekmeyi tıklayarak gidin. Tablo içinde daireler nominal veri boyutunu temsil eder. Bu nedenle, daha büyük daha büyük belirli bir hücre içinde sayı bitişik daire-ecek var olmak.
+opened:
+  title: Açık
+  content: >
+    Bu, müşteriler tarafından değil de, kullanıcılar tarafından açılmış (örn., dahili açılmış) talepleri temsil eder.
+assigned:
+  title: Atanmış
+  content: >
+    Sistem, bir talep bir bölüm ya da temsilciye ister otomatik ister elle atanmış olsun tüm etkinlikleri takip eder. Otomatik atamalar Yönetim Panelinde <span class="doc-desc-title">Yardım Konuları</span> ve <span class="doc-desc-title">E-posta Filtreleri</span> için tanımlanmış ayarlara göre yapılır.
+overdue:
+  title: Süresi Aşmış
+  content: >
+    Bu SLA Planlarına göre atanmış , süresi ihlal etmiş taleplerin miktarıdır.
+closed:
+  title: Kapalı
+  content: >
+    Kapalı taleplerin sayısıdır.
+reopened:
+  title: Yeniden Açıldı
+  content: >
+    Kapalı durumdayken müşteri  yanıtladığında ya da bir Temsilci tarafından yeniden açılmış taleplerin sayısıdır.
+service_time:
+  title: Hizmet Süresi
+  content: >
+    <span class="doc-desc-title">Servis zamanı</span> talep açılışından başlayıp kapanışına kadar geçen süreyi tanımlar.<span class="doc-desc-title">Servis zamanı</span> sütunu belirlenen tarih aralığında talep başına ortalama geçen servis zamanı süresini saat olarak  ölçer.
+response_time:
+  title: Yanıt süresi
+  content: >
+    <span class="doc-desc-title">Yanıt Süresi</span> bir Kullanıcının yanıt yazması ile başlar ve Temsilcinin buna cevap vermesi ile biter. Bu ölçüme Kullanıcının ilk talebi oluşturması da dahildir. Bu da Kullanıcı ile yapılan her yazışmaya karşılık gelmektedir.

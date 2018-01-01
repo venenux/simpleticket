@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Suport
+  signature: Departamentul de suport
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Vânzări
+  signature: |
+    Vânzări şi retenție clienti
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Mentenanta
+  signature: |
+    Departamentul de mentenanta
+  ispublic: 0
+  group_membership: 0

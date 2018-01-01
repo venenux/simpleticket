@@ -1,0 +1,44 @@
+---
+new_ticket:
+  title: Tiket Baru
+  content: >
+    Aktifkan ini jika Anda ingin jawaban otomatis dikirim ke Pengguna pada tiket baru.
+  links:
+    - 
+      title: Template Jawaban Otomatis Tiket Baru
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Tiket Baru dari Staf
+  content: >
+    Pemberitahuan dikirim saat Agen membuat tiket atas nama Pengguna. Agen dapat menimpa ini saat membuat tiket baru.
+  links:
+    - 
+      title: Template Pemberitahuan Tiket Baru
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Konfirmasi Pesan Baru
+  content: >
+    Pemberitahuan konfirmasi dikirim ketika sebuah pesan baru ditambahkan ke tiket yang sudah ada.
+  links:
+    - 
+      title: Template Konfirmasi Pesan Baru
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Pemberitahuan Pesan Baru
+  content: >
+    Pesan broadcast diterima dari pengirim pesan kepada semua partisipan lain pada tiket.
+  links:
+    - 
+      title: Template Pemberitahuan Aktifitas Baru
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Pemberitahuan Melebihi Batas
+  content: >
+    Tiket ditolak pemberitahuan dikirim kepada Pengguna pada <span class="doc-desc-title">pelanggaran</span> Tiket Terbuka Maksimum.
+  links:
+    - 
+      title: Template Pemberitahuan Overlimit
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: Seting Maksimum Buka Tiket
+      href: /scp/settings?t=tickets

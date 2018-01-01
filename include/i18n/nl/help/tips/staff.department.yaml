@@ -1,0 +1,69 @@
+---
+type:
+  title: Type
+  content: >
+    Selecteer <span class="doc-desc-opt">Privé</span> als u de toewijzingen van deze Afdeling wil verbergen in het Gebruikersportaal. Bovendien zal de <span class="doc-desc-title">Afdelingshandtekening</span> niet getoond worden in de e-mail antwoorden. <br/><br/> Er moet tenminste één Afdeling <span class="doc-desc-opt">Publiek</span> zijn.
+email:
+  title: E-mail
+  content: >
+    E-mailadressen gebruikt om antwoorden te verzenden naar Gebruikers wanneer Verantwoordelijken Reacties geven op Tickets.
+template:
+  title: Sjabloon Set
+  content: >
+    E-mail <span class="doc-desc-title">Sjabloon Set</span> worden gebruikt voor Automatische-Reactie en Waarschuwingen &amp; Mededelingen voor Tickets die doorgestuurd worden naar deze Afdeling.
+  links:
+    - 
+      title: Sjablonen beheren
+      href: /scp/templates.php
+sla:
+  title: Service Level
+  content: >
+    Service Level voor Tickets doorgestuurd naar deze Afdeling.
+  links:
+    - 
+      title: Service Level beheren
+      href: /scp/slas.php
+manager:
+  title: Afdelingsbeheerder
+  content: >
+    Selecteer een <span class="doc-desc-title">Beheerder</span> voor deze afdeling. <br/><br/>Beheerders kunnen ingesteld worden om speciale waarschuwingen te ontvangen en ook rechten gegeven worden om Tickets te ontnemen.
+  links:
+    - 
+      title: Beheren van Waarschuwingen &amp; Mededelingen
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Ontvangers van Waarschuwingen &amp; Mededelingen
+  content: >
+    Selecteer de ontvangers voor de geconfigureerde <span class="doc-desc-title">Waarschuwingen &amp; Mededelingen</span>.
+  links:
+    - 
+      title: Configureer Waarschuwingen &amp; Mededelingen
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Beperkingen tot Ticket Toewijzing
+  content: >
+    Schakel dit in om tickets toewijzen mogelijk te maken voor enkel leden van deze Afdeling. Toegang tot de Afdeling kan uitgebreid worden met Groepen, als <span class="doc-desc-title">Groepslidmaatschap</span> ook is ingeschakeld.
+auto_response_settings:
+  title: Automatisch antwoord instellingen
+  content: >
+    Dit laat je toe om de globale instellingen van Automatisch antwoord te overschrijven voor deze afdeling.
+new_ticket:
+  title: Automatisch antwoord op nieuw ticket
+  content: >
+    Je kunt de Automatische Beantwoording van nieuw aangemaakte tickets in of uit schakelen.
+new_message:
+  title: Nieuw bericht automatisch antwoord
+  content: >
+    Je kunt het automatisch beantwoorden van nieuwe berichten in tickets uitschakelen voor deze afdeling.
+auto_response_email:
+  title: Auto-antwoord email
+  content: >
+    Voer het afzender-emailadres in voor automatische berichten die voor deze afdeling worden verstuurd.
+department_access:
+  title: Groep toegang
+  content: >
+    Geef agenten van andere afdeling toestemming om de tickets van deze afdeling te zien.
+department_signature:
+  title: Afdelings-handtekening
+  content: >
+    Een handtekening kan bij  <span class="doc-desc-opt">Publiekelijke</span> afdelingen door agenten optioneel gekozen worden.

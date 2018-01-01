@@ -1,0 +1,82 @@
+---
+number_format:
+  title: Formát čísla tiketu
+  content: >
+    Nastavuje generování čísel požadavků. Použijte znak  křížek (`#`) na místě číslic. Jakýkoli jiný text ve formátovacím řetězci zůstane zachován.  <span class="doc-desc-title">Druhy požadavků</span> mohou definovat vlastní číslování. <br/><br/>Například pro šestimístná čísla použijte  <code>######</code>.
+sequence_id:
+  title: Číslování požadavků
+  content: >
+    Zvolte číselnou řadu pro číslování požadavků. Ve výchozím stavu jsou v systému inkrementální a náhodné číslování. Počet číselných řad není omezen. Můžete použít různé číselné řady ve <span class="doc-desc-title">formátu čísla požadavku</span> pro různé druhy požadavků.
+default_ticket_status:
+  title: Výchozí stav pro nové Tickety
+  content: >
+    Zvolte výchozí stav pro nové požadavky. Může být definován zvlášť pro každý druh požadavku. Též může být změněn pomocí filtrování požadavků.
+  links:
+    - 
+      title: Správa stavů požadavků
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Výchozí SLA
+  content: >
+    Zvolte výchozí SLA určující, jak dlouho zůstane požadavek otevřen než bude označen jako zmeškaný.
+  links:
+    - 
+      title: Správa plánů SLA
+      href: /scp/slas.php
+default_priority:
+  title: Výchozí priorita
+  content: >
+    Zvolte výchozí <span class="doc-desc-title">prioritu</span> pro požadavky bez priority nastavené automaticky. <br/><br/> Priorita může být přiřazena dle druhu požadavku, směrování na oddělení nebo nastavením filtrováním požadavků.
+maximum_open_tickets:
+  title: Maximální počet otevřených ticketů
+  content: >
+    Zadejte maximální <em>počet</em> požadavků, které může uživatel na helpdesku mít současně <strong>otevřen</strong>. <br><br> Vložte <span class="doc-desc-opt">0 </span> pro možnost bez omezení.
+agent_collision_avoidance:
+  title: Zamykání požadavků
+  content: >
+    Zadejte maximální čas po který může agent mít uzamčen požadavek bez jakékoliv aktivity.
+    <br><br> Vložte <span class="doc-desc-opt">0</span> pokud nechcete požadavky automaticky odemykat.
+email_ticket_priority:
+  title: Priorita ticketů založených z e-mailu
+  content: >
+    Použití příznaku priority z došlého emailu
+show_related_tickets:
+  title: Zobrazit související tickety
+  content: >
+    Zobrazí při přihlášení uživatele všechny jeho požadavky - jinak je přístup omezen pouze na jeden požadavek na jedno přihlášení
+human_verification:
+  title: Verifikace člověka
+  content: >
+    Zapne CAPTCHA v Klientském portálu pro ověření jestli je příchozí tiket výsledkem lidské aktivity.<br><br>Vyžaduje GDLib knihovnu
+claim_tickets:
+  title: Převzetí požadavku na základě odpovědi
+  content: >
+    Povolte pro automatické přiřazení nepřiřazených požadavků agentovi, který na ně odpověděl. <br><br> Znovuotevřené požadavky jsou vždy přiřazeny tomu, kdo naposledy odpověděl.
+assigned_tickets:
+  title: Přiřazené tickety
+  content: >
+    Povolte pro vyloučení přiřazených požadavků ze  <span class="doc-desc-title">seznamu otevřených požadavků</span>.
+answered_tickets:
+  title: Zodpovězené požadavky
+  content: >
+    Volba pro zobrazení zodpovězených požadavků v <span class="doc-desc-title">seznamu zodpovězených požadavků</span>. Jinak budou tyto požadavky zahrnuty v <span class="doc-desc-title">seznamu otevřených požadavků</span>.
+staff_identity_masking:
+  title: Skrytí identity zaměstnance
+  content: >
+    Volba pro skrytí jména pracovníka během komunikace.
+enable_html_ticket_thread:
+  title: Povolit formátovaný text pro vlákno požadavku
+  content: >
+    Volba pro použití formátovaného textu v komunikaci mezi agentem a klienty.
+ticket_attachment_settings:
+  title: Nastavení příloh požadavků
+  content: >
+    Nastavení příloh vkládaných do pole <span class="doc-desc-title">podrobnosti o problému</span>. Tato nastavení jsou použita pro všechny nové požadavky a zprávy nezávisle na jejich zdroji (zákaznický portál, e-mail, API atd.).
+max_file_size:
+  title: Maximální velikost souboru
+  content: >
+    Vyberte maximální velikost přílohy vložené zaměstnancem. Zahrnuje předpřipravené odpovědi, články báze znalostí a přílohy v odpovědích na požadavky.
+ticket_response_files:
+  title: Přílohy v odpovědi na požadavek
+  content: >
+    Volba pro přiložení všech příloh vložené zaměstnancem v odpovědi na požadavek do e-mailu zaslanému zákazníkovi.

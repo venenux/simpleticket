@@ -1,0 +1,17 @@
+---
+email_templates:
+  title: Емаил шаблони
+  content: Шаблоите се користат за испраќање на автоматски одговори и известување за различни ситуации кои можат да се случат за време додека тикетот е отворен.
+template_to_clone:
+  title: Шаблон за клонирање
+  content: Одберете шаблон кој сакате да го клонирате или едноставно започенете со еден од спремените шаблони.
+language:
+  title: Јазик
+  content: 'Изберете го саканиот јазик за <span class="doc-desc-opt">залихи</span> <span class="doc-desc-title">Email Template Set</span>. Јазичните пакети се достапни на osTicket.com.'
+  links:
+    - 
+      title: osTicket Language Packs
+      href: http://osticket.com/download
+status:
+  title: Статус
+  content: '<span class="doc-desc-opt">Овозможено</span> Шаблонот може да се поврзе со одделите и да се постави како основен во системот. Предлозите кои моментално се користат не можат да се  Predlošci koji se trenutno koriste ne mogu se <span class="doc-desc-opt">Оневозможат</span>.'

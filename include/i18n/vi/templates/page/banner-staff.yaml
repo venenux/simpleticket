@@ -1,0 +1,5 @@
+---
+notes: >
+  Đây là nơi nhập nội dung text và banner hiển thị trên trang  đăng nhập của nhân viên. Field đầu tiên là nội dung text, sẽ được hiển thị màu đỏ ở đầu trang. Field thứ hai là nội dung banner dùng để cảnh báo.
+name: "Yêu cầu đăng nhập để xác thực tài khoản"
+body: ""

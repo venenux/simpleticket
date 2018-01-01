@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Pengaturan basis pengetahuan
+  content: >
+    
+knowledge_base_status:
+  title: Status basis pengetahuan
+  content: >
+    Aktifkan pengaturan ini untuk memungkinkan akses layanan mandiri kepada pengguna dalam basis pengetahuan. <br><br> Kategori basis pengetahuan dan tanya jawab bisa dibuat di dalam (hanya bisa dilihat oleh agen).
+  links:
+    - 
+      title: Kelola Basis Pengetahuan
+      href: /scp/kb.php
+restrict_kb:
+  title: Batasi akses ke Knowlegde Base
+  content: >
+    Aktifkan aturan ini untuk mencegah akses Knowlegde Base oleh pengguna yang tidak terdaftar.
+  links:
+    - 
+      title: Pengaturan Akses Kontrol
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Respon Tersimpan
+  content: >
+    Aktifkan pengaturan ini untuk mengijinkan Agen untuk menggunakan <span class="doc-desc-title">Respon Tersimpan</span> ketika membalas tiket.
+  links:
+    - 
+      title: Atur Daftar Sedia Response
+      href: /scp/canned.php

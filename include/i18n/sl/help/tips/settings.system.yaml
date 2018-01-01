@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Stanje helpdeska
+  content: >
+    Če je status nastavljen na: <span class="doc-desc-opt">Offline</span>, bo vmesnik za uporabnike onemogočen. Vmesnik za agente bo pa vseeno ostal aktiven.
+helpdesk_url:
+  title: Helpdesk naslov
+  content: >
+    TaURL je osnova vaše osTicket namestitve. Uporablja se v vsej komunikaciji preko e-pošte.
+helpdesk_name_title:
+  title: Naziv helpdesk
+  content: >
+    To je naslov, ki je prikazan v zavihku brskalnika. Če je stran dodana kot zaznamek bo to prikazano tudi v imenu strani.
+default_department:
+  title: Privzet oddelek
+  content: >
+    Izberite privzeti <span class="doc-desc-title">oddelek</span> za zahtevke ki niso samodejno preusmerjeni. <br/><br/> Zahtevki so lahko preusmejeni na podlagi nalsova, vhodne pošte ali nastavitve filtrov.
+default_page_size:
+  title: Privzeta velikost strani
+  content: >
+    Izberite število predmatov v čakalni vrsti zahtevkov na vmasniku za agente. Vsak agent si lahko prilagodi svoj prikaz pod: <span class="doc-desc-title">My Preferences</span>.
+default_log_level:
+  title: Privzet log level
+  content: >
+    Determine the minimum level of issues which will be recorded in the <span class="doc-desc-title">system log</span>. <span class="doc-desc-opt">Debug</span> represents the least severity, and <span class="doc-desc-opt">Error</span> represents the greatest severity. For example, if you want to see all issues in the <span class="doc-desc-title">System Logs</span>, choose <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Izbriši zapise
+  content: >
+    Izberite koliko časa želite hraniti<span class="doc-desc-title">System Logs</span> preden bodo izbrisani.
+default_name_formatting:
+  title: Privzeto oblikovanje imena
+  content: >
+    Choose a format for names throughout the system. Email templates will use it for names if no other format is specified in the variable.
+  links:
+    - 
+      title: Supported Email Template Variables
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Date &amp; Time Options
+  content: >
+    The following settings define the Date &amp; Time settings for Clients. You can change how these appear by following the PHP date format characters. The dates shown below simply illustrate the result of their corresponding values.
+  links:
+    - 
+      title: See the PHP Date Formatting Table
+      href: 'http://www.php.net/manual/en/function.date.php'

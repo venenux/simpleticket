@@ -1,0 +1,6 @@
+---
+notes: |
+  Takk siden vises i kundeportalen når en bruker har laget ny sak via kundeportalen.
+name: Takk
+body: |
+  <div>%{ticket.name}}, <br><br>Takk for din henvendels. <br><br>En sak er opprettet og en representant vil komme tilbake til deg innen kort tid.</p> <br><br>Støtte avdelingen</div>

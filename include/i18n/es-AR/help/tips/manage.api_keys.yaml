@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Clave API
+  content: >
+    Las claves API  se utilizan para autenticar a los clientes enviándoles nuevos Tickets vía la interfaz de programación de aplicaciones (API). Las claves API se utilizan en el lugar de las contraseñas. Puesto que las claves API pueden enviarse sin cifrar, están vinculadas a la dirección IP de red de cada cliente.
+  links:
+    - 
+      title: Documentación API del osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Dirección IP
+  content: >
+    Dirección IP de red del cliente. Cada dirección IP de cliente única requerirá claves API separadas

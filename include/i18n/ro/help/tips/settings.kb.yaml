@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Setări pentru Baza de cunoștințe
+  content: >
+    
+knowledge_base_status:
+  title: Stare Bază de cunoștințe
+  content: >
+    Activează pentru a permite utilizatorilor acces autonom la articolele din baza de cunoștințe publică.<br><br>Categoriile bazei de cunoștințe și FAQ-urile pot fi făcute interne (vizibile doar Agenților).
+  links:
+    - 
+      title: Adminstrare Baza de cunoștințe
+      href: /scp/kb.php
+restrict_kb:
+  title: Restricţionează accesul la Baza de cunoştinţe
+  content: >
+    Activează aceste setări pentru a preveni accesul utilizatorilor neînregistraţi la Baza de cunoştinţe în interfaţa Client 
+  links:
+    - 
+      title: Setările pentru controlul accesului
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Raspunsuri predefinite
+  content: >
+    Activează această setare pentru a permite Agenților să utilizeze <span class="doc-desc-title">Răspunsuri predefinite</span> când răspund la tichete.
+  links:
+    - 
+      title: Administreaza raspunsuri predefinite
+      href: /scp/canned.php

@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Тусгай жагсаалт
+  content: >
+    Таны урьдчилан оруулсан сонголт бүхий <span class="doc-desc-title">тусгай жагсаалтаас</span> хэрэглэгч <span class="doc-desc-title">Тусгай Форм</span> хэсэгт сонголт хийнэ. Хэрвээ та энэ <span class="doc-desc-title">тусгай жагсаалтыг</span> <span class="doc-desc-title">хүсэлтийн шүүлтүүр</span> хэсэгт <span class="doc-desc-title">үр дүн</span> болгохыг хүсвэл <span class="doc-desc-title">Хүсэлтийн форм</span> хэсэгт нэмэх шаардлагатай.
+name:
+  title: Нэр
+  content: >
+    
+plural_name:
+  title: Нэр, олон тоон дээр
+  content: >
+    
+sort_order:
+  title: Эрэмбэ
+  content: >
+    
+list_s_initial_items:
+  title: Жагсаалтын анхны зүйлүүд
+  content: >
+    
+value:
+  title: Утга
+  content: >
+    
+extra:
+  title: Нэмэлт
+  content: >
+    Товчлол ашиглах бол энэ багананд оруулна. Хэрвээ тусгай жагсаалтын төрөл нь <span class="doc-desc-option"> TypeAhead</span> гэж заагдсан бол эдгээр товчлолоор хайлт хийх боломжтой.

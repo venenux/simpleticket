@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: 電子郵件範本
+  content: >
+    一張票上的保留期期間上可用於套用範本集的電子郵件、自動發送回應和警報的各種操作。
+template_to_clone:
+  title: 複製範本
+  content: >
+    開始現有的電子郵件範本集、您可以選擇複製範本組合或是簡易範本。
+language:
+  title: 語言
+  content: >
+    選用您所適用的語言 <span class="doc-desc-opt"> 現有 </span> <span class="doc-desc-title">電子郵件範本集</span>。 語言包可在osTicket.com上找到。
+  links:
+    - 
+      title: osTicket 語言包
+      href: 'http://osticket.com/download'
+status:
+  title: 狀態
+  content: >
+    <span class="doc-desc-opt"> 已啟用</span>範本集，可與部門聯結，並可設置為系統的預設設置。範本集目前正在使用不能為 <span class="doc-desc-opt"> 已禁用</span>。

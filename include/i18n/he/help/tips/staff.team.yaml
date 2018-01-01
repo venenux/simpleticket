@@ -1,0 +1,33 @@
+---
+teams:
+  title: צוותים
+  content: >
+    צוותים הם אחד או נציגים צוותו יחד למטרת השמת הקריאה. חברות הצוות מוחלים לאורך גבולות המחלקה.
+status:
+  title: סטטוס
+  content: >
+    אם <span class="doc-desc-opt">מנוטרל</span>, צוות זה לא יושם לקריאות או יקבל התראות &amp;, יעודכן על קריאות קודמות.
+lead:
+  title: ראש צוות
+  content: >
+    <span class="doc-desc-title">צוות</span> יכול לבחור מנהל שיוכל לקבל <span class="doc-desc-title">התראות&amp;, הודעות</span> בנפרד מהמשתתפים.
+  links:
+    - 
+      title: קביעת תצורה של התראות &amp; הודעות
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: התראת השמה
+  content: >
+    אתה יכול להשבית <span class="doc-desc-title">התראת השמת קריאה</span> להשמת קריאות עבור צוות זה.
+  links:
+    - 
+      title: קביעת תצורה של התראות &amp; הודעות
+      href: /scp/settings.php?t=alerts
+members:
+  title: חברי הצוות
+  content: >
+    חברות בצוות מוגדרת באמצעות פרופיל נציג .
+  links:
+    - 
+      title: ניהול צוות
+      href: /scp/staff.php

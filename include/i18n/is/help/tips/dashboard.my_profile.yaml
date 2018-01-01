@@ -1,0 +1,51 @@
+---
+contact_information:
+  title: Upplýsingar um tengilið
+  content: ""
+username:
+  title: Notendanafn
+  content: 'Only those Agents with Admin status may change a username. If you are an Agent with Admin privileges, you may accomplish this by selecting an Agent to edit from the <span class="doc-desc-title">Staff Members</span> table.'
+  links:
+    - 
+      title: Breyta notendanafni sem Stjórnandi
+      href: /scp/staff.php
+time_zone:
+  title: Tímabelti
+  content: ""
+daylight_saving:
+  title: Sumartími
+  content: ""
+maximum_page_size:
+  title: Maximum Page Size
+  content: ""
+auto_refresh_rate:
+  title: Auto Refresh Rate
+  content: ""
+default_signature:
+  title: Sjálfgefin undirskrift
+  content: ""
+default_paper_size:
+  title: Sjálfgefin pappírsstærð
+  content: ""
+show_assigned_tickets:
+  title: Sýna úthlutaðar beðnir
+  content: 'Enable this to hide your name from the <span class="doc-desc-title">Open Tickets</span> queue for those tickets which you have been assigned. Upon hiding, the <span class="doc-desc-title">Department</span> name to which you belong will replace where your name would normally be displayed.'
+password:
+  title: Lykilorð
+  content: ""
+current_password:
+  title: Núverandi lykilorð
+  content: ""
+new_password:
+  title: Nýtt lykilorð
+  content: ""
+confirm_new_password:
+  title: Staðfesta nýtt lykilorð
+  content: ""
+signature:
+  title: Undirskrift
+  content: 'Create an optional <span class="doc-desc-title">Signature</span> that perhaps appears at the end of your Ticket Responses. Whether this <span class="doc-desc-title">Signature</span> appears, or not, depends on the <span class="doc-desc-title">Email Template</span> that will be used in a Ticket Response.'
+  links:
+    - 
+      title: Create Emails Templates in the Admin Panel
+      href: /scp/templates.php

@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Informasi Perusahaan
+  content: >
+    Hal ini mengacu pada perusahaan atau organisasi yang akan mendapatkan keuntungan dari aplikasi osTicket dan staf pendukungnya. Informasi disini akan nampak pada signature email (misalnya, pada footer) ketika tiket dijawab oleh agen.
+  links:
+    - 
+      title: Formulir informasi perusahaan
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Halaman Landing
+  content: >
+    <span class="doc-desc-title">Halaman Landing</span> ditampilkan pada halaman depan dari situs dukungan Anda.
+offline_page:
+  title: Halaman Luring
+  content: >
+    <span class="doc-desc-title">Halaman Luring</span> ditampilkan pada situs dukunga ketika help desk luring, lihat Panel Admin -&gt; Pengaturan -&gt; Sistem -&gt; Status Helpdesk.
+default_thank_you_page:
+  title: Halaman Default Terima Kasih
+  content: >
+    <span class="doc-desc-title">Halaman Terima Kasih</span> ditampilkan untuk pelanggan ketika seorang <span class="doc-desc-title">Klien</span> mengirim sebuah tiket baru. <br/><br/> Halaman <span class="doc-desc-title">Terima Kasih</span> dapat diasosiakan dengan topik bantuan.
+logos:
+  title: Logo
+  content: >
+    Anda dapat melakukan kustomisasi <span class="doc-desc-title">Logo</span> yang akan ditampikan kepada Pelanggan pada Portal Pelanggan (misalnya, Site Dukungan Anda).
+upload_a_new_logo:
+  title: Unggah logo baru
+  content: >
+    Pilih citra dalam format .gif, .jpg atau .png. Kami akan mengubah ukuran secara proposional pada tampilan citra Anda. Tetapi bagaimanapun, kami tidak melakukan perubahan pada data citranya. Untuk mempercepat waktu muat, direkomendasikan Anda untuk menjaga citra Anda mendekati ukuran default citra (817px &times; 170px).

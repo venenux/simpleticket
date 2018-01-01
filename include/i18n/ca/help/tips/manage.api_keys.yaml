@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Clau d'API
+  content: >
+    Claus d'API són utilitzades per autenticar clients  presentant nous Tickets mitjançant l'aplicació de programació interfície (API). Claus API s'utilitzen en comptes de contrasenyes. Des de que les claus de API poden ser enviades sense xifrar, estan lligades a l'adreça d'IP de xarxa de cada client.
+  links:
+    - 
+      title: Documentació de API osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Adreça IP
+  content: >
+    Adreça d'IP del client a la xarxa. Cada adreça única d'IP de client requerirà claus API separades

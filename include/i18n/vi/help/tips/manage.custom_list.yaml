@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Danh sách tùy thích
+  content: >
+    <span class="doc-desc-title">Danh sách tùy thích của bạn</span>sẽ cho phép bạn tạo một hộp thả với những lựa chọn định sẵn mà một khách hàng có thể chọn<span class="doc-desc-title"> trong hình thức tùy chỉnh của bạn</span>như một<span class="doc-desc-title">mục tiêu</span>trong một<span class="doc-desc-title">Bộ lọc lệnh</span>, đảm bảo chắc chắn thêm danh sách này vào<span class="doc-desc-title">Biểu mẫu chi tiết lệnh của bạn</span>
+name:
+  title: Tên
+  content: >
+    
+plural_name:
+  title: Tên số nhiều
+  content: >
+    
+sort_order:
+  title: Thứ tự các loại
+  content: >
+    
+list_s_initial_items:
+  title: Hạng mục ban đầu của danh sách
+  content: >
+    
+value:
+  title: Giá trị
+  content: >
+    
+extra:
+  title: Phần bổ sung
+  content: >
+    Từ viết tắt,... Nếu bạn phải sử dụng các mã nội bộ cho các hạng mục trong danh sách này, những mã và từ viết tắt này có thể được nhập vào cột này. Nếu danh sách tùy thích được viết theo<span class="doc-desc-option">bộ gõ trước</span>, những từ viết tắt này có thể được sử dụng để tìm kiếm các hạng mục danh sách tùy thích.

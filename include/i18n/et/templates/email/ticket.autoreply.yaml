@@ -1,0 +1,26 @@
+---
+notes: |
+  Saadetakse kasutajale, kui pöördumine on registreeritud ja sellele on lisatud ettevalmistatud vastus.
+  
+  Muutujad, mida saab asendada: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Lugupeetud %{recipient.name.first}</strong></h3>
+  Teie pöördumine on registreeritud <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> Järgnev on automaatne vastus
+  <br>
+  <br>
+  Pealkiri: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Teema: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Teie  %{company.name} meeskond<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Loodame, et see oli vastus Teie küsimusele. Kui soovite lisada infot või kommentaare, siis palun vastake sellele e-kirjale või <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >logige sisse</span></a>, et näha kõiki oma registreeritud pöördumisi</em></div>

@@ -1,0 +1,25 @@
+---
+knowledge_base_settings:
+  title: ナレッジベース設定
+  content: ""
+knowledge_base_status:
+  title: ナレッジベースステータス
+  content: 'パブリックナレッジベースの記事にユーザーが自分でアクセスできるようにするには、この設定を有効にします。 <br><br> ナレッジベースのカテゴリとFAQは内部用 (エージェントのみが表示可能) に設定できます。'
+  links:
+    - 
+      title: ナレッジベースの管理
+      href: /scp/kb.php
+restrict_kb:
+  title: ナレッジベースへのアクセスを制限
+  content: クライアント・インタフェース上のナレッジベースの記事へ未登録ユーザーのアクセスを制限するために、この設定を有効にします。
+  links:
+    - 
+      title: アクセスコントロール設定
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Canned Response
+  content: 'エージェントがチケットに返信するときに<span class="doc-desc-title">Canned Response</span>を使用できるようにするには、この設定を有効にします。'
+  links:
+    - 
+      title: Canned Responsesの管理
+      href: /scp/canned.php

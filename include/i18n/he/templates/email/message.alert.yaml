@@ -1,0 +1,42 @@
+---
+notes: |
+  נשלחת לחברי הצוות כאשר המשתמש כותב תגובה חדשה בפנייה. זה קורה כאשר המשתמש עונה להודעת דוא"ל מהמערכת או כאשר הוא מבקר בפורטל הלקוחות ומוסיף תגובה חדשה משם.
+subject: |
+  התראה על הודעה חדשה
+body: |2
+  <h3><strong>שלום %{recipient.name},</strong></h3>
+  התקבלה הודעה חדשה עבור פניה <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>מאת</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>מחלקה</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>על מנת לצפות או להגיב להודעה, יש <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >להיכנס</span></a> למערכת התמיכה</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">מערכת התמיכה הידידותית שלך</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

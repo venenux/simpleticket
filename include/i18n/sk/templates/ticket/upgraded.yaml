@@ -1,0 +1,20 @@
+---
+source: Web
+name: osTicket podpora
+email: support@osticket.com
+subject: osTicket bol aktualizovaný!
+message: |
+  <p>
+  osTicket bol úspešne aktualizovaný! Ďalšie informácie o zmenách a nových funkciách nájdete v poznámkach (http://osticket.com/wiki/Release_Notes).
+  </p> <p>
+  Nezabudnite sa pripojiť k <a href="http://osticket.com/forums"> osTicket
+  fóre </a> a pridať Váš e-mail do <a href="http://osticket.com/updates"> zoznamu </a> pre získanie aktuálnych oznámení, bezpečnostných aktualizácií a upozornení! Privítame Vašu aktívnu účasť na budovaní osTicket komunity!
+  </p> <p>
+  Tím osTicket je pripravený poskytovať podporu všetkým užívateľom prostredníctvom našich bezplatných informačných zdrojov a celej škály podporných balíčkov a služieb prevádzkovaných na komerčnej báze. Pre ďalšie informácie nás prosím kontaktujte na http://osticket.com/support/. Vítame akúkoľvek spätnú väzbu!
+  </p> <p>
+  Ak si nie ste istí inštaláciou a správou skriptu, môžete využiť prenájom osTicket systému na http://www.supportsystem.com/ - žiadne aktualizácie, môžeme importovať Vaše dáta! Na základnej infrastruktúre SupportSystem získate všetky funkcie osTicket systému a budete sa môcť zamerať iba na Vašich zákazníkov, pretože aplikácia je stabilná, udržiavaná a bezpečná.
+  </p> <p>
+  - <br/>
+  osTicket tím <br/>
+  http://osticket.com/
+  </p>

@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Поддръжка
+  signature: Отдел поддръжка
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Продажби
+  signature: |
+    Продажби и задържане на клиенти
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Техническа поддръжка
+  signature: |
+    Отдел техническа поддръжка
+  ispublic: 0
+  group_membership: 0

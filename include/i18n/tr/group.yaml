@@ -1,0 +1,57 @@
+---
+- 
+  isactive: 1
+  name: Aslan Terbiyecileri
+  notes: Sistem Denetmenleri. Bu kişiler (başlangıçta) erişimleri olan tüm bölümleri kontrol ederler.
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 1
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  isactive: 1
+  name: Fil Yürütücüleri
+  notes: |
+    Fildişi kule sakinleri
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 1
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  isactive: 1
+  name: Pire Eğitmenleri
+  notes: |
+    Alt düzey yöneticiler
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 0
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3

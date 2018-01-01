@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk Status
+  content: >
+    Wenn der Status zu <span class="doc-desc-opt">Offline</span> geändert wird, ist das Benutzerportal deaktiviert.  Dies betrifft jedoch keine normale Agenten-Interaktion mit dem Agenten-Bereich.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Diese URL ist die Basis Ihrer osTicket Installation. Diese wird in der E-Mail-Kommunikation verwendet, um Benutzer zurück zu Ihrem Helpdesk zu leiten.
+helpdesk_name_title:
+  title: Helpdesk Name/Titel
+  content: >
+    Dies ist der Titel, der auf der Registerkarte im Browser angezeigt wird. Wenn die Helpdesk Seite als Lesezeichen gespeichert wird, wird dieser Name/Titel verwendet.
+default_department:
+  title: Standard-Abteilung
+  content: >
+    Wählen Sie eine Standard-<span class="doc-desc-title">Abteilung</span> für Tickets, die nicht automatisch zu einer Abteilung weitergeleitet werden. <br/><br/> Das Ticket kann weitergeleitet werden basierend auf dem Hilfethema, der eingehenden E-Mail-Adresse und den Ticket-Filter-Einstellungen.
+default_page_size:
+  title: Standard-Seitengröße
+  content: >
+    Wählen Sie die Anzahl der Elemente pro Seite, die in den Ticket-Übersichtsseiten im Agenten-Bereich angezeigt werden sollen. Jeder Agent kann diese Anzahl unter <span class="doc-desc-title">Meine Einstellungen</span> selbst anpassen.
+default_log_level:
+  title: Standard-Log-Level
+  content: >
+    Bestimmen Sie das Mindest-Level für Ereignisse, die im <span class="doc-desc-title">System-Log</span> aufgezeichnet werden. <span class="doc-desc-opt">Debug</span> stellt den geringsten und <span class="doc-desc-opt">Fehler</span> größten Schweregrad dar. Wenn Sie beispielsweise alle Ereignisse in den <span class="doc-desc-title">System-Logs</span> anzeigen wollen, wählen Sie <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Logs löschen
+  content: >
+    Legen Sie fest, wie lange die <span class="doc-desc-title">System-Logs</span> aufbewahrt werden sollen, bevor sie gelöscht werden.
+default_name_formatting:
+  title: Standard-Formatierung für Namen
+  content: >
+    Wählen Sie ein Namensformat, welches für das ganze System gilt. In E-Mail-Vorlagen wird es bei dem Namen verwendet, falls kein anderes Format in der Variable festgelegt wurde.
+  links:
+    - 
+      title: Unterstützte E-Mail-Vorlagen-Variablen
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Datums- und Zeitoptionen
+  content: >
+    Die folgenden Einstellungen definieren die Datums- &amp; Zeiteinstellungen für die Benutzer. Sie können ändern wie sie dargestellt werden, indem Sie den PHP-Datumsformatierungszeichen folgen. Die folgenden Datumsangaben verdeutlichen die Ergebnisse aus ihren korrespondierenden Werten.
+  links:
+    - 
+      title: PHP-Datumsformate anzeigen
+      href: 'http://www.php.net/manual/de/function.date.php'

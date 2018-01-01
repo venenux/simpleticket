@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: E-Mail-Versand testen
+  content: >
+    Die E-Mail-Zustellung hängt von der Serverkonfiguration (php.ini) und/oder der SMTP-Konfiguration ab.
+  links:
+    - 
+      title: E-Mail-Adresse auswählen, um die (ausgehenden) SMTP-Einstellungen zu konfigurieren
+      href: /scp/emails.php
+from:
+  title: Von
+  content: >
+    
+to:
+  title: An
+  content: >
+    
+subject:
+  title: Betreff
+  content: >
+    
+message:
+  title: Nachricht
+  content: >
+    

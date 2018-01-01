@@ -1,0 +1,11 @@
+---
+type:
+  title: Jenis
+  content: >
+    Jika Tipe Department adalah Private, maka Signature Department tidak akan tersedia 
+    pada respon dan tidak akan menunjukkan tugas departemen dari Portal Klien.
+dept_manager:
+  title: Pengelola Departemen
+  content: >
+    Anda bisa memilih suatu Agen sebagai seorang Manajer Departmen untuk menerima Alert & Pemberitahuan tiket pada departmen.
+  0: Agen tidak harus menjadi anggota dari Departemen untuk menjadi Manajer Departemen

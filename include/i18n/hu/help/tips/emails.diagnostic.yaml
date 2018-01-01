@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Kimenő email tesztelése
+  content: >
+    Az emailek kézbesítése függ a szerver beállításoktól (php.ini) és/vagy az SMTP beállításoktól.
+  links:
+    - 
+      title: Az SMTP (kimenő) beállításokhoz válasszon ki egy email címet
+      href: /scp/emails.php
+from:
+  title: Feladó
+  content: >
+    
+to:
+  title: Címzett
+  content: >
+    
+subject:
+  title: Tárgy
+  content: >
+    
+message:
+  title: Üzenet
+  content: >
+    

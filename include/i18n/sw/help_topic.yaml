@@ -1,0 +1,33 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Utafiti Jumla
+  notes: Maswali kuhusu bidhaa au huduma
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Maoni
+  notes: Tiketi ambazo kihalisi inahusu idara ya mauzo na malipo
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Repoti tatizo
+  notes: Bidhaa, huduma, au maswali inayohusu vifaa
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Kupata suala
+  notes: Ripoti kutoweza kupata mali ya kimwili au ya pepe

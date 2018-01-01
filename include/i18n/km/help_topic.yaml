@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: ការសាកសួរទូទៅ
+  notes: សំណួរអំពីផលិតផលឬសេវា
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: មតិអ្នកប្រើ
+  notes: |
+    ករណីដែលជាចម្បងសម្រាប់ នាយកដ្ឋានលក់ Sale dept និងវិក័យប័ត្រ billing dept
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: រាយការណ៍បញ្ហា
+  notes: |
+    បញ្ហាដែលទាក់ទងនឹង ផលិតផល សេវាកម្ម ឬឧបករណ៍
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: បញ្ហាការតភ្ជាប់
+  notes: |
+    រាយការណ៍ពី អសមត្ថភាពក្នុងការតភ្ជាប់

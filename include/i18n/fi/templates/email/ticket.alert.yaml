@@ -1,0 +1,43 @@
+---
+notes: |
+  Lähetetään henkilöstön jäsenelle, kun uusi tiketti luodaan järjestelmään. Tämä
+  koskee tikettejä jotka luodaan käyttäen sähköpostia, portaalia tai APIa.
+subject: |
+  Uusi tiketti ilmoitus
+body: |
+  <h2>Terve %{recipient},</h2>
+  Uusi tiketti #%{ticket.number} on luotu
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Lähettäjä</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Osasto</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Nähdäksesi tai vastataksesi tikettiin, käytä <a
+  href="%{ticket.staff_link}">tätä kirjautumista</a> päästäksesi tukitikettijärjestelmään</div>
+  <em style="font-size: small">Ystävällisesti tukitikettijärjestelmä</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Käyttää osTicket-moottoria"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Szablon odpowiedzi
+  content: >
+    Utwórz <span class="doc-desc-title">Szablon odpowiedzi</span>, który może zostać użyty w odpowiedzi na zgłoszenie. Może też być wykorzystany jako <span class="doc-desc-title">Automatyczna odpowiedź</span> ustawiona w <span class="doc-desc-title">filtrze zgłoszeń</span>.
+  links:
+    - 
+      title: Ustawienia filtra zgłoszeń
+      href: /scp/filters.php
+canned_attachments:
+  title: Gotowe załączniki
+  content: >
+    Dołącz plik, który chcesz, aby był automatycznie uwzględniany w odpowiedzi na zgłoszenie, które wykorzystuje nowy <span class="doc-desc-title"> Szablon odpowiedzi</span>.

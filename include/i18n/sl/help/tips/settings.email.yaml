@@ -1,0 +1,77 @@
+---
+default_email_templates:
+  title: Privzeta predloga za paket sporočil
+  content: >
+    Izberi<span class="doc-desc-title">E-poštni sklop predlog</span>uprabljene za pošiljanje <span class="doc-desc-title">Auto-odgovori</span>in<span class="doc-desc-title">opozorila</span>za razne akcije, ki se lahko zgodijo v času zahtevka.<br><br>Oddelki lahko imajo dodeljene različne e-poštne sklope predlog.
+  links:
+    - 
+      title: Upravljaj e-poštne zbire predlog
+      href: /scp/templates.php
+default_system_email:
+  title: Privzeta izhodna e-pošta
+  content: >
+    Izberi e-poštni naslov za pošiljanje.<br><br><span class="doc-desc-title">Oddelki</span>lahko nastavijo svoje<span class="doc-desc-title">e-poštne naslove</span>, ki bodo uporabljeni.
+  links:
+    - 
+      title: Upravljaj e-poštne naslove
+      href: /scp/emails.php
+default_alert_email:
+  title: Privzeto email obvestilo
+  content: >
+    Izberi e-poštni naslov iz katerega bodo <span class="doc-desc-title">opozorila&amp; opombe</span>poslana agentom.
+  links:
+    - 
+      title: Upravljaj e-poštne naslove
+      href: /scp/emails.php
+admins_email_address:
+  title: Administratorjev e-poštni naslov
+  content: >
+    Vnesi e-poštni naslov administratorja, ki bo prejemal<span class="doc-desc-title">Sistemske napake</span>in<span class="doc-desc-title">Nove zathevke</span>, (če bo omogočeno).
+  links:
+    - 
+      title: Upravljaj opozorila in opombe
+      href: /scp/settings.php?t=alerts
+email_fetching:
+  title: Pridobivanje e-pošte
+  content: >
+    Dovoli IMAP/POP preverjanje za konfigurirane in omogočene <span class="doc-desc-title">E-poštne predale</span>.
+  links:
+    - 
+      title: Upravljaj e-poštne predale
+      href: /scp/emails.php
+enable_autocron_fetch:
+  title: Prejemaj e-pošto z Auto-cron
+  content: >
+    Omogoči periodično prejemanje e-pošte z internim upraviteljem opravil. Sproži aktivnost agentov.<br><br>Pozor. E-pošta ne bo prenesena, če ni nihče vpisan v nadzorno ploščo. Zunanji upravitelj opravil je zato priporočljiv.
+  links:
+    - 
+      title: Uporabi zunanji upravitelj opravil
+      href: 'http://osticket.com/wiki/POP3/IMAP_Setting_Guide'
+strip_quoted_reply:
+  title: Izvzet citiran odgovor
+  content: >
+    Če vklopljeno, bo predhodna korespondenca odstranjena.<br><br>Ta nastavitev je povezana z nastavitvijo <span class="doc-desc-title">ločnika odgovora</span>.
+reply_separator_tag:
+  title: Ločnik odgovora
+  content: >
+    This is a token indicating to the User to reply above the line. <br><br> <strong>Note:</strong> this is only relevant if <span class="doc-desc-title">Strip Quoted Reply</span> is enabled above.
+emailed_tickets_priority:
+  title: Prednost zahtevka po e-pošti
+  content: >
+    Izberite ali se pomembnost iz uporabneikovega sporočila (npr. OutLook) prenese tudi na zahtevek. <br><br> To nastavitev se lahko zaobide z <span class="doc-desc-title">filtrom za zahtevke</span>.
+  links:
+    - 
+      title: Kreiraj &amp; uredi filtre zahtevkov
+      href: /scp/filters.php
+accept_all_emails:
+  title: Sprejemaj vso e-pošto
+  content: >
+    Dovoli e-pošto od neznanih naslovov.<br><br>Izklop tega bo povročilo zavrnitev kreiranje zahtevkov.
+accept_email_collaborators:
+  title: Dovoli e-pošte sodelavcev
+  content: >
+    Add email participants included in the <code><strong>To</strong></code> and <code><strong>CC</strong></code> fields as ticket collaborators. <br /><br /> <em>Collaborators can always be added manually by Agents when viewing a ticket.</em>
+default_mta:
+  title: Privzeti MTA
+  content: >
+    <span class="doc-desc-title">Privzeti MTA</span>poskrbi za pošiljanje e-pošte, kjer ni definiran SMTP.

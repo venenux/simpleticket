@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Готовый Ответ
+  content: >
+    Создайте <span class="doc-desc-title">Готовый Ответ</span>, который будет включен в ответ на Заявку. Фактически, вы можете включить столько <span class="doc-desc-title">Готовых Ответов</span>, сколько вы хотите в ответе на Заявку. Они также могут быть включены в настройку <span class="doc-desc-title">Автоответа Заявки</span>, устанавливаемую через <span class="doc-desc-title">Фильтр Заявок</span>.
+  links:
+    - 
+      title: Установка Фильтра Заявок
+      href: /scp/filters.php
+canned_attachments:
+  title: Готовые Вложения
+  content: >
+    Добавьте файл, который будет автоматически включен в ответ на Заявку, которая использует новый <span class="doc-desc-title">Готовый Ответ</span>.

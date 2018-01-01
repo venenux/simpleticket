@@ -1,0 +1,29 @@
+---
+deptId: 1
+topicId: 1
+name: osTicket 支持
+email: support@osticket.com
+source: 网页
+subject: osTicket 已安装 ！
+message: |
+  <p>
+  感谢您使用osTicket系统
+  </p><p>
+  请务必加入 <a
+  href="http://osticket.com/forums">osTicket 论坛</a> 和我们的 <a
+  href="http://osticket.com/updates">邮件列表</a> 来是您获得最新的新闻，安全警告和更新. osTicket 论坛是您寻求帮助，指导和建议的好地方。除了论坛，osTicket 维基也能够提供一系列有用的指导材料，文案，以及来自于社区的备注。我们欢迎您为osTicket 社区做出贡献。
+  </p><p>
+  如果您需要寻求更高层次的支援，我们可以在承诺响应时间段内提供专业服务和商业支援，接触核心开发团队。我们也能够定制化您的osTicket系统，甚至为您开发新的特色功能来满足您的需求.
+  </p><p>
+  如果您认为管理和安装升级 osTicket 是一项艰巨的任务, 您可以通过<a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a>以托管的形式来使用osTicket --
+  您不需要安装任何程序，我们会导入您的数据！通过SupportSystem's 的承包建设方案，您能够最有效的使用osTicket，把自己解放出来去关注您的客户，而不用再担忧您的应用程序是否稳定，已经被维护好，也不用担心是否安全。
+  </p><p>
+  干杯,
+  </p><p>
+  -<br/>
+  osTicket 团队http://osticket.com/
+  </p><p>
+  <strong>附带说一句.</strong> Don't just make customers happy, make happy
+  customers!
+  </p>

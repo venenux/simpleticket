@@ -1,0 +1,18 @@
+---
+notes: |
+  Bude odoslané užívateľom v okamihu vytvorenia odpovede zamestnancami. Odpovede môžu zadávať iba zamestnanci Helpdesku.
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>Vážený/á %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Váš Tým %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Dúfame, že táto odpoveď dostatočne odpovedala na vaše otázky. ak nie, prosím neposielejte další email. Miesto toho odpovedzte na tento email alebo
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >sa prihláste do Vašeho účtu</a> kde je kompletná história Vašich požadaviek a odpovedí.</em></div>

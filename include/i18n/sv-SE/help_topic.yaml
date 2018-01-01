@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Generell förfrågan
+  notes: Frågor om produkter eller tjänster
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Feedback
+  notes: |
+    Ärenden som främst berör avdelningarna försäljning och fakturering
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Rapportera ett problem
+  notes: |
+    Produkt-, tjänst- eller utrustningsrelaterade frågor
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Tillgänglighetsproblem
+  notes: |
+    Rapportera ett problem med tillgång till en fysisk eller ett virtuellt objekt

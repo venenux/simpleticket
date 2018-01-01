@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Nastavenia znalostnej bázy
+  content: >
+    
+knowledge_base_status:
+  title: Status znalostnej bázy
+  content: >
+    Povoľte toto nastavenie, ak chcete povoliť užívateľom prístup do článkov bázy znalostí. <br><br> Kategórie bázy znalostí a FAQu môžu byť viditeľné len pre správcov.
+  links:
+    - 
+      title: Spravovať bázu znalostí
+      href: /scp/kb.php
+restrict_kb:
+  title: Obmedziť prístup do  znalostnej bázy
+  content: >
+    Povoľte pre zabránenie prístupu neregistrovaných užívateľov k znalostej báze v klientskom rozhraní.
+  links:
+    - 
+      title: Nastavenie prístupových práv
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Dostupné odpovede
+  content: >
+    Povoľte toto nastavenie aby mohli správcovia používať <span class="doc-desc-title">dostupné odpovede</span> pri odpovedaní na tickety.
+  links:
+    - 
+      title: Definícia štandardných odpovedí
+      href: /scp/canned.php

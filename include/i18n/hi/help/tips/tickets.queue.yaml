@@ -1,0 +1,53 @@
+---
+search_field:
+  title: खोज क्षेत्र
+  content: >
+    
+advanced:
+  title: उन्नत
+  content: >
+    Narrow down your search parameters. Once you have selected your advanced search criteria and run the search, you can <span class="doc-desc-title">Export </span> the data at the bottom of the tickets page.
+open_tickets_table:
+  title: खुला टिकट तालिका
+  content: >
+    All tickets currently opened and requiring attention
+ticket:
+  title: टिकट
+  content: >
+    
+date:
+  title: दिनांक
+  content: >
+    
+subject:
+  title: विषय
+  content: >
+    
+from:
+  title: द्वारा
+  content: >
+    
+priority:
+  title: प्राथमिकता
+  content: >
+    
+assigned_to:
+  title: को सौपा
+  content: >
+    
+export:
+  title: निर्यात
+  content: >
+    Export your data currently in view in a CSV file. CSV files may be opened with any spreadsheet software (i.e., Microsoft Excel, Apple Pages, OpenOffice, etc.).
+advanced_search_dialog:
+  title: उन्नत खोज
+  content: >
+    
+adv_keyword:
+  title: संकेत शब्द खोज
+  content: >
+    Find hits based on the subject and message bodies of the ticket thread as well as all textual content associated with custom fields for the users and the tickets.
+adv_date_range:
+  title: तिथि सीमा के आधार पर खोजें
+  content: >
+    परिभाषित यहाँ करे

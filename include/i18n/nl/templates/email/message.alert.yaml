@@ -1,0 +1,7 @@
+---
+notes: |
+  Wordt naar medewerkers verzonden wanneer door een gebruiker een nieuw bericht is geplaatst in een ticket. Dit kan gebeuren als de gebruiker antwoordt op een systeem e-mail of via het klantenportaal een nieuw bericht heeft geplaatst.
+subject: |
+  Melding van nieuw bericht
+body: |
+  <h3><strong>Beste %{recipient},</strong></h3> Er is een nieuw bericht toegevoegd aan ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> <br><br><table><tbody><tr><td><strong>Van</strong>:</td> <td>%{ticket.name} &lt;%{ticket.email} &gt;</td></tr> <tr><td><strong>afdeling</strong>:</td> <td>%{ticket.dept.name}</td></tr></tbody></table> <br>%{message} <br><br><hr><div>Om het ticket te bekijken of om er op te reageren, kunt u <a href="%{ticket.staff_link}"> <span style="color: rgb(84, 141, 212);" > inloggen</span></a> in het Support Ticket systeem</div> <em style="color: rgb(127,127,127); font-size: small;"> Uw vriendelijke Support Ticket systeem</em> <br><img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

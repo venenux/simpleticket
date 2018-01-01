@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Prehľad spracovania tiketov
+  content: >
+    Vyberte interval dátumov pre generovanie ako grafu a tabuľky (pozri <span class="doc-desc-title"> Štatistiky </span>) sa zamerať na všetky dáta na týchto dátumoch. Graf bude vždy odrážať komplexný súhrn dát (napr. súbor). Avšak, môžete prechádzať tabuľky <span class="doc-desc-title">Štatistiky</span> a potom sa zamerať na určitú tému (napr. oddelenie, problémy, alebo osobné). Okrem toho môžete exportovať všetky dáta, ktoré sú aktuálne zobrazené v tabuľke <span class = "doc-desc-title">Štatistiky.</span>
+report_timeframe:
+  title: Hlásenie pre časový rámec
+  content: >
+    Vyberte si počiatočný dátum pre vašu vzorku pomocou nástroja pre výber dátumu. Potom zvoľte dĺžku doby od tohto dátumu určením konečného dátum pre vašu vzorku dát.
+statistics:
+  title: Štatistiky
+  content: >
+    Prejdite na objekt záujmu kliknutím na príslušnú záložku, pre zobrazenie určitej vzorky dát. V tabuľke kruhy predstavujú veľkosť menovitých hodnôt. Preto, čím väčšie je číslo v určitej bunke, tým vačší je priľahlý kruh.
+opened:
+  title: Otvorené
+  content: >
+    To sú tikety otvorené agentami (napr. interne otvorené) a nie užívateľmi.
+assigned:
+  title: Priradené
+  content: >
+    Systém sleduje každú udalosť, kedy je tiket automaticky alebo ručne priradený určitému oddeleniu alebo agentovi. Automatické priradenie bude závisieť na nastavení <span class="doc-desc-title">Témy tiketu</span> a <span class="doc-desc-title">filtrovaní e-mailov</span> v ovládacom paneli.
+overdue:
+  title: Zmeškané
+  content: >
+    To je množstvo požiadaviek, ktoré porušili SLA plán, ku ktorému patria.
+closed:
+  title: Uzavreté
+  content: >
+    To je množstvo požiadaviek, ktoré boli uzavreté.
+reopened:
+  title: Znovu otvorené
+  content: >
+    Toto je počet tiketov, ktoré boli znovu otvorené agentom alebo klientom, ktorý odpovedal na uzavretý tiket.
+service_time:
+  title: Prevádzková doba
+  content: >
+    <span class="doc-desc-title">Doba vybavenia</span> je čas, ktorý uplynie od odoslania tiketu až do jeho uzavretia. Stĺpec <span Class="doc-desc-title">Doba vybavenia</span> uvádza priemerný čas vybavenia tiketu v hodinách a v stanovenom rozpätí dátumov.
+response_time:
+  title: Doba odozvy
+  content: >
+    <span class="doc-desc-title">Čas odozvy</ span> je doba, ktorá začína od žiadosti zákazníka, a končí, keď agent odošle odpoveď. Tento čas sa nevzťahuje iba na žiadosť od zákazníka, pokiaľ ide o počiatočné otvorenie požiadavky, ale vzťahuje sa na všetku komunikáciu s klientom.

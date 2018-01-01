@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Dukungan
+  signature: Departemen Dukungan
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Penjualan
+  signature: |
+    Penjualan dan Peduli Pelanggan
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Pemeliharaan
+  signature: |
+    Bagian Pemeliharaan
+  ispublic: 0
+  group_membership: 0

@@ -1,0 +1,13 @@
+---
+name:
+  title: Nazwa
+  content: >
+    Wybierz opisową nazwę dla tego <span class="doc-desc-title">planu SLA</span> który odzwierciedli jego przeznaczenie.
+grace_period:
+  title: Okres karencji
+  content: >
+    Określ liczbę godzin od stworzeniu zgłoszenia, po których zostanie ono automatycznie zaznaczone jako zaległe. <br><br><em>Godziny liczone są na podstawie czasu utworzenia zgłoszenia.</em>
+transient:
+  title: Przemijające
+  content: >
+    Przemijające SLA są traktowane jako tymczasowe i mogą zostać zastąpione przez stałe SLA przy <span class="doc-desc-opt">departamencie</span> lub zmianie jego <span class="doc-desc-title">tematu pomocy</span>.

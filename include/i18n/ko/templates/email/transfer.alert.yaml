@@ -1,0 +1,19 @@
+---
+notes: |
+  
+subject: |
+  티켓 #%{ticket.number} 이관 : %{ticket.dept.name}
+body: |2
+  <h3>안녕하세요, %{recipient.name}님</h3>
+  티켓  <a href="%{ticket.staff_link}">#%{ticket.number}</a>가 <strong>%{staff.name.short}</strong>에 의해 %{ticket.dept.name}로 이관되었습니다.
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>티켓을 조회하거나 답변하려면, 고객지원시스템에 <a href="%{ticket.staff_link}">로그인</a> 하세요.
+  </div>
+  <em style="font-size: small; ">고객지원시스템</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19" alt="Powered By osTicket" style="width: 126px;" src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

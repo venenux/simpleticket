@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Ticket-Nummernformat
+  content: >
+    Diese Einstellung wird zum Generieren von Ticket-Nummern verwendet. Verwenden Sie das Raute-Zeichen ('#') an den Stellen, die mit Ziffern belegt werden sollen. Jeder andere Text in der Nummern-Formatierung wird erhalten bleiben. <span class="doc-desc-title">Hilfethemen</span> können benutzerdefinierte Nummernformate definieren. <br/><br/> Zum Beispiel, für eine Nummer aus sechs Ziffern, verwenden Sie <code>######</code>.
+sequence_id:
+  title: Ticket-Nummernsequenz
+  content: >
+    Wählen Sie eine Sequenz aus, von der neue Ticket-Nummern abgeleitet werden. Das System enthält standardmäßig eine inkrementelle und und eine zufällige Sequenz. Sie können so viele Sequenzen erstellen wie Sie wünschen. Verwenden Sie verschiedene Sequenzen in der <span class="doc-desc-title">Ticket-Nummernformat</span>-Konfiguration für Hilfethemen.
+default_ticket_status:
+  title: Standard-Status für neue Tickets
+  content: >
+    Wählen Sie einen Status als Standard für neue Tickets. Dieser kann für jedes Hilfethema definiert werden, wenn gewünscht. Er kann auch von einem Ticket-Filter überschrieben werden.
+  links:
+    - 
+      title: Ticket-Status verwalten
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Standard-SLA
+  content: >
+    Wählen Sie das Standard Service Level Agreement, um festzulegen wie lange ein Ticket "offen" bleiben kann, bis es als "überfällig" markiert wird.
+  links:
+    - 
+      title: Weitere SLA-Pläne erstellen
+      href: /scp/slas.php
+default_priority:
+  title: Standard-Priorität
+  content: >
+    Wählen Sie eine <span class="doc-desc-title">Priorität</span> für Tickets denen nicht automatisch eine Priorität zugewiesen wurde. <br/><br/> Prioritäten können über das Hilfethema, über die eingehende Abteilung oder die Ticket-Filter-Einstellungen zugewiesen werden.
+maximum_open_tickets:
+  title: Maximal Offene Tickets
+  content: >
+    Geben Sie die maximale <em>Anzahl</em> von Tickets an, die ein Benutzer berechtigt ist, <strong>offen</strong> in Ihrem Helpdesk zu haben. Geben Sie "0" an, wenn Sie es vorziehen, diese Einschränkung zu deaktivieren.
+agent_collision_avoidance:
+  title: Agenten-Kollisionsvermeidung
+  content: >
+    Geben Sie an, wie lange ein Ticket durch einen Agent maximal gesperrt sein darf, ohne dass irgendeine Aktivität erfolgt ist. <br><br> Geben Sie <span class="doc-desc-opt">0</span> ein, um die Bearbeitungssperre zu deaktivieren.
+email_ticket_priority:
+  title: Ticket-Priorität für E-Mails
+  content: >
+    Verwenden Sie die E-Mail-Priorität des Empfänger-Mail-Dienstes
+show_related_tickets:
+  title: Andere Tickets des Benutzers anzeigen
+  content: >
+    Alle anderen Tickets des Benutzers nach der Benuzteranmeldung auch anzeigen - ansonsten wird nur ein Ticket pro Anmeldung angezeigt
+human_verification:
+  title: Menschliche Überprüfung
+  content: >
+    Aktivieren Sie CAPTCHA auf dem Benutzerportal, um sich zu vergewissern, dass ein eingehendes Ticket von einem Mensch eröffnet wurde. <br><br>Erfordert die GDLib-Bibliothek
+claim_tickets:
+  title: Tickets mit Antwort übernehmen
+  content: >
+    Aktivieren Sie diese Funktion, damit den Agenten beim Beantworten eines Tickets automatisch dieses Ticket zugewiesen wird. <br><br> Wieder geöffnete Ticket werden immer dem letzten "Beantworter" zugewiesen.
+assigned_tickets:
+  title: Zugewiesene Tickets
+  content: >
+    Aktivieren Sie diese Funktion, damit zugewiesene Tickets nicht auf der Ticket-Übersichtsseite <span class="doc-desc-title">Offene Tickets</span> angezeigt werden.
+answered_tickets:
+  title: Beantwortete Tickets
+  content: >
+    Aktivieren Sie diese Funktion, damit beantwortete Tickets auf der Ticket-Übersichtsseite <span class="doc-desc-title">Beantwortete Tickets</span> angezeigt werden. Ansonsten werden diese Tickets auf der Ticket-Übersichtsseite <span class="doc-desc-title">Offene Tickets</span> angezeigt.
+staff_identity_masking:
+  title: Agenten-Identität verbergen
+  content: >
+    Wenn aktiviert, wird der Name des Agenten in jeder Korrespondenz mit dem Benutzer verborgen.
+enable_html_ticket_thread:
+  title: HTML Ticket-Ansicht aktivieren
+  content: >
+    Wenn aktiviert, wird dies die Verwendung von Rich-Text-Formatierungen zwischen Benutzern und Agenten erlauben.
+ticket_attachment_settings:
+  title: Anhänge zum Ticket-Vorgang
+  content: >
+    Konfiguriert die Einstellungen für Dateien, die dem <span class="doc-desc-title">Details zum Anliegen</span>-Feld angehängt werden. Diese Einstellungen werden für alle neuen Tickets und neuen Nachrichten verwendet, ungeachtet der Ticket-Quelle (Benutzerportal, E-Mail, API, etc.).
+max_file_size:
+  title: Maximale Dateigröße
+  content: >
+    Wählen Sie eine maximale Dateigröße für Anhänge, die von Agenten hochgeladen werden können. Das schließt vordefinierte Anhänge, Artikel der Wissensdatenbank und Ticket-Antworten mit ein.
+ticket_response_files:
+  title: Ticket-Antwortdateien
+  content: >
+    Wenn aktiviert, werden alle Anhänge, die ein Agent an ein Ticket anhängt, auch in der E-Mail an den Benutzer enthalten sein.

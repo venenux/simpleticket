@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Otevřít
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Otevřené požadavky.
+- 
+  id: 2
+  name: Vyřešené
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Vyřešené požadavky jsou uzavřené požadavky, které mohou být znovu oteřeny koncovým uživatelem. To může být užitečné, pokud je k uzavírání požadavků používán spouštěč s oznámením koncovému uživateli.
+- 
+  id: 3
+  name: Uzavřené
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Požadavky, které jsou označeny jako uzavřené, nemůže znovu koncový uživatel obnovit. Požadavky budou stále přístupné na panelu klientů a zaměstnanců.
+- 
+  id: 4
+  name: Archivované
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Požadavky dostupné pouze administrativně, ale již nedostupné ve frontě požadavků.
+- 
+  id: 5
+  name: Smazáno
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Požadavky čekající na smazání. Nedostupné ve frontě požadavků.

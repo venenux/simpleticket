@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Elenchi personalizzati
+  content: >
+    Le <span class="doc-desc-title">Liste personalizzate</span> ti permettono di creare caselle a discesa con opzioni predefinite che i clienti possono selezionare nei <span class="doc-desc-title">Forms personalizzati</span>. Se hai intenzione di usare una<span class="doc-desc-title">Lista personalizzata</span> come un <span class="doc-desc-title">obiettivo</span> in un <span class="doc-desc-title">Filtro Ticket</span>, assicurati di aggiungerla al form <span class="doc-desc-title">Dettagli Ticket </span>.
+name:
+  title: Nome
+  content: >
+    
+plural_name:
+  title: Nome plurale
+  content: >
+    
+sort_order:
+  title: Tipo di ordine
+  content: >
+    
+list_s_initial_items:
+  title: Elementi iniziali di elenco
+  content: >
+    
+value:
+  title: Valore
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Abbreviazioni e simili. Se vi capita di usare codici interni per gli elementi in questo elenco, quei codici e abbreviazioni possono essere inserite in questa colonna. Se l'elenco personalizzato è rappresentato come un <span class="doc-desc-option"> TypeAhead</span>, queste abbreviazioni potranno essere utilizzate per la ricerca degli elementi dell'elenco personalizzato.

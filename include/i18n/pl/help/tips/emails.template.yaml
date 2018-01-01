@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: Szablony Email
+  content: >
+    Zestawy szablonów e-mail są wykorzystywane do wysyłania automatycznych odpowiedzi i alertów dla różnych działań, które mogą mieć miejsce podczas trwania zgłoszenia.
+template_to_clone:
+  title: Szablon do powielenia
+  content: >
+    Wybierz zestaw szablonów do klonowania lub zacznij ze standardowymi szablonami e-mail.
+language:
+  title: Język
+  content: >
+    Wybież żądany język z <span class="doc-desc-opt">magazynu</span> <span class="doc-desc-title">Zestaw Szablonów Email</span>. Zestawy Paczki językowe dostępne są  na osTicket.com.
+  links:
+    - 
+      title: osTicket pakiet językowy
+      href: 'http://osticket.com/download'
+status:
+  title: Status
+  content: >
+    <span class="doc-desc-opt">Włączone</span> Zestawy Szablonów są dostępne do przypisania do Departamentów i do ustawienia jako domyślne systemowe. Obecnie używane Zestawy Szablonów nie mogą być <span class="doc-desc-opt">Wyłączone</span>.

@@ -1,0 +1,6 @@
+---
+notes: >
+  See mall määrab lehekülje sisu, mis näidatakse kliendile peale registreerimise vormi täitmist. Siin peaks olema mainitud, et süsteem saadab e-kirja lingiga konto kinnitamiseks, samuti kirjeldab, mis on järgmine samm konto loomisel.
+name: "Konto registreerimine"
+body: >
+  <div><strong>Täname, et lõite konto meie süsteemi.</strong><br/> <br /> Saatsime Teie poolt sisestatud meiliaadressile e-kirja. Palun klõpsa e-kirjas oleval lingil, et kinnitada konto loomist ning saada ligipääs oma pöördumistele. </div>

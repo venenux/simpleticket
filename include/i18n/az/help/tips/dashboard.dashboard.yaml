@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Sorğu aktivliyi
+  content: >
+    Qrafik və cədvəldə (bax, <span class="doc-desc-title">statistika</span>) hər hansı bir məlumatın bu tarixlər üçün görülməsini istəyirsinizsə tarix diapazonunu seçin. Aşağıdakı qrafikdə sistemin bütün məlumatlarının ümumi icmalı həmişə əks olunacaq. Lakin siz ancaq sizi maraqlandıran mövzulara (məs, şöbə və ya heyət) <span class="doc-desc-title">statistika </span> cədvəlində gəzərək baxa bilərsiniz. Bundan əlavə, hal-hazırda  <span class="doc-desc-title">statistika </span> cədvəlində əks olunmuş istədiyiniz məlumatı çıxarda bilərsiniz.
+report_timeframe:
+  title: Hesabat müddəti
+  content: >
+    Vaxt seçimindən istifadə edərək istədiyiniz vaxt nümunəsinə görə başlanğıc vaxtı seçin. Sonra öz vaxt nümunənizin bitmə tarixini müəyyənləşdirmək üçün vaxtın uzunluğunu seçin.
+statistics:
+  title: Statistika
+  content: >
+    Xüsusi məlumat nümunəsini görmək üçün sifarişdə müvafiq hesaba klikləyərək faiz mövzusuna istiqamətləndirin. Cədvəldə dairələr şərti (nominal) məlumatların ölçüsünü təsvir edir. Ona görə də müəyyən -cell- qiyməti böyük olduqca qonşu dairə də böyük olacaq.
+opened:
+  title: Açıqdır
+  content: >
+    Bu sorğu müştərilər tərədindən yox, əməkdaşlar (daxili sorğu) tərəfindən açılıb.
+assigned:
+  title: Təyin edilib
+  content: >
+    Sistem sorğu vasitəsilə hər hadisənin məxsusi şöbə və ya agentə avtomatik və ya əllə təyin olunmasını izləyir. Avtomatik təyinetmələr admin paneldə <span class="doc-desc-title">kömək mövzusu</span> və <span class="doc-desc-title">e-poçt filterləri</span> üçün quraşdırılmış tənzimləmərdən asılı olacaq.
+overdue:
+  title: Müddəti bitib
+  content: >
+    Bu aid olduqları SLA planı pozmuş sorğuların sayıdır.
+closed:
+  title: Qapalı
+  content: >
+    Qapadılmış sorğuların sayı.
+reopened:
+  title: Yenidən açılıb
+  content: >
+    Bu, kimsə sorğunun statusu bağlı olduqda cavab verərkən  hansısa agent və ya müştəri tərəfindən açılmış sorğuların sayıdır.
+service_time:
+  title: Xidmət müddəti
+  content: >
+    <span class="doc-desc-title">Xidmət vaxtı</span> sorğu açılanda başlayan, bağlananda bitən müddətdir. <span class="doc-desc-title">Xidmət vaxtı</span> sütunu hər sorğuya düşən orta xidmət vaxtını burada ölçür, hər saatda, xüsusiləşdirilmiş zaman müddətində.
+response_time:
+  title: Cavab müddəti
+  content: >
+    <span class="doc-desc-title">Cavab vaxtı</span> hər hansı müştərinin yazışmasından başlayan və  agent cavab verəndə qurtaran müddətdir. Vaxtın bu ölçüsü ilkin sorğunun açılmasında müştərinin yazışması üçün müstəsna (eksklüziv) deyil. Bu müştəri ilə danışığın göndərilməsinin hər bir aktına aiddir.

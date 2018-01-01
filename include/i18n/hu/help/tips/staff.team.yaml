@@ -1,0 +1,33 @@
+---
+teams:
+  title: Csapatok
+  content: >
+    Egy vagy több agent csoportosulhat egy egy jegy megoldása érdekében. A kapcsolatok akár osztályokon is átívelhetnek.
+status:
+  title: Állapot
+  content: >
+    Ha <span class="doc-desc-opt">ez jelenik meg</span>, a csapat nem lesz választható jegyek megoldására és nem kaphatnak Figyelmeztetéseket &amp; Jelzéseket korábbi feladatokkal kapcsolatban.
+lead:
+  title: Csapat vezető
+  content: >
+    A <span class="doc-desc-title">Csapat</span> kijelölhet egy vezetőt, aki kaphat<span class="doc-desc-title">Figyelmeztetéseket &amp; Jelzéseket</span> a csapattagok helyett.
+  links:
+    - 
+      title: Figyelmeztetések &amp; Jelentések konfigurálása
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Feladat figyelmelmeztetés
+  content: >
+    Kikapcsolhatja a<span class="doc-desc-title">Figyelmeztetéseket</span> azon jegyek esetében, amelyek a csapathoz vannak rendelve.
+  links:
+    - 
+      title: Figyelmeztetések &amp; Jelentések konfigurálása
+      href: /scp/settings.php?t=alerts
+members:
+  title: Csapat tagjai
+  content: >
+    A csapattagság az Agent profilon keresztül szerkeszthető.
+  links:
+    - 
+      title: Munkatársak kezelése
+      href: /scp/staff.php

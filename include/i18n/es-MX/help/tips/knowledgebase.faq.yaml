@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Tipos de Lista
+  content: >
+    Elija <span class="doc-desc-opt">pública (publicar)</span> si desea que esta <span class="doc-desc-title">FAQ</span> sea publicada en la base de conocimientos si la categoría padre es pública.
+  links:
+    - 
+      title: Habilitar la base conocimientos pública para el Portal del cliente
+      href: /scp/settings.php?t=kb

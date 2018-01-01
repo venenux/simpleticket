@@ -1,0 +1,10 @@
+---
+type:
+  title: Türü
+  content: >
+    Eğer Bölümün tipi Özel ise, Bölüm İmzası ne cevapta ne de Kullanıcı Portalında görev belirleme kısmında olmayacaktır.
+dept_manager:
+  title: Bölüm Yöneticisi
+  content: >
+    Bir Temsilci veya Bölüm Müdürünü seçerek bölümlerdeki Alarm ve Bildirimlerimi almalarını seçebilirsiniz.
+  0: Temsilcilerin Bölüm müdürü olması için o Bölümün üyesi olmasına gerek yoktur

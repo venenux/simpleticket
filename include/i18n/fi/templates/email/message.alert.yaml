@@ -1,0 +1,42 @@
+---
+notes: |
+  Lähetetään henkilöstön jäsenelle, kun asiakas lähettää uuden viestin tikettiin. Tämä voi tapahtua, kun käyttäjä vastaa sähköpostiin järjestelmästä tai käyttää asiakasportaalia vastaamiseen.
+subject: |
+  Uusi viestihälytys
+body: |
+  <h3><strong>Terve %{recipient},</strong></h3>
+  Uusi viesti on lisätty tikettiin<a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Lähettäjä</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Osasto</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Nähdäksesi tai vastataksesi tikettiin, klikkaa <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >kirjautuaksesi</span></a> tukitiketti järjestelmään</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Ystävällisesti tukitikettijärjestelmä</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Käyttää osTicket-moottoria" width="126" height="19" style="width: 126px;">

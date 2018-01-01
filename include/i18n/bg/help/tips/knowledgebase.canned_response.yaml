@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Готови отговори
+  content: >
+    Създайте <span class="doc-desc-title">готов отговор</span>, който може да бъде включен към отговора на заявка. Той също така може да бъде използван и като <span class="doc-desc-title">автоматичен отговор на заявка</span> след настройка на <span class="doc-desc-title">филтър на заявки</span>.
+  links:
+    - 
+      title: Настройка на филтър на заявка
+      href: /scp/filters.php
+canned_attachments:
+  title: Готови прикачени файлове
+  content: >
+    Прикачете файл, който искате да бъде включен автоматично в отговора на заявката, която използва новия <span class="doc-desc-title"> шаблонен отговор</span>.

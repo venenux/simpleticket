@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: רשימות מותאמות אישית
+  content: >
+    <span class="doc-desc-title">הרשימות המותאמות אישית</span> שלך יאפשרו לך ליצור תיבות נגללות עם העדפות מוגדרות מראש שלקוח יכול לבחור <span class="doc-desc-title">מהטפסים המותאמים אישית</span>. אם תרצה להשתמש <span class="doc-desc-title">ברשימות המותאמות אישית</span> בתור <span class="doc-desc-title">יעד</span> <span class="doc-desc-title">במסנני הכרטיס</span>, היה בטוח שהנך מוסיף את הרשימה לטופס <span class="doc-desc-title">פרטי הכרטיס</span>.
+name:
+  title: שם
+  content: >
+    
+plural_name:
+  title: בלשון רבים
+  content: >
+    
+sort_order:
+  title: סדר מיון
+  content: >
+    
+list_s_initial_items:
+  title: פרטי רשימה ראשוניים
+  content: >
+    
+value:
+  title: ערך
+  content: >
+    
+extra:
+  title: תוספת
+  content: >
+    קיצורים ועוד. אם אתה מתכננן להשתמש בקודים פנימיים בשביל הפריטים ברשימה, הקודם והקיצורים יכולים להיכנס בטור זה. אם הרשימה המותאמת אישית שניתנה היא <span class="doc-desc-option"> TypeAhead</span>, הקיצורים הללו יכולים להיות משומים לחיפוש ברשימות המותאמות אישית.

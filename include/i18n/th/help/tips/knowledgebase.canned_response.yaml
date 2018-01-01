@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Canned Response
+  content: >
+    สร้าง <span class="doc-desc-title">Canned Response</span> ที่สามารถจะรวมอยู่ในการตอบกลับ Ticket แบบอัตโนมัติ นอกจากนี้ยังสามารถนำมาใช้เป็น <span class="doc-desc-title">Ticket ตอบกลับอัตโนมัติ</span> ที่ตั้งค่าจาก <span class="doc-desc-title">ตัวกรอง Ticket</span>.
+  links:
+    - 
+      title: ตั้งค่าตัวกรอง Ticket
+      href: /scp/filters.php
+canned_attachments:
+  title: Canned Attachments
+  content: >
+    แนบไฟล์ที่คุณอยากแนบไปกับการตอบกลับ Ticket อัตโนมัติ ที่ใช้กับ <span class="doc-desc-title"> Canned Response</span> ใหม่

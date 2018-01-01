@@ -1,0 +1,178 @@
+---
+- 
+  id: 1
+  type: U
+  title: Контактная информация
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Адрес email
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Полное имя
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Номер телефона
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Внутренние Заметки
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Детали заявки
+  instructions: Пожалуйста, опишите вашу проблему
+  notes: |
+    Эта форма будет доступна в каждой заявке, независимо от её источника.
+    В эту форму вы можете добавить любое поле, и оно будет доступно во 
+    всех заявках, и будет использоваться в расширенном поиске и фильтре.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Краткое описание
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Детали проблемы
+      hint: Подробности о причинах создания заявки.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Уровень Приоритета
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Информация о компании
+  instructions: Детали, доступные в шаблонах email
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Название компании
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Веб-сайт
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Номер телефона
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Адрес
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Сведения об организации
+  instructions: Подробности об организации клиента
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Имя
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Адрес
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Телефон
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Веб-сайт
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Внутренние Заметки
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

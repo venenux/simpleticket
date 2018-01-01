@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Pagine del sito
+  content: >
+    Le pagine del sito possono servire come un mini-Content Management System (CMS). È possibile definire più pagine landing, non in linea e di ringraziamento e configurarle con le impostazioni dell'azienda e con gli argomenti della guida.
+  links:
+    - 
+      title: Dati dell'azienda
+      href: /scp/settings.php?t=pages
+type:
+  title: Tipo
+  content: >
+    Le pagine <span class="doc-desc-opt"> non in linea</span> sono visualizzate sul portale cliente se il supporto tecnico non è attivo. Le pagine di <span class="doc-desc-opt"> atterraggio</span> vengono visualizzate nella home page nel tuo portale del cliente. Le pagine <span class="doc-desc-opt"> di ringraziamento </span>  sono visualizzate dopo che un utente invia un ticket. <span class="doc-desc-opt"> Altre</span> pagine possono essere usate come un semplice content management system (CMS).

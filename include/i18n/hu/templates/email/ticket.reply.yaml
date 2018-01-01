@@ -1,0 +1,18 @@
+---
+notes: |
+  Felhasználóknak küldve, mikor a munkatársak választ adnak a hibajegyekre.
+  A válaszokat csak a munkatársak generálják.
+subject: |
+  Re: [#%{ticket.number}] %{ticket.subject}
+body: |
+  <h3><strong>Kedves %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} csapata,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Reméljük, hogy kérdéseire sikerült választ adnunk. Amennyiben nem, kérjük, jelen emailre válaszoljon vagy <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >jelentkezzen be fiókjába</a> a kérdései archívumának megtekintéséhez.</em></div>

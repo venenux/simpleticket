@@ -1,0 +1,11 @@
+---
+notes: |
+  Kliendile kuvatakse offlain lehekülg, kui kasutajatugi pole kättesaadav.
+name: Offlain
+body: |
+  <div><h1>
+  <span style="font-size: medium">Tugiteenuse süsteem on offlain</span>
+  </h1>
+  <p>Täname, et pöördusite meie poole.</p>
+  <p>Hetkel pole tugiteenus kättesaadav, palun proovige hiljem uuesti.</p>
+  </div>

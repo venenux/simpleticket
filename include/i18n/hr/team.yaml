@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 1
+  name: Podrška I razine
+  notes: Podrška I razine, odgovorna za inicijalnu komunikaciju sa klijentima

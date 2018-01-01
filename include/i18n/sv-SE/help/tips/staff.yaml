@@ -1,0 +1,17 @@
+---
+signature:
+  title: Handläggarens signaturlinje
+  content: |
+    Skapa handläggar signatur för svar på ärenden. Denna signatur kommer som ett val längst ner i ett ärendesvar
+type:
+  title: Kontotyp
+  content: |
+    Admin har tillgång till Admin Panelen. Handläggare har endast möjligthet att hantera ärenden och knowledge base
+group:
+  title: Tilldelad grupp
+  content: |
+    Gruppmedlemsskap definerar  personalens roll i systemet. Besök grupp hanteringssidan för att definera handeläggares rättigheter i help desk
+notes:
+  title: Interna Noteringar
+  content: |
+    Placera interna noteringar till handläggare; noteringar är bara synliga för handläggare med rättighet Admin

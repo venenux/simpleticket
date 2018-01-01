@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Pagalbos tarnybos būsena
+  content: >
+    Jeigu statusas pasikeitė į <span class="doc-desc-opt">neprisijungęs</span>, kliento sąsaja bus išjungta. Tai neturės įtakos bet kuriai normaliai agento sąveikai su Agento valdymo pultu.
+helpdesk_url:
+  title: Pagalbos tarnybos URL
+  content: >
+    Šis URL yra jūsų osTicket sistemos diegimo bazė. Jis naudojamas  elektroninių laiškų ryšyje, nukreipiant galutinius vartotojus į jūsų pagalbos sistemą.
+helpdesk_name_title:
+  title: Pagalbos tarnybos vardas/pavadinimas
+  content: >
+    Tai pavadinimas, kuris rodomas naršyklės skirtuke. Jei jūsų pagalbos tarnybos puslapis  yra pažymėtas, tai bus svetainės puslapio pavadinimas/vardas.
+default_department:
+  title: Departamentas pagal nutylėjimą
+  content: >
+    Pasirinkite <span class="doc-desc-title">departamentą</span>pagal nutylėjimą užklausoms, kurios nėra automatiškai priskiriamos prie departamento.<br/><br/>Užklausa gali būti nukreipta pagal pagalbos tema, ateinantį el. pašto adresą ir užklausos filtrų nustatymus.
+default_page_size:
+  title: Numatytasis puslapio dydis
+  content: >
+    Pasirinkite elementų skaičių, rodomą puslapyje užklausų eilėse personalo skydelyje. Kiekvienas agentas taip pat gali individualizuoti šį skaičių savo paskyrai <span class="doc-desc-title">Mano nustatymuose</span>.
+default_log_level:
+  title: Žurnalo lygis pagal nutylėjimą
+  content: >
+    Nustatytikite minimalų problemų lygį, kurios bus įrašomos <span class="doc-desc-title">sistemos žurnale</span>.<span class="doc-desc-opt">Derinimas</span>, atstovauja mažiausią sudetingumą, ir <span class="doc-desc-opt">Klaida</span>, atstovauja didžiausią sudetingumą. Pavyzdžiui, jeigu jūs norite matyti visas problemas<span class="doc-desc-title">Sistemos žurnaluose</span>, pasirinkite<span class="doc-desc-opt">Derinimas</span>.
+purge_logs:
+  title: Išvalyti įrašus
+  content: >
+    Nustatykite kiek laiko norėtumėte laikyti <span class="doc-desc-title">Sistemos įrašus</span>, kol jie ištrinami.
+default_name_formatting:
+  title: Numatytasis pavadinimo formatavimas
+  content: >
+    Pasirinkite vardų visoje sistemoje formatą. Elektronionių laiškų ruošiniai naudos šį formatą vardams jei nėra kito nurodyto formato kintamajame.
+  links:
+    - 
+      title: Palaikomi elektroninių laiškų ruošinių kintamieji
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Datos&amp;laiko parinktys
+  content: >
+    Šie nustatymai apibrėžia datos&amp;laiko parametrus klientams. Galite keisti kaip tai bus rodoma remiantis PHP datos formato simboliais. Žemiau pavaizduotos datos iliustruoja atitinkamos vertės rezultatą.
+  links:
+    - 
+      title: Žr. PHP datos formatavimo lentelę
+      href: 'http://www.php.net/manual/en/function.date.php'

@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktinfo
+  content: >
+    
+username:
+  title: Kasutajanimi
+  content: >
+    Ainult administraatori õigustega agendid saavad kasutajanime muuta. Kui Sa oled administraatori õigustega agent, saad selle toimingu lõpule viia valides agent ja muutes tabelit <span class="doc-desc-title">Töötajad</span>.
+  links:
+    - 
+      title: Muuda kasutajanime kui administraator
+      href: /scp/staff.php
+time_zone:
+  title: Ajavöönd
+  content: >
+    
+daylight_saving:
+  title: Suveaeg
+  content: >
+    
+maximum_page_size:
+  title: Maksimaalne lehe suurus
+  content: >
+    
+auto_refresh_rate:
+  title: Automaatse värksendamise sagedus
+  content: >
+    
+default_signature:
+  title: Vaikimisi signatuur
+  content: >
+    
+default_paper_size:
+  title: Vaikimisi paberi suurus
+  content: >
+    
+show_assigned_tickets:
+  title: Näita suunatud pöördumisi
+  content: >
+    Aktiveeri, et peita oma nimi <span class="doc-desc-title">avatud pöördumised</span> nimekirjas pöördumiste juures, mis on Sulle lahendamiseks määratud. Peale peitmist <span class="doc-desc-title">osakonna</span> nimi, millesse Sa kuulud, kuvatakse seal, kus muidu oleks Sinu nimi.
+password:
+  title: Parool
+  content: >
+    
+current_password:
+  title: Praegune parool
+  content: >
+    
+new_password:
+  title: Uus parool
+  content: >
+    
+confirm_new_password:
+  title: Kinnita uus parool
+  content: >
+    
+signature:
+  title: Signatuur
+  content: >
+    Soovi korral saad koostada <span class="doc-desc-title">signatuuri</span>, mis võib-olla lisatakse pöördumise vastuse jalusesse. <span class="doc-desc-title">Signatuuri</span> lisamine sõltub <span class="doc-desc-title">e-kirja mallist</span>, mida pöördumisele vastates kasutatakse.
+  links:
+    - 
+      title: Loo e-kirja malle administraatori menüüs
+      href: /scp/templates.php

@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Søkefeltet
+  content: >
+    
+advanced:
+  title: Avansert
+  content: >
+    Begrense søkeparameterne. Når du har valgt avansert søkekriteriene og kjøre søket, kan du <span class="doc-desc-title"> eksportere</span> dataene nederst på siden saker.
+open_tickets_table:
+  title: liste over saker
+  content: >
+    saker som er åpnet og krever oppmerksomhet
+ticket:
+  title: Sak
+  content: >
+    
+date:
+  title: Dato
+  content: >
+    
+subject:
+  title: Emne
+  content: >
+    
+from:
+  title: Fra
+  content: >
+    
+priority:
+  title: Prioritet
+  content: >
+    
+assigned_to:
+  title: Tilordnet til
+  content: >
+    
+export:
+  title: Eksporter
+  content: >
+    Eksportere data i gjeldende visning til en CSV-fil. CSV-filer kan åpnes med regneark programvare (dvs. Microsoft Excel, Apple Pages, OpenOffice, etc.).
+advanced_search_dialog:
+  title: Avansert søk
+  content: >
+    
+adv_keyword:
+  title: Søkeord
+  content: >
+    Finne treff basert på emnelinjen og meldingsteksten i saker samt alle tekstinnhold forbundet med egendefinerte felt for brukerne og saker.
+adv_date_range:
+  title: Søk etter datointervall
+  content: >
+    Definisjon her

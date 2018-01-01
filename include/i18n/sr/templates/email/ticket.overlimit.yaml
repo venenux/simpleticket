@@ -1,0 +1,15 @@
+---
+notes: |
+  Шаље се корисницима када су прекорачили границу за максималан број отворених тикета. Овај лимит може се подесити у администраторском панелу, а дефинише се број отворених тикета по једној адреси електронске поште.
+subject: |
+  Достигнут лимит отворених тикета по једној адреси електронсе поште
+body: |
+  <h3><strong>Dear %{ticket.name.first},</strong></h3>
+  You have reached the maximum number of open tickets allowed. To be able
+  to open another ticket, one of your pending tickets must be closed. To
+  update or add comments to an open ticket simply <a
+  href="%{url}/tickets.php?e=%{ticket.email}">login to our helpdesk</a>.
+  <br>
+  <br>
+  Thank you,<br/>
+  Support Ticket System

@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 0
+  topic: 一般查詢
+  notes: 有關產品或服務問題
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: 意見回饋
+  notes: |
+    案件主要包含銷售及帳務部門
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 0
+  topic: 回報問題
+  notes: |
+    產品、 服務或設備相關的問題
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: 訪問問題
+  notes: |
+    回報無法進入處理虛擬或實際的資產

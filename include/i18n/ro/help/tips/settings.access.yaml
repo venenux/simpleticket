@@ -1,0 +1,77 @@
+---
+password_reset:
+  title: Politica de expirare a parolei
+  content: >
+    Determină intervalul (în luni) la care membrilor personalului li se va solicita să-și schimbe parola. Dacă opțiunea e invalidată (setată pe „Nu expiră”), parolele nu vor expira.
+password_expiration_policy:
+  title: Politica de expirare a parolei
+  content: >
+    Alege cât de des li se va solicita agenților să-și schimbe parola. Dacă opțiunea e invalidată (setată pe „Nu expiră”), parolele nu vor expira.
+allow_password_resets:
+  title: Permite resetarea parolei
+  content: >
+    Bifează această opțiune dacă dorești să fie afișat link-ul <span class="doc-desc-title">„Mi-am uitat parola”</span> în <span class="doc-desc-title">panoul de autentificare a personalului</span> după o încercare eșuată de autentificare.
+reset_token_expiration:
+  title: Fereastra de resetare a parolei
+  content: >
+    Alege durata de validitate (în minute) a <span class="doc-desc-title">token-urilor de resetare a parolei</span>. Când un agent solicită <span class="doc-desc-title">resetarea parolei</span>, i se expediază prin e-mail un token care va permite operațiunea de resetare a parolei.
+staff_session_timeout:
+  title: Perioada de inactivitate pentru sesiunile personalului
+  content: >
+    Alege perioada de inactivitate (în minute) după care agenții sunt forțați să se autentifice din nou.<br><br>Dacă dorești să invalidezi <span class="doc-desc-title">Perioada de inactivitate pentru sesiunile personalului</span>, introdu 0.
+client_session_timeout:
+  title: Perioada de inactivitate pentru sesiunile utilizatorilor
+  content: >
+    Alege perioada de inactivitate (în minute) după care utilizatorii sunt forțați să se autentifice din nou.<br><br>Dacă dorești să invalidezi <span class="doc-desc-title">Perioada de inactivitate pentru sesiunile utilizatorilor</span>, introdu 0.
+bind_staff_session_to_ip:
+  title: Leagă sesiunile personalului de IP
+  content: >
+    Bifează dacă vrei ca pentru agenți să fie memorate IP-urile curente, pentru autentificările viitoare.<br><br>Nu se recomandă pentru agenții care ale căror adrese IP sunt asignate dinamic (DHCP).
+registration_method:
+  title: Opțiuni pentru înregistrare
+  content: |2
+    Setările <span class="doc-desc-title">„Metoda de înregistrare”</span> și <span class="doc-desc-title">„Înregistrare obligatorie”</span> sunt utilizate împreună pentru a configura modul în care utilizatorii se înregistrează și utilizează portalul web al aplicației. Tabelul de mai jos sintetizează modul în care cele două setări sunt interpretate de sistem.
+    
+    <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" >
+    	<tbody style="vertical-align:top;">
+    		<tr>
+    			<th>Înregistrare obligatorie</th>
+    			<th>Metoda de înregistrare</th>
+    			<th>Rezultat</th>
+    		</tr>
+    		<tr>
+    			<td>Nu</td>
+    			<td>Public</td>
+    			<td>Înregistrarea e încurajată, dar nu e obligatorie pentru noile tichete</td>
+    		</tr>
+    		<tr>
+    			<td>Da</td>
+    			<td>Public</td>
+    			<td>Înregistrarea și autentificarea sunt obligatorii pentru noile tichete</td>
+    		</tr>
+    		<tr>
+    			<td>Nu</td>
+    			<td>Privat</td>
+    			<td>Oricine poate crea un tichet dar numai agenții își pot înregistra conturi</td>
+    		</tr>
+    		<tr>
+    			<td>Da</td>
+    			<td>Privat</td>
+    			<td>Accesul utilizatorilor se face doar pe bază de invitație</td>
+    		</tr>
+    		<tr>
+    			<td>Nu</td>
+    			<td>Invalidat</td>
+    			<td>Nimeni nu-și poate crea cont dar oricine poate crea tichete <em>(Acesta era modul de funcționare al aplicației osTichet anterior versiunii 1.9)</em></td>
+    		</tr>
+    		<tr>
+    			<td>Da</td>
+    			<td>Invalidat</td>
+    			<td>Invalidează crearea de noi tichete prin intermediul portalului web</td>
+    		</tr>
+    	</tbody>
+    </table>
+client_verify_email:
+  title: Impune verificarea prin e-mail
+  content: >
+    Debifează pentru a oferi utilizatorilor acces imediat la tichete prin intermediul paginii de autentificare „Verifică starea tichetului” din portalul pentru clienți. Dacă e bifată (starea implicită), utilizatorii vor primi un e-mail și vor trebui să urmeze un link din acest e-mail pentru a vizualiza tichetul.<br><br>Invalidarea verificării prin e-mail poate permite terțelor părți (de ex. colaboratori la tichet) să se substituie identității autorului tichetului.

@@ -1,0 +1,70 @@
+---
+type:
+  title: Tip
+  content: >
+    Selectează <span class="doc-desc-opt">Privat</span> dacă dorești ca atribuirile către acest Departament să fie ascunse în Portalul Clienților. În plus, atunci cân Departamentul e etichetat <span class="doc-desc-opt">Privat</span>, <span class="doc-desc-title">Semnătura Departamentului</span> nu va fi afișată în răspunsurile prin email. Cel puțin un Departament trebuie să fir <span class="doc-desc-opt">Public</span>.
+email:
+  title: Email
+  content: >
+    Adresa utilizată pentru a trimite Utilizatorilor e-mail când Agenții postează Răspunsuri la Tichete.
+template:
+  title: Setul de șabloane
+  content: >
+    <span class="doc-desc-title">Șablon</span>ul de email utilizat pentru Răspunsuri Automate și 
+    Notificările &amp; Alertele la tichetele rutate către acest Departament.
+  links:
+    - 
+      title: Admistreaza sabloane
+      href: /scp/templates.php
+sla:
+  title: ANS
+  content: >
+    Acord la nivel de serviciu pentru tichetele rutate către acest Departament.
+  links:
+    - 
+      title: Administrare Planuri SLA
+      href: /scp/slas.php
+manager:
+  title: Manager Departament
+  content: >
+    Selectează un <span class="doc-desc-title">Manager</span> pentru acest departament.<br/><br/>Managerii pot fi configurați să primească alerte speciale și de asemenea să aibe dreptul să de-asigneze tichete.
+  links:
+    - 
+      title: Administreaza alerte și notificari
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: ' Destinatarii Notificărilor și Alertelor'
+  content: >
+    Selectează destinatarii Notificărilor și Alertelor configurate
+  links:
+    - 
+      title: Configureaza Alerte &amp; Notificari
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Restrictii alocare tichete
+  content: >
+    Validează această opțiune pentru a forța asignarea tichetelor să includă doar membri ai acestui Departament. Dacă opțiunea <span class="doc-desc-title">Apartenență la Grup</span> e de asemenea validată, accesul de nivel Departament poate fi extins la Grupuri.
+auto_response_settings:
+  title: Setările pentru răspuns automat
+  content: >
+    Această opțiune îți permite să ignori setările globale pentru Răspuns Automat ale acestui Departament.
+new_ticket:
+  title: Raspunsul automat la tichete noi
+  content: >
+    Poți invalida Răspunsul Automat trimis Utilizatorului când un tichet nou este creat și rutat către acest Departament.
+new_message:
+  title: Nou mesaj de autoraspuns
+  content: >
+    Poți invalida Răspunsul Automat trimis Utilizatorului pentru a confirma un mesaj nou postat la tichetele acestui Departament.
+auto_response_email:
+  title: Email de raspuns automat
+  content: >
+    Selectează o adresă de e-mail de la care sunt trimise Răspunsurile Automate pentru acest Departament.
+department_access:
+  title: Acces Grup
+  content: >
+    Acordă acces Agenților celorlalte Departamente la tichetele acestui Departament.
+department_signature:
+  title: Semnatura departament
+  content: >
+    Semnătura e disponibilă ca opțiune la Răspunsurile Agenților pentru Departamentele <span class="doc-desc-opt">Public</span>e.

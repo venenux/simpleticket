@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API klíč
+  content: >
+    AKI klíče jsou používány k ověření klienta při vytváření nových tiketů přes Aplikační Programovací Interface (API). API klíče jsou použity místo hesel. API klíče mohou být posílány neširovaně, protože jsou spojeny s klientskou IP adresou.
+  links:
+    - 
+      title: osTicket API Dokumentace
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP adresa
+  content: >
+    IP adresa klienta. Každá unikátní IP adresa klienta vyžaduje separátní API klíče

@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Offen
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Offene Tickets.
+- 
+  id: 2
+  name: Gelöst
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Gelöste Tickets sind geschlossene Tickets, die vom Benutzer wiedereröffnet werden können. Das kann hilfreich sein, wenn ein Trigger verwendet wird, der gelöste Tickets schließt, mit einer Benachrichtigung, die an den Benutzer versendet wird.
+- 
+  id: 3
+  name: Geschlossen
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Tickets, die als geschlossen markiert wurden, können nicht vom Benutzer wiedereröffnet werden. Die Tickets werden weiterhin im Benutzer- und Agenten-Bereich zugänglich sein.
+- 
+  id: 4
+  name: Archiviert
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tickets, die nur administrativ zugänglich sind aber nicht mehr in den Ticket-Übersichtsseiten.
+- 
+  id: 5
+  name: Gelöscht
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Zum Löschen eingereihte Tickets. Nicht in den Ticket-Übersichtsseiten verfügbar.

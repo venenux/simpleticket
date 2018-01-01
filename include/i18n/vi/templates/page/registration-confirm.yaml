@@ -1,0 +1,6 @@
+---
+notes: >
+  Khung mẫu này là mẫu trang hiển thị sau khi khách hàng đăng ký hoàn tất . Khung mẫu này nên đề cập rằng hệ thống gửi đến email khách hàng một link xác nhận và những bước tiếp theo của quá trình đăng ký.
+name: "Đăng kí tài khoản"
+body: >
+  <div><strong>Cảm ơn quý khách đã đăng ký tài khoản.</strong> <br/> < br / > Chúng tôi đã gửi cho quý khách một email đến địa chỉ quý khách đã nhập. Vui lòng làm theo hướng dẫn trong email để xác nhận tài khoản và truy cập vào ticket. </div>

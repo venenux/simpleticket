@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Proba de envío de correo
+  content: >
+    O envío do correo electrónico depende das súas opcións do servidor (php.ini) e/ou da configuración SMTP.
+  links:
+    - 
+      title: Seleccione un correo para configurar os axustes de SMTP (saída)
+      href: /scp/emails.php
+from:
+  title: Dende
+  content: >
+    
+to:
+  title: Para
+  content: >
+    
+subject:
+  title: Asunto
+  content: >
+    
+message:
+  title: Mensaxe
+  content: >
+    

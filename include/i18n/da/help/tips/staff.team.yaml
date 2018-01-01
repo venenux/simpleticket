@@ -1,0 +1,33 @@
+---
+teams:
+  title: Hold
+  content: >
+    Hold er en eller flere agenter gået sammen med henblik på sag tildelingen. Hold medlemskab kan spænde over afdelingen.
+status:
+  title: Status
+  content: >
+    Hvis <span class="doc-desc-opt"> deaktiveret</span>, kan dette hold ikke vil være tilgængelig for sags tildelinger eller modtage påmindelser &amp; bekendtgørelser på tidligere opgaver.
+lead:
+  title: Hold leder
+  content: >
+    Et <span class="doc-desc-title">Hold</span> kan have en udnævnt leder, der kan modtage <span class="doc-desc-title">Påmindelser &amp; Meddelelser</span> adskilt fra medlemmerne.
+  links:
+    - 
+      title: Konfigurer påmindelser &amp; bekendtgørelser
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Tildelings alarm
+  content: >
+    Du kan deaktivere den <span class="doc-desc-title"> sags tildeling Alarm</span> for bestilling tildeles dette hold.
+  links:
+    - 
+      title: Konfigurer påmindelser &amp; bekendtgørelser
+      href: /scp/settings.php?t=alerts
+members:
+  title: Hold medlemmer
+  content: >
+    Hold medlemskab er konfigureret via Medarbejder profil.
+  links:
+    - 
+      title: Administrer personale
+      href: /scp/staff.php

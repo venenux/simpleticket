@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Format numeracji zgłoszeń
+  content: >
+    To ustawienie jest używane do generowania numerów zgłoszeń. Użyj znaków (`#`), w miejscach gdzie mają być cyfry. Każdy inny tekst zostanie zachowany. Dla <span class="doc-desc-title">Tematów pomocy</span> można definiować indywidualne formaty numeracji. <br/><br/> Na przykład, dla 6 cyfrowych numerów, użyj <code>######</code>.
+sequence_id:
+  title: Format numeracji sekwencji zgłoszeń
+  content: >
+    Wybierz sposób numerowania nowych zgłoszeń. System ma numerację narastającą lub domyślnie losową. Można utworzyć wiele sekwencji. Stwórz różne sekwencji w konfiguracji <span class="doc-desc-title">Domyślnej konfiguracji zgłoszeń</span> .
+default_ticket_status:
+  title: Domyślny status nowych zgłoszeń
+  content: >
+    Wybierz domyślny status dla nowy zgłoszeń. Każdy temat pomocy może mieć inne ustawienia, w miarę potrzeb. Ustawienie może też być nadpisane przez filtr zgłoszeń.
+  links:
+    - 
+      title: Określ status zgłoszenia
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Domyślne SLA
+  content: >
+    Wybierz domyślne poziom świadczenia usług, aby określić jak długo zgłoszenie może pozostawać otwarte, zanim zostanie oznaczone jako przeterminowane.
+  links:
+    - 
+      title: Utwórz więcej planów SLA
+      href: /scp/slas.php
+default_priority:
+  title: Domyślny priorytet
+  content: >
+    Wybierz domyślny  <span class="doc-desc-title">priorytet</span> dla zgłoszeń, które nie mają go przydzielonego automatycznie.<br/><br/> Priorytety mogą być przypisane ze względu na temat pomocy, przekierowanie do departamentu lub ustawiane filtrem zgłoszeń.
+maximum_open_tickets:
+  title: Maksymalna liczba otwartych zgłoszeń
+  content: >
+    Wprowadź maksymalną <em>liczbę</em> zgłoszeń, które użytkownik może mieć <strong>otwarte</strong> w twoim systemie pomocy. <br><br> Wprowadź <span class="doc-desc-opt">0</span> żeby wyłączyć limit.
+agent_collision_avoidance:
+  title: Unikanie kolizji przedstawicieli
+  content: >
+    Wprowadź maksymalny czas przez jaki przedstawiciel może blokować zgłoszenie bez żadnej aktywności. <br><br> Wprowadź <span class="doc-desc-opt">0</span>, aby wyłączyć możliwość blokady .
+email_ticket_priority:
+  title: Priorytet zgłoszenia Email
+  content: >
+    Użyj priorytetu e-mail przypisanego do usługi poczty adresata
+show_related_tickets:
+  title: Pokaż podobne zgłoszenia
+  content: >
+    Pokazuj wszystkie zgłoszenia powiązane z loginem użytkownika - w przeciwnym razie dostęp będzie ograniczony do jednego zgłoszenia na dane zalogowanie.
+human_verification:
+  title: Weryfikacja człowieka
+  content: >
+    Włącz CAPTCHA na Portalu Klienta, w celu sprawdzenia czy zgłoszenie jest dziełem aktywności człowieka. <br><br> Wymaga biblioteki GDLib.
+claim_tickets:
+  title: Przypisz zgłoszenie odpowiadającemu
+  content: >
+    Włącz, aby automatycznie przypisać zgłoszenie do odpowiadającego przedstawiciela. <br><br> Ponownie otwierane zgłoszenia są zawsze przypisywane do ostatniego odpowiadającego.
+assigned_tickets:
+  title: Przypisane zgłoszenia
+  content: >
+    Włącz tą funkcję, aby wykluczyć przypisane zgłoszenia z <span class="doc-desc-title">Kolejki otwartych zgłoszeń</span>.
+answered_tickets:
+  title: Zgłoszenia z odpowiedziami
+  content: >
+    Włączenie tej pocji spowoduje pokazywanie zgłoszeń z odpowiedzią w <span class="doc-desc-title">Kolejce zgłoszeń odpowiedzianych</span>. W przeciwnym razie będą one widziane w <span class="doc-desc-title">Kolejce zgłoszeń otwartych</span>.
+staff_identity_masking:
+  title: Maskowanie tożsamości personelu
+  content: >
+    Jeżeli ta opcja jest włączona, to w trakcie komunikacji z klientami nazwisko przedstawiciela będzie nie widoczne dla klienta.
+enable_html_ticket_thread:
+  title: Włącz HTML w treści zgłoszeń
+  content: >
+    Jeśli opcja jest włączona, to pozwala na korzystanie ze wzbogaconego formatowania tekstu między klientami i pełnomocnikami.
+ticket_attachment_settings:
+  title: Załączniki zgłoszenia
+  content: >
+    Konfiguracja ustawień dla pliku załączonego do pola <span class="doc-desc-title">szczegółów zgłoszenia</span>. Te ustawienia są używane dla wszystkich nowych zgłoszeń i nowych wiadomości niezależnie od źródła wiadomości (portal www, email, api, itp...).
+max_file_size:
+  title: Maksymalny rozmiar pliku
+  content: >
+    Wybierz maksymalny rozmiar pliku dla załączników przesyłanych przez użytkowników. Obejmuje gotowe załączniki, artykuły bazy wiedzy oraz załączników do odpowiedzi na zgłoszenia.
+ticket_response_files:
+  title: Pliki w odpowiedziach na zgłoszenie
+  content: >
+    Jeżeli włączymy tą opcje wszystkie załączniki zawarte w odpowiedzi na zgłoszenie będą również załączone do wiadomości email wysłanej do klienta.

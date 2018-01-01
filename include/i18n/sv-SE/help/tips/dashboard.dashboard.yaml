@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Ärendeaktivitet
+  content: >
+    Välj datumintervall för att visa tillhörande data (<span class="doc-desc-title">Statistik</span>) i tabell och diagram nedan. Diagrammet visar alltid hela datamängden i systemet (t ex antal ärenden). Dock så kan du navigera i <span class="doc-desc-title">Statistik-</span> tabellen nedan för att fokusera på en viss del av informationen som du är intresserad av (t ex Avdelningar, Rubriker, Personal, etc). Du kan även välja att exportera data ur <span class="doc-desc-title">Statistik-</span>tabellen.
+report_timeframe:
+  title: Tidsram för rapporter
+  content: >
+    Välj startdatum och sedan hur lång period du är intresserad av för att på så vis rama in en datamängd för perioden.
+statistics:
+  title: Statistik
+  content: >
+    Navigera till ett intresseområde genom att klicka på lämplig flik. Inom tabellen så representerar cirklarna storleken på den nominella datamängden. Ju större antalet är i en speciell cell, desto större kommer den intilliggande cirkeln vara.
+opened:
+  title: Öppnad
+  content: >
+    Detta representerar ärenden som skapats av supportpersonalen (dvs ärenden som skapats inne i systemet) och ej av kunderna.
+assigned:
+  title: Tilldelad
+  content: >
+    Systemet spårar varje händelse varvid ett ärende automatiskt eller manuellt tilldelas en viss avdelning eller viss person i supporten. Den automatisk tilldelning beror på inställningarna under  <span class="doc-desc-title">Hjälp rubriker</span> och <span class="doc-desc-title">E-postfilter</span> i administrationspanelen.
+overdue:
+  title: Förfallet
+  content: >
+    Det här är antalet ärenden som brutit mot den SLA-plan som de tillhör.
+closed:
+  title: Stängd
+  content: >
+    Här är antal ärenden som stängts.
+reopened:
+  title: Återöppnade
+  content: >
+    Här är antal ärenden som återöppnades antingen av supportpersonalen eller av en kund som svarat på ärendet när det var stängt.
+service_time:
+  title: Servicetid
+  content: >
+    <span class="doc-desc-title">Behandlingstid</span> är den tid som löpt från det att ärendet öppnades till det att det stängdes. <span class="doc-desc-title">Behandlingstids-</span>kolumnen här visar genomsnittlig behandlingstid per ärende, räknat i timmar, inom det angivna datumintervallet.
+response_time:
+  title: Svarstid
+  content: >
+    <span class="doc-desc-title">Svarstid</span> är tiden från att en godtycklig kund skickar ett meddelande till det att någon i supportpersonalen svarar. Denna tidsmätning görs på alla frågor från kunden, inte bara den inledande frågan för respektive ärende.

@@ -1,0 +1,21 @@
+---
+notes: |
+  
+subject: |
+  Zgłoszenie numer %{ticket.number} przetransferowane do departamentu %{ticket.dept.name}
+body: |2
+  <h3>Witaj %{recipient.name},</h3>
+  Twoje zgłoszenie <a href="%{ticket.staff_link}">#%{ticket.number}</a> zostało przetransferowane do departamentu %{ticket.dept.name} przez <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Aby przejrzeć lub odpowiedzieć na zgłoszenie, <a href="%{ticket.staff_link}">zaloguj się</a> w naszym systemie obsługi klienta.
+  </div>
+  <em style="font-size: small; ">Twój przyjazny System Obsługi Klienta</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

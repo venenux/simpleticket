@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API avain
+  content: >
+    API avaimia käytetään asiakkaiden todentamisessa uusien tikettien lähettämisen yhteydessä, käyttäen Application Programming Interface (API) tapaa. API avaimia käytetään salasanojen sijasta. Koska API avaimia saatetaan lähettää salaamattomina, ne linkitetään asiakkaan IP-osoitteeseen.
+  links:
+    - 
+      title: osTicket API-dokumentaatio
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP-osoite
+  content: >
+    Asiakkaan IP-osoite. Jokainen asiakkaan yksilöllinen IP-osoite vaatii erillisen API avaimen

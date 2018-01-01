@@ -1,0 +1,5 @@
+---
+notes: >
+  Ovo je inicijalna poruka i baner koji se prikazuju na djelatnikovoj stranici prijave. Prvo polje za unos se odnosi na crveno - formatirani tekst koji se pojavljuje na vrhu. Potonji obrazac je sadržaj za banner koji bi trebao poslužiti kao disclaimer .
+name: "Potrebna autentifikacija"
+body: ""

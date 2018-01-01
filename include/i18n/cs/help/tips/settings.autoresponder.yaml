@@ -1,0 +1,44 @@
+---
+new_ticket:
+  title: Nový požadavek
+  content: >
+    Povolte tuto možnost, pokud chcete automaticky odpovědět uživateli při zadání nového tiketu.
+  links:
+    - 
+      title: Šablona automatické odpovědi při zadání nového požadavku
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Nový požadavek vytvořený pracovníkem
+  content: >
+    Oznámení uživateli, že za něj byl pracovníkem zadán požadavek. <em> Pracovník může toto nastavení přepsat při zadání požadavku.</em>
+  links:
+    - 
+      title: Šablona upozornění na nový požadavek
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Potvrzení nové zprávy
+  content: >
+    Odeslat zadavateli potvrzení o příjmu nové zprávy k jeho existujícímu zákaznickému požadavku.
+  links:
+    - 
+      title: Šablona potvrzení nové zprávy
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Upozornění na novou zprávu
+  content: >
+    Rozešle zprávy přijaté od odesílatele všem ostatním pracujícím na tiketu.
+  links:
+    - 
+      title: Šablona pro zprávu o nové události
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Oznámení o překročení limitu
+  content: >
+    Zpráva yaslaná uživateli při odmítnutí tiketu pro překročení<span class="doc-desc-title">maximálního počtu otevřených tiketů</span>.
+  links:
+    - 
+      title: Šablona oznámení na překročení limitu
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: <em>Max. počet otevřených tiketů</em>
+      href: /scp/settings?t=tickets

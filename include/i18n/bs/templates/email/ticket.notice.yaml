@@ -1,0 +1,28 @@
+---
+notes: Obavijest poslana korisniku kada djelatnik otvori novu karticu u njegovo ime. Ovo je načešće kada korisnik nazove telefonski tehničku podršku.
+subject: '%{ticket.subject} [#%{ticket.number}]'
+body: |
+  <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
+  Naša tehnička podrška otvorila je karticu za tehničku podršku, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> u Vaše ime, sa sljedećim podacima:
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Predmet: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Ukoliko je potrebno predstavnik tehničke podrške će vas kontaktirati u najkraćem mogućem roku. Također možete pratiti razvoj ove kartice online na <a href="%{recipient.ticket_link}"></a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Vaša %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Ukoliko želite
+  pružiti dodatne komentare ili informacije, odgovorite na ovaj e-mail
+  ili <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >prijavite u Vaš korisnički račun</span></a> za kompletnu arhivu svih dosadašnjih kartica.</em></div>

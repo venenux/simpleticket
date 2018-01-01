@@ -1,0 +1,67 @@
+---
+username:
+  title: Uživatelské jméno
+  content: >
+    Prosím, zvolte <span class="doc-desc-title">uživatelské jméno</span> agenta, které je jedinečné ve vašem <span class="doc-desc-title">helpdesku</span>.
+email_address:
+  title: E-mail
+  content: >
+    Zadejte email agenta, který obdrží <span class="doc-desc-title">výstrahy a upozornění</span> od <span class="doc-desc-title">helpdesku</span>.
+  0: <br><br>
+  1: Pracovníci se mohou přihlásit do ovládacího panelu pracovníka buď uživatelským jménem nebo e-mailovou adresou.
+welcome_email:
+  title: Uvítací e-mail
+  content: >
+    Systém zašle novému pracovníkovi přístupový odkaz, pomocí nějž bude moci nastavit své heslo. Není-li vybráno, musíte heslo nastavit a přihlašovací informace sdělit novému pracovníkovi.
+account_password:
+  title: Heslo účtu
+  content: >
+    Jako <span class="doc-desc-title">administrátor</span> můžete měnit heslo agenta.
+forced_password_change:
+  title: Vynucená změna hesla
+  content: >
+    Povolte, pokud si přejete, aby si agent při dalším přihlášení musel změnit heslo.
+agents_signature:
+  title: Podpis pracovníka
+  content: >
+    Vytvořte podpis pracovníka, který může být použit při odpovědi na požadavek.
+account_status:
+  title: Stav účtu
+  content: >
+    Je-li stav agenta <span class="doc-desc-opt">uzamčen</span>, nebude se moci přihlásit na helpdesk.
+assigned_group:
+  title: Přiřazená skupina
+  content: >
+    <span class="doc-desc-title">Skupina</span> kterou označíte, že do ní tento agent náleží, bude určovat oprávnění agenta v <span class="doc-desc-title">helpdesku</span>.
+  links:
+    - 
+      title: Správa skupin
+      href: /scp/groups.php
+primary_department:
+  title: Primární oddělení
+  content: >
+    Vyberte primární<span class="doc-desc-title">oddělení</span> agenta.
+  links:
+    - 
+      title: Správa oddělení
+      href: /scp/departments.php
+daylight_saving:
+  title: Letní čas
+  content: >
+    Povolte, pokud si přejete automaticky nastavovat letní čas pro časovou zónu tohoto agenta.
+limited_access:
+  title: Omezený přístup
+  content: >
+    Je-li vybráno, bude agent mít přístup pouze k požadavkům přiřazeným přímo jemu či jeho týmu.
+directory_listing:
+  title: Výpis adresáře
+  content: >
+    Zvolte, chcete-li vypsat tohoto agenta v  <span class="doc-desc-title">Adresáři zaměstnanců</span>.
+  links:
+    - 
+      title: Zobrazit seznam pracovníků
+      href: /scp/directory.php
+vacation_mode:
+  title: Na dovolené
+  content: >
+    Změníte-li stav agenta na<span class="doc-desc-opt">Na dovolené</span>, agent nedostane žádné <span class="doc-desc-title">výstrahy a upozornění</span> ani mu nebude požno přiřadit požadavek.

@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Listas personalizadas
+  content: >
+    As suas <span class="doc-desc-title"> listas personalizadas</span> permitirão criar caixas de dropdown com opções predefinidas que um Cliente pode selecionar nos seus <span class="doc-desc-title"> Formulários Personalizados</span>. Se quiser usar esta <span class="doc-desc-title"> lista personalizada</span> como um <span class="doc-desc-title"> alvo</span> num <span class="doc-desc-title"> Filtro de Ticket</span>, certifique-se que adiciona esta lista ao seu formulário de <span class="doc-desc-title"> Detalhes de Ticket</span>.
+name:
+  title: Nome
+  content: >
+    
+plural_name:
+  title: Nome plural
+  content: >
+    
+sort_order:
+  title: Sequência de ordenação
+  content: >
+    
+list_s_initial_items:
+  title: Itens iniciais da lista
+  content: >
+    
+value:
+  title: Valor
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Abreviaturas e afins. Se usar códigos internos para os itens nesta lista, esses códigos e abreviaturas podem ser inseridos nesta coluna. Se a lista personalizada é processada como um <span class="doc-desc-option"> TypeAhead</span>, essas abreviaturas podem ser usadas para pesquisar os itens de lista personalizada.

@@ -1,0 +1,42 @@
+---
+notes: |
+  ផ្ញើទៅឱ្យបុគ្គលិកពេលសារថ្មីត្រូវបានផ្ញើដោយអ្នកប្រើ។នេះអាចកើតឡើងប្រសិនបើអ្នកប្រើបានឆ្លើយតបទៅនឹងអ៊ីមែលពីមួយប្រព័ន្ធ ឬបើកមើលអតិថិជនវិបផតថល និងផ្ញើសារថ្មីនៅទីនោះ។
+subject: |
+  ដំណឹងថ្មី
+body: |2
+  <h3><strong>សួស្តី %{recipient.name},</strong></h3>
+  សារថ្មីបន្ថែមទៅនឹងករណី <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>ពី</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>នាយកដ្ឋាន</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>ដើម្បីមើលឬឆ្លើយតបទៅនឹងសំបុត្រនេះទេសូម <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >login</span></a> ទៅប្រព័ន្ធករណីនេះ </div>
+  <em style="color: rgb(127,127,127); font-size: small; ">ប្រព័ន្ធផ្តល់ជំនួយដល់អតិថិជនដែលងាយស្រួលរបស់អ្នក</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

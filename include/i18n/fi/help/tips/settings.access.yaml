@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Salasanan vanhentumiskäytäntö
+  content: >
+    Määrittää kuinka usein (kuukausissa) henkilöstön jäsenien pitää uusia salasanansa. Jos poissa käytöstä (asetettu "Ei vanhentumista") niin salasanat eivät vanhene.
+password_expiration_policy:
+  title: Salasanan vanhentumiskäytäntö
+  content: >
+    Määrittää kuinka usein Käsittelijöiden pitää uusia salasanansa. Jos poissa käytöstä (<span class="doc-desc-opt">Ei vanhentumista</span>) niin salasanat eivät vanhene.
+allow_password_resets:
+  title: Salli salasanan resetoinnit
+  content: >
+    Aktivoi tämä ominaisuus jos haluat näyttää <span class="doc-desc-title">Unohdin salasanani</span> linkin <span class="doc-desc-title">Henkilökunnan kirjautumisikkunassa</span> virheellisen kirjautumisyrityksen jälkeen.
+reset_token_expiration:
+  title: Salasanan Resetointi-ikkuna
+  content: >
+    Valitse kesto (minuuteissa) jonka aikaa <span class="doc-desc-title"> Salasanan resetointi viesti</span> on aktiivinen. Kun Käsittelijä pyytää <span class="doc-desc-title">Salasanan resetointia</span>, heille lähetetään sähköpostiviesti joka mahdollistaa resetoinnin.
+staff_session_timeout:
+  title: Henkilöstön istunnon aikakatkaisu
+  content: >
+    Valitse maksimi toimeton aika (minuuteissa) ennen kuin Käsittelijää vaaditaan kirjautumaan uudestaan. <br><br> Jos haluat poistaa <span class="doc-desc-title">Henkilökunnan istunnon aikakatkaisun</span>, aseta luvuksi 0.
+client_session_timeout:
+  title: Asiakkaan istunnon aikakatkaisu
+  content: >
+    Valitse maksimi poissaoloaika (minuuteissa), jonka jälkeen käyttäjän pitää kirjautua sisään uudelleen.<br><br> Jos haluat poistaa käytöstä <span class="doc-desc-title">Käyttäjän istunnon aikakatkaisun</span>, syötä arvoksi 0.
+bind_staff_session_to_ip:
+  title: Sido Henkilökunnan istunnot IP-osoitteisiin
+  content: >
+    Aktivoi tämä jos haluat Käsittelijän muistettavan heidän IP-osoitteen perusteella kirjautumisen yhteydessä. <br><br> Tämä asetus ei ole suositeltavaa käyttäjille joiden IP-osoitteet ovat dynaamisia.
+registration_method:
+  title: Rekisteröitymisvaihtoehdot
+  content: >
+    <span class="doc-desc-title">Rekisteröitymistapa</span> ja <span class="doc-desc-title">Rekisteröityminen vaadittu</span> valintoja käytetään yhdessä määrittelemään kuinka käyttäjät rekisteröityvät ja pääsevät tukisivustoon. Taulukko alla kertoo kuinka nämä asetukset vaikuttavat järjestelmään. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Rekisteröityminen vaadittu</th> <th>Rekisteröitysmistapa</th> <th>Tulos</th></tr> <tr><td>Ei</td><td>Julkinen</td> <td>Rekisteröitymiseen kannustetaan, mutta ei vaadita uusien tikettien luomiseksi.</td></tr> <tr><td>Kyllä</td><td>Julkinen</td> <td>Rekisteröityminen ja kirjautuminen vaaditaan uusien tikettien luomiseksi</td></tr> <tr><td>Ei</td><td>Yksityinen</td> <td>Kuka tahansa voi luoda tiketin, mutta ainoastaan Käsittelijät voivat rekisteröidä tilejä</td></tr> <tr><td>Kyllä</td><td>Yksityinen</td> <td>Käyttäjät pääsevät sivustolle ainoastaan kutsusta</td></tr> <tr><td>Ei</td><td>Poistettu</td> <td>Kukaan ei voi rekisteröityä, mutta kuka tahansa voi luoda tikettejä. <em>Näin osTicket toimi ennen 1.9 versiota</em></td></tr> <tr><td>Kyllä</td><td>Poistettu</td> <td>Estä uudet tiketit Verkkosivuston kautta</td></tr> </tbody></table>
+client_verify_email:
+  title: Vaadi sähköpostivarmennus
+  content: >
+    Poista ominaisuus jonka antaa asiakkaille pääsyn tiketteihin "Tarkista tiketin tila" kirjautumissivulla asiakassivustolla. Jos aktivoitu, (oletusasetus), asiakkailta vaaditaan sähköpostiosoite ja seuraamaan viestin linkkiä tikettiin pääsyä varten. <br><br>Sähköpostivarmennuksen poistaminen voi mahdollistaa muiden esittäytyä tiketin omistajana.

@@ -1,0 +1,20 @@
+---
+notes: |
+  Transmis unui utilizator cand acesta postreaza un meaj nou afrenent unui tichet. Aceasta se poate intampla daca utilizatorul respunde la un email de la sistem sau daca viziteaza portalul web si posteaza un mesaj nou acolo.
+subject: |
+  Confirmare mesaj
+body: |
+  <h3><strong>Draga %{recipient.name.first},</strong></h3>
+  Comentariul tau la adresa tichetului <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> a fost notat.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  Cu drag, Echipa %{company.name}, <br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Poti urmari stadiul tichetului live <a
+  href="%{recipient.ticket_link}">aici</a></em>
+  </div>

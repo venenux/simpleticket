@@ -1,0 +1,7 @@
+---
+notes: |
+  crwdns514:0%{assigner}crwdne514:0
+subject: |
+  crwdns515:0crwdne515:0
+body: |
+  crwdns594:0%{assignee.name.first}crwdnd594:0%{ticket.staff_link}crwdnd594:0%{ticket.number}crwdnd594:0%{assigner.name.short}crwdnd594:0%{ticket.name}crwdnd594:0%{ticket.email}crwdnd594:0%{ticket.subject}crwdnd594:0%{comments}crwdnd594:0%{ticket.staff_link}crwdne594:0

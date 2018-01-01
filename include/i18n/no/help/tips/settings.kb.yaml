@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Innstillinger for kunnskaps Base
+  content: >
+    
+knowledge_base_status:
+  title: Kunnskapsbasen Status
+  content: >
+    Aktiver denne innstillingen slik at brukerne får selvbetjent tilgang til din offentlige kunnskapsbaseartikkler. <br><br>Kunnskapsbase kategorier og spørsmål kan lages internt (vises bare av agenter).
+  links:
+    - 
+      title: Administrere kunnskaps base
+      href: /scp/kb.php
+restrict_kb:
+  title: Begrens tilgangen til kunnskapsbasen
+  content: >
+    Skru på for å sperre uregistrerte brukeres tilgang til artikler i kunnskapsbasen fra klient siden.
+  links:
+    - 
+      title: Innstillingene for tilgangskontroll
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: forhånds definerte svar
+  content: >
+    Aktiver denne innstillingen slik at agenter kan bruke <span class="doc-desc-title"> forhåndsdefinerte svar</span> når de svarer på saker.
+  links:
+    - 
+      title: Administrere forhåndsdefinerte svar
+      href: /scp/canned.php

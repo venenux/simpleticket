@@ -1,0 +1,42 @@
+---
+notes: |
+  Saadetakse meeskonna liikmele, kui klient on saatnud uue teate pöördumisele. See juhtub, kui klient vastab süsteemi poolt saadetud e-kirjale või postitab teate klienditeeninduse portaalist.
+subject: |
+  Teade uue sõnumi saabumisest
+body: |2
+  <h3><strong>Tere,  %{recipient.name}!</strong></h3>
+  Pöördumisele on lisatud teade <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Kellelt</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Osakond</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Selleks, et pöördumist vaadata või sellele vastata, <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >logi sisse</span></a> kasutajatoe süsteemi</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Sinu sõbralik klienditugi</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

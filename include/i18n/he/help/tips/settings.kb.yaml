@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: הגדרות מאגר הידע
+  content: >
+    
+knowledge_base_status:
+  title: מצב בסיס המידע
+  content: >
+    הפעל הגדרה זו על מנת לאפשר למשתמשי גישת שירות עצמי למאמרי בסיס המידע הציבוריים.<br><br>קטגוריות בסיס מידע ותשובות לשאלות שכיחות יכול להיקבע כפנימיות (נראים ע"י סוכנים בלבד).
+  links:
+    - 
+      title: ניהול בסיס הידע
+      href: /scp/kb.php
+restrict_kb:
+  title: הגבלת גישה למאגר המידע
+  content: >
+    הפעל הגדרה זו כדי למנוע ממשתמשים לא רשומים מגישה אל מאמרי מאגרי המידע שלך באמצעות ממשק הלקוח.
+  links:
+    - 
+      title: הגדרות בקרת גישה
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: תגובות שנמחקו
+  content: >
+    הפעל הגדרה זו כי לאפשר לסוכנים להשתמש ב<span class="doc-desc-title">תגובות שמורות</span> כאשר מגיבים לקריאות.
+  links:
+    - 
+      title: נהל תשובות משורשרות
+      href: /scp/canned.php

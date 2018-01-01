@@ -1,0 +1,77 @@
+---
+default_email_templates:
+  title: 'crwdns1016:0crwdne1016:0'
+  content: >
+    crwdns1017:0crwdne1017:0
+  links:
+    - 
+      title: 'crwdns1018:0crwdne1018:0'
+      href: 'crwdns1019:0crwdne1019:0'
+default_system_email:
+  title: 'crwdns1020:0crwdne1020:0'
+  content: >
+    crwdns1021:0crwdne1021:0
+  links:
+    - 
+      title: 'crwdns1022:0crwdne1022:0'
+      href: 'crwdns1023:0crwdne1023:0'
+default_alert_email:
+  title: 'crwdns688:0crwdne688:0'
+  content: >
+    crwdns1024:0crwdne1024:0
+  links:
+    - 
+      title: 'crwdns1025:0crwdne1025:0'
+      href: 'crwdns691:0crwdne691:0'
+admins_email_address:
+  title: 'crwdns1026:0crwdne1026:0'
+  content: >
+    crwdns1027:0crwdne1027:0
+  links:
+    - 
+      title: 'crwdns1028:0crwdne1028:0'
+      href: 'crwdns1029:0crwdne1029:0'
+email_fetching:
+  title: 'crwdns1030:0crwdne1030:0'
+  content: >
+    crwdns1031:0crwdne1031:0
+  links:
+    - 
+      title: 'crwdns1032:0crwdne1032:0'
+      href: 'crwdns1033:0crwdne1033:0'
+enable_autocron_fetch:
+  title: 'crwdns1034:0crwdne1034:0'
+  content: >
+    crwdns1035:0crwdne1035:0
+  links:
+    - 
+      title: 'crwdns1036:0crwdne1036:0'
+      href: 'crwdns1037:0crwdne1037:0'
+strip_quoted_reply:
+  title: 'crwdns1038:0crwdne1038:0'
+  content: >
+    crwdns1039:0crwdne1039:0
+reply_separator_tag:
+  title: 'crwdns1040:0crwdne1040:0'
+  content: >
+    crwdns1041:0crwdne1041:0
+emailed_tickets_priority:
+  title: 'crwdns1042:0crwdne1042:0'
+  content: >
+    crwdns1043:0crwdne1043:0
+  links:
+    - 
+      title: 'crwdns1044:0crwdne1044:0'
+      href: 'crwdns1045:0crwdne1045:0'
+accept_all_emails:
+  title: 'crwdns1046:0crwdne1046:0'
+  content: >
+    crwdns1047:0crwdne1047:0
+accept_email_collaborators:
+  title: 'crwdns1048:0crwdne1048:0'
+  content: >
+    crwdns1049:0crwdne1049:0
+default_mta:
+  title: 'crwdns1050:0crwdne1050:0'
+  content: >
+    crwdns1051:0crwdne1051:0

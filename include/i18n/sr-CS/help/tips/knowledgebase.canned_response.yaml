@@ -1,0 +1,11 @@
+---
+canned_response:
+  title: Pripremljen odgovor
+  content: 'Napravite <span class="doc-desc-title">Pripremljen odgovor</span>koji se može uneti u odgovor na tiket. Takođe se može koristiti kao <span class="doc-desc-title">automatski odgovor na tiket</span> podešen po <span class="doc-desc-title">Filteru tiketa</span>.'
+  links:
+    - 
+      title: Postavi filter tiketa
+      href: /scp/filters.php
+canned_attachments:
+  title: Pripremljeni prilozi
+  content: 'Dodajte datoteku koju biste hteli automatski da priložite u odgovor na tiket koji će koristiti <span class="doc-desc-title">Pripremljen odgovor</span>.'

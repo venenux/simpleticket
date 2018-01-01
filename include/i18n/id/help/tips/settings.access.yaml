@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Kebijakan sandi kadaluarsa
+  content: >
+    Mengatur seberapa sering (dalam bulan) anggota staf akan diminta untuk mengubah password mereka. Jika dinonaktifkan (set ke "No kadaluarsa"), password tidak akan berakhir.
+password_expiration_policy:
+  title: Kebijakan sandi kadaluarsa
+  content: >
+    Pilih seberapa sering Agen akan diminta untuk mengubah password mereka. Jika dinonaktifkan (yaitu,  Tidak ada Batas Waktu ), password tidak akan berakhir.
+allow_password_resets:
+  title: Izinkan Ganti Sandi
+  content: >
+    Aktifkan fitur ini jika anda ingin menampilkan tautan <span class="doc-desc-title">Lupa Password</span> pada <span class="doc-desc-title">Panel Login Staf</span> setelah gagal ketika melakukan login.
+reset_token_expiration:
+  title: Jendela Pengaturan Ulang Password
+  content: >
+    Pilih durasi (dalam menit) dimana <span class="doc-desc-title"> Token Atur Ulang Password</span> akan valid. Ketika agen melakukan permintaan <span class="doc-desc-title">Atur Ulang Password</span>, sebuah token akan diemail ke agen untuk mengizinkan pengaturan ulang password.
+staff_session_timeout:
+  title: Batas Waktu Sesi Staf
+  content: >
+    Pilih batas waktu maksimum ketidak aktifan (dalam menit) Agen untuk melakukan login kembali.<br><br>Untuk menonaktfikan <span class="doc-desc-title">Batas Waktu Sesi Staf</span>, masukkan nilai 0.
+client_session_timeout:
+  title: Batas Waktu Sesi Pengguna
+  content: >
+    Pilih batas waktu maksimum ketidak aktifan (dalam menit) Pengguna untuk melakukan login kembali.<br><br>Untuk menonaktfikan <span class="doc-desc-title">Batas Waktu Sesi Pengguna</span>, masukkan nilai 0.
+bind_staff_session_to_ip:
+  title: Tautkan Sesi Staf ke IP
+  content: >
+    Aktifkan pengaturan ini jika anda ingin Agen diingatkan dengan IP mereka ketika login.<br><br> Pengaturan ini tidak direkomendasikan untuk pengguna yang memiliki alamat IP dinamik.
+registration_method:
+  title: Pilihan Registrasi
+  content: >
+    <span class="doc-desc-title">Metode Pendaftaran</span> dan <span class="doc-desc-title">Syarat Pendaftaran</span> digunakan bersama untuk mengatur bagaimana user mendaftar dan mengakses portal situs help desk anda. Tabel dibawah adalah ringkasan bagaimana kedua pengaturan tersebut akan ditafsirkan oleh sistem. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Syarat Pendaftaran</th> <th>Metode Pendaftaran</th> <th>Hasil</th></tr> <tr><td>Tidak</td><td>Publik</td> <td>Pendaftaran dianjurkan tapi tidak dibutuhkan untuk tiket baru.</td></tr> <tr><td>Iya</td><td>Publik</td> <td>Pendaftaran dan login dibutuhkan untuk tiket baru.</td></tr> <tr><td>Tidak</td><td>Pribadi</td> <td>Setiap orang bisa membuat tiket, tapi hanya agen yang dapat melakukan pendaftran akun.</td></tr> <tr><td>Iya</td><td>Pribadi</td> <td>Akses pengguna hanya melalui undangan.</td></tr> <tr><td>Tidak</td><td>Non aktif</td> <td>Tidak ada yang dapat melakukan pendaftaran, tapi semua dapat membuat tiket. <em>osTicket sebelum versi 1.9 berfungsi seperti ini</em></td></tr> <tr><td>Iya</td><td>Non aktfi</td> <td>Non aktifkan tiket baru via portal situs</td></tr> </tbody></table>
+client_verify_email:
+  title: Verifikasi Email Dibutuhkan
+  content: >
+    Nonaktifkan pilihan ini untuk memberikan pengguna akses langsung ke tiket melalui halaman login "Cek Status Tiket" pada portal klien. Jika diaktifkan (pengaturan standar), pengguna harus menerima email dan mengikuti tautan pada email untuk melihat tiket.<br><br>Menonaktfikan verifikasi email akan memungkinkan pihak ketiga (seperti tiket kolaborator) untuk menirukan pemilik tiket.

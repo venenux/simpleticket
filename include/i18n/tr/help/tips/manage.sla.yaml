@@ -1,0 +1,13 @@
+---
+name:
+  title: Adı
+  content: >
+    Bu <span class="doc-desc-title">Hizmet Planı</span> için amacını yansıtacak açıklayıcı bir isim seçin.
+grace_period:
+  title: Geçerlilik Süresi
+  content: >
+    Bir talebin ne kadar saat sonra otomatik olarak süresi dolmuş şeklinde işaretleneceğini belirleyiniz.<br><br> <em>Talebin oluşturulma saatinden itibaren sayaç başlar.</em>
+transient:
+  title: Geçici
+  content: >
+    Geçici hizmet anlaşmaları <span class="doc-desc-opt">Bölüm</span> yönlendirme ya da <span class="doc-desc-title">Yardım Konusu</span> değiştirildiğinde kalıcı anlaşmalarla değiştirilebilir.

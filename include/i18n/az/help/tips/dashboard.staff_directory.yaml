@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Heyət üzvləri
+  content: >
+    Növbəti cədvəl yuxarıda filterin nəticələrini göstərir. Əgər filter tənzimləmələri seçilməyibsə, onda bütün <span class="doc-desc-title">heyət üzvləri</span> görünür və səhifələr tərəfindən dağıdılır. Daha çox nətəicələr arasında gəzmək üçün aşağıda səhifələr bölməsinə  baxın.
+apply_filtering_criteria:
+  title: Filterləmə meyarına müraciət edin
+  content: >
+    Sizin indiki maraqlarınıza münasib <span class="doc-desc-title">şöbə</span> seçin. Həmçinin siz xüsusi agent axtarışını da həyata keçirdə bilərsiz.

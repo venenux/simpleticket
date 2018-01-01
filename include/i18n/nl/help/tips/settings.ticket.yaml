@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Ticket nummerformaat
+  content: >
+    Deze instelling wordt gebruikt om ticketnummers te genereren. Gebruik hashtekens (`#`) waar cijfers moeten worden geplaatst. Elke andere tekst in het nummerformaat wordt bewaard. <span class="doc-desc-title">Help Onderwerpen</span> kunnen aangepaste nummerformaten instellen. <br/><br/> Gebruik bijvoorbeeld voor zes-cijferige nummers de code <code>######</code>.
+sequence_id:
+  title: Ticket nummer reeks
+  content: >
+    Kies een methode om nieuwe tickets te nummeren. Het systeem heeft een optelmethode of een zgn 'willekeurige'-methode met betrekking tot het nummeren van de tickets. Je kunt zoveel methodes aanmaken als je wilt in <span class="doc-desc-title">Ticket Nummer Formaat</span> configuratie.
+default_ticket_status:
+  title: Standaard status voor nieuwe tickets
+  content: >
+    Kies de initiële status die elk nieuw ticket zal hebben. Dit kan gedefinieerd worden voor elk help-onderwerp en als gewenst, kan dit overruled worden via een ticket filter.
+  links:
+    - 
+      title: Ticket statussen beheren
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Standaard SLA
+  content: >
+    Kies de overeengekomen standaard om te bepalen hoe lang een ticket mag lopen alvorens het ticket wordt aangemeld als 'verlopen'.
+  links:
+    - 
+      title: Maak meer SLA plannen
+      href: /scp/slas.php
+default_priority:
+  title: Standaardprioriteit
+  content: >
+    Kies een standaard <span class="doc-desc-title">prioriteit</span> voor nieuwe tickets die niet automatisch een nieuwe prioriteit krijgen. <br/><br/>Prioriteit kan toegekend worden worden via het helponderwerp, of via de ticket-filter-instellingen.
+maximum_open_tickets:
+  title: Maximaal aantal open tickets
+  content: >
+    Vul het maximaal <em>aantal</em> tickets in dat iemand <strong>open</strong> mag hebben in het helpdesksyteem,<br><br>Vul <span class="doc-desc-opt">0 </span> in om deze limitatie uit te schakelen.
+agent_collision_avoidance:
+  title: Voorkom dat medewerkers in hun weg lopen
+  content: >
+    Vul de maximale tijd in die een agent heeft om een ticket vast te houden (te locken) zonder enige activiteit.<br><br>Vul <span class="doc-desc-opt">0</span> in om deze mogelijkheid uit te schakelen.
+email_ticket_priority:
+  title: E-mail Ticket prioriteit
+  content: >
+    Gebruik de prioriteit van de emailontvanger
+show_related_tickets:
+  title: Toon gerelateerde Tickets
+  content: >
+    Toon alle gerelateerde tickets bij het inloggen - anders is de toegang beperkt tot max. 1 ticket per login
+human_verification:
+  title: Menselijke verificatie
+  content: >
+    Maak CAPTCHA mogelijk op het klantenprotaal om de echtheid van ingezonden berichten te waarborgen. <br><br> U heeft hier de GDlib library nodig
+claim_tickets:
+  title: Ticket overnemen bij antwoord
+  content: >
+    Scahekel deze optie in om tickets automatisch aan agenten toe te kennen.<br><br>Tickets die worden geheropend, worden altijd aan de laatst bekende behandelaar van dat ticket gekoppeld.
+assigned_tickets:
+  title: Toegewezen Tickets
+  content: >
+    Schakel deze mogelijkheid in om toegekende tickets uit te sluiten uit de <span class="doc-desc-title">Open Tickets Lijst</span>.
+answered_tickets:
+  title: Beantwoordde Tickets
+  content: >
+    Schakel deze mogelijkheid in om beantwoorde tickets in de <span class="doc-desc-title">Beantwoorde Tickets Lijst</span> te zien. Anders worden deze tickets gewoon in de lijst van <span class="doc-desc-title">Open Tickets</span> getoond.
+staff_identity_masking:
+  title: Verberg identiteit
+  content: >
+    Als deze mogelijkheid is ingeschakeld, dan zal de naam van de medewerker niet zichtbaar zijn voor de cliënten bij communicatie.
+enable_html_ticket_thread:
+  title: Aanzetten HTML ticket doorvoer
+  content: >
+    Als deze optie is ingeschakeld, is het mogelijk om de communicatie tussen cliënten en medewerkers in RichTextFormaat te laten verlopen.
+ticket_attachment_settings:
+  title: Ticket verloop bijlages
+  content: >
+    Bewerk de instellingen van bijlages die aan de <class="doc-desc-title">probleemomschrijving</span> zijn gekoppeld, Deze instellingen worden voor alle nieuwe tickets gebruikt, ongeacht de manier waarop deze tickets worden ingediend. (webportaal, email, api etc.).
+max_file_size:
+  title: Maximale bestandsgrootte
+  content: >
+    Kies de maximale bestandsgrootte voor bijlages verzonden door Agents. Ook automatische bijlages (bijlages uit automatische beantwoording)  vallen hieronder, alsmede antwoorden in tickets zelf.
+ticket_response_files:
+  title: Bestanden ticket antwoord
+  content: >
+    Indien ingeschakeld wordt elke bijlage die een medewerker toevoegt aan een ticket, ook toegevoegd aan de email naar de gebruiker.

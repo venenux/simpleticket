@@ -1,0 +1,69 @@
+---
+type:
+  title: סוג
+  content: >
+    <span class="doc-desc-opt"><span class="doc-desc-opt">
+email:
+  title: דוא"ל
+  content: >
+    אימייל המשמש לתגובות הנשלחות למשתמשים כאשר נציגים מגיבים לטיקטים.
+template:
+  title: קבע תבנית
+  content: >
+    <span class="doc-desc-title">תבנית</span> דוא"ל המשמשת לתגובות אוטומטיות והודעות והתראות לפנייה המנותב למחלקה זו.
+  links:
+    - 
+      title: נהל תבניות
+      href: /scp/templates.php
+sla:
+  title: הסכם רמת שירות
+  content: >
+    הסכם רמת שירות לפניה המנותב למחלקה זו.
+  links:
+    - 
+      title: ניהול תוכניות SLA
+      href: /scp/slas.php
+manager:
+  title: ניהול מחלקות
+  content: >
+    בחר <span class="doc-desc-title">מנהל</span> למחלקה זו.<br/><br/> אפשר להגדיר למנהלים קבלת התראות מיוחדות וגם את הזכות להקצות פניות.
+  links:
+    - 
+      title: ניהול התראות &amp; הודעות
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: התראות, מקבלי הודעות
+  content: >
+    בחר את מקבלי <span class="doc-desc-title">ההודעות והתראות</span> המוגדרות.
+  links:
+    - 
+      title: קביעת תצורה של התראות &amp; הודעות
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: הגבלות שיוך פנייה
+  content: >
+    אפשר זה כדי להגביל הקצאה של הפניה רק לחברי מחלקה זו. חברות במחלקה ניתן להרחבה לקבוצות, אם <span class="doc-desc-title">התראות, מקבלי הודעות</span> כוללים חברי קבוצה.
+auto_response_settings:
+  title: הגדרות המגיב האוטומטי
+  content: >
+    זה מאפשר לך לשנות ההגדרות של תגובה אוטומטית הגלובלים למחלקה זו.
+new_ticket:
+  title: מענה אוטומטי חדש לכרטיסים
+  content: >
+    אפשר להשבית תגובות אוטומטיות שנשלחו למשתמש כאשר פניה חדשה נוצר ומנותב למחלקה זו.
+new_message:
+  title: מענה אוטמטי להודעה חדשה
+  content: >
+    אפשר להשבית תגובות אוטומטיות שנשלחו למשתמש לאשר קבלה של פניה חדשב במחלקה זו.
+auto_response_email:
+  title: מייל תגובה אוטומטי
+  content: >
+    בחר את כתובת הדוא"ל שממנו תגובות אוטומטיות נשלחות למחלקה זו.
+department_access:
+  title: גישת קבוצה
+  content: >
+    אפשר לנציגים ממחלקות אחרות לגשת לקריאות הממוענות למחלקה זו.
+department_signature:
+  title: חתימה למחלקה
+  content: >
+    חתימה נעשתה זמינה כבחירה, למחלקות <span class="doc-desc-opt">ציבוריות</span>, על תגובותו של הסוכן.

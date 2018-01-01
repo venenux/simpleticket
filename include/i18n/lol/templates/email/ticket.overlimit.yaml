@@ -1,0 +1,7 @@
+---
+notes: |
+  crwdns544:0crwdne544:0
+subject: |
+  crwdns545:0crwdne545:0
+body: |
+  crwdns926:0%{ticket.name.first}crwdnd926:0%{url}crwdnd926:0%{ticket.email}crwdne926:0

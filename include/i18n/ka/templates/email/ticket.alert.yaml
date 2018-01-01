@@ -1,0 +1,40 @@
+---
+notes: თანამშრომლისთვის გაგზავნა, როდესაც სისტემაში ახალი ბილეთი იქმნება. ეს ეხება ბილეთებს, რომლებიც შექმნილია ელ. ფოსტით, ვებპორტალით ან აპით.
+subject: ახალი ბილეთის გაფრთხილება
+body: |2
+  <h2>გამარჯობა %{recipient},</h2>
+  ახალი ბილეთი #%{ticket.number} შეიქმნა
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>გან</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>დეპარტამენტი</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>ბილეთის სანახავად ან საპასუხოდ, თხოვთ <a
+  href="%{ticket.staff_link}">login</a> მხარდაჭერის საბილეთე სისტემაში</div>
+  <em style="font-size: small">თქვენი მეგობრული, მომხმარებლის მხარდაჭერის სისტემა</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

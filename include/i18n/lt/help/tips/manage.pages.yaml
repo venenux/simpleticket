@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Tinklapio puslapiai
+  content: >
+    Svetainės puslapiai gali tarnauti kaip mini Turinio valdymo sistema (TVM). Galite  nustatyti kelis nukreipimo, neprisijungęs, ir padėkos puslapius ir sukonfigūruoti juos įmonės nustatymuose ir pagalbos temose.
+  links:
+    - 
+      title: Įmonės nustatymai
+      href: /scp/settings.php?t=pages
+type:
+  title: Tipas
+  content: >
+    <span class="doc-desc-opt">Neprisijungęs</span>puslapiai yra rodomi kliento portale jei jūsų pagalbos sistema yra išjungta.<span class="doc-desc-opt">Nukreipimo</span>puslapiai yra rodomi pagrindiniame jūsų kliento portalo puslapyje.<span class="doc-desc-opt">Padėkos</span>puslapiai yra rodomi kai vartotojas pateikia užklausą.<span class="doc-desc-opt">Kita</span>puslapiai gali būti naudojami kaip paprasta turinio valdymo sistema (TVS).

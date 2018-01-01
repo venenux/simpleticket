@@ -1,0 +1,18 @@
+---
+notes: |
+  スタッフメンバーがチケットに返信した場合に送信されます。
+  スタッフメンバーのみ返信を行うことが出来ます。
+subject: 'Re: %{ticket.subject}'
+body: |
+  <h3><strong>%{recipient.name}様</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Your %{company.name} Team,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>当社は、この返信がお客様のお問い合わせの回答となることを願っております。この返信があなたの投稿された内容に沿った回答でない場合はこのメールに返信するか、
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >アカウントにログイン</a>してサポートのお問い合わせと返信を追記してください。 </em></div>

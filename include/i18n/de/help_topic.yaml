@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Allgemeine Anfrage
+  notes: Fragen zu Produkten oder Dienstleistungen
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Feedback
+  notes: |
+    Tickets, die in erster Linie die Abteilungen Vertrieb und Buchhaltung betreffen
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Ein Problem melden
+  notes: |
+    Produkt-, Service- oder Ausstattungsfragen
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Zugangsproblem
+  notes: |
+    Ein Problem mit dem Zugang zu einer physikalischen oder virtuellen Ressource melden

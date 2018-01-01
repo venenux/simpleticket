@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Svartlistade e-postadresser
+  content: >
+    E-postmeddelanden från e-postadresser som finns med i svartlistan kommer automatiskt att avvisas.

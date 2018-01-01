@@ -1,0 +1,7 @@
+---
+staff_members:
+  title: Djelatnici
+  content: 'Tablica prikazuje rezultate odabranog fitriranja iznad. Ukoliko nije odabrano filtriranje, tada su svi <span class="doc-desc-title">Djelatnici </span> prikazani, kao i stranice. Pogledajte odjeljak sa stranicama kako biste pregledali više rezultata.'
+apply_filtering_criteria:
+  title: Primjeni odabrane filtere
+  content: 'Odaberite <span class="doc-desc-title">Odjel</span> ovisno o vašim potrebama. Možete potražiti i određenog djelatnika.'

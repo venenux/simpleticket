@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Polje pretraživanja
+  content: >
+    
+advanced:
+  title: Napredno
+  content: >
+    Suzite svoju pretragu. kada odaberete kriterije pretrage i pokrenete pretragu, možete <span class="doc-desc-title">napraviti izvoz </span> podataka na dnu stranice kartice.
+open_tickets_table:
+  title: Tablica otvorenih kartica
+  content: >
+    Sve trenutno otvorene kartice i one na koje se traži odgovor
+ticket:
+  title: Kartica
+  content: >
+    
+date:
+  title: Datum
+  content: >
+    
+subject:
+  title: Naslov
+  content: >
+    
+from:
+  title: Od
+  content: >
+    
+priority:
+  title: Prioritet
+  content: >
+    
+assigned_to:
+  title: Dodjeljeno
+  content: >
+    
+export:
+  title: Izvoz
+  content: >
+    Izvezite podatke koje trenutno pregledavate u CSV datoteku. CSV mogu biti otvorene pomoću tabličnih programa (npr, Microsoft Excel, Apple Pages, OpenOffice, itd.).
+advanced_search_dialog:
+  title: Napredna pretraga
+  content: >
+    
+adv_keyword:
+  title: Pretraži ključne riječi
+  content: >
+    Pronađite rezultate pretraživanja na temelju naslova i sadržaja postova kartica i na temelju sadržaja teksta u prilagodljivim poljima korisnika i kartica.
+adv_date_range:
+  title: Pretraga po vremenskom periodu
+  content: >
+    Definicija ovdje

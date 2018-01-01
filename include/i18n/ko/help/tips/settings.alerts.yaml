@@ -1,0 +1,67 @@
+---
+page_title:
+  title: 통지와 알림
+  content: >
+    통지와 알림는 설정된 티켓이벤트에 의해서 메일로 자동으로 발송됩니다.
+ticket_alert:
+  title: 새 티켓 알림
+  content: >
+    <p> 새로운 티켓이 작성되면 에이전트에게 송신되는 통지 </p><p class="info-banner"> <i class="icon-info-sign"></i> 이 통지는 티켓필터나 헬프토픽에 의해 자동으로 할당되었을시에는 송신되지않습니다.</p>
+  links:
+    - 
+      title: 새로운 티켓 통지의 템플릿
+      href: /scp/templates.php?default_for=ticket.alert
+message_alert:
+  title: 새 메시지 알림
+  content: >
+    기존 티켓에 유저로부터 새로운 메세지가 추가 되었을때 에이전트에게 송신되는 통지
+  links:
+    - 
+      title: 새로운 메세지 통지의 기본 템플릿
+      href: /scp/templates.php?default_for=message.alert
+internal_note_alert:
+  title: 새 내부 활동 알림
+  content: >
+    내부 노트 또는 담당자가 티켓에 답변을 추가하는 등 내부 활동이 있을 때 담당자에게 알림을 전송합니다.
+  links:
+    - 
+      title: 새로운 티켓 활동의 기본 템플릿
+      href: /scp/templates.php?default_for=note.alert
+assignment_alert:
+  title: 티켓 할당 통지
+  content: >
+    티켓이 에이전트에게 할당되었을때 송신되는 통지
+  links:
+    - 
+      title: 티켓 할당 통지의 기본 템플릿
+      href: /scp/templates.php?default_for=assigned.alert
+transfer_alert:
+  title: 티켓 전송 통지
+  content: >
+    티켓이 부서간 전송되었을때 에이전트에게 전송되는 통지
+  links:
+    - 
+      title: 티켓 전송 통지의 기본 템플릿
+      href: /scp/templates.php?default_for=transfer.alert
+overdue_alert:
+  title: 티켓 기한만료 통지
+  content: >
+    SLA나 설정된 대응 기한을 만료했을때 에이전트에게 송신되는 통지
+  links:
+    - 
+      title: 방치된 티켓 통지의 기본 템플릿
+      href: /scp/templates.php?default_for=ticket.overdue
+    - 
+      title: SLA 관리
+      href: /scp/slas.php
+system_alerts:
+  title: 시스템 경고
+  content: >
+    관리자 (%{config.admin_email})에게 송신되는 중요한 시스템 이벤트. 설정된<span class="doc-desc-title">로그레벨</span>에 의해, 이벤트는<span class="doc-desc-title">시스템로그</span>에서도 출력됩니다.
+  links:
+    - 
+      title: 시스템 로그 보기
+      href: /scp/logs.php
+    - 
+      title: 관리자 메일주소 변경
+      href: /scp/settings.php?t=emails

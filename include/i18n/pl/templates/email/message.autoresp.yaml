@@ -1,0 +1,20 @@
+---
+notes: |
+  Wysyłane do użytkowników, kiedy użytkownicy dodają nową wiadomość do zgłoszenia. W przypadku gdy użytkownik odpowie na email z systemu lub odwiedzi stronę internetową klienta i wyśle tam nową wiadomość.
+subject: |
+  Potwierdzenie Wiadomości
+body: |
+  <h3><strong>Witaj %{recipient.name.first},</strong></h3>
+  Twoje zgłoszenie <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> zostało przyjęte
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  Twój zespół %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Możesz sprawdzić postęp Twojego zgłoszenia online <a
+  href="%{recipient.ticket_link}"> tutaj</a></em>
+  </div>

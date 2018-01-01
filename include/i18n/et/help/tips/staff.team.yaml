@@ -1,0 +1,33 @@
+---
+teams:
+  title: Meeskonnad
+  content: >
+    Meeskonnad on üks või mitu agenti koos, kellele saab pöördumisi lahendamiseks määrata. Meeskonna liikmelisus võib erineda osakonna liikmelisusest.
+status:
+  title: Staatus
+  content: >
+    Kui <span class="doc-desc-opt">välja lülitatud</span>, siis sellel meeskonnale ei saa pöördumisi lahendamiseks määrata ja nad ei saa ka teateid ega hoiatusi eelmiste määramiste kohra.
+lead:
+  title: Meeskonna juhtimine
+  content: >
+    <span class="doc-desc-title">Meeskonnal</span> võib olla üks liige, kes saab erinevaid teistest meeskonnaliikmetest erinevaid <span class="doc-desc-title">teateid ja hoiatusi</span>.
+  links:
+    - 
+      title: Seadista hoiatused ja teated
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Teade ülesande määramisest
+  content: >
+    Sa võid <span class="doc-desc-title">Pöördumise määramise teate</span> sellele meeskonnale välja lülitada.
+  links:
+    - 
+      title: Seadista hoiatused ja teated
+      href: /scp/settings.php?t=alerts
+members:
+  title: Meeskonna liikmed
+  content: >
+    Meeskonna liikmelisust saab määrata agendi profiilis.
+  links:
+    - 
+      title: Toimeta personali
+      href: /scp/staff.php

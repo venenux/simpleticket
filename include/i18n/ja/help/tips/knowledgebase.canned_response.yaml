@@ -1,0 +1,11 @@
+---
+canned_response:
+  title: テンプレート
+  content: '返信チケットに含むことができる<span class="doc-desc-title">テンプレート</span>を作成します。 <span class="doc-desc-title">チケットフィルター</span>により<span class="doc-desc-title">チケットの自動返信</span>セットアップとして使用することもできます。'
+  links:
+    - 
+      title: チケットフィルターの設定
+      href: /scp/filters.php
+canned_attachments:
+  title: テンプレートの添付ファイル
+  content: '新しい<span class="doc-desc-title"> テンプレート</span>を使用するチケットの返信に自動的に含まれるファイルを添付します。'

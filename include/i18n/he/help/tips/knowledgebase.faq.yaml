@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: סוג המודעה
+  content: >
+    בחר <span class="doc-desc-opt">פרסם</span> בכדי להוסיף את ה <span class="doc-desc-title">שאלות נפוצות</span> למאגר המידע במידה וקטגורית האב מפורסמת.
+  links:
+    - 
+      title: אפשר את מאגר המידע לפורטל הלקוחות
+      href: /scp/settings.php?t=kb

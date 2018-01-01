@@ -1,0 +1,45 @@
+---
+notes: |
+  การแจ้งเตือนจะถูกส่งไปยังเจ้าหน้าที่ เมื่อเกิดเหตุการณ์ เช่น มีการบันทึกภายใน หรือเจ้าหน้าที่ตอบกลับทิคเก็ต
+subject: |
+  New Internal Activity Alert
+body: |
+  <h3><strong>สวัสดี %{recipient.name},</strong></h3>
+  เจ้าหน้าที่ได้บันทึกกิจกรรมลงบน Ticket <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a> แล้ว
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>จาก</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>หัวข้อ</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  เพื่อที่จะดู/ตอบกลับ Ticket กรุณา <a
+  href="%{ticket.staff_link}">ล็อคอิน</a> เข้าสู่ระบบ support ticket system
+  <br>
+  <br>
+  <em style="font-size: small; ">Your friendly Customer Support
+  System</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Iskano polje
+  content: >
+    
+advanced:
+  title: Napredno
+  content: >
+    Zožite vaše iskalne parametre. Ko ste določili vaše napredne kriterije iskanja in zagnali iskanje, lahko <span class="doc-desc-title">izvozite</span> podatke na spodnji strani zahtevka.
+open_tickets_table:
+  title: Odprite tabelo zahtevkov
+  content: >
+    Vsi zahtevki trenutno odprti in potrebujejo pozornost
+ticket:
+  title: Zahtevek
+  content: >
+    
+date:
+  title: Datum
+  content: >
+    
+subject:
+  title: Zadeva
+  content: >
+    
+from:
+  title: Od
+  content: >
+    
+priority:
+  title: Pomembnost
+  content: >
+    
+assigned_to:
+  title: Dodeljeno za
+  content: >
+    
+export:
+  title: Izvoz
+  content: >
+    Izvozi podatke trenutnega pogleda v CVS datoteko. CVS datoteke se lahko odprejo z katerim koli programom za preglednice (tj., Microsoft Excel, Apple Pages, OpenOffice, itd.).
+advanced_search_dialog:
+  title: Napredno iskanje
+  content: >
+    
+adv_keyword:
+  title: Iskanje po ključnih besedah
+  content: >
+    Poiščite zadetke glede na zadevo in telo sporočila zahtevka, kot tudi tekstovno vsebino povezano s polji po meri za uporabnike in zahtevke.
+adv_date_range:
+  title: Iščite po časovnem okvirju
+  content: >
+    tukaj podajte definicijo

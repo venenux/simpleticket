@@ -1,0 +1,24 @@
+---
+notes: |
+  
+subject: |
+  Tiket #%{ticket.number} transfer - %{ticket.dept.name}
+body: |2
+  <h3>Halo %{recipient},</h3>
+  Tiket <a href="%{ticket.staff_link}">#%{ticket.number}</a> telah 
+  dipindahkan ke departemen %{ticket.dept.name} oleh 
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Untuk melihat atau merespon tiket, silahkan <a
+  href="%{ticket.staff_link}">login</a> ke sistem tiket.
+  </div>
+  <em style="font-size: small; ">Salam</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Didukung oleh osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

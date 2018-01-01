@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Risposte Predefinite
+  content: >
+    Creare una <span class="doc-desc-title">Risposta predefinita</span> che può essere inserita in una risposta per un ticket. Infatti, su un ticket, si possono includere tutte le <span class="doc-desc-title">Risposte predefinite</span> che si desidera. Si può usare anche all'interno della <span class="doc-desc-title"> Risposta automatica Ticket</span> impostandolo dal <span class="doc-desc-title"> Filtro del ticket</span>.
+  links:
+    - 
+      title: Impostare il filtro per i Ticket
+      href: /scp/filters.php
+canned_attachments:
+  title: Allegati predefiniti
+  content: >
+    Allegare un file che si desidera includere automaticamente nella risposta del ticket che utilizza la nuova <span class="doc-desc-title"> Risposta in predefinita</span>.

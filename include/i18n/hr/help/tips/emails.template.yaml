@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: Email predlošci
+  content: >
+    Email predlošci se koriste kod slanja automatskih odgovora i upozorenja kod raznih situacija koje se mogu dogoditi za vrijeme dok je kartica (Ticket) otvorena.
+template_to_clone:
+  title: Predložak za kopirati
+  content: >
+    Odaberite predložak koji želite kopirati ili jednostavno započnite sa jednim od spremljenih predložaka.
+language:
+  title: Jezik
+  content: >
+    Odaberite željeni jezik za <span class="doc-desc-opt">zaliha</span> <span class="doc-desc-title">Email predložak</span>. Jezični paketi dostupni su na osTicket.com.
+  links:
+    - 
+      title: osTicket jezični paketi
+      href: 'http://osticket.com/download'
+status:
+  title: Status
+  content: >
+    <span class="doc-desc-opt">Omogućeno</span> Predlošci se mogu povezati sa odjelima i postaviti kao osnovni za sistem. Predlošci koji se trenutno koriste ne mogu se <span class="doc-desc-opt">Onemogućiti</span>.

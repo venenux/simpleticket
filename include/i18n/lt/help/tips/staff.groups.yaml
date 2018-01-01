@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grupės
+  content: >
+    Grupės yra naudojamos nustatant agento teises pagalbos sistemoje. Grupės taip pat gali suteikti prieigą prie kitų padalinių negu agento pirminis padalinys.
+status:
+  title: Būsena
+  content: >
+    Jeigu<span class="doc-desc-opt">išjungta</span>,Agentai priskirti šiai grupei negali prisijungti ir negaus  padalinio įspėjimų&amp; pranešimų.
+department_access:
+  title: Padalinio prieiga
+  content: >
+    Patikrinkite visu padalinius prie kurių grupės nariai turi prieigą.

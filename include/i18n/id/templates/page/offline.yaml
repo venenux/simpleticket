@@ -1,0 +1,11 @@
+---
+notes: |
+  Halaman Offline muncul di Portal Pelanggan ketika Help Desk sedang offline.
+name: Offline
+body: |
+  <div><h1>
+  <span style="font-size: medium">Sistem Dukungan Tiket Sedang Offline</span>
+  </h1>
+  <p>Terima kasih atas kesediaan Anda menghubungi kami.</p>
+  <p>Petugas kami sedang offline saat ini, mohon kembali beberapa saat lagi.</p>
+  </div>

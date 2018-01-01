@@ -1,0 +1,13 @@
+---
+name:
+  title: Nimi
+  content: >
+    Anna tälle <span class="doc-desc-title">Palvelutasolle</span> kuvaava nimi.
+grace_period:
+  title: Armonaika
+  content: >
+    Määritä tunneissa kuinka nopeasti tiketti merkataan automaattisesti myöhästyneeksi luomisen jälkeen. <br><br> <em>Tunnit lasketaan tiketin lähettämisestä.</em>
+transient:
+  title: Tilapäinen
+  content: >
+    Tilapäiset Palvelutasot voivat korvautua kiinteillä Palvelutasoilla <span class="doc-desc-opt">Osaston</span> vaihtuessa tai kun sen <span class="doc-desc-title">Ohjeotsikko</span> vaihtuu.

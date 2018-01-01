@@ -1,0 +1,55 @@
+---
+- 
+  isactive: 1
+  name: Ukrotitelji lavova
+  notes: Superadministratori. Ljudi koji (inicijalno) imaju punu kontrolu nad svim odelјenjima nad kojima imaju pristup.
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 1
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  isactive: 1
+  name: Šetači slonova
+  notes: Supervizori
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 1
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  isactive: 1
+  name: Treneri buva
+  notes: Operateri nižeg ranga
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 0
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 0
+  can_manage_premade: 0
+  can_manage_faq: 0
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3

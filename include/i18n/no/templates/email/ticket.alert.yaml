@@ -1,0 +1,42 @@
+---
+notes: |
+  Sendt til en medarbeider når en ny sak opprettes i systemet. Dette gjelder saker opprettet via e-post, kundeportalen eller via API.
+subject: |
+  Nytt sak varsel
+body: |2
+  <h2>Hei %{recipient},</h2>
+  Ny sak #%{ticket.number} er laget
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Fra</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Avdeling</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>For å vise/svare på saken, vennligst <a
+  href="%{ticket.staff_link}">logg inn</a> i støttesystemet</div>
+  <em style="font-size: small">Ditt vennelige støttesystem</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

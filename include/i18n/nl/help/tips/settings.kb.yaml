@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Kennisbank instellingen
+  content: >
+    
+knowledge_base_status:
+  title: Status van de Kennisbank
+  content: >
+    Schakel dit in om uw gebruikers toegang te geven aan de Kennisbank artikelen die publiek staan. <br><br> Kennisbank categorieën en FAQs kunnen intern gemaakt worden (alleen zichtbaar voor de Verantwoordelijken). 
+  links:
+    - 
+      title: Kennisbank beheren
+      href: /scp/kb.php
+restrict_kb:
+  title: Beperkte toegang tot de kennisbank
+  content: >
+    Schakel deze optie in om te voorkomen dat ongeregistreerde gebruikers toegang krijgen tot de kennisbank artikelen op de client interface.
+  links:
+    - 
+      title: Toegangscontrole instellingen
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Standaard antwoorden
+  content: >
+    Schakel dit in om de Verantwoordelijken de mogelijkheid te geven om <span class="doc-desc-title">Standaard antwoorden</span> te gebruiken wanneer ze antwoorden op tickets.
+  links:
+    - 
+      title: Standaard antwoorden beheren
+      href: /scp/canned.php

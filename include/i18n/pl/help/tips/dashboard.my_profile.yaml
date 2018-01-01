@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informacje Kontaktowe
+  content: >
+    
+username:
+  title: Nazwa użytkownika
+  content: >
+    Tylko przedstawiciele ze statusem Administrator mogą zmienić nazwę użytkownika. Jeżeli jesteś Przedstawicielem z uprawnieniami administratora, można tego dokonać wybierając użytkownika do edycji z tabeli <span class="doc-desc-title">Członkowie personelu</span>.
+  links:
+    - 
+      title: Zmień nazwę użytkownika jako Administrator
+      href: /scp/staff.php
+time_zone:
+  title: Strefa czasowa
+  content: >
+    
+daylight_saving:
+  title: Czas letni
+  content: >
+    
+maximum_page_size:
+  title: Maksymalny rozmiar strony
+  content: >
+    
+auto_refresh_rate:
+  title: Automatyczna częstotliwość odświeżania
+  content: >
+    
+default_signature:
+  title: Domyślny podpis
+  content: >
+    
+default_paper_size:
+  title: Domyślny rozmiar papieru
+  content: >
+    
+show_assigned_tickets:
+  title: Pokaż przypisane zgłoszenia
+  content: >
+    Włączenie tej opcji spowoduje ukrycie twojego Imienia i Nazwiska z listy <span class="doc-desc-title">Otwarte zgłoszenia</span>, dla zgłoszeń przypisanych do Ciebie. Po ukryciu, nazwa <span class="doc-desc-title">Departamentu</span>, do którego należysz zastąpi wcześniej wyświetlane dane.
+password:
+  title: Hasło
+  content: >
+    
+current_password:
+  title: Aktualne hasło
+  content: >
+    
+new_password:
+  title: Nowe hasło
+  content: >
+    
+confirm_new_password:
+  title: Potwierdź nowe hasło
+  content: >
+    
+signature:
+  title: Podpis
+  content: >
+    Stwórz opcjonalny <span class="doc-desc-title">Podpis</span>, który może pojawiać się na końcu twoich Odpowiedzi na zgłoszenie. Czy <span class="doc-desc-title">Podpis</span> pojawi się, czy nie zależy od <span class="doc-desc-title">Szablonu e-mail</span>, który zostanie użyty w Odpowiedzi na zgłoszenie.
+  links:
+    - 
+      title: Stwórz szablon wiadomości e-mail w Panelu Administracyjnym
+      href: /scp/templates.php

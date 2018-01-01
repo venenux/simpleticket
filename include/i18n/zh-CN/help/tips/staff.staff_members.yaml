@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: 工作人员
+  content: >
+    以下表格显示的是上述筛选结果。如果未选择筛选设置，则分页显示所有<span class="doc-desc-title">代理</span>（工作人员）<span class="doc-desc-title">成员</span>。参见以下页面浏览更多结果。
+status:
+  title: 状态
+  content: >
+    无论<span class="doc-desc-title">代理</span>是否锁定、激活或激活（休眠），都将显示上述结果。

@@ -1,0 +1,40 @@
+---
+source: Web
+name: osTicket Destek
+email: support@osticket.com
+subject: osTicket yükseltildi!
+message: |
+  <p>
+  osTicket başarı ile güncellendi. Değişiklikler ve yenilikler ile ilgili daha fazla bilgi için lütfen sürüm notlarına (http://osticket.com/wiki/Release_Notes) bakınız.
+  </p>
+  <a
+  href="http://osticket.com/forums">osTicket forumlarına</a> üye olduğunuzdan
+  emin olun. <a href="http://osticket.com/updates">E-posta listemize</a> üye 
+  olarak  güncel haberleri, güvenlik uyarılarını ve güncellemeleri 
+  edinebilirsiniz. Ayrıca osTicket forumları rehberlik ve destek almak, 
+  ip uçları öğrenmek ve diğer osTicket kullanıcıları ile yardımlaşmak için 
+  güzel bir kaynaktır. Ek olarak, osTicket wiki kullanışlı eğitim belgeleri,
+  dökümanları ve notları içerir. osTicket Topluluğuna yardımlarınız için 
+  teşekkür ederiz.
+  </p><p>
+  Daha üst seviye destek talebine ihtiyaç duyuyor iseniz, garantili yanıt 
+  süresi ve çekirdek geliştirme ekibine erişim hizmeti ile profesyonel ve 
+  ticari destek hizmeti sağlamaktayız. Ayrıca osTicket özelleştirmenize
+  yardımcı olabilir, hatta kendi özel ihtiyaçlarınıza yönelik ek özellikler
+  ekleyebiliriz.
+  </p><p>
+  Eğer bu osTicket kurulum ve yönetim fikri size korkutucu geliyor ise
+  osTicket hosting servisini <a href="http://www.supportsystem.com">http://www.supportsystem.com/</a>
+  adresinden deneyebilirsiniz. Hiç bir kurulum gerektirmez ve önceki 
+  verilerinizi sisteminize aktarabiliriz. Müşterilerinize odaklanarak 
+  yazılımın kararlılık, bakım ve güvenlik yükleriyle uğraşmadan 
+  SupportSystem'in anahtar teslim altyapısı güvencesi ile osTicket 
+  yazılımının en verimli haline sahip olabilirsiniz.
+  </p><p>
+  Saygılarımızla,
+  </p><p>
+  -<br/>
+  osTicket Takımı http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Sadece müşterilerinizi memnun etmeyin, memnun müşteriler yapın!
+  </p>

@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Sorğu nömrəsi formatı
+  content: >
+    Bu tənzimləmə sorğu nömrələrinin yaradılmasında istifadə olunur. Diez (`#`) işarəsini rəqəmlərin yerləşəcəyi yerdə istifadə edin. Hər hansı digər nömrə formatındakı mətn qorunacaq. <span class="doc-desc-title">Kömək mövzusu</span> xüsusi nömrə formatlarını müəyyən edə bilir. <br/><br/> Məsələn, altı rəqəmli nömrələr <code>######</code> kimi istifadə olunur.
+sequence_id:
+  title: Sorğu nömrəsi ardıcıllığı
+  content: >
+    Yeni sorğu nömrələri əldə etmək üçün ardıcıllıq seçin. Sistemin cari artan ardıcıllığı və təsadüfi ardıcıllığı var. Siz istədiyiniz qədər ardıcıllıq yarada bilərsiniz. Kömək mövzuları üçün <span class="doc-desc-title">sorğu nömrəsi formatı</span> konfiqurasiyasında müxtəlif ardıcıllıqlardan istifadə edin.
+default_ticket_status:
+  title: Yeni sorğular üçün cari statuslar
+  content: >
+    Statusu yeni sorğular üçün cari seçin. Bu hər bir kömək mövzusu üçün müəyyənləşdirilə bilər, əgər arzuolunandırsa. Həmçinin sorğu filteri tərəfindən aradan qaldırıla bilər.
+  links:
+    - 
+      title: Sorğu statuslarını idarə edin
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Mövcud SLA
+  content: >
+    Sorğunun göstərilən bitmə vaxtından əvvəl nə qədər açıq qala biləcəyini idarə etmək üçün cari servis səviyyəsi razılığını seçin.
+  links:
+    - 
+      title: Daha çox SLA planları yarat
+      href: /scp/slas.php
+default_priority:
+  title: Cari prioritet
+  content: >
+    Prioriteti avtomatik təyin etməyən sorğular üçün cari <span class="doc-desc-title">prioritet</span> seçin. <br/><br/> Prioritet kömək mövzusu, istiqamətləndirilən şöbə və ya sorğu filteri tənzimləməsi vasitəsilə təyin oluna bilər.
+maximum_open_tickets:
+  title: Maksimum açıq sorğular
+  content: >
+    Help deskinizdə istifadəçinin <em>açmağa</em> icazə verdiyi sorğuların maksimum <strong>sayını</strong> daxil edin . <br><br>Daxil edin<span class="doc-desc-opt">0 </span> əgər bu məhdudiyyəti deaktiv etməyə üstünlük verirsinizsə.
+agent_collision_avoidance:
+  title: Toqquşmanın qarşısını alan agent
+  content: >
+    Agentin sorğunu hər hansı fəaliyyəti olmadan kilidli tutmasına icazə verən maksimum vaxt uzunluğunu daxil edin. <br><br>Daxil edin<span class="doc-desc-opt">0</span> kiliddən çıxma xüsusiyyətini deaktiv etmək üçün.
+email_ticket_priority:
+  title: E-poçt sorğu prioriteti
+  content: >
+    E-poçt ünvanları xidmətinin təyin etdiyi e-poçt prioritetini istifadə edin
+show_related_tickets:
+  title: Əlaqədar sorğuları göstərin
+  content: >
+    İstifadəçi girişində bütün əlaqədar sorğuları göstərin - əks təqdirdə giriş bir sorğuya hər girişdə baxmağı məhdudlaşdırır
+human_verification:
+  title: İnsan təsdiqləməsi
+  content: >
+    Gələn sorğunun insan fəaliyyətinin nəticəsi olduğunu təsdiq etmək üçün müştəri portalında CAPTCHA-ı aktiv edin. <br><br> Tələb olunan GDLib kitabxanası
+claim_tickets:
+  title: Cavabda sorğunu göstərmək
+  content: >
+    Agentə cavab vermək üçün təyin olunmamış sorğuları avtomatik təyin etməsi üçün bunu aktiv edin. <br><br> Yenidən açılmış sorğular həmişə axırıncı cavab verən kəsə kimi təyin olunur.
+assigned_tickets:
+  title: Təyin olunmuş sorğular
+  content: >
+    Təyin olunmuş sorğuları <span class="doc-desc-title">sorğuları növbə ilə açmaq</span> linkindən istisna etmək üçün bu xüsusiyyəti aktiv edin.
+answered_tickets:
+  title: Cavablandırılmış sorğular
+  content: >
+    Cavablanmış sorğuları <span class="doc-desc-title">növbəli cavablanan suallarda</span> göstərmək üçün bu xüsusiyyəti aktiv edin. Əks təqdirdə, bu <span class="doc-desc-title">sorğuları növbə ilə aç</span> linkinə daxil olacaq.
+staff_identity_masking:
+  title: Heyətin şəxsiyyət maskalanması
+  content: >
+    Əgər aktivdirsə, agentin adını hər hansı əlaqə ərzində müştəridən gizlədəcək.
+enable_html_ticket_thread:
+  title: HTML sorğu mövzusunu aktiv edin
+  content: >
+    Əgər aktivdirsə, müştərilər və agentlər arasında genişlənmiş mətn formatından istifadəyə icazə verəcək.
+ticket_attachment_settings:
+  title: Bilet mövzusu əlavələri
+  content: >
+    <span class="doc-desc-title">Problem detalları</span> sahəsinə faylları yükləmək üçün tənzimləmələri konfiqurasiya edin. Bu tənzimləmələr kanalın mənbəyindən (veb portal, e-poçt, api və s.) asılı olmayaraq bütün yeni sorğular və yeni mesajlar üçün istifadə olunur.
+max_file_size:
+  title: Maksimum fayl ölçüsü
+  content: >
+    Agentlər tərəfindən yüklənən əlavələr üçün maksimum fayl ölçüsünü seçin. Bura hazır əlavələr, məlumat bazası məqalələri və sorğuya cavab verilən əlavələr daxildir.
+ticket_response_files:
+  title: Sorğu cavab faylları
+  content: >
+    Əgər aktivdirsə, istifadəçiyə göndərilən e-poçta hər hansı əlavələri agent sorğunun cavabına  yükləyə bilər.

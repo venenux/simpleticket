@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informação de contacto
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Endereço de e-mail
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Nome Completo
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Número de telefone
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Notas internas
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Detalhes do Ticket
+  instructions: Por favor, descreva o seu problema
+  notes: |
+    Este formulário será anexado a cada Ticket, independentemente da sua origem. Ao adicionar campos ao formulário, os mesmos ficarão disponíveis em todos os Tickets e ficarão também disponíveis na pesquisa avançada e nos filtros.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Resumo do problema
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Detalhes do problema
+      hint: Detalhes sobre a (s) razão (ões) que justificam a abertura da Incidência.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Nível de prioridade
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Informações da empresa
+  instructions: Detalhes disponíveis nos modelos de e-mail
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nome da empresa
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Página Web
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Número de telefone
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Morada
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informações da Organização
+  instructions: Detalhes da empresa do utilizador
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nome
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Morada
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefone
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Página Web
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Notas internas
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

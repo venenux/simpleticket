@@ -1,0 +1,46 @@
+---
+notes: |
+  Upozornění zaslané pracovníkům v momentě, kdy vznikla interní údálost
+  na požadavku, jako je přidání interní poznámky či odpověď pracovníka.
+subject: |
+  Upozornění na novou interní událost
+body: |
+  <h3><strong>Hi %{recipient.name},</strong></h3>
+  An agent has logged activity on ticket <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Od</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Název</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Pro zobrazení či odpověď na tento požadavek, prosím, <a
+  href="%{ticket.staff_link}">přihlašte se</span></a> do systému zákazn. podpory
+  <br>
+  <br>
+  <em style="font-size: small; ">Zákaznická podpora
+  </em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Provozováno na osTicket" width="126" height="19" style="width: 126px;">

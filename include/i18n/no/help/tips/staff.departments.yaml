@@ -1,0 +1,10 @@
+---
+type:
+  title: Type
+  content: >
+    Hvis avdelingens er privat, vil ikke avdeling signaturen være tilgjengelig på svar eller avdeling tildelingen vises fra klienten Portal.
+dept_manager:
+  title: Avdelingsleder
+  content: >
+    Du kan velge en Agent som en avdelingsleder motta varsler & meldinger for saker i avdelingene.
+  0: Agenter trenger ikke å være medlemmer av avdelingen for å være leder for avdelingen

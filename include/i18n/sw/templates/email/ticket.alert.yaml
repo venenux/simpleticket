@@ -1,0 +1,40 @@
+---
+notes: Inatumwa kwa mfanyikazi wakati tiketi mpya imetengenezwa katika mfumo. Hii inatumika kwa tiketi ambazo zimetengenezwa kwa kutumia barua pepe, mtandao portal, au api.
+subject: Tiketi mpya tahadari
+body: |2
+  <h2>Hi %{recipient},</h2>
+  Tiketi mpya #%{ticket.number} imetengenezwa
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Kutoka</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Idara</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Ili Kuangalia/kujibu tiketi, tafadhali<a
+  href="%{ticket.staff_link}">Ingia</a> kwa mfumo wa kusaidia tiketi</div>
+  <em style="font-size: small">mfumo wako wa kirafiki ya kusaidia wateja</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

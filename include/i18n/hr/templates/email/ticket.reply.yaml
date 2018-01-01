@@ -1,0 +1,20 @@
+---
+notes: |
+  Obavijst poslana korisnicima kada djelatnik odgovori na njihovu karticu. Odgvori su samo od strane djelatnika.
+subject: |
+  Odg: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>poštovanje %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Vaša %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Nadamo se da smo Vam dali odgovor na vaša pitanja . Ukoliko želite
+  pružiti dodatne komentare ili informacije, odgovorite na ovaj e-mail
+  ili se
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >prijavite u Vaš korisnički račun</a> za kompletnu arhivu svih dosadašnjih kartica.</em></div>

@@ -1,0 +1,18 @@
+---
+notes: |
+  Naar gebruikers verzonden wanneer een medewerker een antwoord geeft op hun ticket. Antwoorden worden alleen gegenereerd door medewerkers.
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>Beste %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Uw %{company.name} Team,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Wij hopen dat met deze reactie uw vragen voldoende beantwoord zijn. Zo niet, stuur dan geen nieuwe e-mail, maar reageer op deze email of <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >log in
+  op uw account</a> voor een compleet archief van al uw ondersteuningsverzoeken en reacties.</em></div>

@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Bilgi Bankası Ayarları
+  content: >
+    
+knowledge_base_status:
+  title: Bilgi Bankası Durumu
+  content: >
+    Bu ayarı açarak kullanıcıların halka açık bilgi bankasına erişimlerini açabilirsiniz. <br><br> Bilgi bankası kategorileri ve SSS kurum içi yapılabilir (sadece Temsilciler tarafından görülebilir).
+  links:
+    - 
+      title: Bilgi Bankası Yönetimi
+      href: /scp/kb.php
+restrict_kb:
+  title: Bilgi Bankasına Kısıtlı Erişim
+  content: >
+    Bu özelliği aktif ederek kayıtsız kullanıcıların ana başlıklara erişimini kısıtlayabilirsiniz.
+  links:
+    - 
+      title: Erişim Kontrol Ayarları
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Kaydedilmiş Yanıtlar
+  content: >
+    Bu ayarı açarak Temsilcilerin  taleplere cevap yazarken <span class="doc-desc-title">Hazır Cevapları</span> kullanmalarını izin verin.
+  links:
+    - 
+      title: Kaydedilmiş Yanıtları Yönet
+      href: /scp/canned.php

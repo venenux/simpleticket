@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: ทดสอบอีเมลขาออก
+  content: >
+    การส่งอีเมลขึ้นอยู่กับการตั้งค่าเซิร์ฟเวอร์ของคุณ (php.ini) และ / หรือการกำหนดค่า SMTP
+  links:
+    - 
+      title: เลือกอีเมล์เพื่อตั้งค่า SMTP (ขาออก)
+      href: /scp/emails.php
+from:
+  title: จาก
+  content: >
+    
+to:
+  title: ถึง
+  content: >
+    
+subject:
+  title: เรื่อง
+  content: >
+    
+message:
+  title: ข้อความ
+  content: >
+    

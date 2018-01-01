@@ -1,0 +1,44 @@
+---
+notes: |
+  Agentidele saadetakse teade, kui pöördumisele on lisatud märkus või vastus.
+subject: |
+  Uus sisemise aktiivsuse hoiatus
+body: |
+  <h3><strong>Tere, %{recipient.name}!</strong></h3>
+  Agent on loginud tegevust <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Kellelt</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Pealkiri</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Selleks, et vaadata/vstata <a
+  href="%{ticket.staff_link}">logi sisse</a> kastajatoe süsteemi
+  <br>
+  <br>
+  <em style="font-size: small; ">Sinu sõbralik klienditugi</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

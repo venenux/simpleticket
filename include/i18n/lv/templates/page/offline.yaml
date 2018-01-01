@@ -1,0 +1,11 @@
+---
+notes: |
+  Offline lapa ir redzāma kad Help Desk ir izslēgta.
+name: Izslēgts
+body: |
+  <div><h1>
+  <span style="font-size: medium">Atbalsta sistēma pašlaik ir izslēgta</span>
+  </h1>
+  <p>Paldies par interesi sazināties ar mums</p>
+  <p>Mūsu atbalsta sistēma pašlaik ir izslēgta, meģiniet atnākt vēlāk.</p>
+  </div>

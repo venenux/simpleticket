@@ -1,0 +1,22 @@
+---
+notes: |
+  
+subject: |
+  #%{ticket.number} numaralı talep transferi - %{ticket.dept.name}
+body: |2
+  <h3>Merhaba %{recipient},</h3>
+  <a href="%{ticket.staff_link}">#%{ticket.number}</a> numaralı talebiniz <strong>%{staff.name.short}</strong> tarafından %{ticket.dept.name} departmanına transfer edilmiştir. 
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Talebinizi görüntelemek ya da yanıt yazmak için lütfen destek talep sistemine <a
+  href="%{ticket.staff_link}">giriş</a> yapınız.
+  </div>
+  <em style="font-size: small; ">Müşteri Destek Sistemi</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="osTicket tarafından güçlendirilmiştir" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

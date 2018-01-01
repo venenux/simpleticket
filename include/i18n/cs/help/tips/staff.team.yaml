@@ -1,0 +1,33 @@
+---
+teams:
+  title: Týmy
+  content: >
+    Týmy jsou jeden či více pracovníků podpory, sdružení pro přiřazování požadavků. Členství v týmu může být nezávislé na organizační struktuře.
+status:
+  title: Stav
+  content: >
+    Je-li <span class="doc-desc-opt">zakázáno</span>, nebude tento tým dostupný pro přiřazování požadavků ani nebude dostávat oznámení o přiřazeních.
+lead:
+  title: Vedoucí týmu
+  content: >
+    <span class="doc-desc-title">Tým</span> může mít přiřazen vedoucího, který obdrží <span class="doc-desc-title">oznámení o přiřazení</span> odděleně od členů týmu.
+  links:
+    - 
+      title: Nastavení upozornění o oznámení
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Upozornění na přiřazení
+  content: >
+    Můžete zakázat <span class="doc-desc-title">oznámení o přiřazení požadavku</span> pro požadavky přiřazené tomuto týmu.
+  links:
+    - 
+      title: Nastavení upozornění o oznámení
+      href: /scp/settings.php?t=alerts
+members:
+  title: Členové týmu
+  content: >
+    Členství v týmu je nastaveno v profili pracovníka podpory.
+  links:
+    - 
+      title: Správa pracovníků
+      href: /scp/staff.php

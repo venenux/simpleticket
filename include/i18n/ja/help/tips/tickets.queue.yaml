@@ -1,0 +1,40 @@
+---
+search_field:
+  title: 検索フィールド
+  content: ""
+advanced:
+  title: 詳細
+  content: '検索パラメーターを絞り込みます。詳細検索基準を選択して、検索を実行すると、チケットページの下部でデータを<span class="doc-desc-title">エクスポート </span>できます。'
+open_tickets_table:
+  title: オープンチケットテーブル
+  content: 現在オープンで対応が必要なすべてのチケット
+ticket:
+  title: チケット
+  content: ""
+date:
+  title: 日付
+  content: ""
+subject:
+  title: 件名
+  content: ""
+from:
+  title: 差出人
+  content: ""
+priority:
+  title: 優先順位
+  content: ""
+assigned_to:
+  title: アサイン先
+  content: ""
+export:
+  title: エクスポート
+  content: 現在表示しているデータをCSVファイルにエクスポートします。CSVファイルは、スプレッドシートソフトウェア (すなわち、Microsoft Excel、Apple Pages、OpenOffice など) で開くことができます。
+advanced_search_dialog:
+  title: 詳細検索
+  content: ""
+adv_keyword:
+  title: キーワード検索
+  content: チケットスレッドの件名とメッセージの本文、およびユーザーとチケットのカスタムフィールドに関連付けられたすべてのテキスト内容に基づいて一致を検索します。
+adv_date_range:
+  title: 日付の範囲で検索
+  content: ここで定義

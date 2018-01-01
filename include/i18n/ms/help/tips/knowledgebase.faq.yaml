@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Jenis penyenaraian
+  content: >
+    Pilih <span class="doc-desc-opt">Awam ( menerbitkan)</span> jika anda ingin ini<span class="doc-desc-title"> FAQ</span> yang akan diterbitkan pada pengetahuan awam jika kategori induk adalah awam.
+  links:
+    - 
+      title: Membolehkan Pangkalan Awam Portal Pelanggan
+      href: /scp/settings.php?t=kb

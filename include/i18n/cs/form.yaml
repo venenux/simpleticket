@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Kontaktní informace
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: E-mail
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Celé jméno
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefonní číslo
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Interní poznámky
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Podrobnosti k požadavku
+  instructions: Popište prosím Váš problém
+  notes: |
+    Tento formulář bude připojen ke každému požadavku bez ohledu na jeho zdroj. Do formuláře můžete přidat jakékoli pole, které bude dostupné pro všechny požadavky a bude ho možné prohledávat pomocí pokročilého vyhledávání a filtrování.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Shrnutí problému
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Podrobnosti o problému
+      hint: Podrobnosti o důvodech pro otevření požadavku.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Úroveň priority
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Firemní informace
+  instructions: Podrobnosti dostupné v šabloně e-mailu
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Název firmy
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Webová stránka
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefonní číslo
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Adresa
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informace o organizaci
+  instructions: Podrobnosti o organizaci
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Jméno
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Adresa
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Webová stránka
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Interní poznámky
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

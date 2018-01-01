@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Estat del sistema de suport
+  content: >
+    Si l'estat canvia a <span class="doc-desc-opt"> fora de línia</span>, la interfície de client s'inhabilitarà.  Això no obstant  no afecta a qualsevol interacció normal de un agent amb el panell d'agent.
+helpdesk_url:
+  title: URL del sistema de suport
+  content: >
+    Aquest URL, o sigui adreça web del sistema de suport, és la base de la vostra instal·lació d'osTicket. S'utilitza en les comunicacions per correu electrònic per dirigir els usuaris cap al sistema de suport.
+helpdesk_name_title:
+  title: Nom/títol del sistema de suport
+  content: >
+    Aquest es el títol que apareix en la pestanya del navegador. Si la página del seu sistema de suport està marcada, aquest serà el títol o nom de la pàgina.
+default_department:
+  title: Departament predeterminat
+  content: >
+    Elegeix un <span class="doc-desc-title"> Departament</span> per defecte per els Tickets que automàticament no s'encaminen a un departament. <br/> <br/> Un Ticket pot ser assignat en base d'un tema d'ajuda, del correu electrònic i de la configuració de filtres de Ticket.
+default_page_size:
+  title: Dimensions predeterminades de la pàgina
+  content: >
+    Elegeix el nombre d'articles mostrats per pàgina a les cues de Ticket en el panell de personal. Cada agent pot personalitzar-les al seu compte en: <span class="doc-desc-title"> Les meues preferències</span>.
+default_log_level:
+  title: Nivell de registre predeterminat
+  content: >
+    Determinar el nivell mínim de errors que quedaran registrades en el <span class="doc-desc-title"> registre de sistema</span>. <span class="doc-desc-opt"> depurar</span> representa la menor gravetat i <span class="doc-desc-opt"> Error</span> representa la major gravetat. Per exemple, si voleu veure tots els errors en els <span class="doc-desc-title"> Registres de sistema</span>, triar <span class="doc-desc-opt"> depurar</span>.
+purge_logs:
+  title: Purgar registres
+  content: >
+    Determinar quant temps li agradaria mantenir <span class="doc-desc-title"> Els registres del sistema</span> abans que s'eliminen.
+default_name_formatting:
+  title: Format de nom per defecte
+  content: >
+    Seleccioneu un format per els noms per a tot el sistema. Les plantilles de correu utilitzaran els noms si no s'especifica un altre format per a la variable.
+  links:
+    - 
+      title: Variables compatibles amb les plantilles de e-mail
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Data &amp; opcions de temps
+  content: >
+    Els ajustos seguents defineixen els ajustos de temps i data &amp; per als clients. Voste pot canviar com apareixen el format de la data PHP. Les dates mostrades a continuació il·lustren el resultat dels valors corresponents.
+  links:
+    - 
+      title: Vore la taula del format de la data PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

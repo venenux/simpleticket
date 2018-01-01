@@ -1,0 +1,36 @@
+---
+- 
+  type: チケットのステータス
+  name: チケットのステータス
+  name_plural: チケットのステータス
+  sort_mode: SortCol
+  masks: 13
+  notes: チケットのステータス
+  properties:
+    title: チケットのステータスプロパティ
+    instructions: プロパティはチケットのステータスに設定できます。
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: ステータス
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: チケットのステータス
+      - 
+        type: memo
+        name: description
+        label: 説明
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

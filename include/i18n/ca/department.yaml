@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Suport
+  signature: Departament de Suport
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Vendes
+  signature: |
+    Vendes i Retenció de Clients
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Manteniment
+  signature: |
+    Departament de Manteniment
+  ispublic: 0
+  group_membership: 0

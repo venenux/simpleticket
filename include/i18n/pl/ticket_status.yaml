@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Otwarte
+  state: otwarte
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Otwarte zgłoszenia.
+- 
+  id: 2
+  name: Rozwiązane
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Rozwiązane i zamknięte zgłoszenia, które mogą zostać ponownie otwarte przez użytkownika. Ta opcja może być przydatna, w sytuacji gdy zgłoszenia odsyłane do użytkowników jako rozwiązane są automatycznie zamykane.
+- 
+  id: 3
+  name: Zamknięte
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Zgłoszenia oznaczone jako zamknięte, nie mogą być ponownie otwarte przez użytkownika. Zgłoszenia będą ciągle dostępne w panelach klienta i pracownika.
+- 
+  id: 4
+  name: Zarchiwizowane
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Zgłoszenia dostępne jedynie w trybie administracyjnym, niedostępne w kolejce zgłoszeń.
+- 
+  id: 5
+  name: Usunięte
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Zgłoszenia przeznaczone do usunięcia.  Niedostępne w kolejce zgłoszeń.

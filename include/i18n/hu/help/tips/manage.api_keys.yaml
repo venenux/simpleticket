@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API-kulcs
+  content: >
+    Az API kulcsokat az ügyfelek hitelesítésére használjuk és új hibajegyek benyújtására az Alkalmazás Programozó Interfészen (API). Az API kulcsokat jelszavak helyett használjuk. Mivel az API kulcsokat titkosítás nélkül is el lehet küldeni, így mindig az adott ügyfél IP címéhez van rendelve.
+  links:
+    - 
+      title: osTicket API dokumentáció
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP-cím
+  content: >
+    Ügyfél hálózati IP-cím. Minden egyedi ügyfél IP-címéhez külön API kulcsok szükségesek

@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: เปิด
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: เปิด Ticket
+- 
+  id: 2
+  name: ได้รับการแก้ไขแล้ว
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      แก้ไข Ticket ที่ถูกปิด ให้เปิดใหม่ได้โดยผู้ใช้ โดยจะมีการส่งแจ้งเตือนไปยังผู้แจ้ง
+- 
+  id: 3
+  name: ปิด
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Ticket ที่มีสัญลักษณ์ปิดจะไม่สามารถเปิดใหม่โดยผู้ใช้ (Ticket จะสามารถเข้าถึงได้ทั้งในแผงหน้าปัดผู้ใช้ และแผงหน้าปัดของเจ้าหน้าที่)
+- 
+  id: 4
+  name: ถูกเก็บถาวร
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Ticket ใช้เฉพาะการดำเนินการ แต่ไม่สามารถเข้าถึงได้ในรายการคิวของ Ticket
+- 
+  id: 5
+  name: ลบแล้ว
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Ticket เข้าคิวสำหรับการลบ จะไม่สามารถเข้าใช้ในคิว Ticket

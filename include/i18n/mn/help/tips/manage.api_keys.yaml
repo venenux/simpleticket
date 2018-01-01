@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API түлхүүр
+  content: >
+    Application Programming Interface (API) -р дамжуулан шинэ хүсэлт үүсгэх клиентүүдийг танихад API түлхүүрийг ашиглана. API түлхүүрийг нууц үгний оронд хэрэглэнэ гэсэн үг. API түлхүүрийг сүлжээгээр нууцлахгүй илгээж ашиглаж болох тул тэднийг клиент тус бүрийн сүлжээний IP хаягт уяж өгдөг.
+  links:
+    - 
+      title: osTicket-ын API-ын тухай бичиг баримт
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP хаяг
+  content: >
+    Клиентийн сүлжээний IP хаяг. Ялгаатай IP хаяг бүрт тусдаа API түлхүүр хэрэгтэй

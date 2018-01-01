@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Контактная информация
+  content: >
+    
+username:
+  title: Имя пользователя
+  content: >
+    Только Сотрудники со статусом Администратора могут менять имя пользователя. Усли Вы - Сотрудник с привилегиями Администратора - то вы можете сделать это, выбрав Сотрудника для редактирования из таблицы <span class="doc-desc-title">Персонал</span>.
+  links:
+    - 
+      title: Изменить имя пользователя как Администратор
+      href: /scp/staff.php
+time_zone:
+  title: Часовой пояс
+  content: >
+    
+daylight_saving:
+  title: Летнее Время
+  content: >
+    
+maximum_page_size:
+  title: Максимальный размер страницы
+  content: >
+    
+auto_refresh_rate:
+  title: Частота автоматического обновления
+  content: >
+    
+default_signature:
+  title: Подпись по умолчанию
+  content: >
+    
+default_paper_size:
+  title: Размер Бумаги по Умолчанию
+  content: >
+    
+show_assigned_tickets:
+  title: Показать Назначенные Заявки
+  content: >
+    Включите это для того, чтобы скрыть Ваше имя из очереди <span class="doc-desc-title">Открытые Заявки</span> для Заявок, назначенных на Вас. После сокрытия, вместо Вашго имени будет отображаться имя Вашего <span class="doc-desc-title">Отдел</span>а.
+password:
+  title: Пароль
+  content: >
+    
+current_password:
+  title: Текущий пароль
+  content: >
+    
+new_password:
+  title: Новый пароль
+  content: >
+    
+confirm_new_password:
+  title: Подтвердить новый пароль
+  content: >
+    
+signature:
+  title: Подпись
+  content: >
+    Создайте опциональную <span class="doc-desc-title">Подпись</span>, которая будет появляться в конце Ваших Ответов на Заявки. Будет появляться эта <span class="doc-desc-title">Подпись</span> или нет - зависит от того, какой <span class="doc-desc-title">Шаблон Письма</span> будет использоваться в Ответе на Заявку.
+  links:
+    - 
+      title: Создайте Шаблоны Писем в Панели Администратора
+      href: /scp/templates.php

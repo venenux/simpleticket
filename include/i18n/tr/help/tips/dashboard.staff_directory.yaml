@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Personeller
+  content: >
+    Aşağıdaki tabloda, yukarıda filtrenin sonuçları gösterilir. Eğer herhangi bir filtre seçilmemişse, tüm <span class="doc-desc-title">Personeller</span> gösterilir. Diğer sayfalardaki sonuçları da görmek için alttaki sayfa gezintisinı kullanınız.
+apply_filtering_criteria:
+  title: Filtre Kriterini Uygula
+  content: >
+    Kendi ilgi alanınızla bağlantılı <span class="doc-desc-title">Bölümü</span> seçiniz. Ayrıca belli bir temsilci için arama yapabilirsiniz.

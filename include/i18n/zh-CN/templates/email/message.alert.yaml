@@ -1,0 +1,42 @@
+---
+notes: |
+  当客户在咨询里面发布新消息时，发送给工作人员。这种情况在客户回复邮件，或者通过网页入口发布新消息时会出现。
+subject: |
+  新消息通知
+body: |2
+  <h3><strong>您好 %{recipient},</strong></h3>
+  您有新消息添加到咨询 <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>里
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>来自于</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>部门</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>为了浏览或者回复此咨询, 请 <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >登录</span></a> 客户咨询系统</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">您的友好客户咨询系统</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

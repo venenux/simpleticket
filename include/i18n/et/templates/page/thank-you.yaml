@@ -1,0 +1,16 @@
+---
+notes: |
+  Antud mall defineerib kliendile kuvatava sisu, kui ta on kliendiportaalis pöördumise sisestanud.
+name: Aitäh
+body: |
+  <div>%{ticket.name},
+  <br>
+  <br>
+  Täname pöördumise eest.
+  <br>
+  <br>
+  Pöördumine on loodud ja tehnilise toe spetsialist võtab vajadusel peagi Teiega ühendust.</p>
+  <br>
+  <br>
+  Tugiteenuse meeskond
+  </div>

@@ -1,0 +1,42 @@
+---
+notes: |
+  Obavijet poslana djelatnicima kada je otvorena nova kartica u sistemu. Ovo se odnosi na kartice otvorene putem emaila, stranice za tehničku podršku ili aplikacije.
+subject: |
+  Obavijest o novoj kartici
+body: |2
+  <h2>Pozdrav %{recipient.name},</h2>
+  Otvorena je nova kartica #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Od</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Odjel</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Kako biste vidjeli ili odgovorili na karticu molimo Vas da se <a
+  href="%{ticket.staff_link}">prijavite</a> na centar tehničke podrške</div>
+  <em style="font-size: small">Vaša tehnička podrška</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

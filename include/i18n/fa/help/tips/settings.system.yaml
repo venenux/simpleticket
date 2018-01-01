@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: وضعیت سیستم پشتیبانی
+  content: >
+    در صورتی که وضعیت به <span class="doc-desc-opt">آفلاین</span> تغییر داده شود، رابط کاربری نهایی غیر فعال می شود. 
+helpdesk_url:
+  title: آدرس اینترنتی سامانه پشتیبانی
+  content: >
+    این آدرس پایه نصب osTicket می باشد. از این آدرس در مکاتبات صورت گرفته از طریق ایمیل برای برگرداندن کاربران به سامانه پشتیبانی استفاده می شود.
+helpdesk_name_title:
+  title: نام/عنوان سامانه پشتیبانی
+  content: |2-
+     عنوانی که در زبانه مرورگر ظاهر می شود . اگر سیستم پشتیبانی شما bookmarked شده باشد، تحت این عنوان نامگذاری می شود.
+default_department:
+  title: واحد سازمانی پیش فرض
+  content: >
+    یک <span class="doc-desc-title">واحد سازمانی</span> پیش فرض انتخاب کنید تا وقتی درخواستی به طور اتوماتیک به واحدسازمانی خاصی هدایت نشد به این واحد هدایت شود. <br/><br/>درخواست ها می توانند بر اساس موضوع کمک ، ایمیل و فیلتر درخواست هدایت شوند.
+default_page_size:
+  title: اندازه صفحه پیش فرض
+  content: >
+    تعداد درخواست های نمایش داده شده در صفحه کارمندان را مشخص کنید. هر کارمند نیز می تواند این تعداد را برای حساب خودش در قسمت <span class="doc-desc-title">تنظیمات من</span> تنظیم کند.
+default_log_level:
+  title: سطح پیش فرض ثبت وقایع در سیستم
+  content: >
+    Determine the minimum level of issues which will be recorded in the <span class="doc-desc-title">system log</span>. <span class="doc-desc-opt">Debug</span> represents the least severity, and <span class="doc-desc-opt">Error</span> represents the greatest severity. For example, if you want to see all issues in the <span class="doc-desc-title">System Logs</span>, choose <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: پاکسازی ثبت وقایع
+  content: >
+    مشخص کنید تا چه مدتی قصد نگه داری<span class="doc-desc-title"> وقایع سیستم</span> را قبل از حذف شدن دارید.
+default_name_formatting:
+  title: قالب پیش فرض نمایش نام کاربران
+  content: >
+    قالب نمایش نام را در کل سیستم مشخص کنید. نمونه های ایمیل هم از همین قالب استفاده می کنند اگر قالب دیگری برایشان تنظیم نشده باشد.
+  links:
+    - 
+      title: Supported Email Template Variables
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: تنظیمات تاریخ و زمان
+  content: >
+    تنظیمات زیر مربوط به تنظیمات تاریخ و زمان کاربران است. شما می توانید با کارکترهای مخصوص PHP  این کار را انجام دهید. تاریخ های نمایش داده شده در مثال بسادگی مقدار برگردانده شده توسط کارکترهای متناظرشان را نشان می دهند.
+  links:
+    - 
+      title: مشاهده جدول قالب تاریخ PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

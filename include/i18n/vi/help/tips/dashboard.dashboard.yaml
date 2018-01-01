@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Hành động yêu cầu
+  content: >
+    Chọn một khoảng thời gian trên biểu đồ và bảng bên dưới (cf. <span class="doc-desc-title">Statistics</span>) để tập trung vào những dữ liệu tương ứng. Bảng biểu này sẽ phán ánh tổng quát về dữ liệu của cả hệ thống. Tuy nhiên, bạn có thể chuyến sang bảng bên dưới (<span class="doc-desc-title">Statistics </span>) để tập trung vào những chủ đề nhỏ liên quan. Ngoài ra, bạn có thể xuất dữ liệu hiện tài đang có trên bảng này (<span class="doc-desc-title">Statistics </span>).
+report_timeframe:
+  title: Khung thời gian báo cáo
+  content: >
+    Chọn ngày bắt đầu chuỗi dữ liệu, sau đó chọn ngày kết thúc chuỗi dữ liệu đó
+statistics:
+  title: Thống kê
+  content: >
+    Điều hướng đến chủ đề đang quan tâm bằng cách click vào tab thích hợp để xem dữ liệu cụ thể. Trong bảng dữ liệu, vòng tròn đại diện cho kích thước dữ liệu trên danh nghĩa. Do đó, số lượng dữ liệu càng lớn thì vòng tròn tương ứng cũng càng lớn.
+opened:
+  title: Được khởi tạo
+  content: >
+    Đây là yêu cầu được mở bởi Agents (tức là người trong nội bộ mở) không phải khách hàng đang sử dụng dịch vụ
+assigned:
+  title: Chỉ định
+  content: >
+    Hệ thống theo dõi tất cả các yêu cầu một cách tự động hoặc thủ công cho những vùng cụ thể, Department hoặc Agent. Việc tự động phân công sẽ phụ thuộc vào các cài đặt đã được thiết lập cho <span class="doc-desc-title">Chủ đề hỗ trợ</span>va<span class="doc-desc-title">Bộ lọc Email</span> ở trang quản trị.
+overdue:
+  title: Quá hạn
+  content: >
+    Đây là số yêu cầu đã vi phạm SLA mà họ đã chấp thuận.
+closed:
+  title: Đã đóng
+  content: >
+    Đây là số yêu cầu đã được đóng hoặc đã được xử lý xong.
+reopened:
+  title: Tái khởi tạo
+  content: >
+    Đây là số lượng yêu cầu đã được khởi tạo lại bởi nhân viên hoặc bởi khách hàng, khi yêu cầu đang ở trạng thái đóng.
+service_time:
+  title: Thời gian sử dụng dịch vụ
+  content: >
+    <span class="doc-desc-title">Thời gian sử dụng dịch vụ</span>là khoảng thời gian kể từ khi bắt đầu mở một yêu cầu và kết thúc khi yêu cầu đó được đóng. Cột<span class="doc-desc-title">thời gian sử dụng dịch vụ</span> tại đây hiển thị thời gian sử dụng dịch vụ trung bình cho mỗi yêu cầu, được thống kê trong khoảng thời gian chỉ định.
+response_time:
+  title: Thời gian phản hồi
+  content: >
+    <span class="doc-desc-title">Thời gian phản hồi</span> là khoảng thời gian bắt đầu với bất kỳ khiếu nại nào của khách hàng và kết thúc khi một nhân viên trả lời khiếu nại đó. Việc tính toán thời gian này không loại trừ thời gian phản hồi của khách hàng trước khi lệnh ban đầu được mở. Việc này đề cập đến tất cả các diễn biến của cuộc thảo luận với khách hàng.

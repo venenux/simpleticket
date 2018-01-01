@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Xüsusi siyahılar
+  content: >
+    Sizin <span class="doc-desc-title">xüsusi siyahılarınız</span> sizə təyin olunmamışdan əvvəlki varianlarla müştərinin sizin <span class="doc-desc-title">xüsusi formunuzdan</span> seçdiyi açılmış qutular yaratmağa yol verə bilər. Əgər siz bu <span class="doc-desc-title">xüsusi siyahını</span> <span class="doc-desc-title">sorğu filterində</span> <span class="doc-desc-title">hədəf</span> kimi istifadə etmək istəyirsinizsə, əmin olun ki, bu siyahını <span class="doc-desc-title">sorğu detalları</span> formuna əlavə etmisiniz.
+name:
+  title: Ad
+  content: >
+    
+plural_name:
+  title: Cəm adı
+  content: >
+    
+sort_order:
+  title: Sifariş sıralaması
+  content: >
+    
+list_s_initial_items:
+  title: İlkin maddələrin siyahısı
+  content: >
+    
+value:
+  title: Dəyər
+  content: >
+    
+extra:
+  title: Əlavə
+  content: >
+    İxtisarlar və s. Əgər siz bu siyahıdakı elementlər üçün ilkin kodlar istifadə etməyə hazırlaşırsınızsa, bu kodlar və ixtisarlar bu sütuna daxil edilməlidir. Əgər xüsusi siyahı <span class="doc-desc-option">başlıq yazın</span> kimi yenidən əlavə olunubsa, bu ixtisarlar xüsusi siyahının elementlərinin axtarışında istifadə edilə bilər.

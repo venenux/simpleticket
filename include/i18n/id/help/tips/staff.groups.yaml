@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grup
+  content: >
+    Grup digunakan untuk menentukan izin Agen pada help desk. Grup juga dapat memberikan akses kepada Departemen lain selain Agen Departemen Utama.
+status:
+  title: Status
+  content: >
+    Jika <span class="doc-desc-opt">Dilumpuhkan</span>, Agen yang ditugaskan pada Group ini tidak bisa masuk dan tidak akan menerima Alert &amp; Pemberitahuan Departemen.
+department_access:
+  title: Akses Departemen
+  content: >
+    Cek semua departemen dimana anggota Grup diperbolehkan mengakses.

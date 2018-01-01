@@ -1,0 +1,46 @@
+---
+- 
+  id: 1
+  name: Otvoriti
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Otvoriti kartice.
+- 
+  id: 2
+  name: Riješen
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: Riješene kartice će biti zatvorene i mogu se opet otvoriti od strane korisnika. Ovo može biti korisno kada je okidač korišten da se zatvore kartice sa napomenom poslanom korisnicima.
+- 
+  id: 3
+  name: Zatvoren
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: Kartice označene kao zatvorene nemogu biti otvorene od strane korisnika. Kartice će još biti pristupačne na upravljačkoj ploči agenta i nadzornoj ploči.
+- 
+  id: 4
+  name: Arhivirano
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: Kartice dostupne samo administratoru ali nepristupačne na listi kartica.
+- 
+  id: 5
+  name: Obrisano
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: Kartice se na listi za brisanje. Nisu pristupačne na listi kartica.

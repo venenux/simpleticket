@@ -1,0 +1,7 @@
+---
+notes: |
+  Sendt til en bruker når en medarbeider oppretter en sak på vegne av brukeren. Dette er vanligvis når brukere ringer inn.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Kjære %{recipient.name.first},</strong></h3> Vårt kundeservice team har opprettet en sak, <a href="%{recipient.ticket_link}"> #%{ticket.number}</a> på dine vegne, med følgende detaljer og sammendrag: <br><br>Emne: <strong>%{ticket.topic.name}</strong> <br>Emne: <strong>%{ticket.subject}</strong> <br><br>%{message} <br><br>Om oppfølging trengs, vil en representant svare deg så snart som mulig. Du kan også <a href="%{recipient.ticket_link}"> vise denne saksgangen via nettet</a>. <br><br><div style="color: rgb(127, 127, 127);"> %{company.name} Team <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small;"> <em>Hvis du ønsker å gi ytterligere kommentarer eller informasjon angående problemet, vennligst svare på denne e-posten eller <a href="%{recipient.ticket_link}"> <span style="color: rgb(84, 141, 212);" > Logg på kontoen</span></a> for en komplett saksoversikt.</em></div>

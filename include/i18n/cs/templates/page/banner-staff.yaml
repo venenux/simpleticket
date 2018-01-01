@@ -1,0 +1,5 @@
+---
+notes: >
+  Toto je úvodní zpráva, která se zobrazí na stránce přihlášení pracovníků. První pole odpovídá červeně zobrazenému textu, který se zobrazuje úplně nahoře. Následné textové pole by mělo sloužit pro obsah textu vyloučení zodpovědnosti.
+name: "Vyžadováno přihlášení"
+body: ""

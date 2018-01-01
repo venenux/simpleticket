@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Listy niestandardowe
+  content: >
+    Twoje <span class="doc-desc-title">Listy niestandardowe</span> pozwolą Ci na tworzenie list rozwijanych z predefiniowanych opcji, z których klient może wybrać w<span class="doc-desc-title">Przygotowanym formularzu</span>. Jeśli chcesz użyć tej <span class="doc-desc-title">listy niestandardowej</span> jako <span class="doc-desc-title">celu</span> w <span class="doc-desc-title">Filtrze zgłoszeń</span>, upewnij się, że dodałeś tą listę do swojego formularza <span class="doc-desc-title">Szczegółów zgłoszenia</span>.
+name:
+  title: Nazwa
+  content: >
+    
+plural_name:
+  title: Nazwa w liczbie mnogiej
+  content: >
+    
+sort_order:
+  title: Kolejność sortowania
+  content: >
+    
+list_s_initial_items:
+  title: Początkowe pozycje listy
+  content: >
+    
+value:
+  title: Wartość
+  content: >
+    
+extra:
+  title: Dodatkowe
+  content: >
+    Skróty i inne. Jeśli zdarzy ci się użyć kodów wewnętrznych dla elementów w tej liście, te kody i skróty mogą być wprowadzone w tej kolumnie. Jeśli lista niestandardowa jest wyświetlana jako <span class="doc-desc-option"> TypeAhead</span>, to te skróty mogą być użyte do znalezienia jej elementów.

@@ -1,0 +1,7 @@
+---
+notes: |
+  當新訊息事件已新建成功於系統內之後、將會發送訊息給工作人員。這方式可經由電子郵件、網站或是api.
+subject: |
+  新事件通知
+body: |
+  <h2>您好 %{收件者}</h2>新事件 #%{ticket.number} 建立 <br><br><table><tbody><tr><td><strong>來自</strong>：</td> <td>%{ticket.name} &lt; %{ticket.email} &gt;</td></tr> <tr><td><strong>部門</strong>：</td> <td>%{ticket.dept.name}</td></tr></tbody></table> <br>%{message}<br><br><hr><div>若要查詢或回應事件，請 <a href="%{ticket.staff_link}"> 登錄</a> 到的支援事件系統</div> <em style="font-size: small"> 你友好的客戶支援系統</em> <br><hr><br><br><a href="HTTP://osticket.com/"> <img width="126"height="19"style="width: 126px;"alt="Powered By osTicket"src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

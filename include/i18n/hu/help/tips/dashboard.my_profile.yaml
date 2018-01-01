@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Elérhetőségi adatok
+  content: >
+    
+username:
+  title: Felhasználónév
+  content: >
+    Csak rendszergazda joggal rendelkező munkatársak módosíthatnak felhasználónevet. Ha Ön egy rendszergazda joggal rendelkező munkatárs, akkor kiválaszthat egy munkatársat szerkesztésre a <span class="doc-desc-title">Munkatársak</span> táblából.
+  links:
+    - 
+      title: Felhasználónév módosítása rendszergazdaként
+      href: /scp/staff.php
+time_zone:
+  title: Időzóna
+  content: >
+    
+daylight_saving:
+  title: Nyári időszámítás
+  content: >
+    
+maximum_page_size:
+  title: Maximális lapméret
+  content: >
+    
+auto_refresh_rate:
+  title: Automatikus frissítési gyakoriság
+  content: >
+    
+default_signature:
+  title: Alapértelmezett aláírás
+  content: >
+    
+default_paper_size:
+  title: Alapértelmezett papírméret
+  content: >
+    
+show_assigned_tickets:
+  title: Hozzárendelt hibajegyek megjelenítése
+  content: >
+    Ezzel engedélyezi nevének elrejtését a <span class="doc-desc-title">Nyitott hibajegyek</span> sorából, az Önhöz hozzárendelt hibajegyeknél. Elrejtéskor a hibajegyeknél a neve helyett a <span class="doc-desc-title">Részleg</span> neve fog megjelenni.
+password:
+  title: Jelszó
+  content: >
+    
+current_password:
+  title: Jelenlegi jelszó
+  content: >
+    
+new_password:
+  title: Új jelszó
+  content: >
+    
+confirm_new_password:
+  title: Új jelszó megerősítése
+  content: >
+    
+signature:
+  title: Aláírás
+  content: >
+    Hozzon létre egy opcionális <span class="doc-desc-title">Aláírást</span>, mely a válaszainak az alján lesz látható. Az <span class="doc-desc-title">Aláírás</span> megjelenése attól függ, hogy melyik a használt <span class="doc-desc-title">Email sablon</span> a válaszban.
+  links:
+    - 
+      title: Emailek sablonok létrehozása az Admin felületen
+      href: /scp/templates.php

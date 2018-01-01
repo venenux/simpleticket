@@ -1,0 +1,28 @@
+---
+notes: |
+  當專員可被台端授權新增案件的狀況下、及為透過電話方式代為處理。
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>親愛的%{recipient.name.first},</strong></h3>
+  我們的團隊已經建立新的案件, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> 在您的授權之下， 以下為案件詳細內容
+  <br>
+  <br>
+  主旨： <strong>%{ticket.topic.name}</strong>
+  <br>
+  主題： <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  如果需要，專員將會與您聯繫。您也可 <a href="%{recipient.ticket_link}">線上查詢案件進度</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} 敬上,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>如果您想要追加或提供更多詳細的資訊，您可回覆本信件或 <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >登入到您的帳號</span></a>可查閱案件詳細完整內容。</em></div>

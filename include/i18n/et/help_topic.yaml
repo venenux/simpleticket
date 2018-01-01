@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Üldine päring
+  notes: Toodete ja teenustega seotud küsimused
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Tagasiside
+  notes: |
+    Peamiselt müügi ja arvete osakonnaga seotud pöördumised
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Raporteeri probleemist
+  notes: |
+    Toote, teenuse või seadmetega seotud probleemid
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Ligipääsu probleem
+  notes: |
+    Teade füüsilistele või virtuaalsetele vahenditele ligipääsu puudumisest

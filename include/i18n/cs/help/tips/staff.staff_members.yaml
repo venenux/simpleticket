@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Zaměstnanci
+  content: >
+    Následující tabulka obsahuje výsledky dle filtru výše. Není li vybrán filtr, pak jsou zobrazeni všichni<span class="doc-desc-title">Agent</span> (Staff) <span class="doc-desc-title">Members</span> a royděleni po stránkách. Pro navigaci v dalších výsledcích nahlédněte do sekce stránky níže.
+status:
+  title: Stav
+  content: >
+    Zde se zobrazí, zda-li je <span class="doc-desc-title">pracovník</span> uzamčen, aktivní či aktivní (na dovolené).'

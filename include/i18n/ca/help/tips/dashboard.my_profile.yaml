@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informació de contacte
+  content: >
+    
+username:
+  title: Nom d'usuari
+  content: >
+    Només aquells Agents amb estatus d'administrador poden canviar un nom d'usuari. Si vostè és un Agent amb privilegis d'administrador,  pot aconseguir això seleccionant un Agent a la taula <span class="doc-desc-title">  Per a </span> editar-lo.
+  links:
+    - 
+      title: Canvie un nom d'usuari com a administrador
+      href: /scp/staff.php
+time_zone:
+  title: Zona horària
+  content: >
+    
+daylight_saving:
+  title: horari d'estiu
+  content: >
+    
+maximum_page_size:
+  title: Màxima mida de pàgina
+  content: >
+    
+auto_refresh_rate:
+  title: Tasa de refresc automàtic
+  content: >
+    
+default_signature:
+  title: Signatura per defecte
+  content: >
+    
+default_paper_size:
+  title: Mida de Paper per defecte
+  content: >
+    
+show_assigned_tickets:
+  title: Mostrar Tickets Assignats
+  content: >
+    Activant açò podrà amagar el seu nom de <span class="doc-desc-title"> els Tickets oberts</span> per aquelles entrades que ha estat assignat. A amagar-se, el nom del <span class="doc-desc-title"> Departament</span> al qual pertanyeu reemplaçarà on normalment es mostrarà el seu nom.
+password:
+  title: Contrasenya
+  content: >
+    
+current_password:
+  title: Contrasenya actual
+  content: >
+    
+new_password:
+  title: Nova contrasenya
+  content: >
+    
+confirm_new_password:
+  title: Confirma la nova contrasenya
+  content: >
+    
+signature:
+  title: Signatura
+  content: >
+    Crear una <span class="doc-desc-title"> signatura</span> opcional que pot aparéixer al final de les seves respostes de Tickets. Si aquesta <span class="doc-desc-title"> signatura</span> apareix, o no, depèn de la <span class="doc-desc-title"> Plantilla de email</span> que s'utilitzarà en la resposta d'un Ticket.
+  links:
+    - 
+      title: Crear plantilles de email en el panell d'administració
+      href: /scp/templates.php

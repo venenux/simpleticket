@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Chei API
+  content: >
+    Cheile API sunt utilizate pentru autentificarea clienților prin intermediul Interfeței de Programare pentru Aplicații (Application Programming Interface - API). Cheile API sunt utilizate în locul parolelor. Din moment ce cheile API pot fi trimise necriptate, ele sunt asociate cu adresa IP a fiecărui client.
+  links:
+    - 
+      title: Documentatie API osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Adresa IP
+  content: >
+    Adresa IP a clientului. Fiecare adresă IP unică necesită chei API distincte.

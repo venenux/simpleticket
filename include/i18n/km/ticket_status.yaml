@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: បើក
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: បើក ករណី Ticket
+- 
+  id: 2
+  name: ដោះស្រាយហើយ
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      ករណីដោះស្រាយហើយ Resolved tickets គឺ ករណីបិទហើយ closed tickets។ ករណីបិទហើយ closed tickets អាចត្រូវបានបើកឡើងវិញដោយអ្នកប្រើ។ នៅពេលករណីបានបិទ អ្នកប្រើនឹងទទួលបានការជូនដំណឹងតាមអ៊ីមែល។ វាមានប្រយោជន៍នៅពេលករណីមួយចំនួន ត្រូវបានបិទដោយ trigger function។ដូច្នេះ ប្រសិនបើអ្នកប្រើមិនពេញចិត្តនៅឡើយទេ, អ្នកប្រើអាចបើកឡើងវិញបាន។
+- 
+  id: 3
+  name: បិទ
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      ករណីបិទហើយ closed tickets អាចត្រូវបានបើកឡើងវិញដោយអ្នកប្រើ។ ករណីបិទជិតហើយ នឹងនៅតែមានសម្រាប់អតិថិជននិងបុគ្គលិក បើកមើល។
+- 
+  id: 4
+  name: ទុកជាឯកសារ Archived
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      ករណីទុកជាឯកសារ archived ticket គឺមិននៅលើជួរសំបុត្រ ticket queues ទៀតទេ។ វាអាចត្រូវបានអានដោយអ្នកគ្រប់គ្រងជាន់ខ្ពស់ Super Admin តែប៉ុណ្ណោះ។
+- 
+  id: 5
+  name: លុប
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      ករណី ដែលបានដាក់​ទៅ​ក្នុងជួរសម្រាប់លុប, មិនមាននៅក្នុងជួរសំបុត្រ ticket queues ទៀតទេ

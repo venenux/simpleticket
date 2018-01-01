@@ -1,0 +1,29 @@
+---
+notes: |
+  Bir kullanıcı yerine personel tarafından talep oluşturulduğunda kullanıcıya gönder. 
+  Bu durum çoğunlukla kullanıcı ile telefon görüşmesi sırasında oluşur.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Sayın %{recipient.name.first},</strong></h3>
+  Müşteri ilişkileri ekibimiz sizin adınıza bir kayıt oluşturdu: <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> Detaylarını ve özetini altta görebilirsiniz:
+  <br>
+  <br>
+  Türü: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Konu: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Bir temsilcimiz ihtiyaç durumunda sizinle en yakın zamanda yanıt verecektir. İsterseniz, <a href="%{recipient.ticket_link}">bu kaydın durumunu siteden takip edebilirsiniz.</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} Ekibi,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Eğer konuyla ilgili ek bilgi ve yorum gönderecekseniz, bu mesajı yanıtlayın ya da tüm destek taleplerinizin arşivi için <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >hesabınıza giriş yapın.</span></a></em></div>

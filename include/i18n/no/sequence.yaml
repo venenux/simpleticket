@@ -1,0 +1,8 @@
+---
+- 
+  id: 1
+  name: Generelle saker
+  next: 1
+  padding: 0
+  increment: 1
+  flags: 1

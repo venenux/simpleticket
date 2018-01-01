@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Ерөнхий лавлагаа
+  notes: Бүтээгдэхүүн болон үйлчилгээтэй холбоотой асуултууд
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Санал хүсэлт
+  notes: |
+    Борлуулалт болон төлбөр тооцооны албатай холбоотой Хүсэлтүүд
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Асуудал мэдээлэх
+  notes: |
+    Бүтээгдэхүүн, үйлчилгээ болон тоног төхөөрөмжтэй холбоотой асуудлууд
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Асуудал уруу хандах
+  notes: |
+    Биет болон биет бус нөөц уруу хандах боломжгүй байгааг мэдээлэх

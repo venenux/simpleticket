@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Klasičen odgovor
+  content: >
+    Ustvarite <span class="doc-desc-title">Klasičen odgovor</span>, ki se lahko vključi v odgovor zahtevka. Lahko se uporabi tudi za <span class="doc-desc-title">samodejni odgovor zahtevka</span> določen z <span class="doc-desc-title">filtrom zahtevka</span>.
+  links:
+    - 
+      title: Nastavi filter zahtevka
+      href: /scp/filters.php
+canned_attachments:
+  title: Klasične priloge
+  content: >
+    Pripni datoteko, katero bi radi samodejno vključevali v odgovor zahtevka, ki izkorišča nov <span class="doc-desc-title"> klasičen odgovor</span>.

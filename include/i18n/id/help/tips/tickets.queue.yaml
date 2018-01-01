@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Kolom Pencarian
+  content: >
+    
+advanced:
+  title: Tingkat Lanjut
+  content: >
+    Mempersempit parameter penelusuran. Sekali Anda telah memilih kriteria pencarian Anda dan menjalankan pencarian, Anda dapat <span class="doc-desc-title"> mengekspor</span> data di bagian bawah halaman Tiket.
+open_tickets_table:
+  title: Tabel Buka tiket
+  content: >
+    Semua tiket saat ini terbuka dan membutuhkan perhatian
+ticket:
+  title: tiket
+  content: >
+    
+date:
+  title: Tanggal
+  content: >
+    
+subject:
+  title: Subjek
+  content: >
+    
+from:
+  title: Dari
+  content: >
+    
+priority:
+  title: Prioritas
+  content: >
+    
+assigned_to:
+  title: Menugaskan ke
+  content: >
+    
+export:
+  title: Ekspor
+  content: >
+    Ekspor data Anda saat ini ke dalam CSV file. File CSV dapat dibuka dengan perangkat lunak spreadsheet (misalnya, Microsoft Excel, halaman Apple, OpenOffice, dll).
+advanced_search_dialog:
+  title: Pencarian lanjutan
+  content: >
+    
+adv_keyword:
+  title: Kata kunci pencarian
+  content: >
+    Pencarian hits berdasarkan subyek dan bodi pesan dari untai tiket serta semua konten tekstual yang terkait dengan kustom field bagi pengguna dan tiket.
+adv_date_range:
+  title: Cari berdasarkan rentang tanggal
+  content: >
+    Definisi di sini

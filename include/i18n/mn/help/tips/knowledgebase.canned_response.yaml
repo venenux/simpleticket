@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Бэлдсэн хариулт
+  content: >
+    Хүсэлтэд хариу өгөх <span class="doc-desc-title">Бэлдсэн хариулт</span> үүсгэнэ. Эдгээр хариултыг мөн <span class="doc-desc-title">Хүсэлтийн шүүлтүүрт</span> тохирох <span class="doc-desc-title">Автомат хариултанд</span> ашиглах боломжтой.
+  links:
+    - 
+      title: Хүсэлтийн шүүлт тохируулах
+      href: /scp/filters.php
+canned_attachments:
+  title: Бэлдсэн хавсралтууд
+  content: >
+    Шинэ <span class="doc-desc-title">Бэлдсэн хариултанд</span> автоматаар хавсаргах файлыг сонгоно.

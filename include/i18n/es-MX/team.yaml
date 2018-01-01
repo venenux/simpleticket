@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 0
+  name: Soporte Nivel I
+  notes: Soporte de nivel 1, es responsable de la interacción inicial con los clientes

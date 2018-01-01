@@ -1,0 +1,7 @@
+---
+notes: |
+  Berichtgeving naar medewerkers, wanneer er een interne activiteit heeft plaatsgevonden, zoals een interne notitie of wanneer een medewerker een reactie toegevoegd heeft aan een ticket.
+subject: |
+  Nieuwe interne activiteit melding
+body: |
+  <h3><strong>Beste %{recipient.name},</strong></h3> Een interne notitie is toegevoegd aan ticket <a href="%{ticket.staff_link}"> #%{ticket.number}</a> <br><br><table><tbody><tr><td><strong>Van</strong>:</td> <td>%{note.poster}</td></tr> <tr><td><strong>Titel</strong>:</td> <td>%{note.title}</td></tr></tbody></table> <br>%{note.message} <br><br><hr>Om het ticket te bekijken of om te reageren, kunt u <a href="%{ticket.staff_link}"> inloggen</a> in het Support Ticket systeem <br><br><em style="font-size: small;"> Uw vriendelijke Support Ticket systeem</em> <br><img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

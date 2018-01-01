@@ -1,0 +1,24 @@
+---
+notes: |
+  Bude odesláno zaměstnanci v okamžiku vypršení termínu zákaznického požadavku.
+  Prošlé požadavky se zobrazí na základě uplynulého termínu pro vyřízení nebo SLA definované pro konkrétní požadavek.
+subject: |
+  Upozornění na propadlý požadavek
+body: |2
+  <h3><strong>Dobrý den %{recipient}</strong>,</h3>
+  Zákaznický požadavek <a href="%{ticket.staff_link}">#%{ticket.number}</a> je po termínu pro jeho vyřízení.
+  <br>
+  <br>
+  Na vyřízení tohoto požadavku bychom měli všichni usilovně pracovat, abychom ho vyřešili v co nejkratší době.
+  <br>
+  <br>
+  Pěkný den,<br>
+  %{ticket.dept.manager.name}
+  <hr>
+  <div>Pro zobrazení nebo odeslání odpovědi na požadavek se prosím <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >přihlaste</span></a> do systému zákaznické podpory. Tato zpráva Vám byla odeslána proto, že tento požadavek byl přidělen buď přímo Vám, nebo oddělení jehož jste členem.</div>
+  <em style="font-size: small">Váš <span style="font-size: smaller"
+  >(stále ještě přátelský)</span> Helpdesk</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" height="19"
+      alt="Provozováno na osTicket" width="126" style="width: 126px;">

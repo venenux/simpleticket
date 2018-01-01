@@ -1,0 +1,6 @@
+---
+notes: >
+  Aquestes plantilles defineixen la pàgina mostrada als Clients, després de completar el formulari de registre. La plantilla hauria d'esmentar que el sistema està enviant-los un enllaç de confirmació d'e-mail i què és el següent pas en el procés de registre.
+name: "Registrar un compte"
+body: >
+  <div><strong>Gràcies per registrarte .</strong><br/><br/> una vegada acabat li enviem un correu electrònic a l'adreça que habeu introduït. Si us plau seguiu l'enllaç al correu electrònic per confirmar el seu compte i accedir als teus Tickets. </div>

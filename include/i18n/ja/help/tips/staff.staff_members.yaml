@@ -1,0 +1,7 @@
+---
+staff_members:
+  title: スタッフ メンバー
+  content: '次の表は、上のフィルターが反映された結果が表示されます。フィルター設定が選択されていない場合は、すべての <span class="doc-desc-title"> エージェント</span> (スタッフ) <span class="doc-desc-title">メンバー</span>  が表示され、ページによって分割します。詳細結果を閲覧したい場合は、以下のページを参照してください。'
+status:
+  title: ステータス
+  content: 'これは、<span class="doc-desc-title">エージェント</span>がロックされているか、アクティブ、またはアクティブ (休暇) であるかを表示します。'

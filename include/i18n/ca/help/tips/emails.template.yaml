@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: Plantilles de email
+  content: >
+    Els conjunts de plantilles de email s'utilitzen per enviar alertes i Auto-Respostes per diverses accions que poden tindre lloc durant la vida del Ticket.
+template_to_clone:
+  title: Plantilla per a Clonar
+  content: >
+    Trie una plantilla per a clonar o simplement comence amb les plantilles d'email existènts.
+language:
+  title: Idioma
+  content: >
+    Selecciona l'idioma desitjat per al <span class="doc-desc-opt"> estoc</span> <span class="doc-desc-title"> conjunt de plantilles de email</span>. Grups de llenguatge estan disponibles a osTicket.com.
+  links:
+    - 
+      title: Packs d'idioma de osTicket
+      href: 'http://osticket.com/download'
+status:
+  title: Estat
+  content: >
+    <span class="doc-desc-opt"> permès</span> Conjunts de plantilles estan disponibles per ser associats amb els departaments i situats al sistema per defecte  Establir les plantilles que etan actualment en ús no poden ser <span class="doc-desc-opt"> deshabilitades</span>.

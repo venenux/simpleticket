@@ -1,0 +1,22 @@
+---
+notes: |
+  Poslano uporabnikom, ko član osebja odgovori na njihov zahtevek.
+  Odgovori so ustvarjeni samo od članov osebja.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Dragi %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Vaša %{company.name} ekipa,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Upamo da je naš odgovor točno odgovoril na vaše vprašanje. Če ni 
+  prosimo, da ne pošiljate še enega vprašanja. Raje odgovorite tukaj ali pa 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >se prijavite
+  v vaš račun</a> za ves arhiv vaših zahtevkov podpore 
+  in vseh odgovorov.</em></div>

@@ -1,0 +1,13 @@
+---
+name:
+  title: Név
+  content: >
+    Válasszon egy kifejező nevet ennek a <span class="doc-desc-title">Szolgáltatási színvonal Tervnek</span>, ami utal a terv céljára.
+grace_period:
+  title: Türelmi időszak
+  content: >
+    Határozza meg az órák számát, amely elteltével a létrehozott hibajegy automatikusan lejárt lesz. <br><br><em>Az órák számlálása a hibajegy létrehozásának idejétől indul. </em>
+transient:
+  title: Ideiglenes
+  content: >
+    Az ideiglenes SLA-kat időnként át kell gondolni és felülírhatóak egy állandó SLA-val a <span class="doc-desc-opt">Részleg</span> átvitelnél vagy amikor a <span class="doc-desc-title">Súgó téma</span> megváltozik.

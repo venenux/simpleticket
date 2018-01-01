@@ -1,0 +1,10 @@
+---
+type:
+  title: Tipus
+  content: >
+    Si el tipus del Departament  es privat, llavors la signatura del Departament no estarà disponible en la resposta ni l'assignació de Departament es mostrarà des del Portal del Client.
+dept_manager:
+  title: Responsable del Departament
+  content: >
+    Vostè pot triar un Agent com a director de Departament per rebre alertes & avisos per als Tickets en els departaments.
+  0: Els agents no han de ser membres del Departament per a poder ser els Directors del Departament

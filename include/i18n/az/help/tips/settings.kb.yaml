@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Məumat bazası tənzimləmələri
+  content: >
+    
+knowledge_base_status:
+  title: Məlumat bazası statusu
+  content: >
+    Bu tənzimləməni istifadəçilərinizin sizin məlumat bazanızda olan ictimai məqalələrə özlərinin çıxışı olması üçün aktiv edin. <br><br> Məlumat bazası kateqoriyaları və FAQlar daxili ola bilər (ancaq agentlərə görünür).
+  links:
+    - 
+      title: Məlumat bazasını idarə edin
+      href: /scp/kb.php
+restrict_kb:
+  title: Resctrict Access to the Knowledge Base
+  content: >
+    Enable this setting to prevent unregistered users from accessing your knowledge base articles on the client interface.
+  links:
+    - 
+      title: Giriş nəzarət tənzimləmələri
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Hazır cavablar
+  content: >
+    Bu tənzimləməni agentlər sorğulara cavab verəndə <span class="doc-desc-title">hazır cavablardan</span> istifadə etməsi üçün aktiv edin.
+  links:
+    - 
+      title: Hazır cavabları idarə edin
+      href: /scp/canned.php

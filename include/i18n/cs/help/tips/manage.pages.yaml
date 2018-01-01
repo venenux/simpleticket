@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Stránky
+  content: >
+    Stránky webu mohou sloužit jako mini Content Management System (CMS). Můžete definovat více přistání, v režimu offline, a děkuji vám-stránky a nakonfigurovat je v nastavení společnosti a témata nápovědy.
+  links:
+    - 
+      title: Firemní nastavení
+      href: /scp/settings.php?t=pages
+type:
+  title: Typ
+  content: >
+    <span class="doc-desc-opt">Offline</span>stránky jsou zobrazeny na klientském portálu, pokud váš help desk je zakázáno. <span class="doc-desc-opt">Vstupní</span>stránky jsou zobrazeny na domovské stránce klientského portálu.<span class="doc-desc-opt">Thank You</span> stránky se zobrazí poté, co uživatel odešle lístek. <span class="doc-desc-opt">Ostatní</span>stránky může být použit jako jednoduchý systém pro správu obsahu (CMS).

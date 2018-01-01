@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Хүсэлтийн төлөв
+  name_plural: Хүсэлтийн төлөвүүд
+  sort_mode: SortCol
+  masks: 13
+  notes: Хүсэлтийн төлөвүүд
+  properties:
+    title: Хүсэлтийн төлөвийн шинжүүд
+    instructions: Хүсэлтийн төлөв дээр тохируулж болох шинжүүд.
+    deletable: false
+    fields:
+      - 
+        type: төлөв
+        name: төлөв
+        label: Төлөв
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Хүсэлтийн төлөв
+      - 
+        type: санамж
+        name: description
+        label: Тайлбар
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

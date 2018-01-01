@@ -1,0 +1,24 @@
+---
+notes: |
+  
+subject: |
+  Tiketti #%{ticket.number} siirretty %{ticket.dept.name} osastoon
+body: |
+  <h3>Terve %{recipient},</h3>
+  Tiketti <a href="%{ticket.staff_link}">#%{ticket.number}</a> on siirretty
+  seuraavalle osastolle: %{ticket.dept.name}, 
+  <strong>%{staff.name.short}</strong> toimesta
+  <br>
+  <br>
+  <blockquote>
+  %{comments}
+  </blockquote>
+  <hr>
+  <div>Nähdäksesi tai vastataksesi tikettiin, käytä <a
+  href="%{ticket.staff_link}">kirjautumista</a> tukitikettijärjestelmään.
+  </div>
+  <em style="font-size: small; ">Ystävällisesti tukitikettijärjestelmä</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  alt="Käyttää osTicket-moottoria" style="width: 126px;"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

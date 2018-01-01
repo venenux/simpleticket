@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Camp Cautare
+  content: >
+    
+advanced:
+  title: Avansat
+  content: >
+    Rafinați opțiunile de căutare. Odata ce ati selectat parametrii de cautare avansati si rulat cautarea, veti putea sa <span class="doc-desc-title">Exportati</span> datele din butonul de la finalul pagini de tichete.
+open_tickets_table:
+  title: Tabel Tickete Deschise
+  content: >
+    Toate tichetele deschise in acest moment si care necesita atentie
+ticket:
+  title: Ticket
+  content: >
+    
+date:
+  title: Data
+  content: >
+    
+subject:
+  title: Subiect
+  content: >
+    
+from:
+  title: Expeditor
+  content: >
+    
+priority:
+  title: Prioritate
+  content: >
+    
+assigned_to:
+  title: Atribuit lui
+  content: >
+    
+export:
+  title: Exporta
+  content: >
+    Exporta datele ce pot fi vizualizate acum intr-un fisier CSV. Fisierele CSV pot fi deschise cu orice program de calcul tabelar (i.e., Microsoft Excel, Apple Pages, OpenOffice, etc.).
+advanced_search_dialog:
+  title: Cautare Avansata
+  content: >
+    
+adv_keyword:
+  title: Cautare cuvinte cheie
+  content: >
+    Gaseste rezultate bazate pe subiectul si corpul tichetelor dar si pe continutul textual al campurilor personalizate pentru utilizatori si tichete.
+adv_date_range:
+  title: Cautare dupa Data
+  content: >
+    Definiție aici

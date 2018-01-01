@@ -1,0 +1,31 @@
+---
+ticket_activity:
+  title: Aktivnost tiketa
+  content: 'Odaberite vremenski raspon kako bi grafikon i tablica (vidi <span class="doc-desc-title">Statistika</span>) prikazali odgovarajuće podatke za to vremensko razdoblje. Grafikon će uvek prikazivati širi prikaz celog sistema (npr. populacije). Ipak, moguće je i kretati se kroz tabelu <span class="doc-desc-title">Statistika</span> kako bi se fokusirali na uži predmet interesa. (npr. Odsek, Tema, Zaposleni i sl.). Uz to, moguće je izvesti tj. eskportovati određene podatke koji se trenutno prikazuju u  tabeli <span class="doc-desc-title">Statistika</span>.'
+report_timeframe:
+  title: Izveštaj vremenskog perioda
+  content: Odaberite početni datum za željeni period uzorka podataka. Zatim, odaberite vreme trajanja od tog datuma kako bi definisali krajnji datum uzorka.
+statistics:
+  title: Statistika
+  content: Odaberite temu interesa na pripadajućem tabulatoru kako bi mogli videti specifični uzorak podataka. Unutar tabele, krugovi prikazuju veličinu nominalnih podataka. Zbog toga, što je veći broj u određenoj ćeliji to će biti veći pripadajući krug.
+opened:
+  title: Otvoreni
+  content: Ovo predstavlja tikete koje su otvorili tehničari (npr. interno otvoreni), a ne klijenti.
+assigned:
+  title: Dodeljeni
+  content: 'Sistem prati svaki događaj dok se tiket automatski ili ručno dodjeljuje određenom odeljenju ili tehničaru. Automatski zadaci će zavisiti o postavljenim podešavanjima za <span class="doc-desc-title">Teme za pomoć</span> i <span class="doc-desc-title">Imejl filteri</span> u Administratorskom panelu.'
+overdue:
+  title: Istekao
+  content: Ovo je broj tiketa koji krše Ugovor o korišćenju usluge kojima pripadaju.
+closed:
+  title: Zatvoren
+  content: Ovo je broj tiketa koji su zatvoreni.
+reopened:
+  title: Ponovo otvoreni
+  content: Ovo je količina tiketa koji su bili ponovo otvoreni od strane tehničara ili klijenta kada je odgovorio/la dok je tiket bio u statusu Zatvoren.
+service_time:
+  title: Vreme usluge
+  content: '<span class="doc-desc-title">Vreme opsluživanja tiketa</span> je vremenski period koji počinje otvaranjem tiketa, a završava zatvaranjem tiketa.  Kolona <span class="doc-desc-title">Vreme opsluživanja tiketa</span> označava prosečno vreme provedeno u rešavanju tiketa izraženo u satima.'
+response_time:
+  title: Vreme odgovora
+  content: '<span class="doc-desc-title">Vreme odgovora</span> je vremenski period koji počinje sa klijentskom upitom i završava sa odgovorom tehničara podrške. Ovaj vremenski period ne odnosi se na inicijalno otvaranje tiketa, već na vreme potrošeno u komunikaciji u cilju rešavanja problema klijenta i odgovora podrške.'

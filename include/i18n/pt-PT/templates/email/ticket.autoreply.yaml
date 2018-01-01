@@ -1,0 +1,29 @@
+---
+notes: |
+  Enviado para um Utilizador de forma automática quando este submete um ticket.
+  Variáveis disponíveis para substituir: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Caro/a%{recipient.name.first},</strong></h3>
+  Foi criado um pedido de assistência, sendo-lhe atribuído o ticket <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> com a seguinte resposta automática
+  <br>
+  <br>
+  Tópico: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Assunto: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">A Equipa do/a %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Esperamos
+  que esta resposta tenha ido de encontro às suas questões. Caso deseje
+  fornecer comentários ou informações adicionais, por favor responda a este e-mail
+  ou <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" > aceda à sua conta</span></a> para 
+  visualizar a todos os seus pedidos de assistência.</em></div>

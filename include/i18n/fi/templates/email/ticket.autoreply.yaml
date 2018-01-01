@@ -1,0 +1,26 @@
+---
+notes: |
+  Lähetetään käyttäjälle kun ensimmäinen automaattinen vastaus on lähetetty tukipyyntöön sen luontivaiheessa
+  
+  Saatavilla olevat muuttujat korvaajiksi: %{ticket.*}, %{response}
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Hyvä %{recipient.name.first},</strong></h3>
+  Viestisi on vastaanotettu ja tiketti luotu sekä kohdistettu <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> Seuraavalla viestillä
+  <br>
+  <br>
+  Otsikko: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Aihe: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Terveisin %{company.name} Tiimi,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Toivomme, että tämä vastaus auttaa vastaamaan kysymyksiisi. Jos haluat lisätä kommentteja tai antaa lisätietoja, vastaa tähän viestiin tai <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >kirjaudu asiakastilillesi</span></a> josta löydä täydellisen arkiston viesteistäsi.</em></div>

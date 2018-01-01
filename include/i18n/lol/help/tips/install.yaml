@@ -1,0 +1,61 @@
+---
+helpdesk_name:
+  title: 'crwdns470:0crwdne470:0'
+  content: |
+    crwdns471:0crwdne471:0
+system_email:
+  title: 'crwdns472:0crwdne472:0'
+  content: |
+    crwdns473:0crwdne473:0
+default_lang:
+  title: 'crwdns962:0crwdne962:0'
+  content: |
+    crwdns963:0crwdne963:0
+  links:
+    - 
+      title: 'crwdns964:0crwdne964:0'
+      href: 'crwdns965:0crwdne965:0'
+first_name:
+  title: 'crwdns474:0crwdne474:0'
+  content: |
+    crwdns475:0crwdne475:0
+last_name:
+  title: 'crwdns476:0crwdne476:0'
+  content: |
+    crwdns477:0crwdne477:0
+email:
+  title: 'crwdns478:0crwdne478:0'
+  content: |
+    crwdns479:0crwdne479:0
+username:
+  title: 'crwdns480:0crwdne480:0'
+  content: |
+    crwdns481:0crwdne481:0
+password:
+  title: 'crwdns482:0crwdne482:0'
+  content: |
+    crwdns483:0crwdne483:0
+password2:
+  title: 'crwdns484:0crwdne484:0'
+  content: |
+    crwdns485:0crwdne485:0
+db_prefix:
+  title: 'crwdns486:0crwdne486:0'
+  content: |
+    crwdns487:0crwdne487:0
+db_host:
+  title: 'crwdns488:0crwdne488:0'
+  content: |
+    crwdns489:0crwdne489:0
+db_schema:
+  title: 'crwdns490:0crwdne490:0'
+  content: |
+    crwdns491:0crwdne491:0
+db_user:
+  title: 'crwdns492:0crwdne492:0'
+  content: |
+    crwdns493:0crwdne493:0
+db_password:
+  title: 'crwdns494:0crwdne494:0'
+  content: |
+    crwdns495:0crwdne495:0

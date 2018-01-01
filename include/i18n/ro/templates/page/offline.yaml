@@ -1,0 +1,11 @@
+---
+notes: |
+  Paginile Offline apara in Portalul de Client cand platforma de suport este offline.
+name: Offline
+body: |
+  <div><h1>
+  <span style="font-size: medium">Sistemul este deconectat</span>
+  </h1>
+  <p>Va multumim pentru interesul acordat.</p>
+  <p>Momentan, sistemul este deconectat. Va rugam sa reveniti mai tarziu.</p>
+  </div>

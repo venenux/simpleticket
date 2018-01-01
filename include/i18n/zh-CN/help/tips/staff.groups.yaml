@@ -1,0 +1,13 @@
+---
+groups:
+  title: 组
+  content: >
+    组用于定义帮助中心中的代理权限。组还可访问除代理主要部门外的其他部门。
+status:
+  title: 状态
+  content: >
+    如果<span class="doc-desc-opt">禁用</span>，分配至此组的代理将无法登陆且无法接收部门提醒 &amp;通知。
+department_access:
+  title: 部门访问
+  content: >
+    勾选组成员允许访问的所有部门。

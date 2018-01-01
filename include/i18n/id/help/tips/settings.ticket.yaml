@@ -1,0 +1,82 @@
+---
+number_format:
+  title: Bentuk Penomoran Tiket
+  content: >
+    Pengaturan ini digunakan untuk membuat nomer tiket. Gunakan tanda hash (`#`) dimana angka akan diletakkan. Teks selain format angka akan tidak berubah. <span class="doc-desc-title">Topik Bantuan</span> anda akan menentukan bentuk angka sesuai keinginan. <br/><br/> Sebagai contoh, untuk enam digit angka, gunakan <code>######</code>.
+sequence_id:
+  title: Jumlah tiket dalam antrian
+  content: >
+    Pilih urutan yang mana untuk mendapatkan nomor tiket baru. Sistem ini memiliki urutan bertambah dan urutan acak secara default. Anda dapat membuat sebanyak mungkin urutan yang Anda inginkan. Gunakan berbagai urutan pada konfigurasi <span class = "doc-desc-title"> Format Nomor Tiket </span> untuk topik bantuan.
+default_ticket_status:
+  title: Status Default untuk Tiket baru
+  content: >
+    Pilih sebuah status sebagai default untuk tiket baru. Hal ini dapat ditentukan pada setiap topik bantuan jika diinginkan. Hal ini juga dapat ditimpa dengan tapis tiket.
+  links:
+    - 
+      title: Kelola status tiket
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: SLA Standar
+  content: >
+    Pilih Service Level Agreement standar untuk mengelola berapa lama tiket dapat tetap terbuka sebelum diberikan jatuh tempo.
+  links:
+    - 
+      title: Buat kelompok Aturan lainnya
+      href: /scp/slas.php
+default_priority:
+  title: Prioritas Default
+  content: >
+    Pilih sebuah <span class="doc-desc-title">prioritas</span> default untuk tiket yang tidak ditandai prioritas secara otomatis. <br/><br/> Prioritas dapat ditandai melalui topik bantuan, departemen yang diterusi, atau pengaturan tapis tiket.
+    Priority can be assigned via the help topic, routed department, or ticket filter settings.
+maximum_open_tickets:
+  title: Maksimal mebuat tiket
+  content: >
+    Masukan <em>jumlah</em> tiket maksimum Pengguna yang diijinkan <strong>terbuka</strong> pada help desk Anda. <br><br> Masukkan <span class="doc-desc-opt">0 </span> jika Anda lebih suka melumpuhkan batasan ini.
+agent_collision_avoidance:
+  title: Penghindaran Kolision Agen
+  content: >
+    Masukkan panjang maksimum waktu Agen yang diijinkan untuk menahan kuncian pada sebuah tiket tanpa aktivitas.  <br><br> Masukkan <span class="doc-desc-opt">0</span> untuk melumpuhkan fitur lockout.
+email_ticket_priority:
+  title: Prioritas email tiket
+  content: >
+    Gunakan prioritas email yang ditandai dengan layanan mail penerima
+show_related_tickets:
+  title: Tampilkan tiket yang berkaitan
+  content: >
+    Tampilkan semua tiket terkait pada login pengguna - selain itu akses dibatasi untuk satu tampilan tiket per login
+human_verification:
+  title: Verifikasi pengguna manusia
+  content: >
+    Aktifkan CAPTCHA di Portal Klien untuk memverifikasi tiket masuk adalah hasil dari aktivitas manusia. <br><br> membutuhkan GDLib library
+claim_tickets:
+  title: Tiket Klaim pada Respon
+  content: >
+    Aktifkan ini untuk auto-assign pada tiket yang tidak ditandai kepada Agen yang responding.  <br><br> Buka kembali tiket selalu ditugaskan kepada responden yang terakhir.
+assigned_tickets:
+  title: Tiket Ditugaskan
+  content: >
+    Aktifkan fitur ini untuk mengeluarkan tiket yang ditugaskan dari  <span class="doc-desc-title">Antrian Tiket Terbuka</span>.
+answered_tickets:
+  title: Jawaban tiket
+  content: >
+    Aktifkan fitur ini untuk menunjukkan tiket terjawab pada <span class="doc-desc-title">Antrian Tiket Terjawab</span>. Selainnya, akan dimasukkan dalam <span class="doc-desc-title">Antrian Tiket Terbuka</span>.
+staff_identity_masking:
+  title: Penutup Identitas Staf
+  content: >
+    Jika diaktifkan, hal ini akan menyembunyikan nama Agen dari Pengguna selama komunikasi.
+enable_html_ticket_thread:
+  title: Aktifkan fungsi HTML pada kolom tiket
+  content: >
+    Jika diaktifkan, hal ini akan mengijinkan penggunaan format rich text antara Klien dan Agen.
+ticket_attachment_settings:
+  title: Lampiran Untaian Tiket
+  content: >
+    Pengaturan konfigurasi untuk file yang dilampirkan pada field <span class="doc-desc-title">detil isu</span>. Pengaturan ini digunakan untuk semua tiket baru dan pesan baru tanpa memperhatikan sumber saluran (web portal, email, api, dll.).
+max_file_size:
+  title: Ukuran File Maksimum
+  content: >
+    Pilih ukuran file maksimum untuk lampiran yang diunggah oleh agen. Hal ini termasuk lampiran terkait, artikel dasar pengetahuan, dan lampiran pada balasan tiket.
+ticket_response_files:
+  title: File Respon Tiket
+  content: >
+    Jikan diaktifkan, setiap lampiran yang dikirim oleh Agen pada respon tiket akan termasuk pada email ke pengguna.

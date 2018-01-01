@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Aktivnosti na kartici
+  content: >
+    Odaberite vremenski raspon kako bi graf i tablica (u usporedbi <span class="doc-desc-title">Statistika</span>) prikazali odgovarajuće podatke za to vremensko razdoblje. Graf će uvijek prikazivati širi prikaz cijelog sustava (npr. populacije). Ipak, moguće je i navigirati kroz tablicu <span class="doc-desc-title">Statistika</span> kako bi se fokusirali na uži subjekt interesa. (npr. Odjel, Tema, Zaposlenici i sl.). Uz to, moguće je izvesti tj. eksportirati određene podatke koji se trenutno prikazuju u  tablici <span class="doc-desc-title">Statistika</span>.
+report_timeframe:
+  title: Izvješće vremenskog okvira
+  content: >
+    Odaberite početni datum za željeni period uzorka podataka. Zatim, odaberite vrijeme trajanja od tog datuma kako bi definirali krajnji datum uzorka.
+statistics:
+  title: Statistika
+  content: >
+    Odaberite temu interesa na pripadajućem gumbu kako bi mogli vidjeti specifični uzorak podataka. Unutar tablice, krugovi prikazuju veličinu nominalnih podataka. Zbog toga, što je veći broj u određenoj ćeliji to će biti veći pripadajući kurg.
+opened:
+  title: Otvoreno
+  content: >
+    Ovo predstavlja tickete koje su otvorili tehničari (npr. interno otvoreni), a ne klijenti.
+assigned:
+  title: Dodijeljeno
+  content: >
+    Sustav prati svaki događaj dok se ticket automatski ili ručno dodjeljuje određenom Odjelu ili tehničaru. Automatski zadaci će ovisiti o postavljenim postavkama za <span class="doc-desc-title">Teme za pomoć</span> i <span class="doc-desc-title">Email filteri</span> u Administratorskom sučelju.
+overdue:
+  title: Kasni
+  content: >
+    Ovo je broj ticketa koji krše Ugovor o korištenju usluge kojima pripadaju.
+closed:
+  title: Zatvoreno
+  content: >
+    Ovo je broj zatvorenih kartica.
+reopened:
+  title: Ponovo otvoreni
+  content: >
+    Ovo je broj ticketa koji su ponovo otvoreni ili od strane tehničara ili od strane klijenta u slučaju kada su on/ona odgovarali na ticket čiji status je u međuvremenu prebačen na Zatvoreno.
+service_time:
+  title: Vrijeme popravka
+  content: >
+    <span class="doc-desc-title">Vrijeme popravka</span> je vrijeme koje počinje teći u trenutku otvaranja ticketa i završava u trenutku kada je ticket zatvoren. Kolona <span class="doc-desc-title">Vrijeme popravka</span> mjeri prosječno vrijeme popravka za određeni period u satima i po ticketu.
+response_time:
+  title: Vrijeme odgovora
+  content: >
+    <span class="doc-desc-title">Vrijeme odgovora</span> je vrijeme koje počinje teći u trenutku javljanja klijenta i završava u trenutku kada tehničar odgovori. Ova mjera vremena nije jedinstvena za klijentovo javljanje na inicijalno otvaranje ticketa. Ovo se odnosi na svako javljanje klijenta.

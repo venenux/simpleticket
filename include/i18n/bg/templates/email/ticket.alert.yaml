@@ -1,0 +1,43 @@
+---
+notes: |
+  Изпраща се до служител, когато в системата е създадена нова заявка. Това се отнася до заявки, 
+  които са създадени чрез имейл, уеб портала, или API-то.
+subject: |
+  Предупреждение за нова заявка
+body: |2
+  <h2>Здравейте %{recipient.name},</h2>
+  Създадена е нова заявка #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>От</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Отдел</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>За да разгледате или отговорите на заявката, моля <a
+  href="%{ticket.staff_link}">влезте</a> в системата за поддръжка</div>
+  <em style="font-size: small">Вашата приятелска система за поддръжка</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered by osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

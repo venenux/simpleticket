@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Strony serwisu
+  content: >
+    Strona może służyć jako mini system zarządzania treścią (CMS). Można zdefiniować wiele stron startowych, offline, i podziękowania oraz skonfigurować je w ustawieniach firmy i tematach pomocy.
+  links:
+    - 
+      title: Ustawienia firmy
+      href: /scp/settings.php?t=pages
+type:
+  title: Typ
+  content: >
+    <span class="doc-desc-opt">Strony Offline</span> są wyświetlane na portalu klienta, gdy jest on wyłączony. <span class="doc-desc-opt">Strony statrowe</span> są wyświetlane na stronie głównej portalu klienta. <span class="doc-desc-opt">Strony z podziękowaniami</span> są wyświetlane, gdy użytkownik dokona nowego zgłoszenia. <span class="doc-desc-opt">Inne strony</span> mogą być używane jako prosty system zarządzania treścią (CMS).

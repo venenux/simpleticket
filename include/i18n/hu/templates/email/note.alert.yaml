@@ -1,0 +1,44 @@
+---
+notes: |
+  Figyelmeztető jelzést küld ki a munkatársaknak, ha egy belső tevékenység, mint belső
+  megjegyzés vagy munkatárs válasz lett csatolva a jegyhez.
+subject: |
+  Új belső aktivitás riasztás
+body: |
+  <h3><strong>Kedves %{recipient.name},</strong></h3>
+  A <a href="%{ticket.staff_link}">#%{ticket.number}</a> számú hibajegyben változás történt.
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Feladó</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Cím</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  A hibajegy megtekintéséhez/megválaszolásához, kérjük, <a
+  href="%{ticket.staff_link}">jelentkezzen be</a> a hibajegy kezelő rendszerbe.
+  <br>
+  <br>
+  <em style="font-size: small; ">Ügyfélszolgálat</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

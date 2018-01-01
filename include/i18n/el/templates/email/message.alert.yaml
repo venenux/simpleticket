@@ -1,0 +1,12 @@
+---
+notes: |
+  Αποστέλλεται στα μέλη του προσωπικού όταν ένα νέο μήνυμα δημοσιεύεται από έναν χρήστη σε ένα αίτημα. Αυτό μπορεί να συμβεί αν οι χρήστες απαντήσουν σε ένα email από το σύστημα ή αν επισκεφθούν το σύστημα εξυπηρέτησης πελατών και δημοσιεύσουν εκεί ένα νέο μήνυμα.
+subject: |
+  Ειδοποίηση Νέου Μηνύματος
+body: |
+  <h3><strong>Αγαπητέ/ή %{recipient.name}</strong></h3>
+  Προστέθηκε νέο μήνυμα στο δελτίο <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a><br><br><table><tbody><tr><td><strong>Από</strong>:</td><td>%{ticket.name}&lt;%{ticket.email}&gt;</td></tr><tr><td><strong>Τμήμα</strong>:</td><td>%{ticket.dept.name}</td></tr></tbody></table><br>%{message}<br><br><hr><div>Για να δείτε ή να αποκριθείτε στο δελτίο, παρακαλούμε <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >Συνδεθείτε</span></a> Στο σύστημα υποστήριξης</div><em style="color: rgb(127,127,127); font-size: small; ">Σύστημα Υποστήριξης Πελατών</em><br><img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

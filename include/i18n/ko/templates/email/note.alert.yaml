@@ -1,0 +1,44 @@
+---
+notes: |
+  티켓에 내부 노트가 등록되거나 담당자가 답변을 추가하는 등의 내부 활동이 일어나면 담당자에게 알림을 보냅니다.
+subject: |
+  새 내부 활동 알림
+body: |
+  <h3><strong>안녕하세요, %{recipient.name}</strong></h3>
+  담당자의 활동이 티켓 <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>에 기록되었습니다.
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>작성자</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>제목</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  티켓을 확인/답변하려면 서포트 티켓 시스템에 <a
+  href="%{ticket.staff_link}">로그인</a> 해 주세요.
+  <br>
+  <br>
+  <em style="font-size: small; ">고객 지원 시스템</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

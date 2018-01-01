@@ -1,0 +1,27 @@
+---
+notes: |
+  Pošle sa užívateľovi pri odoslaní automatickej predpripravenej odpovede po vytvorení nového tiketu.
+  
+  Dostupné premenné pre nahradenie: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>Vážený %{recipient.name.first},</strong></h3>
+  Bola vytvorená požadavka na podporu a vytvorený ticket <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> s nasledujúcou automatickou odpoveďou
+  <br>
+  <br>
+  Téma: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Predmet: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Váš tím podpory %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Dúfame, že toto je dostatočná odpoveď na Vaše dotazy. Ak si želáte poskytnúť dodatočné pripomienky alebo informácie, prosím, odpovedzte na tento e-mail 
+  alebo <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >sa prihláste do svojho účtu</span></a> kde najdete kompletnú historiu požiadaviek.</em></div>

@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Підтримка
+  signature: Відділ підтримки
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Продажі
+  signature: |
+    Продажі і утримання клиєнтів
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Підтримка
+  signature: |
+    Відділ технічної підтримки
+  ispublic: 0
+  group_membership: 0

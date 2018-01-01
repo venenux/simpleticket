@@ -1,0 +1,44 @@
+---
+notes: |
+  Una alerta fue enviada a los agentes cuando una actividad interna, tal como una nota interna o una respuesta de agente, fue añadida al ticket.
+subject: |
+  Nueva alerta de actividad interna
+body: |
+  <h3><strong>Hola %{recipient.name},</strong></h3>
+  Un agente ha registrado actividad o dado respuesta en el ticket <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>From</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Título</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Para verla o responderla, por favor<a
+  href="%{ticket.staff_link}">inicia sesión</a>en el sistema de soporte. 
+  <br>
+  <br>
+  <em style="font-size: small; ">Atte. Tu amigable Sistema de Soporte</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

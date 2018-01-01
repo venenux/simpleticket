@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Membri dello staff
+  content: >
+    Nella tabella seguente vengono visualizzati i risultati del filtro sopra scelto. Se le impostazioni del filtro non vengono scelte, tutti gli <span class="doc-desc-title"> Operatori</span> (Staff) <span class="doc-desc-title">menbri</span>  verranno visualizzati in una o più pagine. Scorrere la sezione pagine qui sotto per navigare attraverso altri risultati.
+status:
+  title: Stato
+  content: >
+    Questo visualizzerà se l'<span class="doc-desc-title">operatore</span> è bloccato, attivo o attivo (in vacanza).

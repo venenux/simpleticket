@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Meeskonna liikmed
+  content: >
+    Järgnev tabel kuvab andmed vastavalt ülalpool olevale filtrile. Kui filtrit pole kasutatud, siis kuvatakse kõik <span class="doc-desc-title">meeskonna liikmed</span>, vajadusel mitmel leheküljel. Kõikide andmete nägemiseks tuleb lehekülgi vahetada.
+apply_filtering_criteria:
+  title: Määra filtreerimise kriteerium
+  content: >
+    Vali <span class="doc-desc-title">osakond</span>, mis vastab Sinu huvile. Sa võid ka otsida ühte kindlat agenti.

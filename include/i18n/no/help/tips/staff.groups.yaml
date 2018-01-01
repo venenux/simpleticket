@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grupper
+  content: >
+    Grupper brukes til å definere tillatelser for en Agent i hjelp. Grupper kan også gi tilgang til andre avdelinger enn en Agent primære avdeling.
+status:
+  title: Status
+  content: >
+    Hvis <span class="doc-desc-opt"> deaktivert</span>, agenter tilordnet denne gruppen kan ikke logge på og vil ikke motta avdeling varsler og meldinger.
+department_access:
+  title: Avdelings tilgang
+  content: >
+    Sjekk alle avdelinger som gruppemedlemmene kan få tilgang til.

@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Open
+  state: open
+  mode: 3
+  sort: 1
+  flags: 1
+  properties:
+    description: Open Tickets.
+- 
+  id: 2
+  name: Opgelost
+  state: opgelost
+  mode: 3
+  sort: 2
+  flags: 1
+  properties:
+    description: >
+      Opgeloste tickets zijn gesloten tickets die door de eindgebruiker heropend kunnen worden. Dit kan zinvol zijn indien een ticket automatisch wordt gesloten en er een bericht werd verzonden aan eindgebruiker.
+- 
+  id: 3
+  name: Gesloten
+  state: gesloten
+  mode: 3
+  sort: 3
+  flags: 1
+  properties:
+    description: >
+      Tickets gemarkeerd als gesloten kunnen niet worden heropend door de eindgebruiker. Tickets zijn nog wel toegankelijk in de schermen van de gebruikers en medewerkers.
+- 
+  id: 4
+  name: Gearchiveerd
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 1
+  properties:
+    description: >
+      Tickets zijn enkel administratief beschikbaar maar niet langer zichtbaar in de wachtrijen.
+- 
+  id: 5
+  name: Verwijderd
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 1
+  properties:
+    description: >
+      Tickets die verwijderd worden. Niet meer beschikbaar in de wachtrijen.

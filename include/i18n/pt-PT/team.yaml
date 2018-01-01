@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 0
+  name: Suporte de Nível 1
+  notes: Suporte de Nível 1, responsável pela interacção inicial com os clientes

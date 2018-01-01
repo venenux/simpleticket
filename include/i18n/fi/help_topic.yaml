@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Yleinen kysely
+  notes: Kysymyksiä tuotteista tai palveluista
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Palaute
+  notes: |
+    Tiketit, jotka ensisijaisesti koskevat myynti- ja laskutusosastoja
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Ilmoita ongelmasta
+  notes: |
+    Tuotteisiin, palveluun tai laitteisiin liittyvät kysymykset
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Pääsyongelma
+  notes: |
+    Raportoi ongelmista käyttää fyysistä tai virtuaalista resurssia

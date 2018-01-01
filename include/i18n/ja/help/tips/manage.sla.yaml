@@ -1,0 +1,10 @@
+---
+name:
+  title: 名前
+  content: '目的を示すこの<span class="doc-desc-title">SLAプラン</span>の記述名を選択します。'
+grace_period:
+  title: 猶予期間
+  content: 'チケットが作成された後、自動的に期限切れとして示される時間を決定します。<br><br> <em>時間は、チケットが作成された時間から計測されます。</em>'
+transient:
+  title: 一時的
+  content: '一時的SLAは臨時のものと見なされ、<span class="doc-desc-opt">部門</span>への転送または<span class="doc-desc-title">ヘルプトピック</span>が変更されたときに、一時でないSLAによって上書きすることができます。'

@@ -1,0 +1,11 @@
+---
+api_key:
+  title: API キー
+  content: API キーは、アプリケーションプログラミングインターフェイス (API) を介して新しいチケットを送信するクライアントを認証するために使用されます。 API キーは、パスワードの代わりに使用されます。API キーは暗号化せずに送信できるので、API キーは各クライアントのネットワーク IP アドレスにリンクされます。
+  links:
+    - 
+      title: osTicket の API ドキュメント
+      href: https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md
+ip_addr:
+  title: IP アドレス
+  content: クライアントのネットワークの IP アドレスです。IP アドレスごとに API キーを必要とします。

@@ -1,0 +1,69 @@
+---
+type:
+  title: Tüüp
+  content: >
+    Vali <span class="doc-desc-opt"><span class="doc-desc-opt">privaatne</span>, kui ei soovi kliendi portaalis kuvada osakonda. Lisaks sellele, kui on märgitud <span class="doc-desc-opt">privaatne</span>, siis <span class="doc-desc-title">osakonna signatuuri</span> ei kuvata e-kirja vastustes.<br/><br/>Vähemalt üks osakond peab olema <span class="doc-desc-opt">avalik.
+email:
+  title: Email
+  content: >
+    E-posti aadress, millelt agent saadab kliendile pöördumise vastuse.
+template:
+  title: Mallide kogu
+  content: >
+    E-kirja <span class="doc-desc-title">mallide kogu</span>, mida kasutatakse selle osakonna automaatseteks vastusteks ning hoiatuste ja teadete saatmiseks.
+  links:
+    - 
+      title: Halda malle
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Sellele osakonnale määratud pöördumiste teenustaseme leping.
+  links:
+    - 
+      title: Halda SLA-sid
+      href: /scp/slas.php
+manager:
+  title: Osakonna juhataja
+  content: >
+    Vali selle osakonna <span class="doc-desc-title">juhataja</span>. <br/><br/>Juhatajaid saab seadistada eri hoiatusi saama ning neil on õigus tühistada pöördumise määramisi.
+  links:
+    - 
+      title: Halda hoiatusi ja teateid
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Hoiatuste ja teadete saajad
+  content: >
+    Vali seadistatud <span class="doc-desc-title">hoiatuste ja teadete</span> saajad.
+  links:
+    - 
+      title: Seadista hoiatused ja teated
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Pöördumise määramise piirangud
+  content: >
+    Aktiveeri, et keelata pöördumise määramine vaid selle osakonna liikmetele. Osakonna liikmelisus võib olla laiendatud gruppidega, kui <span class="doc-desc-title">hoiatuste ja teadete saajad</span> on grupi liikmeid.
+auto_response_settings:
+  title: Automaatvastaja seaded
+  content: >
+    See lubab üle kirjutada selle osakonna globaalsed automaatvastuste seaded.
+new_ticket:
+  title: Uue pöördumise automaatvastus
+  content: >
+    Saad välja lülitada automaatvastuse, mis saadetakse kasutajale, kui uus pöördumine on registreeritud ja sellele osakonnale lahendamiseks saadetud.
+new_message:
+  title: Uue teate automaatvastus
+  content: >
+    Sa saad välja lülitada kasutajale automaatvastuse saatmise, kui pöördumisele on saadetud teade sellest osakonnast.
+auto_response_email:
+  title: Automaatne vastus e-kiri
+  content: >
+    Vali meilikonto, millelt selle osakonna automaatsed vastused saadetakse.
+department_access:
+  title: Grupi ligipääs
+  content: >
+    Luba teiste osakondade agentidele ligipääs sellele osakonnale määratud pöördumisetele.
+department_signature:
+  title: Osakonna signatuur
+  content: >
+    Signatuur on saadaval <span class="doc-desc-opt">avalike</span> osakondade agentide vastuskirjadele lisamiseks.

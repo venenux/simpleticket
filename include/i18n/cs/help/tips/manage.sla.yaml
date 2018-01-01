@@ -1,0 +1,13 @@
+---
+name:
+  title: Jméno
+  content: >
+    Zvol si popisek pro tento <span class="doc-desc-title">SLA Plán</span>, který vystihuje jeho účel.
+grace_period:
+  title: Bezúročné období
+  content: >
+    Stanoví počet hodin, po kterých je vytvořený tiket označen jako zpožděný.  <br><br> <em>Hodiny jsou počítány od času otevření tiketu.</em>
+transient:
+  title: Přechodné
+  content: >
+    Přechodné SLA jsou zvažovány dočasně a mohou být přepisovány nepřechodnými SLA při přechodu na jiné <span class="doc-desc-opt">oddělení</span>, je-li měněno <span class="doc-desc-title">téma pomoci</span>.

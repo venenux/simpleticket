@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Format på ärendenummer
+  content: >
+    Den här inställningen används för att generera ärendenummer. Använd hash tecken (`# '), där siffrorna ska placeras. All annan text i talformat kommer att bevaras. <span class = "doc-desc-title"> Hjälpavsnitt </ span> kan definiera anpassade talformat. <br/> Till exempel för sexsiffriga tal, använd <code> ###### </ code>.
+sequence_id:
+  title: Nummerserie för ärenden
+  content: >
+    Välj en nummerserie från vilken ärendenummer ska hämtas. Systemet har en uppräknande  och slumpmässig variant som standard. Du kan skapa så många nummerserier du önskar. Använd de olika nummerserierna i <span class="doc-desc-title">Ärendenummerformats</span>-konfigurationen för hjälprubriker.
+default_ticket_status:
+  title: Standardstatus för nya ärenden
+  content: >
+    Välj standardstatus för nya ärenden. Detta kan definieras för varje hjälpämnesrubrik om så önskas. Det kan även åsidosättas av ärendefiltren.
+  links:
+    - 
+      title: Hantera ärendestatusar
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Standard SLA
+  content: >
+    Välj standard-servicenivå (SLA) för att hantera hur länge ett ärende kan vara öppet innan det markeras som att ha överskridit tidsgränsen.
+  links:
+    - 
+      title: Skapa fler SLA-scheman
+      href: /scp/slas.php
+default_priority:
+  title: Standardprioritet
+  content: >
+    Välj en standard-<span class="doc-desc-title">prioritet</span> för ärenden som inte fått någon prioritet tilldelad automatiskt. <br/><br/> Prioritet kan tilldelas via hjälp-rubrik, routade avdelningar, eller via ärendefilter-inställningarna.
+maximum_open_tickets:
+  title: Maximalt antal öppna ärenden
+  content: >
+    Ange maximalt <em>antal</em> ärenden som en användare tillåts ha <strong>öppna</strong> i ditt ärendesystem. <br><br> Ange <span class="doc-desc-opt">0 </span> om du föredrar att inte ha någon gräns.
+agent_collision_avoidance:
+  title: Undvikande av krock mellan supportpersonal
+  content: >
+    Ange hur länge en person i supportpersonalen får låsa ett ärende utan att någon aktivitet förekommer. <br><br> Ange <span class="doc-desc-opt">0</span> för att inaktivera denna funktion.
+email_ticket_priority:
+  title: Prioritet för e-postärenden
+  content: >
+    Använd e-postprioritet som tilldelats av avsändarens e-posttjänst
+show_related_tickets:
+  title: Visa relaterade ärenden
+  content: >
+    Visa alla relaterade ärenden då användaren loggar in - i annat fall begränsas till visning av ett ärende per inlogg
+human_verification:
+  title: Människoverifiering
+  content: >
+    Aktivera CAPTCHA på kund-portalen för att säkerställa att inkommande ärende är resultatet av mänsklig aktivitet. <br><br> Kräver GDLib library
+claim_tickets:
+  title: Hävda rätten till/lås ärende då ärendet besvaras
+  content: >
+    Aktivera detta val för att automatiskt tilldela otilldelade ärenden till den person i supportpersonalen som svarar på ärende. <br><br> Ärenden som öppnas på nytt tilldelas alltid den som sist svarade på ärendet.
+assigned_tickets:
+  title: Tilldelade ärenden
+  content: >
+    Aktivera denna funktion för att exkludera tilldelade ärenden från <span class="doc-desc-title">Kön med öppna ärenden</span>.
+answered_tickets:
+  title: Besvarade ärenden
+  content: >
+    Aktivera denna funktion för att visa besvarade ärenden i <span class="doc-desc-title">Kön med besvarade ärenden</span>. I annat fall kommer dessa ärenden att visas i  <span class="doc-desc-title">Kön med öppna ärenden</span>.
+staff_identity_masking:
+  title: Dölja identitet på supportpersonalen
+  content: >
+    Om detta aktiveras kommer supportpersonens namn att vara dolt för kunden vid varje form av kommunikation.
+enable_html_ticket_thread:
+  title: Aktivera HTML-ärendetråd
+  content: >
+    Om detta aktiveras kommer formatering av text att tillåtas vid kommunikation mellan supportpersonal och kund.
+ticket_attachment_settings:
+  title: Bilagor till ärendetråd
+  content: >
+    Inställningar för filer som bifogas <span class="doc-desc-title">problemdetalj</span>-fältet. Dessa inställningar tillämpas på alla nya ärenden och meddelanden oavsett källa (webbportal, e-postmeddelande, api, etc.).
+max_file_size:
+  title: Maximal filstorlek
+  content: >
+    Välj maximal filstorlek för bilagor som laddas upp av supportpersonal. Detta innefattar både sparade bilagor, artiklar i kunskapsdatabasen, samt bilagor till ärendesvar.
+ticket_response_files:
+  title: Filer till ärendesvar
+  content: >
+    Om detta aktiveras så bifogas varje bilaga som supportpersonen lägger med i ärendesvaret, även i e-postmeddelandet som skickas till användaren.

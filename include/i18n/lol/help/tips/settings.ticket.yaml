@@ -1,0 +1,81 @@
+---
+number_format:
+  title: 'crwdns5290:0crwdne5290:0'
+  content: >
+    crwdns5291:0crwdne5291:0
+sequence_id:
+  title: 'crwdns5292:0crwdne5292:0'
+  content: >
+    crwdns5293:0crwdne5293:0
+default_ticket_status:
+  title: 'crwdns5294:0crwdne5294:0'
+  content: >
+    crwdns5295:0crwdne5295:0
+  links:
+    - 
+      title: 'crwdns5296:0crwdne5296:0'
+      href: 'crwdns5297:0crwdne5297:0'
+default_sla:
+  title: 'crwdns2068:0crwdne2068:0'
+  content: >
+    crwdns2069:0crwdne2069:0
+  links:
+    - 
+      title: 'crwdns2070:0crwdne2070:0'
+      href: 'crwdns2071:0crwdne2071:0'
+default_priority:
+  title: 'crwdns2072:0crwdne2072:0'
+  content: >
+    crwdns2073:0crwdne2073:0
+maximum_open_tickets:
+  title: 'crwdns2074:0crwdne2074:0'
+  content: >
+    crwdns2075:0crwdne2075:0
+agent_collision_avoidance:
+  title: 'crwdns2076:0crwdne2076:0'
+  content: >
+    crwdns2077:0crwdne2077:0
+email_ticket_priority:
+  title: 'crwdns2078:0crwdne2078:0'
+  content: >
+    crwdns2079:0crwdne2079:0
+show_related_tickets:
+  title: 'crwdns2080:0crwdne2080:0'
+  content: >
+    crwdns2081:0crwdne2081:0
+human_verification:
+  title: 'crwdns2082:0crwdne2082:0'
+  content: >
+    crwdns2083:0crwdne2083:0
+claim_tickets:
+  title: 'crwdns2084:0crwdne2084:0'
+  content: >
+    crwdns2085:0crwdne2085:0
+assigned_tickets:
+  title: 'crwdns2086:0crwdne2086:0'
+  content: >
+    crwdns2087:0crwdne2087:0
+answered_tickets:
+  title: 'crwdns2088:0crwdne2088:0'
+  content: >
+    crwdns2089:0crwdne2089:0
+staff_identity_masking:
+  title: 'crwdns2090:0crwdne2090:0'
+  content: >
+    crwdns2091:0crwdne2091:0
+enable_html_ticket_thread:
+  title: 'crwdns2092:0crwdne2092:0'
+  content: >
+    crwdns2093:0crwdne2093:0
+ticket_attachment_settings:
+  title: 'crwdns5298:0crwdne5298:0'
+  content: >
+    crwdns5299:0crwdne5299:0
+max_file_size:
+  title: 'crwdns5300:0crwdne5300:0'
+  content: >
+    crwdns5301:0crwdne5301:0
+ticket_response_files:
+  title: 'crwdns2108:0crwdne2108:0'
+  content: >
+    crwdns2109:0crwdne2109:0

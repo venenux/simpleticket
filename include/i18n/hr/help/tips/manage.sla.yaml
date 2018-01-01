@@ -1,0 +1,13 @@
+---
+name:
+  title: Naziv
+  content: >
+    Odaberite opisno ime za <span class="doc-desc-title">Ugovor o Razini Usluge</span> kako bi se lakše razumjela njegova namjena.
+grace_period:
+  title: Poček
+  content: >
+    Odredite broj sati nakon kojih je otvorena kartica označena kao prekoračen rok. <br><br> <em>Sati se računaju od trenutka otvaranja nove kartice.</em>
+transient:
+  title: Prolazno
+  content: >
+    Prolazni ugovori o razini usluge smatraju se privremenima i mogu se nadjačati/zamjeniti sa neprolaznim URU kada je <span class="doc-desc-opt">Odjel</span> promjenjen ili kada je <span class="doc-desc-title">Tema podrške </span> promjenjena.

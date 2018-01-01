@@ -1,0 +1,13 @@
+---
+groups:
+  title: Skupine
+  content: >
+    Skupine se uporabljajo za nastavitev pravic agentov v Helpdesku. Preko skupine lahko agent dobi pravice v oddelku, ki ni njegov primaren.
+status:
+  title: Status
+  content: >
+    Če <span class="doc-desc-opt">je onemogočen</span>, se agenti v tej skupini ne morejo prjavit in ne bodo prejeli oddelčnih alarmov &amp; obvestil.
+department_access:
+  title: Dostop Oddelka
+  content: >
+    Preveri vse oddelke do katerih imajo dostop člani skupine.

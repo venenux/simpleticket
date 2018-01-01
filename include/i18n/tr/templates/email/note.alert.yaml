@@ -1,0 +1,45 @@
+---
+notes: |
+  İç not veya bir yetkilinin talebe cevap yazması gibi iç aktiviteler olduğunda, yetkililere bildirim gönderilir.
+subject: |
+  Yeni İç Aktivite Alarmı
+body: |2
+  <h3><strong>Merhaba %{recipient.name},</strong></h3>
+  Bir yetkili şu talebinize cevap yazdı <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Kimden</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Başlık</strong></strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Talebi görmek veya cevap yazmak için <a
+  href="%{ticket.staff_link}">buraya</a> tıklayabilirsiniz.
+  <br>
+  <br>
+  <em style="font-size: small; ">Müşteri Hizmetleri Yetkiliniz</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">
+   

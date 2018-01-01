@@ -1,0 +1,22 @@
+---
+notes: |
+  
+subject: |
+  Bilietas #%{ticket.number} perkeltas - %{ticket.dept.name}
+body: |2
+  <h3>Sveiki %{recipient.name},</h3>
+  Bilietas <a href="%{ticket.staff_link}">#%{ticket.number}</a> perkeltas į %{ticket.dept.name} skyrių <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Peržiūrėti ar atsakyti į pagalbos bilietą, prašom <a
+  href="%{ticket.staff_link}">prisijungti</a> prie pagalbos bilietų sistemos.
+  </div>
+  <em style="font-size: small; ">Jūsų draugiška klientų aptarnavimo sistema</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Sukurta osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

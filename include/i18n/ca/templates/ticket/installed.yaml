@@ -1,0 +1,27 @@
+---
+deptId: 1
+topicId: 1
+name: Centre de suport osTicket
+email: support@osticket.com
+source: Web
+subject: osTicket Instal·lat!
+message: |
+  <p>
+  Gràcies per haver triat osTicket.
+  </p><p>
+  Si us plau, assegureu-vos d'unir-vos als <a
+  href="http://osticket.com/forums">fòrums d'osTicket</a> i a la nostra <a
+  href="http://osticket.com/updates">llista de novetats</a> per estar informats al moment de les darreres notícies, alertes de seguretat i actualitzacions. Els fòrums d'osTicket són un bon lloc per demanar assistència, guiatge, consells i ajut per part d'altres usuaris d'osTicket. En combinació amb els fòrums, la wiki d'osTocket proporciona una àmplia col·lecció de materials educatius, documentació i notes de la comunitat. Les vostres contribucions a la comunitat d'osTickets seran benvingudes.
+  </p><p>
+  Si esteu buscant un alt nivell de suport, us podem proporcionar serveis professionals i comercials de suport amb respostes garantides en el temps, i accés al nucli de l'equip de desenvolupadors. Us podem ajudar a personalitzar osTicket o afegir-hi noves prestacions per tal de solucionar les vostres necessitats particulars.
+  </p><p>
+  Si la idea de gestionar i actualitzar aquesta instal·lació d'osTicket us suposa un maldecap, podeu provar el servei hostatjat a <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> -- no es requereix cap instal·lació i podem importar les vostres dades! Mitjançant la infrastructura claus en mà de SupportSystem, aconseguireu el millor rendiment, i estareu lliures per centrar la vostra atenció en els vostres clients sense haver de patir per si el programa és estable, actualitzada i segura.
+  </p><p>
+  Salutacions,
+  </p><p>
+  -<br/>
+  L'equip d'osTicket http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> No us limiteu a tenir clients feliços, feu feliços els clients!
+  </p>

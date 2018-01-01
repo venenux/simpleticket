@@ -1,0 +1,28 @@
+---
+notes: |
+  Se pošlje uporabniku kadar je zahtevku dodeljen avtomatični odziv.
+  
+  Spremenljivke na voljo za zamenejavo: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Pozdravljen %{recipient.name.first},</strong></h3>
+  Zahtevek za pomoč je bil oddan in dodeljen <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> Avtomatični odgovor zahtevka:
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Zadeva: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Ekipa podjetja %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Verjamemo, 
+  da je odziv odgovoril na vaša vprašanja. Če želite podati dodatne informacije k zahtevku 
+  odgovorite na to sporočilo ali <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >se prijavite</span></a> za ogled zgodovine podanega zahtevka.</em></div>

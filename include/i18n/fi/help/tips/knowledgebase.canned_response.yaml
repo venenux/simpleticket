@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Yleiset vastaukset
+  content: >
+    Luo <span class="doc-desc-title">Yleinen vastaus</span>, joka voidaan käyttää tiketin vastaukseen. Sitä voidaan käyttää myös <span class="doc-desc-title">Tiketin Automaattisena vastauksena</span>, jonka määrittää <span class="doc-desc-title">Tikettisuodatin</span>.
+  links:
+    - 
+      title: Määritä tikettisuodatin
+      href: /scp/filters.php
+canned_attachments:
+  title: Yleiset liitteet
+  content: >
+    Liitä tiedosto, jonka haluat automaattisesti mukaan vastaukseen, jossa käytetään uutta <span class="doc-desc-title"> Yleistä vastausta</span>.

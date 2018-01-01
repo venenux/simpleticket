@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Хайх талбар
+  content: >
+    
+advanced:
+  title: Дэлгэрэнгүй
+  content: >
+    Хайлтын параметруудаа нарийсгана уу. Дэлгэрэнгүй хайлтын шүүлтүүдээ сонгож хайлт хийсний дараа гарч ирсэн үр дүнг та хуудасны доод хэсэгт <span class="doc-desc-title">Экспорт</span> хийж болно.
+open_tickets_table:
+  title: Нээлттэй хүсэлтүүдийн хүснэгт
+  content: >
+    Одоогоор нээлттэй бөгөөд анхаарал хандуулах шаардлагатай байгаа бүх хүсэлтүүд
+ticket:
+  title: Хүсэлт
+  content: >
+    
+date:
+  title: Огноо
+  content: >
+    
+subject:
+  title: Сэдэв
+  content: >
+    
+from:
+  title: From
+  content: >
+    
+priority:
+  title: Зэрэглэл
+  content: >
+    
+assigned_to:
+  title: Хариуцсан
+  content: >
+    
+export:
+  title: Экспорт
+  content: >
+    Харагдаж буй өгөгдлийг CSV файл уруу экспортлох. CSV файлыг хүснэгт боловсруулах дурын програмаар нээж болно (Microsoft Excel, Apple Pages, OpenOffice г.м.).
+advanced_search_dialog:
+  title: Дэлгэрэнгүй хайлт
+  content: >
+    
+adv_keyword:
+  title: Түлхүүр үгээр хайх
+  content: >
+    Хүсэлтийн гарчиг, мэдээлэл, тусгай талбаруудын утгуудад суурилсан даралтуудыг хайх.
+adv_date_range:
+  title: Огнооны завсраар хайх
+  content: >
+    Тодорхойлолтыг энд

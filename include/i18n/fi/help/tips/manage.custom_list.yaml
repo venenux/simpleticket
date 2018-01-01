@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Muokatut listat
+  content: >
+    Sinun <span class="doc-desc-title">muokattavat listat</span> antavat mahdollisuuden luoda alasvetovalikkoja esimääritellyillä vaihtoehdoilla, joista asiakas voi valita <span class="doc-desc-title">Muokatun lomakkeen</span>. Jos haluat käyttää tätä <span class="doc-desc-title">muokattavaa listaa</span> kuin <span class="doc-desc-title">kohteena</span> <span class="doc-desc-title">Tiketti suodatimessa</span>, muista lisätä tämä lista omalle <span class="doc-desc-title">Tiketin Tiedot</span> lomakkeelle.
+name:
+  title: Nimi
+  content: >
+    
+plural_name:
+  title: Monikko nimi
+  content: >
+    
+sort_order:
+  title: Lajittelujärjestys
+  content: >
+    
+list_s_initial_items:
+  title: Listaa tärkeimmät osat
+  content: >
+    
+value:
+  title: Arvo
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Lyhenteet ja muut. Jos tapaat käyttää sisäisiä koodeja tällä listalla, nuo koodit ja lyhenteet voidaan lisätä tähän sarakkeeseen. Jos muokatulla listalla on <span class="doc-desc-option"> Kirjoitettu etukäteen</span>, näitä lyhenteitä voidaan käyttää hakujen tekemiseen muokatun listan osista.

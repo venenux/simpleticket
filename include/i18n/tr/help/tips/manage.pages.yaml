@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Site Sayfaları
+  content: >
+    Site sayfaları mini bir içerik yönetim sistemi gibi hizmet verebilir. Birden çok giriş, kapalı site ve teşekkür sayfaları oluşturup şirket ayarları ya da yardım konuları bölümlerinde kullanabilirsiniz.
+  links:
+    - 
+      title: Şirket Ayarları
+      href: /scp/settings.php?t=pages
+type:
+  title: Tür
+  content: >
+    <span class="doc-desc-opt">Kapalı Site</span> sayfaları yardım masanız devre dışı olduğunda görüntülenir. <span class="doc-desc-opt">Giriş</span> sayfaları ana sayfada görüntülenir. <span class="doc-desc-opt">Teşekkür Ederiz</span> sayfaları kullanıcı bir kayıt oluşturduktan sonra görüntülenir. <span class="doc-desc-opt">Diğer</span> sayfaları mini bir içerik yönetim sistemi gibi kullanılabilir.

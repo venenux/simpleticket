@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Bedrijfsgegevens
+  content: >
+    Dit verwijst naar het bedrijf of organisatie dat door de software van osTicket ondersteunt wordt. Deze informatie zal weergegeven worden in de e-mail handtekening wanneer Verantwoordelijken antwoorden op Tickets.
+  links:
+    - 
+      title: Bedrijfsinformatie formulier
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Startpagina
+  content: >
+    De <span class="doc-desc-title">Startpagina</span> is de voorpagina van jouw ondersteuningswebsite.
+offline_page:
+  title: Offline pagina
+  content: >
+    De <span class="doc-desc-title">Offline pagina</span> is de pagina die getoond word als de help desk offline is, zie Admin Panel -&gt; Instelling -&gt; Systeem -&gt; Helpdesk Status.
+default_thank_you_page:
+  title: Standaard dankpagina
+  content: >
+    De <span class="doc-desc-title">dankpagina</span> wordt getoond aan de klant wanneer <span class="doc-desc-title">Gebruiker</span> een nieuw ticket toevoegt.  <br/><br/> <span class="doc-desc-title">Dankpagina's</span>  kunnen geassocieerd worden met Help-onderwerpen.
+logos:
+  title: Logo's
+  content: >
+    U kan het <span class="doc-desc-title">Logo</span> aanpassen dat getoond zal worden aan de Gebruiker in de Client-Portal (dat wil zeggen, uw Support Site).
+upload_a_new_logo:
+  title: Upload een nieuw logo
+  content: >
+    Kies een afbeelding in .gif, .jpg of .png formaat. We zullen deze proportioneel schalen in de webpagina. We zullen deze echter niet aanpassen in bestandsgrootte. Daarom is het aangewezen dat je dezelfde grootte van afbeelding gebruikt als de standaard afbeelding (817px &times; 170px).

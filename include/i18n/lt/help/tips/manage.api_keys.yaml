@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API raktas
+  content: >
+    API raktai naudojami autentifikuoti klientus, pateikiančius naujas užklausas per Aplikacijų Programavimo Sąsają (API). API raktai naudojami vietoj slaptažodžių. Kadangi API raktai gali būti siunčiami, jie yra susiejami su kiekvieno kliento tinklo IP adresu.
+  links:
+    - 
+      title: osTicket API dokumentacija
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP adresas
+  content: >
+    Kliento tinklo IP adresas.  Kiekvienas unikalus kliento IP adresas reikalaus atskiro API rakto

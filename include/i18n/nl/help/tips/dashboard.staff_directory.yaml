@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Medewerkers
+  content: >
+    In de volgende tabel bevat de resultaten van het filter erboven. Als geen instellingen voor het filter worden gekozen, zijn dan alle <span class="doc-desc-title"> Medewerkers</span> weergegeven, en opgedeeld door pagina's. Zie de sectie pagina's hieronder om te navigeren door meer resultaten. Zie de sectie pagina's hieronder om te navigeren door meerdere resultaten.
+apply_filtering_criteria:
+  title: Pas filtercriteria toe
+  content: >
+    Kies een <span class="doc-desc-title">afdeling</span> die relevant is voor uw huidige belangen. U kan ook het uitvoeren van een zoekopdracht voor een specifieke Agent.

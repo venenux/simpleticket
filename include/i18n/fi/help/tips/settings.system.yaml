@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk tila
+  content: >
+    Jos tilaksi asetetaan<span class="doc-desc-opt"> Offline</span>, asiakkaan käyttöliittymä ei ole käytettävissä.  Asetus ei kuitenkaan vaikuta Käsittelijän hallintapaneelin toimintaan vaan se on normaalisti käytettävissä.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Tämä URL-osoite perustuu osTicket asennukseesi. Sitä käytetään suorissa sähköpostikeskusteluissa helpdeskin loppukäyttäjiin.
+helpdesk_name_title:
+  title: Tukipalvelun nimi
+  content: >
+    Tämä otsikko näkyy selaimen välilehden nimenä. Jos sivusto lisätään kirjanmerkkeihin, näkyy tämä otsikko sivun nimenä.
+default_department:
+  title: Oletusosasto
+  content: >
+    Valitse oletus <span class="doc-desc-title">osasto</span> tiketeille joita ei automaattisesti ohjata tiettyyn osastoon. <br/><br/> Tikettejä voidaan ohjata perustuen ohjeotsikoihin, saapuviin sähköposteihin sekä tikettisuodattimien asetuksiin.
+default_page_size:
+  title: Oletus sivunkoko
+  content: >
+    Valitse kuinka monta kohdetta näytetään kerralla Henkilökunnan käyttöliittymän Tikettijono sivulla. Jokainen Käsittelijä voi myös määrittää omalle tilille yksilöllisen arvon <span class="doc-desc-title">Omat asetukset</span> sivulla.
+default_log_level:
+  title: Oletus lokitaso
+  content: >
+    Määrittele vähimmäistaso aiheille jotka tallennetaan <span class="doc-desc-title">Järjestelmälokiin</span>. <span class="doc-desc-opt">Korjaus</span> esittää vähiten vakavaa ja <span class="doc-desc-opt">Virhe</span> esittää kaikista vakavinta tasoa. Esimerkiksi, jos haluat kaikki tallennettavan <span class="doc-desc-title">Järjestelmälokeihin</span> valitse <span class="doc-desc-opt">Korjaus</span>.
+purge_logs:
+  title: Tyhjennä lokit
+  content: >
+    Määritä kuinka pitkään haluat säilyttää <span class="doc-desc-title">Järjestelmän lokeja</span> ennen poistamista.
+default_name_formatting:
+  title: Oletus nimimuotoilu
+  content: >
+    Valitse muotoilu nimille läpi järjestelmän. Sähköpostiviestipohjat käyttävät tätä nimeämiseen ellei muuta muotoilua ole määritelty muuttujissa.
+  links:
+    - 
+      title: Tuetut Sähköpostiviestipohjien muuttujat
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Päiväys &amp; Aika Asetukset
+  content: >
+    Seuraavat asetukset määrittävät Päiväys &amp; Aika asetukset Asiakkaillesi. Voit vaihtaa näiden ulkoasua käyttämällä PHP päiväysmuotoja. Alla näytettävät päiväykset havainnollistavat näiden ulkoasun.
+  links:
+    - 
+      title: 'Katso PHP:n päiväysten muotoilutaulukko'
+      href: 'http://www.php.net/manual/en/function.date.php'

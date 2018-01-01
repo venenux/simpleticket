@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Γενική Ερώτηση
+  notes: Ερωτήσεις σχετικά με προϊόντα ή υπηρεσίες
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Η γνώμη σας
+  notes: |
+    Αιτήματα που αφορούν κατά κύριο λόγο τα τμήματα πωλήσεων και χρέωσης
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Αναφέρετε ένα πρόβλημα
+  notes: |
+    Προβλήματα σχετικά με προϊόντα, υπηρεσίες ή εξοπλισμό
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Πρόβλημα Πρόσβασης
+  notes: |
+    Αναφορά αδυναμίας πρόσβασης σε ένα φυσικό ή εικονικό στοιχείο

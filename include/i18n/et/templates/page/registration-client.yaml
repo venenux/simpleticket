@@ -1,0 +1,6 @@
+---
+notes: >
+  See mall määrab e-kirja sisu, mis saadetakse kliendile, kui konto on loodud kliendi portaalis või agendi poolt. See e-kiri saadetakse meiliaadressi kontrollimiseks. Palun kasuta kusagil sisu osas linki %{link}.
+name: "Tere tulemast %{company.name}"
+body: >
+  <h3><strong>Tere, %{recipient.name.first}!</strong></h3> <div> Oleme loonud Sulle konto meie kasutajatoe süsteemi aadressil %{url}.<br /> <br /> Palun klõpsa lingile, et aktiveerida oma konto ja pääseda ligi pöördumistele. <br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">Sinu sõbralik klienditugi <br /> %{company.name}</em> </div>

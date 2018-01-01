@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Aizliegtās e-pasta adreses
+  content: >
+    E-pasta paziņojumi, kuri ir saņemti no aizliegtajām adresēm, tiks automātiski noraidīti.

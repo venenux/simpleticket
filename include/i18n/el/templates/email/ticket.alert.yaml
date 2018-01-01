@@ -1,0 +1,42 @@
+---
+notes: |
+  Αποστέλλεται σε ένα μέλος του προσωπικού, όταν ένα νέο δελτίο δημιουργείται στο σύστημα. Αυτό ισχύει για τα δελτία που δημιουργούνται μέσω email, δικτυακής πύλης ή προγραμματιστικού περιβάλλοντος.
+subject: |
+  Ειδοποίηση Δημιουργίας Νέου Δελτίου
+body: |
+  <h2>Αγαπητέ/ή %{recipient.name},</h2>
+  Δημιουργήθηκε Νέο Δελτίο υπ' αριθμ. #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Από</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Τμήμα</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Για να δείτε ή να απαντήσετε στο δελτίο, παρακαλούμε <a
+  href="%{ticket.staff_link}">συνδεθείτε</a> στο Σύστημα Υποστήριξης</div>
+  <em style="font-size: small">Φιλικά, το Κέντρο Υποστήριξης</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Powered By osTicket"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

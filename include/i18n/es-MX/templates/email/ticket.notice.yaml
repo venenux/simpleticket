@@ -1,0 +1,35 @@
+---
+notes: |
+  Enviado a un usuario cuando un miembro del personal crea un ticket en nombre del usuario.
+  Esto sucede comunmente cuando un usuario llama por teléfono.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Estimado(a) %{recipient.name.first},</strong></h3>
+  Nuestro equipo de servicio al cliente ha creado un ticket, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> en su nombre, con 
+  la siguiente informaicón:
+  <br>
+  <br>
+  Topico: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Asunto: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Si es necesario, un representante se pondrá en contacto con usted lo antes
+  possible. Usted también puede <a href="%{recipient.ticket_link}">ver el
+  proceso del ticket en línea</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} Equipo de Soporte,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Si desea
+  agregar información o comentarios a este ticket, favor de contestar este 
+  correo o <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >ingrese a su cuenta</span></a> para ver un
+  archivo completo de sus solicitudes de soporte.</em></div>

@@ -1,0 +1,73 @@
+---
+new_ticket_help_topic:
+  title: Nový tiket tématu nápovědy
+  content: >
+    Vyber <span class="doc-desc-title">téma nápovědy</span> ,které bude automaticky asociováno s tikety vytvořenými přes tuto emailovou adresu. <br/><br/> Šablony asociované s tématem nápovědy budou přidány do tiketu, ale nebudou mít žádná data.
+  links:
+    - 
+      title: Spravuj témata nápovědy
+      href: /scp/helptopics.php
+new_ticket_priority:
+  title: Priorita nového tiketu
+  content: >
+    Vyber <span class="doc-desc-title">prioritu</span> pro nové tikety vytvořené skrze tuto emailovou adresu.
+new_ticket_department:
+  title: Nový tiket oddělení
+  content: >
+    Vyber <span class="doc-desc-title">Oddělení</span> kterému budou směrovány nově vytvořené tikety skrze tuto email adresu.
+  links:
+    - 
+      title: Správa oddělení
+      href: /scp/departments.php
+auto_response:
+  title: Automatická odpověď na nový tiket
+  content: >
+    Můžete zakázat automatickou odpověď, která se posílá uživatelům při vytvoření nového tiketu skrze tuto email adresu.
+username:
+  title: Uživatelské jméno
+  content: >
+    
+password:
+  title: Heslo
+  content: >
+    
+login_information:
+  title: Přihlašovací údaje e-mailové schránky
+  content: >
+    <span class="doc-desc-title">Uživatelské jméno</span> a <span class="doc-desc-title">heslo</span> jsou vyžadovány pro stažení e-mailů z IMAP/POP schránek, stejně tak pro jejich odesílání pomocí SMTP.
+mail_account:
+  title: Vyzvedávám email
+  content: >
+    Vyzvedni email ze vzdálených IMAP nebo POP mailových boxů a převeď je na tikety do tvého helpdesku.
+  links:
+    - 
+      title: Správa <span class="doc-desc-title">stahování e-mailů</span> a nastavení stahování pomocí funkce <span class="doc-desc-title">AutoCron</span>.
+      href: /scp/settings.php?t=emails
+host_and_port:
+  title: Vzdálený host
+  content: >
+    Vložte <span class="doc-desc-title">jméno hosta</span> a <span class="doc-desc-title">číslo portu</span> vašeho email serveru. Tato informace může být dostupná v dokumnetaci vašeho hostovaného email účtu nebo od vašeho email administrátora.
+protocol:
+  title: Protokol poštovní schránky
+  content: >
+    Vyber protokol mailové schránky podporovaný vaším vzdáleným mail serverem. IMAP je doporučen a obzvláště SSL, pokud je to možné.
+fetch_frequency:
+  title: Frekvence vyzvednutí
+  content: >
+    Vlož, jak často v minutách se bude systém dotazovat mail boxu. <br/><br/> Tímhle definujeme průměrné zpoždění automatické odpovědi poté, co uživatel pošle email do této poštovní schránky.
+emails_per_fetch:
+  title: Počet emailů při jendom vyzvednutí
+  content: >
+    Vložte počet emailů, které budou zpracovány souběžně.
+fetched_emails:
+  title: Vyzvednuté emaily
+  content: >
+    Rozhodněte co udělat se spracovanými emaily: <br/><br/> <span class="doc-desc-opt"><b>Přesunout do složky</b></span>: Tímto se zazálohuje váš email z INBOXu do složky, kterou specifikujete. Pokud složka na serveru ještě neexistuje, systém se pokusí ji automaticky vytvořit. (<b>Doporučeno</b>) <hr> <span class="doc-desc-opt"><b>Smazat emaily</b></span>: Tímto se smažou emaily z INBOXu poté co jsou zpracovány. <hr> <span class="doc-desc-opt"><b>Nedělej nic</b></span>: Tímto ponecháte emaily ve svém INBOXu. Systém nahraje id správ vašich emailů a pokusí se je dále nezpracovávat. Přesto tato možnost může způsobit duplikaci tiketů. (<em>Nedoporučeno</em>)
+smtp_settings:
+  title: Nastavení SMTP
+  content: >
+    Email poslaný z helpdesku může být zaslán skrze SMTP server. Toto je pokud možno doporučeno, protože se zvětší tendence poslaných emailů, což bude mít za následek, že se sníží možnost jejich označení jako spamu.
+header_spoofing:
+  title: Povol falšování hlaviček
+  content: >
+    Povolením umožníte posíláni emailů přes tento mailbox z jiné adresy než je uvedená výše v poli <span class="doc-desc-title">Emailová adresa</span>. <br/><br/> Toto rozšířené nastavení je používáno především tehdy, když se posílá email z aliasu této poštovní schránky.

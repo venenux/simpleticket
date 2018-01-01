@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Medlemmar i personalen
+  content: >
+    Följande tabell visar resultatet av filtret ovan. Om inget filter valts, visas alla <span class="doc-desc-title">Medlemmar i personalen</span> och delas upp i flera sidor om det är många personer. Se sid-sektionen nedan för att visa eventuella ytterligare resultat.
+apply_filtering_criteria:
+  title: Använd filterinställningen
+  content: >
+    Välj en <span class="doc-desc-title">avdelning</span> som du är intresserad av. Du kan även välja att söka efter en viss person i supportpersonalen.

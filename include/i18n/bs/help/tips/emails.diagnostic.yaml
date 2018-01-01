@@ -1,0 +1,20 @@
+---
+test_outgoing_email:
+  title: Testiranje odlazne e-pošte
+  content: Isporuka email poruka ovisi o serverskim postavkama (php.ini) i/ili o SMTP konfiguraciji.
+  links:
+    - 
+      title: Izaberite email za konfiguraciju SMTP (odlazne) postavke
+      href: /scp/emails.php
+from:
+  title: Od
+  content: ""
+to:
+  title: Za
+  content: ""
+subject:
+  title: Predmet
+  content: ""
+message:
+  title: Poruka
+  content: ""

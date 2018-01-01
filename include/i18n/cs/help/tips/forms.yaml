@@ -1,0 +1,37 @@
+---
+form_title:
+  title: Nadpis formuláře
+  content: >
+    Tento název textu se zobrazí v šedém poli nad poli formuláře
+form_instructions:
+  title: Pokyny formuláře
+  content: >
+    Můžete přidat další pokyny, které vám pomohou vést uživatele do kontextu polí formuláře a případně označte požadované údaje.
+field_sort:
+  title: Pole zobrazení pozice
+  content: >
+    Klikněte na ikonu šipky a přetáhněte řádek správné pořadí řádků formuláře. Řazení nebude aktivni dokud není formulář uložen.
+field_label:
+  title: Pole označení
+  content: >
+    Tento popisek je zobrazen jako název pro tuto položku. Typicky, krátká odpověď může vypadat takto: <br><strong>Popisek:</strong>&nbsp; <input type="text">
+field_type:
+  title: Pole typ obsahu
+  content: >
+    Toto se používá pro definování typu vstupu očekávaného uživatelem. Můžete zvolit krátkou a dlouhou odpověď, telefonní číslo, datum a čas, zatrhávací pole, rozbalovací seznam nebo seznam s výběrem možností.
+  links:
+    - 
+      title: Vlastní seznamy
+      href: /scp/lists.php
+field_visibility:
+  title: Pole viditelnosti
+  content: >
+    Zvolte viditelnost a volbu povinného zadání pro toto pole. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Nastavení</th> <th>Výsledek</th></tr> <tr><td>Volitelné</td> <td>Agenti i koncoví uživatelé vidí toto pole, ale nejsou povinni je vyplnit.</td></tr> <tr><td>Povinné</td> <td>Agenti i koncoví uživatelé vidí toto pole a jsou povinni je vyplnit.</td></tr> <tr><td>Povinné pro koncové uživatele</td> <td>Agenti i koncoví uživatelé vidí toto pole, jen koncoví uživatelé jsou povinni je vyplnit.</td></tr> <tr><td>Povinné pro Agenty</td> <td>Agenti i koncoví uživatelé vidí toto pole, jen agenti jsou povinni je vyplnit.</td></tr> <tr><td>Interní, volitelné</td> <td>Toto pole vidí jen agenti, ale nejsou povinni je vyplnit.</td></tr> <tr><td>Interní, povinné</td> <td>Toto pole vidí jen agenti a jsou povinni je vyplnit.</td></tr> <tr><td>Pouze pro koncové uživatele</td> <td>Toto pole vidí jen koncoví uživatelé a jsou povinni je vyplnit.</td></tr> </tbody></table>
+field_variable:
+  title: Dostupnost položky
+  content: >
+    Tato položka bude dostupná pro šablony e-mailů a stránek pomocí názvu položky v tomto sloupci. Například položky obecného formuláře jsou dostupné pod <code>%{ticket.variable}</code>, kde <strong>variable</strong> je jméno užité v tomto sloupci.<br> <br> Informace o společnosti jsou dostupné pomocí <code>%{</code><code>company.variable}</code> a informace o zákazníkovi jsou dostupné pod <code>%{ticket.user.variable}</code></em>.
+field_delete:
+  title: Smazat toto pole
+  content: >
+    Pro odstranění pole z tohoto formuláře jej ověřte a uložte.<br> <br> <em>Smazáním pole se neodstraní již zadaná data pole na vyplněných formulářích. Například pokud dříve odeslaný  požadavek má data pro určité pole, smazání pole z tohoto formuláře neodstraní data z požadavku.</em>

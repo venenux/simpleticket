@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Buka
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Buka Tiket.
+- 
+  id: 2
+  name: Terselesaikan
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Tiket terselesaikan adalah tiket tertutup yang dapat dibuka kembali oleh pengguna. Ini akan berguna ketika pemicu yang digunakan untuk menutup tiket dengan pemberitahuan dikirim ke pengguna.
+- 
+  id: 3
+  name: Ditutup
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Tiket yang ditandai sebagai ditutup tidak dapat dibuka kembali oleh pengguna.
+- 
+  id: 4
+  name: Diarsipkan
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tiket hanya tersedia secara administratif namun tidak dapat diakses dalam antrian tiket.
+- 
+  id: 5
+  name: Terhapus
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tiket dalam antrian untuk dihapus. Tidak dapat diakses pada antrian tiket.

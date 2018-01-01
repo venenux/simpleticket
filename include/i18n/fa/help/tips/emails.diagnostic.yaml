@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: تست ایمیل ارسالی
+  content: >
+    ارسال ایمیل بستگی به تنظیمات سرور (php.ini) و/یا تنظیمات SMTP دارد.
+  links:
+    - 
+      title: برای تنظیمات SMTP (خروجی) یک ایمیل را انتخاب کنید
+      href: /scp/emails.php
+from:
+  title: از
+  content: >
+    
+to:
+  title: به
+  content: >
+    
+subject:
+  title: موضوع
+  content: >
+    
+message:
+  title: پیام
+  content: >
+    

@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Halaman Site
+  content: >
+    Halaman situs dapat melayani sama seperti sebuah Content Management System (CMS) mini. Anda dapat mendefinisikan pendaratan banyak, offline, dan halaman terima kasih dan mengatur mereka di pengaturan perusahaan dan topik bantuan.
+  links:
+    - 
+      title: Seting Perusahaan
+      href: /scp/settings.php?t=pages
+type:
+  title: Jenis
+  content: >
+    Halaman <span class="doc-desc-opt">Offline</span> ditampilkan di portal klien jika petugas helpdesk Anda dinonaktifkan. Halaman <span class="doc-desc-opt">Pendaratan</span> ditampilkan di halaman depan dari portal klien Anda. Halaman <span class="doc-desc-opt">Terima Kasih</span> ditampilkan setelah Pengguna mengirim sebuah tiket. Halaman <span class="doc-desc-opt">Lainnya</span> dapat digunakan sebagai sebuah Content Management System (CMS) yang sederhana.

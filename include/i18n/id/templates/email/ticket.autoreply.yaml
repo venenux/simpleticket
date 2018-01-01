@@ -1,0 +1,9 @@
+---
+notes: |
+  Dikirim ke pengguna ketika sebuah respon yang sudah ada otomatis dikirim ke sebuah tiket ketika dibuat.
+  
+  Variabel yang tersedia: %{ticket.*}, %{response}
+subject: |
+  Balas: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Halo %{recipient.name.first},</strong></h3> Permintaan untuk dukungan telah dibuat dan ditetapkan tiket <a href="%{recipient.ticket_link}"> #%{ticket.number}</a> dengan balasan otomatis berikut <br><br>topik: <strong>%{ticket.topic.name}</strong> <br>subjek: <strong>%{ticket.subject}</strong> <br><br>%{response} <br><br><div style="color: rgb(127, 127, 127);">Anda %{company.name} tim, <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small;"> <em>kami berharap tanggapan ini telah cukup menjawab pertanyaan Anda.  Jika Anda ingin memberikan komentar tambahan atau informatione, Silakan balas ke email ini atau <a href="%{recipient.ticket_link}"> <span style="color: rgb(84, 141, 212);" > login ke account Anda</span></a> untuk arsip lengkap dari permintaan dukungan Anda.</em></div>

@@ -1,0 +1,20 @@
+---
+notes: |
+  Bude odesláno uživateli v okamžiku zveřejnění nové zprávy v zákaznickém požadavku. Situace může nastat, pokud uživatelé reagují na systémový e-mail nebo navštíví stránky zákaznické podpory a zveřejní novou zprávu.
+subject: |
+  Potvrzení o přijetí zprávy
+body: |
+  <h3><strong>Vážený/á %{recipient.name.first},</strong></h3>
+  vaše odpověď na požadavek č. <a
+  href="%{recipient.ticket_link}">%{ticket.number}</a> byla zaznamenána.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  Zákaznická podpora %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Průběh řešení požadavku si můžete zobrazit <a
+  href="%{recipient.ticket_link}">zde</a>.</em>
+  </div>

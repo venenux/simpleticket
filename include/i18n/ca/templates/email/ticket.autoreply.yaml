@@ -1,0 +1,25 @@
+---
+notes: |
+  Resposta automàtica que s'envia a un usuari quan el Ticket està creat. 
+  
+  Variables de substitució: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject}[#%{ticket.number}]
+body: |
+  <h3><strong>Estimat %{recipient.name.first}.</strong></h3>
+  S'ha creat una solicitud d'ajuda i s'ha assignat al Ticket <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> amb la seguent resposta automàtica
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Asumpte:<strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);"> El seu equip de %{company.name}.<br>%{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Esperem que aquesta resposta haja sigut suficient per contestar les seves preguntes. Si voste vol informació adicional, per favor conteste aquest email o <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" > registrese en el seu compte </span></a> per obtindre un arxiu complet de les seves peticions d'ajuda.</em></div>

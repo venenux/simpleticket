@@ -1,0 +1,17 @@
+---
+signature:
+  title: Henkilökunnan Allekirjoitus
+  content: |
+    Luo henkilökunnalle allekirjoitus tikettien vastauksiin. Tämä allekirjoitus näkyy vaihtoehtona tikettivastauksien alla
+type:
+  title: Tilin tyyppi
+  content: |
+    Järjestelmänvalvojilla on pääsy Järjestelmänvalvojan sivulle. Henkilökunta pääsee vain käsittelemään tikettejä sekä tietopankkiin
+group:
+  title: Määritetty ryhmä
+  content: |
+    Rymän jäsenyys määrittää henkilökunnan roolin järjestelmässä. Käy ryhmän hallinta sivulla määrittelemässä mitä oikeuksia tällä henkilökunnalla on tukijärjestelmässä
+notes:
+  title: Sisäiset muistiinpanot
+  content: |
+    Tee sisäisiä muistiinpanoja, jotka koskevat henkilökuntaa. Viestit näkyvät vain niille henkilöille, joiden tilityyppi on Järjestelmänvalvoja

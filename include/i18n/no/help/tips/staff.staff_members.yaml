@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Medarbeidere
+  content: >
+    Følgende tabell viser resultatene av filteret ovenfor. Hvis ingen filterinnstillingene blir valgt, så vises alle <span class="doc-desc-title"> Ansatte</span>, og delt over flere sider. Se del-sider under for å se flere resultater.
+status:
+  title: Status
+  content: >
+    Dette viser om <span class="doc-desc-title"> Agenten</span> er låst, aktiv eller aktiv (ferie).

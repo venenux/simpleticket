@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk Status
+  content: >
+    Als de status wordt gewijzigd naar <span class="doc-desc-opt">Offline</span>, wordt de klanteninterface uitgeschakeld.  Dit heeft echter geen effect op de medewerker activiteit in het Medewerker Dashboard.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Deze URL verwijst naar uw osTicket website. De link wordt gebruikt in e-mails om gebruikers terug naar de helpdesk te leiden.
+helpdesk_name_title:
+  title: Helpdesk naam/titel
+  content: >
+    Dit is de titel die verschijnt in de browsertab. Als je helpdeskpagina als favoriet is opgeslagen is dit de titel/naam van de website.
+default_department:
+  title: Standaard afdeling
+  content: >
+    Kies de standaard <span class="doc-desc-title">afdeling</span> voor tickets die niet automatisch worden doorgestuurd naar een afdeling. <br/><br/> Tickets kunnen worden doorgestuurd op basis van onderwerp, binnenkomende email en ticket filter instellingen.
+default_page_size:
+  title: Standaard paginagrootte
+  content: >
+    Kies het aantal getoonde items per pagina in de ticket wachtrij in het Personeel Dashboard. Elke medewerker kan dit aantal aanpassen voor zijn eigen account onder  <span class="doc-desc-title">Mijn Voorkeuren</span>.
+default_log_level:
+  title: Standaard Logniveau
+  content: >
+    Bepaal het minimum niveau van problemen die worden opgeslagen in de <span class="doc-desc-title">systeem logboeken</span>. <span class="doc-desc-opt">Debug</span> vertegenwoordigt de laagste zwaarte en <span class="doc-desc-opt">Error</span> vertegenwoordigt de grootste zwaarte. Als je bijvoorbeeld alle problemen wilt zien in <span class="doc-desc-title">Systeem Logboeken</span>, kies dan <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Verwijder logboeken
+  content: >
+    Bepaal hoe lang je de <span class="doc-desc-title">Systeem logboeken</span> wilt houden voordat ze worden verwijderd.
+default_name_formatting:
+  title: Standaard naamweergave
+  content: >
+    Kies een weergave van namen in het gehele systeem. Email templates gebruiken het voor namen als er geen ander formaat is aangegeven in de variabele.
+  links:
+    - 
+      title: Ondersteunde emailtemplate variabelen
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Datum &amp; Tijd Opties
+  content: >
+    De volgende instellingen bepalen de Datum &amp; Tijd instellingen voor klanten. je kunt aanpassen hoe deze worden getoond door de volgende PHP datumformaat karakters. De hieronder getoonde datums geven eenvoudig het resultaat weer van de corresponderende waarden.
+  links:
+    - 
+      title: Zie de PHP datumweergave tabel
+      href: 'http://www.php.net/manual/en/function.date.php'

@@ -1,0 +1,27 @@
+---
+notes: |
+  Avtomatik hazır cavab yaradılıb sorğuya yazılanda istifadəçiyə göndər.
+  
+  Əvəzetmə üçün dəyişkənliklər mövcuddur:  %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Əziz %{recipient.name.first},</strong></h3>
+  Dəstək üçün bir sonrakı avtomatik cavab təklifi yaradılıb və sorğu təyin olunub <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  Mövzu: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Başlıq: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Sizin %{company.name} komanda,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>
+  Ümid edirik bu cavab sizin sualınıza kifayət qədər cavab verir. Əgər siz əlavə şərhlər və məlumatlarla təmin olunmaq istəyirsinizsə xahiş edirik, bu e-poçta cavab yazın və ya <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >öz hesabınıza daxil olun</span></a>, dəstək təkliflərinizin tam arxivi üçün.</em></div>

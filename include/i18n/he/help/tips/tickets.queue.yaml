@@ -1,0 +1,53 @@
+---
+search_field:
+  title: שדה החיפוש
+  content: >
+    
+advanced:
+  title: מתקדם
+  content: >
+    צמצם את הפרמטרים לחיפוש. לאחר שבחרת את קריטריוני החיפוש המתקדם שלך והרצת את החיפוש, באפשרותך <span class="doc-desc-title"> לייצא</span> את הנתונים בחלק התחתון של דף הכרטיסים.
+open_tickets_table:
+  title: טבלת כרטיסים פתוחים
+  content: >
+    כל הכרטיסים שכעת פתוחים ודורשים תשומת לב
+ticket:
+  title: כרטיס
+  content: >
+    
+date:
+  title: תאריך
+  content: >
+    
+subject:
+  title: נושא
+  content: >
+    
+from:
+  title: מ-
+  content: >
+    
+priority:
+  title: עדיפות
+  content: >
+    
+assigned_to:
+  title: מוקצה ל-
+  content: >
+    
+export:
+  title: ייצא
+  content: >
+    ייצא את הנתונים שלך כרגע בתצוגה בקובץ ה-CSV. אולי ניתן לפתוח קבצי CSV עם כל תוכנת הגיליון האלקטרוני (קרי, Microsoft Excel, אפל עמודים, אופן אופיס, וכו '.).
+advanced_search_dialog:
+  title: חיפוש מתקדם
+  content: >
+    
+adv_keyword:
+  title: חיפוש לפי מילות מפתח
+  content: >
+    הראה תוצאות המבוססים נושא וגוף ההודעה בכרטיס, כמו גם כל תוכן טקסטואלי המשויך שדות מותאמים אישית עבור המשתמשים והכרטיסים.
+adv_date_range:
+  title: חיפוש לפי טווח תאריכים
+  content: >
+    הגדרה כאן

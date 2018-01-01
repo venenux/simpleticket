@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: 客服中心 狀態
+  content: >
+    如果狀態改為 <span class="doc-desc-opt">Offline</span>客戶端將被關閉。這個並不會影響專員進行登入。
+helpdesk_url:
+  title: 客服中心 URL
+  content: >
+    透過URL可完成 osTicket 的安裝。它透過電子郵件直接回覆用戶端與客服中心。
+helpdesk_name_title:
+  title: 客服中心名稱
+  content: >
+    這個是顯示在瀏覽器分頁上的標題名稱。如果有把客服中心網頁加入書籤，便會顯示這個名稱。
+default_department:
+  title: 預設部門
+  content: >
+    選擇預設的<span class="doc-desc-title">部門</span>，如果案件沒有特別設定部門，便會是這個預設值。<br/><br/>此預設值會套用到支援中心，接受用電子郵件和案件篩選。
+default_page_size:
+  title: 預設頁面大小
+  content: >
+    設定工作人員面板中，諮詢列每頁顯示的案件數。每位專員可以在自己的 <span class="doc-desc-title">偏好設定</span>設定自己要顯示多少案件。
+default_log_level:
+  title: 預設的日誌等級
+  content: >
+    設定<span class="doc-desc-title">系統日誌</span>中問題的最低等級。<span class="doc-desc-opt">Debug</span>為最低嚴重等級，<span class="doc-desc-opt">Error</span>為最高嚴重等級。例如，如果你想要<span class="doc-desc-title">系統日誌</span>紀錄全部的問題，就選擇<span class="doc-desc-opt">Debug</span>。
+purge_logs:
+  title: 清除日誌
+  content: >
+    決定<span class="doc-desc-title">系統日誌</span>要保存多久。
+default_name_formatting:
+  title: 預設名稱格式
+  content: >
+    設定系統的名稱格式。如果沒有特別指定，電子郵件範本預設使用此名稱格式。
+  links:
+    - 
+      title: 支援的電子郵件範本參數
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: 日期時間選項
+  content: >
+    設定時間格式，你可以透過 PHP 時間格式來修改。以下顯示設定後的對應值。
+  links:
+    - 
+      title: 請查閱 PHP Date 格式表
+      href: 'http://www.php.net/manual/en/function.date.php'

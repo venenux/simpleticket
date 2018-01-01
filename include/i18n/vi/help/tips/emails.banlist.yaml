@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Địa chỉ Email bị Cấm
+  content: >
+    Email bị cấm được liệt kê trong danh sách sẽ được tự động bị từ chối.

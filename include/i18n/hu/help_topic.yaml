@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Általános kérdés
+  notes: Termékekkel vagy szolgáltatásokkal kapcsolatos kérdések
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Visszajelzés
+  notes: |
+    Elsősorban az értékesítési és számlázási részleget érintő hibajegyek
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Hibabejelentés
+  notes: |
+    Termékkel, szolgáltatással vagy berendezéssel kapcsolatos problémák
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Hozzáférési probléma
+  notes: |
+    Elérhetetlen fizikai vagy virtuális eszköz jelentése

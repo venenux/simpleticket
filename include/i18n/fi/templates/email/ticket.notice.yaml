@@ -1,0 +1,29 @@
+---
+notes: |
+  Lähetetään asiakkaalle, kun henkilöstön jäsen luo tiketin asiakkaan puolesta.
+  Tämä tehdään yleensä silloin, kun asiakas soittaa asiakaspalveluun.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Hyvä %{recipient.name.first},</strong></h3>
+  Asiakaspalvelumme on luonut puolestanne tiketin, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> seuraavin tiedoin:
+  <br>
+  <br>
+  Otsikko: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Aihe: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Jos viesti vaatii meiltä toimenpiteitä, yhetyshenkilö ottaa teihin yhteyttä mahdollisimman pian. Voit myös <a href="%{recipient.ticket_link}">katsoa tämän tiketin edistymistä verkossa</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Terveisin, %{company.name} Tiimi,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Jos haluatte lisätä kommentteja tai antaa lisää tietoja koskien aihetta, vastatkaa tähän viestiin tai <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >kirjaudu asiakastilillesi</span></a> josta löydät täydellisen arkiston viesteistä.</em></div>

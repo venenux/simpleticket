@@ -1,0 +1,25 @@
+---
+notes: |
+  Испрати до корисник кога одговорот е автоматски испратен до тикетот кога е креиран.
+  
+  Достапни променливи за замена: %{ticket.*}, %{response}
+subject: 'Re: %{ticket.subject} [#%{ticket.number}]'
+body: |
+  <h3><strong>До %{recipient.name.first},</strong></h3>
+  Побарување за поддршка беше креирано и доделено до тикет <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> со следната автоматски генерирана содржина
+  <br>
+  <br>
+  Насов: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Тема: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Вашиот %{company.name} тим,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Се надеваме дека овај одговор значително ги одговори вашите прашања. Ако сакате да поставите дополнителни коментари, ве молиме одговорете на овај емаил или <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >логирајте се на вашиот акаунт</span></a> за комплетна архива од вашите побарувања за поддршка</em></div>

@@ -1,0 +1,28 @@
+---
+deptId: 1
+topicId: 1
+name: osTicket podrška
+email: support@osticket.com
+source: Web
+subject: osTicket instaliran!
+message: |
+  <p>
+  Hvala Vam što ste odabrali osTicket.
+  </p><p>
+  Molimo Vas da se pridružite <a
+  href="http://osticket.com/forums">osTicket forumu</a> i našoj  <a
+  href="http://osticket.com/updates">mail listi</a> kako biste primali najnovije vijesti, obavijesti i upozorenja. osTicket forumi su odlično mjesto za potražiti pomoć i savjete od drugih korisnika.  Uz forum, pogledajte osTicket wiki, gdje ćete naći mnoštvo edukativnih materijala, dokumenata i obavijesti zajednice. Unaprijed se zahvaljujemo na Vašem doprinosu osTicket zajednici.
+  </p><p>
+  Ukoliko tražite viši nivo podrške, nudimo Vam profesionalnu nadogradnju komercijalnu podršku sa garantiranim vremenom odgovora i pristupom osnovnom timu developera. Možemo Vam pomoći da prilagodite osTicket ili možemo dodati nove mogućnosti sistemu, skrojene samo za Vas.
+  </p><p>
+  Ako Vam upravljanje i nadogradnja ove osTicket instalacije predstavlja preveliki izazov, uvijek se možete odlučiti za našu uslugu profesionalnog hostinga svoje osTicket instalacije, više na <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
+  bez instalacije, a možemo i uvesti sve Vaše podatke! Sa našim sitem "ključ u ruke", dobivate najviše od osTicketa, ostavljajući Vam više vremena da se brinete o svojim klijentima, a nama prepustite breme brige o tome da je osTicket uvjek nadograđen i ažuran, održavan i siguran. 
+  </p><p>
+  Živjeli,
+  </p><p>
+  -<br/>
+  osTicket Team http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Nemojte samo usrećiti klijente, imajte trajno sretne i zadovoljne klijente!
+  </p>

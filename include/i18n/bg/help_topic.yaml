@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Общо запитване
+  notes: Въпроси относно продукти или услуги
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Обратна връзка
+  notes: |
+    Заявки, относно отдели по продажби и фактуриране
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Съобщаване за проблем
+  notes: |
+    Въпроси свързани с продукт, услуга или оборудване  
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Проблем с достъпа
+  notes: |
+    Невъзможност за достъп до физически или виртуален актив

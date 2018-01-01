@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Indirizzi mail bannati
+  content: >
+    Email ricevuta da indirizzi e-mail bannati elencati nell'elenco dei bannati saranno automaticamente rifiutati.

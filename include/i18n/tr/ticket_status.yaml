@@ -1,0 +1,51 @@
+---
+- 
+  id: 1
+  name: Açık
+  state: open
+  mode: 3
+  sort: 1
+  flags: 1
+  properties:
+    description: Açık talepler.
+- 
+  id: 2
+  name: Çözüldü
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 1
+  properties:
+    description: >
+      Çözümlenmiş talepler kullanıcı tarafından tekrar açılabilen kapanmış taleplerdir. Bu çözümlenmiş talepleri kullanıcıya bilgi göndererek bir tetikleyici mekanizma ile kapatmak için kullanılabilir.
+- 
+  id: 3
+  name: Kapalı
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 1
+  properties:
+    description: >
+      Kapalı olarak işaretlenmiş talepler son kullanıcı tarafından açılamaz. 
+      Taleplere hala müşteri ve personel panelleri üzerinden erişilebilir.
+- 
+  id: 4
+  name: Arşivlenmiş
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 1
+  properties:
+    description: >
+      Sadece yöneticiler tarafından erişilip talep kuyruğundan erişilemeyen talepler.
+- 
+  id: 5
+  name: Silindi
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 1
+  properties:
+    description: >
+      Silinecek talepler sırası. Talepler kuyruğundan erişilemez.

@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Kunci API
+  content: >
+    Kunci API digunakan untuk mengotentikasi klien mengirimkan tiket baru melalui aplikasi Programming Interface (API). Kunci API digunakan sebagai password. Sejak kunci API dapat dikirim tidak terenkripsi, mereka yang terhubung ke alamat IP masing-masing klien.
+  links:
+    - 
+      title: Dokumentasi API osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Alamat IP
+  content: >
+    Alamat IP jaringan klien. Setiap alamat IP unik klien akan memerlukan kunci API terpisah

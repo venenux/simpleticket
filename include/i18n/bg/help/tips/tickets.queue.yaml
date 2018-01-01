@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Поле за търсене
+  content: >
+    
+advanced:
+  title: Разширено
+  content: >
+    Стесняване на параметрите на вашето търсене. След като сте избрали вашите критерии за търсене и стартирате търсене, можете да  <span class="doc-desc-title">експортирате</span> информацията в края на страницата със заявки.
+open_tickets_table:
+  title: Таблица на отворените заявки
+  content: >
+    Всички отворени в момента заявки, които изискват внимание
+ticket:
+  title: Заявка
+  content: >
+    
+date:
+  title: Дата
+  content: >
+    
+subject:
+  title: Тема
+  content: >
+    
+from:
+  title: От
+  content: >
+    
+priority:
+  title: Приоритет
+  content: >
+    
+assigned_to:
+  title: Възложен на
+  content: >
+    
+export:
+  title: Експорт
+  content: >
+    Експортиране на данните, които в момента виждате в CSV формат. CSV файловете могат да бъдат отворени от програма за електрони таблици (например Microsoft Excel, Apple Pages, OpenOffice и др.).
+advanced_search_dialog:
+  title: Разширено търсене
+  content: >
+    
+adv_keyword:
+  title: Търсене по ключова дума
+  content: >
+    Намира съвпадения въз основа на заглавието и съдържанието на дискусията на заявката, както и на цялото текстово съдържание, свързано с  потребителските полета на потребителите и заявките.
+adv_date_range:
+  title: Търсене по период
+  content: >
+    Определи тук

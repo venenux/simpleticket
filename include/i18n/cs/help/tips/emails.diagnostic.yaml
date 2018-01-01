@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Test odchozího emailu
+  content: >
+    Doručení emailu závisí  na nastavení vašeho serveru (php.ini) a/nebo SMTP.
+  links:
+    - 
+      title: Vyberte email pro nastavení (odchozího) SMTP
+      href: /scp/emails.php
+from:
+  title: Od
+  content: >
+    
+to:
+  title: Komu
+  content: >
+    
+subject:
+  title: Předmět
+  content: >
+    
+message:
+  title: Text
+  content: >
+    

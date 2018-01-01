@@ -1,0 +1,40 @@
+---
+notes: Inatumwa kwa wafanyikazi wakati ujumbe mpya imeandikwa na mtumiaji katika tiketi. Hii inaweza kutendeka kama mtumiaji anajibu barua ya pepe kutoka kwa mfumo ama akitembelea mtandao ya wateja na kuandika ujumbe mpya huko.
+subject: Ujumbe Mpya Onyo
+body: |2
+  <h3><strong>Hi %{recipient},</strong></h3>
+  UJumbe mpya umeongezwa kwa tiketi <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Kutoka</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Idara</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Ili kuangalia au kujibu tiketi, tafadhali<a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >Ingia</span></a> katika mfumo wa kusaidia mteja</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">mfumo wako wa kirafiki ya kusaidia mteja </em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: ការធ្វើតេស្តអ៊ីម៉ែលចេញ
+  content: >
+    ការចែកចាយអ៊ីម៉ែលអាស្រ័យលើ server settings របស់អ្នក (php.ini) និង / ឬ SMTP configuration.
+  links:
+    - 
+      title: ជ្រើសអ៊ីមែលមួយដើម្បីកំណត់រចនាសម្ព័ន្ធ SMTP (Outgoing) Settings
+      href: /scp/emails.php
+from:
+  title: ពី
+  content: >
+    
+to:
+  title: ទៅ
+  content: >
+    
+subject:
+  title: ប្រធានបទ
+  content: >
+    
+message:
+  title: សារ
+  content: >
+    

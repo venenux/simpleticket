@@ -1,0 +1,22 @@
+---
+- 
+  isenabled: 1
+  title: Mikä on osTicket (näyte)?
+  response: osTicket on laajalti käytetty avoimen lähdekoodin tukitikettijärjestelmä, houkutteleva vaihtoehto korkeamman kustannuksen ja monimutkaisempien järjestelmien tilalle - yksinkertainen, kevyt, luotettava, avoimen lähdekoodin, web-pohjainen ja helppo asentaa ja käyttää.
+  notes: ""
+  attachments:
+    - 
+      name: osTicket.txt
+      type: text/plain
+      data: Purkitetut liitteet rokkaa!
+- 
+  isenabled: 1
+  title: Näyte (muuttujilla)
+  response: |
+    Terve %{ticket.name.first},
+    <br>
+    <br>
+    Tikettisi #%{ticket.number} on luotu %{ticket.create_date} ja sen käsittelee
+    %{ticket.dept.name} osasto.
+  notes: |
+    

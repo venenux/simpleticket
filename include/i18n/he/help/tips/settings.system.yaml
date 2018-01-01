@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: מצב התמיכה
+  content: >
+    אם הסטטוס משתנה ל <span class="doc-desc-opt">לא פעיל</span>, ממשק המשתמש יהפוך ללא פעיל , פעולה זו לא תשפיע על ממשק התמיכה והתומכים.
+helpdesk_url:
+  title: כתובת אתר התמיכה
+  content: >
+    כתובת ה URLהיא כתובת הבסיס של המערכת, כתובת זו תופיע במיילים לצורך הפניית המשתמש למערכת התמיכה.
+helpdesk_name_title:
+  title: שם \ כותרת אתר התמיכה
+  content: >
+    זו הכותרת שתופיע בטאב של הדפדפן. במידה ושמרתם את הדף כסימניה, זה יהיה שם הסימניה.
+default_department:
+  title: מחלקת ברירת המחדל
+  content: >
+    בחר <span class="doc-desc-title">מחלקת ברירת מחדל</span> עבור כרטיס שאינו משוייך אוטומטית למחלקה. <br/><br/> כרטיס יכול להיות מנותב לפי כותרת, כתובת אימייל והגדרות פילטור נוספות.
+default_page_size:
+  title: גודל ברירת מחדל לדף
+  content: >
+    בחר את מספר הפריטים שיוצגו בכל עמוד בתורי הקריאות בפאנל העובדים. כל סוכן יכול להתאים אישית את המספר בהגדרות החשבון שלו תחת <span class="doc-desc-title">ההגדרות שלי</span>.
+default_log_level:
+  title: רמת יומן המהווה ברירת מחדל
+  content: >
+    קבע את הרמה המינימלית של ההודעות שירשמו ב <span class="doc-desc-title">יומן המערכת</span>. <span class="doc-desc-opt">איתור שגיאות</span>מייצגת את הרמה הנמוכה ביותר ו<span class="doc-desc-opt">תקלה</span> מייצג את הרמה הגבוהה ביותר. לדוגמא, במידה ותרצו לראות את כל הארועים ב<span class="doc-desc-title">יומן המערכת</span>, בחרו <span class="doc-desc-opt">איתור שגיאות</span>.
+purge_logs:
+  title: נקה יומני רישום
+  content: >
+    קבע לכמה זמן ישמרו <span class="doc-desc-title">יומני המערכת</span> עד שימחקו.
+default_name_formatting:
+  title: פורמט ברירת מחדל לדף
+  content: >
+    בחר פורמט לשמות במערכת, שמות אלו ישמשו את תבניות הדוא"ל במידה ופורמט אחר לא צויין במשתנה.
+  links:
+    - 
+      title: משתני תבנית דואר אלקטרוני נתמכים
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: אפשרויות תאריך ושעה
+  content: >
+    ההגדרות הבאות מגדירות תאריך ושעה עבור לקוחות. ניתן לקבוע את התצוגה על פי הגדרות התאריך והשעה של PHP, התאריכים המוצגים מטה מתארים את התוצאה של הערכים המתאימים.
+  links:
+    - 
+      title: ראה טבלת פורמט תאריכים ב-PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

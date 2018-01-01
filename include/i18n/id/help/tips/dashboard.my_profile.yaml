@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informasi Kontak
+  content: >
+    
+username:
+  title: Nama pengguna
+  content: >
+    Hanya mereka agen dengan Admin status dapat mengubah nama pengguna. Jika Anda seorang agen dengan hak Admin, Anda dapat melakukannya dengan memilih agen untuk edit dari tabel <span class="doc-desc-title"> Anggota staf</span>.
+  links:
+    - 
+      title: Mengubah nama pengguna sebagai Administrator
+      href: /scp/staff.php
+time_zone:
+  title: Zona waktu
+  content: >
+    
+daylight_saving:
+  title: Daylight Saving
+  content: >
+    
+maximum_page_size:
+  title: Maksimum ukuran halaman
+  content: >
+    
+auto_refresh_rate:
+  title: Kecepatan Refresh otomatis
+  content: >
+    
+default_signature:
+  title: Default tanda tangan
+  content: >
+    
+default_paper_size:
+  title: Ukuran kertas standar
+  content: >
+    
+show_assigned_tickets:
+  title: Tampilkan tiket ditugaskan
+  content: >
+    Mengaktifkan ini untuk menyembunyikan nama Anda dari antrian <span class="doc-desc-title"> Tiket terbuka</span> untuk orang-orang tiket yang Anda ditugaskan. Berdasarkan bersembunyi, nama <span class="doc-desc-title"> departemen</span> yang Anda milik akan menggantikan mana nama Anda akan biasanya ditampilkan.
+password:
+  title: Kata Sandi
+  content: >
+    
+current_password:
+  title: Kata sandi saat ini
+  content: >
+    
+new_password:
+  title: Kata sandi baru
+  content: >
+    
+confirm_new_password:
+  title: Konfirmasi kata sandi baru
+  content: >
+    
+signature:
+  title: Tanda tangan
+  content: >
+    Membuat opsional <span class="doc-desc-title"> tanda tangan</span> yang mungkin muncul pada akhir tanggapan tiket Anda. Apakah ini <span class="doc-desc-title"> Signature</span> muncul, atau tidak, tergantung pada <span class="doc-desc-title"> Email Template</span> yang akan digunakan dalam tanggapan Tiket.
+  links:
+    - 
+      title: Membuat template email di Panel admin
+      href: /scp/templates.php

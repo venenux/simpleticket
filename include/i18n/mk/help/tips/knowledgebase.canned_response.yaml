@@ -1,0 +1,11 @@
+---
+canned_response:
+  title: Предефинирани одговори
+  content: 'Креирајте <span class="doc-desc-title">Предефиниран одговор</span> кој што може да се внеси во одговорот на тикетот. Исто така може да се користи како <span class="doc-desc-title">Автоматски одговор на тикет</span> подесувањето од <span class="doc-desc-title">Тикет филтер</span>.'
+  links:
+    - 
+      title: Постави Тикет филтер
+      href: /scp/filters.php
+canned_attachments:
+  title: Предефинирани додатоци
+  content: 'Прикачете датотека која што сакате автоматски да се вклучи во одговорот на тикетот кој што ќе користи <span class="doc-desc-title"> Предефиниран одговор</span>.'

@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Politika poteka gesla
+  content: >
+    Določite kako pogosto (v mesecih) bo osebje moralo spremeniti svoje geslo. Če je onemogočeno (nastavljeno na "Ni poteka"), geslo ne bo preteklo.
+password_expiration_policy:
+  title: Politika poteka gesla
+  content: >
+    Izberite kako pogosto bodo morali zastopniki menjati svoja gesla. Če je onemogočeno (i.e., <span class="doc-desc-opt">ni poteka</span>), geslo ne bo poteklo.
+allow_password_resets:
+  title: Dovoli ponastavitev gesla
+  content: >
+    Omogoči to možnost, če želiš prikazan <span class="doc-desc-title">pozabil sem geslo</span> povezavo na <span class="doc-desc-title">prijavni strani osebja</span> po neuspešnem poskusu prijave.
+reset_token_expiration:
+  title: Okno ponastavitve gesla
+  content: >
+    Izberite trajanje (v minutah) v katerih bo <span class="doc-desc-title"> bon za ponastavitev gesla</span> bil veljaven. Ko zastopnik kliče <span class="doc-desc-title"> ponastavitev gesla</span>, dobi po elektronski pošti bon, ki mu dovoli izvedbo ponastavitve.
+staff_session_timeout:
+  title: Pretečena seja osebja
+  content: >
+    Izberite maksimalen čas nedejavnosti (v minutah) preden je zahtevana ponovna prijava zastopnika. <br><br> če želite onemogočiti nastavitev <span class="doc-desc-title"> Pretečena seja osebja</span>, vnesite 0.
+client_session_timeout:
+  title: Pretekla seja uporabnika
+  content: >
+    Izberite maksimalen čas nedejavnosti (v minutah) preden bo zahtevana ponovna prijava uporabnika. <br><br> Če želite onemogočiti <span class="doc-desc-title"> Pretečena seja uporabnika</span>, vnesite 0.
+bind_staff_session_to_ip:
+  title: Povežite sejo osebja z naslovom IP
+  content: >
+    Omogočite to, če želite, da bo zastopnik zapomnjen po njegovem trenutnem IP naslovu po prijavi. <br><br> Ta nastavitev ni priporočljiva za uporabnike, katerih IP naslov je dodeljen dinamično.
+registration_method:
+  title: Možnosti prijave
+  content: >
+    <span class="doc-desc-title">Metoda registracije</span> in <span class="doc-desc-title">Zahtevana registracija</span> sta uporabljeni skupaj, da nastavimo kako se uporabniki registrirajo in kako dostopajo spletni portal mize pomoči. Spodnja tabela povzema kako ti dve nastavitvi funkcionirata v sistemu. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Zahtevana registracija</th> <th>Metoda registracije</th> <th>Rezultat</th></tr> <tr><td>Ne</td><td>Javno</td> <td>Registracija zaželjena, ni pa obvezna za nov zahtevek.</td></tr> <tr><td>Da</td><td>Javno</td> <td>Registracija in prijava sta obvezni za nove zahteveke</td></tr> <tr><td>Ne</td><td>Javno</td> <td>Kdorkoli lahko ustvari nov zahtevek, vendar samo zastopniki lahko registrirajo račune</td></tr> <tr><td>Da</td><td>Javno</td> <td>Dostop uporabnika samo s povabilom</td></tr><tr><td>Ne</td><td>Onemogočeno</td> <td>Nihče ne more registrirati računa, toda vsi lahko ustvarijo zahtevek. <em>To je kako je osTicket funkcioniral pred verzijo 1.9</em></td></tr><tr><td>Da</td><td>Onemogočeno</td> <td>Onemogočite nove zahtevke preko spletnega portala</td></tr> </tbody></table>
+client_verify_email:
+  title: Zahtevana verifikacija email naslova
+  content: >
+    Onemogočite to možnost, če želite vašemu uporabniku dati takojšen dostop do zahtevkov preko "Preveri status zahtevka" prijavne strani v portalu stranke. Če je omogočen (kar je privzeto), bodo uporabniki morali prejeti email sporočilo in slediti povezavi v email sporočilu, da bodo lahko videli zahtevek. <br><br> Onemogočanje preverjanje email naslova lahko omogoči tretjim osebam (k.n. sodelavci zahtevka), da se predstavljajo kot lastniki zahtevka.

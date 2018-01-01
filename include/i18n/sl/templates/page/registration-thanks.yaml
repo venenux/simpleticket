@@ -1,0 +1,6 @@
+---
+notes: >
+  Ta predloga definira vsebino, ki se pokaže ko se stranka uspešno registrira in potrdi upor. račun. Ta stran naj sporoča stranki, da je z registracijo zaključila in lahko sedaj odda zahtevek ali dostopa do obstoječih.
+name: "Uporabniški račun potrjen!"
+body: >
+  <div> <strong>Zahvaljujemo se vam za ustvarjen račun.</strong><br /> <br /> Potrdili ste svoj email naslov in uspešno aktivirali vaš uporabniški račun. Lahko nadaljujete z odpiranjem novega zahtevka ali ogledom obstoječih.<br /> <br /> <em>Vaša prijazna tehnična podpora</em><br /> %{company.name} </div>

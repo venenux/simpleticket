@@ -1,0 +1,20 @@
+---
+- 
+  id: 1
+  name: Saidia
+  signature: Idara ya usaidizi
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Mauzo
+  signature: Mauzo na umiliki ya mteja
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Matengenezo
+  signature: Idara ya matengenezo
+  ispublic: 0
+  group_membership: 0

@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: בדיקת דוא"ל יוצא
+  content: >
+    משלוח הדוא"ל תלוי בהגדרות השרת שלך (php.ini) ו/או בהגדרות ה- SMTP 
+  links:
+    - 
+      title: בחר דואר אלקטרוני כדי לקבוע את תצורת הגדרות ה-SMTP (דואר יוצא)
+      href: /scp/emails.php
+from:
+  title: מאת
+  content: >
+    
+to:
+  title: אל
+  content: >
+    
+subject:
+  title: נושא
+  content: >
+    
+message:
+  title: הודעה
+  content: >
+    

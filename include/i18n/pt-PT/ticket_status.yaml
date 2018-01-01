@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Aberto
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Pedidos abertos.
+- 
+  id: 2
+  name: Resolvido
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Pedidos resolvidos podem ser reabertos pelo utilizador.
+- 
+  id: 3
+  name: Fechado
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Incidências classificadas como fechadas não podem ser reabertas pelo utilizador, mas mantêm-se acessíveis  no painel de suporte e de cliente.
+- 
+  id: 4
+  name: Arquivado
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Incidências acessíveis administrativamente, mas não visíveis da fila de pedidos.
+- 
+  id: 5
+  name: Eliminado
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Pedidos em fila para eliminação. Não acessível nas filas de pedidos.

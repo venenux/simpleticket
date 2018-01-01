@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-mailsjablonen
+  content: >
+    E-mail sjablonen worden gebruikt voor het verzenden van Automatische antwoorden  en waarschuwingen voor verschillende acties die tijdens de levenscyclus van een Ticket  plaatsvinden kunnen.
+template_to_clone:
+  title: Kopiëer template
+  content: >
+    Kies een sjabloon om te kopiëren of start met de standaard e-mailtemplates.
+language:
+  title: Taal
+  content: >
+    Selecteer de gewenste taal voor de <span class="doc-desc-opt"> voorraad</span> <span class="doc-desc-title"> E-mail sjabloon instellen</span>. Taalpakketten zijn beschikbaar op osTicket.com.
+  links:
+    - 
+      title: osTicket Taalpakketten
+      href: 'http://osticket.com/download'
+status:
+  title: Status
+  content: >
+    <span class="doc-desc-opt">ingeschakeld</span> Sjabloon Sets zijn beschikbaar om te worden gekoppeld aan afdelingen en ingesteld op de standaardwaarden van het systeem.  Sjabloon Sets welke momenteel in gebruik zijn kunnen niet worden <span class="doc-desc-opt">uitgeschakelt</span>.

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Člani osebja
+  content: >
+    Naslednja tabela prikazuje rezultate filtra nad njo. Če ni izbrana nobena nastavitev filtra, potem so prikazani vsi <span class="doc-desc-title">člani osebja</span> in razdeljeni na več straneh. Spodaj si poglej odsek strani za pregled pri številnih rezultatih.
+apply_filtering_criteria:
+  title: Uporabi parametre filtra
+  content: >
+    Izberi <span class="doc-desc-title">Oddelek</span>, ki je pomemben za tvoje področje. Lahko tudi iščeš po določenem Agentu.

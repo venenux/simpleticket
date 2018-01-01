@@ -1,0 +1,67 @@
+---
+page_title:
+  title: Upozornění a oznámení
+  content: >
+    Výstrahy a upozornění jsou e-maily automaticky zasílané agentům, jestliže nastane nějaká událost ticketu.
+ticket_alert:
+  title: Upozornění na nový tiket
+  content: >
+    <p> Výstaha zaslaná agentům při vytvoření nového ticketu. </p><p class="info-banner"> <i class="icon-info-sign"></i> Tato výstraha není zaslána v případě automatického přiřazení ticketu prostřednictvím Filtru ticketů nebo Tématu pomoci. </p>
+  links:
+    - 
+      title: Výchozí šablona upozornění na nový požadavek
+      href: /scp/templates.php?default_for=ticket.alert
+message_alert:
+  title: Upozornění na novou zprávu
+  content: >
+    Upozornenie poslané agentovi keď príde od užívateľa nová správa, ktorá je priradená k existujúcemu tiketu.
+  links:
+    - 
+      title: Výchozí šablona upozornení na novou zprávu
+      href: /scp/templates.php?default_for=message.alert
+internal_note_alert:
+  title: Upozornění na novou interní událost
+  content: >
+    Upozornění zaslané pracovníkům v případě přidání interní poznámky nebo odpovědi pracovníka k požadavku.
+  links:
+    - 
+      title: Výchozí šablona upozornení na aktivitu
+      href: /scp/templates.php?default_for=note.alert
+assignment_alert:
+  title: Upozoronění na přiřazení požadavku
+  content: >
+    Upozornění zaslané pracovníkovi při přiřazení požadavku.
+  links:
+    - 
+      title: Výchozí šablona upozornení na přiřazení požadavku
+      href: /scp/templates.php?default_for=assigned.alert
+transfer_alert:
+  title: Upozornění o převodu
+  content: >
+    Upozornění zaslané pracovníkům, když je požadavek předán na oddělení.
+  links:
+    - 
+      title: Výchozí šablona pro upozornění na převod požadavku
+      href: /scp/templates.php?default_for=transfer.alert
+overdue_alert:
+  title: Výstraha uplynutí doby řešení ticketu
+  content: >
+    Upozornenie poslané agentom keď sa nesplní termín vyriešenia. Termín sa počíta na základe SLA alebo je ručne zadaný.
+  links:
+    - 
+      title: Výchozí šablona pro upozornění na zpoždění požadavku
+      href: /scp/templates.php?default_for=ticket.overdue
+    - 
+      title: Nastavení SLA
+      href: /scp/slas.php
+system_alerts:
+  title: Systemová upozornění
+  content: >
+    'Důležité systémové události jsou odeslané správci (%{config.admin_email}). V závislosti na nastavení <span class="doc-desc-title">úrovně logu</span>, jsou události takté zaznamenány v <span class="doc-desc-title">systémém logu</span>.
+  links:
+    - 
+      title: Zobrazit systémové logy
+      href: /scp/logs.php
+    - 
+      title: Změna emailu administrátora
+      href: /scp/settings.php?t=emails

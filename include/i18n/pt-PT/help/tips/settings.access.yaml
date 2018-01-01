@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Politica de expiração de palavra-passe
+  content: >
+    Define a regularidade (em meses) com que os membros do Staff têm de alterar a palavra-passe. Se desativado, as palavra-passe não expiram.
+password_expiration_policy:
+  title: Politica de expiração de palavra-passe
+  content: >
+    Escolha a frequência com que os Agentes terão de alterar a sua senha. Se desativado (ou seja, <span class="doc-desc-opt"> Sem Expirar</span>), as senhas não expiram.
+allow_password_resets:
+  title: Permitir recuperação de palavra-passe
+  content: >
+    Ative esta funcionalidade para exibir o link <span class="doc-desc-title"> Esqueci-me da minha senha</span> do <span class="doc-desc-title"> Login do Painel de Funcionários</span> após uma tentativa falhada de login.
+reset_token_expiration:
+  title: Janela de Reposição de Palavra-passe
+  content: >
+    Escolha a duração (em minutos) para o qual os <span class="doc-desc-title"> Tokens de Redefinir Senha</span> serão válidos. Quando um agente solicita uma <span class="doc-desc-title"> Redefinição de senha</span>, é-lhe enviado um token que permite o reset da mesma.
+staff_session_timeout:
+  title: Timeout da sessão de staff
+  content: >
+    Escolha o tempo máximo de inatividade (em minutos) para que seja necessário a um Agente fazer login novamente. <br><br>Se quiser desativar o <span class="doc-desc-title"> Tempo limite da sessão de pessoal</span>, digite 0.
+client_session_timeout:
+  title: Tempo Limite de Sessão de Utilizador
+  content: >
+    Escolha o tempo máximo de inatividade (em minutos) para que seja necessário a um Utilizador fazer login novamente. <br><br>Se quiser desativar o <span class="doc-desc-title"> Tempo limite da sessão de utilizadores</span>, digite 0.
+bind_staff_session_to_ip:
+  title: Alocar a sessão do staff a IP
+  content: >
+    Ative esta opção para que um Agente seja memorizado pelo seu IP atual. <br><br>Esta configuração não é recomendado para utilizadores com endereços IP atribuídos dinamicamente.
+registration_method:
+  title: Opções de registo
+  content: >
+    <span class="doc-desc-title"> Método de Registo</span> e <span class="doc-desc-title"> Registro Necessário</span> são usados juntos para configurar como os utilizadores se registam e acedem ao portal web do seu help desk. A tabela abaixo resume como as duas configurações são interpretadas pelo sistema. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" > <tbody style="vertical-align:top;"> <tr><th>Registro Necessário</th> <th>Método de Registo</th> <th>Resultado</th></tr> <tr><td>Público</td> <td>Não</td> <td>Registo incentivado, mas não necessário para novos tickets.</td></tr> <tr><td>Sim</td> <td>Público</td> <td>Registo e login são necessários para novos tickets</td></tr> <tr><td>Não</td> <td>Privado</td> <td>Qualquer um pode criar um ticket, mas apenas Agentes podem registar contas</td></tr> <tr><td>Sim</td> <td>Privado</td><td>O acesso do utilizador é apenas por convite</td></tr> <tr><td>Desativado</td> <td>Não</td> <td>Ninguém se pode registrar para uma conta, mas qualquer um pode criar um ticket. <em>Isto foi como osTicket funcionava antes da v1.9</em></td></tr> <tr><td>Sim</td> <td>Desativado</td> <td>Desativar novos tickets através do portal web</td></tr></tbody></table>
+client_verify_email:
+  title: Requerer verificação de e-mail
+  content: >
+    Desative esta opção para que os seus utilizadores tenham acesso imediato aos tickets através da página de login "Verificar Status do Ticket" no portal do cliente. Se ativado, (que é o padrão), os utilizadores deverão receber um e-mail e seguir um link no e-mail para ver o ticket.<br><br>Desativar a verificação de e-mail pode permitir que terceiros (por exemplo, os colaboradores de tickets) consigam representar o proprietário do ticket.

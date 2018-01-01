@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: 工单状态
+  name_plural: 工单状态
+  sort_mode: SortCol
+  masks: 13
+  notes: 工单状态
+  properties:
+    title: 工单状态属性
+    instructions: 可设置在服务单状态上的属性
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: 状态
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: 工单状态
+      - 
+        type: memo
+        name: description
+        label: 描述
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

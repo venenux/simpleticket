@@ -1,0 +1,82 @@
+---
+execution_order:
+  title: Täitmise järjekord
+  content: >
+    Sisesta arv, mis kontrollib filtri prioriteeti. Mida väiksem on arv, seda kõrgem on filtri prioriteet võrreldes filtriga, mis võib olla kõrgemat järku.<br><br>Kui soovid, et see filter oleks viimane, mida vastavuse korral rakendatakse, siis aktiveeri <span class="doc-desc-title">lõpeta vastavuse korral edasine töötlemine</span>.
+target_channel:
+  title: Kanal
+  content: >
+    Vali <span class="doc-desc-title">kanal</span> oma <span class="doc-desc-title">pöördumiste filtrile</span>. <span class="doc-desc-title">Kanal</span> on allikaks mille kaudu pöördumine süsteemi jõudis. <br><br>Nt, kui valid <span class="doc-desc-opt">veebi vorm</span>, siis soovid rakendada<span class="doc-desc-title">pöördumiste filtrit</span> neile pöördumistele, mis on pärit veebivormilt kliendi portaalist.
+rules_matching_criteria:
+  title: Võrdlemise kriteerium
+  content: >
+    Vali, kui paindlikud on <span class="doc-desc-title">pöördumiste filtri</span> vasted. Kui soovid, et <span class="doc-desc-title">pöördumiste filter</span> vastaks mõnele tingimusele ja siis peatuks, vali <span class="doc-desc-opt">täida mõnda</span>. Kui aga soovid, et <span class="doc-desc-title">pöördumiste filtri</span> <em><strong>kõik tingimused</strong></em> oleksid täidetud, vali <span class="doc-desc-opt">täida kõik</span>.
+reject_ticket:
+  title: Lükka pöördumine tagasi
+  content: >
+    Kui see on sisse lülitatud, siis edasine töötlemine lõpetatakse ja kõik teisi allpool olevaid tegevusi ignoreeritakse.
+reply_to_email:
+  title: Vasta e-kirjale
+  content: >
+    Luba see, kui tahad oma kasutajatoel lisada e-posti kliendil<span class="doc-desc-title">Vastus kellele</span> päis. See väli on asjakohane vaid siis, kui <span class="doc-desc-title">kanal</span> ülalpool sisaldab <span class="doc-desc-opt">e-posti</span>.
+ticket_auto_response:
+  title: Lülita pöördumiste automaatvastaja välja
+  content: >
+    <em>NB! See kirjutab üle mistahes <span class="doc-desc-title">osakonna</span> või <span class="doc-desc-title">automaatvastuse seaded</span>.</em>
+canned_response:
+  title: Ettevalmistatud automaatvastus
+  content: >
+    Vali <span class="doc-desc-title">ettevalmistatud vastus</span>, mille soovid <span class="doc-desc-title">pöördumiste filtrile</span> vastavalt kasutajale saata. <span class="doc-desc-title">Uue pöördumise automaatvastuse</span> mall sõltub sellest, milline <span class="doc-desc-title">mallide kogum</span> on vaikimisi määratud või mis <span class="doc-desc-title">osakonnale</span> määratud.
+  links:
+    - 
+      title: Halda ettevalmistatud vastuseid
+      href: /scp/canned.php
+    - 
+      title: Halda mallide kogumikke
+      href: /scp/templates.php
+    - 
+      title: Uue pöördumise automaatvastuse mall
+      href: /scp/templates.php?id=2&a=manage
+department:
+  title: Osakond
+  content: >
+    Vali, milline <span class="doc-desc-title">osakond</span> määratakse lahendajaks vastavalt <span class="doc-desc-title">pöördumiste filtrile</span>.
+  links:
+    - 
+      title: Halda osakondi
+      href: /scp/departments.php
+priority:
+  title: Tähtsus
+  content: >
+    Vali <span class="doc-desc-title">prioriteedi</span> tase, mida soovid määrata <span class="doc-desc-title">pöördumiste filtri</span>vastetele. <br /><br /><em>Märkus: see kirjutab üle <span class="doc-desc-title">osakonna</span> ja <span class="doc-desc-title">abiteema</span> seaded.</em>
+sla_plan:
+  title: Teenustaseme leping (SLA)
+  content: >
+    Vali <span class="doc-desc-title">SLA</span>, mida seostatakse sellega vastavalt <span class="doc-desc-title">pöördumiste filtrile</span>.
+  links:
+    - 
+      title: Halda SLA-sid
+      href: /scp/slas.php
+auto_assign:
+  title: Automaatne suunamine
+  content: >
+    Vali agent või meeskond, kellele vastavalt <span class="doc-desc-title">pöördumiste filtrile</span> see lahendamiseks määratakse.
+  links:
+    - 
+      title: Halda agente
+      href: /scp/staff.php
+    - 
+      title: Halda meeskondasid
+      href: /scp/teams.php
+help_topic:
+  title: Abiteema
+  content: >
+    Vali <span class="doc-desc-title">Abiteema</span>, mida seostatakse sellega vastavalt <span class="doc-desc-title">pöördumiste filtrile</span>.
+  links:
+    - 
+      title: Halda abiteemasid
+      href: /scp/helptopics.php
+admin_notes:
+  title: Administraatori märkmed
+  content: >
+    Need märkmed on nähtavad ainult neile, kelle konto tüüp on ‘<span class="doc-desc-title">Admin</span>.’

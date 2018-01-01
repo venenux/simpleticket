@@ -1,0 +1,13 @@
+---
+groups:
+  title: Skupiny
+  content: >
+    Skupiny sa používajú na definovanie prístupových práv agenta. Skupiny môžu mať tiež pridelené oprávnenia k iným oddeleniam, ako je primárne oddelenie agenta.
+status:
+  title: Status
+  content: >
+    Ak <span class="doc-desc-opt">je to vypnuté</span>, Pracovníci priradení do tejto skupiny sa nebudú môcť prihlásiť a nebudú dostávať upozornenia z oddelení &amp; Poznámky.
+department_access:
+  title: Prístup k oddeleniam
+  content: >
+    Skontroluj všetky oddelenia, kam majú členovia skupiny povolený prístup.

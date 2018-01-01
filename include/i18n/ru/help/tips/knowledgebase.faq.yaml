@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Тип Списка
+  content: >
+    Выберите <span class="doc-desc-opt">Публичный (публиковать)</span>, если Вы хотите, чтобы этот <span class="doc-desc-title"> FAQ</span> был опубликован в публичной базе знаний, если родительская категория публична.
+  links:
+    - 
+      title: Сделать базу знаний общедоступной для клиентского портала
+      href: /scp/settings.php?t=kb

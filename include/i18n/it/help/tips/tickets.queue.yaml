@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Campo di ricerca
+  content: >
+    
+advanced:
+  title: Avanzata
+  content: >
+    Affina i tuoi parametri di ricerca. Dopo aver selezionato i criteri di ricerca avanzata ed aver eseguito la ricerca, è possibile <span class="doc-desc-title">esportare</span> i dati in fondo alla pagina.
+open_tickets_table:
+  title: Tabella dei ticket aperti
+  content: >
+    Tutti i tickets attualmente apertai e che richiedono attenzione
+ticket:
+  title: Ticket
+  content: >
+    
+date:
+  title: Data
+  content: >
+    
+subject:
+  title: Oggetto
+  content: >
+    
+from:
+  title: Da
+  content: >
+    
+priority:
+  title: Priorità
+  content: >
+    
+assigned_to:
+  title: Assegnato a
+  content: >
+    
+export:
+  title: Esporta
+  content: >
+    Esportare i dati attualmente in vista in un file CSV. I file CSV possono essere aperti con qualsiasi software di foglio di calcolo (ad esempio, Microsoft Excel, Apple Pages, OpenOffice, ecc.).
+advanced_search_dialog:
+  title: Ricerca avanzata
+  content: >
+    
+adv_keyword:
+  title: Ricerca per parola chiave
+  content: >
+    Ricerca basata sui corpi soggetto e messaggio dei ticket, nonché in tutti i contenuti testuali connessi con campi personalizzati per gli operatori e i tickets.
+adv_date_range:
+  title: Ricerca per intervallo di Date
+  content: >
+    Definizione qui

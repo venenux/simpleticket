@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Vyhľadanie
+  content: >
+    
+advanced:
+  title: Rozšírené
+  content: >
+    Tu môžete upraviť parametre hľadania. Ak vyberiete pokročilé hľadanie a spustíte ho, získané údaje môžete <span class="doc-desc-title">exportovať </span> pomocou odkazu v spodnej časti stránky.
+open_tickets_table:
+  title: Zoznam otvorených ticketov
+  content: >
+    Všetky tickety, ktorý je nutné sa venovať
+ticket:
+  title: Tiket
+  content: >
+    
+date:
+  title: Dátum
+  content: >
+    
+subject:
+  title: Predmet
+  content: >
+    
+from:
+  title: Od
+  content: >
+    
+priority:
+  title: Priorita
+  content: >
+    
+assigned_to:
+  title: Pridelené
+  content: >
+    
+export:
+  title: Exportovať
+  content: >
+    Exportovať aktuálne zobrazené dáta do CSV súboru. CSV je možné otvoriť v akomkoľvek tabuľkovom editore (napr. MS Excel, OpenOffice ....).
+advanced_search_dialog:
+  title: Pokročilé hľadanie
+  content: >
+    
+adv_keyword:
+  title: Hľadanie pomocou kľúčových slov
+  content: >
+    Nájsť zhody v predmete a tele správy vlákna ticketu rovnako ako v celom textovom obsahu spojeného s vlastnými poľami pre používateľa.
+adv_date_range:
+  title: Vyhľadanie podľa zadaného rozsahu dátumov
+  content: >
+    Definujte tu

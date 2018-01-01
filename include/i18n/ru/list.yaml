@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Статус заявки
+  name_plural: Состояния заявки
+  sort_mode: SortCol
+  masks: 13
+  notes: Состояния заявки
+  properties:
+    title: Свойства состояния заявки
+    instructions: Свойства, которые могут быть установлены для состояния заявки.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Состояние
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Состояние заявки
+      - 
+        type: memo
+        name: description
+        label: Описание
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

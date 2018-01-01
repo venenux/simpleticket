@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Aktivita Tiketu
+  content: >
+    Vyberte rozsah dat grafu a tabulky (viz <span class="doc-desc-title"> statistiky</span>) k zaměření se na všechny odpovídající údaje pro tato data. Níže uvedený graf bude vždy odrážet široký přehled dat celého systému (tj. počet obyvatel). Nicméně můžete procházet <span class="doc-desc-title"> tabulku statistiky</span> níže a zaměřit se na užší předmět zájmu (např. oddělení, témata nebo personál). Kromě toho můžete exportovat všechny aktuálně zobrazená data v tabulce <span class="doc-desc-title"> statistiky</span>.
+report_timeframe:
+  title: Zpráva časového rámce
+  content: >
+    Vyberte počáteční datum pro vzorek požadovaných dat pomocí ovládacího prvku Výběr data. Vyberte dobu, od tohoto data a definujte koncové datum pro vzorek dat.
+statistics:
+  title: Statistiky
+  content: >
+    Chcete-li zobrazit konkrétní vzorek údajů, přejděte na předmět zájmu klepnutím na příslušnou kartu. Kruhy v tabulce představují velikost jmenovitých údajů. Tedy čím větší bude číslo v určité buňce, tím větší bude sousední kruh.
+opened:
+  title: Otevřeno
+  content: >
+    Toto představuje tikety otevřené agenty (tj, interně otevřené), nikoli klienty.
+assigned:
+  title: Přiřazené
+  content: >
+    Systém sleduje každou událost, ať je automaticky nebo manuálně přiřazena konkrétnímu Oddělení nebo Agentovi. Automatické přiřazování bude záviset na zavedeném nastavení pro <span class="doc-desc-title">Nápovědu</span> a <span class="doc-desc-title">Emailové filtry</span> v Administračním panelu.
+overdue:
+  title: Zpožděné
+  content: >
+    Toto je počet ticketů, které porušily SLA plán, kterému náležejí.
+closed:
+  title: Uzavřené
+  content: >
+    Toto je množství tiketů, které byly uzavřeny.
+reopened:
+  title: Znovu otevřené
+  content: >
+    Toto je počet tiketů, které byly znovu otevřeny ať už agentem nebo klientem, který odpověděl na již uzavřený tiket.
+service_time:
+  title: Délka vypořádání
+  content: >
+    <span class="doc-desc-title">Délka vypořádání</span> je čas, který uplynul od doby založení ticketu do doby jeho uzavření. Sloupec  <span class="doc-desc-title">Délka vypořádání</span> uvádí průměrný čas vypořádání tiketu v hodinách a ve vybraném rozsahu dat.
+response_time:
+  title: Reakční doba
+  content: >
+    <span class="doc-desc-title">Reakční doba</span> je čas, který uplyne od jakékoliv Klientovy komunikace do doby, než Agent odpoví.  Tato doba se netýká pouze prvotního vytvoření Ticketu klientem, ale každého Klientova jednání.

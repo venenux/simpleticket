@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: Šablóny emailov
+  content: >
+    Šablóny Emailov sa používajú na posielanie automatických odpovedí a upozornení pre rôzne akcie, ktoré môžu nastať počas životného cyklu Ticketu.
+template_to_clone:
+  title: Klon Šablóny
+  content: >
+    Vyber šablónu na klonovanie alebo jednoducho začni so základnými šablónami emailov.
+language:
+  title: Jazyk
+  content: >
+    Zvoľte si jazyk pre <span class="doc-desc-opt">základné</span> <span class="doc-desc-title">Emailové šablóny</span>. Jazykové balíky sú dostupné na osTicket.com.
+  links:
+    - 
+      title: Jazykový balíček osTicket
+      href: 'http://osticket.com/download'
+status:
+  title: Status
+  content: >
+    <span class="doc-desc-opt">Povolené</span> Šablóny je možné priradiť Oddeleniam a nastaviť ako predvolené. Aktuálne používaná šablóna sa nedá <span class="doc-desc-opt">Vypnúť</span>.

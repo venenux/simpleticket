@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Munkatársak
+  content: >
+    Az alábbi táblázat mutatja a filterezés eredményét. Ha nincs felterezés beállítva, akkor az összes<span class="doc-desc-title">Agent</span> (személyzet) <span class="doc-desc-title">Tag</span> listázásra kerül, több oldalon. Lásd az oldalakat alább, hogy eligazodjon az eredmények között.
+status:
+  title: Állapot
+  content: >
+    Ez azt mutatja meg, hogy az <span class="doc-desc-title">Agent</span>milyen státuszban van, zárolt, aktív, vagy aktív (szabadságon).

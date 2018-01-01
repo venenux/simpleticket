@@ -1,0 +1,13 @@
+---
+groups:
+  title: Nhóm
+  content: >
+    Nhóm có thể xác định quyền của nhân viên trong phần hỗ trợ. Nhóm cũng có thể được cấp quyền truy nhập cho nhiều Ban ngành khác nhau thay vì Ban ngành ban đầu của nhân viên.
+status:
+  title: Tình trạng
+  content: >
+    Nếu <span class="doc-desc-opt"> vô hiệu hóa</span>, các nhân viên trong nhóm này không thể đăng nhập và sẽ không nhận được cảnh báo &amp; thông báo của phòng ban .
+department_access:
+  title: Quyền truy cập Ban ngành
+  content: >
+    Đánh dấu các phòng ban mà các thành viên nhóm được phép truy cập.

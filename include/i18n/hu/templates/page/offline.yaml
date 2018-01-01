@@ -1,0 +1,11 @@
+---
+notes: |
+  Az offline oldal az ügyfél portálon jelenik meg, mikor az ügyfélszolgálat nem üzemel.
+name: Offline
+body: |
+  <div><h1>
+  <span style="font-size: medium">Támogatási hibajegy kezelő rendszer nem üzemel</span>
+  </h1>
+  <p>Köszönjük érdeklődését.</p>
+  <p>Ügyfélszolgálatunk jelenleg nem üzemel. Kérjük, látogasson vissza később.</p>
+  </div>

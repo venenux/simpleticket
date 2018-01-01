@@ -1,0 +1,21 @@
+---
+notes: |
+  Saadetakse kliendile, kui registreeritakse uus pöördumine
+subject: |
+  Kasutajatoe pöördumine on registreeritud [#%{ticket.number}]
+body: |
+  <h3><strong>Lugupeetud %{recipient.name.first}</strong></h3>
+  <p>
+  Teie pöördumine on registreeritud #%{ticket.number}.
+  Kastuajatoe töötaja võtab Teiega peagi ühendust. Selle lingi kaudu saate 
+  <a href="%{recipient.ticket_link}">jälgida oma pöördumise lahendamise progressi onlain</a>.
+  </p>
+  <br>
+  <div style="color: rgb(127, 127, 127)">
+  Teie %{company.name} meeskond
+  <br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Kui soovite lisada infot või kommentaare, siis palun vastake sellele e-kirjale või <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >logige sisse</span></a>, et näha kõiki oma registreeritud pöördumisi</em></div>

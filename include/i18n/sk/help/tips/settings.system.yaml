@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Stav Helpdesku
+  content: >
+    Ak je stav zmenený na <span class="doc-desc-opt">Offline</span>, klientovo rozhranie bude odpojené. Toto však neovplyvní interakciu normálneho Agenta s Agent panelom.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Tento URL odkaz je základný pre osTicket inštaláciu. Používa sa v e-mailovej komunikácii k smerovaniu koncových používateľov späť na technickú podporu.
+helpdesk_name_title:
+  title: Helpdesk názov okna
+  content: >
+    Toto je názov, ktorý sa objaví na karte v prehliadači. Ak bude helpdesk zaradený medzi záložky prehliadača, použije sa tento názov ako názov záložky.
+default_department:
+  title: Predvolené oddelenie
+  content: >
+    Vyberte <span class="doc-desc-title">predvolené oddelenie</span> pre tikety, ktoré nie sú automaticky presmerované na konkrétne oddelenie. <br/><br/> Tikety môžu byť smerované na oddelenie na základe predmetu tiketu, zdrojového emailu alebo filtrácie tiketov.
+default_page_size:
+  title: Predvolená veľkosť strany
+  content: >
+    Zadajte počet položiek na stránku v zobrazení fronty tiketov. Každý pracovník si môže zmeniť tento počet položiek v  <span class="doc-desc-title">Mojom nastavení</span>.
+default_log_level:
+  title: Predvolená úroveň logu
+  content: >
+    Definuje minimálnu úroveň hlásení, ktoré budú zaznamenané v<span class="doc-desc-title">systémovom logu</span>. <span class="doc-desc-opt">Debug</span> znamená podrobnú úroveň, a <span class="doc-desc-opt">Error</span> znamená len najdôležitejšie hlásenia. Napríklad, ak chcete vidieť všetky hlásenia v  <span class="doc-desc-title">systémových logoch</span>, vyberte <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Vymazanie logov
+  content: >
+    Definuje ako dlho budú hlásenia uchované v <span class="doc-desc-title">systémových logoch</span> dovtedy než budú vymazané.
+default_name_formatting:
+  title: Štandardný formát pre meno
+  content: >
+    Vyberte formát pre zobrazenie mena v celom systéme. Emailové šablóny ho použijú ak nebude špecifikovaný iný formát priamo pri použitej premennej.
+  links:
+    - 
+      title: Zoznam premenných, ktoré sa používajú v  šablónach pre emaily
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Dátum  &amp; Možnosť času
+  content: >
+    Nasledujúce nastavenie definuje zobrazenie dátumu a času pre klientov. Zobrazené dátumy ilustrujú ako bude vyzerať výsledná hodnota.
+  links:
+    - 
+      title: Pozri definíciu dátumu v PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

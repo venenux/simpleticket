@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Hazır Yanıtlar
+  content: >
+    Kayıtlara verilecek yanıtlarda kullanılabilecek bir <span class="doc-desc-title">Hazır Yanıt </span> oluşturun. Bir <span class="doc-desc-title">Kayıt Filtresi </span> tanımlayarak bu hazır yanıtı <span class="doc-desc-title">Kayıt Otomatik Yanıtı</span> olarak da kullanabilirsiniz.
+  links:
+    - 
+      title: Bir Kayıt Filtresi Oluştur
+      href: /scp/filters.php
+canned_attachments:
+  title: Hazır Ekler
+  content: >
+    Kayıtlarda verilecek yanıtlarda seçilen <span class="doc-desc-title">Hazır Yanıt</span> için otomatik olarak kullanılabilecek bir dosya ekleyin.

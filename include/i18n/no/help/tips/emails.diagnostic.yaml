@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Teste utgående e-post
+  content: >
+    E-post levering avhenger av dine serverinnstillinger (php.ini) og/eller SMTP konfigurasjonen.
+  links:
+    - 
+      title: Velg en e-post for å konfigurere innstillinger for SMTP (utgående)
+      href: /scp/emails.php
+from:
+  title: Fra
+  content: >
+    
+to:
+  title: Til
+  content: >
+    
+subject:
+  title: Emne
+  content: >
+    
+message:
+  title: Melding
+  content: >
+    

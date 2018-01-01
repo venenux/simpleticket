@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: समर्थन
+  signature: सहायता विभाग
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: बिक्री
+  signature: |
+    बिक्री और ग्राहक संबंध
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: अनुरक्षण
+  signature: |
+    अनुरक्षण विभाग
+  ispublic: 0
+  group_membership: 0

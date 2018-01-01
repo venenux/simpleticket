@@ -1,0 +1,53 @@
+---
+search_field:
+  title: ฟิลด์การค้นหา
+  content: >
+    
+advanced:
+  title: ขั้นสูง
+  content: >
+    Narrow down your search parameters. Once you have selected your advanced search criteria and run the search, you can <span class="doc-desc-title">Export </span> the data at the bottom of the tickets page.
+open_tickets_table:
+  title: Open Tickets Table
+  content: >
+    All tickets currently opened and requiring attention
+ticket:
+  title: Ticket ID
+  content: >
+    
+date:
+  title: วัน
+  content: >
+    
+subject:
+  title: เรื่อง
+  content: >
+    
+from:
+  title: จาก
+  content: >
+    
+priority:
+  title: ระดับความสำคัญ
+  content: >
+    
+assigned_to:
+  title: มอบหมายให้
+  content: >
+    
+export:
+  title: ส่งออก
+  content: >
+    ส่งออกข้อมูลของคุณ ปกติจะเป็นไฟล์ชนิด CSV. ไฟล์ CSV สามารถที่จะเปิดกับซอฟแวร์สเปรดชีทส่วนใหญ่ได้ (เช่น i.e., Microsoft Excel, Apple Pages, OpenOffice, อื่น ๆ).
+advanced_search_dialog:
+  title: ค้นหาขั้นสูง
+  content: >
+    
+adv_keyword:
+  title: ค้นหาคำสำคัญ
+  content: >
+    Find hits based on the subject and message bodies of the ticket thread as well as all textual content associated with custom fields for the users and the tickets.
+adv_date_range:
+  title: ค้นหาตามช่วงวัน
+  content: >
+    กำหนดที่นี่

@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Informace o společnosti
+  content: >
+    Vztahuje se na firmu či organizaci provozující tento systém a její zaměstnance. Zde uvedené informace se objeví v podpisech (patičkách) emailu odesílaných jako odpovědi při zpracování požadavků.
+  links:
+    - 
+      title: Základní informace o společnosti
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Vstupní Stránka
+  content: >
+    <span class="doc-desc-title">Vstupní Stránka</span> se zobrazí na titulní stránce vašeho webu podpory.
+offline_page:
+  title: Stránka mimo provoz
+  content: >
+    <span class="doc-desc-title">Offline stránka</span> se zobrazí na zákaznického portálu, pokud je  mimo provoz, viz Panel správce -&gt; Nastavení -&gt; Systém -&gt; Stav systému zákaznické podpory.
+default_thank_you_page:
+  title: Výchozí děkovná stránka
+  content: >
+    <span class="doc-desc-title">Stránka Děkujeme</span> se zobrazí zákazníkovi, když <span class="doc-desc-title">Klient</span> založí nový požadavek. <br/><br/> <span class="doc-desc-title">Stránka Děkujeme</span> může být různá pro každý druh požadavku.
+logos:
+  title: Loga
+  content: >
+    Můžete si zvolit <span class="doc-desc-title">Logo</span>,  které se zobrazí klientům na klientském portálu  (např. Stránky podpory zákazníků).
+upload_a_new_logo:
+  title: Nahrát nové logo
+  content: >
+    Vyberte obrázek ve formátu .gif, .jpg nebo .png. Jeho rozměry budou přizpůsobeny, poměr stran bude zachován. Nicméně datová velikost obrázku nebude redukována a proto pro rychlé načítání stránek doporučujeme, aby rozměry výrazně nepřesahovaly výchozí velikost obrázku (817px &times; 170px).

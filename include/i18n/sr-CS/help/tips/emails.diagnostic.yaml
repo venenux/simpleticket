@@ -1,0 +1,20 @@
+---
+test_outgoing_email:
+  title: Testiraj odlazne imejl poruke
+  content: Isporuka imejl poruka zavisi od serverskih podešavanja (php.ini) i/ili od SMTP konfiguracije.
+  links:
+    - 
+      title: Odaberite imejl za konfiguraciju SMTP (odlaznih) podešavanja
+      href: /scp/emails.php
+from:
+  title: Od
+  content: ""
+to:
+  title: Za
+  content: ""
+subject:
+  title: Naslov
+  content: ""
+message:
+  title: Poruka
+  content: ""

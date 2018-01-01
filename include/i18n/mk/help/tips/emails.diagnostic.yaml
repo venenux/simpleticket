@@ -1,0 +1,20 @@
+---
+test_outgoing_email:
+  title: Тестирај појдовен емаил
+  content: Испраќањето на мејлови зависи од подесувањата на серверот (php.ini) и/или SMTP конфигурација.
+  links:
+    - 
+      title: Селектирај меил за конфигурација на SMTP (излезни) подесувања
+      href: /scp/emails.php
+from:
+  title: Од
+  content: ""
+to:
+  title: До
+  content: ""
+subject:
+  title: Наслов
+  content: ""
+message:
+  title: Порака
+  content: ""

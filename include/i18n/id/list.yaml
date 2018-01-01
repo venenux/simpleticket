@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Status Tiket
+  name_plural: Status Tiket
+  sort_mode: SortCol
+  masks: 13
+  notes: Status Tiket
+  properties:
+    title: Properti Status Tiket
+    instructions: Properti yang dapat diatur pada status tiket.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Kondisi
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Kondisi sebuah tiket
+      - 
+        type: memo
+        name: description
+        label: Keterangan
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

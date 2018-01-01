@@ -1,0 +1,46 @@
+---
+notes: |
+  ההתראה נשלחה לאנשי הצוות כשפעילות פנימית כגון הערה פנימית או תשובה של איש צוות מצורפת לקריאה.
+subject: |
+  התראה על פעולה פנימית חדשה
+body: |
+  <div dir="rtl" t>
+  <h3><strong>שלום %{recipient.name},</strong></h3>
+  סוכן הוסיף פעילות לקריאה <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>מאת</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>כותרת</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  להצגת הקריאה/ הוספת תגובה יש <a
+  href="%{ticket.staff_link}">להיכנס</a> למערכת קריאות השרות
+  <br>
+  <br>
+  <em style="font-size: small; ">מערכת קריאות השרות שלך</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">
+  </div>

@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Atvērts
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Atvērtie pieteikumi.
+- 
+  id: 2
+  name: Atrisināts
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Atrisināti pieteikumi ir aizvērti pieteikumi, kurus var atkal atvērt gala lietotājs. Tas var būt noderīgi, kad tiek lietots trigeris, lai aizvērtu atrisinātos pieteikumus ar paziņojuma nosūtīšanu gala lietotājam.
+- 
+  id: 3
+  name: Slēgts
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Pieteikumus, kas marķēti kā slēgti, gala lietotājs nevar atkārtoti atvērt. Tomēr pieteikumi būs vēl pieejami gan klienta, gan darbinieku paneļos.
+- 
+  id: 4
+  name: Arhivēts
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Pieteikumi pieejami tikai administratīvām vajadzībām, taču vairs nav pieejami pieteikumu sarakstos.
+- 
+  id: 5
+  name: Dzēsts
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Pieteikumi, kas atzīmēti dzēšanai. Nav pieejami pieteikumu sarakstā.

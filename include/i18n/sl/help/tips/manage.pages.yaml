@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Spletne Strani
+  content: >
+    Spletne Strani lahko delujejo kakor mini Uredniški Sistem (CMS). Določite lahko različne pristajalne, nedostopne in zahvalne stran in jih urejate v nastavitvah podjetja in temah za pomoč.
+  links:
+    - 
+      title: Nastavitve Podjetja
+      href: /scp/settings.php?t=pages
+type:
+  title: Tip
+  content: >
+    <span class="doc-desc-opt">Nedostopne</span> strani se prikažejo uporabnikom kadar je sistem za oddajo zahtevkov izklopljen. <span class="doc-desc-opt">Pristajalne</span> strani se prikažejo na domači strani vaše stranke. <span class="doc-desc-opt">Zahvalne</span> strani se prikažejo po oddaji zahtevka za pomoč. <span class="doc-desc-opt">Ostale</span> strani se lahko uporabljajo kot enostavni sistem za urejanje vsebine (CMS).

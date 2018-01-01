@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Obecný dotaz
+  notes: Otázky týkající se produktů nebo služeb
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Zpětná vazba
+  notes: |
+    Požadavky se týkají především prodeje a fakturace
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Nahlásit problém
+  notes: |
+    Produkt, služba nebo problém související se zařízením
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problém s přístupem
+  notes: |
+    Nahlásit nemožnost přístupu k fyzickému nebo virtuálnímu majetku

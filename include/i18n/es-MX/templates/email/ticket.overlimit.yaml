@@ -1,0 +1,15 @@
+---
+notes: |
+  Se envía a los usuarios cuando han excedido el límite máximo de apertura de tickets. El límite es configurable desde el Panel de Administración, y es definido por el número de tickets abiertos por una dirección de email en particular.
+subject: |
+  Se alcanzó el límite de tickets abiertos
+body: |
+  <h3><strong>Estimado(a) %{ticket.name.first},</strong></h3>
+  A alcanzado el máximo de tickets abiertos permitidos. Para poder abrir
+  un nuevo ticket, debe de cerrar alguno que tenga pendiente. Para
+  actualizar o agregar comentarios a un ticket abierto sólo  <a
+  href="%{url}/tickets.php?e=%{ticket.email}">ingrese al servicio de soporte</a>.
+  <br>
+  <br>
+  Gracias,<br/>
+  Servicio de Soporte

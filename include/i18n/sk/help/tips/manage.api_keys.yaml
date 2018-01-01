@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API kľúč
+  content: >
+    API kľúče slúžia na autorizáciu klientov pridávajúcich nové podnety prostredníctvom grafického rozhrania (API). API kľúče sa používajú namiesto hesiel. Keďže API kľúče môžu byť posielané nezašifrované, sú späté s IP adresou klienta.
+  links:
+    - 
+      title: osTicket API Dokumentácia
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP adresa
+  content: >
+    Sieťová IP adresa klienta. Každá unikátna adresa klienta bude vyžadovať vlastný API kľúč

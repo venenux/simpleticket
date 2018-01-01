@@ -1,0 +1,13 @@
+---
+name:
+  title: Namn
+  content: >
+    Välj ett beskrivande namn för denna <span class="doc-desc-title">SLA Plan</span> som beskriver dess syfte.
+grace_period:
+  title: Anståndsperiod
+  content: >
+    Avgör efter hur många timmar att ett Ticket har skapats som det automatiskt markeras som försenat. <br><br> <em>Timmar börjar att räknas från och med tiden då Ticket skapades.</em>
+transient:
+  title: Kortvarig
+  content: >
+    Kortvariga SLAs klassas som temporära och kan överskridas av icke kortvariga SLA på <span class="doc-desc-opt">Avdelning</span> överföring eller när dess<span class="doc-desc-title">Hjälpämne</span> ändras.

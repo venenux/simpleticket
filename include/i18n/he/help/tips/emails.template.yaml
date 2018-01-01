@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: תבניות דואר אלקטרוני
+  content: >
+    ערכות תבנית דואר אלקטרוני משמשות בכדי לשלוח תגובות אוטומטיות והתראות על פעולות שונות שניתן לבצע במהלך החיים של כרטיס.
+template_to_clone:
+  title: תבנית לשיכפול
+  content: >
+    בחר ערכת תבנית לשכפול או התחל לעבוד עם תבניות הדוא ל הקיימות.
+language:
+  title: שפה
+  content: >
+    בחר את השפה הרצויה עבור <span class="doc-desc-opt"> תבניות</span> <span class="doc-desc-title"> דואל אלקטרוני </span>. ערכות שפה זמינות ב- osTicket.com.
+  links:
+    - 
+      title: ערכות שפה של osTicket
+      href: 'http://osticket.com/download'
+status:
+  title: מצב
+  content: >
+    <span class="doc-desc-opt">מאופשר</span> סט תבניות זמין לשיוך למחלקה וסט תבניות לברירת המחדל של המערכת. לא ניתן להפוך סטים שבשימוש ל- <span class="doc-desc-opt"> לא מאופשרים</span>.

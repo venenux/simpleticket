@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Podatki o podjetju
+  content: >
+    To se nanaša na podjetje ali organizacijo ki bo imela koristi od rešitve osTicket in podpornega osebja. Ti podatki se bodo pojavili v podpisih (npr. v nogi) ko agenti odgovoarjajo na zahtevke.
+  links:
+    - 
+      title: Podatki o podjetju
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Vstopna stran
+  content: >
+    <span class="doc-desc-title">Vstopna stran</span> je prikazana kot prva stran vašega podpornega sistema.
+offline_page:
+  title: Stran nedoseglijva
+  content: >
+    <span class="doc-desc-title">Stran nedosegljiva</span> je prikazana kadar je sistem nedosegljiv, več: Admin Panel -&gt; Setting -&gt; System -&gt; Helpdesk Status.
+default_thank_you_page:
+  title: Privzeta stran za zahvalo
+  content: >
+    <span class="doc-desc-title">Stran za zahvalo</span> je prikazana uporabniku ko <span class="doc-desc-title">Uporabnik</span> vloži nov zahtevek. <br/><br/> <span class="doc-desc-title">Strani za zahvalo</span> so lahko povezane z posameznimi temami.
+logos:
+  title: Logotipi
+  content: >
+    Prilagaodite si lahko <span class="doc-desc-title">Logo</span> ki bo prikazan na strani za zahtevke.
+upload_a_new_logo:
+  title: Naloži nov logotip
+  content: >
+    Izberite sliko v .gif, .jpg ali .png formatu. Velikost slika se bo proporcionalno prilagodila. V prid hitrejšega nalaganja priporočamo, da pred nalaganjem sliko preuredite na privzeto velikost (817px &times; 170px).

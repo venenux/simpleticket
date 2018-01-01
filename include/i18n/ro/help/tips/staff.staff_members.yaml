@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Membrii personalului
+  content: >
+    Următorul tbel arată rezultatele filtrului de deasupra sa. Dacă nu se face nici o setare pentru filtru, atunci sunt afișați toți <span class="doc-desc-title">membrii</span> (personalului) din categoria <span class="doc-desc-title">agenți</span>, în format paginat. Vezi secțiunile paginilor de mai jos pentru a naviga prin rezultate mai multe.
+status:
+  title: Stare
+  content: >
+    Va afișa dacă <span class="doc-desc-title">agent</span>ul e "Blocat", "Activ" sau "Activ (în concediu)".

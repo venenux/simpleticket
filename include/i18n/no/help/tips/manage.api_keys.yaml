@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API-nøkkel
+  content: >
+    API nøkkler brukes til å godkjenne klienter som sender nye saker via Programmerer Grenseflate (API). API nøkkler brukes i stedet for passord. Siden API nøkkler kan sendes ukryptert, er de knyttet til hver klients IP adresse.
+  links:
+    - 
+      title: osTicket API-dokumentasjon
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP-adresse
+  content: >
+    Klientens IP-adresse. Hver unike klientens IP-adresse krever separate API-nøkkler

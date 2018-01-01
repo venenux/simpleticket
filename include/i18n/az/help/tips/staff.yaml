@@ -1,0 +1,17 @@
+---
+signature:
+  title: İşçilərin imzası
+  content: |
+    Sorğulara cavab vermək üçün işçilərin imzasını yaradın. Bu imza sorğu cavabının başında bir seçim  kimi ortaya çıxacaq.
+type:
+  title: Hesab tipi
+  content: |
+    Adminlərin admin panelə daxil olmaq imtiyazı var. İşçilərin isə ancaq sorğuları idarə etmək və məlumat bazasına giriş haqları var.
+group:
+  title: Təyin olunmuş qrup
+  content: |
+    Qrup üzvlüyü işçilərin sistemdə rolunu təyin edir. Bu heyətin help deskdə nəyə çıxışları olduğunu qrup idarəçiliyi səhifəsini ziyarət edərək təyin edin.
+notes:
+  title: Daxili qeydlər
+  content: |
+    Heyətə aid olan daxili qeydləri yerləşdirin; qeydlər ancaq hesab tipi admin olan işçilərə görünəcək.

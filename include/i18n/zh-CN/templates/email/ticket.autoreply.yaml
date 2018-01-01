@@ -1,0 +1,25 @@
+---
+notes: |
+  当自动封装回复被发布到新咨询时，发送给客人。
+  
+  可替代变量: %{ticket.*}, %{response}
+subject: |
+  回复: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>亲爱的 %{recipient.name.first},</strong></h3>
+  <a href="%{recipient.ticket_link}">#%{ticket.number}</a> 工单 支持请求已创建，并且已按照下面的内容分配完成。
+  <br>
+  <br>
+  主题: <strong>%{ticket.topic.name}</strong>
+  <br>
+  内容: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">您的%{company.name} 团队,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>我们真心地希望这次回复能够充分回答您的问题，如果您有其它的信息，请可以直接回复此邮件或者 <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >登录</span></a>查看您的支持请求详细的信息。</em></div>

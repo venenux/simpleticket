@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Prepovedani naslovi e-sporočil
+  content: >
+    Prispela e-sporočila z liste prepovedanih naslovov e-sporočil, bodo samodejno zavrnjena.

@@ -1,0 +1,77 @@
+---
+help_topic_information:
+  title: Informace k tématu nápovědy
+  content: >
+    Průvodce  <span class="doc-desc-title"> téma nápovědy </span> jaké informace jsou od uživatelů získávány a jak jsou tikety směrovány a přiřazovány.
+topic:
+  title: Název tématu
+  content: >
+    Unikátní jméno téma nápovědy.
+status:
+  title: Stav
+  content: >
+    Je-li zakázáno, toto <span class="doc-desc-title"> téma nápověya</span> nebude k dispozici.
+type:
+  title: Typ
+  content: >
+    Jestliže je  <span class="doc-desc-title"> nápověda </span> označena jako soukromá, bude k dispozici jen agentům k výběru při otevírání nového tiketu z panelu zaměstnanců.
+parent_topic:
+  title: Nadřazené téma
+  content: >
+    Vyber nadřazené téma, ke kterému <span class="doc-desc-title">téma nápovědy </span> patřit. Toto nadřazené téma se bude zobrazovat v listu <span class="doc-desc-title">témat nápověd </span> před tímto tématem.
+custom_form:
+  title: Vlastní formulář
+  content: >
+    Vlastní formuláře pomůžou získat bližší informace od uživatelů, které se vztahují k této <span class="doc-desc-title"> nápovědě</span>.
+  links:
+    - 
+      title: Správa uživatelských formulářů
+      href: /scp/forms.php
+priority:
+  title: Priorit
+  content: >
+    Zvol prioritu přiřazovanou novým tiketům vztahujícím se k těmto <span class="doc-desc-title">tématům nápovědy</span>. <br><br>  Filtr tiketů může tuto prioritu přepsat.
+department:
+  title: Oddělení
+  content: >
+    Vyber oddělení, do kterého budou nové tikety s tímto tématem nápovědy směrovat.
+  links:
+    - 
+      title: Správa oddělení
+      href: /scp/departments.php
+sla_plan:
+  title: SLA Plán
+  content: >
+    Vyber SLA plán spojený s tímto  <span class="doc-desc-title">tématem nápovědy</span>. <br><br> Tato volba přepíše jakýkoliv vybraný SLA plán oddělení
+  links:
+    - 
+      title: Správa plánů SLA
+      href: /scp/slas.php
+thank_you_page:
+  title: Stránka s poděkováním
+  content: >
+    Vyberte stránku s poděkováním, která se zobrazí uživateli po založení požadavku v tomto <span class="doc-desc-title">tématu podpory</span>.
+  links:
+    - 
+      title: Správa stránek s poděkováním
+      href: /scp/pages.php
+auto_assign_to:
+  title: Automaticky přiřazovat nové tikety
+  content: >
+    Volitelně vyber agenta nebo tým, který bude přiřazen na základě tiketu otevřeného s tímto <span class="doc-desc-title">tématem nápovědy</span> <br><br> Filtry tiketů mohou toto přiřazování přepsat.
+  links:
+    - 
+      title: Správa pracovníků a týmů
+      href: /scp/staff.php
+ticket_auto_response:
+  title: Automatická odpověď na tiket
+  content: >
+    Je-li zaškrtnuto, nastavení vypne automatické odpovědi tiketů pro toto <span class="doc-desc-title">téma nápovědy</span>. <br><br> Toto přepíše nastavení automatického odpovídače <span class="doc-desc-title">oddělení </span> a také globální nastavení v <span class="doc-desc-title">nastavení automatického odpovídače</span>.
+  links:
+    - 
+      title: Nastavení systému automatických odpovědí
+      href: /scp/settings.php?t=autoresp
+custom_numbers:
+  title: Běžná čísla tiketů
+  content: >
+    Vybráním "běžná" se přepíšou výchozí systémová nastavení číslování tiketů pro toto téma nápovědy. Více se dozvíš v nápovědě v nastavení tiketů.

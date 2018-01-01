@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Personāla locekļi
+  content: >
+    Šī tabula parāda augšējā filtra rezultātus. Ja filta iestatījumi netika izvēlēti, tad visi <span class="doc-desc-title"> Personāla locekļi </span> ir parādīti un sadalīti pa lapām. Skatīt lapu sadaļu lejā, lai apskatītu pārējos rezultātus.
+apply_filtering_criteria:
+  title: Iestatīt filtrēšanas kritērijus
+  content: >
+    Izvēlieties <span class="doc-desc-title"> Departamentu </span>, kurš ir saistīts ar Jūs interesējošo jautājumu. Jūs varat meklēt specifisku Lietotāju.

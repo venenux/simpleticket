@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Холбоо барих мэдээлэл
+  deletable: false
+  fields:
+    - 
+      type: текст
+      name: имэйл
+      label: Имэйл хаяг
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: имэйл
+    - 
+      type: текст
+      name: нэр
+      label: Овог нэр
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: утас
+      name: утас
+      label: Утас
+      required: false
+      sort: 3
+    - 
+      type: санамж
+      name: тэмдэглэл
+      label: Тусгай тэмдэглэл
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Хүсэлтийн дэлгэрэнгүй
+  instructions: Асуудлаа тодорхой бичнэ үү
+  notes: |
+    Энэ маягт нь үүсгэсэн эх сурвалжаас үл хамааран бүх Хүсэлтэд дагалдаж явна. Та энэ маягтад дурын талбар нэмж болох бөгөөд нэмэлт талбарууд нь бүх Хүсэлт дээр харагдахаас гадна тухайн талбараар хайлт, шүүлт хийх боломжтой.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: текст
+      name: гарчиг
+      label: Асуудлын тойм
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: зурвас
+      label: Асуудлын дэлгэрэнгүй
+      hint: Хүсэлт үүсгэх болсон шалтгааны дэлгэрэнгүй.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: зэрэглэл
+      name: зэрэглэл
+      label: Зэрэглэлийн түвшин
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Байгууллагын мэдээлэл
+  instructions: Дэлгэрэнгүй нь имэйлийн загварт бий
+  deletable: false
+  fields:
+    - 
+      type: текст
+      name: нэр
+      label: Байгууллагын нэр
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: текст
+      name: вэб сайт
+      label: Вэб сайт
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: утас
+      name: утас
+      label: Утасны дугаар
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: санамж
+      name: хаяг
+      label: Хаяг
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Байгууллагын мэдээлэл
+  instructions: Хэрэглэгчийн байгууллагын тухай дэлгэрэнгүй
+  deletable: false
+  fields:
+    - 
+      type: текст
+      name: нэр
+      label: Нэр
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: санамж
+      name: хаяг
+      label: Хаяг
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: утас
+      name: утас
+      label: Утас
+      required: false
+      sort: 3
+    - 
+      type: текст
+      name: вэб сайт
+      label: Вэб сайт
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: санамж
+      name: тэмдэглэл
+      label: Тусгай тэмдэглэл
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

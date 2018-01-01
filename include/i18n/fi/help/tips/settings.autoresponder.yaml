@@ -1,0 +1,44 @@
+---
+new_ticket:
+  title: Uusi tiketti
+  content: >
+    Aktivoi tämä jos haluat automaattisesti vastata Asiakkaalle uuden tiketin luonnissa.
+  links:
+    - 
+      title: Uuden Tiketin automaattisen vastauksen pohja
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Henkilökunnan luoma uusi tiketti
+  content: >
+    Muistutus lähetetään kun Käsittelijä luo tiketin Asiakkaan puolesta. <em>Käsittelijä voi estää tämän luodessaan tikettejä.</em>
+  links:
+    - 
+      title: Uuden tiketin muistutuspohja
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Uuden viestin vahvistus
+  content: >
+    Vahvistusviesti lähetetään, kun olemassa olevaan tikettiin lisätään uusi viesti.
+  links:
+    - 
+      title: Uuden Viestin vahvistuspohja
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Uuden Viestin Muistutus
+  content: >
+    Välitä viestit jotka tehdään viestintätyökalussa kaikille tiketin osanottajille.
+  links:
+    - 
+      title: Uusi Tapahtuma ilmoituspohja
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Ilmoitus maksimimäärän ylittämisestä
+  content: >
+    Tiketin luonti estetty viesti Asiakkaalle <span class="doc-desc-title">Maksimi määrä avoimia tikettejä</span>.
+  links:
+    - 
+      title: Maksimimäärän ylityksen ilmoituspohja
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: Aseta <em>Maksimi määrä avoimia tikettejä</em>
+      href: /scp/settings?t=tickets

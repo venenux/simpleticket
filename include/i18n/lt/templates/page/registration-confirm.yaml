@@ -1,0 +1,6 @@
+---
+notes: >
+  Tai puslapio šablonas kuris yra rodomas klientui po sėkmingos registracijos. Šablone reiktų paminėti, kad sistema siunčia jam patvirtinimo e-laišką su nuoroda į sekančius registracijos veiksmus.
+name: "Paskyros registracija"
+body: >
+  <div><strong>Ačiū kad užregistravote savo paskyrą.</strong><br/> <br /> Mes išsiuntėme jums e-laišką adresu kurį įvedėte. Prašome sekti nuorodą e-pašte, kad patvirtintumėte savo paskyrą ir gautumėte teises prie bilietų. </div>

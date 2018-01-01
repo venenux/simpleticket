@@ -1,0 +1,53 @@
+---
+search_field:
+  title: 검색 필드
+  content: >
+    
+advanced:
+  title: 고급
+  content: >
+    검색 조건을 좁히세요. 고급 검색 조건을 선택하고 조회하면, 티켓 페이지 하단의  <span class="doc-desc-title">내보내기</span>를 통해 데이터를 받을 수 있습니다.
+open_tickets_table:
+  title: 티켓 테이블 열기
+  content: >
+    현재 모든 티켓이 오픈되어 있으며 주의가 요구됩니다.
+ticket:
+  title: 티켓
+  content: >
+    
+date:
+  title: 날짜
+  content: >
+    
+subject:
+  title: 제목
+  content: >
+    
+from:
+  title: 발신자
+  content: >
+    
+priority:
+  title: 우선순위
+  content: >
+    
+assigned_to:
+  title: 할당
+  content: >
+    
+export:
+  title: 내보내기
+  content: >
+    현재 보이는 데이터를 CSV 파일로 내보내세요. CSV 파일은 스프레드시트 소프트웨어(마이크로소프트 엑셀, 애플 페이지, 오픈오피스 등)로 열 수 있습니다.
+advanced_search_dialog:
+  title: 고급 검색
+  content: >
+    
+adv_keyword:
+  title: 키워드 검색
+  content: >
+    티켓 스레드 제목과 메시지 본문 및 사용자와 티켓의 사용자 정의 필드와 연결된 모든 텍스트와 일치하는 것을 검색합니다.
+adv_date_range:
+  title: 기간으로 검색
+  content: >
+    여기에 정의

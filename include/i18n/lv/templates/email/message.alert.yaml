@@ -1,0 +1,41 @@
+---
+notes: |
+  Tiek nosūtīts atbalsta grupas darbiniekiem, kad lietotājs pievieno jaunu ziņojumu. Tas notiek, kad lietotājs atbild uz elektronisko vēstuli, kuru nosūtījusi sistēma vai apmeklē portāla lappusi un izveido jaunu ziņojumu tur.
+subject: |
+  Jauna ziņojuma signāls
+body: |2
+  <h3><strong>Sveicināts %{recipient.name},</strong></h3>
+  Jauna ziņa pievienota pieteikumam <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>No </strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Struktūrvienība</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Lai apskatītu vai atbildētu uz pieteikumu, lūdzu doties uz <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >login</span></a> pieteikumu atbalsta sistēmā.</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Jūsu draudzīgā klientu atbalsta sistēma </em><br> <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Izstrādātājs osTicket" width="126" height="19" style="width: 126px;">

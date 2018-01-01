@@ -1,0 +1,42 @@
+---
+notes: |
+  Dikirim ke anggota staf ketika sebuah tiket dibuat di sistem. Berlaku untuk tiket yang dibuat lewat email, portal web, atau API.
+subject: |
+  Pemberitahuan Tiket Baru
+body: |2
+  <h2>Halo %{recipient},</h2>
+  Tiket baru #%{ticket.number} telah dibuat.
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Dari</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Departemen</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Untuk melihat atau merespon tiket, silahkan <a
+  href="%{ticket.staff_link}">login</a> ke sistem tiket</div>
+  <em style="font-size: small">Salam</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

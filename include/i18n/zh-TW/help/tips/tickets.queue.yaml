@@ -1,0 +1,53 @@
+---
+search_field:
+  title: 搜索欄位
+  content: >
+    
+advanced:
+  title: 進階選項
+  content: >
+    縮小您的搜索參數。一旦您選擇了您的高級的搜尋條件和運行搜索，您可以 <span class="doc-desc-title"> 匯出</span> 的資料顯示在票頁面底部。
+open_tickets_table:
+  title: 打開票務表
+  content: >
+    所有門票目前已打開、需要留心注意。
+ticket:
+  title: 票
+  content: >
+    
+date:
+  title: 日期
+  content: >
+    
+subject:
+  title: 主題
+  content: >
+    
+from:
+  title: 從
+  content: >
+    
+priority:
+  title: 優先順序
+  content: >
+    
+assigned_to:
+  title: 分配給
+  content: >
+    
+export:
+  title: 匯出
+  content: >
+    你在視圖中在 CSV 檔中當前的資料匯出。CSV 檔可讀取在試算軟體內（即，Microsoft Excel、Apple Pages、OpenOffice等）。
+advanced_search_dialog:
+  title: 進階搜尋
+  content: >
+    
+adv_keyword:
+  title: 關鍵字搜索
+  content: >
+    尋找主旨、案件內容與相關資訊。
+adv_date_range:
+  title: 搜索按日期範圍
+  content: >
+    在這裡下定義

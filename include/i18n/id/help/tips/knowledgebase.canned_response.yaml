@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Respon Tersimpan
+  content: >
+    Buat <span class="doc-desc-title">Canned Response</span> yang bisa digunakan dalam merespon tiket. Ini bisa digunakan juga untuk <span class="doc-desc-title">Penjawab Tiket Otomatis</span> yang diatur oleh <span class="doc-desc-title">Saringan Tiket</span>.
+  links:
+    - 
+      title: Setup Filter Tiket
+      href: /scp/filters.php
+canned_attachments:
+  title: Lampiran Respon Tersimpan
+  content: >
+    Lampirkan berkas yang Anda ingin masukkan secara otomatis dalam respon tiket dengan memanfaatkan <span class="doc-desc-title"> Respon Tersimpan</span> yang baru.

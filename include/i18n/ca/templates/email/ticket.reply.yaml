@@ -1,0 +1,17 @@
+---
+notes: |
+  Envait als usuaris quan els membres del personal de suport fan una resposta a un Ticket obert. Les respostes només poden ser generades pel personal de suport.
+subject: |
+  Re: %{ticket.subject}[#%{ticket.number}]
+body: |
+  <h3><strong>Benvolgut %{recipient.name}</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  El seu equip de %{company.name}.<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Esperem que aquesta resposta siga suficient per contestar a les seves preguntes. Si no és així, per favor no mane un altre email. En lloc, conteste aquest email o <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" > registrat al teu compte</a> per obtindre un arxiu complet de totes les seves peticions y respostes.</em></div>

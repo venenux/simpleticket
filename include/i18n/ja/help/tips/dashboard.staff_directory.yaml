@@ -1,0 +1,7 @@
+---
+staff_members:
+  title: スタッフ メンバー
+  content: '次の表は上のフィルターが反映された結果が表示されます。フィルター設定がされていない場合はすべての <span class="doc-desc-title"> スタッフのメンバー</span> が表示されページによって分割します。詳細結果を閲覧したい場合はリンクを押下しページを参照してください。'
+apply_filtering_criteria:
+  title: フィルター条件を適用します。
+  content: 'あなたが現在関心のある <span class="doc-desc-title"> 部門</span> を選択します。特定のエージェントに対する検索を実行することも可能です。'

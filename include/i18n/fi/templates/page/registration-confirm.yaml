@@ -1,0 +1,6 @@
+---
+notes: >
+  Tämä malli määrittelee sivun, joka näytetään asiakkaalle rekisteröitymisen päätteeksi. Mallin tulisi mainita, että järjestelmä lähettää vahvistussähköpostilinkin sekä mikä on rekisteröitymisen seuraava vaihe.
+name: "Tilin rekisteröinti"
+body: >
+  <div><strong>Kiitos tilin rekisteröimisestä.</strong><br/><br />Olemme lähettäneet sinulle sähköpostia antamaasi osoitteeseen. Ole hyvä ja seuraa saamaasi linkkiä vahvistaaksesi tilisi ja päästäksesi tiketteihisi.</div>

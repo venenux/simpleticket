@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Κατάσταση εισιτηρίων
+  name_plural: Καταστάσεις Δελτίων (Αιτημάτων)
+  sort_mode: SortCol
+  masks: 13
+  notes: Καταστάσεις δελτίων (αιτημάτων)
+  properties:
+    title: Ιδιότητες Kατάστασης Δελτίου (Αιτήματος)
+    instructions: Ιδιότητες που μπορούν να οριστούν για μια κατάσταση δελτίου (αιτήματος).
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Κατάσταση
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Κατάσταση ενός δελτίου (αιτήματος)
+      - 
+        type: memo
+        name: description
+        label: Περιγραφή
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

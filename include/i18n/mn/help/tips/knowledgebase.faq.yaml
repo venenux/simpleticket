@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Жагсаалтын төрөл
+  content: >
+    Үндсэн хэрэглэгчийн сан нь нийтэд нээлттэй бол <span class="doc-desc-title">Асуулт Хариулт</span> хэсгийг <span class="doc-desc-opt">Нийтийн (нээлттэй)</span> болгож бүгдэд харуулах боломжтой.
+  links:
+    - 
+      title: Хэрэглэгчийн Портал дээр Мэдлэгийн Санг нийтэд нээлттэй болгох
+      href: /scp/settings.php?t=kb

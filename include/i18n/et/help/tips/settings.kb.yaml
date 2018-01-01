@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Teadmistebaasi sätted
+  content: >
+    
+knowledge_base_status:
+  title: Teadmistebaasi staatus
+  content: >
+    Aktiveeri need seaded, et kasutajad saaks juurdepääsu avalikele teadmistebaasi artiklitele. <br><br> Teadmistebaasi kategooriaid ja KKK saab kasutada organisatsiooni siseselt (nähtav vaid agentidele).
+  links:
+    - 
+      title: Halda teadmistebaasi
+      href: /scp/kb.php
+restrict_kb:
+  title: Keela ligipääs teadmistebaasile
+  content: >
+    Aktiveeri need seaded, et ära hoida registreerimata kasutajate ligipääs teadmistebaasi artiklitele kliendi kasutajaliidese kaudu.
+  links:
+    - 
+      title: Ligipääsu seaded
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Ettevalmistatud vastused
+  content: >
+    Aktiveeri need seaded, et lubada agentidel kasutada <span class="doc-desc-title">Ettevalmistatud vastused</span> pöördumistele vastates.
+  links:
+    - 
+      title: Halda ettevalmistatud vastuseid
+      href: /scp/canned.php

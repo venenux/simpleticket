@@ -1,0 +1,13 @@
+---
+notes: |
+  Saadetakse kasutajale, kui neil on maksimaalselt avatud pöördumiste arv ületatud. Seda limiiti saab muuta administraatori menüüst ja see on samalt e-posti aadressilt saadetud pöördumiste arv.
+subject: |
+  Avatud pöördumiste limiit on täis
+body: |2
+  <h3><strong>Lugupeetud %{ticket.name.first}</strong></h3>
+   Teie avatud pöördumiste limiit on täis. Enne uue pöördumise registreerimist peab mõne ootel pöördumise sulgema. Avatud pöördumiste värskendamiseks või kommentaari lisamiseks<a
+  href="%{url}/tickets.php?e=%{ticket.email}">logi sisse</a>.
+  <br>
+  <br>
+  Ette tänades <br/>
+  Tugiteenuse süsteem

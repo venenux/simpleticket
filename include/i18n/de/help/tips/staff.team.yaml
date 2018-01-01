@@ -1,0 +1,33 @@
+---
+teams:
+  title: Teams
+  content: >
+    Teams bestehen aus einem oder mehreren Agenten zum Zweck der Ticket-Zuweisung. Die Teammitgliedschaft kann sich über die Abteilungsgrenzen hinweg erstrecken.
+status:
+  title: Status
+  content: >
+    Wenn <span class="doc-desc-opt"> deaktiviert</span>, kann diesem Team weder ein Ticket zugewiesen werden noch kann es Benachrichtigungen über frühere Zuweisungen empfangen.
+lead:
+  title: Teamleiter
+  content: >
+    Für ein <span class="doc-desc-title">Team</span> kann ein Leiter festgelegt werden, der <span class="doc-desc-title">Benachrichtigungen</span> getrennt von den Teammitgliedern empfangen kann.
+  links:
+    - 
+      title: Benachrichtigungen konfigurieren
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Benachrichtigung bei Ticket-Zuweisung
+  content: >
+    Sie können die <span class="doc-desc-title">Benachrichtigung bei Ticket-Zuweisung</span> für Tickets, die diesem Team zugewiesen sind, deaktivieren.
+  links:
+    - 
+      title: Benachrichtigungen konfigurieren
+      href: /scp/settings.php?t=alerts
+members:
+  title: Team-Mitglieder
+  content: >
+    Die Teammitgliedschaft wird über das Agentenprofil konfiguriert.
+  links:
+    - 
+      title: Agenten verwalten
+      href: /scp/staff.php

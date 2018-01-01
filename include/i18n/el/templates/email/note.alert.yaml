@@ -1,0 +1,45 @@
+---
+notes: |
+  Ειδοποίηση που αποστέλλεται στους χρήστες όταν κάποια εσωτερική sent out to Agents when internal δραστηριότητα, όπως μια εσωτερική σημείωση ή μια απάντηση χρήστη επισυνάπτεται σε ένα δελτίο.
+subject: |
+  Νέα Ειδοποίηση Εσωτερικής Δραστηριότητας
+body: |
+  <h3><strong>Αγαπητέ/ή %{recipient.name},</strong></h3>
+  Ένας εκπρόσωπος έχει καταγράψει δραστηριότητα σε ένα δελτίο <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Από</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Τίτλος</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Για να δείτε/απαντήσετε στο δελτίο, παρακαλούμε <a
+  href="%{ticket.staff_link}">συνδεθείτε</a> στο Σύστημα Υποστήριξης
+  <br>
+  <br>
+  <em style="font-size: small; ">Φιλικά, το Κέντρο Υποστήριξης
+  </em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

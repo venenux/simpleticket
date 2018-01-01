@@ -1,0 +1,46 @@
+---
+helpdesk_status:
+  title: Тусламжийн албаны төлөв
+  content: >
+    Хэрвээ төлөвийг <span class="doc-desc-opt">Оффлайн</span> болговол хэрэглэгчийн нэвтрэх хэсэг ажиллахгүй. Гэхдээ энэ нь ажилтнууд нэвтэрч ажиллахад ямар нэг нөлөө үзүүлэхгүй.
+helpdesk_url:
+  title: Тусламжийн системийн URL
+  content: >
+    Энэ URL нь таны osTicket системийн үндсэн хаяг бөгөөд танай тусламж үйлчилгээний системд хандах холбоосыг хэрэглэгчдэд имэйлээр илгээхэд ашиглана.
+helpdesk_name_title:
+  title: Тусламжийн албаны нэр
+  content: >
+    Энэ гарчиг нь системийн гарчиг болж bookmark хийхэд мөн ашиглагдана.
+default_department:
+  title: Үндсэн алба
+  content: >
+    Аль нэг албанд автоматаар хуваарилагдаагүй хүсэлтийг хариуцах үндсэн <span class="doc-desc-title">албыг</span> сонгоно уу.<br/><br/>
+    Хүсэлтийн төрөл,  имэйл хаяг болон хүсэлтийн шүүлтүүрээс шалтгаалан хүсэлтийг автоматаар шилжүүлэн хуваарилах боломжтой.
+default_page_size:
+  title: Хуудас дээрх хүсэлтийн тоо
+  content: >
+    Хүсэлтийн жагсаалт дээрх 1 хуудсанд хэдэн хүсэлт харуулахыг сонгоно уу. <span class="doc-desc-title">Миний бүртгэл</span> хэсэгт ажилтан бүр энэ тоог өөрийн хүссэнээр тохируулж болно.
+default_log_level:
+  title: Лог бичих түвшин
+  content: >
+    <span class="doc-desc-title">Систем лог</span> хэсэгт бүртгэгдэх доод түвшинг тохируулна уу. <span class="doc-desc-opt">Debug</span> хамгийн бага, <span class="doc-desc-opt">Алдаа</span> хамгийн өндөр зэрэглэлтэй. Хэрвээ бүх үйлдлийг <span class="doc-desc-title">Систем логд</span> бүртгэх бол <span class="doc-desc-opt">Debug</span> гэж сонгоно уу.
+purge_logs:
+  title: Лог цэвэрлэх
+  content: >
+    Мэдээллийг <span class="doc-desc-title">Систем лог</span> хэсэгт хадгалах хугацааг тохируулна.
+default_name_formatting:
+  title: Нэрний үндсэн формат
+  content: >
+    Системд ашиглах нэрний форматыг сонгоно уу. Хэрэв имэйл загварын хувьсагчид зааж өгөөгүй бол ашиглах нэрний формат.
+  links:
+    - 
+      title: Имэйл загварт ашиглаж болох хувьсагчууд
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Огноо &amp; цагийн тохиргоо
+  content: >
+    Дараах тохиргоо нь хэрэглэгчийн Огноо &amp; Цаг харуулахад хэрэглэнэ. Доорх хэсэгт ямар харагдахыг үзүүлж байна.
+  links:
+    - 
+      title: PHP Date Formatting Table-г үзнэ үү
+      href: 'http://www.php.net/manual/en/function.date.php'

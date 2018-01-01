@@ -1,0 +1,17 @@
+---
+signature:
+  title: Personalet signaturlinje
+  content: |
+    Opprette ansattes signatur for saks svar. Signaturen vil vises som et alternativ på bunnen av saks svar
+type:
+  title: Kontotype
+  content: |
+    Administratorer har tilgang til Admin-panelet. Ansatte har bare tilgang til å administrere saker og kunnskapsbasen
+group:
+  title: Tilordnet gruppe
+  content: |
+    Medlemskap i gruppen definerer personalets rolle i systemet. Besøk siden for gruppe administrasjon for å definere hvilken tilgang denne ansatte har i systemet
+notes:
+  title: Interne merknader
+  content: |
+    Plass for interne merknader om ansatte; merknader vises bare for ansatte med kontotypen Admin

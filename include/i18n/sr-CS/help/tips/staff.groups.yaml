@@ -1,0 +1,10 @@
+---
+groups:
+  title: Grupe
+  content: Grupe se koriste da definišu ovlašćenja agenta na šalteru za pomoć. Grupe takođe mogu dodeliti pristup odeljenju koje nije agentovo primarno odeljenje.
+status:
+  title: Status
+  content: 'Ako je <span class="doc-desc-opt">onesposobljeno</span>, agenti koji su dodeljeni ovoj grupi ne mogu se prijaviti i neće primati upozorenja i obaveštenja odeljenja.'
+department_access:
+  title: Pristup odeljenja
+  content: Proverava sva odeljenja kojima je grupnim članovima dodeljen pristup.

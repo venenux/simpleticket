@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: 打开
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: 打开服务单
+- 
+  id: 2
+  name: 已解决
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      已解决的服务单是能被用户重新打开的已关闭的服务单。可用于在使用触发器来关闭那些已解决的服务单，同时发送提醒给用户的情形。
+- 
+  id: 3
+  name: 已关闭
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      用户不能重新打开一个已经关闭的服务单。从客户面板和服务工程师面板仍然可查看这些服务单。
+- 
+  id: 4
+  name: 已归档
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      服务单仅可用于管理性事务，服务单队列中不再显示。
+- 
+  id: 5
+  name: 已删除
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      服务单已列入删除队列。服务单队列中不再显示。

@@ -1,0 +1,25 @@
+---
+notes: |
+  Trimis unui utilizator cand un tichet creat primește un răspuns automat.
+  Variabile disponibile pentru inlocuire: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Draga %{recipient.name.first},</strong></h3>
+  O cerere de suport a fost creata si alocata tichetului <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> cu urmatorul raspuns automat
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subiect: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Cu drag echipa %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Speram ca acest raspuns a oferit detaliile dorite la intrebarea dumneavoastra. Daca doriti sa oferiti detalii sau informatii suplimentare, va rugam sa raspundeti la acest email sau <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >autentificativa in contul dumneavoastra</span></a> pentru o arhiva completa a cererilor dumneavoastra de suport.</em></div>

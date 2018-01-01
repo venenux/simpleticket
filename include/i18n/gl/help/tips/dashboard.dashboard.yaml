@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Actividade dos tickets
+  content: >
+    Selecciona un rango de datas para obter un gráfico e unha táboa (cf. <span class="doc-desc-title">Estatísticas</span>) abaixo para focalizalo nun dato que corresponda con esas datas. O gráfico reflectirá unha visión ampla de todo o sistema (por exemplo: poboación). Aínda así, podes navegar a través da táboa <span class="doc-desc-title">Statistics </span> para focalizala nunha determinada cuestión que che interese (Por exemplo, departamento, temas ou persoal). Ademais, podes exportar calquera dato que se estea mostrando na táboa  <span class="doc-desc-title">Estatísticas </span>.
+report_timeframe:
+  title: Informar sobre períodos de tempo
+  content: >
+    Selecciona unha data de comezo como data desexada utilizando o seleccionador. A continuación, escolle a duración dende esa data para definir a data de remate da túa mostra de datos.
+statistics:
+  title: Estatísticas
+  content: >
+    Desprázate ata o tema de interés picando na pestaña correspondente para poder ver a mostra de datos específica. Dentro da táboa, os círulos representan o tamaño dos datos nominais. Polo tanto, canto máis grande sexa o número dunha cela en particular maior será o círculo.
+opened:
+  title: Aberto
+  content: >
+    Isto representa os tickets abertos polos axentes (abertos internamente) e non polos clientes.
+assigned:
+  title: Asignado
+  content: >
+    O sistema realiza un seguimento de cada evento polo que un ticket é asignado a un departamente ou axente de forma outomática ou manualmente. As asignación automáticas dependenrán dos axustes que se establezan para os <span class="doc-desc-title">Temas de axuda</span> and <span class="doc-desc-title">Email Filters</span> no Panel de Administración.
+overdue:
+  title: Retrasado
+  content: >
+    Cantidade de tickets que violaron o Plan ANS ao que pertencían.
+closed:
+  title: Pechado
+  content: >
+    Está é a cantidade de tickets que foron pechados.
+reopened:
+  title: Reaberto
+  content: >
+    Esta é a cantidade de tickets que foron abertos outra vez ben por un axente ou por un cliente cando respondeu mentres o ticket se atopada en estado pechado.
+service_time:
+  title: Tempo de servizo
+  content: >
+    <span class="doc-desc-title">Tempo de Servizo</span> é a duración de tempo que comeza coa apertura dun ticket e remata cando o ticket se pecha. A columna <span class="doc-desc-title">Tempo de servizo</span> mide o promedio de tempo de servizo por ticket, en horas, dentro do rango de datas especificado.
+response_time:
+  title: Tempo de resposta
+  content: >
+    <span class="doc-desc-title">Tempo de resposta</span> é a duración do tempo que comeza coa solicitude do cliente e remata cando un axente realiza unha resposta. Esta medida de tempo non se correspondente exclusivamente coa apertura inicial dun ticket senón que se refire a cada ato da conversación cun cliente.

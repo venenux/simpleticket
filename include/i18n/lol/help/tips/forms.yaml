@@ -1,0 +1,37 @@
+---
+form_title:
+  title: 'crwdns1541:0crwdne1541:0'
+  content: >
+    crwdns1542:0crwdne1542:0
+form_instructions:
+  title: 'crwdns1543:0crwdne1543:0'
+  content: >
+    crwdns1544:0crwdne1544:0
+field_sort:
+  title: 'crwdns1545:0crwdne1545:0'
+  content: >
+    crwdns1546:0crwdne1546:0
+field_label:
+  title: 'crwdns1547:0crwdne1547:0'
+  content: >
+    crwdns1548:0crwdne1548:0
+field_type:
+  title: 'crwdns1549:0crwdne1549:0'
+  content: >
+    crwdns1550:0crwdne1550:0
+  links:
+    - 
+      title: 'crwdns1551:0crwdne1551:0'
+      href: 'crwdns1552:0crwdne1552:0'
+field_visibility:
+  title: 'crwdns5343:0crwdne5343:0'
+  content: >
+    crwdns5344:0crwdne5344:0
+field_variable:
+  title: 'crwdns1557:0crwdne1557:0'
+  content: >
+    crwdns1558:0%{ticket.variable}crwdnd1558:0%{ticket.user.variable}crwdne1558:0
+field_delete:
+  title: 'crwdns1559:0crwdne1559:0'
+  content: >
+    crwdns1560:0crwdne1560:0

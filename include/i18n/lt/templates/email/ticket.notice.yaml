@@ -1,0 +1,24 @@
+---
+notes: |
+  Siunčiama vartotojui, kuomet darbuotojas sukuria užklausą vartotojo vardu.
+  Tai dažniausiai atliekama, kuomet vartotojas susisiekia telefonu.
+subject: |
+  %{ticket.subject}[#%{ticket.number}]
+body: |
+  <h3><strong>Gerbiamas%{recipient.name.first},</strong></h3>
+  Mūsų klientų aptarnavimo komanda sukūrė užklausą,<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>Jūsų vardu, su šiais duomenimis ir turiniu:
+  <br><br>
+  Tema:<strong>%{ticket.topic.name}</strong>
+  <br>
+  Objektas:<strong>%{ticket.subject}</strong>
+  <br><br>
+  %{message}
+  <br><br>
+  Jei reikia, atstovas susisieks su jumis, kuo greičiau kai tik įmanoma. 
+  Galite taip pat<a href="%{recipient.ticket_link}"> peržiūrėti užklausos pažangą internete</a>.
+  <br><br>
+  <div style="color: rgb(127, 127, 127);">
+  Jūsų%{company.name}Komanda,<br>%{signature}</div><hr><div style="color: rgb(127, 127, 127); font-size: small; "><em>
+  Jeigu norite pateikti papildomas pastabas ar informaciją, susisjusią su problemą, prašome atsakyti į šį laišką ar<a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" > prisijunkite prie savo paskyros</span></a> kad matytumėte išsamų pagalbos prašymų archyvą.</em></div>

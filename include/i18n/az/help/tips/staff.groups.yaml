@@ -1,0 +1,13 @@
+---
+groups:
+  title: Qruplar
+  content: >
+    Qruplar agentlərin help deskdə icazələrinin təyin edilməsi üçün istifadə olunur. Qruplar həmçinin şöbələrə girişə təkan verir.
+status:
+  title: Vəziyyət
+  content: >
+    Əgər <span class="doc-desc-opt">deaktivdirsə</span>, bu qrupa təyin olunmuş agentlər daxil ola bilməz və şöbədən siqnallar &amp; qeydlər qəbul edə bilməyəcək.
+department_access:
+  title: Şöbəyə giriş
+  content: >
+    Girişə icazələri olan qrup üzvlərinin bütün şöbələrini yoxlayın.

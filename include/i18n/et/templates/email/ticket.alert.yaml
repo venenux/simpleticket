@@ -1,0 +1,42 @@
+---
+notes: |
+  Saadetakse meeskonna liikmele, kui uus pöördumine on süsteemis registreeritud. See kehtib nii e-kirja, veebiportaali kui API kaudu tulnud pöördumistele.
+subject: |
+  Teade uuest pöördumisest
+body: |2
+  <h2>Tere, %{recipient.name}!</h2>
+  Uus pöördumine #%{ticket.number} on registreeritud
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Kellelt</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Osakond</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pöördumise vaatamiseks või sellele vastamiseks <a
+  href="%{ticket.staff_link}">logi sisse</a> kasutajatoe süsteemi</div>
+  <em style="font-size: small">Sinu sõbralik klienditugi</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

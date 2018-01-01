@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Ticket Status
+  name_plural: টিকেটের অবস্থা
+  sort_mode: SortCol
+  masks: 13
+  notes: টিকেটের অবস্থা
+  properties:
+    title: টিকেটের অবস্থার বৈশিষ্টসমূহ
+    instructions: টিকেটের অবস্থার সাথে যে বৈশিষ্টগুলো সংযোজন করা যায়।
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: অবস্থা
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: টিকেটের অবস্থা
+      - 
+        type: memo
+        name: description
+        label: Description
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

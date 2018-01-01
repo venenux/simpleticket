@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Hazır cavab
+  content: >
+    Sorğunun cavabına daxil ola biləcək <span class="doc-desc-title">hazır cavab</span> yarat. Bu, həmçinin <span class="doc-desc-title">sorğu filteri</span> tərəfindən quraşdırılıb <span class="doc-desc-title">sorğunun avtomatik cavabı</span> kimi istifadə oluna bilər.
+  links:
+    - 
+      title: Sorğu filteri quraşdır
+      href: /scp/filters.php
+canned_attachments:
+  title: Hazır əlavələr
+  content: >
+    Yeni  <span class="doc-desc-title"> hazır cavabdan</span> istifadə edəcək sorğu cavabına avtomatik daxil olmasını istədiyiniz fayl yükləyin.

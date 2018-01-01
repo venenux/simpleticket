@@ -1,0 +1,6 @@
+---
+notes: >
+  Este modelo define a página disponibilizada aos Clientes após preencherem o formulário de registo. O modelo deve mencionar que o sistema irá enviar um endereço de confirmação e qual o próximo passo do processo de registo.
+name: "Registo de conta"
+body: >
+  <div><strong>Obrigado por se ter registado.</strong><br/> <br /> Acabamos de enviar um email para o endereço preenchido. Por favor clique no endereço enviado no email para confirmar a conta e ter acesso aos seus pedidos de suporte. </div>

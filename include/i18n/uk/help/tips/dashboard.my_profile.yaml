@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Контактна інформація
+  content: >
+    
+username:
+  title: Ім'я користувача
+  content: >
+    Тільки юзери зі статусом Адміністратора можуть змінювати ім'я користувача. Якщо Ви - маєте необхідні права Адміністратора - то ви можете зробити це, вибравши Агента для редагування з таблиці <span class="doc-desc-title"> Персонал </span>.
+  links:
+    - 
+      title: Змінити ім'я користувача як Адміністратор
+      href: /scp/staff.php
+time_zone:
+  title: Часовий пояс
+  content: >
+    
+daylight_saving:
+  title: Літній час
+  content: >
+    
+maximum_page_size:
+  title: Максимальний розмір сторінки
+  content: >
+    
+auto_refresh_rate:
+  title: Частота автообновлення
+  content: >
+    
+default_signature:
+  title: Підпис за умовчуванням
+  content: >
+    
+default_paper_size:
+  title: Розмір паперу за умовчуванням
+  content: >
+    
+show_assigned_tickets:
+  title: Показати призначені заявки
+  content: >
+    Увімкніть це для того, щоб приховати Ваше ім'я з черги <span class="doc-desc-title"> Відкритих Заявок </span> для Заявок, призначених Вам. Після приховування, замість Вашго імені буде відображатися ім'я Вашого <span class="doc-desc-title"> Відділу </span>.
+password:
+  title: Пароль
+  content: >
+    
+current_password:
+  title: Поточний пароль
+  content: >
+    
+new_password:
+  title: Новий пароль
+  content: >
+    
+confirm_new_password:
+  title: Підтвердити новий пароль
+  content: >
+    
+signature:
+  title: Підпис
+  content: >
+    Створіть <span class="doc-desc-title"> Підпис </span>, який буде з'являтися в кінці Ваших відповідей на заявки. З'являтиметься цей <span class="doc-desc-title"> Підпис </span> чи ні - залежить від того, який <span class="doc-desc-title"> Шаблон листа </span> використовуватиметься у відповіді на заявку.
+  links:
+    - 
+      title: Створіть шаблони листів в панелі адміністратора
+      href: /scp/templates.php

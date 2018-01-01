@@ -1,0 +1,40 @@
+---
+notes: ეგზავნება დახმარების გუნდის წევრებს, როდესაც მომხმარებელი დაამატებს ახალ შეტყობინებას არსებულ მომართვას. ეს შეიძლება მოხდეს როდესაც მომხმარებელი გამოაგზავნის შეტყობინებას ელ-ფოსტით ან დახმარების სისტემიდან, მასში შესვლის შემდეგ.
+subject: ახალი შეტყობინების უწყისი
+body: |2
+  <h3><strong>გამარჯობა %{recipient},</strong></h3>
+  ბილეთს დაემატა ახალია შეტყობინება<a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>გან</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>დეპარტამენტი</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>ბილეთის სანახავად ან საპასუხოდ, გთხოვთ <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >შესვლა</span></a> მხარდაჭერის საბილეთე სისტემა</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">თქვენი მეგობრული მომხმარებლის მხარდაჭერის სისტემა</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

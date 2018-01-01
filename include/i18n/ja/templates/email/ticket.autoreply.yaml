@@ -1,0 +1,25 @@
+---
+notes: |
+  チケット作成時、自動応答で対応可能な場合にユーザー様へ送信されます。
+  
+  利用可能な変数：%{ticket.*}, %{response}
+subject: 'Re: %{ticket.subject} [#%{ticket.number}]'
+body: |
+  <h3><strong>%{recipient.name.first}様</strong></h3>
+  お問い合わせいただきました内容を受け付け、チケット<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>が登録されました。その際に自動で回答可能でしたので以下のとおりご返信申し上げます。 
+  <br>
+  <br>
+  Topic: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Your %{company.name} Team,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>当社は、この返信がお客様のお問い合わせの回答となることを願っております。この返信があなたの投稿された内容に沿った回答でない場合はこのメールに返信するか、<a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >アカウントにログイン</span></a> してサポートのお問い合わせと返信を追記してください。 </em></div>

@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Ticket activiteit
+  content: >
+    Selecteer een datumbereik om zowel de grafiek en de tabel hieronder (zie  <span class="doc-desc-title">Statistieken</span>) aan te passen aan de gegevens uit die periode. De grafiek hieronder geeft steeds een algemeen overzicht van alle beschikbare data (bv. populatie). Je kan echter ook navigeren via de <span class="doc-desc-title">Statistieken</span> tabel hieronder om de focus meer specifiek te maken (bv. Afdeling, Onderwerpen of Personeel). Bovendien kan je alle data zichtbaar in de <span class="doc-desc-title">Statistieken</span> tabel exporteren.
+report_timeframe:
+  title: Rapportage tijdspanne
+  content: >
+    Kies voor het gewenste gegevens voorbeeld een startdatum met de datumkiezer. Kies vervolgens de tijdsduur vanaf die datum om het einde van het gegevensvoorbeeld vast te stellen.
+statistics:
+  title: Statistieken
+  content: >
+    Om een specifiek onderwerp te bekijken, navigeer naar het gewenste onderwerp door op de overeenkomstige tab te klikken. Binnen de tabel wordt de grootte van de nominale data voorgesteld door de cirkels. Zodoende zal bij een groter getal in een bepaalde cel de aangrenzende cirkel groter zijn.
+opened:
+  title: Geopend
+  content: >
+    Dit vertegenwoordigt de tickets, geopend door interne medewerkers (d.w.z., intern geopend) en niet door gebruikers.
+assigned:
+  title: Toegewezen
+  content: >
+    Het systeem houdt elke gebeurtenis waarbij een ticket automatisch of handmatig aan een bepaalde afdeling of medewerker toegewezen is bij. Automatische toewijzingen hangen af van de instellingen voor <span class="doc-desc-title"> Help-onderwerpen</span> en <span class="doc-desc-title"> E-mail Filters</span> in Beheer gedeelte.
+overdue:
+  title: Achterstallig
+  content: >
+    Dit is het aantal tickets die het SLA Plan waartoe zij behoorden hebben overschreden.
+closed:
+  title: Gesloten
+  content: >
+    Dit is de hoeveelheid tickets die zijn gesloten.
+reopened:
+  title: Heropend
+  content: >
+    Dit is het aantal tickets dat opnieuw geopend is door een intern medewerker of een klant/gebruiker toen hij/zij gereageerd heeft terwijl de ticket de status "gesloten" had.
+service_time:
+  title: Service tijd
+  content: >
+    <span class="doc-desc-title">Service Tijd</span> is de tijdsduur die begint bij de opening van een ticket en eindigt wanneer het ticket wordt gesloten. De kolom <span class="doc-desc-title">Service Tijd</span> geeft de gemiddelde Service tijd per ticket, in uren, binnen de opgegeven periode weer.
+response_time:
+  title: Reactietijd
+  content: >
+    <span class="doc-desc-title">Reactietijd</span> is een tijdsduur die begint met een willekeurige correspondentie en eindigt wanneer een Agent een antwoord plaatst. Deze meting van de tijd is niet exclusief voor een eerste aanmaak van een Ticket. Dit verwijst naar elke handeling met dezelfde klant.

@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informazioni del Contatto
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Indirizzo Email
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Nome e cognome
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numero di Telefono
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Note Interne
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Dettagli Ticket
+  instructions: Descrivi il tuo problema
+  notes: |
+    Questo modulo sarà allegato ad ogni ticket, indipendentemente dalla sua origine. È possibile aggiungere tutti i campi di questo modulo e saranno disponibili per tutti i ticket e sarà consultabile con ricerca avanzata e filtrabile.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Riassunto del Problema
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Dettagli del problema
+      hint: Dettagli sui motivi di apertura del ticket.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Livello di priorità
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Informazioni sull'azienda
+  instructions: Dettagli disponibili in modelli e-mail
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nome Azienda
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Sito web
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numero di Telefono
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: indirizzo
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informazioni sull'organizzazione
+  instructions: Dettagli sull'organizzazione dell'utente
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nome
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: indirizzo
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefono
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Sito web
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Note Interne
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

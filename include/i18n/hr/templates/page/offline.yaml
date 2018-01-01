@@ -1,0 +1,11 @@
+---
+notes: |
+  Offline stranica prikazuje se klijentu kada centar tehničke podrške nije dostupan, odnosno kada je offline.
+name: Offline
+body: |
+  <div><h1>
+  <span style="font-size: medium">Centar tehničke podrške trenutno nije dostupan</span>
+  </h1>
+  <p>Hvala Vam što ste nas kontaktirali.</p>
+  <p>Centar tehničke podrške trenutno nije dostupan, molimo Vas da se navratite kasnije.</p>
+  </div>

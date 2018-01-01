@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Parola Süresi Bitiş İlkesi
+  content: >
+    Bu ayar personellerin hangi sıklıkla (ay olarak) şifrelerini değiştirmeleri düzenler. Eğer kapatılırsa ("Sona erme yok"), şifreler geçerliliğini yitirmeyecektir.
+password_expiration_policy:
+  title: Parola Süresi Bitiş İlkesi
+  content: >
+    Temsilcilerin ne sıklıkla şifrelerini değiştirmelerini seçin. Eğer kapatılırsa (i.e., <span class="doc-desc-opt">Sona Erme Yok</span>), şifreler geçerliliğini yitirmeyecektir. .
+allow_password_resets:
+  title: Parola Sıfırlamalarına İzin Ver
+  content: >
+    Bu özelliği açarak başarısız girişten sonra <span class="doc-desc-title">Personel Giriş Sayfası</span>da  <span class="doc-desc-title">Şifremi unuttum</span> bağlatısını gösterebilirsiniz.
+reset_token_expiration:
+  title: Parola Sıfırlama Penceresi
+  content: >
+    <span class="doc-desc-title"> Şifre Sıfırlama Anahtarlarının</span> geçerli olacağı süre (dakika olarak) girin. Bir ajan <span class="doc-desc-title">Şifre Sıfırlama</span> istediğinde, kendisine şifreleme ile ilgili anahtar eposta ile gönderilir.
+staff_session_timeout:
+  title: Personel Oturum Zaman Aşımı
+  content: >
+    Temsilcilerin ne kadar zaman (dakika olarak) giriş yapmadan durabilmelerini seçin. <br><br> Eğer <span class="doc-desc-title">Memur Oturum Zaman Aşımını</span> kapatmak istiyorsanız, 0 girin.
+client_session_timeout:
+  title: Kullanıcı Oturum Zaman Aşımı
+  content: >
+    Kulanıcıların ne kadar zaman (dakika olarak) giriş yapmadan durabilmelerini seçin. <br><br> Eğer <span class="doc-desc-title">Kullanıcı Oturum Zaman Aşımını</span> kapatmak istiyorsanız, 0 girin.
+bind_staff_session_to_ip:
+  title: Personel Oturumunu IP Adresine Bağla
+  content: >
+    Bunu açarak temsilcilerin IP adresleri ile hatırlanmasını sağlayın.. <br><br> Bu ayar dinamık IP adresli kullanıcılar için tavsiye edilmemektedir.
+registration_method:
+  title: Kayıt Seçenekleri
+  content: >
+    <span class="doc-desc-title">Kayıt Metodu</span> ve <span class="doc-desc-title">Kayıt Zorunluluğu</span> birlikte kullanıcıların nasıl kayıt olacaklarını ve yardım sayfanızın web arayüzüne nasıl ulaşacaklarını belirler. Aşağıdaki tablo sşstemin ayarları nasıl yorumladığını gösterir. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Kayıt Zorunluluğu</th> <th>Kayıt Metodu</th> <th>Sonuç</th></tr> <tr><td>No</td><td>Halka Açık</td> <td>Yeni talepler için kayıt olmak teşvik edilir ama gerekli değildir.</td></tr> <tr><td>Evet</td><td>Halka Açık</td> <td>Yeni talepler için kayıt ve giriş gereklidir</td></tr> <tr><td>Hayır</td><td>Gizli</td> <td>Herkes talep oluşturabilir, ama hesapları sadece temsilciler kaydedebilir.</td></tr> <tr><td>Evet</td><td>Gizli</td> <td>Kullanıcı girişi sadece davetledir</td></tr> <tr><td>Hayır</td><td>Kapalı</td> <td>Hiç kimse hesap açamaz, fakat herkes talep oluşturabilir. <em>osTıcket 1.9 versiyonu öncesi böyle çalışıyordu</em></td></tr> <tr><td>Evet</td><td>Kapalı</td> <td>Web arayüzü kullanarak talep açmayı kapat</td></tr> </tbody></table>
+client_verify_email:
+  title: E-posta Doğrulaması Gerekli
+  content: >
+    Bu seçeneği kapatarak kullanıcılarınıza müşteri portalınızdaki "Talep Durumu Sorgula" giriş sayfasından taleplerını dırek eirişim verebilirsiniz. Eğer açılırsa, (varsayılan) kullanıcıların email almaları ve emaıldeki bağşantıyı takip ederek talepleri görebileceklerdir. <br><br>  Email doğrulamasını kapatırsanız, üçüncü kişiler (talep tarafları) talep sahibinde sahtecilik yapabilir.

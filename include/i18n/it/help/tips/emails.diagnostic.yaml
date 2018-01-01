@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Testare le Email in uscita
+  content: >
+    La consegna di email dipende dallle tue impostazioni server (php. ini) e/o dalla configurazione SMTP.
+  links:
+    - 
+      title: Selezionare un'e-mail per configurare le impostazioni SMTP (in uscita)
+      href: /scp/emails.php
+from:
+  title: Da
+  content: >
+    
+to:
+  title: A
+  content: >
+    
+subject:
+  title: Oggetto
+  content: >
+    
+message:
+  title: Messaggio
+  content: >
+    

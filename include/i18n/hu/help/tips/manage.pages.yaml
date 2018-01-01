@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Rendszer oldalak
+  content: >
+    Az rendszer oldalak lapjai mini Tartalom Menedzser Rendszerként (CMS) is használhatóak. Meg tud adni akár több hivatkozási, offline és köszönő oldalakat és beállítani őket a céges beállításokban és a súgó témákban.
+  links:
+    - 
+      title: Vállalat beállításai
+      href: /scp/settings.php?t=pages
+type:
+  title: Típus
+  content: >
+    Az <span class="doc-desc-opt">Offline</span> oldalak akkor jelennek meg az ügyfél portálon, amikor az ügyfélszolgálat nem elérhető. A <span class="doc-desc-opt">Hivatkozás</span> oldalak az ügyfélportál honlapján jelennek meg. A <span class="doc-desc-opt">Köszönet</span> oldalak akkor jelennek meg, amikor az ügyfél véglegesít egy hibajegyet. Az <span class="doc-desc-opt">Egyéb</span> oldalak használhatóak egyszerű tartalom menedzser rendszerekként (CMS).

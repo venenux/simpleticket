@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Ticket Status
+  name_plural: Статус на тикетот
+  sort_mode: SortCol
+  masks: 13
+  notes: Статуси на тикетот
+  properties:
+    title: Својства на статусот на тикетот
+    instructions: Својства кои можат да бидат поставени на статусот на тикетот.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Состојба
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Состојба на тикетот
+      - 
+        type: memo
+        name: description
+        label: Description
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

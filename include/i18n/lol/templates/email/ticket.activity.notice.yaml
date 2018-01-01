@@ -1,0 +1,7 @@
+---
+notes: |
+  crwdns928:0crwdne928:0
+subject: |
+  crwdns929:0%{ticket.subject}crwdnd929:0%{ticket.number}crwdne929:0
+body: |
+  crwdns930:0%{recipient.name.first}crwdnd930:0%{poster.name}crwdnd930:0%{message}crwdnd930:0%{recipient.ticket_link}crwdnd930:0%{ticket.number}crwdnd930:0%{recipient.ticket_link}crwdne930:0

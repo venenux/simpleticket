@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktai
+  content: >
+    
+username:
+  title: Vartotojo vardas
+  content: >
+    Tik tie Agentai, kurie turi Administratoriaus statusą gali pakeisti naudotojo vardą. Jeigu jūs esate Agentas su administrtatoriaus pivilegijomis, galite tai įvykdyti, pasirinkdami Agentą , kurio vardą norite pakeisti iš <span class="doc-desc-title">Personalo narių</span> lentelės.
+  links:
+    - 
+      title: Pakeisti vardą Administratoriaus teisėmis
+      href: /scp/staff.php
+time_zone:
+  title: Laiko juosta
+  content: >
+    
+daylight_saving:
+  title: Vasaros laikas
+  content: >
+    
+maximum_page_size:
+  title: Maksimalus puslapio dydis
+  content: >
+    
+auto_refresh_rate:
+  title: Automatinio atnaujinimo dažnis
+  content: >
+    
+default_signature:
+  title: Numatytasis parašas
+  content: >
+    
+default_paper_size:
+  title: Numatytasis lapo dydis
+  content: >
+    
+show_assigned_tickets:
+  title: Rodyti priskirtas užklausas
+  content: >
+    Įjunkite šią funkciją, norėdami paslėpti savo vardą <span class="doc-desc-title">Atidarytų Užklausų</span> eilėje, kuriems jūs buvote priskirtas kaip vykdytojas. Remiantis slapstymosi taisyklėmis, <span class="doc-desc-title">padalinio</span>, kuriam jūs priklausote pavadinimas bus įvestas toje vietoje, kur įprastai būtų rodomas jūsų vardas.
+password:
+  title: Slaptažodis
+  content: >
+    
+current_password:
+  title: Dabartinis slaptažodis
+  content: >
+    
+new_password:
+  title: Naujas slaptažodis
+  content: >
+    
+confirm_new_password:
+  title: Pakartokite naują slaptažodį
+  content: >
+    
+signature:
+  title: Parašas
+  content: >
+    Sukurti papildomą  <span class="doc-desc-title">Parašą</span>, kuris galbūt rodomas jūsų atsakymo į užklausą pabaigoje. Ar šis  <span class="doc-desc-title">Parašas</span> rodomas priklauso nuo <span class="doc-desc-title">Elektroninio laiško ruošinio</span>, kuris bus naudojamas, atsakant į užklausą.
+  links:
+    - 
+      title: Sukurti Elektroninių laiškų  ruošinius administratoriaus valdymo meniu
+      href: /scp/templates.php

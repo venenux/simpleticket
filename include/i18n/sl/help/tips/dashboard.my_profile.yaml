@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktni podatki
+  content: >
+    
+username:
+  title: Uporabniško ime
+  content: >
+    Samo agenti s skrbniškim statusom lahko spremenijo ime uporabnika. Če ste agent s skrbniškimi pravicami, potem lahko to dosežete z izbiro uporabnika na seznamu <span class="doc-desc-title">Člani osebja</span>.
+  links:
+    - 
+      title: Spremeni uporabniško ime kot skrbnik
+      href: /scp/staff.php
+time_zone:
+  title: Časovni pas
+  content: >
+    
+daylight_saving:
+  title: Poletno merjenje časa
+  content: >
+    
+maximum_page_size:
+  title: Maksimalna velikost strani
+  content: >
+    
+auto_refresh_rate:
+  title: Avtomatsko osveževanje
+  content: >
+    
+default_signature:
+  title: Privzeti podpis
+  content: >
+    
+default_paper_size:
+  title: Privzeta velikost papirja
+  content: >
+    
+show_assigned_tickets:
+  title: Prikaži dodeljene karte
+  content: >
+    Omogoči to, da skriješ svoje ime pred listo <span class="doc-desc-title">Odprte karte</span> za tiste karte za katere si bil določen. Po skritju bo tvoje ime zamenjal <span class="doc-desc-title">Oddelek</span> kateremu pripadaš in bo prikazan tam kjer bi drugače bilo tvoje ime.
+password:
+  title: Geslo
+  content: >
+    
+current_password:
+  title: Trenutno geslo
+  content: >
+    
+new_password:
+  title: Novo geslo
+  content: >
+    
+confirm_new_password:
+  title: Potrdite novo geslo
+  content: >
+    
+signature:
+  title: Podpis
+  content: >
+    Ustvarite dodaten <span class="doc-desc-title">Podpis</span>, kateri se bo morda pojavil na koncu vašega kartnega odgovora. Ali se bo ta <span class="doc-desc-title">Podpis</span> pojavil ali ne je odvisno od <span class="doc-desc-title">predloge e-sporočila</span>, ki bo izbrana v kartnem odgovoru.
+  links:
+    - 
+      title: Ustvarite predlogo e-sporočila v Skrbniški plošči
+      href: /scp/templates.php

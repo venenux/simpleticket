@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Aktivitas Tiket
+  content: >
+    Pilih rentang tanggal grafik dan tabel (rujuk <span class="doc-desc-title">Statistik</span>) di bawah untuk fokus pada data yang sesuai bagi mereka. Grafik di bawah ini akan selalu mencerminkan gambaran luas keseluruhan sistem data (yaitu, penduduk). Namun, Anda dapat menavigasi melalui tabel <span class="doc-desc-title">Statistik</span> di bawah ini untuk fokus pada sempit subjek yang menarik (misalnya, Departemen, topik, atau staf). Selain itu, Anda dapat mengekspor data saat ini ditampilkan di tabel <span class="doc-desc-title">Statistik</span>.
+report_timeframe:
+  title: Laporan jangka waktu
+  content: >
+    Memilih tanggal mulai untuk sampel data yang diinginkan menggunakan pemetik tanggal. Kemudian, memilih jangka waktu dari tanggal tersebut untuk menentukan tanggal akhir untuk sampel data Anda.
+statistics:
+  title: Statistik
+  content: >
+    Menavigasi ke topik yang menarik dengan mengklik tab yang sesuai untuk melihat sampel tertentu data. Dalam tabel, lingkaran mewakili ukuran nominal data. Oleh karena itu, semakin besar jumlah dalam sel tertentu, semakin besar lingkaran berdekatan akan.
+opened:
+  title: Dibuka
+  content: >
+    Ini menunjukkan tiket yang dibuka oleh agen (yaitu, internal dibuka) dan bukan oleh klien.
+assigned:
+  title: Ditetapkan
+  content: >
+    Sistem melacak setiap peristiwa dimana Tiket secara otomatis atau manual ditugaskan ke Departemen tertentu atau agen. Otomatis penugasan akan tergantung pada pengaturan yang didirikan untuk <span class="doc-desc-title"> topik bantuan</span> dan <span class="doc-desc-title"> Filter Email</span> di Admin Panel.
+overdue:
+  title: Jatuh tempo
+  content: >
+    Ini adalah jumlah tiket yang telah melanggar SLA rencana yang mereka milik.
+closed:
+  title: Ditutup
+  content: >
+    Ini adalah jumlah tiket yang tertutup.
+reopened:
+  title: Dibuka kembali
+  content: >
+    Ini adalah jumlah tiket yang telah dibuka kembali baik oleh agen atau oleh klien ketika dia menanggapi ketika tiket di status tertutup.
+service_time:
+  title: Waktu layanan
+  content: >
+    <span class="doc-desc-title"> waktu layanan</span> adalah durasi waktu yang dimulai pada pembukaan tiket dan berakhir ketika tiket ditutup. Kolom <span class="doc-desc-title"> Waktu layanan</span> mengukur waktu layanan rata-rata per Tiket, dalam jam, dalam rentang tanggal tertentu.
+response_time:
+  title: Waktu respon
+  content: >
+    <span class="doc-desc-title"> Waktu respons</span> adalah durasi waktu yang dimulai dengan surat-menyurat klien apapun dan berakhir ketika agen membuat respon. Pengukuran ini waktu bukanlah eksklusif untuk klien korespondensi pembukaan tiket awal. Ini merujuk kepada setiap tindakan wacana berasal dengan klien.

@@ -1,0 +1,177 @@
+---
+- 
+  id: 1
+  type: U
+  title: ទំនាក់ទំនង ពត៌មាន
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Email អ៊ីម៉ែល
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: ឈ្មោះ​ពេញ
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: លេខទូរសព្ទ
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Internal Notes
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: លម្អិតនៃករណី Ticket
+  instructions: សូមរៀបរាប់អំពីបញ្ហារបស់អ្នក
+  notes: |
+    ទម្រង់នេះនឹងត្រូវបានភ្ជាប់ទៅរាល់ករណី Ticket, ដោយមិនគិតពីប្រភពរបស់វា។ អ្នកអាចបន្ថែម field ណាមួយទៅក្នុងករណី Ticket នេះហើយ fields ទាំងអស់នោះ នឹងមានក្នុង
+    ករណី Ticket ទាំងអស់។ Fields ទាំងនោះនឹងមាននៅក្នុងការស្វែងរក available in Search។
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: សង្ខេបបញ្ហា
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: បញ្ហាលម្អិត
+      hint: សេចក្តីលម្អិតពីហេតុផល(reasons) សម្រាប់បើកករណី Ticket នេះ
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: កម្រិតអាទិភាព
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: អំពីក្រុមហ៊ុន
+  instructions: លម្អិតដែលអាចមាននៅក្នុងអ៊ីម៉ែលគំរូ Email Templates
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: ឈ្មោះ​ក្រុម​ហ៊ុន
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: គេហទំព័រ
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: លេខទូរសព្ទ
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: អាសយដ្ឋាន
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: អង្គការ Organization ពត៌មាន
+  instructions: សេចក្តីលម្អិតអំពីអ្នកប្រើ
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: ឈ្មោះ
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: អាសយដ្ឋាន
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: ទូរស័ព្ទ
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: គេហទំព័រ
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Internal Notes
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

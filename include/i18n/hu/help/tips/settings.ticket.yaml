@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Ticket számformátum
+  content: >
+    Ez a beállítás a hibajegyekhez sorszámot generál. Használjon kettőskereszt jeleket ('#') ott ahol szeretne számjegyeket elhelyezni. Minden más szöveg formátumban megadott szám védett marad.<span class="doc-desc-title">Súgó témák</span>meghatározhatják az egyéni számformátumokat. <br/><br/> Például a hat számjegyű számokhoz használja a <code>######</code> jelet.
+sequence_id:
+  title: Hibajegyszám kiosztás
+  content: >
+    Adja meg milyen sorozat alapján legyen az új hibajegy sorszáma kiosztva. A rendszer alapbeállításként a növekvő sorozat és a véletlenszerű számozás opciókat tartalmazza. Tetszőleges számú új sorszámozási módot állíthat be. Használjon különféle sorszámozásokat a <span class="doc-desc-title">Hibajegy Sorszám Formátuma</span> beállításaiban a súgó témáknak.
+default_ticket_status:
+  title: Új hibajegyek alapértelmezett állapota
+  content: >
+    Válassza ki az új hibajegyek alapértelmezett státuszát. Ez minden súgó témának külön beállítható ha úgy tetszik. Ugyanakkor felül is írható a hibajegy szűrővel.
+  links:
+    - 
+      title: Hibajegy állapotának kezelése
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Alapértelmezett SLA
+  content: >
+    Válassza ki a szolgáltatási színvonal típusát, hogy beállítsa milyen hosszan maradhasson egy hibajegy nyitott állapotban, mielőtt lejártnak minősül.
+  links:
+    - 
+      title: További Szolgáltatási színvonal tervezetek készítése
+      href: /scp/slas.php
+default_priority:
+  title: Alapértelmezett prioritás
+  content: >
+    Válasszon alapértelmezett <span class="doc-desc-title">prioritást</span> az automatikusan be nem állított hibajegyeknek. <br/><br/> A prioritás beállítása megadható még a súgó témában, az egyes részlegekben vagy a hibajegy szűrő beállításaiban.
+maximum_open_tickets:
+  title: Nyitott hibajegyek maximális száma
+  content: >
+    Adja meg az egy felhasználó által maximálisan beadható <strong>nyitott</strong> státuszú hibajegyek <em>számát</em> az ügyfélszolgálatban. <br><br> A funkció inaktiválásához adjon meg <span class="doc-desc-opt">0</span>-t.
+agent_collision_avoidance:
+  title: Munkatársak ütközésének elkerülése
+  content: >
+    Adja meg maximum mennyi ideig foglalhatja a hibajegyet tétlenség mellett. <br><br> A funkció inaktiválásához adjon meg <span class="doc-desc-opt">0</span>-t.
+email_ticket_priority:
+  title: Email hibajegy prioritás
+  content: >
+    Használja a küldő fél levelezőrendszere által meghatározott prioritást.
+show_related_tickets:
+  title: Mutasd meg a kapcsolódó Ticketeket
+  content: >
+    Mutasson minden kapcsolódó jegyet a felhasználó belépésekor - egyébként egy adott belépés alkalmával csak egy hibajegyet tekinthet meg
+human_verification:
+  title: Felhasználó ellenőrzése
+  content: >
+    Engedélyezze a robotszűrő kódot az Ügyfél portálon, hogy ellenőrizze a hibajegy beadása emberi tevékenység eredménye. <br><br> Szószedet beállítása szükséges hozzá.
+claim_tickets:
+  title: Válasz nélküli hibajegyek kiosztása
+  content: >
+    Engedélyezze ezt, hogy az automatikusan be nem sorolt jegyek kiosztásra kerüljenek a válaszadó kezelőnek. <br><br> Az újranyitott hibajegyek mindig a legutóbbi válaszadóhoz lesznek kiosztva.
+assigned_tickets:
+  title: Hozzárendelt hibajegyek
+  content: >
+    Engedélyezze ezt a funkciót, hogy a besorolt jegyek ne legyenek listázva a <span class="doc-desc-title"> Nyitott hibajegyek várólistáján</span>.
+answered_tickets:
+  title: Megválaszolt hibajegyek
+  content: >
+    Engedélyezze ezt a funkciót, hogy a megválaszolt hibajegyek listázva legyenek a <span class="doc-desc-title">Megválaszolt Hibajegyek Listájában</span>. Egyébként a <span class="doc-desc-title">Nyitott Hibajegyek várólistája</span> fogja tartalmazni.
+staff_identity_masking:
+  title: Munkatárs személyének elrejtése
+  content: >
+    Engedélyezés esetén elrejti a munkatárs nevét az ügyféllel történő bármilyen kommunikáció közben.
+enable_html_ticket_thread:
+  title: HTML engedélyezése hibajegyekben
+  content: >
+    Bekapcsolás esetén engedélyezi a rich text formátum használatát az ügyfél és a kezelő között.
+ticket_attachment_settings:
+  title: Hibajegy előzmény csatolmányai
+  content: >
+    Állítsa be a <span class="doc-desc-title">probléma részletei</span> mezőhöz csatolt fájlok beállításait. Ezek a beállítások minden új hibajegyre és új üzenetre alkalmazva lesznek függetlenül a forrás csatornájától (internet portál, email, api, stb.).
+max_file_size:
+  title: Maximális fájlméret
+  content: >
+    Adja meg a kezelők által csatolható fájlok maximális méretét. Ez érvényes a automatikus csatolmányokra, tudástár cikkeire és a hibajegyre adott válaszok csatolmányaira is.
+ticket_response_files:
+  title: Hibajegy válasz fájlok
+  content: >
+    Engedélyezés esetén a kezelő által a hibajegyhez csatolt bármely fájl megjelenik a felhasználónak küldött email csatolmányaként is.

@@ -1,0 +1,33 @@
+---
+teams:
+  title: Tímy
+  content: >
+    Pod týmom sa rozumie jeden alebo viac agentov združených spolu, za účelom riešenia tiketov. Členstvo v tíme nemusí dodržiavať organizačnú štruktúru firmy.
+status:
+  title: Status
+  content: >
+    Ak je <span class="doc-desc-opt">pasívny</span>, tak tímu nemôžu byť priradené tikety ani nemôže prijímať upozornenia a oznámenia z už priradených tiketov.
+lead:
+  title: Vedúci tímu
+  content: >
+    <span class="doc-desc-title">Tím</span> môže mať prideleného vedúceho tímu, ktorý prijíma iné <span class="doc-desc-title">upozornenia a oznámeniaAlerts &amp; Notices</span>ako ostatní členovia.
+  links:
+    - 
+      title: Nastavenie upozornení &amp; a oznámení
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Upozornenie na priradenie
+  content: >
+    Môžete zakázať <span class="doc-desc-title">upozornenie na priradenie tiketov</span> pre tento tím.
+  links:
+    - 
+      title: Nastavenie upozornení &amp; a oznámení
+      href: /scp/settings.php?t=alerts
+members:
+  title: Členovia tímu
+  content: >
+    Priradenie do tímu sa nastavuje v profile pracovníka (agenta).
+  links:
+    - 
+      title: Definícia pracovníkov
+      href: /scp/staff.php

@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Pieteikuma aktivitāte
+  content: >
+    Izvēlieties datumu periodu lai gan grafiks, gan tabula (<span class = "doc-desc-titulu"> Statistika </ span>) turpmāk rīkotos ar datiem izvēlētajā laika periodā. Zemāk attēlotajā grafikā vienmēr tiks atspoguļots pilns sistēmas statuss. Jūs varat arī pārvietoties pa <span class="doc-desc-title">Statistika</span> tabulu zemāk un izvēlēties šaurāku tēmu, (piem.: departaments, tēma, darbinieki) zemāk redzamajā tabulā. Turklāt, Jūs varat eksportēt jebkādus šobrīd tabulā <span class="doc-desc-title">Statistika</span>redzamos datus.
+report_timeframe:
+  title: Ziņojiet par termiņu
+  content: >
+    Izvēlieties datu parauga sākuma datumu. Pēc tam izvēlieties laika posmu, lai definētu data parauga beigu datumu.
+statistics:
+  title: Statistika
+  content: >
+    Izvēlaties kādu no Jums interesējošiem tematiem, uzspiežot uz attiecīgās sadaļas, lai apskatītu specifiskus tās sadaļas datus. Tabulā ar punktiem tiek attēloti nomināli dati. Jo lielāks skaitlis, jo lielāks būs punkts.
+opened:
+  title: Atvērts
+  content: >
+    Šeit tiek attēloti pieteikumi, kurus atvēruši paši Lietotāji (iekšēji atvērti), ne Klienti.
+assigned:
+  title: Piešķirts
+  content: >
+    Sistēma izseko visus notikumus, neatkarīgi vai pieteikumi ir automātiski vai manuāli nozīmēti kādam departamentam vai darbiniekam. Automātiski nozīmētie pieteikumi būs atkarīgi no <span class="doc-desc-title">Help Topics</span> un <span class="doc-desc-title">E-pasta filtru</span> iestatījumiem Administrācijas Panelī.
+overdue:
+  title: Nokavēts
+  content: >
+    Pieteikumu skaits, kurš ir pārsniedzis norādīto SLA plānu.
+closed:
+  title: Slēgts
+  content: >
+    Šis ir aizvērto pieteikumu skaits.
+reopened:
+  title: Atvērts no jauna
+  content: >
+    Šis ir atkārtoti atvērto pieteikumu skaits, kas tika takārtoti atvērti vai nu no Lietotāja vai Klienta puses, kad viņš/viņa atbildēja uz pieteikumu, kam bija piešķirts statuss "Slēgts".
+service_time:
+  title: Apkalpošanas laiks
+  content: >
+    <span class="doc-desc-title">Servisa laiks</span> ir laika periods no brīža, kad pieteikums tika izveidots, līdz brīdim, kad pieteikuma status tiek nomainīts uz aizvērtu. <span class="doc-desc-title">Servisa laiks</span> kolonna šeit mēra vidējo servisa laiku stundās uz vienu pieteikumu, iepriekš noteiktā laika diapazonā.
+response_time:
+  title: Atbildes laiks
+  content: >
+    <span class="doc-desc-title">Atbildes laiks</span>, ir laika periods no pieteikuma atvēršanas brīža līdz atbildes sniegšanai klientam.

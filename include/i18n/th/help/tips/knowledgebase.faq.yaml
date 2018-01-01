@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: ชนิดรายการ
+  content: >
+    เลือก <span class="doc-desc-opt"> สาธารณะ (ประกาศ) </span> ถ้าคุณต้องการ  <span class="doc-desc-title">FAQ</span> นี้จะถูกเผยแพร่แบบสาธารณะ ตามที่กำหนดหัวเรื่องประเภทแบบสาธารณะเอาไว้
+  links:
+    - 
+      title: เปิดฐานข้อมูลความรู้เป็นแบบสาธารณะสำหรับพอร์ทัลของลูกค้า
+      href: /scp/settings.php?t=kb

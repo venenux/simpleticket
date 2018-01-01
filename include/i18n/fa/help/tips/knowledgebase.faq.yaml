@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: نوع قرارداد
+  content: >
+    انتخاب <span class="doc-desc-opt"> عمومی (منتشر)</span> اگر شما می خواهید این <span class="doc-desc-title"> پرسش و پاسخ</span> به صورت عمومی منتشر شود در اطلاعات پایه اگر دسته اصلی عمومی باشد.
+  links:
+    - 
+      title: پایگاه دانش عمومی برای پرتال مشتری فعال شود
+      href: /scp/settings.php?t=kb

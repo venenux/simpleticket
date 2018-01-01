@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Stato Ticket
+  content: >
+    Selezionare un intervallo di date per generare nel grafico e nella tabella (cf. <span class="doc-desc-title"> Statistics</span>) qui sotto qualsiasi informazione corrispondente per quelle date. Il grafico sottostante rifletterà sempre un'ampia panoramica dei dati di tutto il sistema (cioè, la popolazione). Tuttavia, puoi navigare nella la tabella <span class="doc-desc-title"> statistica</span> sottostante per mettere a fuoco un soggetto più ristretto di interesse (ad es., dipartimento, argomenti o personale). Inoltre, si possono esportare tutti i dati attualmente visualizzati nella tabella <span class="doc-desc-title"> statistiche</span>.
+report_timeframe:
+  title: Rapporto del periodo compreso nell'intervallo di date
+  content: >
+    Scegli una data di inizio per i dati di esempio desiderati, utilizzando il selezionatore data. Poi, scegli l'intervallo di tempo a partire da quella data per definire la data di fine per i dati di esempio.
+statistics:
+  title: Statistiche
+  content: >
+    Visualizza l'argomento di interesse cliccando sulla scheda appropriata per mostrare l'esempio specifico di dati. All'interno della tabella, i cerchi rappresentano le dimensioni dei dati nominali. Pertanto, più grande è il numero in una cella particolare, più grande sarà il circolo adiacente.
+opened:
+  title: Aperto
+  content: >
+    Questo rappresenta i biglietti aperti dagli agenti (es., aperti internamente ) e non dai clienti.
+assigned:
+  title: Assegnato
+  content: >
+    Il sistema tiene traccia di ogni evento per cui un biglietto è manualmente o automaticamente assegnato a un determinato reparto o agente. Le assegnazioni automatiche dipenderanno dalle impostazioni stabilite per <span class="doc-desc-title">Help Topics</span> and <span class="doc-desc-title">Email Filters</span> nel pannello di amministrazione.
+overdue:
+  title: Scadute
+  content: >
+    Questo è il numero di ticket che non rispettano il piano SLA a cui appartenevano.
+closed:
+  title: Chiuso
+  content: >
+    Questa è la quantità di biglietti che sono stati chiusi.
+reopened:
+  title: Riaperto
+  content: >
+    Questa è la quantità di biglietti che sono stati riaperti da un agente o da un Client quando lui/lei ha risposto mentre il biglietto era stato chiuso.
+service_time:
+  title: Tempo di lavorazione
+  content: >
+    <span class="doc-desc-title">Il Tempo di lavorazione</span> è il periodo che intercorre tra l'apertura e la chiusura di un ticket. La colonna <span class="doc-desc-title">Tempo di lavorazione</span> riporta la media in ore, per ticket, calcolata nell'intervallo selezionato.
+response_time:
+  title: Tempo di risposta
+  content: >
+    <span class="doc-desc-title">Tempo di risposta</span> indica il tempo trascorso dall'apertura del ticket, da parte di utente, fino alla chiusura del ticket stesso da parte di un operatore. La misura del Tempo di risposta comprende il tempo trascorso durante tutte le iterazioni tra utente e operatore.

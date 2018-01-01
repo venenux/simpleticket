@@ -1,0 +1,22 @@
+---
+notes: |
+  
+subject: |
+  Ärende #%{ticket.number} flyttat - %{ticket.dept.name}
+body: |2
+  <h3>Hej %{recipient},</h3>
+  Ärende <a href="%{ticket.staff_link}">#%{ticket.number}</a> har flyttats till %{ticket.dept.name} avdelningen av <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>För att visa eller besvara ärendet, vänligen <a
+  href="%{ticket.staff_link}">logga in</a> i systemet.
+  </div>
+  <em style="font-size: small; ">Med vänliga hälsningar</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Drivs av osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

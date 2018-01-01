@@ -1,0 +1,73 @@
+---
+new_ticket_help_topic:
+  title: 'crwdns1495:0crwdne1495:0'
+  content: >
+    crwdns1496:0crwdne1496:0
+  links:
+    - 
+      title: 'crwdns1497:0crwdne1497:0'
+      href: 'crwdns1498:0crwdne1498:0'
+new_ticket_priority:
+  title: 'crwdns1499:0crwdne1499:0'
+  content: >
+    crwdns1500:0crwdne1500:0
+new_ticket_department:
+  title: 'crwdns1501:0crwdne1501:0'
+  content: >
+    crwdns1502:0crwdne1502:0
+  links:
+    - 
+      title: 'crwdns1503:0crwdne1503:0'
+      href: 'crwdns1504:0crwdne1504:0'
+auto_response:
+  title: 'crwdns1505:0crwdne1505:0'
+  content: >
+    crwdns1506:0crwdne1506:0
+username:
+  title: 'crwdns1507:0crwdne1507:0'
+  content: >
+    crwdns1508:0crwdne1508:0
+password:
+  title: 'crwdns1509:0crwdne1509:0'
+  content: >
+    crwdns1510:0crwdne1510:0
+login_information:
+  title: 'crwdns1511:0crwdne1511:0'
+  content: >
+    crwdns1512:0crwdne1512:0
+mail_account:
+  title: 'crwdns1513:0crwdne1513:0'
+  content: >
+    crwdns1514:0crwdne1514:0
+  links:
+    - 
+      title: 'crwdns1515:0crwdne1515:0'
+      href: 'crwdns1516:0crwdne1516:0'
+host_and_port:
+  title: 'crwdns1517:0crwdne1517:0'
+  content: >
+    crwdns1518:0crwdne1518:0
+protocol:
+  title: 'crwdns1519:0crwdne1519:0'
+  content: >
+    crwdns1520:0crwdne1520:0
+fetch_frequency:
+  title: 'crwdns1521:0crwdne1521:0'
+  content: >
+    crwdns1522:0crwdne1522:0
+emails_per_fetch:
+  title: 'crwdns1523:0crwdne1523:0'
+  content: >
+    crwdns1524:0crwdne1524:0
+fetched_emails:
+  title: 'crwdns1525:0crwdne1525:0'
+  content: >
+    crwdns1526:0crwdne1526:0
+smtp_settings:
+  title: 'crwdns1527:0crwdne1527:0'
+  content: >
+    crwdns1528:0crwdne1528:0
+header_spoofing:
+  title: 'crwdns1529:0crwdne1529:0'
+  content: >
+    crwdns1530:0crwdne1530:0

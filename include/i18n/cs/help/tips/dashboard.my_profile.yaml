@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktní informace
+  content: >
+    
+username:
+  title: Uživatelské jméno
+  content: >
+    Pouze agenti se statusem Admin mohou změnit uživatelske jméno. Pokud jste agent s Admin oprávněním, můžete toho dosáhnout vybráním agenta pro následnou editaci z tabulky<span class="doc-desc-title">Zaměstnanci</span> .
+  links:
+    - 
+      title: Změnte uživatelské jméno jako Administrátor
+      href: /scp/staff.php
+time_zone:
+  title: Časové pásmo
+  content: >
+    
+daylight_saving:
+  title: Letní čas
+  content: >
+    
+maximum_page_size:
+  title: Maximální velikost stránky
+  content: >
+    
+auto_refresh_rate:
+  title: Automaticky obnovovat
+  content: >
+    
+default_signature:
+  title: Výchozí podpis
+  content: >
+    
+default_paper_size:
+  title: Výchozí velikost stránky
+  content: >
+    
+show_assigned_tickets:
+  title: Ukaž přiřazené tikety
+  content: >
+    <p> Pokud tuto volbu nastavíte, tak přepíšete systémové nastavení pro schování přiřazených požadavků ze seznamu otevřených požadavků. </p> <p class="info-banner"> <i class="icon-info-sign"></i> Toto nastavení je pouze dostupné v případě, že zobrazení přiřazených požadavků je vypnuto systémově. </p>
+password:
+  title: Heslo
+  content: >
+    
+current_password:
+  title: Aktuální heslo
+  content: >
+    
+new_password:
+  title: Nové heslo
+  content: >
+    
+confirm_new_password:
+  title: Potvrďte nové heslo
+  content: >
+    
+signature:
+  title: Podpis
+  content: >
+    Vytvořte volitelný <span class="doc-desc-title">Podpis</span> , který se může objevit v odpovědích na tikety na jejich konci. Jestli se <span class="doc-desc-title">Podpis</span> objeví nebo ne, závísí na <span class="doc-desc-title">Šabloně emailu</span> která bude použita v odpovědi na tiket.
+  links:
+    - 
+      title: Vytvořte šablony emailů v administračním panelu
+      href: /scp/templates.php

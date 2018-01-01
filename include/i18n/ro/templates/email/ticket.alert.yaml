@@ -1,0 +1,42 @@
+---
+notes: |
+  Este trimis la membrii echipei atunci cand un nou tichet este creat in sistem. Se aplica tichetelor create prin email, de pe pagina web a sistemului, sau prin API.
+subject: |
+  Alerta Tichet Nou
+body: |2
+  <h2>Buna %{recipient.name},</h2>
+  Un nou tichet #%{ticket.number} creat
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>De la</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Departament</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pentru a deschide sau raspunde la acest tichet, <a
+  href="%{ticket.staff_link}">autentificat-te</a> in platforma de tichete</div>
+  <em style="font-size: small">Cu drag, Platforma de Suport</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

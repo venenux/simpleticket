@@ -1,0 +1,10 @@
+---
+type:
+  title: Tip
+  content: >
+    Əgər departamentin tipi şəxsidirsə, onda departament imzası cavabda görünməyəcək, həmçinin müştəri portalından olan departament tapşırığı da göstərilməyəcək.
+dept_manager:
+  title: Şöbə meneceri
+  content: >
+    Şöbələrdə sorğular üçün siqnallar və qeydlər almaq üçün agenti şöbə meneceri kimi seçə bilərsiniz.
+  0: Agentlər departament meneceri olmaq üçün departament üzvü olmalı deyillər.

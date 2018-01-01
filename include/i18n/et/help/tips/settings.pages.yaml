@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Ettevõtte info
+  content: >
+    See viitab organisatsioonile või ettevõttele, mis kasutab osTicket tarkvara ja kasutajatoe meeskonda. See info kuvatakse e-kirja signatuuris (jaluses) kui agendid vastavad pöördumistele.
+  links:
+    - 
+      title: Ettevõtte info vorm
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Avakuva
+  content: >
+    <span class="doc-desc-title">Avalehte</span> kuvatakse Sinu kasutajatoe saidi esilehena.
+offline_page:
+  title: Offlain leht
+  content: >
+    <span class="doc-desc-title">Offlain lehte</span> kuvatakse tugiteenuse saidil, kui kasutajatugi on offlain, vaata adminsitraatori menüü -&gt; Seaded -&gt; Süsteem -&gt; Kasutajatoe staatus.
+default_thank_you_page:
+  title: Tänu leht vaikimisi
+  content: >
+    <span class="doc-desc-title">Tänu leht</span> kuvatakse kliendile, kui <span class="doc-desc-title">klient</span> registreerib uue pöördumise. <br/><br/> <span class="doc-desc-title">Täname</span> lehte saab siduda spikriteemadega.
+logos:
+  title: Logod
+  content: >
+    Saad kohandada <span class="doc-desc-title">logo</span>, mida kuvatakse kliendi portaalis (nt Sinu kasutajatoe leht).
+upload_a_new_logo:
+  title: Laadi üles uus logo
+  content: >
+    Vali pilt .gif, .jpg või .png vormingus. Me vähendame seda pilti proportsionaalselt, kuid me ei muuda pildil olevat infot. Selleks, et kiirendada üleslaadimist, on soovitatav pildi suurus 817X170 px.

@@ -1,0 +1,13 @@
+---
+groups:
+  title: Skupiny
+  content: >
+    Skupiny se používají pro definici přístupových práv agentů v helpdesku. Skupiny mohou též umožnit  přístup do jiných oddělení, než je primární oddělení agenta.
+status:
+  title: Stav
+  content: >
+    If <span class="doc-desc-opt">Zakázáno</span>, Agenti zařazeni do této skupiny se nemohou přihlásit a nedostanou výstrahy a upozornění.
+department_access:
+  title: Přístup oddělení
+  content: >
+    Zkontroluj všechna oddělení ke kterým mají členové skupiny přístup.

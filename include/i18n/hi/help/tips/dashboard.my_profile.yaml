@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: संपर्क जानकारी
+  content: >
+    
+username:
+  title: उपयोगकर्ता का नाम
+  content: >
+    Only those Agents with Admin status may change a username. If you are an Agent with Admin privileges, you may accomplish this by selecting an Agent to edit from the <span class="doc-desc-title">Staff Members</span> table.
+  links:
+    - 
+      title: Change a username as an Administrator
+      href: /scp/staff.php
+time_zone:
+  title: समय क्षेत्र
+  content: >
+    
+daylight_saving:
+  title: Daylight Saving
+  content: >
+    
+maximum_page_size:
+  title: Maximum Page Size
+  content: >
+    
+auto_refresh_rate:
+  title: Auto Refresh Rate
+  content: >
+    
+default_signature:
+  title: Default Signature
+  content: >
+    
+default_paper_size:
+  title: Default Paper Size
+  content: >
+    
+show_assigned_tickets:
+  title: निरुपित टिकट दिखाएँ
+  content: >
+    Enable this to hide your name from the <span class="doc-desc-title">Open Tickets</span> queue for those tickets which you have been assigned. Upon hiding, the <span class="doc-desc-title">Department</span> name to which you belong will replace where your name would normally be displayed.
+password:
+  title: पासवर्ड
+  content: >
+    
+current_password:
+  title: वर्तमान पासवर्ड
+  content: >
+    
+new_password:
+  title: नया पासवर्ड
+  content: >
+    
+confirm_new_password:
+  title: नए पासवर्ड की पुष्टि करें
+  content: >
+    
+signature:
+  title: हस्ताक्षर
+  content: >
+    Create an optional <span class="doc-desc-title">Signature</span> that perhaps appears at the end of your Ticket Responses. Whether this <span class="doc-desc-title">Signature</span> appears, or not, depends on the <span class="doc-desc-title">Email Template</span> that will be used in a Ticket Response.
+  links:
+    - 
+      title: Create Emails Templates in the Admin Panel
+      href: /scp/templates.php

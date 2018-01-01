@@ -29,7 +29,12 @@ Rules for that pulls/merge requests:
 Translation information guide
 -----------------------------
 
-todo
+Please read the  [wiki-translators.md](wiki-translators.md) document for specific guidelines 
+respect translation rules. Original osticket used Crowdin to manage translations, but not simpleticket.
+
+Basically can use the `en_US` directory as template and rename to the new lang or 
+can visit translation page at http://i18n.crowdin.com/ and copy the 
+template or a based file to work inside simpleticket and conver all entries to.
 
 Code contribution guides:
 ------------------------

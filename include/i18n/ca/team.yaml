@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 0
+  name: Suport de nivell I
+  notes: Suport de nivell I, responsable de la interacció inicial amb clients

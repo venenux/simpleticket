@@ -1,0 +1,40 @@
+---
+notes: Poruka se šalјe operaterima kada se primi nova poruka od strane korisnika u vezi nekog tiketa. Ovo može da se desi ako korisnik odgovori na imejl koji mu je poslao sistem podršske ili ako poseti portal za korisničku podršku i pošalјe tim putem novu poruku.
+subject: Obaveštenje o novoj poruci
+body: |2
+  <h3><strong>Zdravo %{recipient},</strong></h3>
+  Nova poruka je dodata u vezi tiketa <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Od</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Odelјenje</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Da biste videli ili odgovorili, <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >prijavite se</span></a> sistem za korisničku podršku</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Vaša korisnička podrška</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Omogućio osTicket" width="126" height="19" style="width: 126px;">

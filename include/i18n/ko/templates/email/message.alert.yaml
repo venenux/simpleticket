@@ -1,0 +1,43 @@
+---
+notes: |
+  고객이 티켓에 새 메지시를 작성했을 때 스텝 멤버에게 전송됩니다. 시스템이 발송한 이메일에 고객이 답변하거나, 웹 포털에 고객이 방문하여 메시지를 작성했을 때 발생합니다.
+subject: |
+  새 메시지 알림
+body: |2
+  <h3><strong>안녕하세요, %{recipient.name}</strong></h3>
+  새로운 메시지가 티켓 <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>에 등록되었습니다.
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>작성자</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>부서</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>티켓을 확인/답변하려면 서포트 티켓 시스템에 <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >로그인</span></a> 해 주세요.</div>
+  <em style="font-size: small; ">고객 지원 시스템</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

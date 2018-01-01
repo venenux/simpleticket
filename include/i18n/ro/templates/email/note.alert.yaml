@@ -1,0 +1,20 @@
+---
+notes: |
+  Notificare trimisa agentilor cand se inregistreaza activitate la un tichet, activitate cum ar fi o nota interna sau se ataseaza raspunsul unui agent la tichet.
+subject: |
+  Alerta Interna de Activitate Noua
+body: |2
+  <h3><strong>Buna %{recipient.name},</strong></h3>
+  Un agent a intervenit asupra tichetului <a href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>De la</strong>: 
+  </td> 
+  <td>
+   %{note.poster} </td> </tr> <tr> <td> <strong>Titlu</strong>: </td> <td> %{note.title} </td> </tr> </tbody> </table> <br> %{note.message} <br> <br> <hr> Pentru a vizualiza sau raspunde la acest tichet va rugam sa va <a
+  href="%{ticket.staff_link}">autentificati</a> pe platforma de suport <br> <br> <em style="font-size: small; ">Sistemul dvs. prietenos de suport</em> <br> <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

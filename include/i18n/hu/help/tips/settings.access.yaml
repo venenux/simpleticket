@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Jelszó érvényesség házirend
+  content: >
+    Meghatározza (hónapokban), hogy a kezelőknek milyen gyakran kell megváltoztatniuk a jelszavukat. Ha nincs engedélyezve ("Lejárat nélkül"-re van állítva) a jelszó soha nem veszti érvényét.
+password_expiration_policy:
+  title: Jelszó érvényesség házirend
+  content: >
+    Válassza ki, hogy a kezelőknek milyen gyakran kell megváltoztatniuk a jelszavukat. Ha nincs engedélyezve (ami a <span class="doc-desc-opt">Nincs lejárat</span>), a jelszó nem veszti soha érvényét.
+allow_password_resets:
+  title: Jelszó-visszaállítás engedélyezése
+  content: >
+    Engedélyezze ezt a lehetőséget ha szeretné megjeleníteni az <span class="doc-desc-title">Elfelejtett jelszó</span> linket a <span class="doc-desc-title">Személyzeti Bejelentkezés panelen</span>sikertelen bejelentkezési próbálkozást követően.
+reset_token_expiration:
+  title: Jelszó-visszaállítási ablak
+  content: >
+    Válassza ki mennyi idő teljen el (percben) a <span class="doc-desc-title">Jelszó visszaállító kupon</span>aktiválásáig. Ha a kezelő <span class="doc-desc-title">Jelszó visszaállítást</span>igényel, egy kupon kerül neki elküldésre emailben, ami engedélyezi a visszaállítás megtételét.
+staff_session_timeout:
+  title: Dolgozói munkamenet időtúllépése
+  content: >
+    Válassza ki a maximális tétlenségi időt (percben), ami után a kezelőnek újra be kell jelentkeznie.<br><br>Ha nem szeretné alkalmazni ezt a funkció, állítsa az <span class="doc-desc-title">Alkalmazott munkamenet időkorlátját</span> 0-ra.
+client_session_timeout:
+  title: Felhasználói munkamenet időtúllépése
+  content: >
+    Válassza ki a maximális időt (percben), ami után a felhasználónak újra be kell jelentkeznie.<br><br> Amennyiben szeretné letiltani a <span class="doc-desc-title">Felhasználó Időtullépést</span>, írjon be 0-t.
+bind_staff_session_to_ip:
+  title: Alkalmazott munkamenet IP-hez kapcsolása
+  content: >
+    Engedélyezze ezt, ha szeretné hogy a kezelőt az aktuális IP cím alapján azonosításra kerüljön. <br><br>Ez a beállítás nem ajánlott a dinamikus IP címmel rendelkező felhasználóknak.
+registration_method:
+  title: Regisztrációs feltételek
+  content: >
+    <span class="doc-desc-title">Regisztrációs módszer</span> és a <span class="doc-desc-title">Regisztráció kötelező</span> együttes beállításával konfigurálhatja a felhasználók regisztrációjának folyamatát és az ügyfélszolgálat honlapjához való hozzáférésüket. Az alábbi táblázat összefoglalja, hogyan értelmezi a rendszer a két beállítást. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tr><th>Regisztráció kötelező</th> <th>Regisztrációs módszer</th> <th>Eredmény</th></tr><tr><td>Nem</td><td>Nyilvános</td> <td>A regisztráció ajánlott, de nem kötelező az új hibajegyekhez.</td></tr><tr><td>Igen</td><td>Nyilvános</td> <td>Regisztráció és belépés kötelező az új hibajegyekhez</td></tr><tr><td>Nem</td><td>Személyes</td><td>Bárki létre hozhat hibajegyet, de csak a kezelők regisztrálhatnak fiókot</td></tr> <tr><td>Igen</td><td>Személye</td> <td>Felhasználók csak meghívás útján érik el</td></tr><tr><td>Nem</td><td>Kikapcsolva</td> <td>Senki sem regisztrálhat fiókot, de bárki létre hozhat egy hibajegyet.<em> Így működött az osTicket az 1.9 előtt</em></td></tr> <tr><td>Igen</td><td>Kikapcsolva</td><td>Tiltja az új hibajegyek létrehozását weben keresztül</td></tr> </tbody></table>
+client_verify_email:
+  title: Email aktiváció kérése
+  content: >
+    Kapcsolja ki ezt a funkciót, ha azonnali elérést szeretne biztosítani a felhasználóknak a hibajegyekhez a "Hibajegy státusz ellenőrzése" bejelentkezési oldalra az ügyfélportálon. Ha engedélyezi (ez az alapbeállítás) a felhasználók az emailben kapott linket követve láthatják a hibajegyet. <br><br> Az email hitelesítés kikapcsolása lehetővé teheti harmadik személyek részére (pl. hibajegy munkatársak), hogy a hibajegy tulajdonosa helyett cselekedjenek.

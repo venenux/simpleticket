@@ -1,0 +1,22 @@
+---
+notes: |
+  
+subject: |
+  Pedido de assistência #%{ticket.number} transferido para - %{ticket.dept.name}
+body: |2
+  <h3>Olá %{recipient.name},</h3>
+  Pedido de assistência  <a href="%{ticket.staff_link}">#%{ticket.number}</a> foi transferido para  %{ticket.dept.name} <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Para consultar ou responder a esse pedido de assistência, por favor clique em <a
+  href="%{ticket.staff_link}">login</a> para aceder ao sistema de suporte técnico.
+  </div>
+  <em style="font-size: small; ">O Suporte Técnico</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

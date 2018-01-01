@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Odprto
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Odprti zahtevki.
+- 
+  id: 2
+  name: Rešeno
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Rešeni zahtevki so zaprti in jih je moč odpreti s strani končnih uporabnikov. Slednje je lahko uporabno kadar so rešeni zahtevki zaprti s pomočjo sprožilcev z poslanim obvestilom končnim uporabnikom.
+- 
+  id: 3
+  name: Zaprto
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Zahtevkov, ki so označeni kot zaprti, končni uporabniki ne morejo ponovno odpreti. Zahtevki so dostopni le strankam in moderatorjem.
+- 
+  id: 4
+  name: Arhivirano
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Zahtevki, ki so dostopni le administratorjem in niso več na voljo v čakalni vrsti.
+- 
+  id: 5
+  name: Izbrisano
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Zahtevki v čakalni vrsti za izbris. Niso dostopni v čakalni vrsti.

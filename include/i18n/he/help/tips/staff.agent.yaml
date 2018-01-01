@@ -1,0 +1,67 @@
+---
+username:
+  title: שם משתמש
+  content: >
+    בחר <span class="doc-desc-title">שם</span> סוכן ייחודי עבור <span class="doc-desc-title">מרכז התמיכה</span>.
+email_address:
+  title: כתובת דוא"ל
+  content: >
+    הזן את כתובת המייל של הסוכן שיקבל <span class="doc-desc-title">אזהרות &amp; והתראות</span> מ<span class="doc-desc-title">מרכז התמיכה</span>.
+  0: <br><br>
+  1: עובדים יכולים להיכנס לממשק הניהול בעזרת שם המשתמש או הסיסמא.
+welcome_email:
+  title: דוא"ל ברוכים הבאים
+  content: >
+    שלח לסוכן החדש קישור שממנו יוכל הסוכן להזין את סיסמתו. כאשר לא מסומן, תצטרך להזין סיסמא ולהעביר בעצמך את פרטי ההתחברות לסוכן.
+account_password:
+  title: סיסמת חשבון
+  content: >
+    כ<span class="doc-desc-title">כמנהל</span>, תוכל לשנות את סיסמאת הסוכן.
+forced_password_change:
+  title: כפה שינוי סיסמא
+  content: >
+    אפשר את זה אם ברצונך להכריח את הסוכן לשנות את סיסמתו בהתחברות הבאה.
+agents_signature:
+  title: החתימה של הסוכן
+  content: >
+    תיצור חתימה לסוכן שניתן לבחור בעת התשובה לפניה.
+account_status:
+  title: מצב חשבון
+  content: >
+    אם הסטטוס של הסוחן הוא <span class="doc-desc-opt">נעול</span>, הם לא יוכלו להיכנס למערכת קריאות שרות.
+assigned_group:
+  title: קבוצה משוייכת
+  content: >
+    ה<span class="doc-desc-title">קבוצה</span>שבחרת לסוחן יקבע ההרשאות לאותו לסוחן <span class="doc-desc-title">במערכת קריאות שרות</span>.
+  links:
+    - 
+      title: נהל קבוצות
+      href: /scp/groups.php
+primary_department:
+  title: מחלקה ראשית
+  content: >
+    בחר את ה<span class="doc-desc-title">קבוצה</span> העיקרית שבו הסוחן שייך.
+  links:
+    - 
+      title: ניהול מחלקות
+      href: /scp/departments.php
+daylight_saving:
+  title: שעון קיץ
+  content: >
+    אפשר את האופציה הזו אם ברצונך ששעון קיץ יחשוב אוטומתית לאיזור הזמן של סוכן זה.
+limited_access:
+  title: גישה מוגבלת
+  content: >
+    אם מאופשר, לסוכן תהיה גישה רק לכרטיסיות ששויכו אליו ספציפית או לקבוצתו.
+directory_listing:
+  title: תצוגה
+  content: >
+    אפשר את זה אם אתה רוצה להוסיף את הסוכן הזה ל<span class="doc-desc-title">יומן הצוות</span>.
+  links:
+    - 
+      title: בקר בתקיות הצוות
+      href: /scp/directory.php
+vacation_mode:
+  title: מצב חופשה
+  content: >
+    אם תשנה את הסטטוס של הסוכן ל<span class="doc-desc-opt">מצב חופשה</span>, הסוכן לא יקבל <span class="doc-desc-title">התראות, הודעות</span> ולא יהיה זמין להקצאת פניות.

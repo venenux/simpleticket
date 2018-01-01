@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 0
+  name: Podrška 1. nivoa
+  notes: Podrška 1. nivoa, zadužena za inicijalnu komunikaciju sa korisnicima

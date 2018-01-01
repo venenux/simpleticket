@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: 联系资料
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: 电子邮件地址
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: 姓名
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: 电话
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: 备注
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: 咨询详情
+  instructions: 请描述您的问题
+  notes: |
+    此表单将会被附加给所有的咨询，不管那个咨询是怎么生成的。你可以在这个表单里面添加任何字段，他们将会显示在全部咨询那里，也能够被高级搜索找到并可以被筛选。
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: 问题摘要
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: 问题详情
+      hint: 您打开服务单的原因说明
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: 优先级
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: 公司信息
+  instructions: 邮件模版里面可用的详情
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: 公司名称
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: 网站
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: 电话
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: 地址
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: 公司信息
+  instructions: 用户公司详情
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: 名称
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: 地址
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: 电话
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: 网站
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: 备注
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

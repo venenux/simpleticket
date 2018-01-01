@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Chính sách hết hạn mật khẩu
+  content: >
+    Xem mức độ thường xuyên (trong tháng ) mà các nhân viên được yêu cầu thay đổi mật khẩu. Nếu kích hoạt (Chế độ vô thời hạn), mật khẩu sẽ không bị hết hiệu lực.
+password_expiration_policy:
+  title: Chính sách hết hạn mật khẩu
+  content: >
+    Chọn mức độ thường xuyên các nhân viên được yêu cầu thay đổi mật khẩu. Nếu kích hoạt (VD:<span class="doc-desc-opt">Chế độ vô thời hạn</span>), mật khẩu sẽ không mất hiệu lực.
+allow_password_resets:
+  title: Cho phép đặt lại mật khẩu
+  content: >
+    Kích hoạt chế độ này nếu bạn muốn hiển thị<span class="doc-desc-title">đường dẫn quên mật khaiar</span>trên<span class="doc-desc-title">phần đăng nhập của nhân viên</span>sau khi đăng nhập thất bại.
+reset_token_expiration:
+  title: Màn hình cài đặt lại mật khẩu
+  content: >
+    Chọn quảng thời gian (tính theo phút) mà <span class="doc-desc-title">mã đặt lại mật khẩu</span>có hiệu lực. Khi một nhân viên yêu cầu<span class="doc-desc-title">cài đặt lại mật khẩu</span>, họ sẽ được gửi email một mã cho phép cài đặt.
+staff_session_timeout:
+  title: Thời gian tạm ngưng của nhân viên
+  content: >
+    Chọn thời gian tạm ngưng tối đa (theo phút) trước khi một nhân viên được yêu cầu đăng nhập trở lại.<br><br>Nếu bạn muốn vô hiệu hóa<span class="doc-desc-title">Chế độ tạm ngưng</span>, nhấn 0.
+client_session_timeout:
+  title: Thời gian tạm ngưng của người dùng
+  content: >
+    Chọn thời trang tạm ngưng tối đa (theo phút) trước khi một người dùng được yêu cầu đăng nhập trở lại.<br><br>Nếu bạn muốn vô hiệu hóa<span class="doc-desc-title">chế độ tạm ngưng người dùng, </span>nhấn 0.
+bind_staff_session_to_ip:
+  title: Chế độ nhớ IP nhân viên
+  content: >
+    Kích hoạt chế độ này nếu bạn muốn nhân viên ghi nhớ IP hiện tại của họ khi đăng nhập.<br><br>Chế độ này không được khuyến khích cho những người dùng hay thay đổi IP.
+registration_method:
+  title: Cách đăng nhập
+  content: >
+    <span class="doc-desc-title">Phương pháp đăng nhập</span>và<span class="doc-desc-title">Đăng nhập bắt buộc</span>được sử dụng để cấu hình cách người dùng đăng nhập và truy cập vào cổng thông tin trang web trong phần trợ giúp. Bảng bên dưới sẽ tổng hợp cách 2 thiết lập này được hiểu bởi hệ thống.<table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"><tr><th>Đăng nhập bắt buộc</th><th>Phương pháp đăng nhập</th><th>Kết quả</th></tr><tr><td>Không</td><td>Công khai</td><td>Cách đăng nhập được khuyến khích nhưng không bắt buộc cho các lệnh mới.</td></tr><tr><td>Có</td><td>Công khai</td><td>Cách đăng nhập và login bắt buộc cho các lệnh mới</td></tr><tr><td>Không</td><td>Riêng tư</td><td>Bất kì ai có thể tạo một lệnh mới nhưng chỉ nhân viên có thể đăng nhập tài khoản</td></tr><tr><td>Có</td><td>Riêng tư</td><td>Người dùng có thể truy cập nếu được mời</td></tr><tr><td>Không</td><td>Vô hiệu hóa</td><td>Không ai có thể đăng nhập 1 tài khoản nhưng bất kì ai cũng có thể tạo một lệnh.<em>Đó là cách osTicket hoạt động trước 1.9</em></td></tr><tr><td>Có</td><td>Vô hiệu hóa</td><td>Vô hiệu hóa lệnh mới thông qua cổng thông tin trang web</td></tr></tbody></table>
+client_verify_email:
+  title: Bắt buộc chứng thực email 
+  content: >
+    Vô hiệu hóa lựa chọn này giúp người dùng ngay lập tức truy cập vào các lệnh thông qua trang đăng nhập 'Kiểm tra tình trạng lệnh' trong cổng thông tin khách hàng. Nếu kích hoạt (mặc định), người dùng sẽ được yêu cầu nhận 1 email và theo một đường dẫn trong email để xem lệnh này.<br><br>Vô hiệu hóa chứng thực email có thể cho phép bên thứ 3 (VD: công tác viên) mạo danh chủ lệnh.

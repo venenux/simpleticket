@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Testeaza trimiterea unui email
+  content: >
+    Livrarea unui email depinde de setarile serverului (php.ini) si/sau setarile SMTP.
+  links:
+    - 
+      title: Selecteaza un email pentru a seta configurarile SMTP (de trimitere)
+      href: /scp/emails.php
+from:
+  title: Expeditor
+  content: >
+    
+to:
+  title: Destinatar
+  content: >
+    
+subject:
+  title: Subiect
+  content: >
+    
+message:
+  title: Mesaj
+  content: >
+    

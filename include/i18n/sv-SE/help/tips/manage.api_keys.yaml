@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API-nyckel
+  content: >
+    API-nycklar används för att autentisera kunder som skickar ärenden via Applikationsgränssnittet (Application Programming Interface, API). API-nycklar används i stället för lösenord. Eftersom API-nycklar ibland skickas okrypterade så är de knutna till respektive kunds IP-adress.
+  links:
+    - 
+      title: osTickets API-dokumentation
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP-adress
+  content: >
+    Kundens nätverks-IP-adress. För varje unik kunds IP-adress krävs en unika API-nycklar

@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Sayt səhifələri
+  content: >
+    Sayt səhifələri kiçik Kontent Menecment Sistemi (CMS) kimi xidmət edə bilər. Siz bir neçə açılışı, offline və təşəkkür səhifələrini müəyyənləşdirə və onları şirkətin tənzimləmələrində və kömək mövzularında konfiqurasiya edə bilərsiniz.
+  links:
+    - 
+      title: Şirkət tənzimləmələri
+      href: /scp/settings.php?t=pages
+type:
+  title: Tip
+  content: >
+    Əgər sizin help deskiniz deaktivdirsə <span class="doc-desc-opt">offline</span> səhifələr müştəri portalında görünür. <span class="doc-desc-opt">Açılış</span> səhifələri sizin müştəri portalınızın əsas səhifəsində olur. <span class="doc-desc-opt">Təşəkkür</span> səhifələri istifadəçi sorğunu təqdim etdikdən sonra görünür. <span class="doc-desc-opt">Digər</span> səhifələr sadə kontent menecment sistemi (CMS) kimi istifadə oluna bilər.

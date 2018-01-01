@@ -1,0 +1,69 @@
+---
+type:
+  title: Type
+  content: >
+    Velg <span class="doc-desc-opt"> privat</span> hvis du ønsker å maske tildelinger til denne avdelingen i klient Portalen.  I tillegg når merket som <span class="doc-desc-opt"> privat</span>, vises <span class="doc-desc-title"> Avdeling signaturen</span> ikke i e-post svar. <br/> <br/> Minst én avdeling må være <span class="doc-desc-opt"> felles</span>
+email:
+  title: E-post
+  content: >
+    E-postadresse brukes når svar sendes til brukere når agenter legge inn svar til saker.
+template:
+  title: Mal sett
+  content: >
+    E-post<span class="doc-desc-title"> Mal sett</span> brukes for automatisk svar, varsler og meldinger for saker til denne avdelingen.
+  links:
+    - 
+      title: Behandle maler
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Service Nivå Avtale for saker til denne avdelingen.
+  links:
+    - 
+      title: Administrere SLA planer
+      href: /scp/slas.php
+manager:
+  title: Avdelingsleder
+  content: >
+    Velg en <span class="doc-desc-title"> Leder</span> for denne avdelingen. <br/> <br/> Ledere kan konfigureres til å motta spesielle varsler og har også rett til å fjerne tilordningen av saker.
+  links:
+    - 
+      title: Behandle varsler og merknader
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Varsler og meldinger mottakere
+  content: >
+    Velg mottakere av konfigurert <span class="doc-desc-title"> varsler og meldinger</span>.
+  links:
+    - 
+      title: Konfigurere varsler og meldinger
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: restriksjon på tildeling av saker
+  content: >
+    Aktivere denne for å begrense sakstildeling til bare å inkludere medlemmer av denne avdelingen. Avdelingstilgang kan utvides til grupper hvis <span class="doc-desc-title"> Gruppemedlemskapet</span> er aktivert.
+auto_response_settings:
+  title: Autosvar-innstillinger
+  content: >
+    Dette lar deg overstyre globale autosvar innstillingene for denne avdelingen.
+new_ticket:
+  title: Automatisk svar ved ny sak
+  content: >
+    Du kan deaktivere at Auto-svar sendes til brukeren når en ny sak er opprettet og sendt til denne avdelingen.
+new_message:
+  title: Ny melding automatisk svar
+  content: >
+    Du kan deaktivere at Auto-svaret blir sendt til brukeren for å bekrefte en nylig sendt melding for saker i denne avdelingen.
+auto_response_email:
+  title: Automatisk e-post svar
+  content: >
+    Velg en e-postadresse som automatisk svar sendes for denne avdelingen.
+department_access:
+  title: Gruppetilgang
+  content: >
+    Tillate agenter fra andre avdelinger tilgang til denne avdelingens saker.
+department_signature:
+  title: Avdelingens signatur
+  content: >
+    Signaturen gjøres tilgjengelig som et alternativ, for <span class="doc-desc-opt"> offentlige</span> avdelinger, på Agent svar.

@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Hỗ trợ
+  signature: Bộ phận hỗ trợ
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Bán hàng
+  signature: |
+    Kinh doanh và chăm sóc khách hàng
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Bảo trì
+  signature: |
+    Phòng bảo trì
+  ispublic: 0
+  group_membership: 0

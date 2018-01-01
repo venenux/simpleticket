@@ -1,0 +1,10 @@
+---
+notes: Stranica se prikazuje kada je sistem korisničke podrške trenutno neaktivan.
+name: Oflajn
+body: |
+  <div><h1>
+  <span style="font-size: medium">Sistem korisničke podrške trenutno neaktivan</span>
+  </h1>
+  <p>Hvala Vam na interesovanju za naše servise.</p>
+  <p>Korisnički servis trenutno nije aktivan, molimo Vas pristupite ponovo za nekoliko minuta.</p>
+  </div>

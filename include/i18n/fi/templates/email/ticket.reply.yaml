@@ -1,0 +1,8 @@
+---
+notes: |
+  Lähetetään käyttäjälle, kun henkilöstön jäsen kommentoi tikettiä.
+  Vastaukset luodaan ainoastaan henkilöstön toimesta.
+subject: |
+  Vs: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Hyvä %{recipient.name}</strong></h3>%{response} <br><br><div style="color: rgb(127, 127, 127);"> %{company.name}, <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small; text-align: center;" > <em>Toivomme, että vastaus vastasi kysymyksiisi. Jos ei vastannut, älä lähetä uutta sähköpostia vaan vastaa tähän sähköpostiin tai <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >kirjaudu palveluun</a>. Palvelusta löydät täydellisen arkiston ja vastaukset kysymyksiisi.</em></div>

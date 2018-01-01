@@ -1,0 +1,6 @@
+---
+notes: >
+  Dette endrer overskriften på klient Logg på-siden. Det kan være nyttig for å informere kundene om din logginn og registrering praksis.
+name: "Logg inn %{company.name}"
+body: >
+  For bedre å betjene deg, vil vi oppfordrer våre kunder til å registrere en konto.

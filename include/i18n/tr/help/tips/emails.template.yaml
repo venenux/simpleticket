@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-posta Şablonları
+  content: >
+    E-posta şablon setleri, ceza'nın yaşamı boyunca gerçekleşebilecek çeşitli eylemler için otomatik yanıt ve uyarıları göndermek için kullanılır.
+template_to_clone:
+  title: Klon için şablon
+  content: >
+    Seçim clone ya da sade bir şekilde hisse senedi e-posta şablonları ile başlamak için bir şablon ayarlayın.
+language:
+  title: Lisan
+  content: >
+    <span class="doc-desc-opt"> hisse senedi</span> <span class="doc-desc-title"> E-posta şablonu ayarlamak</span> istediğiniz dili seçin. Dil paketleri, osTicket.com üzerinde kullanılabilir.
+  links:
+    - 
+      title: osTicket Lisan Paketleri
+      href: 'http://osticket.com/download'
+status:
+  title: Durum
+  content: >
+    <span class="doc-desc-opt"> etkin</span> Şablon setleri departmanları ile ilişkili ve sistem varsayılanlarına ayarlamak kullanılabilir.  Şablon kümesi şu anda kullanımda <span class="doc-desc-opt"> Engelli</span> olamaz.

@@ -1,0 +1,73 @@
+---
+new_ticket_help_topic:
+  title: Uue pöördumise abiteema
+  content: >
+    Vali <span class="doc-desc-title">Abiteema</span>, et automaatselt siduda pöördumisi e-posti aadressiga. <br/><br/>Abiteemaga seotud vormid ilma andmeteta lisatakse pöördumisele.
+  links:
+    - 
+      title: Halda abiteemasid
+      href: /scp/helptopics.php
+new_ticket_priority:
+  title: Uue pöördumise prioriteet
+  content: >
+    Vali <span class="doc-desc-title">prioriteet</span> uutele pöördumistele, mis on saadetud sellelt e-posti aadressilt.
+new_ticket_department:
+  title: Uue pöördumise osakond
+  content: >
+    Vali <span class="doc-desc-title">osakond</span> pöördumiste, mis on saadetud sellelt e-posti aadressilt, edastamiseks.
+  links:
+    - 
+      title: Halda osakondi
+      href: /scp/departments.php
+auto_response:
+  title: Uue pöördumise automaatvastus
+  content: >
+    Võid automaatteadete saatmise kasutajale välja lülitada, kui pöördumine on saadetud sellelt e-posti aadressilt.
+username:
+  title: Kasutajanimi
+  content: >
+    
+password:
+  title: Parool
+  content: >
+    
+login_information:
+  title: E-posti sisselogimise andmed
+  content: >
+    <span class="doc-desc-title">Kasutajanimi</span> ja <span class="doc-desc-title">parool</span> on vajalikud, et e-kirju IMAP/POP e-posti serverist alla laadida, samuti SMTP serveri kaudu e-kirja saatmiseks.
+mail_account:
+  title: E-kirjade allalaadimine
+  content: >
+    Lae alla e-kirjad IMAP või POP postiserverist ja teisenda need kasutajatoe pöördumisteks.
+  links:
+    - 
+      title: Halda <span class="doc-desc-title">e-posti kontrollimist</span>&amp;<span class="doc-desc-title">AutoCron</span> seadeid.
+      href: /scp/settings.php?t=emails
+host_and_port:
+  title: Kaughost
+  content: >
+    Sisesta oma meiliserveri <span class="doc-desc-title">hosti nimi</span> ja <span class="doc-desc-title">pordi</span> number. Seda järgi vaadata hosti konto dokumentatsioonist või küsida e-posti administraatorilt.
+protocol:
+  title: Postkasti protokoll
+  content: >
+    Vali Sinu postiserveri poolt toetatav e-posti saatmise protokoll. IMAP on soovitatav, samuti SSL, kui võimalik.
+fetch_frequency:
+  title: Allalaadimise sagedus
+  content: >
+    Vali, kui sagedasti (minutites) süsteem meilikontot kontrollib. <br/><br/> See määrab kasutaja saadetud e-kirja peale saadetud automaatvastuste saamise keskmise viivituse.
+emails_per_fetch:
+  title: E-kirju allalaadimise kohta
+  content: >
+    Samaaegselt töödeldavate e-kirjade kogus.
+fetched_emails:
+  title: Allalaetud e-kirjad
+  content: >
+    Otsusta, mida soovid teha töödeldud e-kirjadega:<br/><br/><span class="doc-desc-opt"><b>Teisalda kausta</b></span>: See teisaldab e-kirja kausta, mille saad määrata. Kui kausta serveris pole, loob süsteem selle. (<b>Soovituslik</b>)<hr><span class="doc-desc-opt"><b>Kustuta e-kirjad</b></span>: See kustutab e-kirjad, kui nad on töödeldud. <hr><span class="doc-desc-opt"><b>Ära tee midagi</b></span>: E-kirjad jäetakse sissetulnud kirjade kausta. Süsteem salvestab e-kirjade teadete ID-d ja püüab neid mitte uuesti alla laadida. See valik võib põhjustada pöördumiste dubleerimist. (<em>Ei soovitata</em>)
+smtp_settings:
+  title: SMTP seaded
+  content: >
+    E-kirjad tugiteenuselt saadetakse SMTP serveri kaudu. See on soovitatav, kui võimalik, sest suurendab e-kirjade kohalejõudmise tõenäosust ning vähendab nende märkimist rämpspostiks.
+header_spoofing:
+  title: Luba päise võltsimine
+  content: >
+    Aktiveeri see, et lubada e-kirjade saatmine läbi selle meilikonto teiselt meiliaadressilt kui märgitud <span class="doc-desc-title">E-kirja aadress</span> seadetes allpool.<br/><br/> Seda seadet kasutatakse, kui e-kirju saadetakse selle meilikonto pseudonüümi kasutades.

@@ -1,0 +1,44 @@
+---
+notes: |
+  Alert wysyłany do przedstawiciela kiedy wewnętrzna aktywność jak np. wewnętrzna notatka lub odpowiedź przedstawiciela została dołączona do zgłoszenia.
+subject: |
+  Nowy alert wewnętrznej aktywności
+body: |2
+  <h3><strong>Witaj %{recipient.name},</strong></h3>
+  Przedstawiciel dodał nową informację do zgłoszenia <a 
+  href="%{ticket.staff_link}">#%{ticket.number}</a> 
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Od</strong>:
+      </td>
+      <td>
+          %{note.poster}
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Tytuł</strong>:
+      </td>
+      <td>
+          %{note.title}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Aby zobaczyć/odpowiedzieć na zgłoszenie<a
+  href="%{ticket.staff_link}">zaloguj się</a> do sytemu obsługi
+  <br>
+  <br>
+  <em style="font-size: small; ">Twój przyjazny System Obsługi Klienta</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

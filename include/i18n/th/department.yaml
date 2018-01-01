@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: ช่วยเหลือ
+  signature: แผนกช่วยเหลือ
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: การขาย
+  signature: |
+    ฝ่ายขายและดูแลความสัมพันธ์กับลูกค้า
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: บำรุงรักษา
+  signature: |
+    แผนกบำรุงรักษา
+  ispublic: 0
+  group_membership: 0

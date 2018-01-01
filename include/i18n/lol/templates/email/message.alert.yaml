@@ -1,0 +1,7 @@
+---
+notes: |
+  crwdns517:0crwdne517:0
+subject: |
+  crwdns518:0crwdne518:0
+body: |
+  crwdns519:0%{recipient.name}crwdnd519:0%{ticket.staff_link}crwdnd519:0%{ticket.number}crwdnd519:0%{ticket.name}crwdnd519:0%{ticket.email}crwdnd519:0%{ticket.dept.name}crwdnd519:0%{message}crwdnd519:0%{ticket.staff_link}crwdne519:0

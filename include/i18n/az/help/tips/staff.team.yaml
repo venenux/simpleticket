@@ -1,0 +1,33 @@
+---
+teams:
+  title: Komandalar
+  content: >
+    Komandalar sorğu tapşırığı üçün bir və ya daha çox agentləri bir yerə yığıb. Komanda üzvlüyü şöbə sərhədlərində yayıla bilər.
+status:
+  title: Vəziyyət
+  content: >
+    Əgər <span class="doc-desc-opt">deaktivdirsə</span>, bu komanda sorğu tapşırıqları üçün mövcud olmayacaq, həmçinin əvvəlki tapşırıqlardan siqnallar &amp; qeydlər almayacaq.
+lead:
+  title: Komanda idarəçisi
+  content: >
+    <span class="doc-desc-title">Komanda</span> üzvlərdən qəbul etdiyi <span class="doc-desc-title">siqnallar &amp; qeydlər</span> ayırd edən təyin olunmuş liderə sahib olacaq.
+  links:
+    - 
+      title: Xəbərdarlıq &amp; siqnallarını konfiqurasiya edin
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Tapşırıq siqnalı
+  content: >
+    Siz bu komandada sorğuların təyin olunması üçün <span class="doc-desc-title">sorğu tapşırığı siqnalını</span> deaktiv edə bilərsiniz.
+  links:
+    - 
+      title: Xəbərdarlıq &amp; siqnallarını konfiqurasiya edin
+      href: /scp/settings.php?t=alerts
+members:
+  title: Komanda üzvləri
+  content: >
+    Komanda üzvlüyü agent profili vasitəsilə konfiqurasiya olunur.
+  links:
+    - 
+      title: İşçilərin idarəsi
+      href: /scp/staff.php

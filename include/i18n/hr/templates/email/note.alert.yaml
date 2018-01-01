@@ -1,0 +1,44 @@
+---
+notes: |
+  Upozorenje poslano agentima kod unutarnje aktivnost kao što je unutarnja poruka ili kad je agentov odgovor dodan na karticu.
+subject: |
+  Novo upozorenje na unutarnju aktivnost
+body: |
+  <h3><strong>Pozdrav %{recipient.name},</strong></h3>
+  Agentova bilješka je dodana na karticu <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Od</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Naslov</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Da pogledate/odgovorite na karticu, molimo <a
+  href="%{ticket.staff_link}">Prijava</a> na sustav tehničke podrške
+  <br>
+  <br>
+  <em style="font-size: small; ">Vaša korisnička podrška</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

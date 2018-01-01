@@ -1,0 +1,29 @@
+---
+company_information:
+  title: informacija o Poduzeću
+  content: >
+    Ovo se odnosi na tvrtku ili organizaciju koja će imati koristi od osTicketa i pomoćnog osoblja. Informacije ovdje će se pojaviti ka potpis e-pošte ( tj ,podnožju ), kada djelatnik odgovori na karticu.
+  links:
+    - 
+      title: Obrazac informacija o tvrtci
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Odredišna stranica
+  content: >
+    <span class="doc-desc-title">Osnovna stranica</span> prikazuje se na naslovnoj stranici vašeg portala za tehničku podršku.
+offline_page:
+  title: Offline stranica
+  content: >
+    <span class="doc-desc-title">Offline stranica</span> se prikazuje kada je vaš portal za tehničku podršku offline, pogledajte Admin Panel -&gt; Postavke -&gt; System -&gt; Status tehničke podrške.
+default_thank_you_page:
+  title: Osnovna stranica zahvale
+  content: >
+    <span class="doc-desc-title">Stranica zahvale</span> se prikazuje kada klijent <span class="doc-desc-title">Client</span> otvori i pošalje novu karticu. <br/><br/> <span class="doc-desc-title">Stranice zahvale</span> mogi se povezati sa temama podrške.
+logos:
+  title: Logotipovi
+  content: >
+    Možete prilagoditi <span class="doc-desc-title">Logo</span> koji će biti prikazan klijentu na portalu tehničke podrške (npr., stranica tehničke podrške).
+upload_a_new_logo:
+  title: Prenesi novi logo
+  content: >
+    Odaberite sliku u .gif, .jpg ili .png formatu .Proporcionalno ćemo prilagoditi veličinu prikaza slike. Nećemo, međutim, veličinu podataka na slici. Stoga je zbog brzine učitavanja slike preporučljivo sliku postaviti na istu ili približnu vrijednost (817px &times; 170px).

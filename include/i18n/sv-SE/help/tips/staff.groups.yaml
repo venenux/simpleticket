@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grupper
+  content: >
+    Grupper används för att definiera Agentens rättigheter i helpdesk. Grupper kan också användas för att ge en Agent tillgänglighet (rättighet) till flera avdelningar än Agentens primära avdelning.
+status:
+  title: Status
+  content: >
+    Om <span class="doc-desc-opt">Avaktiverat</span>, så kan inte Agenter som hör till denna grupp logga in eller ta emot alarm &amp; notifieringar från denna avdelning.
+department_access:
+  title: Avdelningsrättigheter
+  content: >
+    Kontrollera alla avdelningars grupprättigheter för att avgöra vilka användare som har access.

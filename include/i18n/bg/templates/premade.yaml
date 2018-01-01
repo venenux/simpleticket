@@ -1,0 +1,21 @@
+---
+- 
+  isenabled: 1
+  title: Какво представлява osTicket (пример)?
+  response: osTicket е широко използвана система за поддръжка с отворен код, атрактивна алтернатива на скъпите и сложните системи за поддръжка на клиенти - проста, лека, надеждна, с отворен код, уеб базирана и лесна за настройка и използване.
+  notes: ""
+  attachments:
+    - 
+      name: osTicket.txt
+      type: text/plain
+      data: Готовите прикачени файлове са супер!
+- 
+  isenabled: 1
+  title: Пример (с променливи)
+  response: |
+    Здравейте %{ticket.name.first},
+    <br>
+    <br>
+    Вашата заявка #%{ticket.number} създадена на %{ticket.create_date} е в отдел %{ticket.dept.name} .
+  notes: |
+    

@@ -1,0 +1,66 @@
+---
+contact_information:
+  title: Contact Informatie
+  content: >
+    
+username:
+  title: Gebruikersnaam
+  content: >
+    Alleen medewerkers met een Admin status mogen een gebruikersnaam aanpassen. Als u een medewerker bent met admin privileges, kunt u dit doen door een te wijzigen medewerker te selecteren in de <span class="doc-desc-title">Medewerkers</span> tabel.
+  links:
+    - 
+      title: Als een beheerder een gebruikersnaam wijzigen
+      href: /scp/staff.php
+time_zone:
+  title: Tijdzone
+  content: >
+    
+daylight_saving:
+  title: Zomertijd
+  content: >
+    
+maximum_page_size:
+  title: Maximale paginagrootte
+  content: >
+    
+auto_refresh_rate:
+  title: Auto Refresh Rate
+  content: >
+    
+default_signature:
+  title: Standaardhandtekening
+  content: >
+    
+default_paper_size:
+  title: Standaard papierformaat
+  content: >
+    
+show_assigned_tickets:
+  title: Toon toegewezen Tickets
+  content: >
+    Activeer dit om je naam te verbergen in de <span class="doc-desc-title">Open Tickets</span> wachtrij voor de aan jou toegewezen tickets. De naam van de <span class="doc-desc-title">Afdeling</span> waar je toe behoort zal hiervoor in de plaats komen te staan.
+password:
+  title: Wachtwoord
+  content: >
+    
+current_password:
+  title: Huidig wachtwoord
+  content: >
+    
+new_password:
+  title: Nieuw wachtwoord
+  content: >
+    
+confirm_new_password:
+  title: Bevestig nieuw wachtwoord
+  content: >
+    
+signature:
+  title: Handtekening
+  content: >
+    Maak een optionele <span class="doc-desc-title">Ondertekening</span> die eventueel wordt weergegeven aan het einde van youw Ticket Antwoorden. Of deze  <span class="doc-desc-title">Handtekening</span> verschijnt hangt af
+    van de <span class="doc-desc-title">Email Template</span> die wordt gebruikt in een Ticket Antwoord.
+  links:
+    - 
+      title: Maak email templates in het Admin Panel
+      href: /scp/templates.php

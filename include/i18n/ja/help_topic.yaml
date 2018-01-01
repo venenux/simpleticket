@@ -1,0 +1,33 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: 一般的なお問い合わせ
+  notes: 製品やサービスに関するご質問
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: フィードバック
+  notes: 営業、請求部門に関連性の高いチケット
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: 問題を報告する
+  notes: 製品、サービス等に関連する問題
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: 課題にアクセスする
+  notes: Report an inability access a physical or virtual asset

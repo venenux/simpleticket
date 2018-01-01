@@ -1,0 +1,69 @@
+---
+type:
+  title: Tyyppi
+  content: >
+    Valitse <span class="doc-desc-opt">Yksityinen</span> jos haluat piilottaa tämän Osaston kohdistukset Asiakasportaalista. Jos merkitty <span class="doc-desc-opt">Yksityiseksi</span> <span class="doc-desc-title">Osaston allekirjoitusta</span> ei näytetä sähköpostiviestien vastauksissa. <br/><br/> Vähintään yhden osaston täytyy olla <span class="doc-desc-opt">Julkinen</span>
+email:
+  title: Sähköposti
+  content: >
+    Käytettävä Sähköpostiosoite kun Käsittelijä vastaa Asiakkaan tikettiin.
+template:
+  title: Pohjasarja
+  content: >
+    Sähköpostin <span class="doc-desc-title">Pohjasarjaa</span> käytetään tämän osaston tikettien ohjauksien Automaattisissa vastauksissa ja Imoituksissa &amp; Muistutuksissa.
+  links:
+    - 
+      title: Hallinnoi pohjia
+      href: /scp/templates.php
+sla:
+  title: Palvelutaso
+  content: >
+    Tiketit joiden Palvelutaso ohjataan tähän Osastoon.
+  links:
+    - 
+      title: Hallinnoi palvelutasoja
+      href: /scp/slas.php
+manager:
+  title: Osaston esimies
+  content: >
+    Valitse <span class="doc-desc-title">Esimies</span> tälle osastolle. <br/><br/> Esimiehille voidaan asettaa erityisiä ilmoituksia sekä oikeus poistaa kohdistuksia tiketeistä.
+  links:
+    - 
+      title: Hallinnoi Ilmoituksia &amp; Muistutuksia
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Ilmoituksien &amp; Muistutuksien Vastaanottajat
+  content: >
+    Valitse vastaanottajat asetetuille <span class="doc-desc-title">Ilmoituksille &amp; Muistutuksille</span>.
+  links:
+    - 
+      title: Määritä Ilmoitukset &amp; Muistutukset
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Tikettien Kohdistusrajoitukset
+  content: >
+    Aktivoi tämä rajoittaaksesi tikettien kohdistamisen ainoastaan tämän osaston jäsenille. Osaston jäsenyys voidaan laajentaa Ryhmille, jos <span class="doc-desc-title">Ilmoituksien &amp; Muistutuksien vastaanottajat</span> ovat ryhmien jäseniä.
+auto_response_settings:
+  title: Automaattisen vastaajan asetukset
+  content: >
+    Tämä sallii yleisten automaattivastauksien ohittamisen tässä Osastossa.
+new_ticket:
+  title: Uuden Tiketin Automaattinen vastaus
+  content: >
+    Voit estää Automaattisen vastauksen joka lähetetään Asiakkaalle kun uusi tiketti luodaan ja ohjataan tähän Osastoon.
+new_message:
+  title: Uuden Viestin Automaattivastaus
+  content: >
+    Voit estää Automaattisen ilmoituksen joka lähetettään Asiakkaalle kun uusi viesti kirjoitetaan asiakkaan tikettiin tässä Osastossa.
+auto_response_email:
+  title: Sähköpostiviestin Automaattivastaus
+  content: >
+    Valitse sähköpostiosoite, josta Automaattiset vastaukset lähetetään tälle Osastolle.
+department_access:
+  title: Ryhmän hallinta
+  content: >
+    Salli muiden Osastojen Käsittelijöiden päästä tämän Osaston tiketteihin.
+department_signature:
+  title: Osaston allekirjoitus
+  content: >
+    Allekirjoitus on saatavilla vaihtoehtoisena <span class="doc-desc-opt">Julkisille</span> Osastoille Käsittelijöiden vastauksiin.

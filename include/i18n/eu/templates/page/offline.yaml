@@ -1,0 +1,11 @@
+---
+notes: |
+  The Offline Page appears in the Customer Portal when the Help Desk is offline.
+name: Offline
+body: |
+  <div><h1>
+  <span style="font-size: medium">Laguntza Tiket-en Sistema Offline</span>
+  </h1>
+  <p>Eskerrik asko gurekin harremanetan jartzen saiatzeagatik.</p>
+  <p>Une honetan gure sistema offline dago, mesedez saia zaitez beranduago.</p>
+  </div>

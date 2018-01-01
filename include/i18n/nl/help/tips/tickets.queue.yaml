@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Zoekveld
+  content: >
+    
+advanced:
+  title: Geavanceerd zoeken
+  content: >
+    Geavanceerde zoekopties. Zodra u uw geavanceerde zoekcriteria hebt geselecteerd en de zoekopdracht is uitgevoerd, kunt u deze <span class="doc-desc-title">exporteren</span> aan de onderkant van deze pagina.
+open_tickets_table:
+  title: Open Tickets Tabel
+  content: >
+    Alle tickets zijn momenteel geopend en vragen attentie
+ticket:
+  title: Ticket
+  content: >
+    
+date:
+  title: Datum
+  content: >
+    
+subject:
+  title: Onderwerp
+  content: >
+    
+from:
+  title: Van
+  content: >
+    
+priority:
+  title: Prioriteit
+  content: >
+    
+assigned_to:
+  title: Toegewezen aan
+  content: >
+    
+export:
+  title: Exporteer
+  content: >
+    Exporteer uw data in een CSV bestand. CSV bestanden moeten geopend worden met een spreadsheet programma (bv. Microsoft Excel, Apple Numbers, OpenOffice, enz.)
+advanced_search_dialog:
+  title: Uitgebreid zoeken
+  content: >
+    
+adv_keyword:
+  title: Zoeken op trefwoord
+  content: >
+    Zoek hits op basis van het onderwerp en bericht van het tickets. Ook alle tekstuele inhoud in verband met aangepaste velden voor de gebruikers en de tickets.
+adv_date_range:
+  title: Zoeken op datumbereik
+  content: >
+    Definitie hier

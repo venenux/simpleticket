@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  案件編號 #%{ticket.number} 移轉 - %{ticket.dept.name}
+body: |2
+  <h3>您好 %{recipient.name},</h3>
+  案件編號 <a href="%{ticket.staff_link}">#%{ticket.number}</a> 已經移交至 %{ticket.dept.name} 部門
+  由<strong>%{staff.name.short}</strong>專員
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>查詢案件狀態或回覆，請 <a
+  href="%{ticket.staff_link}">登入</a> 到支援系統。
+  </div>
+  <em style="font-size: small; ">您最友好的支援系統</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

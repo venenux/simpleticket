@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Člani osebja
+  content: >
+    Tabela prikazuje rezultat filtra. Če filter ni izbran, potem so vsi<span class="doc-desc-title">Agenti</span>(sodelavci)<span class="doc-desc-title">Člani</span>prikazani in razdeljeni na strani. Poglej strani spodaj za več rezultatov.
+status:
+  title: Status
+  content: >
+    To bo prikazalo, ali je <span class="doc-desc-title">Agent</span> zaklenjen, aktiven ali aktiven (na dopustu).

@@ -1,0 +1,40 @@
+---
+notes: Испрати до вработениот кога ќе биде креиран нов тикет во системот. Оваа се однесува на тикетите кои што се креирани од емаил, веб портал или од API.
+subject: Нов тикет алерт
+body: |2
+  <h2>Здраво %{recipient.name},</h2>
+  Креиран е нов тикет #%{ticket.number} 
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Од</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Оддел</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>За да го видите или да одговорите на тикетот, ве молиме <a
+  href="%{ticket.staff_link}">најавете се</a> во системот за поддршка на тикети</div>
+  <em style="font-size: small">Од системот за поддршка на корисници</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Од osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

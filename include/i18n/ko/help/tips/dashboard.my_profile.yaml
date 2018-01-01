@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: 연락처 정보
+  content: >
+    
+username:
+  title: 계정명
+  content: >
+    관리 권한을 가진 에이전트만 계정명을 변경할 수 있습니다. 관리 권한을 가지고 있으시다면 <span class="doc-desc-title">스태프 멤버</span> 표에서 에이전트를 선택하여 이를 변경할 수 있습니다.
+  links:
+    - 
+      title: 계정명을 Administrator로 변경
+      href: /scp/staff.php
+time_zone:
+  title: 시간대
+  content: >
+    
+daylight_saving:
+  title: 서머 타임
+  content: >
+    
+maximum_page_size:
+  title: 최대 페이지 크기
+  content: >
+    
+auto_refresh_rate:
+  title: 자동 새로고침 주기
+  content: >
+    
+default_signature:
+  title: 기본 서명
+  content: >
+    
+default_paper_size:
+  title: 기본 종이 크기
+  content: >
+    
+show_assigned_tickets:
+  title: 할당된 티켓 보기
+  content: >
+    이것을 활성화하면 <span class="doc-desc-title">열린 티켓</span> 목록의 나에게 할당된 티켓들에게서 내 계정명을 숨깁니다. 계정명을 숨기는 대신 <span class="doc-desc-title">부서</span>명으로 대체되어 출력됩니다.
+password:
+  title: 비밀번호
+  content: >
+    
+current_password:
+  title: 현재 암호
+  content: >
+    
+new_password:
+  title: 새 암호
+  content: >
+    
+confirm_new_password:
+  title: 암호 확인
+  content: >
+    
+signature:
+  title: 서명
+  content: >
+    티켓 응답의 최하단에 표시될 <span class="doc-desc-title">서명</span>을 생성합니다. 티켓 응답에서의 <span class="doc-desc-title">서명</span> 표시 유무는 <span class="doc-desc-title">이메일 템플릿</span> 설정에 따릅니다.
+  links:
+    - 
+      title: 관리 패널에서 이메일 템플릿을 생성합니다.
+      href: /scp/templates.php

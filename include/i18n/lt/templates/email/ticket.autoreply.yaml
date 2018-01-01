@@ -1,0 +1,26 @@
+---
+notes: |
+  Siunčiama vartotojui, kuomet automatinis uždelstas atsakymas yra įkeliamas į užklausą, ja sukūrus.
+  
+  Galimi kintamieji pakeitimui:  %{ticket.*},%{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Gerbiamas%{recipient.name.first},</strong></h3>
+  Pagalbos užklausa buvo sukurta ir priskirta<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>
+  su šiuo automatiniu atsakymu
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Objektas:<strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Jūsų%{company.name}Komanda,<br>%{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Tikimės šis atsakymas tinkamai atsakė į Jūsų klausimus. Jeigu norite pateikti papildomas pastabas arba informaciją, prašome atsakyti į šį elektroninį laišką arba<a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >prisijungti prie savo paskyros</span></a> pilnam pagalbos užklausų archyvui.</em></div>

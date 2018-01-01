@@ -1,0 +1,32 @@
+---
+source: Web
+name: osTicketのサポート
+email: support@osticket.com
+subject: osTicketのアップグレードが完了しました！
+message: |
+  <p>
+  osTicketをアップグレード致しました。
+  変更点、新規機能に関する情報についてはリリースノート（http://osticket.com/wiki/Release_Notes）をご参照ください。
+  </p>
+  
+  <p>
+  最新情報、セキュリティアップデート、注意点の情報を確認する場合は<a href="http://osticket.com/forums">osTicket
+  forums</a>や<a href="http://osticket.com/updates">mailing list</a>へご参加下さい。
+  </p>
+  
+  <p>
+  osTicketのチームはフリーのオンラインリソースや商用のサポートパッケージ、サービスを通して皆様へサポートしていくことをお約束致します。
+  詳細、ご要望等は http://osticket.com/support/ へお問い合わせ下さい。
+  フィードバックをお待ちしております。
+  </p>
+  
+  <p>
+  osTicketのインストールにお困りの方はホスティングサービスとして提供している http://www.supportsystem.com/ をお試しください。
+  アップグレードは不要でお客様のデータをインポートすることが可能です。
+  セットアップ済みのサポートシステムを使うことでアプリケーションを安定的に運用、保守するコストから開放されお客様のサポートにフォーカスする環境を手に入れることが出来るでしょう。
+  </p>
+  <p>
+  -<br/>
+  osTicket Team<br/>
+  http://osticket.com/
+  </p>

@@ -1,0 +1,6 @@
+---
+notes: >
+  Thông tin này sẽ hiển thị trên tiêu đề trang đăng nhập của khách hàng. Có thể sử dụng để thông báo cho khách hàng về chính sách đăng nhập và đăng ký của bạn.
+name: "Đăng nhập vào %{company.name}"
+body: >
+  Chúng tôi khuyến khích khách hàng đăng ký tài khoản để được hỗ trợ đầy đủ nhất.

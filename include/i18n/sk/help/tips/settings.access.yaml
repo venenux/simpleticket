@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Politika uplynutia platnosti hesiel
+  content: >
+    Nastavenie ako často (v mesiacoch) si budú pracovníci musieť meniť svoje heslo. Ak je toto nastavenie vypnuté (nastavenie "bez vypršania platnosti hesla"), platnosť hesla sa nikdy neskončí.
+password_expiration_policy:
+  title: Politika uplynutia platnosti hesiel
+  content: >
+    Ako často musia pracovníci (agenti) meniť svoje heslo. Ak je zakázané (teda <span class="doc-desc-opt">bez vypršania platnosti hesla</span>), heslo stále platí.
+allow_password_resets:
+  title: Povoliť obnovenie hesla
+  content: >
+    Ak chcete, aby bol zobrazený odkaz <span class="doc-desc-title">Zabudol som heslo </span> na <span class="doc-desc-title">prihlasovacej stránke </span> po chybnom pokuse o prihlásenie.
+reset_token_expiration:
+  title: Okno pre obnovu hesla
+  content: >
+    Ako dlho (v minútach) bude <span class="doc-desc-title"> žiadosť o zmenu hesla </span> platná. Ak si pracovník požiada o  <span class="doc-desc-title">reset hesla</span>, email  na reset hesla je počas tejto doby platný.
+staff_session_timeout:
+  title: Časový limit pre pracovníkov
+  content: >
+    Maximálna dĺžka nečinnosti (v minútach), než je pracovník automaticky odhlásený. <br><br> ak chcete <span class="doc-desc-title">automatické odhlásenie </span> vypnúť, zadajte 0.
+client_session_timeout:
+  title: Časový limit pre používateľov
+  content: >
+    Maximálna dĺžka nečinnosti (v minútach), než je používateľ automaticky odhlásený. <br><br> ak chcete <span class="doc-desc-title">automatické odhlásenie používateľov</span> vypnúť, zadajte 0.
+bind_staff_session_to_ip:
+  title: Zviazať prihlásenie do systému s IP adresou
+  content: >
+    Nastavte, ak chcete, aby bol pracovník (agent) zviazaný s jeho IP adresou pri prihlásení.<br><br>  Toto nastavenie nie je doporučené pre tých, ktorí majú IP adresy prideľované dynamicky.
+registration_method:
+  title: Voľby registrácie
+  content: >
+    <span class="doc-desc-title">Spôsob registrácie</span> a <span class="doc-desc-title"> Požadovaná registrácia</span> se používajú spoločně k tomu, ako sa užívatelia registrujú a pristupujú do helpdesku . Tabuľka popisuje, ako je toto nastavenie spracované systémom. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Požadovaná registrácia</th> <th>Spôsob registrácie</th> <th>Výsledky</th></tr> <tr><td>No</td><td>Verejne</td> <td>Registrácia se doporučuje, ale nevyžaduje sa pre nové tikety.</td></tr> <tr><td>Yes</td><td>Public</td> <td>Registrácia a prihlásenie sú vyžadované pre nové tikety</td></tr> <tr><td>No</td><td>Súkromne</td> <td>Hocikto môže vytvoriť tiket, ale len agenti môžu registrovať užívateľov</td></tr> <tr><td>Yes</td><td>Súkromne</td> <td>Uživateľský prístup je len na základe pozvánky.</td></tr> <tr><td>No</td><td>Zakázané</td> <td>Nikdo nemôže zaregistrovať úžívateľa, ale každý môže vytvoriť tiket. <em>Takto to fungovalo pred verziou  1.9</em></td></tr> <tr><td>Yes</td><td>Zakázané</td> <td>Zakázať vytváranie tiketov prostredníctvom portálu</td></tr> </tbody></table>
+client_verify_email:
+  title: Vyžadovať overenie emailom
+  content: >
+    Zakázaním tejto voľby majú užívatelia okamžitý prístup k tiketom pomocou "Kontrola stavu tiketu" na  webovom portáli. Ak je voľba povolená (default nastavenie), užívateľom bude poslaný email s linkou na tento tiket. <br><br>Zakázaním overovania emailu sa môže povoliť tretím stranám (napr. spolupracovníkom) vydávať sa za majiteľov tiketov.

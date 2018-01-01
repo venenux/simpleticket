@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Daftar kustom
+  content: >
+    <span class="doc-desc-title"> Daftar kustom</span> Anda akan mengizinkan Anda untuk membuat kotak-kotak dropdown dengan pilihan standar yang klien dapat memilih dalam <span class="doc-desc-title"> Bentuk kustom</span>. Jika Anda ingin menggunakan <span class="doc-desc-title"> Daftar kustom</span> sebagai <span class="doc-desc-title"> target</span> dalam <span class="doc-desc-title"> Tiket Filter</span>, pastikan untuk menambahkan daftar ini ke formulir <span class="doc-desc-title"> Rincian tiket</span> Anda.
+name:
+  title: Nama
+  content: >
+    
+plural_name:
+  title: Nama Jamak
+  content: >
+    
+sort_order:
+  title: Urutan
+  content: >
+    
+list_s_initial_items:
+  title: Daftar di Item Awal
+  content: >
+    
+value:
+  title: Nilai
+  content: >
+    
+extra:
+  title: Tambahan
+  content: >
+    Singkatan dan semacamnya. Jika Anda kebetulan menggunakan kode internal untuk item dalam daftar ini, kode-kode dan singkatan dapat dimasukkan dalam kolom ini. Jika daftar kustom diberikan sebagai <span class = "doc-desc-option"> TulisDisini </ span>, singkatan ini dapat digunakan untuk mencari item daftar kustom.

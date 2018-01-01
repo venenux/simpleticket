@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: استعلام عمومی
+  notes: سوال در مورد محصولات و یا خدمات
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: انتقادات و پیشنهادات
+  notes: |
+    درخواست هایی که عمدتا بخش فروش و مالی تحت تاثیر قرار می دهند
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: گزارش مشکل
+  notes: |
+    مسائل مربوط به محصول، خدمات و یا تجهیزات
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: مشکل دسترسی
+  notes: |
+    گزارش ناتوانی دسترسی به دارایی های فیزیکی یا مجازی

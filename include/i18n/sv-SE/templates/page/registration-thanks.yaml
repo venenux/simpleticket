@@ -1,0 +1,6 @@
+---
+notes: >
+  Detta visas efter att klienten har registrerat sig och verifierat sitt konto.
+name: "Kontot Verifierat!"
+body: >
+  <div><strong>Tack för din registrering av ett konto.</strong>< br / > < br / > du har bekräftat din e-postadress och verifierat ditt konto. Du kan nu skapa en ny biljett eller hantera befintliga biljetter. < br / > < br / > <em>vänliga hälsningar supportcentert</em> < br / > %{company.name}</div>

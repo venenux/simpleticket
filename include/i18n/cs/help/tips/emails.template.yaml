@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-mailové šablony
+  content: >
+    Email Tepmlate jsou použity pro odeslání automatické odpovědi a poplachů/alarmů pro různé akce, které mohou nastat v průběhu řešení Tiketu.
+template_to_clone:
+  title: Template pro naklonování
+  content: >
+    Vyberte sadu šablon ke zkopírování nebo pro začátek použijte dodávané šablony e-mailů.
+language:
+  title: Jazyk
+  content: >
+    Vyberte požadovaný jazyk pro <span class="doc-desc-opt">uložené</span> <span class="doc-desc-title">Email Template Set</span>. Jazykové balíčky jsou k dipozici na osTicket.com.
+  links:
+    - 
+      title: Jazykové balíčky pro osTicket
+      href: 'http://osticket.com/download'
+status:
+  title: Stav
+  content: >
+    <span class="doc-desc-opt">Povolený</span> Template je k dispozici pro přiřazení k Oddělení a nastavení System Default. Aktuálně použitý Template nemůže být <span class="doc-desc-opt">Zakázán</span>.

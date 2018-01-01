@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Raspuns predefinit
+  content: >
+    Crează un <span class="doc-desc-title">răspuns predefinit</span> ce poate fi inclus într-un răspuns la un tichet. Poate fi utilizat de asemenea ca un <span class="doc-desc-title">răspuns automat la tichet</span> setat de un <span class="doc-desc-title">filtru de tichet</span>.
+  links:
+    - 
+      title: Definește un filtru de tichet
+      href: /scp/filters.php
+canned_attachments:
+  title: Atasamente predefinite
+  content: >
+    Atașează un fișier care să fie inclus automat în răspunsurile la tichet ce utilizează noul <span class="doc-desc-title">răspuns predefinit</span>.

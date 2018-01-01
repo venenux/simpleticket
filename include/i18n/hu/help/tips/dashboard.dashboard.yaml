@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Hibajegy aktivitás
+  content: >
+    Válasszon ki az alábbi grafikonon és táblában egy időintervallumot (cf. <span class="doc-desc-title">Statisztika</span>), ahol összesíthet minden vonatkozó adatot a kiválasztott időpontra. Az alábbi grafikon mindig egy átfogó képet ad az egész rendszer adataira vonatkozóan (azaz sokaság). Azonban lehetőség van az alábbi <span class="doc-desc-title">Statisztika </span> táblában szűkített adatokat megtekinteni (például: Részleg, Témakör vagy Munkatárs). Továbbá a megjelenített <span class="doc-desc-title">Statisztika </span> táblából minden adatot exportálhat.
+report_timeframe:
+  title: Jelentés időkerete
+  content: >
+    Adja meg a kezdési időpontot a mintához a dátumválasztó segítségével. Ezután válassza ki az időtartamot, hogy meghatározza a minta záró dátumát.
+statistics:
+  title: Statisztika
+  content: >
+    A kívánt minta adatok megtekintéséhez, kattintson a megadott fülre. A táblában a körök jelzik a névleges adatok méretét. Ezért minél nagyobb a szám egy adott cellában, a szomszédos kör is nagyobb lesz.
+opened:
+  title: Nyitott
+  content: >
+    Ez azt jelenti, hogy a hibajegyeket munkatársak nyitották (azaz belsőleg nyitott) és nem ügyfelek.
+assigned:
+  title: Hozzárendelt
+  content: >
+    A rendszer nyomon követi, hogy egy hibajegy automatikusan vagy manuálisan lett egy részleghez vagy munkatárshoz hozzárendelve. Az automatikus hozzárendelések függnek a <span class="doc-desc-title">Súgótémakörök </span> és <span class="doc-desc-title">Email szűrők </span> beállításaitól az Admin felületen.
+overdue:
+  title: Lejárt
+  content: >
+    Ez azon hibajegyek száma, amelyek megsértették az SLA tervet, amelyhez tartoztak.
+closed:
+  title: Lezárt
+  content: >
+    Ez azon hibajegyek száma, amelyeket lezártak.
+reopened:
+  title: Újranyitott
+  content: >
+    Ez azon hibajegyek száma, amelyeket egy munkatárs vagy ügyfél nyitott újra, miután válaszolt a hibajegyre, mikor az már le volt zárva.
+service_time:
+  title: Támogatási idő
+  content: >
+    <span class="doc-desc-title">Támogatási idő</span> az az időtartam, ami egy hibajegy megnyitásával kezdődik és a hibajegy lezárásával fejeződik be. A <span class="doc-desc-title">Támogatási idő</span> oszlop itt egy hibajegy átlagos támogatási idejét méri órában, a megadott időintervallumban.
+response_time:
+  title: Válaszidő
+  content: >
+    <span class="doc-desc-title">Válaszidő</span> az az időtartam, ami egy ügyfél levelével kezdődik és egy munkatárs válaszával fejeződik be. Ez nem csak az ügyfél által kezdeményezett első jegy nyitása utáni időre vonatkozik. Ez az összes, az ügyféllel történt beszélgetésre vonatkozik.

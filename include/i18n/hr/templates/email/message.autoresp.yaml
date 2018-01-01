@@ -1,0 +1,20 @@
+---
+notes: |
+  Obavijest poslana korisniku da je postavio odgovor na karticu. Ovo može značiti da je klijent odgovorio putem emaila ili je postavio odgovor na stranici tehničke podrške.
+subject: |
+  Potvrda o postavljanju poruke
+body: |
+  <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
+  Vaš odgovor na karticu <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> je zabilježen
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  Vaša %{company.name}<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Možete provjeriti tijek kartice za podršku <a
+  href="%{recipient.ticket_link}">ovdje</a></em>
+  </div>

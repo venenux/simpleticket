@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Predpripravená odpoveď
+  content: >
+    Vytvor <span class="doc-desc-title">predpripravenú odpoveď</span>, ktorá môže byť zahrnutá v odpovedi na tiket. Môže byť taktiež použitá ako <span class="doc-desc-title">automatická odpoveď na tiket</span> nastavená v <span class="doc-desc-title">Tiketovom filtri</span>.
+  links:
+    - 
+      title: Nastavenie tiket filtra
+      href: /scp/filters.php
+canned_attachments:
+  title: Predpripravené prílohy
+  content: >
+    Pripoj súbor, ktorý si želáte automaticky pripojovať k odpovedi na tiket, ktorá používa novú <span class="doc-desc-title"> predpripravenú odpoveď</span>.

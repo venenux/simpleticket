@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Seiten
+  content: >
+    Seiten können als Mini-Content-Management-System (CMS) dienen. Sie können verschiedene Startseiten, Offline-Seiten und Dankeschön-Seiten festlegen und diese in den Helpdesk-Einstellungen und den Hilfethemen konfigurieren.
+  links:
+    - 
+      title: Helpdesk-Einstellungen
+      href: /scp/settings.php?t=pages
+type:
+  title: Typ
+  content: >
+    <span class="doc-desc-opt">Offline</span>-Seiten werden im Benutzerportal angezeigt, wenn Ihr Helpdesk deaktiviert ist. <span class="doc-desc-opt">Start</span>-Seiten werden als erstes im Benutzerportal angezeigt. <span class="doc-desc-opt">Dankeschön</span>-Seiten werden angezeigt, nachdem ein Benutzer ein Ticket übermittelt. <span class="doc-desc-opt">Andere</span>-Seiten können als einfaches Content-Management-System (CMS) verwendet werden.

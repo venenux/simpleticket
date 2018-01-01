@@ -1,0 +1,23 @@
+---
+notes: |
+  Wysyłana do użytkowników kiedy personel odpowie na zgłoszenie.
+  Odpowiedzi generowane są tylko przez personel.
+subject: |
+  ODP: %{ticket.subject}
+body: |
+  <h3><strong>Szanowny(a) %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Twój %{company.name} zespół,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Mamy nadzieję, że ta odpowiedź wyczerpująco odpowiada na
+  Twoje pytania. Jeżeli nie, prosimy o nie wysłanie kolejnego maila.
+  Zamiast tego, odpowiedz na tego maila lub 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >zaloguj
+  się na swoje konto</a> do pełnego archiwum swoich zgłoszeń
+  i odpowiedzi.</em></div>

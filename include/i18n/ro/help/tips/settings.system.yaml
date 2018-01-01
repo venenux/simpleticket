@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Status Helpdesk
+  content: >
+    Dacă statusul este schimbat în <span class="doc-desc-opt">Offline</span>, Interfaţa Client va fi dezactivată. Acest lucru nu va afecta accesul Agenţilor la panoul lor de administrare.
+helpdesk_url:
+  title: Adresă URL Helpdesk
+  content: >
+    Acest URL este adresa de baza a instalării osTicket. Va fi folosită în comunicările prin email către utilizatorii finali pentru ai direcţiona către platforma de suport.
+helpdesk_name_title:
+  title: Denumire Platformă Suport
+  content: >
+    Acesta este titlul care va apărea în pagina browserului. Dacă pagina platformei dumneavoastră de suport va fi salvată, acest titlu va fi folosit.
+default_department:
+  title: Departament Implicit
+  content: >
+    Alege un <span class="doc-desc-title">departament</span> implicit pentru tichetele care nu sunt alocate în mod automat unui departament. <br/><br/> Tichetul poate proveni dintr-un subiect de suport, emailuri sau setări filtre tichete.
+default_page_size:
+  title: Dimensiunea implicită a Paginii
+  content: >
+    Alege numărul de elemente afişate pe pagina în Listele de Tichete din panoul de Angajat. Fiecare agent poate să işi personalizeze acest număr pentru contul lui în rubrica de <span class="doc-desc-title">Preferinţele mele</span>.
+default_log_level:
+  title: Nivelul implicit al detaliilor jurnalizate
+  content: >
+    Stabiliti nivelul minim de probleme care va fi inregistrat in <span class="doc-desc-title">Jurnalul de Sistem</span>. <span class="doc-desc-opt">Depanare</span> reprezinta cea mai mica severitate, si <span class="doc-desc-opt">Eroare</span> reprezinta cea mai grava severitate. De exemplu, daca doriti sa vedeti toate problemele in <span class="doc-desc-title">Jurnalul de sistem</span>, alegeti <span class="doc-desc-opt">Depanare</span>.
+purge_logs:
+  title: Sterge Jurnal
+  content: >
+    Stabileste cat timp ati dori sa mentineti <span class="doc-desc-title">Jurnalul de Sistem</span> inainte de a fi sterse.
+default_name_formatting:
+  title: Formatare implicita a numelui
+  content: >
+    Alege un format pentru nume care sa fie folosit in intreg sistemul. Sabloanele de email vor folosi formatul pentru variabilele tip nume daca nu este specificat alt format in optiunile variabilei.
+  links:
+    - 
+      title: Variabile de Template Email suportate
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Optiuni Data &amp; Timp
+  content: >
+    Aceasta setare defineste optiunile de Data &amp; Timp pentru Clienti. Poti schimba cum arata acestea urmand optiuni de formatare din PHP. Valoarea de mai jos ilustreaza care este rezultatul valorilor corespondente.
+  links:
+    - 
+      title: Vezi Tabelul de formate data din PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

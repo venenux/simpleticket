@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Listauksen tyyppi
+  content: >
+    Valitse <span class="doc-desc-opt">Julkinen (julkaise)</span> mikäli haluat tämän <span class="doc-desc-title">FAQ</span> julkaistavaksi tietopankissa jos pääkategoria on julkinen.
+  links:
+    - 
+      title: Julkaise tietopankki asiakasnäkymässä
+      href: /scp/settings.php?t=kb

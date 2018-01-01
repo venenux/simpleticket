@@ -1,0 +1,13 @@
+---
+name:
+  title: Nume
+  content: >
+    Alege un nume descriptiv pentru acest <span class="doc-desc-title">plan ANS (SLA)</span>, nume care să reflecte scopul planului.
+grace_period:
+  title: Perioada de gratie
+  content: >
+    Determină numărul de ore trecute de la crearea unui tichet după care tichetul este marcat automat ca restant.<br><br><em>Orele sunt numărate de la momentul creării tichetului.</em>
+transient:
+  title: Tranzitoriu
+  content: >
+    ANS-urile tranzitorii sunt considerate temporare și pot fi modificate de un ANS ne-tranzitoriu la transferul către alt <span class="doc-desc-opt">departamente</span> sau când schimbă <span class="doc-desc-title">subiectul de ajutor</span>.

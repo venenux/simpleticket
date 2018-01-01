@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Splošna poizvedba
+  notes: Vprašanja glede produkta ali storitve
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Povratne informacije
+  notes: |
+    Zahtevki, ki se tičejo prodaje ali računovodstva
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Prijavite težavo
+  notes: |
+    Napake povezane z produktom, storitvijo ali opremo
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Težave z dostopom
+  notes: |
+    Prijavite nezmožnost dostop do fizičnih ali virtualnih sredstev

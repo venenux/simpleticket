@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Tuki
+  signature: Tukiosasto
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Myynti
+  signature: |
+    Myynti ja asiakassuhteet
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Ylläpito
+  signature: |
+    Ylläpito-osasto
+  ispublic: 0
+  group_membership: 0

@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktinformasjon
+  content: >
+    
+username:
+  title: Brukernavn
+  content: >
+    Bare agentene med administrator status kan endre brukernavn. Hvis du er en Agent med administratorrettigheter, kan du gjøre dette ved å velge en Agent fra tabellen <span class="doc-desc-title"> Ansatte</span>.
+  links:
+    - 
+      title: Endre et brukernavn som Administrator
+      href: /scp/staff.php
+time_zone:
+  title: Tidssone
+  content: >
+    
+daylight_saving:
+  title: Sommertid
+  content: >
+    
+maximum_page_size:
+  title: Maksimal sidestørrelse
+  content: >
+    
+auto_refresh_rate:
+  title: Automatisk oppdatering
+  content: >
+    
+default_signature:
+  title: Standardsignatur
+  content: >
+    
+default_paper_size:
+  title: Standard papirstørrelse
+  content: >
+    
+show_assigned_tickets:
+  title: Vis tildelte saker
+  content: >
+    Aktivere denne for å skjule ditt navn fra <span class="doc-desc-title"> Åpne saker</span> køen for de sakene som du er tilordnet. Ved å skjule navnet dit vil <span class="doc-desc-title"> avdelingsnavn du tilhører</span> vises der navnet ditt  normalt ville vært vist.
+password:
+  title: Passord
+  content: >
+    
+current_password:
+  title: Gjeldende passord
+  content: >
+    
+new_password:
+  title: Nytt passord
+  content: >
+    
+confirm_new_password:
+  title: Bekreft nytt passord
+  content: >
+    
+signature:
+  title: Signatur
+  content: >
+    Opprette en valgfri <span class="doc-desc-title"> signatur</span> som kan vises på slutten av ditt svar på saken. Om denne <span class="doc-desc-title"> signaturen</span> vises, eller ikke, avhenger av <span class="doc-desc-title"> Epost-malen</span> som brukes som svar på saken.
+  links:
+    - 
+      title: Opprette e-postmaler i Admin-panelet
+      href: /scp/templates.php

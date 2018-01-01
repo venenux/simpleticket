@@ -1,0 +1,77 @@
+---
+default_email_templates:
+  title: Standard e-post mal sett
+  content: >
+    Velg <span class="doc-desc-title"> E-post mal sett</span> som brukes til å sende <span class="doc-desc-title"> Automatiske svar</span> og <span class="doc-desc-title"> varsler</span> for ulike handlinger som kan skje under en saks levetid. <br><br>Avdelinger kan tilordnes en bestemt e-post mal sett.
+  links:
+    - 
+      title: Administrere e-post mal sett
+      href: /scp/templates.php
+default_system_email:
+  title: Standard utgående e-post
+  content: >
+    Velg en e-postadresse som utgående e-post blir sendt fra. <br><br><span class="doc-desc-title"> avdelingen</span> kan angi sin egen <span class="doc-desc-title"> e-postadresse</span> som overstyrer hva angis her.
+  links:
+    - 
+      title: Administrere e-postadresser
+      href: /scp/emails.php
+default_alert_email:
+  title: Standard e-post varsel
+  content: >
+    Velg en e-postadresse som <span class="doc-desc-title"> varsler og meldinger</span> som sendes til agenter.
+  links:
+    - 
+      title: Administrere e-postadresser
+      href: /scp/emails.php
+admins_email_address:
+  title: Admin e-postadresse
+  content: >
+    Angi en adminstrator e-postadresse som <span class="doc-desc-title"> Systemfeil</span> og <span class="doc-desc-title"> Nye sak varsler</span> (hvis aktivert) blir sendt til.
+  links:
+    - 
+      title: Behandle varsler & meldinger
+      href: /scp/settings.php?t=alerts
+email_fetching:
+  title: E-post henting
+  content: >
+    Tillate IMAP/POP polling for konfigurert og aktivert <span class="doc-desc-title"> Postkasser</span>.
+  links:
+    - 
+      title: Administrere postkasser
+      href: /scp/emails.php
+enable_autocron_fetch:
+  title: Hente e-post med Auto-cron
+  content: >
+    Aktiverer jevnlig e-post henting ved bruk av en intern Oppgavebehandling utløst av agenter aktivitet.  <br><br>Vær oppmerksom på at e-post vil ikke hentes hvis ingen er logget på ansatte-kontrollpanel. Ekstern Oppgaveplanlegging anbefales for forutsigbar hente intervaller.
+  links:
+    - 
+      title: Bruke eksterne Oppgaveplanlegging
+      href: 'http://osticket.com/wiki/POP3/IMAP_Setting_Guide'
+strip_quoted_reply:
+  title: Stripp sitert svar
+  content: >
+    Hvis aktivert, fjernes foregående korrespondanse mellom e-post kommunikasjon. <br><br>Denne funksjonen er relasjonelt avhengig av<span class="doc-desc-title"> Svar skilletegn kode</span> nedenfor.
+reply_separator_tag:
+  title: Svar skilletegn kode
+  content: >
+    Dette er en symbol som angir brukeren til å svare over linjen. <br><br><strong>Merk:</strong> dette er bare relevant hvis <span class="doc-desc-title"> Stripen sitert svar</span> er aktivert ovenfor.
+emailed_tickets_priority:
+  title: Sendt sak prioritet
+  content: >
+    Velg om du vil at alternativet prioritet/betydning velges av brukerens e-post (f.eks OutLook) å diktere den nye saksprioritet. <br><br>Denne innstillingen kan overstyres av et <span class="doc-desc-title"> saksfilter</span>.
+  links:
+    - 
+      title: Opprette og administrere saks filtre
+      href: /scp/filters.php
+accept_all_emails:
+  title: Godta alle Eposter
+  content: >
+    Godta e-post fra ukjente brukere. <br><br>Hvis du fjerner denne innstillingen kan det føre til at saker blir avvist.
+accept_email_collaborators:
+  title: Godta e-post samarbeidspartnere
+  content: >
+    Legg til e-post deltakere inkludert i <code><strong>til</strong></code> og <code><strong>kopi-</strong></code> feltene som sak samarbeidspartnere. < br / >< br / > <em>Samarbeidspartnere kan alltid legges til manuelt av agenter når du ser på en sak.</em>
+default_mta:
+  title: Standard MTA
+  content: >
+    <span class="doc-desc-title"> Standard MTA</span> tar vare på e-post leveringsprosessen for utgående e-poster uten SMTP-innstilling.

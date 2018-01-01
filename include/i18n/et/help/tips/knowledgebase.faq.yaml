@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Nimekirja tüüp
+  content: >
+    Vali <span class="doc-desc-opt">avalda (publitseeri)</span>, kui soovid seda <span class="doc-desc-title"> KKK</span> publitseerida avalikus teadmusbaasis ja tema ülemkataloog on samuti avalik.
+  links:
+    - 
+      title: Võimalda avalik teadmusbaas kliendiportaali tarbeks
+      href: /scp/settings.php?t=kb

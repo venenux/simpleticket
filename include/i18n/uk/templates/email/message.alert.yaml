@@ -1,0 +1,39 @@
+---
+notes: |
+  Посилається співробітникам служби підтримки, коли користувач публікує нове повідомлення в заявці. Це відбувається, коли користувач відповідає на повідомлення електронної пошти системи або відвідує сторінку клієнта і залишає повідомлення там.
+subject: |
+  Оповіщення про нове повідомлення
+body: |2
+  <h3><strong>Доброго дня, %{recipient.name}!</strong></h3>
+  У заявку додано нове повідомлення. <a href="%{ticket.staff_link}">№%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Від</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Відділ</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Для перегляду або відповіді на заявку, будь ласка, <a href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);">увійдіть</span></a> в систему підтримки</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Служба підтримки</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

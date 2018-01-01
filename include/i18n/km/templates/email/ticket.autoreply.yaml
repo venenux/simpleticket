@@ -1,0 +1,25 @@
+---
+notes: |
+  ផ្ញើទៅឱ្យអ្នកប្រើនៅពេលដែលការឆ្លើយតបដោយស្វ័យប្រវត្តិ canned respond ត្រូវបានបង្ហោះទៅសំបុត្រ ticket ពេលវា ត្រូវបានបង្កើត។ អថេរអាចប្រើបានសម្រាប់ការជំនួស: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>ទៅ %{recipient.name.first}, ជាទីគោរព</strong></h3>
+  សំណើសម្រាប់ការគាំទ្រត្រូវបានបង្កើតឡើងនិងបានចាត់តាំងករណីមួយ <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> ជាមួយនឹងការឆ្លើយតបដោយស្វ័យប្រវត្តិ ដូចខាងក្រោម
+  <br>
+  <br>
+  ប្រធានបទ Topic: <strong>%{ticket.topic.name}</strong>
+  <br>
+  ប្រធានបទ Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">ក្រុមការងារពី %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>យើងសង្ឃឹមថា
+  ការឆ្លើយតបនេះបានឆ្លើយតបសំណួររបស់អ្នកបានគ្រប់គ្រាន់។  ប្រសិនបើអ្នកចង់ ផ្តល់យោបល់ឬបន្ថែមសូមឆ្លើយតបទៅនឹងអ៊ីមែលនេះ ឬ <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >ចូលទៅគណនីរបស់អ្នក</span></a> សម្រាប់ ប័ណ្ណសារពេញលេញនៃករណីរបស់អ្នក</em></div>

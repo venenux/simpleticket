@@ -1,0 +1,4 @@
+---
+ban_list:
+  title: Banovane Email adrese
+  content: Email poruke pristigle sa adresa koje se nalaze na listi blokiranih/zabranjenih email adresa bit će automatski odbačene.

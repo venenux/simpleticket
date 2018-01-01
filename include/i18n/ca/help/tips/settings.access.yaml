@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Política de venciment de contrasenyes
+  content: >
+    Estableix la freqüència (en mesos)amb la que els membres del personal hauran de canviar la seva contrasenya. Si està deshabiltada (establidacom "No vençuda"), les contrasenyes no caduquen.
+password_expiration_policy:
+  title: Política de venciment de contrasenyes
+  content: >
+    Triar amb quina freqüència els Agents hauran de canviar la seva contrasenya. Si està deshabilitada (és a dir, <span class="doc-desc-opt"> Sense caducitat</span>), les contrasenyes no caduquen.
+allow_password_resets:
+  title: Permetre Restableiment de contrasenya
+  content: >
+    Permetre aquesta característica si vostè vol mostrar  <span class="doc-desc-title"> He oblidat la meva contrasenya</span> en el <span class="doc-desc-title"> Panel de registre personal</span> després d'un fall en l'intent de registre.
+reset_token_expiration:
+  title: Finestra de reinicialització de contrasenya
+  content: >
+    Triar la durada (en minuts) per a que les <span class="doc-desc-title"> Fitxes de reinicialització de contrasenya</span> siguen vàlides. Quan un Agent demana una <span class="doc-desc-title"> Reinicialització de Contrasenya </span>, Un email es enviat a ells que permetrà resetear per tindre un lloc.
+staff_session_timeout:
+  title: Venciment del temps d'espera de sessió del personal
+  content: >
+    Trie el màxim temps  d'inactivitat (en minuts) abans de que es requerixca que registrarse una altra vegada. <br><br>Si vol desactivar el <span class="doc-desc-title"> Temps de venciment de sessió de personal</span>, escriu 0.
+client_session_timeout:
+  title: Caducitat de la sessió d'usuari
+  content: >
+    Trie el màxim temps  desocupat(en minuts) abans de que es requerixca que un Agent es conecte una altra vegada. <br><br>Si vole desactivar el <span class="doc-desc-title"> Temps de venciment de sessió de personal</span>, escriu 0.
+bind_staff_session_to_ip:
+  title: Sessió de personal s'uneix a IP
+  content: >
+    Permetre això si vol que un Agent siga recordat per la seva IP actual en el registre entrada <br><br>aquesta configuració no és recomana per als usuaris als que s'han assignat adreces d'IP dinàmicament.
+registration_method:
+  title: Opcions de Registre
+  content: >
+    <span class="doc-desc-title"> Mètode d'inscripció</span> i <span class="doc-desc-title"> matrícula exigia</span> s'utilitzen conjuntament per configurar com els usuaris es registren i accedixen al portal web del sistema de suport. La taula següent resumeix com els dos paràmetres són interpretats pel sistema. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" > <tbody style="vertical-align:top;"> <tr><th>inscripció requereix</th> <th>mètode d'Inscripció </th> <th>resultat</th></tr> <tr><td>No</td> <td>públic</td> <td> Es recomana registre, però no es requerix per a nous Tickets.</td></tr> <tr><td>Sí</td> <td>públic</td> <td>lRegistre i autenticación són necessaris per a nous Tickets</td></tr> <tr><td>No</td> <td>privada</td> <td>qualsevol pot crear un Ticket, però només els agènts poden registrar a comptes</td></tr> <tr><td>Sí</td> <td>privat</td> <td>accés d'usuari és només per invitació</td></tr> <tr><td>Discapacitats</td> <td>No</td> <td>ningú es pot inscriure per un compte, però qualsevol pot crear un Ticket. <em>Això era com osTicket funcionava abans 1,9</em></td></tr> <tr><td>Sí</td> <td>amb Deshabilitad</td> <td>Deshabilitar nou Tickets mitjançant el portal web</td></tr></tbody></table>
+client_verify_email:
+  title: Es requerix verificació de Email
+  content: >
+    Desactive aquesta opció per donar als usuaris accés immediat a Tickets mitjançant la pàgina de connexió "Comprovar estatus d'entrada" al portal de client. Si està activat, (que està predeterminat), els usuaris hauran de rebre un e-mail i seguir un enllaç al correu electrònic per veure el Ticket. <br><br>Deshabilitar la comprovació de email podria permetre a tercers (p. ex. col·laboradors del Ticket) suplantar el propietari del Ticket.

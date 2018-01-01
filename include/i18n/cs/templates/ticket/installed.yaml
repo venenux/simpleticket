@@ -1,0 +1,25 @@
+---
+deptId: 1
+topicId: 1
+name: osTicket podpora
+email: support@osticket.com
+source: Web
+subject: osTicket byl nainstalován!
+message: |
+  <p>
+  Děkujeme, že jste si vybrali osTicket.
+  </p><p>
+  Nezapomeňte se připojit k <a href="http://osticket.com/forums">osTicket fóru</a> a přidat Váš e-mail do <a href="http://osticket.com/updates">seznamu</a> pro získání aktuálních oznámení, bezpečnostních aktualizací a upozornění. osTicket fórum je výborné místo pro získání asistence, poradenství, tipů a pomoci od ostatních členů komunity. osTicket Wiki poskytuje užitečné výukové materiály, dokumentaci a shromažďuje všechny příspěvky členů komunity. Přivítáme Vaši aktivní účast na budování osTicket komunity!
+  </p><p>
+  Jestliže hledáte vysokou úroveň podpory, poskytujeme profesionální služby, komerční podporu s garantovanou dobou odezvy a přístupem k týmu vývojářů osTicket. Můžeme upravit osTicket a dokonce přidat nové funkce do systému pro splnění Vašich individuálních požadavků.
+  </p><p>
+  Pokud si nejste jisti instalací a správou skriptu, můžete využít pronájem osTicket systému na <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> -- žádné aktualizace, můžeme importovat Vaše data! Na základní infrastrutuře SupportSystem získáte všechny funkce osTicket systému a budete se moci zaměřit pouze na Vaše zákazníky, protože aplikace je stabilní, udržovaná a bezpečná.
+  </p><p>
+  Pěkný den,
+  </p><p>
+  -<br/>
+  osTicket tým http://osticket.com/
+  </p><p>
+  <strong>PS:</strong> Nedělejte Vaše zákazníky spokojenými, mějte spokojené zákazníky!
+  </p>

@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Sąrašo tipas
+  content: >
+    Pasirinkite<span class="doc-desc-opt">Viešas (paskelbti)</span>, jei norėtumėte,kad <span class="doc-desc-title">DUK</span>būtų  skelbiami viešoje žinių bazėje, jei patronuojanti kategorija yra vieša.
+  links:
+    - 
+      title: Įgalinti viešą žinių bazę kliento portale
+      href: /scp/settings.php?t=kb

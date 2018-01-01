@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Aç
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Sorğunu açın.
+- 
+  id: 2
+  name: Həll olundu
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Həll olumuş sorğular bağlı sorğulardır, hansı ki, son istifadəçilər tərəfindən yenidən açıla bilər. 
+- 
+  id: 3
+  name: Qapalı
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Bağlı olduğu göstərilən sorğular son istifadəçilər tərəfindən yenidən açıla bilməz. Sorğular müştəri və heyət panelində hələ də girişə icazəli olacaqlar.
+- 
+  id: 4
+  name: Arxivləşdirildi
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Sorğular ancaq inzibati qayda ilə aktivdir, ancaq sorğu sıralarında uzunmüddətli qəbul edilən deyil.
+- 
+  id: 5
+  name: Silindi
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Sorğular silinmək üçün sıralandı. Sorğu sıralamasında qəbul edilən deyil.

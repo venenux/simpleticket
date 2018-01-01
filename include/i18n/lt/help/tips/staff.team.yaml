@@ -1,0 +1,33 @@
+---
+teams:
+  title: Komandos
+  content: >
+    Komandos yra vienas ar daugiau susietų agentų su bendrų užklausų priskyrimo tikslu. Komandos narystė gali apimti visas departamento ribas.
+status:
+  title: Būsena
+  content: >
+    Jeigu<span class="doc-desc-opt">Išjungta</span>, šiai komandai nebus galima priskirti užklausų, arba siųsti įspėjimų &amp; pranešimų apie ankstesnius priskyrimus.
+lead:
+  title: Komandos vadovas
+  content: >
+    <span class="doc-desc-title">Komanda</span>gali turėti priskirtą lyderį, kuris gali gauti<span class="doc-desc-title">Įspėjimus&amp; Pranešimus</span> atskirai nuo narių.
+  links:
+    - 
+      title: Konfigūruoti Įspėjimus&amp;Pranešimus
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Priskyrimo įspėjimas
+  content: >
+    Gali išjungti<span class="doc-desc-title">Užklauso priskyrimo įspėjimą</span>užklausoms, priskirtoms šiai komandai.
+  links:
+    - 
+      title: Konfigūruoti Įspėjimus&amp;Pranešimus
+      href: /scp/settings.php?t=alerts
+members:
+  title: Komandos nariai
+  content: >
+    Komandos narystė konfigūruojama per Agento profilį.
+  links:
+    - 
+      title: Valdyti darbuotojus
+      href: /scp/staff.php

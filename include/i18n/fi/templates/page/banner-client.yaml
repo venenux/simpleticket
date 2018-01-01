@@ -1,0 +1,6 @@
+---
+notes: >
+  Pohja määrittää kirjautumissivun ylätunnisteen tekstin. On hyödyllistä kertoa mm. rekisteröinnistä ja yleisistä palvelun ehdoista.
+name: "Kirjaudu palveluun %{company.name}"
+body: >
+  Palvellaksemme sinua paremmin, suosittelemme että rekisteröidyt palvelun käyttäjäksi.

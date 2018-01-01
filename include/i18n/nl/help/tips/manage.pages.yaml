@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Site pagina's
+  content: >
+    Site pagina's kunnen dienen als een mini Content Management Systeem (CMS). U kunt meerdere landing, offline, en bedankt pagina's definiëren en deze configureren in uw bedrijfsinstellingen en help onderwerpen.
+  links:
+    - 
+      title: Bedrijfs instellingen
+      href: /scp/settings.php?t=pages
+type:
+  title: type
+  content: >
+    <span class="doc-desc-opt">Offline</span> pagina's worden weergegeven op uw klantenportaal als uw helpdesk uitgeschakeld is. <span class="doc-desc-opt">Landing</span> pages worden weergegeven op de home page van uw klantenportaal. <span class="doc-desc-opt">Bedankt</span> pagina's worden weergegeven als een gebruiker een ticket verstuurt. <span class="doc-desc-opt">andere</span> pagina's kunnen worden gebruikt als een simpel content management systeem (CMS).

@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: สถานะของ Ticket
+  name_plural: สถานะของ Ticket
+  sort_mode: SortCol
+  masks: 13
+  notes: สถานะของ Ticket
+  properties:
+    title: คุณสมบัติสถานะของ Ticket
+    instructions: คุณสมบัติที่สามารถตั้งค่าสถานะ Ticket
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: สถานะ
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: สถานะของตั๋ว
+      - 
+        type: memo
+        name: description
+        label: คำอธิบาย
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

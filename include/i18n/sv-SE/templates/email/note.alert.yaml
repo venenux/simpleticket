@@ -1,0 +1,45 @@
+---
+notes: |
+  Alert skickas ut till agenter när intern verksamhet som ett internt meddelande eller en agent svar läggs till en biljett.
+subject: |
+  Nytt internt aktivitetsmeddelande
+body: |
+  <h3><strong>Hej %{recipient.name},</strong></h3>
+  En agent har loggat aktivitet på biljetten <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Från</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Titel</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Om du vill visa/svara på biljetten, vänligen <a
+  href="%{ticket.staff_link}">logga in</a> till supportsystem
+  <br>
+  <br>
+  <em style="font-size: small; ">Din vänliga Kundtjänst
+  System</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

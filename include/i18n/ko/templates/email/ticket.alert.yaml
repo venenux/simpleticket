@@ -1,0 +1,44 @@
+---
+notes: |
+  신규티켓이 등록되었을 때  스탭에게 송신됩니다.
+  메일경유, 웹으로 부터의 등록,  api경유로 등록 되었을 경우에 송신됩니다.
+subject: |
+  새 티켓 알림
+body: |2
+  <h2>Hi %{recipient.name}님</h2>
+  신규티켓 #%{ticket.number} 가 등록되었습니다
+  
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>From</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>담당부서</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>이 티켓에 응답하시려면, 시스템에 <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >로그인</span></a>해주세요.</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">헬프데스크</em><br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Powered By osTicket"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Medewerkers
+  content: >
+    De volgende tabel geeft de resultaten weer van de filter erboven. Als er geen filter gekozen is, zullen alle <span class="doc-desc-title">Verantwoordelijke</span> (Medewerker) <span class="doc-desc-title">Leden</span> getoond worden, en gesplitst worden in pagina's. Zie de pagina's sectie om door meerdere resultaten te navigeren.
+status:
+  title: Status
+  content: >
+    Dit zal weergeven of de <span class="doc-desc-title">Verantwoordelijke</span> Gelocked, Actief of Actief (in Vakantie) is.

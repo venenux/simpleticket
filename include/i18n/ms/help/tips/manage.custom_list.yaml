@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Custom Lists
+  content: >
+    Anda <span class="doc-desc-title">senarai adat</span>akan membenarkan anda untuk membuat kotak jatuh turun dengan pilihan yang telah ditetapkan yang Pelanggan boleh pilih dalam anda <span class="doc-desc-title">Borang adat</span>. Jika anda ingin untuk menggunakan ini <span class="doc-desc-title">senarai adat</span> sebagai <span class="doc-desc-title">sasaran</span> dalam <span class="doc-desc-title">Penapis Tiket </span>, pastikan anda menambah senarai ini untuk <span class="doc-desc-title">Maklumat Tiket</span> borang.
+name:
+  title: Name
+  content: >
+    
+plural_name:
+  title: Nama majmuk
+  content: >
+    
+sort_order:
+  title: Aturan susunan
+  content: >
+    
+list_s_initial_items:
+  title: Senarai awal barang
+  content: >
+    
+value:
+  title: Nilai
+  content: >
+    
+extra:
+  title: Tambahan
+  content: >
+    Singkatan dan sebagainya. Jika anda berlaku untuk menggunakan kod dalaman untuk item dalam senarai ini, orang-orang kod dan singkatan boleh dimasukkan dalam ruangan ini. Jika senarai adat itu diberikan sebagai <span class="doc-desc-option"> TypeAhead</span>, singkatan ini boleh digunakan untuk mencari senarai adat item.

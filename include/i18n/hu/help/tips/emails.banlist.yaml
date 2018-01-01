@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Letiltott email címek
+  content: >
+    A tiltó listán szereplő email címekről kapott levelek automatikusan vissza lesznek utasítva.

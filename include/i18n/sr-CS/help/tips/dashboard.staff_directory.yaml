@@ -1,0 +1,7 @@
+---
+staff_members:
+  title: Zaposleni
+  content: 'Sledeća tabela prikazuje razultate filtera iznad nje. Ako filteri nisu izabrani, onda se prikazuju svi <span class="doc-desc-title">zaposleni</span>, podeljeni na stranice. Za navigaciju kroz stranice koristi se sekcija ispod tabele.'
+apply_filtering_criteria:
+  title: Primeni filtere
+  content: 'Odaberite <span class="doc-desc-title">Odsek</span> zavisno od vaših potreba. Možete potražiti i određenog tehničara.'

@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API anahtarı
+  content: >
+    API anahtarları, kullanıcıların yeni çağrı bildirimlerini, Uygulama Programlama Arayüzleri (API) aracılığıyla açmalarını sağlarken sisteme giriş yapabilmek için kullanılırlar. API anahtarları şifreler yerine kullanılırlar. API anahtarları şifrelenmemiş olarak gönderildikleri için, kullanıcılarının network IP adresleri ile eşleştirilirler.
+  links:
+    - 
+      title: osTicket API Belgeleri
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP adresi
+  content: >
+    İstemci ağ IP adresi. Her bir özgün istemci IP adresi için ayrı API anahtarı gerekmektedir

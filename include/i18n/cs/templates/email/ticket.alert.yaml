@@ -1,0 +1,42 @@
+---
+notes: |
+  Bude odesláno zaměstnanci v okamžiku zadání nového zákaznického požadavku v systému. Nastavení platí pro požadavky vytvořené prostřednictvím e-mailu, portálu zákaznické podpory nebo API.
+subject: |
+  Upozornění na nový požadavek
+body: |2
+  <h2>Dobrý den %{recipient},</h2>
+  Byl vytvořen nový zákaznický požadavek #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Od</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Oddělení</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pro zobrazení nebo odpověď na zákaznický požadavek se prosím <a
+  href="%{ticket.staff_link}">přihlaste</a> do systému zákaznické podpory</div>
+  <em style="font-size: small">Vaše zákaznická podpora</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Provozováno na osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,42 @@
+---
+notes: |
+  Enviada aos membros do staff quando uma nova mensagem é enviada por um utilizador para um ticket.  Isso pode ocorrer se os utilizadores responderem a um e-mail do sistema ou visitarem o portal do cliente e enviarem uma nova mensagem de lá.
+subject: |
+  Alerta de nova mensagem
+body: |2
+  <h3><strong>Olá %{recipient},</strong></h3>
+  Tem uma nova mensagem associada ao ticket <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>De</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Departamento</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Para ver ou responder a este ticket, por favor <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >faça login</span></a> no sistema de suporte de tickets</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">O seu Sistema de Suporte ao Cliente</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

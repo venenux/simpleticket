@@ -1,0 +1,33 @@
+---
+teams:
+  title: Zespoły
+  content: >
+    Zespoły mają jednego lub więcej przedstawicieli zgrupowanych razem w celu przypisania zgłoszenia. Członkowie zespołu nie muszą należeć do jednego Działu.
+status:
+  title: Status
+  content: >
+    Jeżeli <span class="doc-desc-opt">Wyłączone</span>, to Zespoły nie będą zdolne do przydzielania zgłoszeń ani otrzymywania Alarmów i Powiadomienia o poprzednich zgłoszeniach.
+lead:
+  title: Lider zespołu
+  content: >
+    <span class="doc-desc-title">Zespół</span> może mieć wyznaczonego lidera, który może odbierać <span class="doc-desc-title">Alarmy i Powiadomienia</span> niezależnie od pozostałych członków.
+  links:
+    - 
+      title: Konfiguracja Alertów i Powiadomień
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Przypisanie Alertów
+  content: >
+    Możesz wyłączyć <span class="doc-desc-title">Przypisanie Alertu do Zgłoszenia</span> dla zgłoszeń przypisanych do tego Zespołu.
+  links:
+    - 
+      title: Konfiguracja Alertów &amp; Powiadomień
+      href: /scp/settings.php?t=alerts
+members:
+  title: Członkowie zespołu
+  content: >
+    Członkostwo zespołu jest konfigurowane poprzez profil Przedstawiciela.
+  links:
+    - 
+      title: Zarządzanie personelem
+      href: /scp/staff.php

@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Aktivnost zahtevkov
+  content: >
+    Izberi časovni okvir za potrebe grafikona in spodnje tabele (cf. <span class="doc-desc-title">Statistika</span>) za pregled nad odgovarjajočimi podatki za ta časovni okvir. Spodnji graf bo vedno prikazal širok pregled nad sistemskimi podatki (tj gostoto zapisov). Vendar se lahko usmerite v spodnjo tabelo<span class="doc-desc-title">Statistika </span>, da zožite svoje iskanje na predmet interesa (tj Oddelek, Zadevo ali Osebje). Dodatno lahko izvozite katerikoli podatek, ki je trenutno prikazan na tabeli <span class="doc-desc-title">Statistika </span>.
+report_timeframe:
+  title: Časovni okvir
+  content: >
+    Izberi začetni datum za željeni vzorec podatkov z uporabo izbirnika datuma. Nato izberite dolžino časa, od tega datuma, da določite končni datum za svoj vzorec podatkov.
+statistics:
+  title: Statistika
+  content: >
+    Določite predmet interesa s klikom na ustrezen zavihek, da si ogledate določen vzorec podatkov. V tabeli, krogi predstavljajo velikost nominalnih podatkov. Zato, večje število bo v določeni celici, večji bo sosednji krog.
+opened:
+  title: Odprto
+  content: >
+    To predstavlja kartice odprte od zastopnika (tj, interno odprte) in ne od strank.
+assigned:
+  title: Dodeljeno
+  content: >
+    Sistem beleži vsak dogodek ne glede ali je kartica avtomatsko ali ročno dodeljena določenemu oddelku ali skrbniku. Avtomatska dodelitev je odvisna od uveljavljenih nastavitev <span class="doc-desc-title">teme pomoči</span> in <span class="doc-desc-title">filtri e-pošte</span> v skrbniški plošči.
+overdue:
+  title: Zapadlo
+  content: >
+    To je količina zahtevkov, ki krši SLA načrt kateremu pripadajo.
+closed:
+  title: Zaprto
+  content: >
+    To je število zaprtih ticketov.
+reopened:
+  title: Obnovljeno
+  content: >
+    To je število ticketov, ki so bili ponovno odprti z strani agenta ali klijenta, ko je odgovoril na zaprt ticket.
+service_time:
+  title: Čas obdelave
+  content: >
+    <span class="doc-desc-title">Čas obdelave</span> je čas od odprtja do zaprtja ticketa. Stolpec <span class="doc-desc-title">Čas obdelave</span>meri povprečni čas obdelave v določenem času.
+response_time:
+  title: Odzivni čas
+  content: >
+    <span class="doc-desc-title">Odzivni čas</span> je čas od trenutka, ko se začne s katero koli korespondenco stranke in se konča, ko skrbnik naredi odziv. To merjenje časa ni izključno samo za korespondenco strank izvornega odpiranja zahtevka. To velja za vsak pogovor, katerega izvor je pri stranki.

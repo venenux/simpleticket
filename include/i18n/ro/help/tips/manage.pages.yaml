@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Paginile site-ului
+  content: >
+    Paginile site-ului pot servi ca un mini-CMS (Content Management System - Sistem de Administrare de Conținut). Poți defini multiple pagini de întâmpinare, de gratificare și pentru situațiile când sistemul este offline - și le poți configura prin setările pentru Companie și pentru Subiectele de ajutor.
+  links:
+    - 
+      title: Setări Companie
+      href: /scp/settings.php?t=pages
+type:
+  title: Tip
+  content: >
+    Paginile <span class="doc-desc-opt">Offline</span> sunt afișate în portalul clienților dacă helpdesk-ul este oprit. Paginile <span class="doc-desc-opt">de întâmpinare</span> sunt afișate pe pagina "Acasă" a portalului pentru clienți. Paginile <span class="doc-desc-opt">de gratificare</span> sunt afișate după ce un utilizator introduce un tichet. <span class="doc-desc-opt">Alte</span> pagini pot fi utilizate ca o modalitate de implementare a unui sistem de administrare de conținut simplu (CMS).

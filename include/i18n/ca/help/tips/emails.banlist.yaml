@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Direccions d'Email Bloquejades
+  content: >
+    Emails rebuts de la llista d'adreces d'emails bloquejats es rebutjaran automàticament.

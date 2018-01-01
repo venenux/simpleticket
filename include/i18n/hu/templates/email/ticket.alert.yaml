@@ -1,0 +1,42 @@
+---
+notes: |
+  Munkatársaknak küldve, mikor új hibajegyet hoznak létre a rendszerben. Ez vonatkozik az emailben, a portálon vagy az api-n keresztül létrehozott hibajegyekre is.
+subject: |
+  Új hibajegy riasztás
+body: |2
+  <h2>Kedves %{recipient.name},</h2>
+  Új hibajegy létrehozva: #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Feladó</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Részleg</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>A hibajegy megtekintéséhez vagy megválaszolásához, kérjük, <a
+  href="%{ticket.staff_link}">jelentkezzen be</a> a hibajegy kezelő rendszerbe.</div>
+  <em style="font-size: small">Ügyfélszolgálat</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,44 @@
+---
+notes: |
+  Tanda dikirim ke Agen ketikan aktivitas internal seperti catatan internal atau jawaban seorang agen ditambahkan pada sebuah tiket.
+subject: |
+  Peringatan aktifitas internal baru
+body: |
+  <h3><strong>Halo %{recipient.name},</strong></h3>
+  Seorang agen telah memasukkan aktivitas pada tiket<a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Dari</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Judul</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Untuk melihat/merespon tiket, silakan <a
+  href="%{ticket.staff_link}">masuk</a> to sistem dukungan tiket
+  <br>
+  <br>
+  <em style="font-size: small; ">Sistem Dukungan Pelanggan yang bersahabat</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Ditenagai oleh osTicket" width="126" height="19" style="width: 126px;">

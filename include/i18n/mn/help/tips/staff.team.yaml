@@ -1,0 +1,33 @@
+---
+teams:
+  title: Багууд
+  content: >
+    Ажилтнуудыг хэд хэдээр нь баг болгож хүсэлт хуваарилж өгч болно. Багийн гишүүд нь өөр өөр албаных байж болно.
+status:
+  title: Төлөв
+  content: >
+    Хэрвээ <span class="doc-desc-opt">Идэвхигүй</span> бол энэ багт анхааруулга мэдээллүүдийг илгээхгүй.
+lead:
+  title: Багийн ахлагч
+  content: >
+    <span class="doc-desc-title">Баг</span> нь ахлагчтай байж болох бөгөөд ахлагч нь бусад гишүүдээс тусдаа <span class="doc-desc-title">Анхааруулга</span> хүлээн авна.
+  links:
+    - 
+      title: Сануулга &amp; Мэдэгдэл тохируулах
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Даалгаврын сануулга
+  content: >
+    Энэ багт хүсэлт илгээхэд <span class="doc-desc-title">Хүсэлт хуваарилсан анхааруулга</span> илгээхгүй байж болно.
+  links:
+    - 
+      title: Сануулга &amp; Мэдэгдэл тохируулах
+      href: /scp/settings.php?t=alerts
+members:
+  title: Багийн гишүүд
+  content: >
+    Багийн гишүүнчлэлийг Ажилтны хувийн мэдээлэл дээр тохируулна.
+  links:
+    - 
+      title: Ажилтнуудыг зохицуулах
+      href: /scp/staff.php

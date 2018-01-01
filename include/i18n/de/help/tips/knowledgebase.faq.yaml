@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Sichtbarkeit der FAQ
+  content: >
+    Wählen Sie <span class="doc-desc-opt">Öffentlich (veröffentlichen)</span>, wenn die FAQ in der öffentlichen <span class="doc-desc-title">Wissensdatenbank</span> publiziert werden soll. Wichtig ist, dass die übergeordnete Kategorie auch öffentlich sichtbar sein muss.
+  links:
+    - 
+      title: Öffentliche Wissensdatenbank für das Benutzerportal aktivieren
+      href: /scp/settings.php?t=kb

@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk állapota
+  content: >
+    Ha a státusz <span class="doc-desc-opt">Offline-ra</span> váltja, az ügyfél csatlakozása tiltva lesz. Ugyanakkor ez nem befolyásol bármely más normális kezelői tevékenységet a kezelő kezelőpanelen keresztül.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Az osTicket telepítés alap URL-címe. Az e-mail kommunikációban használjuk végfelhasználók visszairányítására az ügyfélszolgálathoz.
+helpdesk_name_title:
+  title: Ügyfélszolgálat neve
+  content: >
+    Ez a cím jelenik meg a böngésző lapfülén. Ha az ügyfélszolgálat lapja be van állítva könyvjezőként, ezt a nevet fogja kapni a honlap.
+default_department:
+  title: Alapértelmezett Részleg
+  content: >
+    Válasszon egy alapértelmezett <span class="doc-desc-title">Részleget</span> azoknak a Hibajegyeknek, amik nem irányítódnak automatikusan egy előre definiált részleghez. <br/><br/> A hibajegyek átirányítása a súgó témák, a beérkező emailek és a hibajegy szűrő beállításaiban állíthatóak be.
+default_page_size:
+  title: Alapértelmezett oldal méret
+  content: >
+    Válassza ki hány tételt szeretne egy oldalon megjeleníteni a feldolgozásra váró hibajegyek közül a kezelő panelen. Minden egyes kezelő beállíthat tetszése szerint eltérő számot a <span class="doc-desc-title">Saját beállításaim</span> menüpont alatt.
+default_log_level:
+  title: Alapértelmezett naplózási szint
+  content: >
+    Határozza meg azt a legalacsonyabb súlyossági szintet, amitől a <span class="doc-desc-title">rendszer naplóban</span> rögzíteni kívánja a problémát. A <span class="doc-desc-opt">Hibakeresés</span> jelenti a legkevésbé súlyos szintet és a <span class="doc-desc-opt">Hiba</span> a legsúlyosabbat. Például, ha minden problémát szeretne nyomon követni a <span class="doc-desc-title">Rendszer naplóban</span>, válassza a <span class="doc-desc-opt">Hibakeresést</span>.
+purge_logs:
+  title: Naplók törlése
+  content: >
+    Határozza meg, mennyi ideig szeretné megtartani a <span class="doc-desc-title">Rendszer naplófájlokat</span>mielőtt törlésre kerülnek.
+default_name_formatting:
+  title: Alapértelmezett név formátum
+  content: >
+    Válasszon egy formázást a rendszerben szereplő neveknek. Az email sablonok névként fogják használni, ha nincs más meghatározott formátum a változóban.
+  links:
+    - 
+      title: Támogatott Email Sablon Változók
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Idő&amp;beállítások
+  content: >
+    Az alábbi beállítások határozzák meg az Ügyfelek Dátum &amp; Idő beállításait. Megváltoztathatja ezek megjelenését a PHP dátum formátum karakterek követésével. Az alábbi adatok csupán az ezeknek megfelelő értékeket illusztrálják.
+  links:
+    - 
+      title: Lásd a PHP Dátum Formázó táblán
+      href: 'http://www.php.net/manual/en/function.date.php'

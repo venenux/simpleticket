@@ -1,0 +1,13 @@
+---
+groups:
+  title: Gruplar
+  content: >
+    Gruplar temsilcin yardım masasındaki izinlerini belirlemekte kullanılır. Gruplar ayrıca Temsilcinin birincil bölümü haricinde farklı Bölümlere erişimine de olanak sağlar.
+status:
+  title: Durum
+  content: >
+    Eğer <span class="doc-desc-opt">Kapanırsa</span> bu grupta görevlendirilen Temsilciler giriş yapamaz ve Bölüm Uyarı &amp; Bildirimleri alamaz.
+department_access:
+  title: Bölümü Erişimi
+  content: >
+    Grup üyelerinin erişebileceği bütün bölümleri seçin.

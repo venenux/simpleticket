@@ -1,0 +1,29 @@
+---
+notes: |
+  スタッフメンバーがユーザー様のためにチケットを作成した場合に送信されます。
+  ユーザー様からの電話によるお問い合わせ時に利用されます。
+subject: '%{ticket.subject} [#%{ticket.number}]'
+body: |
+  <h3><strong>%{recipient.name.first}様</strong></h3>
+  当社のカスタマーケアチームがお客様の代理でチケット<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>を作成いたしました。
+  受付内容は以下のとおりです:
+  <br>
+  <br>
+  Topic: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  担当の者ができるだけ早急に対応いたしますので今しばらくお待ちください。<a href="%{recipient.ticket_link}">こちら</a>から対応状況をオンラインにてご確認いただけます。
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Your %{company.name} Team,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>この問題に関して追加コメントまたは情報がおありの場合は、このメールにご返信いただくか、 <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >アカウントにログイン</span></a>して、お客様のサポートのお問い合わせと返信を追記してください。</em></div>

@@ -1,0 +1,13 @@
+---
+notes: >
+  The Landing Page refers to the content of the Customer Portal's initial view. The template modifies the content seen above the two links <strong>Open a New Ticket</strong> and <strong>Check Ticket Status</strong>.
+name: Hasiera
+body: >
+  <h1>Ongi etorri Laguntza Gunera</h1>
+  <p>
+  Ahalik eta soporterik onena eman ahal izateko, laguntza tiket sistema bat
+  erabiltzen dugu. Laguntza eskaera guztiei tiket zenbaki bat esleitzen zaio,
+  horrekin egoera eta erantzunak on-line kudeatu ahal dituzu. Zure erreferentziarako
+  zure laguntza eskare guztien historiala ematen dizugu. E-posta helbide baliogarri
+  bat beharrezkoa da tiket bat bidaltzeko.
+  </p>

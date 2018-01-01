@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Personalas
+  content: >
+    Toliau pateiktoje lentelėje nurodomi atitinkami rezultatai, pagal aukščiau nurodytus filtravimo parametrus. Jei nebuvo nurodyti filtravimo nustatymai, tuomet rodomi visi <span class="doc-desc-title">Personalo Nariai </span> suskaidyti puslapiuose. Žiūrėkite puslapių skyrius žemiau, norėdami naršyti per daugiau rezultatų.
+apply_filtering_criteria:
+  title: Taikyti filtravimo kriterijus
+  content: >
+    Pasirinkite <span class="doc-desc-title">padalinį</span>, kuris atitinka jūsų dabartinius interesus. Jūs taip pat galite atlikti paiešką konkrečiam Agentui.

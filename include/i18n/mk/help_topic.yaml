@@ -1,0 +1,33 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Општи прашања
+  notes: Прашања во врска со производите или услугите
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Повратен одговор
+  notes: Тикети во врска со продажба и финансии
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Пријави проблем
+  notes: Проблеми поврзани со продукт, сервис или опрема
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Проблем со пристап
+  notes: Пријавување на немање на можност за пристап до физичка или виртуелна опрема

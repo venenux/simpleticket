@@ -1,0 +1,5 @@
+---
+notes: >
+  Bu, Personel Giriş ekranında gösterilecek karşılama mesajı ve tanıtımıdır. İlk metin kutusu üstte görünen kırmızı biçimlendirilmiş yazıyı gösterir. Sonraki metin giriş alanı ise bir tür uyarıcı bilgi görevi görecek tanıtım metnini içerir.
+name: "Kimlik Doğrulama Gerekli"
+body: ""

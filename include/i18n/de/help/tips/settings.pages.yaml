@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Helpdeskinformationen
+  content: >
+    Dies bezieht sich auf die Firma oder Organisation, welche die osTicket Software einsetzt. Die Informationen hier werden in E-Mail-Signaturen erscheinen, wenn Tickets von den Agenten beantwortet werden.
+  links:
+    - 
+      title: Formular für die Helpdeskinformationen
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Startseite
+  content: >
+    Die <span class="doc-desc-title">Startseite</span> erscheint auf der Hauptseite der Support-Webseite.
+offline_page:
+  title: Offline-Seite
+  content: >
+    Die <span class="doc-desc-title">Offline-Seite</span> wird auf der Support-Webseite angezeigt, wenn der Helpdesk offline ist, schauen Sie unter Admin-Bereich -&gt; Einstellungen -&gt; System -&gt; Helpdesk Status nach.
+default_thank_you_page:
+  title: Standard Dankeschön-Seite
+  content: >
+    Die <span class="doc-desc-title">Dankeschön-Seite</span> wird dem <span class="doc-desc-title">Benutzer</span> angezeigt, wenn dieser ein neues Ticket übermittelt. <br/><br/> <span class="doc-desc-title">Dankeschön</span>-Seiten können Hilfethemen zugeordnet werden.
+logos:
+  title: Logos
+  content: >
+    Sie können das <span class="doc-desc-title">Logo</span> anpassen, dass den Benutzern auf dem Benutzerportal (Ihre Support-Seite) angezeigt wird.
+upload_a_new_logo:
+  title: Ein neues Logo hochladen
+  content: >
+    Wählen Sie ein Bild in den Formaten .gif, .jpg oder .png aus. Die Größe des Bildes wird bei der Anzeige proportional angepasst. Die Bilddatei selbst wird jedoch nicht verändert. Um die Ladezeiten zu beschleunigen, wird deshalb empfohlen, dass Sie bei dem Bild möglichst nah an der Standard-Bildgröße bleiben (817px &times; 170px).

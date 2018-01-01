@@ -1,0 +1,69 @@
+---
+type:
+  title: Typ
+  content: >
+    Zvolte <span class="doc-desc-opt">Soukromé</span>, pokud si přejete skrýt přiřazená do tohoto oddělení na klientském portále.  Navíc, je-li označeno jako <span class="doc-desc-opt">Soukromé</span>, nebude uveden <span class="doc-desc-title">Podpis oddělení</span>  v emailových odpovědích. <br/><br/> Nejméně jedno oddělení musí být <span class="doc-desc-opt">Veřejné</span>
+email:
+  title: E-mail
+  content: >
+    Emailová adresa použitá při odesílaní odpovědí agentů na požadavky uživatelům.
+template:
+  title: Nastavení šablony
+  content: >
+    <span class="doc-desc-title">Sada šablon</span> emailů použitá pro automatické odpovědi, upozornění a oznámení pro požadavky přiřazené tomuto oddělení.
+  links:
+    - 
+      title: Správa šablon
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    SLA pro požadavky přiřazené tomuto oddělení.
+  links:
+    - 
+      title: Správa plánů SLA
+      href: /scp/slas.php
+manager:
+  title: Vedoucí oddělení
+  content: >
+    Vyberte <span class="doc-desc-title">Vedoucího</span> tohoto oddělení. <br/><br/> Vedoucím může být nastaveno zasílální zvláštních upozornění a též mají právo zrušit přiřazení požadavků.
+  links:
+    - 
+      title: Správa upozornění a oznámení
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Příjemci upozornění a oznámení
+  content: >
+    Vyberte příjemce nastavených <span class="doc-desc-title">upozornění a oznámení</span>.
+  links:
+    - 
+      title: Nastavení upozornění o oznámení
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Omezení přiřazení požadavků
+  content: >
+    Tato volba omezí přiřazení požadavků pouze na členy tohoto oddělení. Přiřazení může být rozšířeno o skupiny, pokud <span class="doc-desc-title">příjemci upozornění a oznámení</span> obsahují členy skupin.
+auto_response_settings:
+  title: Nastavení systému automatických odpovědí
+  content: >
+    Povoluje přepsat globální nastavení automatických odpovědí pro toto oddělení.
+new_ticket:
+  title: Automatická odpověď na nový tiket
+  content: >
+    Můžete zakázat zasílání automatických odpovědí, když je tiket přesměrovaný tomuto oddělení.
+new_message:
+  title: Automatická odpověď na novou zprávu
+  content: >
+    Můžete zakázat zasílání automatických odpovědí, když je vytvořená nová odpověď pro tiket pro toto oddělení.
+auto_response_email:
+  title: E-mailová adresa automatické odpovědi
+  content: >
+    Vyberte e-mailovou adresu, ze které jsou posílany automatické odpovědi tohoto oddělení.
+department_access:
+  title: Přístup pro skupiny
+  content: >
+    Povolte pracovníkům jiných oddělení přístup k tiketům přiřazeným k tomuto oddělení.
+department_signature:
+  title: Podpis oddělení
+  content: >
+    Podpis je použitý jako volba pro  <span class="doc-desc-opt">veřejné</span> oddělení v odpovědi pracovníka.

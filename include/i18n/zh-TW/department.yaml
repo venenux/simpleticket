@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: 支援姓名
+  signature: 支援部門簽署
+  ispublic: 0
+  group_membership: 1
+- 
+  id: 0
+  name: 銷售姓名
+  signature: |
+    銷售和客戶管理  簽署
+  ispublic: 1
+  sla_id: 0
+  group_membership: 1
+- 
+  id: 3
+  name: 資訊維護
+  signature: |
+    維修部簽署
+  ispublic: 2
+  group_membership: 0

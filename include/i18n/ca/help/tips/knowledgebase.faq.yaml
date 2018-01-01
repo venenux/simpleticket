@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Tipus de Llistat
+  content: >
+    Trie <span class="doc-desc-opt"> pública (publica)</span> si li agradaria  que aquest <span class="doc-desc-title"> FAQ</span> es publicarà a la knowledgebase pública si la categoria parental és pública.
+  links:
+    - 
+      title: Habilita el Knowledgebase públic pel Portal de Client
+      href: /scp/settings.php?t=kb

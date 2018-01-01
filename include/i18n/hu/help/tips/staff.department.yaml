@@ -1,0 +1,69 @@
+---
+type:
+  title: Típus
+  content: >
+    Válassza a <span class="doc-desc-opt">Privát</span> státuszt, hogy elrejtsen egy Osztály hozzárendelését az Ügyfél portálon.  Ezen felül, ha az <span class="doc-desc-title">Osztály Aláírás</span>   <span class="doc-desc-opt">Privát</span> státuszú, nem fog megjelenni a válasz üzenetben. <br/><br/>Legalább egy Osztálynak<span class="doc-desc-opt">Publikusnak</span> kell lennie.
+email:
+  title: Email
+  content: >
+    E-mail cím használható, ha a felhasználó üzenetet kapott, hogy egy Agent válaszolt egy jegyre.
+template:
+  title: Sablon gyűjtemény
+  content: >
+    Email <span class="doc-desc-title">Minta készlet</span> használható az automatikus válaszok, figyelmeztetések &amp; jelentések esetén, amikor a jegy egy osztályhoz kerül. 
+  links:
+    - 
+      title: Sablonok kezelése
+      href: /scp/templates.php
+sla:
+  title: Rendelkezése állás
+  content: >
+    A jegy SLA az Osztályhoz került. 
+  links:
+    - 
+      title: SLA terv szerkesztése
+      href: /scp/slas.php
+manager:
+  title: Részleg vezető
+  content: >
+    Válasszon egy <span class="doc-desc-title">Menedzsert</span>az Osztály élére. <br/><br/> A Menedzser kijelölhető a figyelmeztetések címzettjének és jogában áll egy jegyet elutasítani/elirányítani. 
+  links:
+    - 
+      title: Figyelmeztetések &amp; Jelentések menedzselése
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Figyelmeztetés &amp; Jelentés címzett
+  content: >
+    Válassza ki a  <span class="doc-desc-title">Figyelmeztetések &amp; Jelentések </span>címzettjét
+  links:
+    - 
+      title: Figyelmeztetések &amp; Jelentések konfigurálása
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Jegy kezelési tilalmak
+  content: >
+    Engedélyezze, hogy a jegyeket más osztályok dolgozói is feldolgozhassák. Az osztály szintű hozzáférést a csoportokra is ki lehet terjeszteni, ha <span class="doc-desc-title">Csoport Tagság</span>engedélyezett.
+auto_response_settings:
+  title: Automatikus válasz beállítások
+  content: >
+    Ez lehetővé teszi, hogy felülbírálja az Osztály általános Automatikus válasz beállításait.
+new_ticket:
+  title: Új hibajegy automatikus válasz
+  content: >
+    Ön letilthatja az Automatikus válasz, melyet a felhasználónak küld a rendszer, amikor az új jegy elkészült és egy Osztály megkapta feldolgozásra.
+new_message:
+  title: Új üzenet automatikus válasz
+  content: >
+    Ön letilthatja az Automatikus válasz, melyet a felhasználónak küld a rendszer, hogy megerősítse, hogy megkapta az új üzenetet egy jegy esetében ezen az Osztályon.
+auto_response_email:
+  title: Automatikus válasz email
+  content: >
+    Válasszon egy s-mail címet, hogy melyik automata választ küldte a rendszer az Osztálynak.
+department_access:
+  title: Csoport jogosultságok
+  content: >
+    Agent hozzáférés engedélyezése más osztályok jegyeihez.
+department_signature:
+  title: Osztály aláírása
+  content: >
+    Aláírás elérhető a <span class="doc-desc-opt">Publikus</span> Osztályoknak, az Agent válaszokhoz.

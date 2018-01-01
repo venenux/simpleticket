@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Sak Nummer Format
+  content: >
+    Denne innstillingen er benyttet til å generere saksnummre. Benytt firkant-tegnet (`#`) hvor du må angi et tall. Eventuell tekst som medfølger vil også vedvare. <span class="doc-desc-title">Hjelpe emner</span> kan definere generelle nummer formater. <br/><br/> For eksempel, seks-siffrede nummer, benytt <code>######</code>.
+sequence_id:
+  title: Sak Nummer Sekvens
+  content: >
+    Velg en sekvens for å lage nye saksnummere. Systemet har en inkrementell sekvens, og en tilfeldig sekvens som standard. Du kan lage så mange sekvenser som du måtte ønske. For hjelp med sekvenser se <span class="doc-desc-title">Sak Nummer Format</span>.
+default_ticket_status:
+  title: Standard Status for nye saker
+  content: >
+    Velg en standard status for nye saker. Dette kan være definert for hvert hjelpe emne, om ønskelig. Det kan også overstyres av et saksfilter.
+  links:
+    - 
+      title: Vedlikehold av saksstatuser
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Standard SLA
+  content: >
+    Velg standard Service Nivå Avtale for å styre hvor lenge en sak kan være åpen før den gjengis forfalt.
+  links:
+    - 
+      title: Opprette flere SLA planer
+      href: /scp/slas.php
+default_priority:
+  title: Standardprioriteten
+  content: >
+    Velg en standard <span class="doc-desc-title"> prioritet</span> for saker som ikke er tildelt en prioritet automatisk. <br/> <br/> Prioritet kan tilordnes via hjelpeemnet, rutet avdeling eller saks filterinnstillingene.
+maximum_open_tickets:
+  title: Maksimal åpne saker
+  content: >
+    Angi maksimalt <em>antall</em> saker en bruker tillates å ha <strong>åpne</strong> i brukerstøtten. <br><br>Enter <span class="doc-desc-opt"> 0</span> hvis du vil deaktivere denne begrensningen.
+agent_collision_avoidance:
+  title: Agent kollisjon unngåelse
+  content: >
+    Angi den maksimale lengden tid en Agent er lov til å holde en lås på en sak, uten noen aktivitet. <br><br>Enter <span class="doc-desc-opt"> 0</span> for å deaktivere funksjonen låsing.
+email_ticket_priority:
+  title: E-post sak prioritet
+  content: >
+    Bruk e-post prioritet fra mottakerens e-posttjeneste
+show_related_tickets:
+  title: Relaterte saker
+  content: >
+    Vis alle relaterte saker på brukerpålogging - ellers tilgang er begrenset til én saks visning per pålogging
+human_verification:
+  title: Bekreftelse på at du er et menneske
+  content: >
+    Aktivere CAPTCHA på klient portalen for å bekrefte en innkommende saker er resultatet av menneskelig aktivitet. <br><br>Krever GDLib bibliotek
+claim_tickets:
+  title: Krev sak på respons
+  content: >
+    Denne auto-tildeler ikke tildelte saker til svarende Agent. <br><br>Reåpenede saker tilordnes alltid siste respondenten.
+assigned_tickets:
+  title: Tildelte saker
+  content: >
+    Aktivere denne funksjonen å utelukke tildelt saker fra <span class="doc-desc-title"> Åpen sak kø</span>.
+answered_tickets:
+  title: Besvarte saker
+  content: >
+    Aktiver denne funksjonen for å vise besvart saker i <span class="doc-desc-title"> Svarte saker køen</span>. Ellers vil det bli inkludert i <span class="doc-desc-title"> Åpen sak kø</span>.
+staff_identity_masking:
+  title: Maskere identiteten til agenten
+  content: >
+    Hvis aktivert, skjule Agent navn fra klienten under enhver kommunikasjon.
+enable_html_ticket_thread:
+  title: Aktiver HTML i saks tråd
+  content: >
+    Hvis aktivert, vil dette tillate bruk av rik tekstformatering mellom klienter og agenter.
+ticket_attachment_settings:
+  title: Sak Tråd Vedlegg
+  content: >
+    Konfigurer innstillingene for filer som er vedlagt <span class="doc-desc-title">saksdetaljer</span> feltet. Disse innstillingene blir benyttet for alle nye saker, og nye meldinger uavhengig av kilden (nettside, e-post, api etc.).
+max_file_size:
+  title: Maksimal filstørrelse
+  content: >
+    Velg en maksimal filstørrelse for vedlegg som lastes opp av agenter. Dette inkluderer vedlegg til hurtigbesvarelser, kunnskapsbase og vedlegg på saksbesvarelser.
+ticket_response_files:
+  title: besvarte sakers filer
+  content: >
+    Hvis aktivert, vil eventuelle vedlegg en Agent fester seg til en saks svar inkluderes også inne i eposten til brukeren.

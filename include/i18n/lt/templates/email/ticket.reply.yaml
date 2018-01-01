@@ -1,0 +1,17 @@
+---
+notes: |
+  Naudotojams siunčiama tuomet, kai darbuotojas atsako į jų bilietą. Atsakymus gali išsiųsti tik pagalbos tarnybos darbuotojai.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Mielas %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Jūsų %{company.name} Komanda,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Tikimės, kad šis atsiliepimas pakankamai atsakė į Jūsų klausimus. Jei ne, prašome nesiųsti kito naujo el. laiško. Vietoj to, atsakykite į šį el. laišką paspausdami "atsakyti" arba <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >prisijunkite prie savo paskyros</a> kad peržiūrėtumėte Jūsų užklausimų ir atsakymų archyvą.</em></div>

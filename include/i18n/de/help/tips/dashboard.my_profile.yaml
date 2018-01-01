@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktinformationen
+  content: >
+    
+username:
+  title: Benutzername
+  content: >
+    Ausschließlich Agenten mit Admin-Status können einen Benutzernamen ändern. Wenn Sie ein Agent mit Admin-Rechten sind, können Sie diese Änderung durch Auswahl des zu bearbeitenden Agenten aus der <span class="doc-desc-title">Agenten</span>-Tabelle erreichen.
+  links:
+    - 
+      title: Als Administrator den Benutzernamen ändern
+      href: /scp/staff.php
+time_zone:
+  title: Zeitzone
+  content: >
+    
+daylight_saving:
+  title: Sommerzeit
+  content: >
+    
+maximum_page_size:
+  title: Maximale Seitengröße
+  content: >
+    
+auto_refresh_rate:
+  title: Aktualisierungsrate
+  content: >
+    
+default_signature:
+  title: Standard-Signatur
+  content: >
+    
+default_paper_size:
+  title: Standard-Papierformat
+  content: >
+    
+show_assigned_tickets:
+  title: Zugewiesene Tickets anzeigen
+  content: >
+    Aktivieren Sie diese Option, um Ihren Namen auf der Übersichtsseite <span class="doc-desc-title">Offene Tickets</span> für die Tickets zu verbergen, die Ihnen zugewiesen wurden. Durch das Verstecken, wird der Name der <span class="doc-desc-title">Abteilung</span>, zu der Sie gehören, an der Stelle angezeigt, an der Ihr Name normalerweise angezeigt werden würde.
+password:
+  title: Passwort
+  content: >
+    
+current_password:
+  title: Aktuelles Passwort
+  content: >
+    
+new_password:
+  title: Neues Passwort
+  content: >
+    
+confirm_new_password:
+  title: Neues Passwort bestätigen
+  content: >
+    
+signature:
+  title: Signatur
+  content: >
+    Erstellen Sie eine optionale <span class="doc-desc-title">Signatur</span>, die möglicherweise am Ende von Ihren Ticket-Antworten erscheint. Ob die <span class="doc-desc-title">Signatur</span> erscheint, oder nicht, hängt von der <span class="doc-desc-title">E-Mail-Vorlage</span> ab, die in der Ticket-Antwort verwendet wird.
+  links:
+    - 
+      title: E-Mail-Vorlagen im Admin-Bereich erstellen
+      href: /scp/templates.php

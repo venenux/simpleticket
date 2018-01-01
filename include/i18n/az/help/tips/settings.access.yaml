@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Şifrən vaxtının bitməsi siyasəti
+  content: >
+    Heyət üzvlərinin nə qədər tez-tez (hər ay) şifrələrini dəyişmələrinin tələb olunmasını quraşdırın. Əgər deaktivdirsə (`bitmə vaxtı yoxdur` qeyq edin) şifrələrin vaxtı bitmir.
+password_expiration_policy:
+  title: Şifrən vaxtının bitməsi siyasəti
+  content: >
+    Agentlərin nə qədər tez-tez öz şifrələrinin dəyişilməsi tələbini seçin. Əgər deaktivdirsə (məs., <span class="doc-desc-opt">bitmə tarixi yoxdur</span>), şifrələrin vaxtı bitməyəcək.
+allow_password_resets:
+  title: Şifrələrin sıfırlanmasına icazə vermək
+  content: >
+    Uğursuz giriş cəhdindən sonra <span class="doc-desc-title">heyət giriş panelində</span> <span class="doc-desc-title">şifrəmi unutmuşam</span> linkini görmək istəyirsinizsə bu xüsusiyyəti aktiv edin.
+reset_token_expiration:
+  title: Şifrə sıfırlanması pəncərəsi
+  content: >
+    <span class="doc-desc-title">Şifrə sıfırlanması əlamətləri</span> qüvvədə olsun deyə müddət (dəqiqə) seçin. Agent <span class="doc-desc-title">şifrə sıfırlaması</span> təklifi edəndə, əlamətləri sıfırlamağı həyata keçirtmək üçün icazə verəcək e-poçt göndərirlər.
+staff_session_timeout:
+  title: Heyət seansı vaxtının bitməsi
+  content: >
+    Agent yenidən daxil olmağı tələb etməmişdən əvvəl maksimum boş vaxt (dəqiqə) seçin. <br><br> Əgər <span class="doc-desc-title">heyət sessiyası vaxtının bitməsini</span> deaktiv etmək istəyirsinizsə 0 daxil edin.
+client_session_timeout:
+  title: İstifadəçi seansı vaxtının bitməsi
+  content: >
+    İstifadəçi yenidən daxil olmağı tələb etməmişdən əvvəl maksimum boş vaxt (dəqiqə) seçin. <br><br> Əgər <span class="doc-desc-title">istifadəçi sessiyası vaxtının bitməsini</span> deaktiv etmək istəyirsinizsə 0 daxil edin.
+bind_staff_session_to_ip:
+  title: Heyət sessiyasını IP-ə bağlamaq
+  content: >
+    Əgər agentin daxil olanda indiki IP tərəfindən yadda saxlanmasını istəyirsinizsə bunu aktiv edin. <br><br> Bu tənzimləmə IP ünvanları dinamik təyin olunmuş istifadəçilər üçün məsləhət görülmür.
+registration_method:
+  title: Qeydiyyat variantları
+  content: >
+    <span class="doc-desc-title">Qeydiyyat üsulu</span> və <span class="doc-desc-title">qeydiyyat tələb olunur</span> yazıları istifadəçilər sizin help deskin veb portalına qeydiyyat və giriş edərkən konfiqurasiya etmək üçün birlikdə istifadə olunur. Aşağıdakı cədvəl iki tənzimləmənin sistem tərəfindən necə şərəhləndirildiyini ümumiləşdirir. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"><tr><th>Qeydiyyat tələb olunur</th> <th>qeydiyyat üsulu</th> <th>nəticə</th></tr> <tr><td>ictimai</td><td>olmasın</td> <td>yeni sorğular üçün qeydiyyat dəstəklənir, tələb olunmur.</td></tr> <tr><td>İctimai</td> <td>olsun</td> <td>yeni sorğular üçün qeydiyyat və giriş tələb olunur</td></tr> <tr><td>şəxsi</td><td>olmasın</td> <td>hər bir kəs sorğu yarada bilər, amma hesabları ancaq agentlər qeydiyyatdan keçirdə bilər</td></tr> <tr><td>şəxsi</td><td>olsun</td> <td>istifadəçi girişi ancaq dəvət ilə</td></tr> <tr><td>deaktiv</td><td>olmasın</td><td>heç kim hesab üçün qeydiyyatdan keçə bilməz, amma hər kəs sorğu yarada bilər. <em>Bu, osTicketin 1.9-dan əvvəl necə fəaliyyət göstərməsi idi</em></td></tr> <tr><td>deaktiv</td><td>olsun</td> <td>yeni sorğuları veb portal vasitəsilə deaktiv edin</td></tr> </tbody></table>
+client_verify_email:
+  title: Tələb olunan e-poçtun təsdiqlənməsi
+  content: >
+    İstifadəçilərinizə müştəri portalında "sorğunun statusunu yoxla" giriş səhifəsi vasitəsilə sorğulara dərhal giriş vermək üçün bu variantı deaktiv edin. Əgər aktivdirsə, (cari olan) istifadəçilər e-poçt almağı və sorğunu görmək üçün e-poçtdakı linkə daxil olmağı tələb edəcəklər. <br><br> E-poçt təsdiqləməsini deaktiv etmək üçüncü tərəfin (məs., sorğu əməkdaşları) özlərini sorğu müəllifi kimi qələmə verməsinə yol aça bilər.

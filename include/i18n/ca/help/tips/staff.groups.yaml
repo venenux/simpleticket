@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grups
+  content: >
+    Grups s'utilitzen per definir els permisos de un Agent en la taula d'ajuda. Grups també poden atorgar accés als departaments que no siguin el primer Departament de un Agent.
+status:
+  title: Estat
+  content: >
+    Si  <span class="doc-desc-opt"> deshabilitat</span>, els Agents assignats a aquest grup no poden iniciar la sessió i no rebran alertes &amp; avisos del departament.
+department_access:
+  title: Accés al departament
+  content: >
+    Consulta tots els departaments als qualsmembres del grup se els permet l'accés.

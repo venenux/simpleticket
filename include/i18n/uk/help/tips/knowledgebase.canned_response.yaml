@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Швидкі відповіді
+  content: >
+    Створення <span class="doc-desc-title"> швидкої відповіді</span>, яка можуть бути додана у відповідь на заявку. Також може бути використане, як <span class="doc-desc-title"> автоматична відповідь на заявку </span> в налаштуваннях <span class="doc-desc-title"> фільтру заявок </span>.
+  links:
+    - 
+      title: Налаштування фільтрів заявок
+      href: /scp/filters.php
+canned_attachments:
+  title: Готові файли
+  content: >
+    Додайте файл, який ви хотіли б автоматично додавати у відповідь на заявку, яка містить нові <span class="doc-desc-title"> швидкі відповіді </span>.

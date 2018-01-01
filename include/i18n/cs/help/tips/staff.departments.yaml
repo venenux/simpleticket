@@ -1,0 +1,10 @@
+---
+type:
+  title: Typ
+  content: >
+    Je-li typ oddělení nastaven na Privátní, pak v odpovědi nebude dostupný podpis oddělení, ani  nebude přiřazení oddělení zobrazeno na portálu klienta.
+dept_manager:
+  title: Vedoucí oddělení
+  content: >
+    Můžete označit agenta jako manažera oddělení, aby obdržel výstrahy a upozornění na požadavky v oddělení.
+  0: Pracovníci nemusejí nutně být členy daného oddělení, aby mohli být jeho vedoucí.

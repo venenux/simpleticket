@@ -1,0 +1,37 @@
+---
+system_logs:
+  title: Systémové logy
+  content: >
+    Tady najdete veškeré logy (jako chyby, varování nebo bugy) potřebné při odstraňování problémů.
+  links:
+    - 
+      title: Uprav jaký typ aktivit bude logován změnou <br /><span class="doc-desc-title">Výchozí úroveň logování</span>.
+      href: /scp/settings.php?t=system
+date_span:
+  title: Období
+  content: >
+    Vyberte počáteční a koncové data, kterými chcete omezit zobrazení <span class="doc-desc-title">systémových záznamů</span>.
+type:
+  title: Typ
+  content: >
+    Zvolte možnost zúžit zaměření na konkrétní typ činnosti. <span class="doc-desc-opt">Debug</span> představuje nejmenší závažnost, a <span class="doc-desc-opt">Error</span> představuje největší závažnost.
+showing_logs:
+  title: Zobrazení systénových záznamů
+  content: >
+    Nezapomeňte zkontrolovat sekci <span class="doc-desc-title">stránkování</span>, abyste se ujistil, že zde není více stránek pro zobrazení systémovými záznamů.
+log_title:
+  title: Název systémového záznamu
+  content: >
+    Klikněte v hlavičce tabulky na <span class="doc-desc-title">název systémového záznamu</span> pro seřazení výsledků dle <span class="doc-desc-title">názvu systémového záznamu</span>.
+log_type:
+  title: Typ systémového záznamu
+  content: >
+    Klikněte na <span class="doc-desc-title">typ systémovéhé záznamu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">typu systémového záznamu</span>.
+log_date:
+  title: Datum systémového záznamu
+  content: >
+    Toto je datum, kdy byl systémový záznam vygenerován programem a událostí v něm. Pokud chcete setřídit výsledky podle <span class="doc-desc-title">        data systémového záznamu</span>, jednoduše klikněte na <span class="doc-desc-title">datum systémového záznamu</span> v hlavičce tabulky. (Použijte formulář pro <span class="doc-desc-title">období</span> pro omezení rozsahu systémových záznamů.)
+ip_address:
+  title: IP adresa
+  content: >
+    Toto ukazuje na <span class="doc-desc-title">IP</span><span class="doc-desc-title"> Address</span> agent nebo client který použil osTicket v době vygenerování záznamu.

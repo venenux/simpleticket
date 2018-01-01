@@ -1,0 +1,20 @@
+---
+test_outgoing_email:
+  title: 電子メールの送信テストを行います。
+  content: メールの配信サーバーの設定 (php.ini) や SMTP 構成に依存します。
+  links:
+    - 
+      title: SMTP (送信) 設定をするにはメールを選択して下さい。
+      href: /scp/emails.php
+from:
+  title: 差出人
+  content: ""
+to:
+  title: 宛先
+  content: ""
+subject:
+  title: 件名
+  content: ""
+message:
+  title: メッセージ
+  content: ""

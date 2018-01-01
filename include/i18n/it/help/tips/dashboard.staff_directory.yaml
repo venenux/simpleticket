@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Membri dello staff
+  content: >
+    Nella tabella seguente vengono visualizzati i risultati del filtro sopra scelto. Se le impostazioni del filtro non vengono scelte, tutti i <span class="doc-desc-title"> Membri dello Staff</span> verranno visualizzati in una o più pagine. Scorrere la sezione pagine qui sotto per navigare attraverso altri risultati.
+apply_filtering_criteria:
+  title: Applicare criteri di filtraggio
+  content: >
+    Scegli un <span class="doc-desc-title"> reparto</span> che è rilevante per il tuo attuale interesse . Si può anche eseguire una ricerca per un agente specifico.

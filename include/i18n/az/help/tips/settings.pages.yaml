@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Şirkət haqda məlumat
+  content: >
+    Bu, osTicketin proqram təminatından və onun dəstək heyətindən faydası olacaq şirkət və ya təşkilatı göstərir. Buradakı məlumat, sorğular agentlər tərəfindən cavablandırılanda e-poçt imzalarında görünəcək.
+  links:
+    - 
+      title: Şirkət məlumatı formu
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Açılış səhifə
+  content: >
+    <span class="doc-desc-title">Açılış səhifə</span> sizin dəstək saytınızın ön səhifəsində görünür.
+offline_page:
+  title: Offline səhifə
+  content: >
+    Help desk offline olanda <span class="doc-desc-title">offline səhifə</span> dəstək saytında görünür.Admin panel -&gt; tənzimləmə -&gt; sistemi -&gt; helpdesk statusu.
+default_thank_you_page:
+  title: Cari təşəkkür səhifəsi
+  content: >
+    <span class="doc-desc-title">Təşəkkür səhifəsi</span> sifarişçiyə <span class="doc-desc-title">müştəri</span> yeni sorğu təqdim edəndə  görünür. <br/><br/> <span class="doc-desc-title">Təşəkkür</span> səhifələri kömək mövzuları ilə əlaqəlidir.
+logos:
+  title: Girişlər
+  content: >
+    Müştəri portalında  müştəriyə görünəcək <span class="doc-desc-title">logonu</span> xüsusiləşdirə bilərsiz (məs., sizin dəstək saytınız).
+upload_a_new_logo:
+  title: Yeni logo yüklə
+  content: >
+    Şəkilləri .gif, .jpg və ya .png formatda seçin. Biz sizin şəklinizin görüntüsünü proporsional olaraq dəyişəcəyik. Amma biz onun ölçü məlumatlarını dəyişməyəcəyik. Buna görə də, yükləmək vaxtını sürətləndirmək üçün məsləhət görürük ki, şəklin ölçüsünü cari ölçüyə yaxın bir ölçüdə saxlayasınız (817px &times; 170px).

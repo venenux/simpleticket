@@ -1,0 +1,10 @@
+---
+type:
+  title: Típus
+  content: >
+    Ha az Osztály privát státuszú, akkor az Osztály aláírása nem lesz elérhető a válaszlevelekben és az osztály nem lesz látható az Ügyfél Portálon.
+dept_manager:
+  title: Részleg vezető
+  content: >
+    Kiválaszthat egy munkatársat mint részleg vezetőt, aki értesítéseket és figyelmeztetéseket kap a részleg hibajegyeiről.
+  0: Az Agentnek nem kell az Osztály tagjának lenni ahhoz, hogy az Osztály menedzsere legyen.

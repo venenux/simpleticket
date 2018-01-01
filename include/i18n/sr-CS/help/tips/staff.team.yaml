@@ -1,0 +1,28 @@
+---
+teams:
+  title: Timovi
+  content: Timove predstavljaju jedan ili više agenata udruženih zajedno sa svrhom dodeljivanja tiketa. Članstvo tima se može proširiti do granica odeljenja.
+status:
+  title: Status
+  content: 'Ako je ovo podešavanje <span class="doc-desc-opt">onemogućeno</span>, ovom timu neće biti moguće dodeliti tiket niti će moći da prima upozorenja i obaveštenja prethodnih dodeljenih tiketa.'
+lead:
+  title: Vođa tima
+  content: '<span class="doc-desc-title">Tim</span> može imati postavljenog vođu koji može primati <span class="doc-desc-title">upozorenja i obaveštenja</span> odvojeno od članova tima.'
+  links:
+    - 
+      title: Konfigurisati upozorenja i obaveštenja
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Obaveštenje o dodeli
+  content: 'Možete onemogućiti <span class="doc-desc-title">obaveštenje o dodeli tiketa</span> za tikete koji su dodeljeni ovom timu.'
+  links:
+    - 
+      title: Konfigurisati upozorenja i obaveštenja
+      href: /scp/settings.php?t=alerts
+members:
+  title: Članovi tima
+  content: Članstvo tima se podešava na profilu agenta.
+  links:
+    - 
+      title: Rukovođenje osobljem
+      href: /scp/staff.php

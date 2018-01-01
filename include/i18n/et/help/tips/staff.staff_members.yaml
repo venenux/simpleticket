@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Meeskonna liikmed
+  content: >
+    Järgnev tabel kuvab infot vastavalt ülal seatud filtrile. Kui filtrit pole seatud, siis kuvatakse <span class="doc-desc-title">agent</span> (meeskonna) <span class="doc-desc-title">liikmed</span>lehekülje kaupa. Enama info nägemiseks liigu lehekülgede vahel.
+status:
+  title: Staatus
+  content: >
+    See näitab, kas <span class="doc-desc-title">agent</span> on lukustunud, aktiivne või puhkusel.

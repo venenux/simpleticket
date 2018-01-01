@@ -1,0 +1,33 @@
+---
+source: Web
+name: Dukungan osTicket
+email: support@osticket.com
+subject: osTicket telah Dimutahirkan!
+message: |
+  <p>
+  osTicket berhasil dimutahirkan! Silahkan mengacu kepada Catatan Rilis
+  (http://osticket.com/wiki/Release_Notes) untuk informasi lebih lanjut 
+  mengenai perubahan dan fitur-fitur yang baru.
+  </p><p>
+  Pastikan Anda telah bergabung pada <a href="http://osticket.com/forums">osTicket
+  forums</a> dan <a href="http://osticket.com/updates">milis</a> kami untuk mendapatkan 
+  pengumuman terakhir, dan pemutahiran serta pemberitahuan keamanan! 
+  Kontribusi Anda bagi komunitas osTicket sangat dihargai!
+  </p><p>
+  Tim osTicket berkomitmen menyediakan dukungan untuk semua pengguna 
+  melalui sumber daya online kami serta paket dan layanan dukungan komersil . 
+  Untuk informasi lebih lanjut, atau diskusi mengenai kebutuhan Anda,
+  silahkah hubungi kami pada http://osticket.com/support/. Masukan apapun 
+  akan dihargai!
+  </p><p>
+  If managing and upgrading this osTicket installation is daunting, you
+  can try osTicket as a hosted service at http://www.supportsystem.com/ --
+  no upgrading ever, and we can import your data!  With SupportSystem's
+  turnkey infrastructure, you get osTicket at its best, leaving you free
+  to focus on your customers without the burden of making sure the
+  application is stable, maintained, and secure.
+  </p><p>
+  -<br/>
+  osTicket Team<br/>
+  http://osticket.com/
+  </p>

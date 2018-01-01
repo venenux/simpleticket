@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Özel Listeler
+  content: >
+    <span class="doc-desc-title">Özel listeleriniz</span> size müşterilerinizin <span class="doc-desc-title">Özel Formlarınızda</span> kullanabileceği önceden tanımlanmış seçenekler içeren seçim kutucukları oluşturmanızı sağlar. Eğer bu <span class="doc-desc-title">özel listeyi</span> bir <span class="doc-desc-title">Kayıt Filtresi</span> için <span class="doc-desc-title">hedef</span> olarak kullanmak istiyorsanız, bu listeyi <span class="doc-desc-title">Kayıt Detayları</span> formuna eklemeyi unutmayın.
+name:
+  title: Adı
+  content: >
+    
+plural_name:
+  title: Çoğul Ad
+  content: >
+    
+sort_order:
+  title: Sıralama
+  content: >
+    
+list_s_initial_items:
+  title: Listenin İlk Öğeleri
+  content: >
+    
+value:
+  title: Değer
+  content: >
+    
+extra:
+  title: Ekstra
+  content: >
+    Kısaltmalar vb. Eğer bu listedeki öğeler için dahili kodlar kullanacaksanız, bu kodları ve kısaltmaları buraya yazabilirsiniz. Eğer liste <span class="doc-desc-option"> TypeAhead</span> olarak belirlenirse, bu kısaltmalar özel liste öğelerini aramak için kullanılabilir.

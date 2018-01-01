@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: ข้อมูลการติดต่อ
+  content: >
+    
+username:
+  title: ชื่อผู้ใช้
+  content: >
+    เฉพาะเจ้าหน้าที่ที่มีสถานะเป็นผู้ดูแลระบบสามารถเปลี่ยนชื่อผู้ใช้ ถ้าคุณเข้าสู่ระบบด้วยสิทธิ์ผู้ดูแลระบบสามารถเลือกรายชื่อเจ้าหน้าที่แล้วแก้ไขจากตาราง <span class="doc-desc-title">กลุ่มเจ้าหน้าที่</span> 
+  links:
+    - 
+      title: เปลี่ยน "ชื่อผู้ใช้" ในฐานะผู้ดูแลระบบ
+      href: /scp/staff.php
+time_zone:
+  title: โซนเวลา
+  content: >
+    
+daylight_saving:
+  title: ชดเชยเวลาตามฤดูกาล
+  content: >
+    
+maximum_page_size:
+  title: ขนาดหน้าสูงสุด
+  content: >
+    
+auto_refresh_rate:
+  title: อัตราการรีเฟรชอัตโนมัติ
+  content: >
+    
+default_signature:
+  title: ลายเซ็นเริ่มต้น
+  content: >
+    
+default_paper_size:
+  title: ขนาดกระดาษเริ่มต้น
+  content: >
+    
+show_assigned_tickets:
+  title: แสดง Ticket ที่ถูกมอบหมาย
+  content: >
+    เปิดสถานะปกปิดชื่อของผู้มอบหมาย ภายใต้คำสั้ง <span class="doc-desc-title">เปิด Ticket</span> ในรายการ Ticket โดยระบบจะแสดง <span class="doc-desc-title">ชื่อแผนก</span> แทนที่ในตำแหน่งชื่อของคุณ
+password:
+  title: รหัสผ่าน
+  content: >
+    
+current_password:
+  title: รหัสผ่านปัจจุบัน
+  content: >
+    
+new_password:
+  title: รหัสผ่านใหม่
+  content: >
+    
+confirm_new_password:
+  title: ยืนยันรหัสผ่านใหม่
+  content: >
+    
+signature:
+  title: ลายเซ็น
+  content: >
+    สร้างตัวเลือก <span class="doc-desc-title">ลายเซ็น</span> ซึ่่งบางทีจะปรากฏขึ้นที่ในส่วนท้ายของการตอบกลับ Ticket ของคุณ ไม่ว่า <span class="doc-desc-title">ลายเซ็น</span> นี้แสดง หรือไม่แสดง, ขึ้นอยู่กับ <span class="doc-desc-title">แม่แบบอีเมล์</span> ที่จะถูกนำมาใช้ในการตอบกลับ Ticket
+  links:
+    - 
+      title: สร้างแม่แบบอีเมล์ในแผงหน้าปัดผู้ดูแลระบบ
+      href: /scp/templates.php

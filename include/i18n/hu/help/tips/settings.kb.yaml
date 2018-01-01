@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Tudásbázis-beállítások
+  content: >
+    
+knowledge_base_status:
+  title: Tudásbázis-állapota
+  content: >
+    Engedélyezze a felhasználóknak az önkiszolgáló szolgáltatás elérését, hogy hozzáférhessenek a publikus tudásbázishoz. <br><br>Tudásbázis kategória és GYIK készíthető belsőleg. (csak az agent látja).
+  links:
+    - 
+      title: Tudásbázis kezelése
+      href: /scp/kb.php
+restrict_kb:
+  title: Hozzáférés megtagadása a Tudásbázis-hoz
+  content: >
+    Engedélyezze ezt a beállítást, hogy megakadályozza a nem regisztrált felhasználók hozzáférését a tudásbázis cikkekhez a kliens felületen.
+  links:
+    - 
+      title: Hozzáférés Vezérlő Beállítások
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Sablon válaszok
+  content: >
+    Ez a beállítás engedélyezi a munkatársaknak, hogy használhassák a<span class="doc-desc-title">Sablon válaszokat</span> mikor megválaszolnak egy hibajegyet.
+  links:
+    - 
+      title: Sablon válaszok kezelése
+      href: /scp/canned.php

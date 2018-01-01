@@ -1,0 +1,44 @@
+---
+notes: |
+  Obvestilo, ki se pošlje agentom, ko pride do spremembe pri zahtevku.
+subject: |
+  Opozorilo o novi interni aktivnosti
+body: |
+  <h3><strong>Pozdravljeni %{recipient.name},</strong></h3>
+  Agent je spremenil podatke pri zahtevku <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Od</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Naslov</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Za ogled/odziv pri zahtevku, prosimo <a
+  href="%{ticket.staff_link}">login</a> podporni ekipi sistema zahtevkov
+  <br>
+  <br>
+  <em style="font-size: small; ">Vaš prijazen sistem za oddajo zahtevkov</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

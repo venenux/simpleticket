@@ -1,0 +1,22 @@
+---
+notes: |
+  
+subject: |
+  #%{ticket.number} hibajegy átruházása - %{ticket.dept.name}
+body: |2
+  <h3>Kedves %{recipient.name},</h3>
+  <strong>%{staff.name.short}</strong> továbbította a <a href="%{ticket.staff_link}">#%{ticket.number}</a> számú hibajegyét a %{ticket.dept.name} részlegnek.
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Hibajegy megtekintéséhez vagy válasz küldéséhez, kérjük, <a
+  href="%{ticket.staff_link}">jelentkezzen be</a> a hibajegy kezelő rendszerbe.
+  </div>
+  <em style="font-size: small; ">Ügyfélszolgálat</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,35 @@
+---
+notes: |
+  Wysyłany do użytkownika kiedy pracownik helpdesku stworzy zgłoszenie w imieniu użytkownika.
+  Najczęściej w wyniku zgłoszenia telefonicznego.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Szanowny(a) %{recipient.name.first},</strong></h3>
+  Nasz zespół obsługi klienta stworzył zgłoszenie, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> w Twoim imieniu, poniżej
+  znajdują się szczegóły i podsumowanie:
+  <br>
+  <br>
+  Temat: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  W razie potrzeby, nasz przedstawiciel skontaktuje się z Tobą niezwłocznie.
+  Możesz także <a href="%{recipient.ticket_link}">tutaj śledzić postęp zgłoszenia
+  </a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Twój %{company.name} zespół,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Jeżeli
+  chcesz dodać nowe informacje lub komentarz do zgłoszenia,
+  odpowiedz na tego maila lub <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >zaloguj się na swoje konto</span></a> z
+  kompletnym archiwum Twoich zgłoszeń.</em></div>

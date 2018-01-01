@@ -1,0 +1,29 @@
+---
+notes: |
+  Felhasználónak küldve, mikor egy munkatárs hozza létre a hibajegyet a felhasználó nevében. Ez általában akkor történik, mikor a felhasználó telefonon jelzi a problémát.
+subject: |
+  [#%{ticket.number}] %{ticket.subject}
+body: |
+  <h3><strong>Kedves %{recipient.name.first},</strong></h3>
+  Ügyfélszolgálatunk <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> számon egy hibajegyet hozott létre az Ön nevében a következő információkkal:
+  <br>
+  <br>
+  Téma: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Tárgy: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Amennyiben szükséges, a lehető leghamarabb munkatársunk felveszi Önnel a kapcsolatot.
+  Hibajegyének állapotát <a href="%{recipient.ticket_link}">online nyomon tudja követni</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} csapata,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Az üggyel kapcsolatos további megjegyzés vagy információ esetén, kérjük, jelen emailre válaszoljon vagy <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >jelentkezzen be fiókjába</span></a> a kérdései archívumának megtekintéséhez.</em></div>

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Membrii personalului
+  content: >
+    Următorul tabel arată rezultatele filtrului de deasupra sa. Dacă nu se face nici o setare pentru filtru, atunci sunt afișați toți <span class="doc-desc-title">membrii personalului</span>, în format paginat. Vezi secțiunile paginilor de mai jos pentru a naviga prin mai multe rezultate .
+apply_filtering_criteria:
+  title: Aplica criterii de filtrare
+  content: >
+    Alege un <span class="doc-desc-title">Department</span> care este relevant pentru interesele tale. Poti deasemenea sa faci o cautare pentru un Agent anume.

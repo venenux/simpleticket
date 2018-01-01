@@ -1,0 +1,44 @@
+---
+notes: |
+  ការជូនដំណឹងត្រូវបានផ្ញើចេញទៅភ្នាក់ងារ ពេលសកម្មភាពផ្ទៃក្នុង ដូចជា ការចំណាំផ្ទៃក្នុង internal note ឬការឆ្លើយតបភ្នាក់ងារត្រូវបានបន្ថែមទៅករណី ticket ។
+subject: |
+  សកម្មភាពជូនដំណឹងអន្តរជាតិថ្មី
+body: |
+  <h3><strong>សួស្តី %{recipient.name},</strong></h3>
+  ភ្នាក់ងារបានចូលទេសកម្មភាព logged នៅលើសំបុត្រ <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>ពី</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>ចំណងជើង</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  ដើម្បីមើល / ឆ្លើយតបទៅនឹងសំបុត្រនេះទេសូម <a
+  href="%{ticket.staff_link}">login</a>ទៅប្រព័ន្ធករណីនេះ
+  <br>
+  <br>
+  <em style="font-size: small; ">ប្រព័ន្ធផ្តល់ជំនួយដល់អតិថិជនរបស់អ្នក</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

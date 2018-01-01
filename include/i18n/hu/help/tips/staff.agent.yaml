@@ -1,0 +1,67 @@
+---
+username:
+  title: Felhasználónév
+  content: >
+    Kérem válasszon egy kezelő <span class="doc-desc-title">felhasználó nevet</span>, ami egyedi az <span class="doc-desc-title">ügyfélszolgálatában</span>.
+email_address:
+  title: Email cím
+  content: >
+    Adja meg a kezelő email címét, amire a <span class="doc-desc-title">Riasztások&amp; Megjegyjézek</span> lesznek küldve az <span class="doc-desc-title">ügyfélszolgálatból</span>.
+  0: <br><br>
+  1: A munkatársak be tudnak jelentkezni a kezelő irányítópultba akár az email címükkel akár a felhasználónevükkel.
+welcome_email:
+  title: Üdvözlő Email
+  content: >
+    Küldjön új fiókelérési linket a kezelőnek, aminek segítségével a kezelő be tudja állítani a saját jelszavát. Ha üresen marad, akkor Önnek kell beállítania egy jelszót és eljuttatni a bejelentkezési adatokat az új alkalmazottnak.
+account_password:
+  title: Fiók jelszava
+  content: >
+    <span class="doc-desc-title">Adminisztrátorként </span>megváltoztathatja a kezelők jelszavait.
+forced_password_change:
+  title: Kötelező jelszó csere
+  content: >
+    Kapcsolja be, ha szeretné hogy a kezelőnek a következő belépéskor meg kelljen változtatnia a jelszavát.
+agents_signature:
+  title: Munkatárs aláírása
+  content: >
+    Készítsen egy aláírást a munkatársnak, amit kiválaszthat amikor hibajegyre válaszol.
+account_status:
+  title: Fiók státusz
+  content: >
+    Ha a kezelő státusza <span class="doc-desc-opt">Zárolt</span>, akkor nem tud bejelentkezni az ügyfélszolgálatba.
+assigned_group:
+  title: Hozzárendelt csapat
+  content: >
+    A kezelőnek választott<span class="doc-desc-opt">Csoport</span> meghatározza a kezelő jogosultságait az <span class="doc-desc-opt">ügyfélszolgálaton</span>belül.
+  links:
+    - 
+      title: Csoportok kezelése
+      href: /scp/groups.php
+primary_department:
+  title: Elsődleges osztály
+  content: >
+    Válassza ki az elsődleges <span class="doc-desc-title">részleget</span> amihez a kezelő tartozik.
+  links:
+    - 
+      title: Részlegek kezelése
+      href: /scp/departments.php
+daylight_saving:
+  title: Nyári időszámítás
+  content: >
+    Engedélyezze ezt a tulajdonságot, ha szeretné hogy a nyári időszámítás automatikusan bekapcsoljon a kezelő időzónája szerint.
+limited_access:
+  title: Korlátozott hozzáférés
+  content: >
+    Ha engedélyezve van, a munkatárs csak a saját illetve a hozzátartozó csapat(ok) hibajegyeihez férhet hozzá.
+directory_listing:
+  title: Mappa listázás
+  content: >
+    Engedélyezze, ha szeretné hogy a kezelő listázva legyen az <span class="doc-desc-title">Alkalmazottak mappában</span>.
+  links:
+    - 
+      title: Nézze meg az Alkalmazottak mappáját
+      href: /scp/directory.php
+vacation_mode:
+  title: Szabadság mód
+  content: >
+    Ha megváltoztatja a kezelő státuszát <span class="doc-desc-opt">Vakáció módra</span>, a kezelő nem fog semmilyen <span class="doc-desc-title">Riasztást&amp;Jegyzetet</span>kapni és nem lesz elérhető a hibajegyek besorolásához.

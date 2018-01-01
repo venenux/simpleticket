@@ -1,0 +1,72 @@
+---
+helpdesk_name:
+  title: Help Desk nosaukums
+  content: |
+    <p>The name of your support system e.g [Company Name] Support</p>
+system_email:
+  title: Noklusētais sistēmas epasts
+  content: |
+    <p>Default email address e.g support@yourcompany.com - you can add
+    more later!</p>
+default_lang:
+  title: Noklusētā sistēmas valoda
+  content: |
+    <p>Initial data for this language will be installed into the
+    database. For instance email templates and default system pages will
+    be installed for this language.</p>
+  links:
+    - 
+      title: osTicket Valodas pakotne
+      href: 'http://osticket.com/download?product=langs'
+first_name:
+  title: Vārds
+  content: |
+    <p>Administratora vārds</p>
+last_name:
+  title: Uzvārds
+  content: |
+    <p>Administratora uzvārds</p>
+email:
+  title: E-pasta adrese
+  content: |
+    <p>Administratora personīgā epasta aderese. Jābūt atšķirīgai no sistēmas noklusētā epasta.</p>
+username:
+  title: Lietotāja vārds
+  content: |
+    <p>Administratora lietotāja vārds. Jāsatur vismaz trīs (3) simbolus. </p>
+password:
+  title: Parole
+  content: |
+    <p>Administratora parole.  Jāsatur piecus (5) simbolus vai vairāk.</p>
+password2:
+  title: Confirm Password
+  content: |
+    <p>Retype admin's password. Must match.</p>
+db_prefix:
+  title: MySQL Table Prefix
+  content: |
+    <p>osTicket requires table prefix in order to avoid possible table
+    conflicts in a shared database.</p>
+db_host:
+  title: MySQL Hostname
+  content: |
+    <p>
+    Most hosts use 'localhost' for local database hostname. Check with
+    your host if localhost fails.
+    </p>
+    <p>
+    Default port set in php.ini is assumed. A non-standard port number
+    can be specified as <code>hostname:port</code>
+    </p>
+db_schema:
+  title: MySQL datubāze
+  content: |
+    <p>Name of the database osTicket will use.</p>
+db_user:
+  title: MySQL Username
+  content: |
+    <p>The MySQL user must have full rights to the database.</p>
+db_password:
+  title: MySQL Password
+  content: |
+    <p>MySQL password associated with above user.</p>

@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: שאלה כללית
+  notes: שאלות אודות מוצרים או שירותים
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: משוב
+  notes: |
+    כרטיסים אשר נוגעים בעיקר למחלקות המכירה והחיוב
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: דווח על בעיה
+  notes: |
+    בעיות הקשורות למוצר, שירות או ציוד
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: בעיית גישה
+  notes: |
+    Report an inability to access a physical or virtual asset

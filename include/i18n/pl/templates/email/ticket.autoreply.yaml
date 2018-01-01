@@ -1,0 +1,31 @@
+---
+notes: |
+  Wysyłana do użytkownika w przypadku wygenerowania automatycznej odpowiedzi na utworzone zgłoszenie.
+  
+  Dostępne zmienne: %{ticket.*}, %{response}
+subject: |
+  Odp: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Szanowny(a) %{recipient.name.first},</strong></h3>
+  Wniosek o wsparcie został utworzony i przypisany zgłoszeniu <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> z następującą
+  automatyczną odpowiedzią
+  <br>
+  <br>
+  Temat: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Temat: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Twój %{company.name} zespół,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Mamy nadzieję, że
+  ta odpowiedź wyczerpująco odpowiada na Twoje pytania. Jeżeli chcesz coś
+  dodać lub uzyskać dodatkowe informację, odpowiedz na tego maila
+  lub <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >zaloguj się na swoje konto</span></a> z
+  kompletnym archiwum Twoich zgłoszeń.</em></div>

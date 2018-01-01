@@ -1,0 +1,42 @@
+---
+notes: |
+  Enviat al personal de suport quan es publica un nou missatge d'un usuari en un Ticket. Això succeeix si els usuaris responen amb un missatge de correu  o quan visiten el portal de suport per a clients i escriuen un nou missatge allí.
+subject: |
+  Alerta de nou missatge
+body: |
+  <h3><strong>Hi %{recipient.name},</strong></h3>
+  Nou missatge afegit al Ticket<a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>De</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Departament</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Per veure o respondre el Ticket, si us plau <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >entreu</span></a> al sistema de suport de Tickets</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">El vostre estimat sistema de suport </em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Generat per osTicket" width="126" height="19" style="width: 126px;">

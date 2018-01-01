@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Geblokkeerde e-mailadressen
+  content: >
+    E-mails ontvangen vanaf e-mailadressen die op de Geblokkeerde e-mailadressen lijst staan zullen automatisch worden afgewezen.

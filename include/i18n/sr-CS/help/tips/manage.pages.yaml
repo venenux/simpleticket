@@ -1,0 +1,11 @@
+---
+site_pages:
+  title: Veb stranice
+  content: Stranice se mogu koristiti kao mini Content Management System (CMS). Možete definisati više odredišnih stranica, offline i Hvala Vam stranica, te ih konfigurisati u podešavanjima kompanije i temama pomoći.
+  links:
+    - 
+      title: Podešavanje kompanije
+      href: /scp/settings.php?t=pages
+type:
+  title: Tip
+  content: '<span class="doc-desc-opt">Offline</span> stranice će biti prikazane na klijentovom portalu ukoliko vam je tehnička podrška onemogućena. <span class="doc-desc-opt">Odredišne</span>stranice se prikazuju na naslovnoj stranici klijentovog portala. <span class="doc-desc-opt">Hvala Vam</span> stranice prikazuju se nakon što korisnik otvori novi tiket. <span class="doc-desc-opt">Ostale</span> stranice se mogu koristiti kao jednostavan content management system (CMS).'

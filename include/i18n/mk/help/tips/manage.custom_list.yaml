@@ -1,0 +1,22 @@
+---
+custom_lists:
+  title: Custom Lists
+  content: 'Вашиот <span class="doc-desc-title">сопствени листи</span> ќе ви овозможи да направите  dropdown кутии со предефинирани опции од кои клиентот може да избере во вашиот<span class="doc-desc-title">Сопствени форми</span>. Ако сакате да ја користите оваа <span class="doc-desc-title">сопсвена листа</span> како <span class="doc-desc-title">target</span> во <span class="doc-desc-title">Тикет филтер</span>, бидете сигурни да ја додадете оваа листа во вашата <span class="doc-desc-title">Детали за тикетот</span> форма.'
+name:
+  title: Name
+  content: ""
+plural_name:
+  title: Име во множина
+  content: ""
+sort_order:
+  title: Подредување
+  content: ""
+list_s_initial_items:
+  title: Листа на почетни ставки
+  content: ""
+value:
+  title: Вредност
+  content: ""
+extra:
+  title: Повеќе
+  content: 'Кратенки и сл. Ако се случи да ги користите внатрешните кодови за ставки во оваа листа, оние кодови и кратенки може да влезат во оваа колона. Ако сопствената листа е поднесена како <span class = "Док-ставка-опција"> TypeAhead </span>, овие кратенки може да се користат за пребарување на ставките на сопствената листа.'

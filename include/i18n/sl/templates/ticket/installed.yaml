@@ -1,0 +1,43 @@
+---
+deptId: 1
+topicId: 1
+name: osTicket Podpora
+email: support@osticket.com
+source: Splet
+subject: osTicket Nameščen!
+message: |2
+  <p>
+  Hvala ker ste izbrali osTicket.
+  </p><p>
+  Prosimo poskrbite, da se boste vključili v <a
+  href="http://osticket.com/forums">osTicket forume</a> in naš <a
+  href="http://osticket.com/updates">poštni seznam</a> da ostanete na tekočem
+  o zadnjih novicah, varnostnih opozorilih in posodobitvah. osTicket forumi so
+  dobri tudi za iskanje pomoči, navodil, nasvetov in pomoči od drugih 
+  uporabnikov osTicket sistema. Poleg forumov, osTicket wiki
+  zagotavlja koristno zbirko izobraževalnega materiala, dokumentacije
+  in opomb iz skupnosti. Pozdravljamo vsak vaš prispevek k
+  osTicket skupnosti.
+  </p><p>
+  Če iščete večjo stopnjo podpore, vam nudimo
+  strokovni servis in  poslovno podporo z garantiranimi odzivnimi roki
+  in dostopom do tima vodilnih razvijalcev. Lahko vam pomagamo tudi 
+  pri prilagoditvi osTicket sistema vašim potrebam ali celo dodamo nove 
+  lastnosti v sistem in s tem dosežemo vaše specifične potrebe.
+  </p><p>
+  Če vam je ideja o vzdrževanju in posodabljanju te osTicket namestitve
+  zastrašujoča, lahko poskusite osTicket kot gostovano storitev pri <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
+  nobena namestitev ni potrebna in lahko uvozimo vaše podatke! Z
+  SupportSystem's ključno infrastrukturo, vi dobite najboljši osTicket.
+  Tako vam omogočimo, da se osredotočite na svoje stranke 
+  brez zaskrbljenosti ali je aplikacija stabilna, vzdrževana in varna.
+  </p><p>
+  Lep pozdrav,
+  </p><p>
+  -<br/>
+  osTicket ekipa http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Ne delajte samo uporabnikov zadovoljnih,
+   naredite jih srečne!
+  </p>

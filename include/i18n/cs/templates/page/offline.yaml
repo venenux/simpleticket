@@ -1,0 +1,11 @@
+---
+notes: |
+  Stránka Mimo provoz se zobrazí na zákaznickém portále, pokud je systém zákaznické podpory vypnut.
+name: Mimo provoz
+body: |
+  <div><h1>
+  <span style="font-size: medium">Zákaznická podpora je mimo provoz</span>
+  </h1>
+  <p>Děkujeme Vám za Váš zájem.</p>
+  <p>Zákaznická podpora je mimo provoz, navštivte nás prosím později.</p>
+  </div>

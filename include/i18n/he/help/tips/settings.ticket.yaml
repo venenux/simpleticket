@@ -1,0 +1,84 @@
+---
+number_format:
+  title: תבנית מספר הכרטיס
+  content: >
+    הגדרה זו משמשת ליצור מספרי קריאה. השתמש בהאש טאג ('#') היכן שספרות יוחלפו. כל שאר המספרים ישארו כטקסט רגיל. <span class="doc-desc-title">נושאי עזרה</span> אפשר הגדיר תבנית מספרים אישית. <br/><br/> לדוגמא, לשש ספרות , השתמש ב<code>######</code>.
+sequence_id:
+  title: רצף מספרים של הכרטיס
+  content: >
+    בחר רצף ממנו אפשר ליצור מספרי קריאות חדשים. המערכת כוללת רצף הגדלה ורצף אקראי כברירת מחדל, אתה יכול ליצור כמה רצפים שתרצה. השתמש ברצפים שונים ב <span class="doc-desc-title">פורמט מספר קריאה</span> הגדרות לנושאי תמיכה.
+default_ticket_status:
+  title: סטטוס ברירת המחדל לכרטיסים חדשים
+  content: >
+    בחר סטטוס ברירת מחדל לקריאות חדשות. הסטטוס יכול להיות מוגדר עבור כל נושא תמיכה, אם תרצה בכך.
+    הנוסף זה יכול להיות מסונן על ידי פילטר סינון הקריאות.
+  links:
+    - 
+      title: ניהול סטטוס כרטיסים
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: חוזה שירות ברירת מחדל
+  content: >
+    בחר את  זמן ברירת המחדל עבור חוזה שירות כדי לנהל מתי קריאה תחשב חריגה.
+  links:
+    - 
+      title: צור תוכניות SLA נוספות
+      href: /scp/slas.php
+default_priority:
+  title: עדיפות ברירת מחדל
+  content: >
+    תבחר עדיפות <span class="doc-desc-title">ברירת מחדל</span> עבור קריאות שעדיפות לא מוגדרת בשבילן ידנית <br/><br/> ניתן לסנן קריאותלפי סדר העידפות שלהן בפילטר סינון הקריאות.
+maximum_open_tickets:
+  title: מספר מירבי של כרטיסים פתוחים
+  content: |2
+    הקש את <em/>המספר<em> המקסימלי של קריאות שמשתמש רשאי </strong>לפתוח<strong> באתר התמיכה שלך<br><br> הקש 0  <span class="doc-desc-opt">
+     לנטרול ההגבלה הזאת. <em>number</em> of tickets a User is permitted to have <strong>open</strong> in your help desk. <br><br> Enter <span class="doc-desc-opt">0 </span> if you prefer to disable this limitation.
+agent_collision_avoidance:
+  title: מניעת התנגשות סוכן
+  content: >
+    אנא הקש את הזמן המקסימלי שסוכן יכול להחזיק בקריאה מבלי לענות עליה. <br><br> הקש  <span class="doc-desc-opt">0</span> על מנת לבטל זאת בעתיד
+email_ticket_priority:
+  title: עדיפות קריאה מדוא"ל
+  content: >
+    השתמש בעדיפות דואר אלקטרוני שהוקצתה על ידי שירות הדואר של הנמען
+show_related_tickets:
+  title: הצג קריאות קשורות
+  content: >
+    הצג את כל הכרטיסים הקשורים למשתמש עם כניסתו - אחרת הגישה מוקבלת לקריאה אחת עבור כל התחברות
+human_verification:
+  title: בדיקה אנושית
+  content: >
+    תאשר CAPTCHA בפורטל הלקוח על מנת לוודא שהקריאה נפתחת על ידי אדם ולא מחשב <br><br>  דרושה סיפריית GDLib
+claim_tickets:
+  title: קשר קריאות בעת מענה או תגובה
+  content: >
+    אפשר הקצאה אוטמטית לקריאות שלא הוקצו לסוכן <br><br> כרטיסים שנפתחו מחדש תמיד מוקצים לסוכן האחרון שטיפל בבעיה.
+assigned_tickets:
+  title: כרטיסים מוקצים
+  content: >
+    אשר את האפשרות הזאת על מנת לא כלול קריאות מוקצות ב  <span class="doc-desc-title"> תור הקריאות הפתוחות </span>.
+answered_tickets:
+  title: קריאות שנענו
+  content: >
+    אשר את האופציה הזאת בשביל לראות קריאות שנענו   <span class="doc-desc-title"> התור הקריאות שנענו </span>.אחרת הן יראו אוטומטית  <span class="doc-desc-title"> בתור הקריאות הפתוחות </span>.
+staff_identity_masking:
+  title: זיהוי צוות
+  content: >
+    אם זה מאושר, שם הסוכן המטפל יוסתר מהלקוח.
+enable_html_ticket_thread:
+  title: אפשר  קריאה בHTML
+  content: >
+    אם מאופשר, זה יאפשר לשימוש בעיצוב טקסט עשיר בין לקוחות וסוכנים.
+ticket_attachment_settings:
+  title: תיוק נושאי קריאה
+  content: >
+    תכנן הגדרות עבור קבצים מצורפים  <span class="doc-desc-title"> לשדה פרטי הנושא </span>.
+    ההגדרות העלו יפעלו על כל הקריאות וההודעות החדשות ללא קשר למקורן.
+max_file_size:
+  title: גודל קובץ מקסימלי
+  content: >
+    אנא בחר את מגבלת גובל הקובץ שיצורפו על ידי הסוכנים. זה כולל קבצים מצורפים משומרים, מאמרי בסיס ידע, וקבצים מצורפים לתגובות קריאה.
+ticket_response_files:
+  title: קבצי תגובת קריאה
+  content: >
+    אם זה מאושר, כל צירוף קבצים שסוכן יעשה לקריאה יצורף בנוסף למייל הלקוח.

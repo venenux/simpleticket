@@ -1,0 +1,17 @@
+---
+notes: |
+  Gửi đến các người dùng khi một nhân viên trả lời yêu cầu của họ. Bài trả lời chỉ được tạo ra bởi nhân viên.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Gửi%{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Đội của bạn%{company.name}.<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Chúng tôi hi vọng phản hồi này sẽ đáp ứng các câu hỏi của bạn. Nếu không, đừng được gửi email khác. Thay vào đó, hãy trả lời email này hoặc<a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >đăng nhập vào tải khoản của bạn</a>để có một kho lưu trữ hoàn chỉnh cho các yêu cầu và phản hồi hỗ trợ của bạn.</em></div>

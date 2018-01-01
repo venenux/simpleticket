@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: 支援
+  signature: 支援部门
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: 销售
+  signature: |
+    销售和客户维护
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: 维护
+  signature: |
+    维护部门
+  ispublic: 0
+  group_membership: 0

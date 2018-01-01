@@ -1,0 +1,13 @@
+---
+name:
+  title: שם
+  content: >
+    בחר שם מתאר עבור <span class="doc-desc-title">תוכנית SLA</span> זו שישקף את מטרתה.
+grace_period:
+  title: תקופת חסד
+  content: >
+    קבע את מספר השעות לאחר שקריאה נוצרה שהיא תסומן באופן אוטומטי כ"באיחור".<br><br><em>שעות נספרות מאז זמן יצירת הקריאה.</em>
+transient:
+  title: זמני
+  content: >
+    SLAים אלו נחשבים לזמניים ויכולים להיעקף ע"י SLA לא-זמני בזמן העברת <span class="doc-desc-opt">מחלקה</span> או כש<span class="doc-desc-title">נושא העזרה</span>שלו שונה.

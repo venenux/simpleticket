@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Kereső sáv
+  content: >
+    
+advanced:
+  title: Bővített
+  content: >
+    Szűkítse a keresési feltételeket. Miután kiválasztotta a bővített keresési feltételeket és futtatta a keresést, akkor lehetősége van <span class = "doc-desc-title"> Exportálni </ span> az adatait a hibajegy oldal alján.
+open_tickets_table:
+  title: Hibajegy táblázat megnyitása
+  content: >
+    Jelenleg minden hibajegy nyitott és figyelmet igényel
+ticket:
+  title: Hibajegy
+  content: >
+    
+date:
+  title: Dátum
+  content: >
+    
+subject:
+  title: Tárgy
+  content: >
+    
+from:
+  title: Feladó
+  content: >
+    
+priority:
+  title: Fontosság
+  content: >
+    
+assigned_to:
+  title: Hozzárendelt
+  content: >
+    
+export:
+  title: Export
+  content: >
+    Exportálja az adatokat, amiket jelenleg lát egy CSV fájlba. A CSV fájlokat meg lehet nyitni bármely táblázatkezelő szoftverrel (Microsoft Excel, Apple Pages, OpenOffice, stb.)
+advanced_search_dialog:
+  title: Bővített keresés
+  content: >
+    
+adv_keyword:
+  title: Kulcsszóra keresés
+  content: >
+    Találatait alapozhatja a hibajegyek szövegezése és megadott tárgya alapján, vagy akár a hibajegy vagy felhasználó szabad szavas keresőjén keresztül.
+adv_date_range:
+  title: Keresés dátum alapján
+  content: >
+    A magyarázat itt található

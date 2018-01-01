@@ -1,0 +1,33 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: সাধারণ জিজ্ঞাসা
+  notes: পণ্য ও সেবা সংক্রান্ত প্রশ্নসমূহ
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: মতামত
+  notes: প্রথমিকভাবে বিক্রয় এবং বিল বিভাগ সংক্রান্ত টিকেটসমূহ
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: অভিযোগ জানান
+  notes: Product, service, or equipment related issues
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Access Issue
+  notes: Report an inability access a physical or virtual asset

@@ -1,0 +1,10 @@
+---
+type:
+  title: Tip
+  content: >
+    Dacă tipul departamentului este "privat", atunci semnătura departamentului nu va fi disponibilă pentru răspunsuri și nici asignările către departament nu vor fi vizibile în portalul pentru clienți.
+dept_manager:
+  title: Manager Departament
+  content: >
+    Poți desemna un agent ca manager de departament ca să primească alerte și notificări pentru tichetele departamentului.
+  0: Nu e obligatoriu ca un agent să fie membru al departamentului pentru a putea fi manager al departamentului.

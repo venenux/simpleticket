@@ -1,0 +1,13 @@
+---
+name:
+  title: Nimi
+  content: >
+    Vali sellele <span class="doc-desc-title">SLA-le</span>nimi, mis kirjeldaks tema sisu.
+grace_period:
+  title: Armuaeg
+  content: >
+    Määra tundide arv, pärast mida pöördumine saab automaatselt lahendusaja ületanud staatuse,<br><br><em>Tunde hakatakse arvestama alates pöördumise registreerimisest.</em>
+transient:
+  title: Lühiajaline
+  content: >
+    Lühiajalised SLA-d (teenustaseme lepingud) võib asendada pikaajaliste SLA-dega <span class="doc-desc-opt">osakonna</span>ümberpaigutamisel või kui tema <span class="doc-desc-title">abiteema</span> on muutunud.

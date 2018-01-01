@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Členovia personálu
+  content: >
+    Nasledujúca tabuľka zobrazuje výsledok po použití filtra. Ak nie je použitý filter, zobrazia sa všetci <span class="doc-desc-title">správcovia</span> (pracovníci) <span class="doc-desc-title">členovia</span>. Prezrite časť stránky nižšie pre navigáciu skrze viacero výsledkov.
+status:
+  title: Status
+  content: >
+    Toto sa zobrazí, ak je <span class="doc-desc-title">správca</span> zamknutý, aktívny, alebo aktívny(na dovolenke).

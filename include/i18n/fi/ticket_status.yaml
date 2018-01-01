@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Avoin
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Avoimet tiketit.
+- 
+  id: 2
+  name: Ratkaistu
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Ratkaistut tiketit on suljettu ja voidaan avata loppukäyttäjän toimesta. Tämä on kätevä, jos käytössä on ratkaisun suljenta, ilmoituksen lähetyksellä loppukäyttäjälle.
+- 
+  id: 3
+  name: Suljettu
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Suljetuksi merkityjä tikettejä ei voi avata uudelleen asiakkaan toimesta. Tiketit ovat kuitenkin nähtävissä asiakkaiden ja käsittelijöiden näkymissä.
+- 
+  id: 4
+  name: Arkistoitu
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tiketit vain ylläpidon saatavilla, mutta ei tikettijonoissa.
+- 
+  id: 5
+  name: Poistettu
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tiketit jonossa poistamista varten. Ei pääsyä tikettijonosta.

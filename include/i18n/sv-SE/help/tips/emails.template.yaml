@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-postmallar
+  content: >
+    E-postmallar används för att skicka Autosvar och Upplysningar om olika händelser som kan inträffa under ett ärendes livstid.
+template_to_clone:
+  title: Mall att kopiera
+  content: >
+    Välj en mall-uppsättning att kopiera eller använd de inbyggda e-postmallarna i osTicket.
+language:
+  title: Språk
+  content: >
+    Välj önskat språk för <span class="doc-desc-opt">inbyggda</span> <span class="doc-desc-title">e-postmallarna</span>. Ytterligare språkpaket finns att ladda ner på osTicket.com.
+  links:
+    - 
+      title: osTicket språkpaket
+      href: 'http://osticket.com/download'
+status:
+  title: Status
+  content: >
+    <span class="doc-desc-opt">Aktiverade</span> mallar finns tillgängliga för att kopplas samman med Avdelningar och anges som standard i systemet.  Mallarna som används kan ej <span class="doc-desc-opt">Inaktiveras</span>.

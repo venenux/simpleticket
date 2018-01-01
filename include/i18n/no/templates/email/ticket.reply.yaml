@@ -1,0 +1,7 @@
+---
+notes: |
+  Sendes til brukere når en medarbeider skriver et svar i saken. Svar genereres bare av medarbeidere.
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>Kjære %{recipient.name},</strong></h3> %{response} <br><br><div style="color: rgb(127, 127, 127);"> din %{company.name} Team <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small; text-align: center;" > <em>vi håper dette svaret har tilstrekkelig besvart ditt spørsmål. Hvis ikke, ikke send en ny e-post. I stedet, svare på denne e-post eller <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" > Logg på kontoen</a> for et komplett arkiv over alle saks-forespørsler og svar.</em></div>

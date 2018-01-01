@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: 自定义列表
+  content: >
+    <span class="doc-desc-title">自定义列表</span>将允许您创建带预定义选项的下拉框，让客户可从<span class="doc-desc-title">自定义表单</span>中进行选择。如果想要将该<span class="doc-desc-title">自定义列表</span>用作<span class="doc-desc-title">咨询筛选</span>的<span class="doc-desc-title">目标</span>，请确保将该列表添加至<span class="doc-desc-title">咨询详情</span>表单。
+name:
+  title: 名称
+  content: >
+    
+plural_name:
+  title: 复数名称
+  content: >
+    
+sort_order:
+  title: 排序顺序
+  content: >
+    
+list_s_initial_items:
+  title: 列表的初始项目
+  content: >
+    
+value:
+  title: 值
+  content: >
+    
+extra:
+  title: 额外
+  content: >
+    缩写词表。如果正好在该列表中使用项目内部代码，即可在该列中输入这些代码和缩写词。如果自定义列表显示为<span class="doc-desc-option"> TypeAhead</span>，这些缩写词即可用于自定义列表项的搜索。

@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Dane Firmy
+  content: >
+    Odnosi się to do firmy lub organizacji, która będzie korzystać z oprogramowania osTicket i jej personelu pomocniczego. Informacje zawarte tutaj będą pojawiać się w podpisach maili (w stopce), gdy przedstawiciel udzieli odpowiedzi na zgłoszenie.
+  links:
+    - 
+      title: Formularz informacyjny firmy
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Strona Startowa
+  content: >
+    <span class="doc-desc-title">Strona Startowa</span> jest wyświetlany na stronie głównej witryny pomocy technicznej.
+offline_page:
+  title: Strona w trybie offline
+  content: >
+    <span class="doc-desc-title">Strona w trybie offline</span> jest wyświetlana w witrynie wsparcia, gdy system jest nieaktywny, zobacz Panel administracyjny -&gt; Ustawienia -&gt; System -&gt; Status systemu.
+default_thank_you_page:
+  title: Domyślna strona podziękowania
+  content: >
+    <span class="doc-desc-title">Strona z podziękowaniem</span> jest wyświetlana, gdy <span class="doc-desc-title">Klient</span> założy nowe zgłoszenie. <br/><br/> <span class="doc-desc-title">Strony podziękowania</span> mogą być powiązane z tematami pomocy.
+logos:
+  title: Logo
+  content: >
+    Możesz dostosować <span class="doc-desc-title">Logo</span>, które będzie wyświetlane na Portalu Klienta (twojej Stronie Systemu Wsparcia).
+upload_a_new_logo:
+  title: Prześlij nowe logo
+  content: >
+    Wybierz obraz w formatach .gif, .jpg lub .png. Dostosujemy proporcjonalnie rozmiar wyświetlanego obrazu, jednak nie zmienimy jego rzeczywistych wymiarów. W związku z tym, aby przyspieszyć ładowanie zalecamy, aby rozmiar obrazu był możliwie bliski (817px × 170px).

@@ -1,0 +1,42 @@
+---
+notes: |
+  Порука се шаље оператерима када се прими нова порука од стране корисника у вези неког тикета. Ово може да се деси ако корисник одговори на емаил који му је послао тицкетинг систем или ако посети портал за корисничку подршку и пошаље тим путем нову поруку.
+subject: |
+  Упозорење Нова порука
+body: |2
+  <h3><strong>Здраво %{recipient},</strong></h3>
+  Нова порука је додата у вези тикета <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Од</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Одељење</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Да бисте видели или одговорили, <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >пријавите се</span></a> на систем за корисничку подршку</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Ваша корисничка подршка</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Омогућио osTicket" width="126" height="19" style="width: 126px;">

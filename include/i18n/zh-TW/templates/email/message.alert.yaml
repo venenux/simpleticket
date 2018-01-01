@@ -1,0 +1,42 @@
+---
+notes: |
+  新票券訊息會透過使用者發佈給工作人員。此情形是因為使用者由系統或是客服網路管控發佈的回復信件
+subject: |
+  新訊息通知
+body: |2
+  <h3><strong>您好 %{recipient},</strong></h3>
+  新追加票券訊息 <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>由</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>單位</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>查詢或回應票券、請 <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >登入</span></a> 進入票券支援系統</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">您的便利可戶支援系統</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,0 +1,18 @@
+---
+notes: |
+  当工作人员对用户咨询发表回复时，发送给用户。
+  只有工作人员能够回复。
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>尊敬的 %{recipient.name}，</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  您的 %{company.name} 团队，<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>我们希望此回复可充分解答您的疑问。如果无法解答，请不要发送其他电子邮件。只需回复此电子邮件或<a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >登录您的账户</a>以查阅所有您提交问题和所得到回复的完整存档文件。</em></div>

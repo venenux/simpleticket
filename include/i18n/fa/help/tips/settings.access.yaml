@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: سیاست انقضاء رمز عبور
+  content: >
+    مشخص کنید بعد از چه مدتی (به ماه) کارمندان باید گذرواژه خود را تغییر دهند. اگر غیر فعال باشد (تنظیم کنید به بدون انقضا) ، گذرواژه منقضی نخواهد شد.
+password_expiration_policy:
+  title: سیاست انقضاء رمز عبور
+  content: >
+    انتخاب کنید بعد از چه مدتی  کارمندان باید گذرواژه خود را تغییر دهند. اگر غیر فعال باشد (<span class="doc-desc-opt"> بدون انقضا</span>) ، گذرواژه منقضی نخواهد شد.
+allow_password_resets:
+  title: اجازه بازنشانی رمز عبور 
+  content: >
+    اگر می خواهید بعد از ورود اشتباه لینک  <span class="doc-desc-title">گذرواژه را فراموش کردم</span> در<span class="doc-desc-title"> صفحه ورود کاربران</span> نمایش داده شود این ویژگی را فعال کنید.
+reset_token_expiration:
+  title: پنجره تنظیم مجدد رمز عبور
+  content: >
+    زمان اعتبار <span class="doc-desc-title">رمز تغییر گذواژه</span> را (به دقیقه) مشخص کنید. وقتی کارشناس درخواست <span class="doc-desc-title">تغییر رمز </span>می دهد ، یک رمز به آنها ایمیل می شود که اجازه ی تنظیم مجدد گذرواژه را می دهد.
+staff_session_timeout:
+  title: مهلت جلسه کارکنان
+  content: >
+    حداکثر زمان بیکار(به دقیقه) برای نیاز به ورود دوباره را انتخاب کنبد.<br><br> اگر می خواهید <span class="doc-desc-title">وقفه ی نشست کارکنان</span> راذ غیر فعال کنید ، 0 وارد کنید.
+client_session_timeout:
+  title: مهلت جلسه کاربر
+  content: >
+    حداکثر زمان بیکار(به دقیقه) برای نیاز به ورود دوباره را انتخاب کنبد.<br><br> اگر می خواهید <span class="doc-desc-title">وقفه ی نشست کارکنان</span> راذ غیر فعال کنید ، 0 وارد کنید.
+bind_staff_session_to_ip:
+  title: اتصال جلسه کارکنان به IP 
+  content: >
+    اگر می خواهید IP کارکنان برای ورود بعدی به خاطر سپرده شود این قسمت را فعال کنید.<br><br> این تنظیمات برای کارکنانی که با IP شان بصورت داینامیک اختصاص داده می شود توصیه نمی شود.
+registration_method:
+  title: گزینه های ثبت نام
+  content: >
+    <span class="doc-desc-title">Registration Method</span> and <span class="doc-desc-title">Registration Required</span> are used together to configure how users register and access the web portal of your help desk. The table below summarizes how the two settings are interpreted by the system. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Registration Required</th> <th>Registration Method</th> <th>Result</th></tr> <tr><td>No</td><td>Public</td> <td>Registration encouraged but not required for new tickets.</td></tr> <tr><td>Yes</td><td>Public</td> <td>Registration and login are required for new tickets</td></tr> <tr><td>No</td><td>Private</td> <td>Anyone can create a ticket, but only agents can register accounts</td></tr> <tr><td>Yes</td><td>Private</td> <td>User access is by invitation only</td></tr> <tr><td>No</td><td>Disabled</td> <td>No one can register for an account, but anyone can create a ticket. <em>This was how osTicket functioned prior to 1.9</em></td></tr> <tr><td>Yes</td><td>Disabled</td> <td>Disable new tickets via web portal</td></tr> </tbody></table>
+client_verify_email:
+  title: نیاز به تایید ایمیل
+  content: >
+    Disable this option to give your users immediate access to tickets via the "Check Ticket Status" login page in the client portal. If enabled, (which is the default), users will be required to receive an email and follow a link in the email to view the ticket. <br><br> Disabling email verification might allow third-parties (e.g. ticket collaborators) to impersonate the ticket owner.

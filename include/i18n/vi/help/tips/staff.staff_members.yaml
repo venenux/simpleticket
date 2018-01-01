@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Nhân viên
+  content: >
+    Bảng sau hiển thị các kết quả của việc lọc nhân viên phía trên. Nếu không chọn chế độ lọc, thì sau đó tất cả <span class="doc-desc-title"> Nhân viên</span> được hiển thị, và chia ra thành nhiều trang. Xem phần trang dưới đây để điều hướng thông qua kết quả.
+status:
+  title: Tình trạng
+  content: >
+    Trang này sẽ hiển thị cho dù <span class="doc-desc-title"> nhân viên </span> đã bị khoá, đang kích hoạt hoặc kích hoạt (Kì nghỉ).

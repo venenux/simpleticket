@@ -1,0 +1,16 @@
+---
+notes: |
+  Bude odesláno uživateli v okamžiku překročení povoleného počtu zákaznických požadavků.
+  Limit se dá nastavit v rámci Admin panelu a je definovaný jako počet založených zákaznických požadavků vztahujících se k jednomu e-mailu.
+subject: |
+  Dosaženo povoleného počtu požadavků
+body: |
+  <h3><strong>Vážený/á %{ticket.name.first},</strong></h3>
+  dosáhli jste povoleného maximálního počtu současně otevřených požadavků.
+  Abyste mohli otevřít další požadavek, jeden z aktuálních musí být uzavřen.
+  Pro přidání informace k otevřenému požadavku se stačí <a
+  href="%{url}/tickets.php?e=%{ticket.email}">přihlásit k vašmu účtu</a>.
+  <br>
+  <br>
+  Vaše,<br/>
+  Zákaznická podpora

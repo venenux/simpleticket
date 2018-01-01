@@ -1,0 +1,28 @@
+---
+notes: |
+  Wordt naar een gebruiker verzonden wanneer een medewerker een ticket namens de gebruiker creëert. Dit gebeurd meestal wanneer een gebruiker een melding doet via de telefoon.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Beste %{recipient.name.first},</strong></h3>
+  Ons helpdeskteam heeft een ticket aangemaakt, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> uit uw naam, met de volgende details en onderwerp:
+  <br>
+  <br>
+  Details: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Onderwerp: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Indien nodig zal een medewerker zo snel mogelijk contact met u opnemen, of u kunt <a href="%{recipient.ticket_link}">uw ticketvoortgang online bekijken</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Your %{company.name} Team,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>indien u nog additionele informatie of commentaar over deze kwestie heeft, dan kunt u op deze mail reageren of <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >login op uw account</span></a> voor een compleet archief van uw tickets.</em></div>

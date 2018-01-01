@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grupuri
+  content: >
+    Grupurile sunt utilizate pentru a defini permisiunile agenților în helpdesk. Prin intermediul grupurilor poate fi acordat unui agent acces și la departemente care nu sunt departamentul primar al agentului respectiv.
+status:
+  title: Stare
+  content: >
+    Dacă opțiunea e <span class="doc-desc-opt">invalid</span>ată, agenții asignați acestui grup nu se pot autentifica în sistem (nu se pot loga) și nu vor primi alerte și notificări ale departamentului.
+department_access:
+  title: Acces departament
+  content: >
+    Bifează toate departamentele în care membrilor acestui grup li se permite accesul.

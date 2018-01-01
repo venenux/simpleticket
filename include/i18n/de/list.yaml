@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Ticket-Status
+  name_plural: Ticket-Status
+  sort_mode: SortCol
+  masks: 13
+  notes: Ticket-Status
+  properties:
+    title: Ticket-Status-Eigenschaften
+    instructions: Eigenschaften, die für einen Ticket-Status festgelegt werden können.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Status
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Status eines Tickets
+      - 
+        type: memo
+        name: description
+        label: Beschreibung
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

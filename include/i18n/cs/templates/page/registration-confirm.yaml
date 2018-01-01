@@ -1,0 +1,6 @@
+---
+notes: >
+  Tato šablona definuje stránku zobrazenou uživatelům po dokončení registračního formuláře. V šabloně by mělo být uvedeno, že jim systém zašle e-mail s odkazem pro potvrzení a co je další krok v registračním procesu jejich účtu.
+name: "Registrace účtu"
+body: >
+  <div><strong>Děkujeme, že jste si zaregistroval účet.</strong><br/> <br /> Právě jsme vám na zadanou adresu zaslali e-mail. Prosíme klikněte na odkaz v daném e-mailu pro potvrzení vašeho účtu a získání tak přístupu k vašim požadavkům. </div>

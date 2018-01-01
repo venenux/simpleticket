@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informatat kontaktuese
+  content: >
+    
+username:
+  title: Emri i shfrytzuesit
+  content: >
+    Vetëm Agjentët me status të Administartorit mund të ndryshojnë nofkën . Nëse ju jeni një agjent me privilegje të administratorit , ju mund të kërkoni ndryshimin duke zgjedhur një agjent për të redaktuar nga tabela <span class="doc-desc-titull"> Stafi Anëtarëve </span>.
+  links:
+    - 
+      title: Ndrysho emrin e përdoruesit si një Administrator
+      href: /scp/staff.php
+time_zone:
+  title: Time Zone
+  content: >
+    
+daylight_saving:
+  title: Daylight Saving
+  content: >
+    
+maximum_page_size:
+  title: Madhësia maksimale e ndërfaqes
+  content: >
+    
+auto_refresh_rate:
+  title: Norma Automatike e Rifreskimit
+  content: >
+    
+default_signature:
+  title: Nënshkrimi
+  content: >
+    
+default_paper_size:
+  title: Madhësia e letrës
+  content: >
+    
+show_assigned_tickets:
+  title: Shfaq kërkesat e caktuara
+  content: >
+    Aktivizo këtë për të fshehur emrin tuaj nga <span class="doc-desc-titull"> Kërkesat e Hapura</span> në radhë,  për ato bileta të cilat ju jeni të caktuar. Pas fshehjes ,<span class=" doc-desc-title"> Emri i Departamentit </span> në të cilin ju i takoni do të shfaqet .
+password:
+  title: Fjalekalimi
+  content: >
+    
+current_password:
+  title: Fjalëkalimi i tanishëm
+  content: >
+    
+new_password:
+  title: Fjalëkalimi i ri
+  content: >
+    
+confirm_new_password:
+  title: Konfirmo fjalëkalimin
+  content: >
+    
+signature:
+  title: Nënshkrimi
+  content: >
+    Krijo një <span class="doc-desc-title">nënshkrim</span> dhe me siguri do të shfaqet të përgjigjet tuaja në fund të kërkesës. Nëse ky <span class="doc-desc-titull"> Nënshkrim</span> duket , apo jo , varet nga <span class="doc-desc-title">Ndërfaqja e emailit</span> që do të përdoren në një përgjigje të kërkesës.
+  links:
+    - 
+      title: Krijo ndërfaqet e emailit në panelin e administrimit
+      href: /scp/templates.php

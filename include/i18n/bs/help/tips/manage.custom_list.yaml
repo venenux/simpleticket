@@ -1,0 +1,22 @@
+---
+custom_lists:
+  title: Custom Lists
+  content: 'Vaše <span class="doc-desc-title">prilagođene liste</span> omogučit će Vam kreiranje padajućih izbornika s preddefiniranim opcijama iz kojih klijent može izabrati <span class="doc-desc-title">prilagođene obrasce</span>. Ukoliko želite koristiti <span class="doc-desc-title">prilagođenu listu</span> kao <span class="doc-desc-title">cilj</span> u <span class="doc-desc-title">Ticket Filter</span>, obavezno dodajte ovu listu u <span class="doc-desc-title">detalji kartice</span> obrazac.'
+name:
+  title: Ime
+  content: ""
+plural_name:
+  title: Množina imena
+  content: ""
+sort_order:
+  title: Redosljed sortiranja
+  content: ""
+list_s_initial_items:
+  title: Početne stavke popisa
+  content: ""
+value:
+  title: Vrijednost
+  content: ""
+extra:
+  title: Dodatno
+  content: 'Kratice i sl. Ukoliko koristite interne kodove za stavke u ovom popisu, te kodove i kratice možete upisati u ovaj stupac. Ako je prilagođeni popis izvedenih kao <span class="doc-desc-option"> TypeAhead</span>, ove kratice mogu se koristiti za traženje stavki u prilagođenom popisu.'

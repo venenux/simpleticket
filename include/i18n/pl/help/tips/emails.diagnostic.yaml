@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Test wychodzącego emaila
+  content: >
+    E-mail dostarczający zależy od ustawień serwera (php.ini) i/lub konfiguracji SMTP.
+  links:
+    - 
+      title: Wybierz e-mail do skonfigurowania ustawień dla wiadomości wychodzących (SMTP)
+      href: /scp/emails.php
+from:
+  title: Od
+  content: >
+    
+to:
+  title: Do
+  content: >
+    
+subject:
+  title: Temat
+  content: >
+    
+message:
+  title: Komunikat
+  content: >
+    

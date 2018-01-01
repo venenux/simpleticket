@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: 測試發送的電子郵件
+  content: >
+    電子郵件的傳遞取決於您的伺服器設置 (php.ini) 檔案和/或 SMTP 配置。
+  links:
+    - 
+      title: 選擇要配置的 SMTP （傳出） 設置電子郵件
+      href: /scp/emails.php
+from:
+  title: 從
+  content: >
+    
+to:
+  title: 到
+  content: >
+    
+subject:
+  title: 主題
+  content: >
+    
+message:
+  title: 訊息
+  content: >
+    

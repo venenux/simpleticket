@@ -1,0 +1,26 @@
+---
+notes: |
+  Хүсэлт шинээр үүсгэхэд урьдчилан бэлдсэн автомат хариултийн аль нэгийг хэрэглэгчид илгээхэд ашиглагдана.
+  
+  Ашиглах боломжтой хувьсагчууд: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Сайн байна уу, %{recipient.name.first}?</strong></h3>
+  Тусламж авах Хүсэлт <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> үүсгэгдэж дараах автомат хариулт илгээгдсэн байна:
+  <br>
+  <br>
+  Сэдэв: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Гарчиг: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Хүндэтгэсэн, %{company.name} баг,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Энэхүү хариулт таны асуултанд хангалттай хариулж чадсан гэж бид найдаж байна. Хэрвээ та нэмж тайлбар, мэдээлэл өгөх бол энэ имэйлд хариу өгөх буюу эсвэл <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >нэвтэрч орон</span></a> өөрийн бүх хүсэлтийн түүхийг үзэх боломжтой.</em></div>

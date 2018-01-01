@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Sablonválasz
+  content: >
+    Hozzon létre új <span class="doc-desc-title">Sablonválasz</span>t, mely a hibajegyre adott válaszban szerepel. Használható még, mint <span class="doc-desc-title">Hibajegy automatikus válasz</span>, melyet egy <span class="doc-desc-title">Hibajegy szűrő</span> használatával küldhet.
+  links:
+    - 
+      title: Hibajegy szűrő beállítása
+      href: /scp/filters.php
+canned_attachments:
+  title: Sablon csatolmányok
+  content: >
+    Csatoljon egy fájlt a hibajegyhez, mely automatikusan mellékelve lesz a <span class="doc-desc-title">Sablonválasz</span> létrehozásakor.

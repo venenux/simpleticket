@@ -1,0 +1,10 @@
+---
+type:
+  title: Tip
+  content: >
+    Če je tip oddelka privatni, potem podpis oddelka ni na razpolago ob odgovoru, kakor tudi ne pri dodeljevanju k oddelku znotraj portala klientov.
+dept_manager:
+  title: Vodja oddelka
+  content: >
+    Izbereš lahko agenta kot skrbnika oddelka, da bo prejel alarme in sporočila za zahtevke oddelka.
+  0: Agentu ni potrebno, da je član oddelka, da bi bil vodja oddelka

@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Support
+  signature: Support នាយកដ្ឋាន
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Sales
+  signature: |
+    ផ្នែកលក់និងរក្សាទុកអតិថិជន
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: ថែទាំ
+  signature: |
+    ផ្នែកថែទាំ
+  ispublic: 0
+  group_membership: 0

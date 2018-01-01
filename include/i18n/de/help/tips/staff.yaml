@@ -1,0 +1,17 @@
+---
+signature:
+  title: Agenten Signaturblock
+  content: |
+    Erstellt eine Agenten-Signatur für das Beantworten von Tickets. Die Signatur kann bei der Beantwortung von Tickets ausgewählt werden
+type:
+  title: Kontotyp
+  content: |
+    Administratoren haben die Berechtigung auf den Admin-Bereich zuzugreifen. Agenten haben nur Zugang auf die Verwaltung Ihrer Tickets und auf die Wissensdatenbank
+group:
+  title: Zugewiesene Gruppe
+  content: |
+    Die Gruppenzugehörigkeit legt fest, welche Rolle die Agenten im System haben. Besuchen Sie die Gruppenverwaltungsseite, um festzulegen welche Berechtigungen diese Agenten im Helpdesk erhalten
+notes:
+  title: Interne Notizen
+  content: |
+    Hinterlegen Sie interne Notizen (bezogen auf den Agenten); diese Notizen sind nur für Agenten mit einem Administrator-Konto sichtbar.

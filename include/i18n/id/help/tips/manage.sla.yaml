@@ -1,0 +1,13 @@
+---
+name:
+  title: Nama
+  content: >
+    Pilih nama deskriptif untuk SLA Plan ini yang akan mencerminkan tujuannya.
+grace_period:
+  title: Masa Tenggang
+  content: >
+    Tentukan jumlah jam setelah tiket dibuat yang akan secara otomatis ditandai sebagai terlambat. <br> <br> Jam mulai dihitung pada saat tiket dibuat.
+transient:
+  title: Sementara
+  content: >
+    SLA Sementara bersifat sementara dan dapat ditimpa oleh SLA yang Non-Sementara pada pentransferan <span class="doc-desc-opt">Departemen</span> atau ketika <span class="doc-desc-title">Topik Bantuan</span>-nya diganti.

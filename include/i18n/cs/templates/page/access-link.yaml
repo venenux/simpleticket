@@ -1,0 +1,6 @@
+---
+notes: >
+  Tato šablona definuje oznámaní zákazníkům, že odkaz s přístupem byl odeslán na jejich e-mailovou adresu. Číslo požadavku a e-mailová adresa spustí tento odkaz.
+name: "Odkaz na číslo tiketu [#%{ticket.number}]"
+body: >
+  <h3><strong>Vážený zákazníku,</strong></h3> <div> byla za vás zadána žádost na zaslání odkazu s přístupem k požadavku č. %{ticket.number} v systému zákaznické podpory na adrese %{url}.<br /> <br /> Kliknutím na níže zobrazený odkaz můžete zkontrolovat stav požadavku č. %{ticket.number}.<br /> <br /> <a href="%{recipient.ticket_link}">%{recipient.ticket_link}</a><br /> <br /> Pokud jste <strong>nezadal</strong> tuto žádost, prosíme, smažte tento e-mail a neberte jej na vědomí. Váš účet je stále zabezpečen a nikomu nebyl dán přístup k vašemu požadavku. Někdo nejspíše omylem zadal vaši e-mailovou adresu.<br /> <br /> --<br /> %{company.name} </div>

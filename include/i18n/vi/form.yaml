@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Thông tin liên hệ
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: thư điện tử
+      label: Địa chỉ email
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: thư điện tử
+    - 
+      type: văn bản
+      name: tên
+      label: Họ và tên
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: số điện thoại
+      label: Số điện thoại
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Ghi chú nội bộ
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Thông tin chi tiết Ticket 
+  instructions: Hãy mô tả vấn đề của bạn
+  notes: |
+    Biểu mẫu này sẽ được gắn liền với yêu cầu được gửi, không có ngoại lệ. Bạn có thể thêm các trường mới vào biểu mẫu này để sử dụng cho tất cả các yêu cầu, và có thể tìm kiếm bằng tìm kiếm nâng cao và bộ lọc.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: văn bản
+      name: subject
+      label: Tóm tắt vấn đề
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Chi tiết vấn đề
+      hint: Nội dung chi tiết vấn đề cần hỗ trợ.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: mức độ ưu tiên
+      label: Mức độ ưu tiên
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Thông tin công ty
+  instructions: Thông tin chi tiết có sẵn trong khung mẫu email 
+  deletable: false
+  fields:
+    - 
+      type: văn bản
+      name: name
+      label: Tên công ty
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: văn bản ngắn
+      name: website
+      label: Website
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: số điện thoại
+      name: số điện thoại
+      label: Số điện thoại
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: ghi nhớ
+      name: address
+      label: Địa chỉ
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Thông tin doanh nghiệp
+  instructions: Thông tin công ty của người dùng
+  deletable: false
+  fields:
+    - 
+      type: văn bản ngắn
+      name: tên
+      label: Tên
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: ghi nhớ
+      name: địa chỉ
+      label: Địa chỉ
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: số điện thoại
+      name: số điện thoại
+      label: Số điện thoại
+      required: false
+      sort: 3
+    - 
+      type: văn bản ngắn
+      name: website
+      label: Website
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: ghi nhớ
+      name: ghi chú
+      label: Ghi chú nội bộ
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

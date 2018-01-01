@@ -1,0 +1,42 @@
+---
+notes: |
+  Wysyłane do pracownika obsługi gdy w systemie zostaje utworzone nowe zgłoszenie. Dotyczy zgłoszeń tworzonych poprzez e-mail, stronę www lub api.
+subject: |
+  Powiadomienie o nowym zgłoszeniu
+body: |2
+  <h2>Witaj %{recipient},</h2>
+  Utworzony został nowe zgłoszenie #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Od</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Dział</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Aby zobaczyć lub odpowiedzieć na zgłoszenie proszę <a
+  href="%{ticket.staff_link}">zalogować się</a> do systemu obsługi zgłoszeń</div>
+  <em style="font-size: small">Twój przyjazny System Obsługi Klienta</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

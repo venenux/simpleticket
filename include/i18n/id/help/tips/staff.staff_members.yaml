@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Anggota staf
+  content: >
+    Tabel berikut menampilkan hasil tapis diatas. Jika tidak menapis pengaturan yang dipilih, maka semua <span class = "doc-desc-title"> Agen </span> (Staf) <span class = "doc-desc-title"> Anggota </span> ditampilkan, dan dipecah oleh halaman. Lihat bagian halaman di bawah ini untuk menavigasi melalui hasil lebih lanjut.
+status:
+  title: Status
+  content: >
+    Ini akan menampilkan baik <span class="doc-desc-title">Agen</span> Dikunci, Aktif, atau Aktif (Liburan).

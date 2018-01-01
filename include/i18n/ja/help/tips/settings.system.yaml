@@ -1,0 +1,39 @@
+---
+helpdesk_status:
+  title: ヘルプデスクのステータス
+  content: 'ステータスが<span class="doc-desc-opt">オフライン</span>に変更された場合、クライアントインターフェイスは無効になります。ただし、これは、エージェントパネルでの通常のエージェントのインタラクションには影響しません。'
+helpdesk_url:
+  title: ヘルプデスク用URL
+  content: |
+    このURLはosTikectインストール時にベースとなるURLです。
+    ヘルプデスク上でダイレクトにユーザーとメールによる問い合わせ対応を行うために使われます。
+    
+helpdesk_name_title:
+  title: ヘルプデスク名/タイトル
+  content: ブラウザ上のタブに表示されるタイトルです。ヘルプデスクページをブックマークする場合、これはサイトページのタイトル/名称になります。
+default_department:
+  title: デフォルトの部門
+  content: '自動的に部門にルーティングされないチケットのデフォルトの<span class="doc-desc-title">部門</span>を選択します。<br/><br/>チケットは、ヘルプトピック、受信メール、チケットフィルター設定に基づいてルーティングされます。'
+default_page_size:
+  title: デフォルトのページサイズ
+  content: 'スタッフパネルのチケットキューのページごとに表示される項目の数を選択します。各エージェントは、 <span class="doc-desc-title">設定情報</span>で各自のアカウントにも、この数をカスタマイズできます。'
+default_log_level:
+  title: デフォルトのログレベル
+  content: '<span class="doc-desc-title">システムログ</span>に記録される問題の最小レベルを決定します。<span class="doc-desc-opt">デバッグ</span>は、最小の重要度を示し、<span class="doc-desc-opt">エラー</span>は最大の重要度を示します。たとえば、<span class="doc-desc-title">システムログ</span>ですべての問題を表示したい場合、<span class="doc-desc-opt">デバッグ</span>を選択します。'
+purge_logs:
+  title: ログのパージ
+  content: '<span class="doc-desc-title">システムログ</span>が削除されるまで保持する期間を決定します。'
+default_name_formatting:
+  title: デフォルトの名前のフォーマット
+  content: システム全体で使用する名前のフォーマットを選択します。変数に他のフォーマットが指定されていない場合、メールテンプレートは名前にこのフォーマットを使用します。
+  links:
+    - 
+      title: サポートされるメールテンプレートの変数
+      href: http://osticket.com/wiki/Email_templates
+date_time_options:
+  title: 日付と時刻オプション
+  content: 次の設定は、クライアントに日付と時刻の設定を定義します。PHP 日付フォーマット文字に従って、これらが示される方式を変更できます。以下に示される日付は、単にそれらの対応する値の結果を示します。
+  links:
+    - 
+      title: PHP日付フォーマットテーブルを参照
+      href: http://www.php.net/manual/en/function.date.php

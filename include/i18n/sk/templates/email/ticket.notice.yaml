@@ -1,0 +1,30 @@
+---
+notes: |
+  Pošle sa užívateľovi keď zamestnanec vytvára tiket v mene užívateľa. To sa bežne stáva keď užívateľ nahlási požiadavku cez telefón.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Vážený/á %{recipient.name.first},</strong></h3>
+  Náš tím podpory zákazníkov vytvoril požiadavku, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> vo Vašom zastúpení, s následujúcimi podrobnosťami a zhrnutím:
+  <br>
+  <br>
+  Téma: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Predmet: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Ak to bude potrebné zodpovedná osoba sa s Vami spojí hneď ako to bude možné. Môžete tiež <a href="%{recipient.ticket_link}">online sledovať postup riešenia tejto požadavky</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Váš Tím %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Ak si želáte 
+  poskytnúť dodatočné pripomienky alebo informácie, prosím, odpovedzte na tento e-mail 
+  alebo <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >sa prihláste do svojho účtu</span></a> kde je kompletná historia požiadaviek.</em></div>

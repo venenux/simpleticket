@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Seznami po meri
+  content: >
+    Vaši <span class="doc-desc-title">dodatni seznami</span> vam omogočajo, da naredite spustne menije z vnaprej izbranimi možnostmi, med katerimi lahko izbira vaša stranka v vaših  <span class="doc-desc-title">dodatnih obrazcih</span>. Če bi želeli uporabiti <span class="doc-desc-title">to dodatno listo</span> kot <span class="doc-desc-title">ciljno</span> v <span class="doc-desc-title">filtru zahtevkov</span>, potem dodajte ta seznam v vaš <span class="doc-desc-title">obrazec podrobnosti zahtevka</span>.
+name:
+  title: Naziv
+  content: >
+    
+plural_name:
+  title: Ime množice
+  content: >
+    
+sort_order:
+  title: Sortiraj
+  content: >
+    
+list_s_initial_items:
+  title: Prikaži začetne predmete
+  content: >
+    
+value:
+  title: Vrednost
+  content: >
+    
+extra:
+  title: Dodatno
+  content: >
+    Okrajšave in drugo. Če se ob uporabi notranjih kod slučajno zgodi, da se predmeti pokažejo v tej listi, se lahko okrajšave vpišejo v ta stolpec. Če je običajni list napisan kot  <span class="doc-desc-option"> TypeAhead</span>, se te okrajšave lahko uporabijo kot iskalnik liste predmetov.

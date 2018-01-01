@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Vordefinierte Antwort
+  content: >
+    Erstellen Sie eine <span class="doc-desc-title">Vordefinierte Antwort</span>, die in eine Ticket-Antwort eingefügt werden kann. Sie kann auch als <span class="doc-desc-title">Ticket-Auto-Antwort</span> von einem <span class="doc-desc-title">Ticket-Filter</span> verwendet werden.
+  links:
+    - 
+      title: Ticket-Filter erstellen
+      href: /scp/filters.php
+canned_attachments:
+  title: Vordefinierte Anhänge
+  content: >
+    Hängen Sie eine Datei an, von der Sie möchten, dass sie automatisch in der Ticket-Antwort enthalten sein soll, welche die neue <span class="doc-desc-title">Vordefinierte Antwort</span> benutzt.

@@ -1,0 +1,6 @@
+---
+notes: >
+  crwdns933:0crwdne933:0
+name: "crwdns934:0%{ticket.number}crwdne934:0"
+body: >
+  crwdns935:0%{recipient.name.first}crwdnd935:0%{ticket.number}crwdnd935:0%{url}crwdnd935:0%{ticket.number}crwdnd935:0%{recipient.ticket_link}crwdnd935:0%{recipient.ticket_link}crwdnd935:0%{company.name}crwdne935:0

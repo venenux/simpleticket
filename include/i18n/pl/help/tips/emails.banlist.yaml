@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Zablokowane adresy e-mail
+  content: >
+    Wiadomości otrzymane z adresu znajdującego się na liście zablokowanych e-maili zostaną automatycznie odrzucone.

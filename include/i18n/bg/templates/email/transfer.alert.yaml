@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  Заявка №%{ticket.number} е прехвърлена - %{ticket.dept.name}
+body: |2
+  <h3>Здравейте %{recipient.name},</h3>
+  Заявка <a href="%{ticket.staff_link}">№%{ticket.number}</a> е прехвърлена
+  към отдел %{ticket.dept.name} от <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>За да видите или отговорите на заявката, моля <a
+  href="%{ticket.staff_link}">влезте</a> в системата за поддръжка.
+  </div>
+  <em style="font-size: small; ">Вашата приятелска система за поддръжка</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

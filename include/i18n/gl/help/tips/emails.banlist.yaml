@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Enderezos de correo electrónico prohibidos
+  content: >
+    Correos electrónicos recibidos de enderezos incluidos na lista de prohibición serán automaticamente rexeitados.

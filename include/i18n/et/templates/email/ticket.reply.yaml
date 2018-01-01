@@ -1,0 +1,19 @@
+---
+notes: |
+  Saadetakse kasutajale, kui meeskonna liige saadab pöördumisele vastuse. Vastuse saab koostada vaid meeskonnaliige.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Lugupeetud %{recipient.name}</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Sinu %{company.name} meeskond<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Loodetavasti see kiri oli vastuseks Sinu küsimusele. Kui mitte, siis palun vasta sellele e-kirjale või 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >logi sisse
+  </a>, et vaadata kõiki oma pöördumisi ja vastuseid neile.</em></div>

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Membros do equipo
+  content: >
+    A seguinte táboa amosa os resultados do filtro situado enriba dela. Se non estableceron filtros, todos os <span class="doc-desc-title">Membros do Equipo</span> son amosados e separados por páxinas. Vexa a sección de páxinas embaixo para navegar a través de máis resultados.
+apply_filtering_criteria:
+  title: Aplicar criterios de filtrado
+  content: >
+    Elixa un <span class="doc-desc-title">Departamento</span> que sexa relevante para os seus intereses actuais. Tamén pode realizar una procura dun axente específico.

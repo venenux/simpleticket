@@ -1,0 +1,30 @@
+---
+notes: |
+  Šalje se korisniku kada se automatski odgovor iz liste unapred definisanih odgovora pošalje u tiketu kada se kreira.
+  
+  Promenljive dostupne za izmene: %{ticket.*}, %{response}
+subject: 'Odgovor: %{ticket.subject}'
+body: |
+  <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
+  Zahtev za podršku je kreiran i dodeljen je tiket <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> sa sledećim
+  automatskim odgovorom
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Predmet: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Vaš %{company.name} tim,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Nadamo se
+  da je ovaj odgovor u dovoljnoj meri odgovorio na vaša pitanja. Ako želite da
+  dopunite dodatne komentare ili informacije, odgovorite na ovaj imejl
+  ili <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >se ulogujte na svoj nalog</span></a> da biste
+  videli kompletnu arhivu svojih zahteva za podršku.</em></div>

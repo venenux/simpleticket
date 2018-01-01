@@ -1,0 +1,69 @@
+---
+type:
+  title: Tip
+  content: >
+    <span class="doc-desc-opt">Şəxsi</span> seçin, əgər müştəri portalında şöbədəki tapşırıqları maskalamaq istəyirsinizsə. Bundan əlavə, <span class="doc-desc-opt">şəxsi</span> kimi etiketləyəndə <span class="doc-desc-title">şöbə imzası</span> e-poçta cavablarda görünməyəcək. <br/><br/> Ən azı bir şöbə <span class="doc-desc-opt">ictimai</span> olmalıdır
+email:
+  title: Email
+  content: >
+    E-poçt ünvanı agentlər sorğulara cavab yazanda, cavablar istifadəçiyə göndəriləndə istifadə olunur.
+template:
+  title: Şablon quraşdırılması
+  content: >
+    E-poçt <span class="doc-desc-title">şablon quraşdırılması</span> bu şöbəyə yönləndirilən avtomatik cavablar və siqnallar &amp; xəbərdarlıqlar üçün istifadə olunur.
+  links:
+    - 
+      title: Şablonları idarə edin
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Bu şöbəyə yönləndirilən sorğular üçün xidmət səviyyə razılaşması.
+  links:
+    - 
+      title: SLA planları idarə edin
+      href: /scp/slas.php
+manager:
+  title: Şöbə meneceri
+  content: >
+    Bu şöbə üçün <span class="doc-desc-title">menecer</span> seçin. <br/><br/> Menecerlər xüsusi siqnallar qəbul etməyi konfiqurasiya edə bilməlidirlər və həmçinin təyin olunmamış sorğulara baxmaq haqları var.
+  links:
+    - 
+      title: Sİqnalları &amp; xəbərdarlıqları idarə edin
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Xəbərdarlıq &amp; siqnallarını qəbul edənlər
+  content: >
+    Konfiqurasiya olunmuş <span class="doc-desc-title">xəbərdarlıq &amp; siqnallarının</span> qəbuledicilərini seçin.
+  links:
+    - 
+      title: Xəbərdarlıq &amp; siqnallarını konfiqurasiya edin
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Sorğu təyinatı məhdudiyyətləri
+  content: >
+    Ancaq bu şöbəyə aid olan üzvlərə sorğu təyinatını məhdudlaşdırmaq üçün bunu aktiv edin. Şöbəyə giriş qruplara da yayılmalıdır, əgər <span class="doc-desc-title">qrup üzvlüyü</span> də aktivdirsə.
+auto_response_settings:
+  title: Avtomatik cavab tənzimləmələri
+  content: >
+    Bu, sizə bu şöbə üçün qlobal cavabverənin tənzimləmələrini ləğv etməyə icazə verir.
+new_ticket:
+  title: Yeni sorğuya avtomatik cavab
+  content: >
+    Yeni sorğu yaradılanda və bu şöbəyə yönləndiriləndə istifadəçiyə avtomatik cavab göndərilməsini deaktiv edə bilərsiniz.
+new_message:
+  title: Yeni mesaj avtomatik cavabı
+  content: >
+    Bu şöbədə sorğular üçün yeni yazılmış mesajı təsdiq etmək üçün istifadəçiyə avtomatik cavabın göndərilməsini deaktiv edə bilərsiniz.
+auto_response_email:
+  title: E-poçta avtomatik cavab
+  content: >
+    Bu şöbə üçün göndərilən avtomatik cavablardan e-poçt ünvanı seçin.
+department_access:
+  title: Qrupa giriş
+  content: >
+    Bu şöbənin sorğularına digər şöbələrdən agentlərin girişini qəbul edin.
+department_signature:
+  title: Şöbə imzası
+  content: >
+    İmzanın seçim kimi mövcud olması düzəldilib, agent cavablarında <span class="doc-desc-opt">ictimai</span> şöbələr üçün.

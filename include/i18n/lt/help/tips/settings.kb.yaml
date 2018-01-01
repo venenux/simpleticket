@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Žinių bazės nustatymai
+  content: >
+    
+knowledge_base_status:
+  title: Žinių bazės statusas
+  content: >
+    Įgalinkite šį parametrą, kad suteiktumėte vartotojams savitarnos prieigą prie savo viešosios žinių bazės straipsnių.<br><br>Žinių bazės kategorijos ir DUK gali būti vidiniai (matomi tik Agentams).
+  links:
+    - 
+      title: Žinių bazės valdymas
+      href: /scp/kb.php
+restrict_kb:
+  title: Apriboti prieigą prie žinių bazės
+  content: >
+    Įgalinkite šį parametrą siekiant uždrausti neregistruotiems vartotojams prieigą prie žinių bazės kliento sąsajoje.
+  links:
+    - 
+      title: Prieigos kontrolės nustatymai
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Paruošti atsakymai
+  content: >
+    Įgalinkite šį parametrą, kad agentams būtų leidžiama naudoti<span class="doc-desc-title">Paruoštus atsakymus</span>atsakant į užklausas.
+  links:
+    - 
+      title: Valdyti uždelstus atsakymus
+      href: /scp/canned.php

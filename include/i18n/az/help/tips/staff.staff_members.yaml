@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Heyət üzvləri
+  content: >
+    Növbəti cədvəlin nəticələri filterin yuxarısında görünür. Əgər filter tənzimləmələri seçilməyibsə, onda bütün <span class="doc-desc-title">agent</span> (heyət) <span class="doc-desc-title">üzvləri</span> görünəcək və səhifələr tərəfindən dağıdılacaq. Daha çox nəticələr yönləndirmək istəyirsinizsə səhifələr bölməsinin aşağısına baxın.
+status:
+  title: Vəziyyət
+  content: >
+    Bu, <span class="doc-desc-title">agent</span> kilidli, aktiv və ya məzuniyyətdə (aktiv) olanda görünəcək.

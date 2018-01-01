@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: 测试发送邮件
+  content: >
+    邮件接收是依据您服务器的设置 (php.ini) 和/或 SMTP 设置
+  links:
+    - 
+      title: 筛选某个邮箱设置 SMTP (发送) 配置
+      href: /scp/emails.php
+from:
+  title: 发自
+  content: >
+    
+to:
+  title: 至
+  content: >
+    
+subject:
+  title: 主题
+  content: >
+    
+message:
+  title: 内容
+  content: >
+    

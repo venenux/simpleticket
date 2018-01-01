@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Podpora
+  signature: Oddělení podpory
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Prodej
+  signature: |
+    Prodej a udržení zákazníků
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Údržba
+  signature: |
+    Oddělení údržby
+  ispublic: 0
+  group_membership: 0

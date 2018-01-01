@@ -1,0 +1,18 @@
+---
+notes: |
+  زمانی ارسال می شود که یک پاسخ از قبل تعریف شده (پاسخ آماده) درجواب درخواست کاربر ارسال می شود.
+  
+  متغیر های موجود برای جایگذاری در متن پیام: %{ticket.*}, %{response}
+subject: |
+  پاسخ: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>%{recipient.name.first} عزیز،</strong></h3>
+  یک درخواست پشتیبانی ایجاد شده است و درخواست<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> با پاسخ خودکار زیر به آن اختصاص شده است
+  <br><br>
+  عنوان : <strong>%{ticket.topic.name}</strong><br>
+  موضوع : <strong>%{ticket.subject}</strong><br><br>
+  %{response}<br><br><div style="color: rgb(127, 127, 127);"> تیم پشتیبانی %{company.name}<br>
+  %{signature}</div>
+  <hr><div style="color: rgb(127, 127, 127); font-size: small;"><em> امیدواریم این پاسخ برای شما رضایت‌بخش باشد. اگر می‌خواهید اطلاعات یا توضیحات بیشتری ارائه دهید،لطفا به این ایمیل پاسخ دهید یا برای تکمیل سابقه درخواست خود <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" > به حساب کاربری خود وارد شوید</span></a>.</em></div>

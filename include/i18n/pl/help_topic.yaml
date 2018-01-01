@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Zapytanie ogólne
+  notes: Pytania dotyczące produktów lub usług
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Opinia
+  notes: |
+    Zgłoszenia, które dotyczą głównie działu sprzedaży i rozliczeń
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Zgłoś problem
+  notes: |
+    Sprawy związane z produktem, usługą lub urządzeniem
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problem z dostępem
+  notes: |
+    Zgłoś brak możliwości dostępu fizycznego lub wirtualnego

@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Status Helpdesku
+  content: >
+    Pokud se stav změní na <span class = "doc-desc-opt"> Offline </ span>, klientské rozhraní bude zakázáno. Nemá však vliv na běžnou činnost v agentském rozhraní.
+helpdesk_url:
+  title: URL Helpdesku
+  content: >
+    Tento URL odkaz je základní pro osTicket instalaci. Používá se v e-mailové komunikaci pro směrování koncových uživatelů zpět na Helpdesk.
+helpdesk_name_title:
+  title: Helpdesk jméno/název
+  content: >
+    Název zobrazení v kartě prohlížeče. Pokud je Váš help-desk v záložkách, bude tento název zobrazen jako jméno stránky.
+default_department:
+  title: Výchozí oddělení
+  content: >
+    Vyberte výchozí <span class="doc-desc-title">oddělení</span> pro požadavky které nejsou automaticky směrovány do oddělení. <br/><br/> Požadavky mohou být směrovány na základě druhu požadavku, příchozího emailu a nastavení filtrování požadavků.
+default_page_size:
+  title: Výchozí velikost stránky
+  content: >
+    Zvolte požet záznamů zobrazených na stránce ve frontách požadavků na panelu zaměstnance. Každý agent si může nastavit tento počet pro svůj vlastní účet na stránce  <span class="doc-desc-title">Mé předvolby</span>.
+default_log_level:
+  title: Výchozí úroveň logu
+  content: >
+    Určuje nejnižší úroveň problémů, které budou zaznamenávány do <span class="doc-desc-title">systémového logu</span>. <span class="doc-desc-opt">Debug</span> znamená nejnižší závažnost a <span class="doc-desc-opt">Error</span> znamená nejvyšší. Pokud například chcete vidět všechny problémy v <span class="doc-desc-title">systémovém logu</span>, zvolte <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Mazání systémových záznamů logu
+  content: >
+    Určuje dobu, po kterou budou uchovávány <span class="doc-desc-title">systémové záznamy</span>, než budou smazány.
+default_name_formatting:
+  title: Výchozí formát jména
+  content: >
+    Zvolte formát pro zobrazení jmen v systému. E-mailové šablony budou používat tento formát, pokud není specifikován jiný formát při použití proměnné.
+  links:
+    - 
+      title: Podporované proměnné v šablonách e-mailů
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Možnosti data a času
+  content: >
+    Následující nastavení definuje zobrazení data a času zákazníkům. Můžete je změnit pomocí formátovacích znaků PHP. Níze zobrazená data ukazují, jak bude výsledný formát vypadat.
+  links:
+    - 
+      title: Formátovacích znaky data v PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

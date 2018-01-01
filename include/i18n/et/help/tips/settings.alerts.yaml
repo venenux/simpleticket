@@ -1,0 +1,67 @@
+---
+page_title:
+  title: Hoiatused ja teated
+  content: >
+    Hoiatused ja teated on automaatsed e-kirjad, mis saadetakse agentidele, kui pöördumise juures on muudatusi.
+ticket_alert:
+  title: Teade uuest pöördumisest
+  content: >
+    <p>Hoiatus, mis saadetakse agendile uue pöördumise loomisel.</p><p class="info-banner"><i class="icon-info-sign"></i>Seda hoiatust ei saadeta, kui pöördumine on automaatselt lahendamiseks määratud pöördumiste filtri või abiteema kaudu.</p>
+  links:
+    - 
+      title: Uue pöördumise hoiatuse mall vaikimisi
+      href: /scp/templates.php?default_for=ticket.alert
+message_alert:
+  title: Teade uue sõnumi saabumisest
+  content: >
+    Hoiatus, mis saadetakse, kui kasutaja lisab pöördumisele uue teate.
+  links:
+    - 
+      title: Uue teate hoiatuse mall vaikimisi
+      href: /scp/templates.php?default_for=message.alert
+internal_note_alert:
+  title: Uus sisemise aktiivsuse hoiatus
+  content: >
+    Hoiatus, mis saadetakse agendile, kui on pöördumisele on lisatud sisemine märge või agendi teade.
+  links:
+    - 
+      title: Pöördumise tegevuse mall vaikimisi
+      href: /scp/templates.php?default_for=note.alert
+assignment_alert:
+  title: Pöördumise määramise hoiatus
+  content: >
+    Agendile saadetakse pöördumise määramise hoiatus.
+  links:
+    - 
+      title: Pöördumise määramise hoiatuse mall vaikimisi
+      href: /scp/templates.php?default_for=assigned.alert
+transfer_alert:
+  title: Pöördumise teisaldamise hoiatus
+  content: >
+    Hoiatus, mis saadetakse agendile, kui pöördumine suunatakse teisele osakonnale.
+  links:
+    - 
+      title: Pöördumise ümbersuunamise hoiatuse mall vaikimisi
+      href: /scp/templates.php?default_for=transfer.alert
+overdue_alert:
+  title: Üle aja pöördumise hoiatus
+  content: >
+    Hoiatus, mis saadetakse agentidele, kui pöördumise lähendamiseks määratud aeg on SLA või tähtaja järgi möödas.
+  links:
+    - 
+      title: Aegunud pöördumise hoiatuse mall vaikimisi
+      href: /scp/templates.php?default_for=ticket.overdue
+    - 
+      title: Halda SLA-sid
+      href: /scp/slas.php
+system_alerts:
+  title: Süsteemi hoiatused
+  content: >
+    Oluline süsteemi sündmus, mille kohta saadetakse teade administraatorile (%{config.admin_email}). Sõltuvalt <span class="doc-desc-title">logi taseme</span> seadistusest, on sündmused kättesaadavad ka <span class="doc-desc-title">süsteemi logides</span>
+  links:
+    - 
+      title: Vaata süsteemi logisid
+      href: /scp/logs.php
+    - 
+      title: Muuda administraatori e-posti aadressi
+      href: /scp/settings.php?t=emails

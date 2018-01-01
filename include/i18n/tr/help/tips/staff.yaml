@@ -1,0 +1,18 @@
+---
+signature:
+  title: Personel imza satırı
+  content: |
+    Personellerin cevaplarında kullanacağı imzayı oluşturun. Bu imza talep cevabı yazılırken altta seçenek olarak görünecektir
+type:
+  title: Hesap türü
+  content: |
+    Yöneticiler, Yönetici Paneli erişim hakkına sahiptir. Personeller sadece taleplere ve bilgi bankasına erişebilirler
+group:
+  title: Atanan grup
+  content: |2
+     		
+    Grup üyeliği personelin sistemdeki rolünü belirler. Yardım masasında bu personel için hangi erişime izin vermek istiyorsanız grup yönetimi sayfasını ziyaret edin.
+notes:
+  title: Dahili notlar
+  content: |
+    Personel ile ilgili dahili notlar yerleştirin; Not yalnızca yönetici hesabı türü olan personel için görülebilir

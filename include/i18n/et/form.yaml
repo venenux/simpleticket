@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Kontaktinfo
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: E-posti aadress
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Täisnimi
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefoninumber
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Sisemised märkused
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Pöördumise detailid
+  instructions: Palun kirjeldage oma probleemi
+  notes: |
+    See vorm lisatakse kõikidele pöördumistele. Sa saad lisada sellele vajadusel välju - need on kõikide pöördumiste juures kättesaadavad ja täpsemate otsingute ning filtritega leitavad.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Probleemi kokkuvõte
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Probleemi detailid
+      hint: Pöördumise põhjus(t)e üksikasjad.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Prioriteedi tase
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Ettevõtte info
+  instructions: Üksikasjad on saadaval e-kirja mallides
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Ettevõtte nimi
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Veebiaadress
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefoninumber
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Aadress
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Organisatsiooni info
+  instructions: Kasutaja organisatsiooni üksikasjad
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nimi
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Aadress
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Veebiaadress
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Sisemised märkused
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: 외부 송출 이메일 테스트
+  content: >
+    이메일 전달은 서버 설정 (php.ini) 및 SMTP 설정에 영향을 받습니다.
+  links:
+    - 
+      title: 이메일을 선택하여 SMTP (발송) 설정을 변경합니다.
+      href: /scp/emails.php
+from:
+  title: 발신자
+  content: >
+    
+to:
+  title: 수신자
+  content: >
+    
+subject:
+  title: 제목
+  content: >
+    
+message:
+  title: 메세지
+  content: >
+    

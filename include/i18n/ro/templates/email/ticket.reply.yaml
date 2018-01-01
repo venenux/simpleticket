@@ -1,0 +1,18 @@
+---
+notes: |
+  Trimis catre utilizatori cand un membru angajat raspunde la un tichet al lor. Raspunsurile sunt generate doar de catre un membru angajat.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Draga %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Cu drag echipa %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Speram ca aceast raspuns a oferit toate informatiile dorite. Daca nu, va rugam sa nu trimiteti un alt email. In schimb, raspunde la acest email sau 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >autentifica-te in contul tau</a> pentru a raspunde acesteui tichet si pentru o arhiva completa a cererilor tale de suport.</em></div>

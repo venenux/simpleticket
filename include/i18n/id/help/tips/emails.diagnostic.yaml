@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Menguji Email keluar
+  content: >
+    Pengiriman email tergantung pada pengaturan server (php.ini) dan/atau konfigurasi SMTP.
+  links:
+    - 
+      title: Pilih email untuk mengkonfigurasi pengaturan SMTP (keluar)
+      href: /scp/emails.php
+from:
+  title: Dari
+  content: >
+    
+to:
+  title: Untuk
+  content: >
+    
+subject:
+  title: Subjek
+  content: >
+    
+message:
+  title: Pesan
+  content: >
+    

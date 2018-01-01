@@ -1,0 +1,179 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informasi Kontak
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Alamat Email
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Nama Lengkap
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Nomor Telepon
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Catatan Internal
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Detail Tiket
+  instructions: Mohon Jelaskan Permasalahan Anda
+  notes: |
+    Form ini akan dilampirkan ke setiap tiket, tidak peduli dari mana asalnya.
+    Anda dapat menambahkan field apapun ke form ini dan mereka akan 
+    tersedia ke semua tiket, dan akan dapat dicari dengan pencarian lanjutan 
+    dan juga dapat disaring.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Ringkasan Permasalahan
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Rincian permasalahan
+      hint: Rincian alasan untuk membuka tiket.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Level Prioritas
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Informasi Perusahaan
+  instructions: Rincian tersedia dalam email template
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nama Perusahaan
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Website
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Nomor Telepon
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Alamat
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informasi organisasi
+  instructions: Rincian tentang pengguna organisasi
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nama
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Alamat
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telepon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Website
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Catatan Internal
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

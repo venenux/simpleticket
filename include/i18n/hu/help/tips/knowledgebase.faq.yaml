@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Listázás típusa
+  content: >
+    Válassza a <span class="doc-desc-opt">Nyilvános (közzététel)</span> lehetőséget, ha szeretné, hogy a <span class="doc-desc-title"> GYIK</span> megjelenjen a nyilvános tudásbázisban, ha a szülő kategória nyilvános.
+  links:
+    - 
+      title: Engedélyezze a nyilvános tudásbázist az ügyfél portálon
+      href: /scp/settings.php?t=kb

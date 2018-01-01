@@ -1,0 +1,67 @@
+---
+username:
+  title: Username
+  content: >
+    Si prega di scegliere un <span class="doc-desc-title"> nome utente</span>  univoco per l'operatore nel tuo <span class="doc-desc-title"> Help Desk</span>.
+email_address:
+  title: Indirizzo Email
+  content: >
+    Inserisci l'email dell'operatore che riceverà <span class="doc-desc-title"> gli avvisi &amp; le comunicazioni</span> dall' <span class="doc-desc-title">Help Desk</span>.
+  0: <br><br>
+  1: Lo staff può accedere al pannello di controllo dello staff con un nome utente oppure con un indirizzo email.
+welcome_email:
+  title: Email di benvenuto
+  content: >
+    Inviare al nuovo operatore un collegamento con cui l'operatore sarà in grado di impostare la propria password. Se non è selezionato, è necessario impostare password e comunicare le informazioni di log-in al nuovo personale.
+account_password:
+  title: Password dell'account
+  content: >
+    Come <span class="doc-desc-title"> amministratore</span>, si può cambiare la password di un operatore.
+forced_password_change:
+  title: Forza il cambio password
+  content: >
+    Abilitatelo se volete forzare il nuovo operatore a cambiare la propria password al successivo log-in.
+agents_signature:
+  title: Firma dell'operatore
+  content: >
+    Creare una firma per l'operatore che può essere selezionata quando si risponde a un ticket.
+account_status:
+  title: Stato dell'account
+  content: >
+    Se lo stato dell'operatore è <span class="doc-desc-opt"> bloccato</span>, non sarà in grado di accedere all'help desk.
+assigned_group:
+  title: Gruppo assegnato
+  content: >
+    Il <span class="doc-desc-title"> gruppo</span> scelto per questo operatoredeterminerà quali autorizzazioni avrà all'interno dell' <span class="doc-desc-title"> Help Desk</span>.
+  links:
+    - 
+      title: Gestisci Gruppi
+      href: /scp/groups.php
+primary_department:
+  title: Reparto Primario
+  content: >
+    Scegli il <span class="doc-desc-title">reparto</span> primario a cui appartiene questo agente.
+  links:
+    - 
+      title: Gestire i reparti
+      href: /scp/departments.php
+daylight_saving:
+  title: Imposta l'Ora Legale
+  content: >
+    Abilitare questa funzione se vuoi che il salvataggio giornaliero sia automatico per il fuso orario di questo operatore .
+limited_access:
+  title: Accesso limitato
+  content: >
+    Se abilitato, l'operatore avrà solo accesso ai ticket assegnati direttamente o tramite il Team.
+directory_listing:
+  title: Mostra elenco
+  content: >
+    Abilitatelo se volete elencare questo operatore nella <span class="doc-desc-title"> Directory personale</span>.
+  links:
+    - 
+      title: Visita la Directory del Team
+      href: /scp/directory.php
+vacation_mode:
+  title: Modalità vacanza
+  content: >
+    Se si modifica lo stato dell'agente in <span class="doc-desc-opt">Modalità vacanza</span>, l'agente non riceverà alcun<span class="doc-desc-title"> avviso &amp; comunicazione</span>, ne sarà disponibile per l'assegnazione dei ticket.

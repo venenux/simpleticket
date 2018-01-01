@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Aperto
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Ticket Aperti.
+- 
+  id: 2
+  name: Risolto
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Ticket risolti sono ticket chiusi che possono essere riaperti dall'utente finale. Questo potrebbe essere utile quando un trigger viene utilizzato per chiudere i ticket risolti con una notifica inviata all'utente finale.
+- 
+  id: 3
+  name: Chiuso
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Ticket contrassegnato come chiuso non può essere riaperto dall'utente finale. I ticket saranno ancora accessibili sui pannelli dei clienti e dello staff.
+- 
+  id: 4
+  name: Archiviato
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Ticket disponibili in amministrazione, ma non accessibili nelle liste ticket.
+- 
+  id: 5
+  name: Eliminato
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Ticket in coda per la cancellazione. Non accessibili sulle code dei ticket.

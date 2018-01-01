@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Personeller
+  content: >
+    Gelecek tablo yukarıdaki filtrenin sonucunu gösterir. Eğer bir filtre seçeneği belirtilmemişse, o zaman <span class="doc-desc-title">Temsilci</span>(Personel)<span class="doc-desc-title">Üyeler</span> sayfalara bölünerek gösterilecektir. Aşağıdaki sayfalar kısmını kullanarak daha fazla sonuca erişebilirsiniz.
+status:
+  title: Durum
+  content: >
+    Bu <span class="doc-desc-title">Ajan</span> Kilitli,aktif,veya aktif tatilde olarak görüntülenecek

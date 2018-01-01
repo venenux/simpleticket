@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Format de numeració de tiquet
+  content: >
+    Aquesta configuració s'utilitza per a generar números de tiquet. Utilitzeu símbols coixinet (`#`) on han d'anar els dígits. Qualsevol altre text en el format del número es mantindrà. <span class="doc-desc-title">Temes d'ajuda</span> pot definir formats de número personalitzats. <br/><br/> Per exemple, per a números de sis dígits, useu <code>######</code>.
+sequence_id:
+  title: Seqüència de números de tiquet
+  content: >
+    Trie una seqüència de la qual deriven els números de tiquet. El sistema té una seqüència incremental i una seqüència aleatòria per defecte. Pot crear totes les seqüències que desitge. Use varies seqüències en la configuració de <span class="doc-desc-title">Format de número de tiquet</span> per a temes d'ajuda.
+default_ticket_status:
+  title: Estat per defecte per a nous tiquets
+  content: >
+    Trie un estat com predeterminat per als nous tiquets. Açò pot definir-se per a cada tema d'ajuda, si es vol. També pot ser invalidat per un filtre de tiquet.
+  links:
+    - 
+      title: Gestionar estats de tiquet
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: SLA per defecte
+  content: >
+    Trie el SLA per defecte per gestionar quant de temps pot romandre un  Ticket obert abans que estiga endarrerit.
+  links:
+    - 
+      title: Crear més Plans SLA
+      href: /scp/slas.php
+default_priority:
+  title: Prioritat predeterminada
+  content: >
+    Trie una<span class="doc-desc-title"> prioritat </span> per defecte per als Tickets que no tenen assignada una prioritat automàticament. <br/> <br/> La prioritat pot assignar-se a través del tema d'ajuda,  Departament d'enroutació o configuració de filtres de Ticket.
+maximum_open_tickets:
+  title: Màxim de Tickets oberts
+  content: >
+    Introduir el màxim <em>nombre</em> de Tickets que a un usuari se li està permès tindre <strong>oberts</strong> al seu sistema de suport. <br><br>Intro <span class="doc-desc-opt"> 0</span> si preferix desactivar aquesta limitació.
+agent_collision_avoidance:
+  title: Evitació de col·lisió d'agents
+  content: >
+    Introduïxca la durada màxima del temps que a un Agent se li està permes mantenir un bloqueig en un Ticket sense cap activitat. <br><br>escrigui <span class="doc-desc-opt"> 0</span> per desactivar la característica de desbloqueig.
+email_ticket_priority:
+  title: Prioritat d'Email del Ticket
+  content: >
+    Utilitze prioritat de email assignad per adresses de servei de email
+show_related_tickets:
+  title: Mostra els Tickets relacionats
+  content: >
+    Mostra tots els Tickets relacionats al login d'usuari - altrament l'accés és restringit a una visualització de Tickets per autenticar-se
+human_verification:
+  title: Verificació humana
+  content: >
+    active CAPTCHA al Portal del Client per verificar que un Ticket d'entrada és el resultat de l'activitat humana. <br><br>GDLib requerix llibreria
+claim_tickets:
+  title: Reclamació de Tickets a la resposta
+  content: >
+    Permetre a això la assignació automàtica de Tickets a l'Agent de resposta. <br><br>Els Tickets reoberts estan sempre assignats a l'últim demandat.
+assigned_tickets:
+  title: Tickets assignats
+  content: >
+    Permetre aquesta característica per excloure Tickets assignats <span class="doc-desc-title">A la cua oberta de Tickets</span>.
+answered_tickets:
+  title: Tickets contestats
+  content: >
+    Permetre aquesta funció per mostrar els Tickets contestats a la <span class="doc-desc-title"> cua de Tickets contestats</span>. En cas contrari, seran incorporats a la <span class="doc-desc-title"> Cua de Tickets oberts</span>.
+staff_identity_masking:
+  title: Emmascarament d'identitat personal
+  content: >
+    Si està activat, això amagarà el nom de l'Agent del Client durant qualsevol comunicació.
+enable_html_ticket_thread:
+  title: Permetre un fil de Ticket HTML
+  content: >
+    Si està activat, es permetrà l'ús de text enriquit entre els Clients i Agents.
+ticket_attachment_settings:
+  title: Adjunts al fil del tiquet
+  content: >
+    Configurar opcions per arxius adjunts al camp <span class="doc-desc-title">detalls del problema</span>. Aquestes opcions són usades per a tots els nous tiquets i nous missatges independentment del canal origen (portal web, correu-e, api, etc.).
+max_file_size:
+  title: Grandària màxima d'arxius
+  content: >
+    Trie una grandària màxima per als adjunts pujats per agents. Açò inclou adjunts embeguts, articles de base de coneixement, y adjunts a respostes de tiquet.
+ticket_response_files:
+  title: Arxius de resposta de Ticket
+  content: >
+    Si està activat, qualsevol arxiu adjunt que un Agent pot adjuntar una resposta de Ticket també inclourà a l'e-mail a l'usuari.

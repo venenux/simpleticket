@@ -1,0 +1,8 @@
+---
+- 
+  id: 1
+  name: Genel Talepler
+  next: 1
+  padding: 1
+  increment: 1
+  flags: 1

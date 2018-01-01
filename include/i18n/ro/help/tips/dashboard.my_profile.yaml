@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informații de contact
+  content: >
+    
+username:
+  title: Nume de utilizator
+  content: >
+    Doar acei Agenti cu statut de Admin pot modifica numele de utilizator. Daca esti Agent cu privilegii de Admin, poti modifica un nume de utilizator selectand Agent-ul pe care vrei sa-l editezi din tabelul cu <span class="doc-desc-title">Membrii Personalului</span>.
+  links:
+    - 
+      title: Modifică un nume de utilizator ca Administrator
+      href: /scp/staff.php
+time_zone:
+  title: Fusul orar
+  content: >
+    
+daylight_saving:
+  title: Ora de vara
+  content: >
+    
+maximum_page_size:
+  title: Dimensiunea maxima a paginii
+  content: >
+    
+auto_refresh_rate:
+  title: Perioada de autoreimprospatare
+  content: >
+    
+default_signature:
+  title: Semnatura implicita
+  content: >
+    
+default_paper_size:
+  title: Dimensiunea implicita a hartiei
+  content: >
+    
+show_assigned_tickets:
+  title: Arata tichete atribuite
+  content: >
+    Activează această opțiune pentru a-ți ascunde numele de utilizator din lista cu <span class="doc-desc-title">Tichete Deschise</span> care vă sunt atribuite. După ascundere, locul ocupat in mod normal de numele tău de utilizator va fi inlocuit de <span class="doc-desc-title">Departament</span>ul din care faci parte.
+password:
+  title: Parola
+  content: >
+    
+current_password:
+  title: Parola Curenta
+  content: >
+    
+new_password:
+  title: Parola Noua
+  content: >
+    
+confirm_new_password:
+  title: Confirma Parola
+  content: >
+    
+signature:
+  title: Semnatura
+  content: >
+    Crează o <span class="doc-desc-title">Semnatură</span> opțională care poate apărea la sfârșitul Răspunsurilor tale la Tichete. Dacă această Semnatură apare sau nu, depinde de Șablonul Email care va fi utilizat în Răspunsul la Tichet.
+  links:
+    - 
+      title: Creează șabloane pentru email în Panoul de Administrare
+      href: /scp/templates.php

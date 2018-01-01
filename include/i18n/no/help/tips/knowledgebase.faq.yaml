@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Oppføringstype
+  content: >
+    Velg <span class="doc-desc-opt"> offentlige (publisere)</span> hvis du ønsker at denne <span class="doc-desc-title"> FAQ</span> publiseres på offentlige kunnskapsbase Hvis den overordnede kategorien er offentlig.
+  links:
+    - 
+      title: Aktiver den offentlige kunnskapsbasen for klient Portalen
+      href: /scp/settings.php?t=kb

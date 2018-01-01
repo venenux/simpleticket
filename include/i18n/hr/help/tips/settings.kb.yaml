@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Postavke baze znanja
+  content: >
+    
+knowledge_base_status:
+  title: Status baze znanja
+  content: >
+    Omogućite ovu postavku kako biste omogućili korisnicima pristup javnoj bazi znanja. <br><br> Kategorije baze znanja i Često postavljanih pitanja mogu se urediti interno (vidljivo samo djelatnicima).
+  links:
+    - 
+      title: Upravljanje bazom znanja
+      href: /scp/kb.php
+restrict_kb:
+  title: Ograničite pristup na bazu znanja
+  content: >
+    Uključite ovu opciju da onemogućite neregistriranim korisnicima pristup podacima u vašoj bazi znanja preko klijentskog sučelja.
+  links:
+    - 
+      title: Pristupite kontrolnim postavkama
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Pripremljeni odgovori
+  content: >
+    Omogućite ovu postavku kako biste omogućili djelatnicima da koriste <span class="doc-desc-title">Pripremljene odgovore</span> kada odgovaraju na kartice (Ticket-e).
+  links:
+    - 
+      title: Upravljanje pripremljenim odgovorima
+      href: /scp/canned.php

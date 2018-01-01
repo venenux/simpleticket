@@ -1,0 +1,24 @@
+---
+notes: |
+  
+subject: |
+  Μεταφορά Δελτίου: #%{ticket.number} - %{ticket.dept.name}
+body: |
+  <h3>Χαίρετε %{recipient.name},</h3>
+  Το Δελτίο <a href="%{ticket.staff_link}">#%{ticket.number}</a> έχει
+  μεταφερθεί στο τμήμα %{ticket.dept.name} από τον 
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+  %{comments}
+  </blockquote>
+  <hr>
+  <div>Για να δείτε ή να απαντήσετε στο δελτίο, παρακαλούμε <a
+  href="%{ticket.staff_link}">συνδεθείτε</a> στο Σύστημα Υποστήριξης.
+  </div>
+  <em style="font-size: small; ">Φιλικά, το Κέντρο Υποστήριξης</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  alt="Powered By osTicket" style="width: 126px;"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

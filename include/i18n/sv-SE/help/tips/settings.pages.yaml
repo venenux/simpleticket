@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Företagsinformation
+  content: >
+    Detta avser det företag eller den organisation som kommer att dra nytta av osTicket-programvaran och dess supportpersonal. Texten kommer att visas som e-postsignatur (dvs sidfoten) när ärenden besvaras av personer i supportpersonalen.
+  links:
+    - 
+      title: Formulär för företagsinformation
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Målsida
+  content: >
+    <span class="doc-desc-title">Målsidan</span> visas på din supportwebbplats förstasida.
+offline_page:
+  title: Offline-sida
+  content: >
+    <span class="doc-desc-title">Offline-sidan</span> visas på supportwebbplatsen när supporten är stängd. Se Admin-panelen -&gt; Inställning -&gt; System -&gt; Helpdesk Status.
+default_thank_you_page:
+  title: Standard Tack-sida
+  content: >
+    <span class="doc-desc-title">Tack-sidan</span> visas för användaren när en <span class="doc-desc-title">Kund</span> anmält ett nytt ärende. <br/><br/> Olika <span class="doc-desc-title">Tack</span>-sidor kan kopplas ihop med olika Hjälp-rubriker.
+logos:
+  title: Logotyper
+  content: >
+    Du kan välja <span class="doc-desc-title">Logotyp</span> som visas för Kunden i kundportalen (dvs på er Supportwebbplats).
+upload_a_new_logo:
+  title: Ladda upp ny logotyp
+  content: >
+    Välj en bild i något av formaten .gif, .jpg eller .png. Bilden kommer att skalas ner till rätt storlek automatiskt. Storlek i kilobyte räknat kommer dock vara densamma. För att inte laddningstiden ska bli för lång rekommenderas därför att du laddar upp en bild som är nära standardstorlek (817px &times; 170px).

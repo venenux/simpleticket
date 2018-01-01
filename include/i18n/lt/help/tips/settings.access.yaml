@@ -1,0 +1,37 @@
+---
+password_reset:
+  title: Slaptažodžio galiojimo laiko politika
+  content: >
+    Nustatykite kaip dažnai (mėnesiais) darbuotojų bus reikalaujama pakeisti slaptažodį. Jei išjungta (nustatyta "Galioja neribotai"), slaptažodžiai nebaigs galioti.
+password_expiration_policy:
+  title: Slaptažodžio galiojimo laiko politika
+  content: >
+    Pasirinkite kaip dažnai agentų bus reikalaujama pakeisti slaptažodį. Jei išjungta (t.y.<span class="doc-desc-opt">Galioja neribotai</span>), slaptažodžiai nebaigs galioti.
+allow_password_resets:
+  title: Leisti slaptažodžio nustatymą iš naujo
+  content: >
+    Įgalinkite šią funkciją jei norėtumėte rodyti<span class="doc-desc-title">Pamiršau savo slaptažodį</span>nuorodą<span class="doc-desc-title">Darbuotojų prisijungimo lange</span>po nesėkmingo bandymo prisijungti.
+reset_token_expiration:
+  title: Slaptažodžio nustatymo iš naujo langas
+  content: >
+    Pasirinkite trukmę (minutėmis) kiek bus galiojantys<span class="doc-desc-title">Slaptažodžio nustatymo iš naujo kodas</span>. Kai agentas pareikalauja<span class="doc-desc-title">Slaptažodžio nustatymo iš naujo</span>, bus siunčiamas kodas elektroniniu paštu, kuris leis nustatyti iš naujo slaptažodį.
+staff_session_timeout:
+  title: Personalo sesijos laikas
+  content: >
+    Nustatytkite maksimalų parastovos laiką (minutėmis) kuomet Agento reikalaujama prisjungti iš naujo.<br><br>Jei norite išjungti<span class="doc-desc-title">Darbuotojų sesijos laikus</span>, įveskite 0.
+client_session_timeout:
+  title: Vartotojo sesijos laikas
+  content: >
+    Nustatytkite maksimalų parastovos laiką (minutėmis) kuomet Vartotojo reikalaujama prisjungti iš naujo.<br><br>Jei norite išjungti<span class="doc-desc-title">Darbuotojų sesijos laikus</span>, įveskite 0.
+bind_staff_session_to_ip:
+  title: Suriškite personalo sesiją su IP
+  content: >
+    Įjunkite šią parinktį, jei norite, kad Agentas būtų  prisimenamas pagal esamą IP po prisijungimo.<br><br>Šis nustatymas yra nerekomenduojamas vartotojams, kuriems IP adresai priskiriami dinamiškai.
+registration_method:
+  title: Registracijos parinktys
+  content: >
+    <span class="doc-desc-title">Registracijos būdas</span> ir <span class="doc-desc-title">Reikalinga registracija</span> yra naudojami kartu, kad nustatyti kaip vartotojai registruojasi ir pasiekia jūsų pagalbos sistemos  interneto portalą. Žemiau pateikta lentelė  apibendrina kaip šie du nustatymai yra interpretuojami sistemos.<table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"><tr><th>Reikalinga regitracija</th><th>Registracijos metodas</th><th>Rezultatas</th></tr><tr><td>Ne</td><td>Viešas</td><td>Registracija skatinama, bet nereikalaujama naujoms užklausoms.</td></tr><tr><td>Taip</td><td>Viešas</td><td>Registracija ir prisijungimas reikalaujami naujoms užklausoms</td></tr><tr><td>Ne</td><td>Privatus</td><td>Bet kas gali sukurti užklausą , bet tik agentai gali registruoti paskyras</td></tr><tr><td>Taip</td><td>Privatus</td><td>Vartotojo prieiga tik su pakvietimu</td></tr><tr><td>Ne</td><td>Išjungta</td><td>Niekas negali užregistruoti paskyros, bet kiekvienas gali užregistruoti užklausą.<em>Taip osTicket funkcionavo iki 1.9</em></td></tr><tr><td>Taip</td><td>Išjungta</td><td>Išjungtas naujų užklausų kūrimas per web prtalą</td></tr></tbody></table>
+client_verify_email:
+  title: Reikalausti e-pašto patikrinimo
+  content: >
+    Išjunkite šią parinktį, jei norite suteikti vartotojams greitą prieigą pasiekti užklausas per "Patikrinti užklausos statusą" prisijungimo puslapį kliento portale. Jeigu įjungta, (kas yra pagal nutylėjimą), vartotojų bus reikalaujama gavus elektroninį laišką sekti nuoroda, kad pamatyti užklausą.<br><br>Išjungus e-pašto tikrinimą gali būti leidžiama trečiosioms šalims (pvz. užklausos bendradarbiams) apsimesti užklausos savininku.

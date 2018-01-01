@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Configuració de Base de coneixements
+  content: >
+    
+knowledge_base_status:
+  title: Estat de Base de coneixements
+  content: >
+    Activar aquesta opció  per a permetre els usuaris accés d'autoservei als seus articles de la seua base de coneixement pública. Categories de la base de coneixements <br><br>i preguntes freqüents es poden fer internes (visible només pels Agents.)
+  links:
+    - 
+      title: Gestionar la Base de coneixements
+      href: /scp/kb.php
+restrict_kb:
+  title: Accés restringit a la Base de coneixements
+  content: >
+    Habilita aquesta opció per evitar que els usuaris no registrats accedeixin als seus articles de la Base de coneixements des de la interfície del client.
+  links:
+    - 
+      title: Configuració del Control d'accés
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Resposta predefinida
+  content: >
+    Activar aquesta opció per a permetre que els Agents utilitzen <span class="doc-desc-title"> Respostes predefinides</span> en respondre als Tickets.
+  links:
+    - 
+      title: Gestionar Respostes predefinides
+      href: /scp/canned.php

@@ -1,0 +1,31 @@
+---
+notes: |
+  ส่งไปยังผู้ใช้เมื่อ Staff สร้างตั๋วในนามของผู้ใช้ โดยส่วนใหญ่มักทำเมื่อรับแจ้งข้อมูลทางโทรศัพท์
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>สวัสดี %{recipient.name.first},</strong></h3>
+  ผู้ให้บริการของเราได้สร้าง Ticket, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> ตามข้อมูลที่คุณร้องขอมา รายละเอียดตามข้อมูลต่อไปนี้ :
+  <br>
+  <br>
+  Topic: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  คุณสามารถติดตามข้อมูลการดำเนินงานของเราได้ที่นี่ <a href="%{recipient.ticket_link}"> ticket's progress</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Your %{company.name} Team,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>If you
+  wish to provide additional comments or information regarding the issue,
+  please reply to this email or <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >login to your account</span></a> for
+  a complete archive of your support requests.</em></div>

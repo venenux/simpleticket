@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Typ zoznamu
+  content: >
+    Vyberte <span class="doc-desc-opt">verejné(publikované),</span>, pokiaľ chcete toto<span class="doc-desc-title">FAQ</span>zverejniť vo Verejnej znalostnej báze pokiaľ je vzor verejný.
+  links:
+    - 
+      title: Povoliť verejnú Znalostnú bázu pre Klientský Portál
+      href: /scp/settings.php?t=kb

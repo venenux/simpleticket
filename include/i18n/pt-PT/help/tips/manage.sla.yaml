@@ -1,0 +1,13 @@
+---
+name:
+  title: Nome
+  content: >
+    Escolha um nome para o <span class="doc-desc-title">Plano SLA</span> que indique o seu propósito.
+grace_period:
+  title: Período de tolerância
+  content: >
+    Determine o número de horas, após as quais um pedido será marcado como em atraso. <br><br><em>As horas são contadas a partir da hora de abertura do pedido.</em>
+transient:
+  title: Transiente
+  content: >
+    Os SLAs transitórios são considerados temporários o podem ser substituidos por SLAs não-transitórias na transferência de <span class="doc-desc-opt">departamento</span> ou quando o <span class="doc-desc-title">Tópico de ajuda</span> é alterado.

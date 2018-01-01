@@ -1,0 +1,22 @@
+---
+signature:
+  title: Baris Tandatangan Staf
+  content: |
+    Buat tanda tangan staf untuk menanggapi tiket. Tandatangan ini
+    akan muncul sebagai pilihan di bawah respon tiket
+type:
+  title: Jenis akun
+  content: |
+    Admin memiliki hak istimewa untuk mengakses Panel Admin. Staf hanya
+    memiliki akses untuk mengelola tiket dan basis pengetahuan
+group:
+  title: Grup Ditugaskan
+  content: |
+    Keanggotaan kelompok mendefinisikan peran staf dalam sistem. Kunjungi
+    Halaman manajemen kelompok untuk menentukan apa akses staf ini harus dengan
+    help desk
+notes:
+  title: Catatan Internal
+  content: |
+    Tempatkan catatan internal tentang staf; Catatan hanya dapat dilihat oleh
+    Staf yang tipe akunnya Admin

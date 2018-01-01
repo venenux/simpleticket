@@ -1,0 +1,25 @@
+---
+notes: |
+  Gửi tới một người dùng khi một phản hồi tự động trước được đăng tải khi một lệnh được tạo.
+  Các biến số có sẵn cho thay thế:%{lệnh.*},%{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Gửi%{recipient.name.first},</strong></h3>
+  Một yêu cầu hỗ trợ được tạo và chỉ định lệnh<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>với câu trả lời tự động như sau
+  <br>
+  <br>
+  Tiêu đề:<strong>%{ticket.topic.name}</strong>
+  <br>
+  Chủ đề:<strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Đội của bạn%{company.name},<br>%{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Chúng tôi hi vọng phản hồi này sẽ giải đáp thắc mắc hiệu quả cho câu hỏi của bạn. Nếu bạn mong cung cấp thêm bình luận hoặc thông tin, hãy trả lời rmail hoặc<a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >đăng nhập vào tài khoản của bạn</span></a>để có một kho lưu trữ hoàn chỉnh cho những yêu cầu hỗ trợ của bạn.</em></div>
+  

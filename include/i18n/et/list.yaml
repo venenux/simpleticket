@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Pöördumise staatus
+  name_plural: Pöördumise olekud
+  sort_mode: SortCol
+  masks: 13
+  notes: Pöördumise olekud
+  properties:
+    title: Pöördumise oleku parameetrid
+    instructions: Pöördumise olekule seatavad parameetrid.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Olek
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Pöördumise olek
+      - 
+        type: memo
+        name: description
+        label: Kirjeldus
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

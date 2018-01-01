@@ -1,0 +1,53 @@
+---
+search_field:
+  title: زمینه جستجو
+  content: >
+    
+advanced:
+  title: جستجوی پیشرفته
+  content: >
+    پارامتر های جستجوی خود را محدود کنید.  پس از محدود کردن محدوده جستجوی پیشرفته و اجرای جستجو، می توانید نتیجه جستجو را از طریق لینک <span class="doc-desc-title">دانلود لیست</span> در پایین صفحه ذخیره نمایید.
+open_tickets_table:
+  title: باز کردن جدول درخواست ها
+  content: >
+    تمام درخواست های باز و نیازمند توجه
+ticket:
+  title: درخواست
+  content: >
+    
+date:
+  title: تاریخ
+  content: >
+    
+subject:
+  title: موضوع
+  content: >
+    
+from:
+  title: از
+  content: >
+    
+priority:
+  title: اولویت
+  content: >
+    
+assigned_to:
+  title: محول شده به
+  content: >
+    
+export:
+  title: تولید خروجی
+  content: >
+    لیست درخواست های فعلی خود را در یک فایل CSV دانلود کنید. فایل CSV توسط برنامه های صفحه گسترده قابل بازگشایی است (برنامه هایی مثل Microsoft Excel، Apple Pages، Open Office، و غیره.).
+advanced_search_dialog:
+  title: جستجوی پیشرفته
+  content: >
+    
+adv_keyword:
+  title: جستجو کلید واژه
+  content: >
+    جستجو بر اساس موضوع و متن پیام های موجود در دنباله درخواست یا هر یک از فیلد های متنی سفارشی مربوط به کاربران و درخواست ها.
+adv_date_range:
+  title: جستجو بر اساس محدوده تاریخ
+  content: >
+    Definition here

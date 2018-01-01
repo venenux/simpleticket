@@ -1,0 +1,7 @@
+---
+notes: |
+  crwdns532:0%{response}crwdne532:0
+subject: |
+  crwdns920:0%{ticket.subject}crwdnd920:0%{ticket.number}crwdne920:0
+body: |
+  crwdns921:0%{recipient.name.first}crwdnd921:0%{recipient.ticket_link}crwdnd921:0%{ticket.number}crwdnd921:0%{ticket.topic.name}crwdnd921:0%{ticket.subject}crwdnd921:0%{response}crwdnd921:0%{company.name}crwdnd921:0%{signature}crwdnd921:0%{recipient.ticket_link}crwdne921:0

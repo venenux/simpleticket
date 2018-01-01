@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Saidi leheküljed
+  content: >
+    Saidi leheküljed on kui mini sisuhaldus tarkvara (CMS). Sa saad defineerida mitmeid avalehti, offlain -ja tänulehekülje, abiteemad ning seadistada neid ettevõtte seadetes.
+  links:
+    - 
+      title: Ettevõtte seaded
+      href: /scp/settings.php?t=pages
+type:
+  title: Tüüp
+  content: >
+    <span class="doc-desc-opt">Offlain</span> lehekülge näidatakse kliendi portaalis, kui kasutajatugi pole kättesaadav. <span class="doc-desc-opt">Avalehte</span> kuvatakse Sinu kliendi portaali kodulehel. <span class="doc-desc-opt">Tänu</span> lehti kuvatakse, kui klient registreerib pöördumise. <span class="doc-desc-opt">Teisi</span> lehti saab kasutada kui lihtsalt sisuhalduse süsteemi (CMS).

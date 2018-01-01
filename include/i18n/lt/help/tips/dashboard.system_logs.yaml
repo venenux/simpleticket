@@ -1,0 +1,37 @@
+---
+system_logs:
+  title: Sistemos žurnalas
+  content: >
+    Tai yra vieta, kur jūs rasite trikčių, susijusių su registravimo aktyvumu (t.y. Klaidos, Įspėjimai) diagnostiką.
+  links:
+    - 
+      title: Nustatykite kokio tipo veikla turi būti registruojama, keisdami <br /><span class="doc-desc-title">Numatytąjį Registravimo Lygį</span>.
+      href: /scp/settings.php?t=system
+date_span:
+  title: Datos intervalas
+  content: >
+    Pasirinkite kalendoriaus spektrą, kurį norėtumete matyti <span class="doc-desc-title">Sisteminiuose žurnaluose</span>.
+type:
+  title: Tipas
+  content: >
+    Pasirinkite variantą, kad sufokusuotumėte savo dėmesį į tam tikros rūšies veiklą  <span class = "dok-desc-renkasi"> Derinimas </span> atspindi mažiausią sunkumą, ir <span class="doc-desc-opt">Klaida</span> atspindi didžiausią sunkumą.
+showing_logs:
+  title: Rodymas&hellip;Įrašai
+  content: >
+    Būtinai patikrinkite <span class="doc-desc-title">Puslapio</span> skyrių žemiau, įsitikinkite, kad daugiau nėra puslapių, kuriose būtų rodomi Sistemos žurnalo įrašai.
+log_title:
+  title: Žurnalo pavadinimas
+  content: >
+    Paspauskite  <span class="doc-desc-title">Žurnalo pavadinimo</span>lentelės antraštę, jei norėtumėte rūšiuoti rezultatus pagal <span class="doc-desc-title">Žurnalo pavadinimą</span>.
+log_type:
+  title: Prisijungimo tipas
+  content: >
+    Paspauskite  <span class="doc-desc-title">Žurnalo pavadinimo</span>lentelės antraštę, jei norėtumėte rūšiuoti rezultatus pagal <span class="doc-desc-title">Žurnalo pavadinimą</span>.
+log_date:
+  title: Prisijungimo data
+  content: >
+    Tai yra data, kuomet programinės įrangos buvo sugeneruotas įrašas. Jei norėtumėte rūšiuoti rezultatus pagal  <span class="doc-desc-title">Prisijungimo datą</span>, tiesiog spustelėkite <span class="doc-desc-title">Prisijungimo data</span> lentelės antraštėje. (Naudokite <span class="doc-desc-title">Datos intervalas</span> formą viršuje, kad susiaurintumėte kalendoriaus įrašų intervalą.)
+ip_address:
+  title: IP adresas
+  content: >
+    Tai susiję su <span class="doc-desc-title">IP</span><span class="doc-desc-title"> Adresu</span> agento arba kliento, kuris naudojosi osTicket sistema, tuo metu, kai buvo sugeneruotas  įrašas žurnale.

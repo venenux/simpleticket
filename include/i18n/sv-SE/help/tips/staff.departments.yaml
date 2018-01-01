@@ -1,0 +1,10 @@
+---
+type:
+  title: Typ
+  content: >
+    Om avdelningstypen är Privat. så kommer inte avdelningssignaturen att vara tillgänglig vid svar. Inte heller kommer avdelningens tilldelningar att visas i klientportalen.
+dept_manager:
+  title: Avdelningschef
+  content: >
+    Du kan välja en handläggare som avdelningsansvarig för att mottaga Varningar &amp; Meddelanden för ärenden i avdelningarna.
+  0: Handläggare behöver inte vara medlemmar i avdelningen för att vara ansvarig för avdelningen

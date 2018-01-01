@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API ključ
+  content: >
+    API ključevi se koriste za provjeru autentičnosti klijenata koji otvaraju nove kartice putem Application Programming Interface (API). API ključevi se koriste umjesto zaporki. Kako se API ključevi mogu slati nekriptirani, uvjek su povezani s korisnikovom IP adresom.
+  links:
+    - 
+      title: osTicket API dokumentacija
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP adresa
+  content: >
+    IP adresa klijenta. Svaka jedinstvena IP adresa klijenta zahtjeva zaseban API ključ.

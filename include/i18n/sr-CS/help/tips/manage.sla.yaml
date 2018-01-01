@@ -1,0 +1,10 @@
+---
+name:
+  title: Ime
+  content: 'Odaberi opisno ime za ovaj <span class="doc-desc-title">SLA Plan</span> koje će odražavati njegovu namenu.'
+grace_period:
+  title: Period do početka
+  content: 'Odrediti broj časova posle koliko će kreirani tiket postati obeležen kao istekao. <br><br> <em>Sati se broje od trenutka kreiranja tiketa.</em>'
+transient:
+  title: Prolazni
+  content: 'Prolazni SLA-ovi se smatraju privremenim i mogu biti nadjačani neprolaznim SLA-om u transferu<span class="doc-desc-opt">Odeljenja</span> ili kada se <span class="doc-desc-title">Tema pomoći</span> promeni.'

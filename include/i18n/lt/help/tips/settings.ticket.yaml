@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Užklausos numerio formatas
+  content: >
+    Šis parametras naudojamas generuoti užklausų numerius. Naudokite ženklus (`#`) nurodydami skaitmenų vieta. Bet koks kitas tekstas numerio formate bus išsaugotas.<span class="doc-desc-title">Pagalbos Temoms</span>gali turėti individualius numerių formatus.<br/><br/>Pavyzdžiui, šešių skaitemų skaičiams, naudokite <code>######</code>.
+sequence_id:
+  title: Užklausų numerių seka
+  content: >
+    Pasirinkite seką nuo kurios kyla naujos užklausos numeriai. Sistema tur didėjimo seką ir atsitiktinę seką pagal nutylėjimą. Galite sukurti tiek sekų kiek norite. Naudokite skirtingas sekas<span class="doc-desc-title">Užklausos numerio formato</span>konfigūracijoje pagalbos temoms.
+default_ticket_status:
+  title: Būsena pagal nutylėjimą naujoms užklausoms
+  content: >
+    Pasirinkite būseną, kuri bus numatytoji naujoms užklausoms. Tai gali būti nustatyta kiekvienai pagalbos temai, jei pageidaujama. Taip pat gali būti pakeista, remiantis užklausos filtru.
+  links:
+    - 
+      title: Valdykite užklausų statusus
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Numatytasis laikotarpis paraiškos apdorojimui
+  content: >
+    Pasirinkite paslaugų vykdymo lygį, kad vadytumėte kaip ilgai užklausa gali būti atidaryta, kol pažymima, kaip vėluojanti.
+  links:
+    - 
+      title: Sukurti daugiau SLA planų
+      href: /scp/slas.php
+default_priority:
+  title: Prioritetas pagal nutylėjimą
+  content: >
+    Pasirinkite numatytąjį <span class="doc-desc-title">prioritetą</span> užklausoms, kurioms prioritetas nepriskiriamas automatiškai.<br/><br/>Prioritetas gali būti priskirtas pgal pagalbos temą, susietas su departamentu, arba užklausos filtro nustatymais.
+maximum_open_tickets:
+  title: Maksimalus atidarytų užklausų kiekis
+  content: >
+    Įveskite maksimalų<em>skaičių</em> kiek vartotojas gali turėti<strong>atvirų</strong>užklausų pagalbos sistemoje.<br><br>Įveskite<span class="doc-desc-opt">0</span>jei norite išjungti šį apribojimą.
+agent_collision_avoidance:
+  title: Agento susidūrimo vengimas
+  content: >
+    Įveskite maksimalų laiką, kiek Agentui leidžiama laikyti užklausą užrakintą be jokios veiklos.<br><br>Įveskite<span class="doc-desc-opt">0</span>, kad išjungtumėte užrakinimo funkciją.
+email_ticket_priority:
+  title: Užklausų elektroniniu paštu prioritetas
+  content: >
+    Naudokite elektroninio pašto prioritetą paskirtą adresatų pašto paslaugų
+show_related_tickets:
+  title: Rodyti susietas užklausas
+  content: >
+    Rodyti visas susijas užklausas su vartotojo prisijungimo vardu kitaip  prieiga yra apribota vienos užklausos vartotojo vardui rodymu
+human_verification:
+  title: Žmogaus patikra
+  content: >
+    Įjunkite CAPTCHA kliento portale naujų užklausų tikrinimui, ar tai žmogaus veiklos rezultats. <br><br>Reikalauja GDLib bibliotekos
+claim_tickets:
+  title: Reagavimas į užklausas atsakant
+  content: >
+    Įjunkite šią parinktį, kad nepriskirtos užklausos būtų automatiškai priskiriamos į užklausą atsakiusiam agentui.<br><br>Iš naujo atidarytos užklausos visada priskiriamos paskutiniam į užklausą atsakiusiam asmeniui.
+assigned_tickets:
+  title: Priskirtos užklausos
+  content: >
+    Įjunkite šią funkciją, kad išskirtumėte priskirtas užklausas iš <span class="doc-desc-title">Atidarytų užklausų eilės</span>.
+answered_tickets:
+  title: Atsakytos užklausos
+  content: >
+    Įjunkite šią funkciją, kad rodytumėte atsakytas užklausas<span class="doc-desc-title"> Atsakytų užklausų  eilėje</span>. Kitaip jie bus rodomi <span class="doc-desc-title">Atidarytų užklausų eilėje</span>.
+staff_identity_masking:
+  title: Personalo tapatybės maskavimas
+  content: >
+    Jei įgalinta, bus slepiamas Agento vardas nuo kliento esant bet kokiai komunikacijai.
+enable_html_ticket_thread:
+  title: Įgalinti HTML užklausos temą
+  content: >
+    Jei ši parinktis įjungta, tai leis naudoti raiškiojo teksto formatavimą tarp klientų ir agentų.
+ticket_attachment_settings:
+  title: Užklausos sekos priedai
+  content: >
+    Konfigūruokite nustatymus failams prikabintiems prie<span class="doc-desc-title">klausimo detalių</span> lauko. Šie nustatymai yra naudojami visoms naujoms užklausoms ir naujoms žinutėms nepriklausomai nuo šaltinio kanalo (interneto portalas, elektroninis paštas, API, ir t.t.).
+max_file_size:
+  title: Maksimalus failo dydis
+  content: >
+    Pasirinkite maksimalų priedų, įkeltų agento dydį. Tai apima uždelstus priedus, žinių bazės straipsnius ir priedus su atsakymais į užklausas.
+ticket_response_files:
+  title: Užklausų atsako failai
+  content: >
+    Jeigu įgalinta, visi priedai, kuriuos agentas gali pridėti  prie atsakymo į užklausą, taip pat bus prikabinti prie elektroninio laiško vartotojui.

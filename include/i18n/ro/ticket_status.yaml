@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Deschide
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Tichete deschise.
+- 
+  id: 2
+  name: Rezolvat
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Tichetele rezolvate sunt tichete inchise care pot fi redeschise de catre utilizator. Acest lucru ar putea fi de ajutor cind se foloseste un status pentru inchiderea tichetului cu o notificare trimisa catre utilizator.
+- 
+  id: 3
+  name: Inchis
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Tichetele marcate Închis nu pot fi redeschise de utilizatori. Tichetele vor fi în continuare accesibile în panourile clienților sau ale angajaților.
+- 
+  id: 4
+  name: Arhivat
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tichete accesibile doar administrativ dar nu și în listele de tichete.
+- 
+  id: 5
+  name: Sters
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tichete pe lista de ștergere. Nu sunt accesibile din coada de tichete.

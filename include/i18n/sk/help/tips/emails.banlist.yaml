@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Zakázané adresy
+  content: >
+    E-maily prijaté od zakázaných e-mailových adries uvedených v zozname budú automaticky odmietnuté.

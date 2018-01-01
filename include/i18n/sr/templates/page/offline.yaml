@@ -1,0 +1,11 @@
+---
+notes: |
+  The Offline Page appears in the Customer Portal when the Help Desk is offline.
+name: Тренутно недоступан
+body: |
+  <div><h1>
+  <span style="font-size: medium">Систем корисничке подршке тренутно неактиван</span>
+  </h1>
+  <p>Хвала Вам на интересовању за наше сервисе.</p>
+  <p>Кориснички сервис тренутно није активан, молимо Вас приступите поново за неколико минута.</p>
+  </div>

@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Pöördumise ajalugu
+  content: >
+    Vali ajavahemik kuvamaks (cf. <span class="doc-desc-title">aruannet</span>) nii tabeli kui graafilisel kujul. Allpool olevas graafikus on kõik süsteemi andmed  (st üldkogum). Samas võid <span class="doc-desc-title">aruandluse </span> keskenduda detailidele ja kitsendada valiku kriteeriumeid (nt osakond, teema, meeskond). Lisaks saate eksportida kõiki andmeid, mis hetkel tabelis <span class="doc-desc-title">Aruanded</span> kuvatakse.
+report_timeframe:
+  title: Aruande ajavahemik
+  content: >
+    Vali kalendrist soovitud alguskuupäev, seejärel vali aruandeperioodi pikkus.
+statistics:
+  title: Statistika
+  content: >
+    Vali soovitud teema klõpsates sobival saki, et näha konkreetse valimi andmeid. Ringjooned tabelis märgivad andmete hulka, mida suurem on arv lahtris, seda suurem on vastav ringjoon.
+opened:
+  title: Avatud
+  content: >
+    See kujutab agendi poolt (st sisemiselt avatud), mitte kliendi poolt registreeritud pöördumisi.
+assigned:
+  title: Suunatud
+  content: >
+    Süsteem logib kõiki osakonnale või agendile automaatseid või käsitsi tehtud suunamisi. Automaatne suunamine sõltub <span class="doc-desc-title">Abiteema</span> ja <span class="doc-desc-title">E-kirja filtrid</span> seadistustest administraatori tööpaneelil.
+overdue:
+  title: Üle aja
+  content: >
+    See on pöördumiste arv, mis ei vasta nende SLA tingimustele.
+closed:
+  title: Suletud
+  content: >
+    See on suletud pöördumiste arv.
+reopened:
+  title: Taas avatud
+  content: >
+    See on kas agendi või kliendi poolt uuesti avatud pöördumiste arv, kui ta on vastanud pöördumisele, mis oli staatuses suletud.
+service_time:
+  title: Teenindusaeg
+  content: >
+    <span class="doc-desc-title">Teenindusaeg</span> on aeg, mis kulub pöördumise registreerimisest selle sulgemiseni. Veerg <span class="doc-desc-title">Teenindusaeg</span> mõõdab keskmist teenindusaega tundides pöördumise kohta määratud ajavahemikus.
+response_time:
+  title: Reageerimise aeg
+  content: >
+    <span class="doc-desc-title">Reageerimise aeg</span> on aeg, mille jooksul kliendi pöördumisele saadetakse agendi vastus. See ei mõõda üksnes aega pöördumise registreerimisest vaid ka vahepeal kliendi poolt saadetud lisainfole reageerimisest.

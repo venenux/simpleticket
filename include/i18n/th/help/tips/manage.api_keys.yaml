@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API Key
+  content: >
+    คีย์ API จะใช้ในการตรวจสอบการส่งตั๋วลูกค้าใหม่ผ่าน Application Programming Interface (API), คีย์ API จะนำมาใช้แทนรหัสผ่าน เขาอาจจะเชื่อมต่อกับเครือข่าย IP Address ของลูกค้าแต่ละรายโดยคีย์ API อาจถูกส่งไปแบบไม่เข้ารหัส
+  links:
+    - 
+      title: เอกสาร API ของ osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP Address
+  content: >
+    Client's network IP address. Each unique client IP address will require separate API keys

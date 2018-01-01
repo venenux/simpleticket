@@ -1,0 +1,8 @@
+---
+notes: |
+  Dikirim ke pengguna ketika anggota staf membuat balasan ke tiket mereka.
+  Balasan hanya dibuat oleh anggota staf.
+subject: |
+  Balasan: %{ticket.subject}
+body: |
+  <h3><strong>Halo %{recipient.name},</strong></h3> %{response} <br><br><div style="color: rgb(127, 127, 127);"> Anda %{company.name} tim, <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small; text-align: center;" > <em>kami berharap tanggapan ini telah cukup menjawab pertanyaan Anda. Jika tidak, Harap jangan mengirim email lagi. Sebaliknya, membalas email ini atau <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" > login ke account Anda</a> untuk arsip lengkap semua permintaan dukungan dan tanggapan.</em></div>

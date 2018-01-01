@@ -1,0 +1,43 @@
+---
+notes: |
+  Gửi đến các nhân viên khi có một thông báo mới được đăng bởi người dùng gửi yêu cầu.  Điều này có thể xảy ra nếu người dùng phản hồi một email từ hệ thống hoặc truy cập cổng thông tin và gửi một thông báo mới.
+subject: |
+  Cảnh báo khi có thông báo mới
+body: |2
+  <h3><strong>Xin chào %{recipient},</strong></h3>
+  Một thông báo mới được bổ sung vào yêu cầu <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Người gửi</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Bộ phận</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Để trả lời thông báo, xin vui lòng<a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >login</span></a> tới hệ thống gửi yêu cầu</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Your friendly
+  Customer Support System</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

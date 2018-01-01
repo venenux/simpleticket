@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Meklēšanas lauks
+  content: >
+    
+advanced:
+  title: Papildus uzstādījumi
+  content: >
+    Narrow down your search parameters. Once you have selected your advanced search criteria and run the search, you can <span class="doc-desc-title">Export </span> the data at the bottom of the tickets page.
+open_tickets_table:
+  title: Atvērto pieteikumu tabula
+  content: >
+    Visi atvērtie pieteikumi, kurus nepieciešams izskatīt
+ticket:
+  title: Pieteikums
+  content: >
+    
+date:
+  title: Datums
+  content: >
+    
+subject:
+  title: Temats
+  content: >
+    
+from:
+  title: No kā
+  content: >
+    
+priority:
+  title: Priority
+  content: >
+    
+assigned_to:
+  title: Piešķirts
+  content: >
+    
+export:
+  title: Eksportēt
+  content: >
+    Eksportēt datus CSV failā. CSV failus var atvērt ar tādām programmām kā Microsoft Excel, Apple Pages, OpenOffice utt.
+advanced_search_dialog:
+  title: Padziļināta meklēšana
+  content: >
+    
+adv_keyword:
+  title: Meklēt pēc atslēgas vārdiem
+  content: >
+    Atrast rezultātus, kas balstīti uz pieteikuma saraksta tēmu un ziņojuma saturu, kā arī visu tekstuālo saturu, kas piesaistīts izmantojot lietotāja vai pieteikuma papildus laukus.
+adv_date_range:
+  title: Meklēt pēc datuma intervāla
+  content: >
+    Definīcija šeit

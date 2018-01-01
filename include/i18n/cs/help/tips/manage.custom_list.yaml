@@ -1,0 +1,30 @@
+---
+custom_lists:
+  title: Vlastní seznamy
+  content: >
+    Váš <span class="doc-desc-title">vlastní seznam</span> dovoluje vytvořit dropdown menu s přednastavenými hodnotami ze kterých Klient může vybítat ve vašem <span class="doc-desc-title">Vlastním formuláři</span>. 
+    Pokud chcete použít tento <span class="doc-desc-title">vlastní seznam</span> jako <span class="doc-desc-title">cíl</span> v <span class="doc-desc-title">Ticket Filteru</span>, nezapomeňte ho přidat do vašeho formuláře <span class="doc-desc-title">Detaily Tiketu</span>.
+name:
+  title: Jméno
+  content: >
+    
+plural_name:
+  title: Jméno v množném čísle
+  content: >
+    
+sort_order:
+  title: Řazení
+  content: >
+    
+list_s_initial_items:
+  title: Výchozí položky seznamu
+  content: >
+    
+value:
+  title: Hodnota
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Zkratky a tak. Pokud se vám stalo, že používáte interní kódy pro položky v tomto seznamu, tyto kódy a zkratky mohou být uvedeny v tomto sloupci. V případě, že vlastní seznam je vykreslen jako <span class="doc-desc-volby">dopředný</span>, pak tyto zkratky mohou být použity k hledání vlastní seznam položek.

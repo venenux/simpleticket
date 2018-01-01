@@ -1,0 +1,13 @@
+---
+groups:
+  title: กลุ่ม
+  content: >
+    กลุ่มมีไว้เพื่อกำหนดการตั้งค่าการเข้าถึงของเจ้าหน้าที่ในแผนกบริการ กลุ่มสามารถตั้งค่าการเข้าถึงของแผนกได้มากกว่าแผนกหลักของเจ้าหน้าที่
+status:
+  title: สถานะ 
+  content: >
+    ถ้า<span class="doc-desc-opt">ปิดใช้งาน</span> Staff ที่่ถูกมอบหมายในกลุ่มนี้ จะไม่สามารถเข้าระบบ และจะไม่ได้รับประกาศและแจ้งเตือน
+department_access:
+  title: สิทธิ์ในการเข้าถึงแผนก
+  content: >
+    Check all departments to which the Group members are allowed access.

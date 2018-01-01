@@ -1,0 +1,44 @@
+---
+notes: |
+  发送给代理人的提醒。该提醒在发生工单内部活动如内部备注或代理回复工单时触发。
+subject: |
+  新的内部活动警报
+body: |
+  <h3><strong>您好%{recipient.name},</strong></h3>
+  服务人员记录了一个活动到咨询 <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>来自于</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>标题</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  如需查看或回复该咨询，请<a
+  href="%{ticket.staff_link}">登陆</a> 客户支持系统
+  <br>
+  <br>
+  <em style="font-size: small; ">客户支持系统</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

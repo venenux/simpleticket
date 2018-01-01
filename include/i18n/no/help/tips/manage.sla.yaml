@@ -1,0 +1,13 @@
+---
+name:
+  title: navn
+  content: >
+    Velg et beskrivende navn for denne <span class="doc-desc-title"> SLA Plan</span> som vil gjenspeile formålet.
+grace_period:
+  title: periode før saken må taes
+  content: >
+    Bestem antall timer etter at en sak som er opprettet automatisk blir merket som forfalt. <br><br><em>Timer telles fra sak opprettelse.</em>
+transient:
+  title: Forbigående
+  content: >
+    Forbigående SLA avtaler betraktes som midlertidige, og kan overstyres av en ikke-forbigående SLA på <span class="doc-desc-opt"> Avdeling</span> overføring eller når <span class="doc-desc-title"> hjelpeemnet</span> endres.

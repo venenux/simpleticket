@@ -1,0 +1,30 @@
+---
+knowledge_base_settings:
+  title: 知識庫設定
+  content: >
+    
+knowledge_base_status:
+  title: 知識庫狀態
+  content: >
+    設定能夠允許你的使用者對公共知識庫文章的自定性存取,
+    <br><br>知識庫種類及問答集能夠做成內部用途(代理商僅能擁有瀏覽功能)。
+  links:
+    - 
+      title: 管理知識庫
+      href: /scp/kb.php
+restrict_kb:
+  title: 限制存取知識庫
+  content: >
+    啟用此設定，以防止未註冊的使用者存取知識庫
+  links:
+    - 
+      title: 存取控制設置
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: 罐頭式應答
+  content: >
+    設定能夠允許代理商, 當在回覆 tickets 時使用<span class="doc-desc-title">罐頭式應答</span>
+  links:
+    - 
+      title: 管理罐頭式應答
+      href: /scp/canned.php

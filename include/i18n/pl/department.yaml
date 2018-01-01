@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Wsparcie
+  signature: Dział Wsparcia
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Sprzedaż
+  signature: |
+    Sprzedaż i Podtrzymanie Relacji z Klientem
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Utrzymanie
+  signature: |
+    Dział utrzymania
+  ispublic: 0
+  group_membership: 0

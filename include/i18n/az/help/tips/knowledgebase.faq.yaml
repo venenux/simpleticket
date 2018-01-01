@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Siyahılama tipi
+  content: >
+    Əgər valideyn kateqoriyası ictimaidirsə, bu <span class="doc-desc-title"> FAQın</span> ictimai məlumat bazasında yayınlanmasını istəyirsinizsə <span class="doc-desc-opt">`ictimai` (public)</span> seçin.
+  links:
+    - 
+      title: Müştəri portalı üçün ictimai məlumat bazasını aktiv edin
+      href: /scp/settings.php?t=kb

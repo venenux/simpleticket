@@ -1,0 +1,27 @@
+---
+notes: |
+  當事件建立及公告後即傳送客戶罐頭訊息回覆。
+  
+  可使用參數：%{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>親愛的 %{recipient.name.first},</strong></h3>
+  有新的案件需要協助且已被分配 <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> 以上案件為自動回覆
+  <br>
+  <br>
+  類別: <strong>%{ticket.topic.name}</strong>
+  <br>
+  主旨: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);"> %{company.name} 團隊敬上,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>我們希望最新的回覆能解決您的問題 ，如果您想要追加或提供其他更詳細的資訊，請回覆此信件或
+  <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >登入到您的帳號</span></a>可閱覽案件詳細完整內容。</em></div>

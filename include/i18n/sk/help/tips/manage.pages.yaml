@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Stránky
+  content: >
+    Mapa stránok môže slúžiť ako mini Content Management System (CMS). Môžete určiť viaceré vstupné, offline, a ďakujem vám stránky a konfigurovať v spoločnosti nastavenia a témy Pomocníka.
+  links:
+    - 
+      title: Nastavenia spoločnosti
+      href: /scp/settings.php?t=pages
+type:
+  title: Typ
+  content: >
+    stránky <span class="doc-desc-opt"> offline</span> sú zobrazené na portáli klient ak služby technickej podpory je vypnutá. <span class="doc-desc-opt"> vstupné</span> stránky sa zobrazia na domovskej stránke portálu klient. <span class="doc-desc-opt"> Thank You</span> stránky sú zobrazené po odoslaní letenku. <span class="doc-desc-opt"> iné</span> stránky môže byť použitý ako jednoduchý redakčný systém (CMS).

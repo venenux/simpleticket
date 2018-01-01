@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Status Helpdesk
+  content: >
+    Jika status berubah untuk <span class="doc-desc-opt"> Offline</span>, antarmuka klien akan dinonaktifkan.  Namun ini tidak mempengaruhi interaksi agen normal dengan Panel agen.
+helpdesk_url:
+  title: Alamat Helpdesk
+  content: >
+    URL ini adalah dasar instalasi osTicket Anda. Hal ini digunakan dalam komunikasi email untuk mengarahkan pengguna akhir kembali ke staf dukungan.
+helpdesk_name_title:
+  title: Helpdesk nama/tajuk
+  content: >
+    Ini adalah judul yang muncul di browser tab. Jika halaman Meja bantuan Anda bookmarked, ini akan menjadi judul/nama halaman situs.
+default_department:
+  title: Departemen default
+  content: >
+    Pilih default <span class="doc-desc-title"> departemen</span> tiket yang tidak akan secara otomatis diteruskan ke sebuah departemen. <br/> <br/> Tiket dapat routed dasar pada topik bantuan, email masuk dan setelan penyaring Tiket.
+default_page_size:
+  title: Ukuran halaman default
+  content: >
+    Pilih jumlah item yang ditampilkan per halaman dalam antrian tiket di Panel Staf. Setiap agen juga dapat menyesuaikan jumlah ini untuk account mereka sendiri dalam <span class="doc-desc-title"> My Preferences</span>.
+default_log_level:
+  title: Level Log standar
+  content: >
+    Menentukan tingkat minimum dari isu-isu yang akan dicatat dalam <span class="doc-desc-title"> log sistem</span>. <span class="doc-desc-opt"> debug</span> mewakili keparahan setidaknya, dan <span class="doc-desc-opt"> kesalahan</span> mewakili keparahan terbesar. Misalnya, jika Anda ingin melihat semua masalah di <span class="doc-desc-title"> Log sistem</span>, memilih <span class="doc-desc-opt"> Debug</span>.
+purge_logs:
+  title: Bersihkan Log
+  content: >
+    Menentukan berapa lama Anda ingin menyimpan <span class="doc-desc-title"> Log sistem</span> sebelum dihapus.
+default_name_formatting:
+  title: Nama default format
+  content: >
+    Pilih format untuk nama seluruh sistem. Email template akan menggunakannya untuk nama jika ada format lain ditetapkan dalam variabel.
+  links:
+    - 
+      title: Variabel Template Email yang didukung
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Tanggal &amp; waktu pilihan
+  content: >
+    Pengaturan berikut menentukan tanggal &amp; waktu pengaturan untuk klien. Anda dapat mengubah tampilan ini dengan mengikuti karakter dengan format tanggal PHP. Tanggal yang ditunjukkan di bawah ini hanya menggambarkan hasil dari nilai-nilai mereka sesuai.
+  links:
+    - 
+      title: Lihat tabel format tanggal PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

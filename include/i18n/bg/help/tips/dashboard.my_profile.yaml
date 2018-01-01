@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Информация за контакта
+  content: >
+    
+username:
+  title: Потребителско име
+  content: >
+    Само сътрудници с административни права могат да променят потребителски имена. Ако сте сътрудник с административни права, можете да направите това, като изберете сътрудник от  меню <span class="doc-desc-title">Сътрудници</span>.
+  links:
+    - 
+      title: Промяна на потребителското име като администратор
+      href: /scp/staff.php
+time_zone:
+  title: Часова зона
+  content: >
+    
+daylight_saving:
+  title: Лятно часово време
+  content: >
+    
+maximum_page_size:
+  title: Максимален брой записи на страница
+  content: >
+    
+auto_refresh_rate:
+  title: Време за автоматично обновяване
+  content: >
+    
+default_signature:
+  title: Подпис по подразбиране
+  content: >
+    
+default_paper_size:
+  title: Размер на хартията по подразбиране
+  content: >
+    
+show_assigned_tickets:
+  title: Покажи назначените заявки
+  content: >
+    Включете тази опция, за да скриете името си в опашката от <span class="doc-desc-title">отворени заявки</span>, които са Ви били възложени. При скриване името ще бъде заместено с <span class="doc-desc-title">отдела</span>, към който принадлежите.
+password:
+  title: Парола
+  content: >
+    
+current_password:
+  title: Текуща парола
+  content: >
+    
+new_password:
+  title: Нова парола
+  content: >
+    
+confirm_new_password:
+  title: Нова парола (пак)
+  content: >
+    
+signature:
+  title: Подпис
+  content: >
+    Създаване на незадължителен <span class="doc-desc-title">подпис</span>, който ще се появява в края на отговорите Ви. Дали <span class="doc-desc-title">подписът</span> ще се появява или не, ще зависи от <span class="doc-desc-title">Email шаблона</span>, който ще бъде използван в отговора на заявката.
+  links:
+    - 
+      title: Създаване на имейл шаблони в администраторския панел
+      href: /scp/templates.php

@@ -1,0 +1,35 @@
+---
+notes: |
+  Bude odesláno uživateli v okamžiku vytvoření nového zákaznického požadavku zaměstnancem, a to na základě pověření uživatele.
+  Toto se nejčastěji stává, když uživatel kontaktuje Helpdesk telefonicky.
+subject: |
+  %{ticket.subject} [č. %{ticket.number}]
+body: |
+  <h3><strong>Vážený/á %{recipient.name.first},</strong></h3>
+  zákaznické centrum vytvořilo za vás požadavek č. <a
+  href="%{recipient.ticket_link}">%{ticket.number}</a> s následujícími
+  údaji:
+  <br>
+  <br>
+  Téma podpory: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Předmět: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Pokud bude potřeba, pracovník podpory se s vámi spojí, jakmile to bude
+  možné. <a href="%{recipient.ticket_link}">Průběh řešení požadavku</a> můžete
+  také sledovat on-line.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Tým podpory %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Pokud chcete
+  poskytnout nějaké další informace či poznámky ohledně tohoto problému,
+  prosím, odpovězte na tento e-mail nebo <a href="%{recipient.ticket_link}">
+  <span style="color: rgb(84, 141, 212);" >se přihlašte k vašmu účtu</span>
+  </a> pro zobrazení všech vašich požadavků.</em></div>

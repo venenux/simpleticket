@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Activitat dels Tickets
+  content: >
+    Seleccione un interval per causar tant el gràfic com la taula (CF. <span class="doc-desc-title"> estadístiques</span>) de baix per centrar-se en les dades corresponents per a aquestes dates. El gràfic següent sempre reflectirà una àmplia visió sobre les dades del sistema sencer (és a dir, població). No obstant això, vostè pot navegar a través de la taula <span class="doc-desc-title"> d'estadístiques</span>de baix per centrar-se en un objecte més estret d'interès (per exemple, Departament, temes o personal). Addicionalment, pot exportar les dades que actualment es mostren en la taula <span class="doc-desc-title"> d'estadístiques</span>.
+report_timeframe:
+  title: Informe d'un interval de temps
+  content: >
+    Tria una data d'inici per a la mostra de dades desitjat utilitzant el selector de data. A continuació, trie la durada del temps d'aquesta data per definir la data de finalització per a la seva Mostra de dades.
+statistics:
+  title: Estadístiques
+  content: >
+    Navega per el tema d'interès fent clic a la pestanya corresponent per veure la Mostra de dades específica. Dins de la taula, els cercles representen la mida de les dades nominals. Per tant, el més gran el nombre en una cel·la en particular, la més gran serà el cercle adjacent.
+opened:
+  title: Obert
+  content: >
+    Això representa els Tickets oberts pels Agents (és a dir, internament oberts) i no pels Clients.
+assigned:
+  title: Assignat
+  content: >
+    El sistema realitza un seguiment de cada esdeveniment pel qual un bitllet és de forma automàtica o manualment assignat a un departament o agent en particular. Assignacions automàtiques dependran de paràmetres establits per a <span class="doc-desc-title"> temes d'ajuda</span> i <span class="doc-desc-title"> Filtres de correu electrònic</span> en el panell d'administració.
+overdue:
+  title: Endarrerit
+  content: >
+    Aquest és l'import dels Tickets que han violat el SLA pla al qual pertanyien.
+closed:
+  title: Tancat
+  content: >
+    Aquesta és la quantitat de Tickets que es van tancar.
+reopened:
+  title: Reobert
+  content: >
+    Aquesta és la quantitat de Tickets que van  ser reoberts per un Agent o un Client quan ell/ella va respondre mentre que el bitllet estava en estat tancat.
+service_time:
+  title: Temps de servei
+  content: >
+    <span class="doc-desc-title"> Temps de servei</span> és la durada del temps que comença a l'obertura d'un Ticket i acaba quan el Ticket està tancat. La columna de <span class="doc-desc-title"> temps de servei</span>  ací mesura la mitjana de temps de servei per Ticket, en hores, en el periode de dates especificat.
+response_time:
+  title: Temps de resposta
+  content: >
+    <span class="doc-desc-title"> Temps de resposta</span> és una duració de temps que comença amb la correspondència de qualsevol Client i acaba quan un Agent fa una resposta. Aquesta mesura del temps no és exclusiva a la correspondència del client de l'opertura inicial del Ticket. Això fa referència a tot acte del discurs originat  amb un Client.

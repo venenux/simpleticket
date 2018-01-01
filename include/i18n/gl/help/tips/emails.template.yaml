@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: Plantillas de correo
+  content: >
+    As plantillas de correo son usadas para enviar respostas automáticas de correo e alertas para varias accións que poden ocorrer durante a vida útil dun ticket.
+template_to_clone:
+  title: Plantilla para clonar
+  content: >
+    Escolla un conxunto de plantillas para clonar ou simplemente empregue as plantillas de correo por defecto.
+language:
+  title: Idioma
+  content: >
+    Selecciona o idioma desexado para a <span class="doc-desc-opt">plantilla por defecto</span><span class="doc-desc-title"></span>.Os paquetes de idiomas están o seu dispor no enderezo osTicket.com.
+  links:
+    - 
+      title: osTicket Language Packs
+      href: 'http://osticket.com/download'
+status:
+  title: Estado
+  content: >
+    Os conxuntos de plantillas<span class="doc-desc-opt">Habilitadas</span> están a disposición para ser asociados cos departamentos e establecer o valor predeterminado do sistema. Os conxuntos de plantillas actualmente en uso non poden ser <span class="doc-desc-opt">deshabilitados</span>.

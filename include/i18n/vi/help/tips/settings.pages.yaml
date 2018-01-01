@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Thông tin công ty
+  content: >
+    Đề cập đến doanh nghiệp hoặc tổ chức thu lợi nhuận từ phần mềm của osTicket và các nhân viên hỗ trợ. Thông tin này sẽ xuất hiện trong phần chữ kí email khi các lệnh được phản hồi tới các nhân viên.
+  links:
+    - 
+      title: Cơ sở thông tin doanh nghiệp
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Trang đích
+  content: >
+    <span class="doc-desc-title">trang đích</span>được hiển thị trên trang trước của trang hỗ trợ của bạn.
+offline_page:
+  title: Trang offline
+  content: >
+    <span class="doc-desc-title">Trang offline</span>được hiển thị trên trang hỗ trợ khi phần hỗ trợ offline, xem kênh admin&gt;Cài đặt&gt;Hệ thống&gt;Tình trạng hỗ trợ.
+default_thank_you_page:
+  title: Trang cảm ơn mặc định
+  content: >
+    <span class="doc-desc-title">Trang cảm ơn </span>được hiển thị tới khách hành khi<span class="doc-desc-title">một khách hàng</span>đệ trình một lệnh mới.<br/><br/><span class="doc-desc-title">Trang cảm ơn</span>có thể được kết hợp với tiêu đề trợ giúp.
+logos:
+  title: Logo
+  content: >
+    Bạn có thể tùy chỉnh<span class="doc-desc-title">logo</span>được hiển thị với khách hàng trên cổng thông tin khách hàng (VD: trang hỗ trợ).
+upload_a_new_logo:
+  title: Đăng tải một logo mới
+  content: >
+    Chọn một hình ảnh dưới định dạng gif, .jpg hoặc .png. Bạn có thể thay đổi kích thước hiển thị hình ảnh. Tuy nhiên, bạn sẽ không thể thay đổi kích thước dữ liệu của hình ảnh này. Do đó, để tăng số lần load ảnh, bạn nên giữ hình ảnh gần với cỡ ảnh mặc định (817px &times; 170px).

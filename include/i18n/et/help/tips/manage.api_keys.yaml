@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API võti
+  content: >
+    API võtmeid kasutatakse kliendi pöördumiste registreerimiseks läbi rakendusliidese (API). API võtmeid kasutatakse paroolide asemel. Kuna API võtit saab saata krüpteerimata, on nad seotud iga kliendi võrgu IP-aadressiga.
+  links:
+    - 
+      title: osTicketi API dokumentatsioon
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP aadress
+  content: >
+    Kliendi võrgu IP aadress. Iga unikaalne kliendi IP aadress vajab eraldi API võtmeid

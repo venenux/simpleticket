@@ -1,0 +1,7 @@
+---
+notes: |
+  
+subject: |
+  Trasferimento del ticket #%{ticket.number} - %{ticket.dept.name}
+body: |
+  <h3>Ciao %{recipient}</h3> Il ticket <a href="%{ticket.staff_link}"> #%{ticket.number}</a> è stato trasferito al reparto %{ticket.dept.name} <strong>% {staff.name.short}</strong> <br><br><blockquote>% {commenti}</%{recipient}t" style="width: 126px;" src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

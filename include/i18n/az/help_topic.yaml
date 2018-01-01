@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Əsas araşdırma
+  notes: Xidmətlərin məhsulları haqda suallar
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Geri bildiriş
+  notes: |
+    İlk növbədə satışa və hesab şöbəsinə şamil olunan sorğular
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Problem haqda məlumat verin
+  notes: |
+    Məhsul, xidmət və ya avadanlıqla əlaqəli məsələlər
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problemə çıxış
+  notes: |
+    Fiziki və ya virtual aktiv qeyri-mümkün çıxış haqda məlumatlandırın

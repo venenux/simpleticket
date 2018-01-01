@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Əlaqə məlumatı
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: E-poçt ünvanı
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Tam ad
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefon nömrəsi
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Daxili qeydlər
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Sorğu detalları
+  instructions: Probleminizi təsvir edin, xahiş edirik.
+  notes: |
+    Bu form mənbəsi nəzərə alınmadan hər sorğuya əlavə olunacaq. Siz bu forma hər hansı sahə əlavə edə bilərsiniz. Onlar bütün sorğularda görünəcək və ətraflı axtarışda və filterləmədə tapılacaq.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Çıxarışın icmalı (qısa məzmunu)
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Məsələnin detalları
+      hint: Sorğunun açılması səbəb(lər)inin detalları.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Prioritet səviyyəsi
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Şirkət haqda məlumat
+  instructions: Detallar e-poçt şablonlarında mövcuddur
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Şirkətin adı
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Vebsayt
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefon nömrəsi
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Ünvan
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Təşkilat haqda məlumat
+  instructions: İstifadəçi təşkilatin detalları
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Ad
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Ünvan
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Vebsayt
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Daxili qeydlər
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

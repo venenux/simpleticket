@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Anggota staf
+  content: >
+    Tabel berikut Menampilkan hasil dari filter di atasnya. Jika tidak ada pengaturan filter yang dipilih, maka semua <span class="doc-desc-title"> Anggota staf</span> yang ditampilkan, dan dipecah oleh halaman. Lihat di bawah untuk menavigasi lebih banyak hasil bagian halaman.
+apply_filtering_criteria:
+  title: Menerapkan kriteria penyaringan
+  content: >
+    Memilih sebuah <span class="doc-desc-title"> departemen</span> yang relevan dengan minat Anda saat ini. Anda juga dapat melakukan pencarian untuk agen tertentu.

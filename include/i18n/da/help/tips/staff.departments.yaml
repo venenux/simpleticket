@@ -1,0 +1,10 @@
+---
+type:
+  title: Type
+  content: >
+    Hvis afdelingens type er privat, vil afdelings signaturen ikke være tilgængelig på svar heller vil afdelingen tildeling vise fra portalen klient.
+dept_manager:
+  title: Afdelingsleder
+  content: >
+    Du kan vælge en agent som en afdelingsleder til at modtage advarsler og meddelelser for billetter i afdelinger.
+  0: Agenter behøver ikke at være medlem af afdeling for at lede afdelingen

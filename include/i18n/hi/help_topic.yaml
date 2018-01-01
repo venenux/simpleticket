@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: सामान्य पूछताछ
+  notes: उत्पादों या सेवाओं के बारे में प्रश्न
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: प्रतिक्रिया
+  notes: |
+    Tickets that primarily concern the sales and billing departments
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: समस्या के बारे में बताएं
+  notes: |
+    उत्पाद, सेवा, या उपकरण से संबंधित मुद्दों
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Access Issue
+  notes: |
+    Report an inability access a physical or virtual asset

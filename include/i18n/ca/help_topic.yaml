@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Recerca general
+  notes: Preguntes sobre productes o serveis
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Comentaris
+  notes: |
+    Tickets que concerneixen els departaments de vendes i facturació
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Comunicar un problema
+  notes: |
+    Incidències relacionades amb productes, serveis o equipaments
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Número d'incidència
+  notes: |
+    Comunicar la incapacitat d'accés a un recurs físic o virtual

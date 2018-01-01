@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Richiesta Generica
+  notes: Domande sui prodotti o servizi
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Feedback
+  notes: |
+    Tickets che riguardano principalmente i reparti vendite e fatturazione
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Segnala un problema
+  notes: |
+    Prodotto, servizio o problemi relativo ad apparecchiatura
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problema di accesso
+  notes: |
+    Problema di non accessibilità di una risorsa

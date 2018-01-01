@@ -1,0 +1,17 @@
+---
+signature:
+  title: Töötajate allkirjatekst
+  content: |
+    Koosta töötaja allkirjatekst piletite vastustele. Allkirja teksti kuvatakse pileti vastuse lõpus.
+type:
+  title: Konto tüüp
+  content: |
+    Administraatoritel on juurdepääs Admin menüüle. Töötajtel on õigus hallata pileteid ja teadmistebaasi.
+group:
+  title: Määratud grupp
+  content: |
+    Liikmelisus grupis määrab töötaja rolli süsteemis. Töötajate õiguste määramiseks, mine gruppide halduse lehele.
+notes:
+  title: Sisemised märkused
+  content: |
+    Sisemised märkused töötajate kohta; märkused on nähtavad ainult töötajatele, kelle konto tüübiks on Admin

@@ -1,0 +1,17 @@
+---
+signature:
+  title: Személyzeti aláírási sor
+  content: |
+    Levélaláírás készítése válaszüzenetekbe. Az aláírás opcionálisan jelenik meg a válasz alján.
+type:
+  title: Felhasználói fiók típus
+  content: |
+    A rendszer adminisztrátorok elérhetik a Adminisztrátori panelt. A munkatársak csak a hibajegyeket illetve a tudásbázist kezelhetik
+group:
+  title: Hozzárendelt csapat
+  content: |
+    A csoporttagság definiálja a munkatárs szerepét a rendszerben. Látogassa meg a csoport kezelő oldal, hogy definiálja, hogy milyen jogosultságai vannak a munkatársnak az ügyféltámogató rendszerben
+notes:
+  title: Belső megjegyzések
+  content: |
+    Adjon belső megjegyzést a munkatárshoz. A megjegyzéseket csak adminisztrátori jogosultsággal bíró munkatársak láthatják

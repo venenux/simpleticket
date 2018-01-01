@@ -1,0 +1,13 @@
+---
+signature:
+  title: Linija potpisa osoblja
+  content: Izradite potpis osoblja za odgovor na tikete. Ovaj potpis će se prikazivati kao opcija na dnu odgovora na tiket
+type:
+  title: Tip naloga
+  content: Administratori imaju privilegiju pristupa Admin panelu. Zaposleni imaju pristup upravljanju tiketima i bazom znanja
+group:
+  title: Dodeljene grupe
+  content: Članstvo u grupi definiše ulogu zaposlenog u sistemu. Posetite stranicu za upravljanje grupama kako biste odredili pristup grupe unutar centra tehničke podrške
+notes:
+  title: Interne beleške
+  content: Postavite interne beleške o osoblju; beleške su vidljive samo administratorima

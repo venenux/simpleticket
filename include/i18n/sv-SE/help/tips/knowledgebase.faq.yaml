@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Typ av listning
+  content: >
+    Välj <span class="doc-desc-opt">Publik (publicera)</span> Om du vill att denna  <span class="doc-desc-title"> FAQ</span> ska visas i den kunskapsdatabas som är synlig för alla om moderkategorin är synlig för alla.
+  links:
+    - 
+      title: Aktivera kunskapsdatabasen som är synlig för alla i kundportalen
+      href: /scp/settings.php?t=kb

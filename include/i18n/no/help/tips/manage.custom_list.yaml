@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Egendefinerte lister
+  content: >
+    Dine <span class="doc-desc-title"> egendefinerte lister</span> vil tillate deg å lage rullegardinbokser med forhåndsdefinerte alternativer som en klient kan velge mellom i<span class="doc-desc-title"> Egendefinerte skjemaer</span>. Hvis du ønsker å bruke <span class="doc-desc-title"> egendefinert liste</span> som <span class="doc-desc-title"> mål</span> i et <span class="doc-desc-title"> saks-Filter</span>, må du legge til denne listen i <span class="doc-desc-title"> saks detalj</span>-skjemaet.
+name:
+  title: navn
+  content: >
+    
+plural_name:
+  title: Flertallsnavn
+  content: >
+    
+sort_order:
+  title: Sorteringsrekkefølge
+  content: >
+    
+list_s_initial_items:
+  title: Første listeelementer
+  content: >
+    
+value:
+  title: Verdi
+  content: >
+    
+extra:
+  title: Ekstra
+  content: >
+    Forkortelser og slikt. Hvis du tilfeldigvis bruke interne koder for elementene i listen, kan disse koder og forkortelser angis i denne kolonnen. Hvis den egendefinerte listen gjengis som en <span class="doc-desc-option"> husket liste</span>, kan disse forkortelsene brukes til å søke etter egendefinerte elementene.

@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Поддержка
+  signature: Отдел поддержки
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Продажи
+  signature: |
+    Продажи и маркетинг
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Техподдержка
+  signature: |
+    Отдел технической поддержки
+  ispublic: 0
+  group_membership: 0

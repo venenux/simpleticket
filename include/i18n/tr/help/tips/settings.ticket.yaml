@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Kayıt Numarası Biçimi
+  content: >
+    Bu ayar talep numarası üretilirken kullanılır. Rakam konulacak yerler için  (`#`)  işaretini kullanın. Yazacağınız diğer metin korunacaktır. <span class="doc-desc-title">Yardım Konuları</span> özel sayı biçimleri tanımalayabilirler. <br/><br/> Mesela, altı haneli numaralar için  <code>######</code> formatını kullanabilirsiniz.
+sequence_id:
+  title: Talep Numarası Sırası
+  content: >
+    Yeni talep numaralarını oluşturacağınız sıralamayı seçin. Sistem varsayılan olarak raslantısal ve artan bir sıra kullanmaktadır. İstediğiniz sayıda farklı sıralar oluşturabilirsiniz. Yardım konularının ayarlarında farklı <span class="doc-desc-title">Talep Numara Biçimleri</span> kullanın.
+default_ticket_status:
+  title: Yeni Ticketların Varsayılan Durumları
+  content: >
+    Yeni talepler için varsayılan durumu seçin. Bu isterseniz her bir yardım konusu için belirlenebilir. Bu ayar ayrıca talep filtreleri ile çiğnenebilir.
+  links:
+    - 
+      title: Ticket Durumlarını Yönetme
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Varsayılan SLA
+  content: >
+    Bir talebin zaman aşımına uğrmadan önce ne kadar açık kalacağını belirten varsayılan Servis Seveyisi Anlaşmasını (SLA) seçin.
+  links:
+    - 
+      title: Daha fazla SLA planı oluştur
+      href: /scp/slas.php
+default_priority:
+  title: Varsayılan öncelik
+  content: >
+    Otomatik olarak <span class="doc-desc-title">önceliği</span> belirlenmemiş talepler için varsayılan önceliği seçin. <br/><br/> Öncelik yardım konusuyla, belirlenen bölümle veya talep filtre ayarları ile atanabilir.
+maximum_open_tickets:
+  title: Maksimum Açık Talep
+  content: >
+    Yardım masanızda bir kullanıcın <strong>açık</strong> olarak sahip olacaği maksimum talep <em>sayısını</em> seçin. <br><br> Bu sınırı kaldırmak isterseniz <span class="doc-desc-opt">0</span> girin. 
+agent_collision_avoidance:
+  title: Personel Çakışma Önleyici
+  content: >
+    Bir temsilcinin işlem yapılmayan bir talebi en fazla ne kadar sürekilitli tutabileceğini girin.<br><br> Kilitleme özelliğini kapatmak için <span class="doc-desc-opt">0</span> girin.
+email_ticket_priority:
+  title: E-posta Talep Önceliği
+  content: >
+    Gönderenin posta servisi ile atanan e-posta önceliğini kullan
+show_related_tickets:
+  title: Bağlantılı Talepleri Göster
+  content: >
+    Kullanıcı girişinde iligi talepleri göster - aksi halde eirişim her giriş için tek bir talep ile sınırlı kalacaktır
+human_verification:
+  title: İnsan doğrulaması
+  content: >
+    Müşteri portalında CAPTCHA yı aktif ederek gelen taleplerin bir insan tarafından oluşturulduğunu doğrula.<br><br> GDLin kütüphanesine ihtiyaç duyar
+claim_tickets:
+  title: Cevap üzerine Taleplerin al
+  content: >
+    Bu özellik ile atanmamış talepleri cevap veren Temsilciye otomatik olarak ata. <br><br> Yeniden açılan talepler her zaman en son cevap verene atanmaktadır.
+assigned_tickets:
+  title: Atanmış Talepler
+  content: >
+    Bu özellik ile <span class="doc-desc-title">Açık Talepler Sırası</span>dan tanan talepleri kaldırın.
+answered_tickets:
+  title: Cevaplanmış Talepler
+  content: >
+    Bu özellik ile cevaplanmış talepleri <span class="doc-desc-title">Cevaplanmış Talepler Sırası</span>nda gösterin. Aksi halde, bu talepler <span class="doc-desc-title">Açık Talepler Sırası</span>nda görünecektir.
+staff_identity_masking:
+  title: Çalışan Kimlik Maskesi
+  content: >
+    Eğer açılırsa, Temsilicinin ismi Müşteri ile gerçekleşen her türlü haberleşmede gizlenecektir.
+enable_html_ticket_thread:
+  title: HTML Talep silsilesini göster
+  content: >
+    Eğer açılırsa, Müşteri ve Temsilci arasında zengin metin içeriğinin kullanılmasına izin verir.
+ticket_attachment_settings:
+  title: Talep Silsile Eklentileri
+  content: >
+    <span class="doc-desc-title">Sorun detayları</span> kısmı için eklen dosyaların ayarlarını düzenleyin. Bu ayarlar talebin geldiği kanala bakılmaksızın(ağ portalı, e-posta, api. vb.) bütün yeni talep ve mesajlarda kullanılacaktır.
+max_file_size:
+  title: Max. Dosya Boyutu
+  content: >
+    Temsilciler tarafından yüklenebilecek en büyük dosya boyutunu seçin. Bu boyut hazır cevapları, bilgi bankası makalelerini ve talep cevaplarına eklenen dosya eklentilerini içerir.
+ticket_response_files:
+  title: Talep Yanıt Dosyaları
+  content: >
+    Eğer açılılrsa, Temsilicinin eklediği her bir eklenti kullanıcıya gönderilecek e-postaya eklenecektir.

@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Pöördumise numbri vorming
+  content: >
+    See seadistus määrab, kuidas pöördumistele järjekorranumbreid antakse. Kasuta trelle (`#`) seal, kus peavad olema numbrid. Kogu ülejäänud tekst jääb numbri vormingusse. <span class="doc-desc-title">Abiteemas</span> saab määrata kohandatud numbrivormingut. <br/><br/> Nt kuuekohalise arvu jaoks kasuta <code>######</code>.
+sequence_id:
+  title: Pöördmiste numbrite vahemik
+  content: >
+    Vali vahemik, millest tulevad uute pöördumiste numbrid. Süsteem 'is on vaikimisi suurenev ja juhuslik vahemik. Saad luua nii palju vahemikke kui soovid. Kasuta abiteemade jaoks erinevaid vahemikke <span class="doc-desc-title">pöördumise numbri vormingu</span> konfiguratsioonis.
+default_ticket_status:
+  title: Uue pöördumise staatus vaikimisi
+  content: >
+    Vali uue pöördumise jaoks vaikimisi staatus. Seda saad defineerida iga abiteema jaoks, kui vaja. Seda saab pöördumiste filter samuti üle kirjutada.
+  links:
+    - 
+      title: Halda pöördumiste staatusi
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Vaikimisi SLA
+  content: >
+    Vali vaikimisi SLA määramaks, kui kaua pöördumine võib olla staatuses avatud enne, kui ta muutub üle aja läinud pöördumiseks.
+  links:
+    - 
+      title: Loo veel SLA-sid
+      href: /scp/slas.php
+default_priority:
+  title: Prioriteet vaikimisi
+  content: >
+    Vali vaikimisi <span class="doc-desc-title">prioriteet</span> neile pöördumistele, millele pole automaatselt prioriteeti määratud. <br/><br/> Prioriteeti saab määrata abiteema, osakonnale saatmise või pöördumiste filtri abil.
+maximum_open_tickets:
+  title: Avatud pöördumiste maksimum
+  content: >
+    Vali ühe kasutaja maksimaalne <strong>avatud</strong> pöördumiste <em>hulk</em> Sinu kasutajatoe süsteemis.<br><br> Sisesta <span class="doc-desc-opt">0</span>, kui ei taha seda määrata.
+agent_collision_avoidance:
+  title: Agentide kokkupõrkumise vältimine
+  content: >
+    Sisesta maksimum aeg, mille jooksul agent peab tegema lukustatud pöördumise juures muudatusi.<br><br> Sisesta <span class="doc-desc-opt">0</span>, kui soovid lukustust mitte kasutada.
+email_ticket_priority:
+  title: E-kirja pöördumise prioriteet
+  content: >
+    Määra e-posti prioriteet sõltuvalt adressaadi meiliteenusest
+show_related_tickets:
+  title: Näita seotud pöördumisi
+  content: >
+    Näita kõiki kasutaja seotud pöördumisi sisselogimisel - muidu näeb ta sisselogimisel vaid ühte pöördumist
+human_verification:
+  title: Inimese kindlakstegemine
+  content: >
+    Aktiveeri kliendi portaalis CAPTCHA, et olla kindel pöördumiste saatmises inimese poolt. <br><br> Vajalik on GDLib library
+claim_tickets:
+  title: Võta pöördumine vastates endale
+  content: >
+    Luba määramata pöördumiste automaatne määramine vastutavale agendile.<br><br>Taasavatud pöördumised määratakse alati viimati lahendajaks olnud agendile.
+assigned_tickets:
+  title: Määratud pöördimised
+  content: >
+    Lülita see sisse, et välistada lahendamiseks määratud pöördumiste kuvamine <span class="doc-desc-title">avatud pöördumiste nimekirjas</span>.
+answered_tickets:
+  title: Vastatud pöördumised
+  content: >
+    Lülita see sisse, et näidata vastatud pöördumisi <span class="doc-desc-title">vastatud pöördumiste nimekirjas</span>. Vastasel korral näidatakse neid <span class="doc-desc-title">avatud pöördumiste nimekirjas</span>.
+staff_identity_masking:
+  title: Töötajate identiteedi maskeerimine
+  content: >
+    Kui see on sisse lülitatud, siis kliendi eest varjatakse agendi nime infovahetuse ajal.
+enable_html_ticket_thread:
+  title: Luba HTML pöördumised
+  content: >
+    Kui aktiveeritud, siis on kliendi ja agendi vahelises kirjavahetuses lubatud rich text vorming.
+ticket_attachment_settings:
+  title: Pöördumiste manused
+  content: >
+    Tee seadistus manustele, mis lisatakse <span class="doc-desc-title">küsimuse üksikasjade</span> väljale. Need seaded on kasutusel kõikide uute pöördumiste juures sõltumata kanalist (veebiportaal, e-kiri, API).
+max_file_size:
+  title: Faili maksimumsuurus
+  content: >
+    Vali agendi poolt üleslaetava faili maksimaalne suurus. See sisaldab eelnevalt ettevalmistatud manuseid, teadmusbaasi artikleid ja pöördumisele lisatud manuseid.
+ticket_response_files:
+  title: Pöördumiste vastuste failid
+  content: >
+    Kui sisse lülitatud, siis kõik manused, mida agent lisab pöördumisele, saadetakse ka e-kirjaga kasutajale.

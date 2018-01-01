@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Uždrausti el. pašto adresai
+  content: >
+    Laiškai gauti iš adresų išvardintų draudžiamų adresų sąraše bus automatiškai atmetami.

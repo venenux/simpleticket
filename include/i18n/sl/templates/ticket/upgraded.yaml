@@ -1,0 +1,32 @@
+---
+source: Splet
+name: osTicket Podpora
+email: support@osticket.com
+subject: osTicket Nadgrajen!
+message: |
+  <p>
+  osTicket je bil uspešno nadgrajen! Za več informacij o spremembah 
+  in novostih si preberite Opombe ob izdaji (http://osticket.com/wiki/Release_Notes)+
+  </p><p>
+  Vabimo vas da se pridružite <a href="http://osticket.com/forums">osTicket
+  forumom</a> in našemu <a href="http://osticket.com/updates">poštnemu
+  seznamu</a> če želite ostati na tekočem z našimi naznanili, varnostnimi popravki
+  in opozorili! Vaš prispevek k osTicket skupnosti bo cenjen!
+  </p><p>
+  Ekipa osTicket je predana zagotavljanju podpore vsem uporabnikom
+  preko naših zastonjskih spletnih sredstev in celotno paleto komercialnih
+  podpornih paketov in storitev. Za več informacij ali nasvet glede vaših potreb
+  nas kontaktirajte na http://osticket.com/support/. Vsaka povratna informacija
+  bo zelo cenjena!
+  </p><p>
+  Če vam je upravljanje in nadgrajevanje osTicket odveč, lahko poskusite
+  osTicket kot gostovano storitev na http://www.supportsystem.com/ --
+  brez nadgrajevanja in mi vam lahko uvozimo vse potrebne podatke!  
+  Z SupportSystemovo "na ključ" infrastrukturo, dobite osTicket na vrhuncu,
+  da se lahko popolnoma posvetite stranki, brez da bi skrbeli za zagotavljanje
+  stabilnosti, urejenosti in varnosti osTicket sistema
+  </p><p>
+  -<br/>
+  Ekipa osTicket<br/>
+  http://osticket.com/
+  </p>

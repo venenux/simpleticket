@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Yardım Masası Durumu
+  content: >
+    Eğer durum <span class="doc-desc-opt">Çevirimdışı</span> ayarlanırsa, kullanıcı arayüzü devredışı kalacaktır. Fakat bu personelin, personel sayfası işlemlerini etkilemez.
+helpdesk_url:
+  title: Yardım Masası URL'si
+  content: >
+    Bu URL osTicket kurulumunun ana adresi olacaktır. Son kullanıcılar ile yapılacak e-posta iletişimlerinde yardım masanıza dönebilmeleri için kullanılacaktır.
+helpdesk_name_title:
+  title: Destek Masası Adı
+  content: >
+    Bu internet tarayıcısın sekmesinden görünecek başlıktır. Eğer siteniz sık kullanılanlara eklenirse, sitenin başlığı/ismi bu olacaktır.
+default_department:
+  title: Varsayılan Bölüm
+  content: >
+    Otomatik olarak bölümü atanmayan istekler için varsayılan <span class="doc-desc-title">bölümü</span> seçin. <br/><br/> Talep yardım konusu, gelen e-posta ve talep filtre adresine göre yönlendirilebilir.
+default_page_size:
+  title: Varsayılan Sayfa Boyutu
+  content: >
+    Personel Panelinde bulunan Talep Sırasındaki sayfa başına gösterilecek talep sayısını seçin. Her bir Temsilci bu numarayı <span class="doc-desc-title">Tercihlerim</span> kısmından değiştirebilir.
+default_log_level:
+  title: Varsayılan Günlük Seviyesi
+  content: >
+    <span class="doc-desc-title">Sistem günlüğü</span> kaydedilecek sorunların en düşük seviyesini belirleyin. <span class="doc-desc-opt">Hata ayıklama</span> en düşük seviyeyi ve <span class="doc-desc-opt">Hata</span> ise en yüksek seviyeyi belirtir. Mesela, eğer <span class="doc-desc-title">Sistem Günlüğünde</span>, bulunan bütün sorunları görmek isterseniz <span class="doc-desc-opt">Hata</span> seviyesini seçin.
+purge_logs:
+  title: Günlükleri Temizle
+  content: >
+    <span class="doc-desc-title">Sistem Kütüğünün</span> silinmeden önce ne kadar tutulacağını seçin.
+default_name_formatting:
+  title: Varsayılan İsim Biçimlendirmesi
+  content: >
+    Sistem içinde kullanılacak isimlerin biçimini seçin. E-posta tasklakları bir değişken tanımlanmamışsa bunları isimler için kullanacaktır.
+  links:
+    - 
+      title: Desteklenen E-posta Şablon Değişkenleri
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Tarih &amp; Saat Seçenekleri
+  content: >
+    Gelecek ayarlar müşterilerin Tarih &amp; Zaman ayarlarını belirleyecektir. Tarih ve Zamanın nasıl görüneceğini PHP tarih format karakteri ile değiştirebilirsiniz. Aşağıdaki tarihler karşılarındaki formatların sonucunu göstermektedir.
+  links:
+    - 
+      title: PHP Tarih Format Tablosuna bakın
+      href: 'http://www.php.net/manual/en/function.date.php'

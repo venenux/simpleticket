@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Chế độ cơ sở tri thức
+  content: >
+    
+knowledge_base_status:
+  title: Tình trạng Cơ sở tri thức
+  content: >
+    Kích hoạt chức năng này cho phép người dùng tự truy cập vào các mục Cơ sở tri thức công khai.<br><br>Các loại Cơ sở tri thức và FAQ có thể chuyển thành nội bộ (chỉ có thể xem bởi các nhân viên).
+  links:
+    - 
+      title: Quản lý cơ sở tri thức
+      href: /scp/kb.php
+restrict_kb:
+  title: Hạn chế truy cập vào Cơ sở tri thức
+  content: >
+    Kích hoạt mục cài đặt này để ngăn những người dùng chưa đăng ký truy cập vào các bài viết trong Cơ sở tri thức từ giao diện của hệ thống.
+  links:
+    - 
+      title: Cài đặt điều khiển truy cập
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Phản hồi trước
+  content: >
+    Kích hoạt chức năng này cho phép nhân viên sử dụng<span class="doc-desc-title">phản hồi trước</span>khi trả lời các lệnh.
+  links:
+    - 
+      title: Quản lý Phản hồi trước
+      href: /scp/canned.php

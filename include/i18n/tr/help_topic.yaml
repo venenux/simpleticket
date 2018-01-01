@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Genel Sorgu
+  notes: Ürünler veya hizmetler hakkında sorular
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Geribildirim
+  notes: |
+    Öncelikle Satış ve Muhasebe bölümlerini ilgilendiren talepler
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Bir Sorun Bildirin
+  notes: |
+    Ürün, hizmet veya donanım ile ilgili sorunlar
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Erişim Sorunu
+  notes: |
+    Fiziksel veya sanal bir varlığa erişememeyi raporla

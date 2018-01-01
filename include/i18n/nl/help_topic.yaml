@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Algemene vraag
+  notes: Vragen over producten of diensten
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Terugkoppeling
+  notes: |
+    Tickets die voornamelijk betrekking hebben op de afdelingen verkoop en facturatie
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Meld een probleem
+  notes: |
+    Product, dienst of apparatuur gerelateerde zaken
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Inlogproblemen
+  notes: |
+    Meld een probleem aan met de toegang tot een fysiek of virtueel onderdeel

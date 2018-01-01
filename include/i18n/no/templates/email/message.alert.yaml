@@ -1,0 +1,42 @@
+---
+notes: |
+  Sendt til medarbeidere når en ny melding er postet av brukeren i en sak.  Dette kan skje både hvis brukerne svarer på en e-post fra systemet eller besøker kundeportalen og legger inn en ny melding der.
+subject: |
+  Ny melding varsling
+body: |2
+  <h3><strong>Hei %{recipient},</strong></h3>
+  Ny beskjed er lagt til sak <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Fra</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Avdeling</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>For å vise eller svare i saken, vennligst <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >logg inn</span></a> i støttesystemet</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Ditt vennlige støttesystem</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Test uitgaande E-mail
+  content: >
+    De aflevering van de e-mail hangt af van uw serverinstellingen (php.ini) en/of SMTP configuratie.
+  links:
+    - 
+      title: Selecteer een email om SMTP (uitgaande mail) instellingen te configureren
+      href: /scp/emails.php
+from:
+  title: Van
+  content: >
+    
+to:
+  title: Aan
+  content: >
+    
+subject:
+  title: Onderwerp
+  content: >
+    
+message:
+  title: Bericht
+  content: >
+    

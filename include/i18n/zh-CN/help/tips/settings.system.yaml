@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: 帮助中心状态
+  content: >
+    如果将状态更改为<span class="doc-desc-opt">离线</span>，将禁用客户界面。但是这并不会对代理面板相关的普通代理造成影响。
+helpdesk_url:
+  title: 帮助中心URL地址
+  content: >
+    这个URL是你安装osTicket的时候必须要用的。它能够在与客户邮件沟通的时候，把终端客户带到你的帮助中心来。
+helpdesk_name_title:
+  title: 帮助中心名称/标题
+  content: >
+    此项属于标题，一般出现在浏览器选项卡中。如果您的帮助页面已加入书签，此项即为网站页面的标题/名称。
+default_department:
+  title: 默认部门
+  content: >
+    选择默认<span class="doc-desc-title">部门</span>，用于未自动发送至部门的咨询。<br/><br/>根据帮助主题、接收电子邮件和咨询筛选设置发送咨询。
+default_page_size:
+  title: 默认页面大小
+  content: >
+    选择在工作人员面板中的咨询队列里显示的每页项目数。每个代理还可在<span class="doc-desc-title">我的偏好</span>下自定义自身账户的此数字。
+default_log_level:
+  title: 默认日志级别
+  content: >
+    确定在<span class="doc-desc-title">系统日志</span>中记录的问题最低等级。<span class="doc-desc-opt">调试</span>表示最严重程度，且<span class="doc-desc-opt">错误</span>表示最大严重性。例如，如果要查看<span class="doc-desc-title">系统日志</span>中的所有问题，选择<span class="doc-desc-opt">调试</span>。
+purge_logs:
+  title: 清除日志
+  content: >
+    决定<span class="doc-desc-title">系统日志</span>删除前的保存时间。
+default_name_formatting:
+  title: 默认名称格式
+  content: >
+    选择整个系统的名称格式。如果变量中未指定其他格式，电子邮件模板将使用此名称格式。
+  links:
+    - 
+      title: 支持的电子邮件模板变量
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: 日期、&amp;时间选项
+  content: >
+    以下设置定义了客户的日期、&amp;时间设置。您可通过以下 PHP 日期格式字符更改其出现方式。以下所示日期仅仅说明其对应值的结果。
+  links:
+    - 
+      title: 查看 PHP 日期格式表格
+      href: 'http://www.php.net/manual/en/function.date.php'

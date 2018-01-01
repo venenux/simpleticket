@@ -1,0 +1,27 @@
+---
+notes: |
+  Bir kayıt oluşturulurken hazır yanıt gönderildiğinde kullanıcıya gönderilir. 
+  
+  Kullanılabilecek değişkenler: %{ticket.*}, %{response}
+subject: |
+  Yanıt: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Sayın %{recipient.name.first},</strong></h3>
+  Bir destek talebi oluşturuldu ve  <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> numaralı kayıt alttaki otomatik yanıtla birlikte atandı
+  <br>
+  <br>
+  Türü: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Konu: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">%{company.name} Ekibi,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Umarız bu yanıt sorularınıza çözüm olmuştur. Ek bilgi ya da yorum göndermek istiyorsanız,  lütfen bu mesajı yanıtlayın ya da
+  tüm destek taleplerinizin arşivini görmek için <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >hesabınıza giriş yapın.</span></a> </em></div>

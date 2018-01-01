@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Formát čísla tiketu
+  content: >
+    Toto nastavenie sa používa pre generovanie čísla, ktoré identifikuje tiket. Použite znak (`#`), ktorý bude nahradený číslicami. Ostatné znaky ostanú zachované. <span class="doc-desc-title">Predmet tiketu</span> môže predefinovať číselný formát. <br/><br/> Napríklad, pre šesťmiestne číslo použite formát <code>######</code>.
+sequence_id:
+  title: Číselná sekvencia pre tikety
+  content: >
+    Vyberte sekvenciu, z ktorej sa odvodí nové číslo pre tiket. Systém používa sekvenciu postupne zvyšujúceho sa číselného radu a sekvenciu náhodného výberu. Počet sekvencií nie je obmedzený. Môžete použiť rozličné sekvencie pre rozdielne <span class="doc-desc-title">predmety tiketov</span> v rámci ich definície.
+default_ticket_status:
+  title: Preddefinovaný stav pre nový tiket
+  content: >
+    Vyberte preddefinovaný stav pre nový tiket. Stav tiketu môže byť iný pre každý predmet tiketu. Takisto môže byť zmenený počas filtrácie tiketov.
+  links:
+    - 
+      title: Definícia stavov tiketov
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: Predvolené SLA
+  content: >
+    Vyberte preddefinované SLA, na základe ktorého sa určí ako dlho ostane tiket otvorený než sa zmení jeho stav na omeškaný.
+  links:
+    - 
+      title: Vytvoriť viac SLA plánov
+      href: /scp/slas.php
+default_priority:
+  title: Predvolená priorita
+  content: >
+    Vyberte preddefinovanú <span class="doc-desc-title">prioritu</span> pre tie tikety, pre ktoré nebola stanovená automaticky. <br/><br/> Priority môže byť stanovená na základe predmetu tiketu, filtrácie tiketov alebo presmerovania na príslušné oddelenie.
+maximum_open_tickets:
+  title: Maximum otvorených Ticketov
+  content: >
+    Zadajte maximálny <em>počet</em> tiketov, ktoré môže mať užívateľ naraz <strong>otvorený.</strong> <br><br> Zadajte <span class="doc-desc-opt">0 </span> ak nechcete aktivovať toto obmedzenie.
+agent_collision_avoidance:
+  title: Uzamknutie tiketov
+  content: >
+    Zadajte maximálnu dobu počas ktorej je tiket uzamknutý aj bez akejkoľvek aktivity agenta.<br><br> Zadajte <span class="doc-desc-opt">0</span> ak nechcete aktivovať túto voľbu.
+email_ticket_priority:
+  title: E-mail Ticket priorita
+  content: >
+    Použitie priority z došlého emailu
+show_related_tickets:
+  title: Ukáž súvisiaci Ticket
+  content: >
+    Ukáž všetky súvisiace tickety na užívatelovom logine - inak bude prístup obmedzený na jeden ticket na prihlásenie
+human_verification:
+  title: Overenie človekom
+  content: >
+    Použitie CAPTCHA overenie na klientskom portále. Používa sa na overenie, či tiket bol zadaný človekom a nie strojovo. <br><br> Vyžaduje GDLib knižnicu
+claim_tickets:
+  title: Prevzatie tiketu na základe odpovede
+  content: >
+    Nastaví automatické priradenie nepriradeného tiketu, agentovi ktorý vytvoril odpoveď.<br><br>Nanovo otvorené tikety sú vždy priradené tomu, kto naposledy vytvoril odpoveď.
+assigned_tickets:
+  title: Pridelené tikety
+  content: >
+    Aktivovanie tejto voľby vyradí priradené tikety zo zoznamu  <span class="doc-desc-title">Otvorených tiketov</span>.
+answered_tickets:
+  title: Zodpovedané Tickety
+  content: >
+    Aktivovanie tejto voľby zobrazí tikety na ktoré už existuje odpoveď v zozname  <span class="doc-desc-title">Zodpovedaných tiketov</span>. V opačnom prípade budú zahrnuté v skupine <span class="doc-desc-title">Otvorených tiketov</span>.
+staff_identity_masking:
+  title: Nezobrazovanie mena pracovníka
+  content: >
+    Aktivovanie tejto voľby nezobrazí meno pracovníka počas komunikácie so zákazníkom.
+enable_html_ticket_thread:
+  title: Povoliť HTML v zápise tiketu
+  content: >
+    Nastavením tejto voľby je povolené použitie formátovania pomocou HTML v tele tiketu.
+ticket_attachment_settings:
+  title: Nastavenie použitia príloh
+  content: >
+    Definuje nastavenie pre prílohy v <span class="doc-desc-title">zadaní nového tiketu</span>. Toto nastavenie platí pre všetky nové tikety a správy bez ohľadu na zdrojový kanál (web, email, api, ...)
+max_file_size:
+  title: Maximálna veľkosť súboru
+  content: >
+    Zadajte maximálnu veľkosť príloh nahraných pracovníkmi. Toto nastavenie zahŕňa prílohy v predpripravených odpovediach, v databáze znalostí a v jednotlivých odpovediach.
+ticket_response_files:
+  title: Prílohy v odpovediach
+  content: >
+    Ak je povolené, všetky prílohy, ktoré vytvoril pracovník k odpovedi budú tiež zahrnuté do emailu užívateľovi.

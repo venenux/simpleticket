@@ -1,0 +1,10 @@
+---
+type:
+  title: Tipas
+  content: >
+    Jeigu padalinys yra privatus, tuomet padalinio parašas nebus galimas atsakant nei rodomas kliento portale priskiriant padalinį.
+dept_manager:
+  title: Departamento vadovas
+  content: >
+    Galite agentą priskirti padalinio vadovu, kad jis gautų įspėjimus ir pranešimus apie užklausas padaliniuose.
+  0: Agentas neturi būti departamento narys, kad būtų departamento vadovas

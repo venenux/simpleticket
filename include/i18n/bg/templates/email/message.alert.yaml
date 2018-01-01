@@ -1,0 +1,42 @@
+---
+notes: |
+  Изпраща се до служители, когато потребител публикува ново съобщение към заявка. Това може да се случи, ако потребителят отговори на имейл от системата или посети клиентския уеб портал и там публикува ново съобщение.
+subject: |
+  Предупреждение за ново съобщение
+body: |2
+  <h3><strong>Здравейте %{recipient.name},</strong></h3>
+  Добавено е ново съобщение към заявка <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>От</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Отдел</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>За да видите или отговорите на тази заявка, моля <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >влезте</span></a> в системата за поддръжка</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Вашата приятелска система за поддръжка</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

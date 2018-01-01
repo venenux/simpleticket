@@ -1,0 +1,45 @@
+---
+notes: |
+  Alert sent out to Agents when internal activity such as an internal
+  note or an agent reply is appended to a ticket.
+subject: |
+  Cảnh báo ghi chú nội bộ mới
+body: |
+  <h3><strong>%{recipient.name} thân mến,</strong></h3>
+  Một ghi chú nội bộ đã được đính vào trong thẻ yêu cầu <a href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Từ</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Tiêu đề</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Để xem/trả lời thẻ yêu cầu, vui lòng <a
+  href="%{ticket.staff_link}">đăng nhập</a> vào hệ thống hỗ trợ.
+  <br>
+  <br>
+  <em style="font-size: small; ">Your friendly Customer Support
+  System</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

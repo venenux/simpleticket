@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Åpne
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Åpne saker.
+- 
+  id: 2
+  name: Løst
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Løst saker er lukkede saker som kan åpnes av sluttbrukeren. Dette kan være nyttig når en hendelse har lukket en løst sak og varsel er sendt til sluttbrukeren.
+- 
+  id: 3
+  name: Stengt
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Saken merket som lukket kan ikke åpnes av sluttbrukeren. Saken vil fremdeles være tilgjengelig for klient og ansatte.
+- 
+  id: 4
+  name: Arkivert
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Saker bare adminstratorer har tilgang til, men som ikke lenger er tilgjengelig via saks køene.
+- 
+  id: 5
+  name: Slettet
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Saker i kø for sletting. Ikke tilgjengelig via saks køer.

@@ -1,0 +1,42 @@
+---
+notes: |
+  当系统里面有新的咨询时，发送给工作人员。不管这些咨询是通过邮件生成，网页入口还是通过API生成，工作人员都将收到邮件。
+subject: |
+  新咨询通知
+body: |2
+  <h2>您好%{recipient},</h2>
+  有新的咨询 #%{ticket.number} 
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>来自于</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>部门</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>如果要查看或者回复咨询, 请<a
+  href="%{ticket.staff_link}">登录</a> 客户支持系统</div>
+  <em style="font-size: small">您的有好客户支持系统</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

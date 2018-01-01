@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Užklausų aktyvumas
+  content: >
+    Pasirinkite datos intervalą, kuris sąlygos statistiką grafike ir lentelėje (cf. <span class="doc-desc-title">Statistika</span>) toliau sutelkiant dėmėsį į visą su tomis datomis susijusią informaciją. Toliau grafikas visada atspindės visų sistemos duomenų plačią apžvalgą (t.y. populaiciją). Jūs galite naršyti per <span class="doc-desc-title">Statistikos </span>lentelę  sutelkdami dėmesį į siauresnę dominančią temą (pvz. Departamentas, Tema arba Darbuotojai). Taip pat, jūs galite eksportuoti bet kokius duomenis, kurie šiuo metu atvaizduojami <span class="doc-desc-title">Statistikos</span> lentelėje.
+report_timeframe:
+  title: Atsakymo laikotarpis
+  content: >
+    Pasirinkite pradžios datą, norimai duomenų imčiai, naudodami datų parinkiklį. Tada pasirinkite laiko tarpą nuotos dienos, kad apibrėžtumėte, duomenų imties pabaigos datą.
+statistics:
+  title: Statistika
+  content: >
+    Pereikite į dominančią temą, paspaudę atitinkamą skirtuką, kad galėtumėte peržiūrėti konkretų pavyzdį. Lentelėje, apskritimai nurodo nominalių duopmenų dydį. Kuo didesnins skaičius tam tikrame laukelyje, tuo didesnis bus atitinkamas apskritimas.
+opened:
+  title: Atidaryta
+  content: >
+    Tai parodo užklausas atidarytas Agento (t.y., atidarytas viduje)  ir neatidarytas Kliento.
+assigned:
+  title: Priskirta
+  content: >
+    Sistema stebi kiekvieną įvykį pagal kurį užklausa buvo automatiškai arba rankiniu būdu priskirta konkrečiam padaliniui arba Agentui. Automatiniai priskyrimai priklausys nuo įvestų nustatymų <span class="doc-desc-title">Pagalbos Temai</span><span class="doc-desc-title">Elektroninio pašto Filtravimo</span> Administratoriaus valdymo meniu.
+overdue:
+  title: Vėluoja
+  content: >
+    Tai yra užklausų, kurios pažeidė SLA Planą, kuriam jos priklauso kiekis.
+closed:
+  title: Uždaryta
+  content: >
+    Tai yra užklausų, kurios buvo uždarytos kiekis.
+reopened:
+  title: Vėl atidaryta
+  content: >
+    Tai yra užklausų, kurios buvo vėl atidarytos Agento arba Kliento, kai jis/ji atsakė į užklausą, kuri turėjo uždarytos užklausos statusą kiekis.
+service_time:
+  title: Aptarnavimo laikas
+  content: >
+    <span class="doc-desc-title">Aptarnavimo laikas</span> yra laiko trukmė, kuri prasideda atidarius užklausą ir baigiasi uždarius užklausą. <span class="doc-desc-title">Aptarnavimo laiko</span> stulpelis čmatuoja vidutinį užklausos Aptarnavimo laiką valandomis per nurodytą laikotarpį.
+response_time:
+  title: Reagavimo laikas
+  content: >
+    <span class="doc-desc-title">Reakcijos laikas</span> tai laiko intervalas kuris prasideda kai klientas atsiliepia ir baigiasi kai Agentas atsako. Ši savoka priklauso ne tik nuo užklausos sukūrimo laiko, bet ir nuo bet kurios diskusijos pradėtos kliento.

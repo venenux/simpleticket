@@ -1,0 +1,77 @@
+---
+default_email_templates:
+  title: E-kirja mallide komplekt vaikimisi
+  content: >
+    Vali <span class="doc-desc-title">e-kirja mallide komplekt</span>, mida kasutatakse <span class="doc-desc-title">automaatvastuste</span> ja <span class="doc-desc-title">hoiatuste</span> saatmiseks pöördumise eluea jooksul. <br><br> Osakondadele saab määrata spetsiifilisi e-kirja mallide komplekte.
+  links:
+    - 
+      title: Halda e-kirja mallide komplekte
+      href: /scp/templates.php
+default_system_email:
+  title: Väljaminev e-kiri vaikimisi
+  content: >
+    Vali e-posti aadress, millelt e-kirjad saadetakse. <br><br><span class="doc-desc-title">Osakond</span> saab määrata oma <span class="doc-desc-title">e-posti aadressi</span>, mis kirjutab siinoleva üle.
+  links:
+    - 
+      title: Halda e-posti aadresse
+      href: /scp/emails.php
+default_alert_email:
+  title: Hoiatuse e-kiri vaikimisi
+  content: >
+    Vali e-posti aadress, millelt agentidele <span class="doc-desc-title">hoiatusi ja teateid</span> saadetakse.
+  links:
+    - 
+      title: Halda e-posti aadresse
+      href: /scp/emails.php
+admins_email_address:
+  title: Administraatori e-posti aadress
+  content: >
+    Sisesta administraatori e-posti aadress, millele <span class="doc-desc-title">süsteemi vigu</span> ja <span class="doc-desc-title">uue pöördumise hoiatusi</span> (kui on aktiveeritud) saadetakse.
+  links:
+    - 
+      title: Halda hoiatusi ja teateid
+      href: /scp/settings.php?t=alerts
+email_fetching:
+  title: E-kirjade allalaadimine
+  content: >
+    Luba IMAP/POP pollimine konfigureeritud ja aktiivsetele <span class="doc-desc-title">postkastidele</span>.
+  links:
+    - 
+      title: Halda postkaste
+      href: /scp/emails.php
+enable_autocron_fetch:
+  title: Tõmba e-kirjad alla kasutades automaatset ajastamist (Auto-cron)
+  content: >
+    Võimaldab perioodilist e-kirjade allalaadimist kasutades sisemist ülesannete haldurit, mida aktiveerib agendi tegevus.<br><br> Tähelepanu! Kui keegi pole meeskonna menüüsse sisse loginud, siis e-kirju alla ei laeta. Soovitatav on kasutada välist ülesannete haldurit e-kirjade allalaadimise intervalli määramiseks.
+  links:
+    - 
+      title: Kasutusel on väline ülesannete ajastaja
+      href: 'http://osticket.com/wiki/POP3/IMAP_Setting_Guide'
+strip_quoted_reply:
+  title: Esialgse sõnumi vastus
+  content: >
+    Kui aktiivne, siis see eemaldab kirjavahetusest eelneva kirjavahetuse. <br><br> See seade sõltub <span class="doc-desc-title">vastuse eraldusmärgist</span> allpool.
+reply_separator_tag:
+  title: Vastuse eraldusmärk
+  content: >
+    See on märk, mis näitab kasutajale, et vastus tuleb kirjutada sellest ülespoole.<br><br><strong>Märkus.</strong> See kehtib vaid juhul, kui <span class="doc-desc-title">vastus esialgsele teatele</span> on aktiveeritud allpool.
+emailed_tickets_priority:
+  title: E-kirjaga saadetud pöördumiste prioriteet
+  content: >
+    Vali, kas soovid uue pöördumise prioriteedi/tähtsuse määrata sõltuvalt kasutaja e-posti aadressist (nt. OutLook). <br><br> Selle seade saab üle kirjutada <span class="doc-desc-title">pöördumiste filtriga</span>.
+  links:
+    - 
+      title: Loo &amp; halda pöördumiste filtreid
+      href: /scp/filters.php
+accept_all_emails:
+  title: Nõustu kõikide e-kirjadega
+  content: >
+    Võta e-kirju vastu tundmatutelt kasutajatelt. <br><br> Kui see on välja lülitatud, siis pöördumisi ei registreerita.
+accept_email_collaborators:
+  title: Aktsepteeri e-kirja kaastöötajaid
+  content: >
+    Lisa e-kirja saajaid väljadele <code> <strong>Kellele</strong></code> ja <code><strong>Koopia</strong></code>.<br /><br /><em>Neid aadresse saab agent lisada käsitsi pöördumise juurde, kui ta seda vaatab.</em>
+default_mta:
+  title: MTA (meiliedastusagent) vaikimisi
+  content: >
+    <span class="doc-desc-title">MTA vaikimisi</span> hoolitseb ilma SMTP seadeteta e-kirjade saatmise eest.

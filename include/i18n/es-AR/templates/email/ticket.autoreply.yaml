@@ -1,0 +1,24 @@
+---
+notes: |
+  Se envía a un usuario cuando se registra una respuesta automática a un ticket cuando es creado.  Variables disponibles para su reemplazo: % {ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Estimado %{recipient.name.first},</strong></h3>
+  Se ha creado una solicitud de soporte y se ha asignado un ticket <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> con la siguiente respuesta automática
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Asunto: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">El Equipo de %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>Esperamos que esta respuesta haya respondido suficientemente a tus preguntas.  Si te gustaría agregar comentarios adicionales o información sobre este tema, por favor contesta este email o <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >accede con tu cuenta</span></a> para ver un archivo completo de tus solicitudes de asistencia.</em></div>

@@ -1,0 +1,6 @@
+---
+notes: >
+  Template ini mendefinisikan Halaman ditampilkan ke klien setelah mengisi formulir pendaftaran. Template harus menyebutkan bahwa sistem adalah mengirim mereka link konfirmasi email dan apa langkah berikutnya dalam proses pendaftaran.
+name: "Pendaftaran akun baru"
+body: >
+  <div><strong>Terima kasih untuk mendaftar untuk sebuah account.</strong> <br/> <br/> mengatakan kami telah baru saja mengirimkan Anda sebuah email ke alamat yang Anda masukkan. Silakan ikuti link dalam email untuk mengkonfirmasi akun Anda dan mendapatkan akses ke tiket Anda. </div>

@@ -1,0 +1,13 @@
+---
+name:
+  title: Meno
+  content: >
+    Vyberte názov opisujúci <span class="doc-desc-title">SLA</span>.
+grace_period:
+  title: Trvanie SLA
+  content: >
+    Definuje počet hodín, po uplynutí ktorých sa tiket označený ako oneskorený (premeškaný).  <br><br> <em>Hodiny sa počítajú od času otvorenia tiketu.</em>
+transient:
+  title: Dočasne
+  content: >
+    Dočasné SLA môže byť prepísané iným SLA pri zmene<span class="doc-desc-opt">oddelenia</span>, alebo zmene <span class="doc-desc-title">predmetu tiketu</span>.

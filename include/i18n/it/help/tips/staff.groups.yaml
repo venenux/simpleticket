@@ -1,0 +1,13 @@
+---
+groups:
+  title: Gruppi
+  content: >
+    Gruppi vengono utilizzati per definire le autorizzazioni di un operatore dell'help desk. I gruppi possono anche concedere l'accesso a reparti diversi da quello assegnato a un operatore.
+status:
+  title: Stato
+  content: >
+    Se <span class="doc-desc-opt"> disabilitato</span>, gli operatori assegnati a questo gruppo non può possono ricevere gli avvisi &amp; notizie del reparto.
+department_access:
+  title: Accesso del dipartimento
+  content: >
+    Controlla tutti i reparti a cui i membri del gruppo possono accedere.

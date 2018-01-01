@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Jegy Állapot
+  name_plural: Hibajegy állapotok
+  sort_mode: SortCol
+  masks: 13
+  notes: Hibajegy állapotok
+  properties:
+    title: Hibajegy állapot tulajdonságai
+    instructions: A hibajegy állapotához beállítható tulajdonságok.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Állapot
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Hibajegy állapota
+      - 
+        type: memo
+        name: description
+        label: Leírás
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

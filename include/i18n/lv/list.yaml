@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: Pieteikuma statuss
+  name_plural: Pieteikumu statusi
+  sort_mode: SortCol
+  masks: 13
+  notes: Pieteikumu statusi
+  properties:
+    title: Pieteikuma statusa rekvizīti
+    instructions: Pieteikuma statusam var tik uzstādīti rekvizīti.
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: Stāvoklis
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: Pieteikuma stāvoklis
+      - 
+        type: memo
+        name: description
+        label: Description
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

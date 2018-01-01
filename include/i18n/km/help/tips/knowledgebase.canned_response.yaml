@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Canned Response
+  content: >
+    បង្កើត <span class="doc-desc-title">Canned Response</span> ដែលអាចត្រូវបានរួមបញ្ចូលនៅក្នុងការឆ្លើយតបសំបុត្រមួយ។ វាអាចត្រូវបានប្រើជា <span class="doc-desc-title">Ticket Auto-Response</span> បង្កើតឡើងដោយ <span class="doc-desc-title">Ticket Filter</span>.
+  links:
+    - 
+      title: រៀបចំត្រងសំបុត្រ
+      href: /scp/filters.php
+canned_attachments:
+  title: ឯកសារភ្ជាប់ដែលបានកំណត់ជាមុន
+  content: >
+    ភ្ជាប់ឯកសារដែលអ្នកចង់ឱ្យត្រូវបានរួមបញ្ចូលដោយស្វ័យប្រវត្តិនៅក្នុងការឆ្លើយតបសំបុត្រមួយដែលប្រើប្រាស់ថ្មី <span class="doc-desc-title"> Canned Response</span>.

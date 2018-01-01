@@ -1,0 +1,25 @@
+---
+notes: |
+  티켓 생성 시 자동 답변이 달렸을 때 사용자에게 전송됩니다.
+  
+  교체를 위해 사용 가능한 변수: %{ticket.*}, %{response}
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>%{recipient.name.first}님,</strong></h3>
+  다음의 자동 응답과 같이 지원 요청이 등록되어 티켓<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>이 생성되었습니다. 
+  <br>
+  <br>
+  Topic: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">Your %{company.name} 팀,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small;"><em>문의하신 사항에 대한 충분한 답변이 되었기를 바랍니다. 추가적인 사항 또는 정보를 받고자 하시면, 이 이메일에 회신하거나 <a href="%{recipient.ticket_link}"><span style="color: rgb(84, 141, 212);" >로그인</span></a>하여 추가적인 요청을 해주시기 바랍니다.</em></div>

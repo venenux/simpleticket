@@ -1,0 +1,33 @@
+---
+teams:
+  title: Ekipe
+  content: >
+    Ekipe so eden ali več združenih agentov z namenom dodeljavanja zahtevka. Članstvo v ekipi lahko presega članstvo v oddelku.
+status:
+  title: Status
+  content: >
+    Če <span class="doc-desc-opt">Onemogočeno</span>, ta skupina ne bo na voljo za dodelitev zahtevka, niti ne bo prejela Alarma &amp; Obvestila o drugih zadolžitvah
+lead:
+  title: Vodja ekipe
+  content: >
+    <span class="doc-desc-title">ekipa</span> lahko ima vodjo, ki lahko prejema <span class="doc-desc-title">opozorila &amp; obvestila</span> ločeno od članov.
+  links:
+    - 
+      title: Upravljaj opozorila&amp; opombe
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Opozorilo naloge
+  content: >
+    Za naloge, dodeljene tej ekipi, lahko onesposobite <span class="doc-desc-title"> opozorilo o dodelitvi naloge</span>.
+  links:
+    - 
+      title: Upravljaj opozorila&amp; opombe
+      href: /scp/settings.php?t=alerts
+members:
+  title: Člani skupine
+  content: >
+    Team membership is configured via the Agent profile.
+  links:
+    - 
+      title: Upravljaj z osebjem
+      href: /scp/staff.php

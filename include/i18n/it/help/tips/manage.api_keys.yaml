@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Chiave API
+  content: >
+    Le chiavi API vengono utilizzati per autenticare i client che inviano nuovi ticket tramite l'interfaccia API (Application Programming). Le chiavi API  vengono utilizzate al posto delle password. Poiché le chiavi API possono essere inviate in chiaro, sono legate all'indirizzo IP di ogni client.
+  links:
+    - 
+      title: documentazione API di osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Indirizzo IP
+  content: >
+    Indirizzo IP di rete del client. Ogni indirizzo IP unico del client richiederà distinte chiavi di API

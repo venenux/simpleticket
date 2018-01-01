@@ -1,0 +1,6 @@
+---
+- 
+  isenabled: 1
+  noalerts: 0
+  name: 1. Düzey Destek
+  notes: Katman 1 destek, müşteriler ile ilk iletişim kuracak sorumlu(lar)

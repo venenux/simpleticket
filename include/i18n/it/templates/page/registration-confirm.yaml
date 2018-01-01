@@ -1,0 +1,6 @@
+---
+notes: >
+  Questo template definisce la pagina mostrata ai clienti, dopo aver completato il modulo di registrazione. Il modello ricorda che il sistema sta inviando loro un link di conferma email e qual è il passo successivo nel processo di registrazione.
+name: "Registrazione account"
+body: >
+  <div><strong>Grazie per aver registrato un account.</strong><br/>< br /> Abbiamo appena inviato una mail all'indirizzo che hai inserito. Segui il link nell'email per confermare il tuo account e accedere ai tuoi ticket. </div>

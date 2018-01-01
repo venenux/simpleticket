@@ -1,0 +1,35 @@
+---
+notes: |
+  Изпраща се до потребителя, след като служител е създал заявка от негово име.
+  Използва се най-често при постъпване на заявка от потребител при разговор по телефона.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Уважаеми/ма %{recipient.name.first},</strong></h3>
+  Нашият отдел за обслужване на клиенти създаде заявка за поддръжка, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> от ваше име със
+  следното съдържание:
+  <br>
+  <br>
+  Тема: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Заглавие: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Ако е необходимо, възможно най-скоро с Вас ще се свърже наш представител.
+  Също така можете да <a href="%{recipient.ticket_link}"> проследите напредъка по
+  тази заявка онлайн.</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Екип по поддръжката на %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Ако искате да
+  предоставите допълнителни коментари или информация, моля
+  отговорете на това писмо или <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >влезте във Вашия профил</span></a> за
+  пълен архив с Вашите заявки за поддръжка.</em></div>

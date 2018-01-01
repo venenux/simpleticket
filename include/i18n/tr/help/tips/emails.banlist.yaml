@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Yasaklı E-posta adresleri
+  content: >
+    Yasaklı adresler listesinde bulunan e-posta adreslerinden alınan e-postalar, otomatik olarak reddedilir.

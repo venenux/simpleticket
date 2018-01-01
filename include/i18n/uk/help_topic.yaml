@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Загальне питання
+  notes: Питання про продукти чи послуги
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Зворотній зв'язок
+  notes: |
+    Квитки, які в першу чергу стосуються відділу продаж і білінгу
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Повідомити про проблему
+  notes: |
+    Питання про продукти, послуги або обладнання
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Питання доступу
+  notes: |
+    Повідомити про недоступність фізичного або віртуального оточення

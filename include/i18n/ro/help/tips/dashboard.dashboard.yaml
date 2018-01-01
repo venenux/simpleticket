@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Activitate tichet
+  content: >
+    Selectează un interval calendaristic pentru ca atât graficul cât și tabela  de mai jos (cf. <span class="doc-desc-title">Statistici</span>) sa se concentreze pe datele corespunzătoare intervalului. Grsaficul de mai jos va reflecta întotdeauna o vedere generală a întregelor date din sistem (de ex. populație). În orice caz, poți naviga prin tabela <span class="doc-desc-title">Statistici</span> de mai jos pentru a focaliza pe un subiect de interes particular (de ex. departamnte, subiecte sau membri ai personalului). În plus, poți exporta orice date afișate în tabela <span class="doc-desc-title">Statistici</span>.
+report_timeframe:
+  title: Intervalul de timp al Raportului
+  content: >
+    Alegeti data de inceput pentru perioada dorita folosind selectorul de data. Apoi alegeti durata pentru a defini data de final a perioadei dorite.
+statistics:
+  title: Statistici
+  content: >
+    Navighează la subiectul de interes făcând click pe tab-ul respectiv, pentru a vedea datele specifice. În tabel, cercurile reprezintă mărimea datelor conținute. Cu cât numărul dintr-o celulă e mai mare, cu atât cercul adiacent va fi mai mare.
+opened:
+  title: Deschis
+  content: >
+    Aceasta reprezinta numarul de tichete deschise de Agenti (deschise intern) si nu de catre Clienti.
+assigned:
+  title: Alocat
+  content: >
+    Sistemul urmareste fiecare eveniment unde un tichet este alocat automat sau manual unui anumit Departament sau Agent. Alocarile automate depind de setarile pentru <span class="doc-desc-title">Subiecte de ajutor</span> si <span class="doc-desc-title">Filtre Email </span> din Panoul de Administrare.
+overdue:
+  title: Intarziat
+  content: >
+    Acesta reprezinta numarul de tichete care incalca planul ANS(Acord la Nivel de Serviciu) de care apartin.
+closed:
+  title: Inchis
+  content: >
+    Acesta este numarul de tichete care au fost inchise.
+reopened:
+  title: Redeschis
+  content: >
+    Acesta este numarul de tichete care au fost redeschise fie de un Agent fie de un Client care a raspuns cat timp tichetul era în starea Inchis.
+service_time:
+  title: Durata serviciului
+  content: >
+    <span class="doc-desc-title">Durata Servisării</span> este perioada de timp dintre momentul deschiderii unui tichet si inchiderea acestuia. Coloana  <span class="doc-desc-title">Durata servisării</span> masoara durata medie a servisării per tichet, in ore, intre datele specificate.
+response_time:
+  title: Timp de raspuns
+  content: >
+    <span class="doc-desc-title">Timpul de raspuns</span> este durata dintre finalul corespondentei unui Client si raspunsul Agentului. Aceasta masuratoare nu este exclusiva deschiderii tichetului de catre Client. Aceasta se refera la fiecare raspuns catre cererea Clientului.

@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Dəstək
+  signature: Dəstək departamenti
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Satış
+  signature: |
+    Satış və müştəri sədaqəti
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Təminat
+  signature: |
+    Təminat şöbəsi
+  ispublic: 0
+  group_membership: 0

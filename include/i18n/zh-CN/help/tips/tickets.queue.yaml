@@ -1,0 +1,53 @@
+---
+search_field:
+  title: 搜索字段
+  content: >
+    
+advanced:
+  title: 高级
+  content: >
+    缩小您的搜索参数范围。在选择高级搜索条件并开始搜索后，您可<span class="doc-desc-title">导出</span>咨询页面底部的数据。
+open_tickets_table:
+  title: 打开咨询表格
+  content: >
+    所有咨询当前均处于未完成状态且需等待进一步处理
+ticket:
+  title: 咨询
+  content: >
+    
+date:
+  title: 日期
+  content: >
+    
+subject:
+  title: 主题
+  content: >
+    
+from:
+  title: 发自
+  content: >
+    
+priority:
+  title: 优先级
+  content: >
+    
+assigned_to:
+  title: 分配至
+  content: >
+    
+export:
+  title: 导出
+  content: >
+    导出您的当前数据，以 CSV 文件格式查看。CSV 文件可通过任何电子表格软件（例如，Microsoft Excel、Apple Pages、OpenOffice 等）打开。
+advanced_search_dialog:
+  title: 高级搜索
+  content: >
+    
+adv_keyword:
+  title: 关键词搜索
+  content: >
+    根据主题和咨询线程的消息正文以及用户和咨询自定义字段相关的所有文本内容查找匹配记录。
+adv_date_range:
+  title: 按日期范围搜索
+  content: >
+    定义此处

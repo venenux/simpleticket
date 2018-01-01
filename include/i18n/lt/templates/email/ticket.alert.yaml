@@ -1,0 +1,42 @@
+---
+notes: |
+  Siunčiama personalo darbuotojui, kai sistemoje sukuriamas naujas bilietas.  Tai taikoma bilietams, kurie sukurti per el. paštą, internetinį portalą arba API.
+subject: |
+  Pranešimas apie naują bilietą
+body: |2
+  <h2>Sveiki %{recipient.name},</h2>
+  Naujas bilietas #%{ticket.number} sukurtas
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Nuo</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Skyrius</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Peržiūrėti ar atsakyti į bilietą, prašome <a
+  href="%{ticket.staff_link}">prisijungti</a>į bilietų pagalbos sistemą</div>
+  <em style="font-size: small">Jūsų draugiškas klientų pagalbos sistema</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Sukurta By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Tìm hiểu chung
+  notes: Tìm hiểu chung
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Thông tin phản hồi
+  notes: |
+    Những ticket liên quan đến các bộ phận bán hàng và thanh toán
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Báo cáo một vấn đề
+  notes: |
+    Vấn đề liên quan đến sản phẩm, dịch vụ hoặc thiết bị
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Những vấn đề về truy cập
+  notes: |
+    Báo cáo về việc mất khả năng truy cập vào một tài sản thực hoặc ảo

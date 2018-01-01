@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Prova d'Email d'eixida
+  content: >
+    La entrega de l'e-mail depèn de la configuració del servidor (php.ini) i/o configuració  SMTP.
+  links:
+    - 
+      title: Seleccione un correu electrònic a configurar  els ajusts de SMTP (eixida)
+      href: /scp/emails.php
+from:
+  title: De
+  content: >
+    
+to:
+  title: Per a
+  content: >
+    
+subject:
+  title: Assumpte
+  content: >
+    
+message:
+  title: Missatge
+  content: >
+    

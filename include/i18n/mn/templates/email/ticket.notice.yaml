@@ -1,0 +1,28 @@
+---
+notes: |
+  Хэрэглэгчийн нэрийн өмнөөс Тусламжийн албаны ажилтан Хүсэлт үүсгэхэд хэрэглэгч уруу илгээх имэйлийн загвар. Энэ нь ихэвчлэн хэрэглэгч утсаар ярьж мэдэгдсэн тохиолдолд хэрэглэгдэнэ.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>%{recipient.name.first},</strong></h3>
+  Таны өмнөөс манай тусламжийн баг <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> дугаартай хүсэлт үүсгэлээ. Хүсэлтийн дэлгэрэнгүй:
+  <br>
+  <br>
+  Сэдэв: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Гарчиг: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Хэрэв шаардлагатай бол ажилтан тантай удахгүй холбоо барих болно. Та мөн <a href="%{recipient.ticket_link}">хүсэлтийн явцыг онлайнаар харах</a> боломжтой.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} баг,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Хэрэв та асуудалтай холбоотой нэмэлт тайлбар мэдээлэл өгөх бол энэ имэйлд хариу өгөх буюу эсвэл <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >нэвтэрч орон</span></a> өөрийн бүх хүсэлтийн түүхээ харах боломжтой.</em></div>

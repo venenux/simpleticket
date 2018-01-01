@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Öppna
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Öppna ärenden.
+- 
+  id: 2
+  name: Åtgärdad
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Åtgärdade ärenden är stängda ärenden, som kan öppnas på nytt av slutanvändaren. Detta är användbart om man har satt upp en regel för att stänga ett ärende och där slutanvändaren fått ett meddelande om det.
+- 
+  id: 3
+  name: Stängd
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Ärenden markerade som stängda kan inte öppnas på nytt av slutanvändaren. Ärendena kommer fortfarande att vara tillgängliga från klient- och personalpanelen.
+- 
+  id: 4
+  name: Arkiverade
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Ärenden med endast administrativt åtkomst. Ej längre tillgängliga i ärendekön.
+- 
+  id: 5
+  name: Borttagna
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Ärenden köade för borttagning. Inte längre tillgängliga i ärendekön.

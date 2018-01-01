@@ -1,0 +1,37 @@
+---
+deptId: 1
+topicId: 1
+name: osTicket tuki
+email: support@osticket.com
+source: Web
+subject: osTicket asennettu!
+message: |
+  <p>
+  Kiitos kun valitsit osTicketin.
+  </p><p>
+  Varmista, että liityt <a
+  href="http://osticket.com/forums">osTicket foorumeille</a> sekä meidän<a
+  href="http://osticket.com/updates">postituslistalle</a> pysyäksesi ajantasalla viimeisimmistä uutisista, tietoturva varoituksista ja päivityksistä. osTicket foorumit on myös
+  mahtava paikka löytää apua, ohjausta, vinkkejä  great sekä avustusta muilta osTicketin käyttäjiltä. Foorumeiden lisäksi osTicketin wiki tarjoaa
+  käyttökelpoisen kokoelman opetuksellista materiaalia, dokumentaatiot ja huomioita yhteisöltä.
+  Otamme mieluusti vastaan kaikki avustukset osTicket yhteisölle.
+  </p><p>
+  Jos tarvitset paremman tason tuksea, me tarjoamme ammattilaisten palveluita ja
+  maksullista tukea taatuilla vasteajoilla, sekä kehitystiimi avustaa tarvittaessa.
+  Me voimme auttaa kustomoimalla osTicketin tai jopa lisätä uusia ominaisuuksia 
+  järjestelmään täyttääksemme yksilölliset tarpeenne.
+  </p><p>
+  Mikäli idea osTicketin ylläpidosta ja päivityksistä on pelottava/uuduttava, voit myös kokeilla 
+  osTicketiä isännöitynä palveluna osoitteessa  <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
+  Asennusta ei vaadita ja me voidaan tuoda järjestelmään nykyiset datasi!
+  Tukitikettijärjestelmän avaimetkäteen palvelulla pääset käyttämään osTickettiä vaivattomimmin,
+  voit keskittyä asiakkaihisi ilman ylläpidollista taakkaa. Me pidämme huolen, että sovellus on vakaa, ylläpidetty ja turvallinen.
+  </p><p>
+  Kiitos,
+  </p><p>
+  -<br/>
+  osTicket Tiimi http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Älä tee pelkästään asiakkaista onnellisia, tee onnellisia asiakkaita!
+  </p>

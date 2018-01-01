@@ -1,0 +1,42 @@
+---
+notes: |
+  Bir talebe kullanıcı tarafından yeni bir mesaj eklendiğinde personele gönder. Genellikle bu durum kullanıcı bir e-posta ile cevap yazdığında ya da müşteri web portalını ziyaret ederek yeni bir mesaj eklediğinde oluşur.
+subject: |
+  Yeni Mesaj Uyarısı
+body: |2
+  <h3><strong>Merhaba %{recipient},</strong></h3>
+  <a href="%{ticket.staff_link}">#%{ticket.number}</a> numaralı talebe yeni bir mesaj eklendi.
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Kimden</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Bölüm</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  
+  <div>Talebi görüntülemek ya da cevap yazmak için lütfen Destek Talep Sistemine
+  <a href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >giriş</span></a> yapın. </div>
+  <em style="color: rgb(127,127,127); font-size: small;">Müşteri Destek Sistemi</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="osTicket tarafından güçlendirildi" width="126" height="19" style="width: 126px;">

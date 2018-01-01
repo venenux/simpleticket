@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: รายการที่กำหนดเอง
+  content: >
+    <span class="doc-desc-title">รายการที่กำหนดเอง</span>ของคุณจะอนุญาตให้คุณสร้างกล่องรายการแบบ Dropdown ด้วยตัวเลือกที่กำหนดไว้ล่วงหน้าซึ่งลูกค้าสามารถเลือกใน<span class="doc-desc-title">ฟอร์มแบบกำหนดเอง</span>ของคุณ ถ้าคุณต้องการใช้<span class="doc-desc-title">รายการที่กำหนดเอง</span>นี้เป็น<span class="doc-desc-title">เป้าหมาย</span>ในตัว<span class="doc-desc-title">กรองตั๋ว</span> ให้แน่ใจว่าได้เพิ่มรายการนี้แบบฟอร์ม<span class="doc-desc-title">รายละเอียดการจอง Ticket </span>
+name:
+  title: ชื่อ
+  content: >
+    
+plural_name:
+  title: ชื่อในรูปพหูพจน์
+  content: >
+    
+sort_order:
+  title: ลำดับการจัดเรียง
+  content: >
+    
+list_s_initial_items:
+  title: รายการเริ่มต้น
+  content: >
+    
+value:
+  title: ค่า
+  content: >
+    
+extra:
+  title: เพิ่มเติม
+  content: >
+    Abbreviations and such. ถ้าเกิดคุณใช้รหัสภายในสำหรับรายการในลิสต์ รหัสและตัวย่อเหล่านั้นสามารถป้อนลงในคอลัมน์นี้ ถ้ารายการที่กำหนดเองจะแสดงผลเป็น <span class="doc-desc-option"> TypeAhead</span>, ตัวย่อเหล่านี้สามารถนำมาใช้ในการค้นหารายการที่กำหนดเองได้

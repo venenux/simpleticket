@@ -1,0 +1,21 @@
+---
+notes: |
+  Teade saadetakse kaastöötajatele, kui pöördumise juures on salvestatud muudatusi, nt vastus või sõnum.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |2
+  <h3><strong>Lugupeetud %{recipient.name.first}</strong></h3>
+  <div>
+      <em>%{poster.name}</em> on loginud teate pöördumisele, milles ka Sina oled osaline.
+  </div>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;">
+  <em>Said selle e-kirja, kuna oled kaastöötaja pöördumise lahendamisel
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
+  >#%{ticket.number}</a>.  Osalemiseks lihtsalt vasta sellele e-kirjale või <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
+  >klõpsa siia</a>, et näha kogu pöördumise infot.</em>
+  </div>

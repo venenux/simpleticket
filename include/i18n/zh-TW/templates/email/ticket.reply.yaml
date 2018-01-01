@@ -1,0 +1,18 @@
+---
+notes: |
+  當專員回覆台端的事件。回覆僅能由專員操作。
+subject: |
+  回覆： %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>親愛的 %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} 敬上<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>我們希望最新的回覆能解決您的問題，如果您的問題尚未被妥善的處理，請勿再寄送其他電子郵件。您可回覆本信件或
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >登入到您的帳號</a>可閱覽案件完整事件內容或取得其他協助</em></div>

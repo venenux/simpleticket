@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Kontaktne informacije
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Adresa e-pošte
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Ime i Prezime
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefonski broj
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Interne bilješke
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Detalji Problema
+  instructions: Molim Vas opišite Vaš problem
+  notes: |
+    Ovaj obrazac će biti vezan na svaku ulaznicu, bez obzira na njegov izvor. Možete dodati polja s ovog obrasca te će biti dostupan za sve ulaznice, te će se moći pretraživati uz napredno pretraživanje i filtriranje.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Sažetak Problema
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Detalji ishoda
+      hint: Detalji o razlogu otvaranja problema.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Nivo prioriteta
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: informacija o Poduzeću
+  instructions: Detalji vezani za email obrazac
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Poduzeće
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Website
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefonski broj
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Adresa
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Informacija o Organizaciji
+  instructions: Detalji o Korisničkoj organizaciji
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Naziv
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Adresa
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Website
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 1
+    - 
+      type: memo
+      name: notes
+      label: Interne bilješke
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

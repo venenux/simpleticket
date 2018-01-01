@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Testaa lähtevä sähköposti
+  content: >
+    Sähköpostin lähettäminen riippuu palvelimen asetuksista (php.ini) ja/tai SMTP määrityksistä.
+  links:
+    - 
+      title: Valitse määrittääksesi (lähtevän) sähköpostin SMTP asetukset
+      href: /scp/emails.php
+from:
+  title: Lähettäjä
+  content: >
+    
+to:
+  title: Vastaanottaja
+  content: >
+    
+subject:
+  title: Aihe
+  content: >
+    
+message:
+  title: Viesti
+  content: >
+    

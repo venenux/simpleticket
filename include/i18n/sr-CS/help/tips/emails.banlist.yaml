@@ -1,0 +1,4 @@
+---
+ban_list:
+  title: Blokirane/zabranjene imejl adrese
+  content: Imejl poruke primljene sa adresa koje se nalaze na listi blokiranih/zabranjenih imejl adresa biće automatski odbačene.

@@ -1,0 +1,10 @@
+---
+type:
+  title: Type
+  content: >
+    Als het Type Afdeling Privé staat, zal de Handtekening van de Afdeling niet beschikbaar zijn als antwoord noch zal de afdeling toewijzing verschijnen in de Client-Portal.
+dept_manager:
+  title: Afdelingsbeheerder
+  content: >
+    U kunt een Verantwoordelijke als Afdelingsbeheerder aanduiden. Deze zullen Waarschuwingen & Mededelingen ontvangen voor tickets in de afdelingen.
+  0: Verantwoordelijken hoeven geen leden van de Afdeling te zijn om Afdelingsbeheerder te zijn

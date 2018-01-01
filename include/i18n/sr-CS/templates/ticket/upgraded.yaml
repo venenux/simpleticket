@@ -1,0 +1,22 @@
+---
+source: Internet
+name: osTicket podrška
+email: support@osticket.com
+subject: osTicket je ažuriran na novu verziju!
+message: |
+  <p>
+  osTicket je uspešno ažuriran! Molimo pročitajte beleške o novom izdanju
+  (http://osticket.com/wiki/Release_Notes) kako biste saznali više o izmenama i novim funkcijama.
+  </p><p>
+  Učlanite se na <a href="http://osticket.com/forums">osTicket
+  forume</a> i prijavite se na <a href="http://osticket.com/updates">mejling
+  listu</a> kako biste bili informisani o novim funkcijama, pobolјšanjima po pitanju bezbednosti i ostalim obaveštenjima! Vaš doprinos osTicket zajednici se takođe ceni!
+  </p><p>
+  osTicket tim je posvećen u pružanju podrške svim korisnima putem besplatnih online sadržaja kao i kompletne game komercijalnih paketa i servisa. Ukoliko Bam je potrebno više informacija ili želite da detalјno prezentujete Vaše potrebe, kontaktirajte nas odmah na http://osticket.com/support/. Svaka povratna infomacija je dobrodošla!
+  </p><p>
+  Ukoliko Vas instalacija i održavanje osTicket sistema opterećuju, možete se opredeliti za korišćenje hosting servisa na http://www.supportsystem.com/ -- ne razmišlјajte o ažuriranju, a možemo da ubacimo i Vaše postojeće podatke!  Zahvalјujući našoj "klјuč u ruke" infrastrukturi, dobijate najbolјe od osTicket sistema i slobodni ste da se posvetite islјučivo na Vaše korisnike jer ne morate razmišlјati da li je tiket sistem siguran, ažuran i ko ga održava u ispravnom stanju - to je naša briga.
+  </p><p>
+  -<br/>
+  osTicket tim<br/>
+  http://osticket.com/
+  </p>

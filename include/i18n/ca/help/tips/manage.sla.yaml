@@ -1,0 +1,13 @@
+---
+name:
+  title: Nom
+  content: >
+    Trie un nom descriptiu per aquest <span class="doc-desc-title"> Pla SLA</span> que reflectirà el seu propòsit.
+grace_period:
+  title: Període de Gràcia
+  content: >
+    Determinar el nombre d'hores després que es creï un Ticket que es automàticament marcarà automàticament com endarrerit. <br><br><em>Es compten  hores d'entrada des de la creació del Ticket.</em>
+transient:
+  title: Transitori
+  content: >
+    SLAs transitòries es consideren temporals i poden ser invalidades per una SLA no transitoria  <span class="doc-desc-opt"> Transferència</span> de departament  o quan es canvia el seu <span class="doc-desc-title"> tema d'ajuda</span>.

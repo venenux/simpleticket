@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  Sorğu #%{ticket.number} transferi - %{ticket.dept.name}
+body: |2
+  <h3>Salam %{recipient.name},</h3>
+  Sorğu <a href="%{ticket.staff_link}">#%{ticket.number}</a> şöbəyə %{ticket.dept.name} transfer edildi, 
+  <strong>%{staff.name.short}</strong> tərəfindən
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Sorğunu görmək və ya cavab vermək üçün xahiş edirik, sorğu dəstək sisteminə <a
+  href="%{ticket.staff_link}">daxil olun</a>.
+  </div>
+  <em style="font-size: small; ">Sizin dost müştəri dəstək sisteminiz</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

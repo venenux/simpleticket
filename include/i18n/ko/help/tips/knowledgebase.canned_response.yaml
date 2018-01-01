@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: 기본 답변 양식
+  content: >
+    티켓 답변에 포함될 <span class="doc-desc-title">기본 답변 양식</span>을 생성합니다. 이 양식은 <span class="doc-desc-title">티켓 필터</span>에서 설정된 <span class="doc-desc-title">티켓 자동 응답</span>에도 사용됩니다.
+  links:
+    - 
+      title: 티켓 필터 설정
+      href: /scp/filters.php
+canned_attachments:
+  title: 기본 첨부 파일
+  content: >
+    티켓 답변에 자동으로 첨부될 <span class="doc-desc-title">기본 첨부 파일</span>을 등록합니다.

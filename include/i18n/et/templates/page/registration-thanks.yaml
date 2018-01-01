@@ -1,0 +1,6 @@
+---
+notes: >
+  See mall määrab, millist sisu kuvatakse kliendile peale õnnestunud konto registreerimist. See leht peaks kasutajale teada andma, et konto on loodud ning ta saab nüüdsest luua uusi pöördumisi või olemasolevaid vaadata.
+name: "Konto on kinnitatud!"
+body: >
+  <div> <strong>Täname, et registreerisite konto.</strong><br /> <br /> Oled kinnitanud oma meiliaadressi ja edukalt aktiveerinud oma konto. Võid nüüd luua uue pöördumise või tegeleda olemasolevateag.<br /> <br /> <em>Sinu sõbralik klienditugi</em><br /> %{company.name} </div>

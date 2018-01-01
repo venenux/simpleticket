@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Otvori
+  state: open
+  mode: 3
+  sort: 1
+  flags: 1
+  properties:
+    description: Otvorene kartice.
+- 
+  id: 2
+  name: Rješeno
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 1
+  properties:
+    description: >
+      Riješene kartice su zatvorene kartice koje korisnik može ponovno otvoriti. Ovo može biti korisno kada se kartica zatvori automatski i pošalje se poruka krajnjem korisniku o njezinom zatvaranju.
+- 
+  id: 3
+  name: Zatvoreno
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 1
+  properties:
+    description: >
+      Kartica označena kao zatvorena ne može se ponovno otvoriti od strane krajnjeg korisnika. Kartice će i dalje biti dostupne putem upravljačkih ploča korisnika i djelatnika.
+- 
+  id: 4
+  name: Arhivirano
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 1
+  properties:
+    description: >
+      Kartice su administrativno dostupne, ali se ne nalaze u listama kartica.
+- 
+  id: 5
+  name: Obrisano
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 1
+  properties:
+    description: >
+      Kartice označene za brisanje. Nisu dostupne putem lista kartica.

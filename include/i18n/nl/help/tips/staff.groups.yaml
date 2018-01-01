@@ -1,0 +1,13 @@
+---
+groups:
+  title: Groepen
+  content: >
+    Groepen worden gebruikt om rechten van verantwoordelijken in de help desk te definiëren. Groepen kunnen ook toegang verlenen tot Afdelingen die niet de Standaard Afdeling zijn van een Verantwoordelijke.
+status:
+  title: Status
+  content: >
+    Als dit <span class="doc-desc-opt">Uitgeschakeld</span> is, kunnen Verantwoordelijken die toegewezen zijn aan deze Groep niet inloggen en zullen geen Afdeling Waarschuwingen &amp; Mededelingen ontvangen.
+department_access:
+  title: Afdelingstoegang
+  content: >
+    Vink alle afdelingen aan waaraan de leden van de groep toegang hebben.

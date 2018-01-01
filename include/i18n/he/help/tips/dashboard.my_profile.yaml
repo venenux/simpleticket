@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: פרטי התקשרות
+  content: >
+    
+username:
+  title: שם משתמש
+  content: >
+    רק משתמשים בעלי הרשאות מנהל יכול לשנות שם משתמש. אם אתה משתמש עם הרשאות מנהל, הינך יכול לבצע זאת ע"י בחירה של המשתמש מטבלת <span class="doc-desc-title">משתמשים</span>.
+  links:
+    - 
+      title: שנה שם משתמש כמנהל
+      href: /scp/staff.php
+time_zone:
+  title: אזור זמן
+  content: >
+    
+daylight_saving:
+  title: שעון קיץ
+  content: >
+    
+maximum_page_size:
+  title: גודל דף מקסימלי
+  content: >
+    
+auto_refresh_rate:
+  title: קצב רענון אוטומטי
+  content: >
+    
+default_signature:
+  title: חתימת ברירת מחדל
+  content: >
+    
+default_paper_size:
+  title: גודל נייר ברירת מחדל
+  content: >
+    
+show_assigned_tickets:
+  title: הצג קריאות פעילות
+  content: >
+    אפשר זאת בכדי להסתיר את שמך מה<span class="doc-desc-title">קריאות הפתוחות</span> שהוקצאו לך. בעת ההסתרה, <span class="doc-desc-title">המחלקה</span> שאליך אתה שייך תוצג במקום שבו השם שלך היה אמור להיות מוצג.
+password:
+  title: סיסמה
+  content: >
+    
+current_password:
+  title: הסיסמה הנוכחית
+  content: >
+    
+new_password:
+  title: סיסמה חדשה
+  content: >
+    
+confirm_new_password:
+  title: אשר סיסמא חדשה
+  content: >
+    
+signature:
+  title: חתימה
+  content: >
+    צור <span class="doc-desc-title">חתימה</span> אופציונאלית שתוצג בסוף התגובות שלך לקריאות. ההופעה של ה<span class="doc-desc-title">חתימה</span> תלויה ב<span class="doc-desc-title">תבנית הדוא"ל</span> שבה תשתמש בעת התגובה לקריאה.
+  links:
+    - 
+      title: צור תבניות דוא"ל בלוח הבקרה
+      href: /scp/templates.php

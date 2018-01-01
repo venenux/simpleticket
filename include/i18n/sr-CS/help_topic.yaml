@@ -1,0 +1,33 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Opšti upit
+  notes: Pitanja u vezi proizvoda ili usluga
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Povratna informacija
+  notes: Upiti u vezi prodaje i finansija
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Prijavi problem
+  notes: Pitanja u vezi proizvoda, usluga ili opreme
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problem sa pristupom
+  notes: Prijava nemogućnosti pristupa fizičkoj ili virtualnoj opremi

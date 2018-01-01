@@ -1,0 +1,10 @@
+---
+type:
+  title: Typ
+  content: >
+    Wenn die Abteilung Privat ist, wird weder die Abteilungssignatur bei Antworten verfügbar sein, noch wird die Abteilungszuweisung im Benutzerportal angezeigt werden.
+dept_manager:
+  title: Abteilungsleiter
+  content: >
+    Sie können einen Agenten als Abteilungsleiter festlegen, damit er Benachrichtigungen für Tickets dieser Abteilungen empfängt.
+  0: Agenten müssen nicht Mitglieder einer Abteilung sein, um Leiter der Abteilung werden zu können.

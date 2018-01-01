@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Informações da empresa
+  content: >
+    Isto refere-se à empresa ou organização que beneficiará com o software do osTicket e o seu pessoal de apoio. As informações aqui aparecerão nas assinaturas de e-mail (ou seja, o rodapé) quando os tickets são respondidos pelos agentes.
+  links:
+    - 
+      title: Formulário de Informações da Empresa
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Página inicial
+  content: >
+    A <span class="doc-desc-title">página de chegada</span> é a página inicial do Help Desk.
+offline_page:
+  title: Página offline
+  content: >
+    A <span class="doc-desc-title">Página Offline</span> é apresentada qual o Help Desk está offline. Verifique Painel de Administração &gt; Definições &gt; Sistema &gt; Estado do Help Desk.
+default_thank_you_page:
+  title: Página de agradecimento padrão
+  content: >
+    A <span class="doc-desc-title"> página de agradecimento</span> é exibida para o cliente quando <span class="doc-desc-title"> este</span> envia um novo ticket. <br/> <br/> <span class="doc-desc-title"> Páginas de Agradecimento</span> podem ser associadas a tópicos de ajuda.
+logos:
+  title: Logos
+  content: >
+    Pode personalizar o <span class="doc-desc-title"> logo</span> que é apresentado no portal de cliente.
+upload_a_new_logo:
+  title: Enviar um novo logotipo
+  content: >
+    Escolha uma imagem no formato .gif, .jpg ou .png. A imagem será proporcionalmente redimensionada. Contudo, os dados da mesma não. Assim, para um carregamento mais rápido da página, recomendamos que a imagem se aproxime das dimensões predefinidas (817px &times; 170px).

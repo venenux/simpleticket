@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Tipo di inserzione
+  content: >
+    Scegliere <span class="doc-desc-opt"> Public (pubblica)</span> se sei d'accordo che questa <span class="doc-desc-title"> FAQ</span> venga pubblicata sulla Knowledge base pubblica se la categoria padre è pubblica.
+  links:
+    - 
+      title: Abilitare la Knowledge base pubblica per il Portale Client
+      href: /scp/settings.php?t=kb

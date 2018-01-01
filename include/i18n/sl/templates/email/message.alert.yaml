@@ -1,0 +1,44 @@
+---
+notes: |
+  Poslano članom osebja, ko je novo sporočilo poslano s strani uporabnika v 
+  zahtevku. To se lahko zgodi, če uporabnik odgovori na e-sporočilo poslano s 
+  sistema ali obišče spletni portal za stranke in tam pošlje novo sporočilo.
+subject: |
+  Opozorilo na novo sporočilo
+body: |2
+  <h3><strong>Pozdravljeni %{recipient.name},</strong></h3>
+  Novo sporočilo dodano zahtevku <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Od</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Oddelek</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Da pogledate ali odgovorite na sporočilo <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >se prijavite</span></a> na sistem zahtevkov pomoči</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Vaš prijazen sistem tehnične pomoči</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="pogon na osTicket" width="126" height="19" style="width: 126px;">

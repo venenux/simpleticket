@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: 聯絡資訊
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: 電子信箱
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: 全名
+      required: true
+      sort: 0
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: 電話號碼：
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: 內部筆記
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 0
+  type: T
+  title: 案件詳細資訊
+  instructions: 請敘述您的問題
+  notes: |
+    此表單將會附加在事件資訊中。您可以將任何欄位添加到此表單和他們將可應用在事件資訊，可一般搜尋與進階搜尋與篩選。
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: 問題摘要
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: 問題詳細資訊
+      hint: 查詢事件原因的詳細資訊。
+      required: true
+      edit_mask: 15
+      sort: 0
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: 優先等級
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: 公司資訊
+  instructions: 詳細資訊在電子信箱範例。
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: 公司名稱
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: 網站
+      sort: 0
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: 電話號碼
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: 地址
+      required: false
+      sort: 4
+      configuration:
+        rows: 0
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: 機構資訊
+  instructions: 使用者機構的詳細資訊
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: 名稱
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: 地址
+      required: false
+      sort: 0
+      configuration:
+        rows: 0
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: 電話
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: 網站
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: 內部筆記
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

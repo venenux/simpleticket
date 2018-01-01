@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: 목록 유형
+  content: >
+    상위 분류가 공개 상태라면 이 <span class="doc-desc-title">FAQ</span>를 <span class="doc-desc-opt">공개 (게재)</span>하여 공개 지식 저장소에 게시할 수 있습니다.
+  links:
+    - 
+      title: 유저 포털의 공개 지식 저장소 활성화
+      href: /scp/settings.php?t=kb

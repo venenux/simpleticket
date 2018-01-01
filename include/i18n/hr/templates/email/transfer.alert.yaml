@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  Kartica #%{ticket.number} prebačena je u - %{ticket.dept.name}
+body: |2
+  <h3>Pozdrav %{recipient.name},</h3>
+  Kartica <a href="%{ticket.staff_link}">#%{ticket.number}</a> je prebačena u odjel %{ticket.dept.name} od strane
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Kako biste vidjeli ili odgovorili na karticu molimo Vas da se <a
+  href="%{ticket.staff_link}">prijavite</a> u centar tehničke podrške.
+  </div>
+  <em style="font-size: small; ">Vaša tehnička podrška</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

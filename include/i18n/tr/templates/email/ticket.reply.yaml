@@ -1,0 +1,19 @@
+---
+notes: |
+  Personel kullanıcı taleplerine cevap yazdığında kullanıcılara uyarı gönder.
+  Sadece personel tarafından yapılan yanıtlamalarda geçerlidir.
+subject: |
+  Ynt: %{ticket.subject}
+body: |
+  <h3><strong>Sevgili %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  %{company.name} Ekibi,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Umarız bu yanıt sorularınıza çözüm olmuştur. Olmadıysa, lütfen yeni bir e-mail göndermeyin. Onun yerine bu mesaja yanıt verin. ya da
+  tüm soru ve yanıtlarınız için <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >hesabınıza giriş yapın.</a> </em></div>

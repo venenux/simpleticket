@@ -1,0 +1,6 @@
+---
+notes: >
+  To komponuje nagłówek na stronie logowania klienta . Może być przydatne żeby poinformować swoich klientów o zasadach rejestracji.
+name: "Zaloguj do %{company.name}"
+body: >
+  Aby lepiej służyć, zachęcamy naszych klientów do rejestracji konta.

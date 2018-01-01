@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Open
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Tickets abertos.
+- 
+  id: 2
+  name: Resolto
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Os tickets resoltos son tickets pechados que poden ser reabertos polo usuario final. Esto puede ser útil cando se usa un disparador para pechar tickets resoltos con notificación ao usuario final.
+- 
+  id: 3
+  name: Pechado
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Os tickets pechados no pueden ser reabertos polo usuario final. Os tickets estarán accesíbeis nos paneis de clientes e persoal.
+- 
+  id: 4
+  name: Arquivado
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tickets only adminstratively available but nolonger accessible on ticket queues.
+- 
+  id: 5
+  name: Borrado
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tickets queued for deletion. Not accessible on ticket queues.

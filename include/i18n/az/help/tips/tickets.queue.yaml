@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Axtarış sahəsi
+  content: >
+    
+advanced:
+  title: Ətraflı
+  content: >
+    Axtarış parametrlərinizi kiçildin. Siz bir dəfə ətraflı axtarış kriteriyasını seçib axtarış edə və sorğunun aşağısındakı məlumatı <span class="doc-desc-title">xaric edə</span> bilərsiniz.
+open_tickets_table:
+  title: Sorğular cədvəlini açın
+  content: >
+    Hal-hazırda bütün sorğular açılıb və diqqət tələb edir
+ticket:
+  title: Sorğu
+  content: >
+    
+date:
+  title: Tarix
+  content: >
+    
+subject:
+  title: Mövzu
+  content: >
+    
+from:
+  title: Kimdən
+  content: >
+    
+priority:
+  title: Prioritet
+  content: >
+    
+assigned_to:
+  title: Təyin olunub
+  content: >
+    
+export:
+  title: Xaric etmək
+  content: >
+    Hal-hazırda CSV faylda görünən məlumatınızı xaric edin. CSV fayllar hər hansı proqram təminatı vərəqəsi ilə açıla bilər (məs., Microsoft Excel, Apple Pages, OpenOffice və s.).
+advanced_search_dialog:
+  title: Ətraflı axtarış
+  content: >
+    
+adv_keyword:
+  title: Axtarış üçün ipucu
+  content: >
+    Sorğunun mövzu və mesaj bölməsi əsasında hədəfləri, həmçinin istifadəçilər və sorğular üçün xüsusi sahə ilə əlaqədar mətn kontentini tapın.
+adv_date_range:
+  title: Tarixə görə axtarış
+  content: >
+    Burada müəyyən edin

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Munkatársak
+  content: >
+    Az alábbi tábla jeleníti meg a szűrési eredményeket. Amennyiben nem állított be szűrési feltételt, akkor az összes <span class="doc-desc-title">Munkatárs </span> megjelenik oldalankénti bontásban. További eredmények megtekintéséhez használja lent az oldalak szakaszt.
+apply_filtering_criteria:
+  title: Szűrési feltételek alkalmazása
+  content: >
+    Válassza ki az Önt érdeklő <span class="doc-desc-title">Részleget</span>. Akár rá is kereshet egy adott munkatársra.

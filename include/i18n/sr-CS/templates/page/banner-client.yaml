@@ -1,0 +1,4 @@
+---
+notes: Ovo obuhvata zaglavlje na klijentskoj stranici za prijavljivanje. Može biti korisno da klijentima predstavite politiku registracije.
+name: 'Prijavite se u %{company.name}'
+body: Radi kvalitetnije usluge, savetujemo našim klijentima da registruju nalog.

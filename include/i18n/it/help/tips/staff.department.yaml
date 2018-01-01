@@ -1,0 +1,69 @@
+---
+type:
+  title: Tipo
+  content: >
+    Selezionare <span class="doc-desc-opt"> privato</span> se desideri assegnare a questo reparto i ticket nel Portale Client.  Inoltre, quando etichetti come <span class="doc-desc-opt"> privato</span>, la <span class="doc-desc-title"> firma del reparto</span> non verrà visualizzata nelle risposte e-mail. <br/> <br/> Almeno un reparto deve essere <span class="doc-desc-opt"> pubblico</span>
+email:
+  title: Posta elettronica
+  content: >
+    Indirizzo email utilizzato quando vengono inviate  mail agli utenti quando gli operatori rispondono ai ticket.
+template:
+  title: Impostazioni modello
+  content: >
+    E-mail <span class="doc-desc-title"> Template Set</span> usato per risposte automatiche e avvisi &amp; notizie per ticket indirizzati a questo reparto.
+  links:
+    - 
+      title: Gestisci Modelli
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Service Level Agreement per i ticket assegnati a questo reparto.
+  links:
+    - 
+      title: Gestisci i piani SLA
+      href: /scp/slas.php
+manager:
+  title: Gestione Reparti
+  content: >
+    Selezionare un <span class="doc-desc-title"> Manager</span> per questo reparto. <br/><br/> I Manager possono essere configurati per ricevere avvisi speciali e hanno anche il diritto di annullare l'assegnazione dei ticket.
+  links:
+    - 
+      title: Gestire gli avvisi &amp; comunicazioni
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Avvisi &amp; comunicazioni ai destinatari
+  content: >
+    Selezionare i destinatari di <span class="doc-desc-title"> avvisi &amp; comunicazioni</span>.
+  links:
+    - 
+      title: Configurare avvisi &amp; comunicazioni
+      href: /scp/settings.php?t=alerts
+sandboxing:
+  title: Restrizioni per l'assegnazione di ticket
+  content: >
+    Attivare questa opzione per limitare l'assegnazione dei ticket ai sol i membri di questo reparto. Accesso al reparto può essere estesa a gruppi, se è abilitato anche <span class="doc-desc-title"> L'appartenenza al gruppo</span>.
+auto_response_settings:
+  title: Impostazioni Autorisponditore
+  content: >
+    Questo consente di sovrascrivere le impostazioni dell' autoresponder per questo reparto.
+new_ticket:
+  title: Nuovo Auto-Risponditore Ticket
+  content: >
+    Si può disattivare la risposta automatica inviata all'utente quando un nuovo ticket è creato e indirizzato a questo reparto.
+new_message:
+  title: Nuovo messaggio Auto-risposta
+  content: >
+    Si può disattivare la risposta automatica inviata all'utente per confermare che il ticket è stato assegnato a questo reparto.
+auto_response_email:
+  title: Autorisponditore Email
+  content: >
+    Selezionare l'indirizzo di posta elettronica dal quale vengono inviate risposte automatiche per questo reparto.
+department_access:
+  title: Accesso al gruppo
+  content: >
+    Consentire gli operatori di altri reparti l'accesso ai ticket di questo reparto.
+department_signature:
+  title: Firma del reparto
+  content: >
+    La firma è resa disponibile come una scelta, come<span class="doc-desc-opt"> pubblico</span>reparto, sulle risposte dell'operatore.

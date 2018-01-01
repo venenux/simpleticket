@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Členovia personálu
+  content: >
+    Nasledujúca tabuľka zobrazuje výsledky filtra nad ňou. Ak nie sú vybrané žiadne nastavenia filtra, sú zobrazení všetci <span class="doc-desc-title">Zamestnanci</span>. Pozrite výber stránky dole, pre viac výsledkov.
+apply_filtering_criteria:
+  title: Uplatniť kritériá filtrovania
+  content: >
+    Vyberte si <span class="doc-desc-title">oddelenie</span>, ktoré je pre vás relevantné. Môžete tiež vyhľadať konkrétneho Agenta.

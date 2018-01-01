@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Djelatnici
+  content: >
+    Tablica prikazuje rezultate filtera navedenog iznad. Ukoliko niti jedna postavka nije odabrana, svi <span class="doc-desc-title">Djelatnici</span> (Osoblje) <span class="doc-desc-title">Članovi</span> su prikazani i podjeljeni po stranicama. Pogledajte dio sa stranicama niže po pitanju kako da prođete kroz više rezultata.
+status:
+  title: Status
+  content: >
+    Ovo će prikazati da li je <span class="doc-desc-title">djelatnik</span> zaključan, aktivan, ili aktivan (na odmoru).

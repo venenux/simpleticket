@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Подршка
+  signature: Одељење подршке
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Продаја
+  signature: |
+    Продаја и брига о корисницима
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Одржавање
+  signature: |
+    Одељење одржавања
+  ispublic: 0
+  group_membership: 0

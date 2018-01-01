@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  Požiadavka #%{ticket.number} presunutá - %{ticket.dept.name}
+body: |2
+  <h3>Dobrý deň %{recipient},</h3>
+  Požiadavka <a href="%{ticket.staff_link}"> č. %{ticket.number}</a> bola presunutá na %{ticket.dept.name} oddelenie od
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Zobraziť alebo reagovať na požiadavku, prosím <a
+  href="%{ticket.staff_link}">prihláste sa</a> do podporného systému požiadaviek.
+  </div>
+  <em style="font-size: small; ">Váš zákaznícky systém podpory</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

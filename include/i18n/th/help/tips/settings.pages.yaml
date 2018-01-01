@@ -1,0 +1,29 @@
+---
+company_information:
+  title: ข้อมูลบริษัท
+  content: >
+    เรื่องนี้อ้างถึงบริษัทหรือองค์กรที่จะได้รับประโยชน์จากซอร์ฟแวร์ของ osTicket และบริการของเจ้าหน้าที่ ข้อมูลนี้จะปรากฎในลายเซ็นชื่อของอีเมล์ (ตัวอย่าง ท้ายหน้า) เมื่อเจ้าหน้าที่ตอบ ticket นั้นๆ
+  links:
+    - 
+      title: แบบฟอร์มข้อมูลบริษัท
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Landing Page
+  content: >
+    <span class="doc-desc-title">Landing Page</span> จะแสดงบนหน้าหลักของระบบ
+offline_page:
+  title: เพจแบบออฟไลน์
+  content: >
+    The <span class="doc-desc-title">Offline Page</span> is displayed in the support site when the help desk is offline, see Admin Panel -&gt; Setting -&gt; System -&gt; Helpdesk Status.
+default_thank_you_page:
+  title: ข้อความขอบคุณ
+  content: >
+    จะแสดง<span class="doc-desc-title">หน้าขอบคุณ</span>ผู้ใช้เมื่อสร้าง Ticket ใหม่ <br/> <br/> <span class="doc-desc-title">ขอบคุณ</span>หน้าสามารถเชื่อมโยงกับ Help topics
+logos:
+  title: Logo
+  content: >
+    You may customize the <span class="doc-desc-title">Logo</span> that will be displayed to the Client in the Client Portal (i.e., your Support Site).
+upload_a_new_logo:
+  title: อัปโหลดโลโก้ใหม่
+  content: >
+    เลือกรูปภาพในรูปแบบ.gif, .jpg หรือ.png เราจะปรับขนาดการแสดงผลของรูปตามสัดส่วนที่มี เพื่อความเร็วการโหลดข้อมูลควรปรับขนาดรูปภาพเริ่มต้น (817px × 170px) 

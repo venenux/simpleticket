@@ -1,0 +1,13 @@
+---
+name:
+  title: Name
+  content: >
+    Wählen Sie einen erklärenden Namen für diesen <span class="doc-desc-title">SLA Plan</span> aus, der dessen Zweck widerspiegelt.
+grace_period:
+  title: Ablaufzeit
+  content: >
+    Legen Sie fest, ab wie vielen Stunden nach der Eröffnung eines Tickets, das Ticket als überfällig markiert wird. <br><br><em>Die Stunden werden ab dem Zeitpunkt der Eröffnung des Tickets gezählt.</em>
+transient:
+  title: Überschreibbarkeit
+  content: >
+    Überschreibbare SLA's werden vorläufig berücksichtigt und können von einem nicht-überschreibbarem SLA bei einem <span class="doc-desc-opt">Abteilungstransfer</span> oder wenn sich das <span class="doc-desc-title">Hilfethema</span> ändert, überschrieben werden.

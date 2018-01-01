@@ -1,0 +1,8 @@
+---
+listing_type:
+  title: 種類の一覧表示
+  content: '親カテゴリがパブリックで、あなたがこの<span class="doc-desc-title"> FAQ</span> はパブリックナレッジベースに公開を希望される場合<span class="doc-desc-opt">Public (publish)</span>を選択します。'
+  links:
+    - 
+      title: クライアント ポータルの公共のナレッジ ベースを有効にします。
+      href: /scp/settings.php?t=kb

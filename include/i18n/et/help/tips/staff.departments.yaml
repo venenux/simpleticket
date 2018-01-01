@@ -1,0 +1,10 @@
+---
+type:
+  title: Tüüp
+  content: >
+    Kui osakonna tüüp on privaatne, siis ei kuvata osakonna signatuuri pöördumise vastuses ega näidata osakonnale määratud pöördumisi kliendi portaalis.
+dept_manager:
+  title: Osakonna juhataja
+  content: >
+    Saad valida ühe agendi osakonna juhiks, kes hakkab saama osakondadele määratud pöördumiste teateid ja hoiatusi.
+  0: Agendid ei pea kuuluma sellesse osakonda, mille juhiks nad on

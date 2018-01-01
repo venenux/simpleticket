@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Kunci API
+  content: >
+    Kunci API digunakan untuk mengesahkan pelanggan mengemukakan tiket baru melalui Antara Muka Pengaturcaraan Aplikasi ( API). kunci API digunakan dan bukan kata laluan. Sejak kunci API boleh dihantar tanpa enkrip, mereka dikaitkan dengan alamat IP rangkaian setiap pelanggan.
+  links:
+    - 
+      title: dokumentasi osTicket API
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP Address
+  content: >
+    Alamat IP rangkaian pelanggan. Setiap alamat IP pelanggan yang unik akan memerlukan kunci API berasingan

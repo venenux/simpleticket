@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Všeobecná požiadavka
+  notes: Otázky o produktoch a službách
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Spätná väzba
+  notes: |
+    Tikety sa týkajú predovšetkým predaja a fakturácie
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Nahlásiť problém
+  notes: |
+    Produkt, služba alebo problém súvisiaci so zariadením
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problém s prístupom
+  notes: |
+    Nahlásiť nemožnosť prístupu k fyzickému alebo virtuálnemu majetku

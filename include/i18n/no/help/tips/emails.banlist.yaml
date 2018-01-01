@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Utestengte e-postadresser
+  content: >
+    E-poster mottatt fra utestengte e-postadresser oppført i svartelisten avvises automatisk.

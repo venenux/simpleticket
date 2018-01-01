@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: اطلاعات تماس
+  content: >
+    
+username:
+  title: نام کاربری
+  content: >
+    تنها کارشناسانی با نوع کاربری مدیر می توانند نام کاربری را تغییر دهند.
+  links:
+    - 
+      title: تغییر نام کاربری به عنوان ادمین
+      href: /scp/staff.php
+time_zone:
+  title: منطقه زمانی
+  content: >
+    
+daylight_saving:
+  title: Daylight Saving
+  content: >
+    
+maximum_page_size:
+  title: حداکثر اندازه صفحه
+  content: >
+    
+auto_refresh_rate:
+  title: میزان تازه کردن خودکار
+  content: >
+    
+default_signature:
+  title: امضای پیش فرض
+  content: >
+    
+default_paper_size:
+  title: اندازه کاغذ پیش فرض 
+  content: >
+    
+show_assigned_tickets:
+  title: نمایش تیکت های واگذار شده
+  content: >
+    این قسمت را فعال کنید تا نام شما برای آن درخواست هایی که به شما منتصب شده است از صف <span class="doc-desc-title">درخواست های باز</span> پنهان شود. به محض پنهان کردن، نام <span class="doc-desc-title">واحد سازمانی</span>ای که شما به آن تعلق دارید جایگزین نام شما می‌شود.
+password:
+  title: کلمه عبور
+  content: >
+    
+current_password:
+  title: کلمه عبور کنونی
+  content: >
+    
+new_password:
+  title: رمز عبور جدید
+  content: >
+    
+confirm_new_password:
+  title: تکرار کلمه عبور جدید
+  content: >
+    
+signature:
+  title: امضا
+  content: >
+    می‌توانید یک <span class="doc-desc-title">امضای</span> اختیاری ایجاد کنید که احتمالا در پایان تیکت‌های پاسخ شما ظاهر شود. نمایش یا عدم نمایش این <span class="doc-desc-title">امضا</span> به <span class="doc-desc-title">قالب ایمیلی</span> که برای پاسخگویی استفاده می‌شود، بستگی دارد.
+  links:
+    - 
+      title: ایجاد ایمیل های پیش فرض در پنل مدیریت
+      href: /scp/templates.php

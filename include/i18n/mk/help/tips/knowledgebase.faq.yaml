@@ -1,0 +1,8 @@
+---
+listing_type:
+  title: Тип на објави
+  content: 'Одберете <span class="doc-desc-opt">Јавна (објава)</span> доколку сакате да <span class="doc-desc-title"> FAQ</span> биде објавена во јавно достапна база на податоци, доколку родителската категорија е јавно објавена.'
+  links:
+    - 
+      title: Овозможи јавна база на знаење за клиентскиот портал
+      href: /scp/settings.php?t=kb

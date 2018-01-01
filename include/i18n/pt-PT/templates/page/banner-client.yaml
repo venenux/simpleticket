@@ -1,0 +1,6 @@
+---
+notes: >
+  Isto compõe o cabeçalho na página de autenticação do cliente. Pode ser útil informar os seus clientes sobre as suas políticas de autenticação e de registo.
+name: "Entrar em %{company.name}"
+body: >
+  Para o servir melhor, encorajamos os nossos clientes a registar-se.

@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-kirja mallid
+  content: >
+    E-kirja malle kasutatakse automaatsete vastuste ja teadete saatmiseks pöördumise eluea jooksul.
+template_to_clone:
+  title: Mall paljundamiseks
+  content: >
+    Vali mallide komplekt kopeerimiseks või lihtsalt alusta standartsete e-kirja mallide laost.
+language:
+  title: Keel
+  content: >
+    Vali sobiv keel <span class="doc-desc-opt">lao jaoks</span> <span class="doc-desc-title">E-kirja mallide kogu</span>. Keelepaketid on saadaval osTicket.com lehel.
+  links:
+    - 
+      title: osTicketi keelepaketid
+      href: 'http://osticket.com/download'
+status:
+  title: Staatus
+  content: >
+    <span class="doc-desc-opt">Aktiveeritud</span> mallide kogu on kättesaadav, et siduda ta osakondadega ja määrata süsteemi vaikimisi vastusteks. Kasutusel olevat mallide kogu ei saa <span class="doc-desc-opt">deaktiveerida</span>.

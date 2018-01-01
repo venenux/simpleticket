@@ -1,0 +1,30 @@
+---
+notes: |
+  Enviat a un usuari quan un membre del personal de suport crea un Ticket en nom de l'usuari.
+  Això en general es fa quan l'usuari ha contactat per via telefònica amb el personal de suport.
+subject: |
+  Re: %{ticket.subject}[#%{ticket.number}]
+body: |
+  <h3><strong> Benvolgut %{recipient.name.first}</strong></h3>
+  El nostre equip d'atenció al client a creat un Ticket, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>en el seu nom, amb els seguents dades:
+  <br>
+  <br>
+  Tema:<strong>%{ticket.topic.name}</strong>
+  <br>
+  Asumpte:<strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Si cal, un representat contactarà amb tu el més prompte possible. Voste, a més, pot<a href="%{recipient.ticket_link}"> vore el progres del seu Ticket de manera online</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  El seu equip de %{company.name}.<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em> si voste desitja informació adicional del problema, per favor conteste aquest email o <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" > registrat al seu compte</span></a> per obtindre un arxiu complet de les seves peticions d'ajuda.</em></div>

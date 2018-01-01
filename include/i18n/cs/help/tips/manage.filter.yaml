@@ -1,0 +1,82 @@
+---
+execution_order:
+  title: Pořadí provedení
+  content: >
+    Vložte číslo, které kontroluje prioritu filtru. Čím nižší číslo, tím vyšší prioritu filtr bude mít v provedení oproti filtru s vyšším číslem. <br><br>Jestliže chcete, aby tento filtr byl aplikován jako poslední v případě nalezení shody , aktivujte <span class="doc-desc-title">Zastav další zpracování při nalezené shodě.</span>.
+target_channel:
+  title: Kanál
+  content: >
+    Vyber cíl <span class="doc-desc-title">Kanál</span>pro svůj<span class="doc-desc-title">Filtr tiketů</span>. <span class="doc-desc-title">Kanál</span> je zdroj, skrze který dorazí tiket do systému. <br><br> Například, pokud vyberete <span class="doc-desc-opt">Web Formulář</span>, říkate, že chcete aplikovat <span class="doc-desc-title">tiketový Filtr</span> pro tikety, které vznikly ve formuláři webového portálu.
+rules_matching_criteria:
+  title: Pravidla přiřazování critérií
+  content: >
+    Zvolte jak pružnou chcete shodu vašeho <span class="doc-desc-title">tiketového Filtru</span> . Jestliže chcete aby <span class="doc-desc-title">tiketový Filtr</span> odpovídal jakékoliv zmeně a pak se zastavil, zvolte <span class="doc-desc-opt">Match Any</span>. If you would like <em><strong>all rules</strong></em> of the <span class="doc-desc-title">ticket Filter</span> to be matched, choose <span class="doc-desc-opt">Match All</span>.
+reject_ticket:
+  title: Odmítni tiket
+  content: >
+    Pokud je povoleno, další zpracování je ukončeno a všechny ostatní volby akcí níže budou při shodě ignorovány.
+reply_to_email:
+  title: Odpovědní email
+  content: >
+    Povolte tuto možnost, pokud chcete, aby váš Help Desk ctil hlavičku emailové aplikaci uživatele <span class="doc-desc-title">Odpověz</span>. Toto pole je relevantní pouze pokud <span class="doc-desc-title">Kanál</span> nadtím zahrnuje <span class="doc-desc-opt">Email</span>.
+ticket_auto_response:
+  title: Zakaž automatickou odpověď na tiket
+  content: >
+    <em>Upozornění: Toto přepíše jakékoliv <span class="doc-desc-title">Oddělení</span> nebo <span class="doc-desc-title">Nastavení automatické odpovědi</span>.</em>
+canned_response:
+  title: Předpřipravená automatická odpověď
+  content: >
+    Vyberte <span class="doc-desc-title">předdefinovanou odpověď</span> k odeslání uživateli na základě shody s <span class="doc-desc-title">filtrem požadavků</span>. Použitá šablona <span class="doc-desc-title">automatické odpovědi na nový požadavek</span> závisí na nastavení výchozí <span class="doc-desc-title">šablony </span> nebo na <span class="doc-desc-title">oddělěních</span> požadavků.
+  links:
+    - 
+      title: Správa předpřipravených odpovědí
+      href: /scp/canned.php
+    - 
+      title: Spravuj sadu šablon
+      href: /scp/templates.php
+    - 
+      title: Nová šablona tiketu pro automatickou odpověd
+      href: /scp/templates.php?id=2&a=manage
+department:
+  title: Oddělení
+  content: >
+    Vyberte jaké <span class="doc-desc-title">Oddělení</span> chcete přiřadit <span class="doc-desc-title">Ticket Filter</span>.
+  links:
+    - 
+      title: Správa oddělení
+      href: /scp/departments.php
+priority:
+  title: Priorit
+  content: >
+    Vyberte stupeň <span class="doc-desc-title">priority</span>, který chcete přiřadit požadavkům shodujícím se s <span class="doc-desc-title"> filtrem požadavků</span>.<br /> <br /> <em>Poznámka: Toto přepíše nastavení <span class="doc-desc-title">oddělení</span> nebo <span class="doc-desc-title">tématu podpory</span>.</em>
+sla_plan:
+  title: SLA Plán
+  content: >
+    Vyberte <span class="doc-desc-title">SLA Plán</span>, který chcete aplikovat na odpovídající <span class="doc-desc-title">Ticket Filter</span>.
+  links:
+    - 
+      title: Správa plánů SLA
+      href: /scp/slas.php
+auto_assign:
+  title: Automatické-Přiřazení
+  content: >
+    Vyberte Agenta nebo Tým, kterému chcete přiřadit odpovídající <span class="doc-desc-title">Ticket Filter</span>.
+  links:
+    - 
+      title: Správa pracovníků
+      href: /scp/staff.php
+    - 
+      title: Spravuj Týmy
+      href: /scp/teams.php
+help_topic:
+  title: Téma nápovědy
+  content: >
+    Vyberte <span class="doc-desc-title">Téma pomoci</span>, které chcete aplikovat na odpovídající <span class="doc-desc-title">Ticket Filter</span>.
+  links:
+    - 
+      title: Spravuj témata nápovědy
+      href: /scp/helptopics.php
+admin_notes:
+  title: Poznámky administrátora
+  content: >
+    Tyto poznámky jsou viditelné pouze pro uživatele typu ‘<span class="doc-desc-title">Admin</span>.’

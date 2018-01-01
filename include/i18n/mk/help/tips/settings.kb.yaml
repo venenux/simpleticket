@@ -1,0 +1,25 @@
+---
+knowledge_base_settings:
+  title: Подесувања за базата на знаење
+  content: ""
+knowledge_base_status:
+  title: Статус за базата на знање
+  content: 'Овозможете го ова подесување за да можете да имате кориснички притап во јавната база на знаења. <br><br> Категоријата на бази на знаења и често поставуваните прашања можат да се направат интерно (видливи само за Агентите).'
+  links:
+    - 
+      title: Управување со базата на знаења
+      href: /scp/kb.php
+restrict_kb:
+  title: Resctrict Access to the Knowledge Base
+  content: Enable this setting to prevent unregistered users from accessing your knowledge base articles on the client interface.
+  links:
+    - 
+      title: Пристап на поставувањата на контрола
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Предефинирани одговори
+  content: 'Овозможете ја оваа опција за да се овозможи агенти да користат  <span class="doc-desc-title">Предефинирани одговори</span> кога одговарате на тикети.'
+  links:
+    - 
+      title: Manage Canned Responses
+      href: /scp/canned.php

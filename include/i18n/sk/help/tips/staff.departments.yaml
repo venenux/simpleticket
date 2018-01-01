@@ -1,0 +1,10 @@
+---
+type:
+  title: Typ
+  content: >
+    Ak typ oddelenia je súkromné, tak podpis oddelenia nebude dostupný na odpovediach ani nie je možné priradenie oddelenia z klientského portálu. 
+dept_manager:
+  title: Vedúci oddelenia
+  content: >
+    Môžete vybrať pracovníka ako manažéra oddelenia aby prijímal upozornenia a oznámenia z tiketov pridelených oddeleniu.
+  0: Pracovník nemusí byť člen oddelenia aby bol označený ako manažér oddelenia

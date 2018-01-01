@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: Anpassade listor
+  content: >
+    Dina <span class="doc-desc-title">anpassade listor</span> låter dig skapa rullister med fördefinierade alternativ som kunden kan välja mellan i dina  <span class="doc-desc-title">Anpassade formulär</span>. Om du vill använda denna <span class="doc-desc-title">anpassade lista</span> som <span class="doc-desc-title">mål</span> i ett <span class="doc-desc-title">Ärendefilter</span>, ser du till att lägga till denna lista i <span class="doc-desc-title">Ärendedetaljer</span>-formuläret.
+name:
+  title: Namn
+  content: >
+    
+plural_name:
+  title: Namn
+  content: >
+    
+sort_order:
+  title: Sorteringsordning
+  content: >
+    
+list_s_initial_items:
+  title: De första posterna i listan
+  content: >
+    
+value:
+  title: Värde
+  content: >
+    
+extra:
+  title: Extra
+  content: >
+    Förkortningar och liknande. Om du använder interna koder för posterna i denna lista, så kan dessa koder och förkortningar anges i denna kolumn. Om den anpassade listan är av typen <span class="doc-desc-option"> TypeAhead</span>, så kan förkortningarna användas för att söka efter posterna i den anpassade listan.

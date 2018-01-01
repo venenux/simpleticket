@@ -1,0 +1,44 @@
+---
+new_ticket:
+  title: Uus pöördumine
+  content: >
+    Lülita see sisse, kui soovid, et automaatvastus saadetakse kasutajale uue pöördumise korral.
+  links:
+    - 
+      title: Uue pöördumise automaatvastuse mall
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Uus pöördumine meeskonna poolt
+  content: >
+    Teade, kui agent registreerib pöördumise kasutaja poolt. <em>Agent saab selle uute pöördumiste loomisel üle kirjutada.</em>
+  links:
+    - 
+      title: Uue sõnumi teate mall
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Uue sõnumi kinnitus
+  content: >
+    Kinnitusteade, mis saadetakse, kui olemasolevale pöördumisele lisatakse uus teade.
+  links:
+    - 
+      title: Uue sõnumi kinnituse mall
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Uue sõnumi teade
+  content: >
+    Sõnum, mille saavad kõik pöördumise osapooled.
+  links:
+    - 
+      title: Uue tegevuse teate mall
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Teade maksimummäära ületamisest
+  content: >
+    Teade kasutajale pöördumise mitteregistreerimiset seoses <span class="doc-desc-title">Avatud pöördumiste maksimumi</span> ületamisega.
+  links:
+    - 
+      title: Maksimummäära ületamise teate mall
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: Määra <em>Avatud pöördumiste maksimum</em>
+      href: /scp/settings?t=tickets

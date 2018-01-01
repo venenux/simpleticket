@@ -1,0 +1,11 @@
+---
+site_pages:
+  title: Stranice web stranice
+  content: Stranice se mogu koristiti kao mini Content Management System (CMS). Možete definirati više odredišnih stranica, ne prijavljeno i Hvala Vam stranica, te ih konfigurirati u postavkama tvrtke i temama pomoći.
+  links:
+    - 
+      title: Postavke kompanije
+      href: /scp/settings.php?t=pages
+type:
+  title: Vrsta
+  content: '<span class="doc-desc-opt">Offline</span> stranice će biti prikazane na klijentovom portalu ukoliko vam je tehnička podrška onemogučena. <span class="doc-desc-opt">Odredišne</span>stranice se prikazuju na naslovnoj stranici klijentovog portala. <span class="doc-desc-opt">Hvala Vam</span> stranice prikazuju se nakon što korisnik otvori novu karticu. <span class="doc-desc-opt">Ostale</span> stranice se mogu koristiti kao jednostavan content management system (CMS).'

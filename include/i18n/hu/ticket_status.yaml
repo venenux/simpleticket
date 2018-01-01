@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Nyitott
+  state: open
+  mode: 3
+  sort: 1
+  flags: 1
+  properties:
+    description: Nyitott hibajegyek.
+- 
+  id: 2
+  name: Megoldott
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 1
+  properties:
+    description: >
+      A megoldott hibajegyek lezárt jegyek, melyeket a felhasználó újra nyithat. Ez akkor lehet hasznos, mikor egy művelet a megoldott hibajegyet lezárta egy a felhasználónak küldött értesítéssel.
+- 
+  id: 3
+  name: Lezárt
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 1
+  properties:
+    description: >
+      A lezártnak jelölt hibajegyeket a felhasználó nem nyithatja újra. Ettől függetlenül a hibajegy hozzáférhető az ügyfél és a munkatárs felületen is.
+- 
+  id: 4
+  name: Archivált
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 1
+  properties:
+    description: >
+      A hibajegyek csak adminisztrációs célokból érhetőek el, a többi jegy között már nem érhető el.
+- 
+  id: 5
+  name: Törölt
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 1
+  properties:
+    description: >
+      Hibajegyek a törlési várólistán vannak. Nem érhetőek el a többi jegy között.

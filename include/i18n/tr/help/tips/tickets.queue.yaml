@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Arama alanı
+  content: >
+    
+advanced:
+  title: Gelişmiş
+  content: >
+    Arama parametrelerini daraltmak. Eğer gelişmiş arama kriterleri seçilir ve arama çalıştırmak sonra, <span class="doc-desc-title">Export </span> biletler sayfanın altındaki verileri.
+open_tickets_table:
+  title: Açık Talepler Tablosu
+  content: >
+    Tüm biletler şu anda açılmış ve dikkat gerektiren
+ticket:
+  title: Talep
+  content: >
+    
+date:
+  title: Tarih
+  content: >
+    
+subject:
+  title: Konu
+  content: >
+    
+from:
+  title: Kimden
+  content: >
+    
+priority:
+  title: Öncelik
+  content: >
+    
+assigned_to:
+  title: Atanmış
+  content: >
+    
+export:
+  title: Dışa Aktar
+  content: >
+    CSV dosyası biçiminde dışarı aktarılacak CSV dosyaları herhangi bir elektronik tablo yazılımı ile açılabilir (yani, Microsoft Excel, Apple Pages, OpenOffice, vb.)
+advanced_search_dialog:
+  title: Gelişmiş Arama
+  content: >
+    
+adv_keyword:
+  title: Anahtar Kelime Arama
+  content: >
+    Kullanıcılar ve biletler için özel alanlar ile ilişkili bilet ipliğin konu ve mesaj kurumların yanı sıra tüm metin içeriğine göre hit bulun.
+adv_date_range:
+  title: Tarih Aralığında Arama
+  content: >
+    Burada tanımlayın

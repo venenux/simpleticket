@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: 일반 문의
+  notes: 제품이나 서비스에 관한 문의
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: 피드백
+  notes: |
+    주로 판매와 지불에 관련된 티켓들
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: 문제 보고
+  notes: |
+    제품, 서비스, 장비에 관한 이슈
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: 이슈 접근
+  notes: |
+    물리적 또는 가상의 자산에 대한 접근 불가 보고

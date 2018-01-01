@@ -1,0 +1,6 @@
+---
+notes: >
+  See mall määrab e-kirja sisu, mis saadetakse ametnikule, kes klõpsas linki <strong>Unustasin parooli</strong> personali juhtpaneeli sisselogimise lehel.
+name: "osTicket meeskonna parooli lähtestamine"
+body: >
+  <h3><strong>Tere, %{staff.name.first}!</strong></h3> <div> Kasutajatoele on Sinu nimel esitatud soov muuta Sinu parooli lehel %{url}.<br /> <br />Kui Sa pole paroolivahetust tellinud, siis kustuta see e-kiri ja ignoreeri seda. Sinu konto on turvaline ja keegi teine pole saanud sellele ligipääsu. Sinu konto pole lukustatud ja parooli pole muudetud. Keegi on eksinud sisestades Sinu meiliaadressi.<br /> <br />Parooli muutmiseks logi sisse allpool olevale lehele.<br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">Sinu sõbralik klienditugi</em> <br /> <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" alt="Powered by osTicket" width="126" height="19" style="width: 126px" /> </div>

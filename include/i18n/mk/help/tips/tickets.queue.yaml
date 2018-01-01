@@ -1,0 +1,40 @@
+---
+search_field:
+  title: Поле за пребарување
+  content: ""
+advanced:
+  title: Напреден
+  content: 'Смалете ги вашите параметри на пребарување. Откако ќе ја изберете вашиот напреден критериум за пребарување и ќе го извршите, вие можете да ги <span class="doc-desc-title">извадите</span> податоците на долниот дел од страницата за тикети.'
+open_tickets_table:
+  title: Табела на отворени тикети
+  content: Сите моментално отворени тикети и оние кои побаруваат одговор
+ticket:
+  title: Тикет
+  content: ""
+date:
+  title: Датум
+  content: ""
+subject:
+  title: Subject
+  content: ""
+from:
+  title: From
+  content: ""
+priority:
+  title: Priority
+  content: ""
+assigned_to:
+  title: Доделено на
+  content: ""
+export:
+  title: Извоз
+  content: Извезете ги вашите моментални податоци од погледот во CSV датотека. CSV датотеката може да биде отворена со било кој софтвер за табеларен приказ (пр. Microsoft Excel, Apple Pages, OpenOffice, итн.).
+advanced_search_dialog:
+  title: Напредно пребарување
+  content: ""
+adv_keyword:
+  title: Пребарување по клучен збор
+  content: Пронајдете резултати базирани на насловот и содржината на пораката на тикетот како и сите текстуални содржини поврзани со полињата на корисниците и тикетите.
+adv_date_range:
+  title: Пребарување по временски интервал
+  content: Дефиниција тука

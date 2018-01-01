@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Status centra tehničke podrške
+  content: >
+    Ukoliko se status promjeni u <span class="doc-desc-opt">Offline</span>, korisničko sučelje će biti onemogućeno. Ovo neće imati utjecaja na interakciju djelatnika sa djelatničko upravljačkom pločom.
+helpdesk_url:
+  title: URL centra za tehničku podršku
+  content: >
+    Ovaj URL je osnova Vaše osTicket instalacije. Ona se koristi u email komunikaciji kako bi se krajnji korisnik usmjerio na centar tehničke podrške.
+helpdesk_name_title:
+  title: Naziv centra tehničke podrške
+  content: >
+    Ovo je naziv koji će biti prikazan u tabu preglednika. Ukoliko je vaš centar tehničke podrške označen, ovo je ime koje će se prikazati pod nazivom stranice.
+default_department:
+  title: Osnovno odjel
+  content: >
+    Odaberite osnovni <span class="doc-desc-title">odjel</span> za kartice koje nisu automatski dodjeljene odjelu. <br/><br/> Kartice mogu biti dodjeljene po temi podrške, ulaznom emailu i postavkama filtera kartica.
+default_page_size:
+  title: Osnovna veličina stranice
+  content: >
+    Odaberite broj prikazanih stavaka po stranici u redu čekanja u kontrolnoj ploči djelatnika. Svaki djelatnik može zasebno prilagoditi broj prikazanih stavaka za sebe pod<span class="doc-desc-title">Moje postavke</span>.
+default_log_level:
+  title: Osnovna razina bilješki
+  content: >
+    Odredite minimalnu količinu podataka koja će biti spremljena u  <span class="doc-desc-title">sistemski dnevnik</span>. <span class="doc-desc-opt">Debug</span> predstavlja najmanju razinu ozbiljnosti, dok <span class="doc-desc-opt">Greška</span> predstavlja najveću razinu ozbiljnosti. Npr., ukoliko želite želite vidjeti sve bilješke <span class="doc-desc-title">sistemskom dnevniku</span>, odaberite <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Pročistite dnevnike
+  content: >
+    Odredite koliko dugo želite zadržati <span class="doc-desc-title">sistemske dnevnike</span> prije nego budu obrisani.
+default_name_formatting:
+  title: Osnovni format naziva
+  content: >
+    Odaberite format naziva kroz sistem. Email predlošci će ih koristiti za nazive, ukoliko niti jedan drugi format nije određen u varijabli.
+  links:
+    - 
+      title: Podržane varijable email predložaka
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Datum &amp; postavke vremena
+  content: >
+    Sljedeće postavke definiraju datum &amp; vrijeme za korisnike. Možete promjeniti način na koji se prikazuju prateći PHP format datuma. Datumi prikazani niže jednostavno ilustriraju rezultat odgovarajućih vrijednosti.
+  links:
+    - 
+      title: Pogledajte tablicu formatiranja PHP datuma
+      href: 'http://www.php.net/manual/en/function.date.php'

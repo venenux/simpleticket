@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Tietopankin Asetukset
+  content: >
+    
+knowledge_base_status:
+  title: Tietopankin Tila
+  content: >
+    Aktivoi tämä asetus salliaksesi asiakkaiden tehdä itsenäisiä ongelman ratkaisuja julkisien tietopankin artikkelien avulla. <br><br> Tietopankin kategoriat ja Yleisimmät kysymykset voidaan rajoittaa sisäiseen käyttöön (käytössä ainoastaan Käsittelijöillä).
+  links:
+    - 
+      title: Hallinnoi Tietopankkia
+      href: /scp/kb.php
+restrict_kb:
+  title: Tietopankin pääsynhallinta
+  content: >
+    Aktivoi tämä asetus estääksesi rekisteröimättömien asiakkaiden pääsy tietopankin artikkeleihin asiakasliittymässä.
+  links:
+    - 
+      title: Pääsynhallinnan asetukset
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Yleiset vastaukset
+  content: >
+    Aktivoi tämä asetus jotta Käsittelijä voi käyttää <span class="doc-desc-title">Yleisiä vastauksia</span> tikettien vastauksina.
+  links:
+    - 
+      title: Hallinnoi yleisiä vastauksia
+      href: /scp/canned.php

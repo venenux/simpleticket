@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Helpdesk Status
+  content: >
+    Hvis statusen er endret til <span class="doc-desc-opt"> frakoblet</span>, vil Klientgrensesnittet bli deaktivert.  Dette påvirker imidlertid ikke normal Agent interaksjon med Agent panelet.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Dette er bunnen av osTicket installasjonen. Den brukes i e-post kommunikasjon til direkte sluttbrukere for å linke tilbake til brukerstøtten.
+helpdesk_name_title:
+  title: Helpdesk navn/tittel
+  content: >
+    Dette er tittelen som vises i nettleseren kategorien. Hvis hjelpe systemets side er bokmerket, vil dette være tittel/navnet på siden.
+default_department:
+  title: Standard avdeling
+  content: >
+    Velg en standard <span class="doc-desc-title"> avdeling</span> for saker som ikke er automatisk sendt til en avdeling. <br/> <br/> Saker kan være distribuert basert på hjelpeemnet, innkommende e-post og saks filterinnstillingene.
+default_page_size:
+  title: Standard sidestørrelse
+  content: >
+    Velg antall elementer som vises per side i saks køer i ansatte-panelet. Hver Agent kan også tilpasse dette tallet for sin egen konto under <span class="doc-desc-title"> Mine innstillinger</span>.
+default_log_level:
+  title: Standard loggnivå
+  content: >
+    Bestemme minimumsnivået av saker som registreres i <span class="doc-desc-title"> systemloggen</span>. <span class="doc-desc-opt"> Feilsøke</span> representerer minst alvorlighetsgraden og <span class="doc-desc-opt"> feil</span> representerer den største alvorlighetsgraden. For eksempel hvis du vil se alle problemer i <span class="doc-desc-title"> Systemlogger</span>, velg <span class="doc-desc-opt"> Feilsøk</span>.
+purge_logs:
+  title: Slett logger
+  content: >
+    Bestemme hvor lenge du vil beholde <span class="doc-desc-title"> Systemlogg</span> før de slettes.
+default_name_formatting:
+  title: Standard navne formatering
+  content: >
+    Velg et format for navn i hele systemet. E-post maler bruker dette navn hvis ingen andre formater angis i variabelen.
+  links:
+    - 
+      title: Støttede e-post mal variabler
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Dato og tids alternativer
+  content: >
+    Følgende innstillinger definerer datoen og tiden for klienter. Du kan endre hvordan de vises ved å følge PHP dato format tegn. Datoene nedenfor illustrerer bare et resultat av deres tilsvarende verdier.
+  links:
+    - 
+      title: Se PHP dato formatering tabellen
+      href: 'http://www.php.net/manual/en/function.date.php'

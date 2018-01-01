@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Support
+  signature: Support afdeling
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Verkoop
+  signature: |
+    Verkoop en klantenbinding
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Onderhoud
+  signature: |
+    Onderhoudsafdeling
+  ispublic: 0
+  group_membership: 1

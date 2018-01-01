@@ -1,0 +1,21 @@
+---
+- 
+  isenabled: 1
+  title: OsTicket (mẫu) là gì?
+  response: osTicket là một hệ thống hỗ trợ khách hàng mã nguồn mở được sử dụng rộng rãi, là một công cụ thay thế hấp dẫn cho các hệ thống hỗ trợ khách hàng chi phí cao và phức tạp. đơn giản, gọn nhẹ, đáng tin cậy, mã nguồn mở, nền tảng web, dễ dàng để cài đặt và sử dụng.
+  notes: ""
+  attachments:
+    - 
+      name: osTicket.txt
+      type: text/plain
+      data: Đã hủy đính kèm!
+- 
+  isenabled: 1
+  title: Mẫu (với các biến)
+  response: |
+    Chào %{ticket.name.first},
+    <br>
+    <br>
+    Yêu cầu số #%{ticket.number} của bạn đã được gởi vào lúc %{ticket.create_date} cho bộ phận %{ticket.dept.name}.
+  notes: |
+    

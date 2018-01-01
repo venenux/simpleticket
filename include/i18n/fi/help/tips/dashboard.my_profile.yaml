@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Yhteystiedot
+  content: >
+    
+username:
+  title: Käyttäjätunnus
+  content: >
+    Vain Käsittelijät joilla on Järjestelmänvalvojan oikeudet, voivat vaihtaa käyttäjätunnusta. Jos olet Käsittelijä jolla on Järjestelmänvalvojan oikeudet, voit vaihtaa tunnusta valitsemalla Käsittelijän <span class="doc-desc-title">Henkilöstön jäsenet</span> listasta.
+  links:
+    - 
+      title: Vaihda käyttäjätunnus Järjestelmänvalvojaksi
+      href: /SCP/Staff.php
+time_zone:
+  title: Aikavyöhyke
+  content: >
+    
+daylight_saving:
+  title: Kesäaika
+  content: >
+    
+maximum_page_size:
+  title: Sivun enimmäiskoko
+  content: >
+    
+auto_refresh_rate:
+  title: Automaattinen päivitystaajuus
+  content: >
+    
+default_signature:
+  title: Oletus allekirjoitus
+  content: >
+    
+default_paper_size:
+  title: Paperin oletuskoko
+  content: >
+    
+show_assigned_tickets:
+  title: Näytä kohdistetut Tiketit
+  content: >
+    Ota tämä käyttöön piilottaaksesi nimesi<span class="doc-desc-title">Avoimet Tiketit</span> jonosta niistä tiketeistä jotka sinulle on osoitettu. Piilotettaessa nimesi <span class="doc-desc-title">Osaston</span> nimi johon kuulut korvaa nimesi.
+password:
+  title: Salasana
+  content: >
+    
+current_password:
+  title: Nykyinen salasana
+  content: >
+    
+new_password:
+  title: Uusi salasana
+  content: >
+    
+confirm_new_password:
+  title: Vahvista uusi salasana
+  content: >
+    
+signature:
+  title: Allekirjoitus
+  content: >
+    Luo valinnainen <span class="doc-desc-title">Allekirjoitus</span>, joka saattaa näkyä tikettisi vastauksen lopussa. Se että <span class="doc-desc-title">Allekirjoitus</span> näkyy, riippuu <span class="doc-desc-title">Sähköpostiviestipohjasta</span> jota käytetään tiketin vastauksessa.
+  links:
+    - 
+      title: Luo Sähköpostiviestipohjia Järjestelmänvalvojan sivulla
+      href: /SCP/templates.php

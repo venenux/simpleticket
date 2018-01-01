@@ -1,0 +1,21 @@
+---
+- 
+  isenabled: 1
+  title: Što je osTicket (primjer)?
+  response: osTicet je široko korišten sistem za podršku otvorenog koda, atraktivna alternativa svim skupljim i kompleksnijim sistemima za podršku korisnika-jednostavna, lagana, pouzdana, otvorenog koda, web bazirana i jednostavan za instaliranje i korištenje.
+  notes: ""
+  attachments:
+    - 
+      name: osTicket.txt
+      type: text/plain
+      data: Canned Attachments Rock!
+- 
+  isenabled: 1
+  title: Primjer (sa varijablama)
+  response: |
+    Zdravo %{ticket.name.first},
+    <br>
+    <br>
+    Vaša kartica #%{ticket.number} napravljena na %{ticket.create_date} jeu
+    %{ticket.dept.name} odjelu.
+  notes: ""

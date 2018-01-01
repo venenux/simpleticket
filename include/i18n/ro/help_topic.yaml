@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Cerere generala
+  notes: Intrebari despre produse sau servicii
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Feedback
+  notes: |
+    Bilete care se referă în primul rând la departamentele de vânzări şi facturare
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Raportează o problemă
+  notes: |
+    Probleme legate de produse, servicii sau echipamente
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Problema de acces
+  notes: |
+    Raporteaza o problema de accessare a unei resurse fizice sau virtuale

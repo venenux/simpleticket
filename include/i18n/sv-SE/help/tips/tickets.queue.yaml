@@ -1,0 +1,53 @@
+---
+search_field:
+  title: Sökfält
+  content: >
+    
+advanced:
+  title: Avancerad
+  content: >
+    Begränsa ner din sökning. När du har valt dina avancerade sökkriterier kan du köra sökningen och <span class="doc-desc-title">Exportera</span> datan som finns på längs ner på ärendesidan.
+open_tickets_table:
+  title: Öppna ärendetabellen
+  content: >
+    Alla ärenden är öppna och behöver uppmärksamhet
+ticket:
+  title: Ärende
+  content: >
+    
+date:
+  title: Datum
+  content: >
+    
+subject:
+  title: Ämne
+  content: >
+    
+from:
+  title: Från
+  content: >
+    
+priority:
+  title: Prioritet
+  content: >
+    
+assigned_to:
+  title: Tilldelat till
+  content: >
+    
+export:
+  title: Exportera
+  content: >
+    Exportera din data som nu visas på en CSV-fil. CSV-filer kan öppnas med något kalkylprogram (t.ex. Microsoft Excel, Apple Pages, Openoffice, etc.).
+advanced_search_dialog:
+  title: Avancerad sökning
+  content: >
+    
+adv_keyword:
+  title: Nyckelordssökning
+  content: >
+    Hitta träffar baserade på ämne och ärendetexten i ärendet, samt allt textinnehåll i associerad med egna fält för användarna och ärenden.
+adv_date_range:
+  title: Sök mellan olika datum
+  content: >
+    Definition här

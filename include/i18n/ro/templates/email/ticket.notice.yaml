@@ -1,0 +1,28 @@
+---
+notes: |
+  Trimis unui utilizator cand un agent creeaza un TIcket in numele său. Se foloseste de obicei cand utilizatorii contacteaza agentii prin telefon.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Draga %{recipient.name.first},</strong></h3>
+  Echipa noastra de suport a creat tichetul <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> in numele tau, cu urmatoarele detalii:
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subiect: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Daca este nevoie, un reprezentant va va contacta in cel mai scurt posibil. Puteti deasemenea sa vizualizati <a href="%{recipient.ticket_link}">starea tichetului online</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Cu drag echipa %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Daca doreti sa oferiti comentarii sau informatii suplimentare legate de acest tichet, va rugam sa raspundeti la acest emaul sau <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >dati click aici pentru autentificare</span></a>  in contul dumneavoastra pentru o arhiva completa a cererilor de suport si raspunsurilor primite.</em></div>

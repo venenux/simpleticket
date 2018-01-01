@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Ettevalmistatud vastus
+  content: >
+    Loo <span class="doc-desc-title">valmis vastus</span>, mida võib lisada pöördumise vastuseks. Seda võib ka kasutada <span class="doc-desc-title">automaatvastusena</span> pöördumistele <span class="doc-desc-title">pöördumiste filtri</span> abil.
+  links:
+    - 
+      title: Loo pöördumiste filter
+      href: /scp/filters.php
+canned_attachments:
+  title: Ettevalmistatud manused
+  content: >
+    Lisa manus, mis automaatselt lisatakse pöördumise vastusele,  kus on uus <span class="doc-desc-title"> ettevalmistatud vastus</span>.

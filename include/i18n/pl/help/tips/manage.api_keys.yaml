@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Klucz API
+  content: >
+    Klucze API służą do uwierzytelnienia klientów zakładających nowe zgłoszenie za pośrednictwem interfejsu programowania aplikacji (API). Klucze API stosuje się zamiast haseł. Ponieważ klucze API mogą być wysyłane w postaci niezaszyfrowanej, są one związane z adresem IP danego klienta.
+  links:
+    - 
+      title: osTicket dokumentacja API
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Adres IP
+  content: >
+    Adres IP klienta sieci. Dla każdego unikalnego adresu IP klienta, wymagany jest oddzielny klucz API

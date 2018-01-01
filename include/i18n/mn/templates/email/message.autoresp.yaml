@@ -1,0 +1,20 @@
+---
+notes: |
+  Хэрэглэгч хүсэлт дээр шинэ мессеж оруулахад түүнд илгээх имэйлийн загвар. Энэ нь системээс ирсэн имэйлд хэрэглэгч хариу өгөх эсвэл вэб хуудсаар дамжуулан шинэ мессеж нэмж оруулахад хэрэглэгдэнэ.
+subject: |
+  Мессеж Баталгаажуулах
+body: |
+  <h3><strong>Хүндэт %{recipient.name.first},</strong></h3>
+  <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> дугаартай хүсэлтийн мөрөөр таны өгсөн нэмэлт мэдээллийг хүлээн авлаа
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  Хүндэтгэсэн %{company.name} баг,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Та хүсэлтийн явцыг <a
+  href="%{recipient.ticket_link}">онлайнаар эндээс</a> харах боломжтой</em>
+  </div>

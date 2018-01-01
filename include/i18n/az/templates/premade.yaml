@@ -1,0 +1,22 @@
+---
+- 
+  isenabled: 1
+  title: osTicket nədir?
+  response: osTicket sorğu sistemini dəstəkləyən geniş istifadəli açıq mənbədir, 
+  notes: ""
+  attachments:
+    - 
+      name: osTicket.txt
+      type: text/plain
+      data: Canned Attachments Rock!
+- 
+  isenabled: 1
+  title: Nümunə (fərqli)
+  response: |
+    Salam %{ticket.name.first},
+    <br>
+    <br>
+    Sizin sorğu #%{ticket.number} yaradılıb %{ticket.create_date}
+    %{ticket.dept.name} şöbədə.
+  notes: |
+    

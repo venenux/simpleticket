@@ -1,0 +1,81 @@
+---
+number_format:
+  title: Format numar tichet
+  content: >
+    Aceasta setare este folosita pentru a genera numere pentru tichete. Foloseste # acolo unde trebuie sa fie cifre. Orice alt text din formatul numarului va fi pastrat.<span class="doc-desc-title">Ajutor Topic</span> poate defini format de numere personalizat.<br/><br/>De exemplu, pentru numere de 6 cifre, folositi <code>######</code>.
+sequence_id:
+  title: Secventa numerotare tichete
+  content: >
+    Alege o secventa de unde sa rezulte noi numere de tichete. Sistemul dispune de o secventa de incrementare si o secventa aleatoare in mod implicit. Se pot crea oricate secvente este nevoie. Foloseste diverse secvente in <span class="doc-desc-title">Format numerotare tichete</span> pentru help topics.
+default_ticket_status:
+  title: Stare implicita pentru tichete noi
+  content: >
+    Alege o stare implicita pentru tichete noi. Se poate defini pentru fiecare help topic, daca se doreste. Poate fi supra-scris de un filtru de tichete.
+  links:
+    - 
+      title: Administrarea stari tichete
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: SLA implicit
+  content: >
+    Alege Acordul la Nivel de Serviciu implicit pentru a defini cat timp un ticket ramane Deschis inainte de a fi catalogat ca restant.
+  links:
+    - 
+      title: Creaza mai multe Planuri SLA
+      href: /scp/slas.php
+default_priority:
+  title: Prioritate implicita
+  content: >
+    Alege o  <span class="doc-desc-title">prioritate</span> implicita pentru tickete ce nu au o prioritate definita automat. <br/><br/> Prioritatea poate fi definita prin optiunile Help Topic, Routed department, sau Optiunile de Filtrare Tickete.
+maximum_open_tickets:
+  title: Numarul maxim de tichete deschise
+  content: >
+    Introduceti <em>numarul</em>maxim de tickete <strong>deschise</strong> ce pot fi alocate unui Utilizator. <br><br> Introduceti <span class="doc-desc-opt">0 </span> pentru a dezactiva aceasta limitare.
+agent_collision_avoidance:
+  title: Evitare Coliziuni Agent
+  content: >
+    Introduceti durata maxima de timp permisa unui Agent sa mentina un ticket blocat fara a avea nici o activitate. <br><br> Introduceti <span class="doc-desc-opt">0</span> pentru a dezactiva aceasta optiune.
+email_ticket_priority:
+  title: Prioritate tichete email
+  content: >
+    Mentineti prioritatea unui email definita de catre expeditorul email-ului
+show_related_tickets:
+  title: Afiseaza tichete asociate
+  content: >
+    Arata toate biletele legate de autentificare utilizator - altfel accesul este limitat la o vizualizare de tichet pe autentificare
+human_verification:
+  title: Verificare Anti-Robot
+  content: >
+    Activati CAPTCHA pe Client Portal pentru a va asigura ca ticketul este deschis de care o persoana umana. <br><br> Necesita GDLib library
+claim_tickets:
+  title: Aloca tichete la raspuns
+  content: >
+    Activeaza aceasta optiune pentru a atribui tichetele neatribuite agentului care raspunde la acestea. <br><br> Tichetele redeschise sunt intotdeauna atribuite ultimului agent care raspunde.
+assigned_tickets:
+  title: Tichete alocate
+  content: >
+    Activati aceasta optiune pentru a ascunde tichetele alocate din <span class="doc-desc-title">Categoria Tichete Deschise</span>.
+answered_tickets:
+  title: Tichete raspunse
+  content: >
+    Activeaza aceasta facilitate pentru a afisa tichetele la care s-a raspuns in <span class="doc-desc-title">Tichete la care s-a raspuns</span>. Altfel, vor fi incluse in <span class="doc-desc-title">Tichete deschise</span>.
+staff_identity_masking:
+  title: Mascarea Identitatii Personalului
+  content: >
+    Daca este activa, numele Agentului va fi disponibil Clientului in procesul de comunicare.
+enable_html_ticket_thread:
+  title: Activați Conversatii Tichet HTML
+  content: >
+    Daca este activat, va permite folosirea formatarii tip "Rich Text" in corespondenta dintre Clienti si Agenti.
+ticket_attachment_settings:
+  title: Atasamente Conversatii Tichet
+  content: >
+    Definiti setarile pentru fisiere atasate la campul <span class="doc-desc-title">Detalii Problema</span>. Aceste setari sunt folosite de catre toate tichetele si mesajele noi, indiferent de sursa de provenienta (web portal, email, api, etc).
+max_file_size:
+  title: Marimea maxima a fisierului
+  content: >
+    Alege dimensiunea maxima de fisier pentru atasamentele agentilor. Acestea includ atasamentele tip "canned", articolele din baza de cunostinte si cele atasate la raspunsurile tichetelor.
+ticket_response_files:
+  title: Fisiere Raspuns Tichet
+  content: >
+    Daca este activat, orice atasament pe care un Agent il poate atasa unui raspuns la un tichet, va fi de asemenea inclus in emailul catre Utilizator.

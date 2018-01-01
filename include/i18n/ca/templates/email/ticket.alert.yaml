@@ -1,0 +1,42 @@
+---
+notes: |
+  Enviat al personal de suport quan es crea un nou tiquet al sistema. S'aplica als Tickets creats per correu electrònic, el portal web per a clients o per l'API.
+subject: |
+  Alerta de nou Ticket
+body: |
+  <h2>Hi %{recipient.name},</h2>
+  Nou Ticket #%{ticket.number} creat
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>De</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Departament</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Per veure o respondre el Ticket, si us plau <a
+  href="%{ticket.staff_link}">entreu</a> al sistema de suport</div>
+  <em style="font-size: small">El vostre estimat sistema de suport</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Generat per osTicket"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

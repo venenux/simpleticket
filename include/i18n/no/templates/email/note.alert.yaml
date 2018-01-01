@@ -1,0 +1,44 @@
+---
+notes: |
+  Varsel sendt til agenter når intern aktivitet som internt notat eller agent svar er lagt til en sak.
+subject: |
+  Varsel om ny intern aktivitet
+body: |2
+  <h3><strong>Hei %{recipient.name},</strong></h3>
+  Ett internt notat har blitt lagt til saken <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Fra</strong>:
+      </td>
+      <td>
+          %{note.poster}
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Tittel</strong>:
+      </td>
+      <td>
+          %{note.title}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  For å vise/svare på saken, vennligst <a
+  href="%{ticket.staff_link}">logg inn</a> i støttesystemet
+  <br>
+  <br>
+  <em style="font-size: small; ">Ditt vennelige støttesystem</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

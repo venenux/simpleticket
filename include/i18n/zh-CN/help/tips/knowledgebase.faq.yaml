@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: 列表类型
+  content: >
+    选择<span class="doc-desc-opt">公共（发布）</span>，即可在父类处于公共状态时，将该<span class="doc-desc-title">常见问题</span>发布至公共知识库。
+  links:
+    - 
+      title: 启用客户入口公共知识库
+      href: /scp/settings.php?t=kb

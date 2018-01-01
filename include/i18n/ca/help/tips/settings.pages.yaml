@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Informació de l'empresa
+  content: >
+    Això es refereix a l'empresa o organització que es beneficiaran del programari de osTicket i suport del personal. La informació aquí apareixerà a signatures de correu electrònic (és a dir, el peu) quan el Tickets són contestats pels agents.
+  links:
+    - 
+      title: Formulari d'informació de la empresa
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Pagina d'inici
+  content: >
+    Es Mostra la <span class="doc-desc-title"> Pàgina d'inici</span> en la pàgina frontal del seu lloc d'ajuda.
+offline_page:
+  title: Pàgina fora de línia
+  content: >
+    Es Mostra la <span class="doc-desc-title"> Pàgina fora de línea</span> en el lloc de suport quan el sistema de suport està fora de línia, veure panell d'Administració -&gt; Configuració -&gt; Sistema -&gt; estat del sistema de suport.
+default_thank_you_page:
+  title: Pàgina d'agraïment per defecte
+  content: >
+    Es Mostra la <span class="doc-desc-title"> pàgina d'agraïment</span> al client quan un <span class="doc-desc-title"> Client</span> tramet un nou Ticket. <br/> <br/> Les pàgines de <span class="doc-desc-title"> gràcies</span> poden estar associades amb temes d'ajuda.
+logos:
+  title: Logotips
+  content: >
+    Vostè pot personalitzar el <span class="doc-desc-title">el logotip</span> que es mostrarà al Client en el Portal del Client (és a dir, el seu lloc de ajuda).
+upload_a_new_logo:
+  title: Carregar un nou logotip
+  content: >
+    Permet triar una imatge en els formats GIF,. jpg o. png. Ens redimensionarà proporcionalment l'exhibició de la seva imatge. Nosaltres no, tanmateix, redimensionarà les dades de la imatge. Per tant, per accelerar la càrrega vegades, és recomanable que conserve&times; la seva imatge a la mida de la imatge per defecte (817px × &times 170px).

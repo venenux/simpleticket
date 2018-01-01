@@ -1,0 +1,6 @@
+---
+notes: >
+  See on tekst, mis asub kliendi sisselogimise lehe päises. Siin on kasulik selgitada kliendile sisselogimise ja konto registreerimise tingimusi.
+name: "Logi sisse %{company.name}"
+body: >
+  Paremaks teeninduseks soovitame oma klientidel konto registreerida.

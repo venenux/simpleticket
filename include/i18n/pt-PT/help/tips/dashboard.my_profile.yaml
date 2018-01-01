@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Informação do contacto
+  content: >
+    
+username:
+  title: Nome de utilizador
+  content: >
+    Somente os agentes com status de Admin podem alterar o nome de utilizador. Se é um agente com previlégios de Admin, pode realizar essa operação seleccionando o Agente a editar na tabela de <span class="doc-desc-title">Membros do Staff</span> table.
+  links:
+    - 
+      title: Mudar um nome de utilizador como Administrador
+      href: /scp/staff.php
+time_zone:
+  title: Fuso horário
+  content: >
+    
+daylight_saving:
+  title: Horário de Verão
+  content: >
+    
+maximum_page_size:
+  title: Tamanho máximo da página
+  content: >
+    
+auto_refresh_rate:
+  title: Taxa de actualização automática
+  content: >
+    
+default_signature:
+  title: Assinatura padrão
+  content: >
+    
+default_paper_size:
+  title: Tamanho de papel padrão
+  content: >
+    
+show_assigned_tickets:
+  title: Mostrar Pedidos Atribuídos
+  content: >
+    Active esta opção para esconder o seu nome da lista de <span class="doc-desc-title"> Tickets abertos</span> para os tickets que lhe foram atribuídos. Ao se esconder, o nome do <span class="doc-desc-title">Departamento</span> a que pertence irá aparecer onde o seu nome surgiria normalmente.
+password:
+  title: Password
+  content: >
+    
+current_password:
+  title: Password actual
+  content: >
+    
+new_password:
+  title: Nova Password
+  content: >
+    
+confirm_new_password:
+  title: Confirmar a nova password
+  content: >
+    
+signature:
+  title: Assinatura
+  content: >
+    Criar uma <span class="doc-desc-title">Assinatura</span> opcional que provavelmente aparecerá no final das suas respostas aos Ticket. Se esta <span class="doc-desc-title">Assinatura</span> é exibida, ou não, depende do <span class="doc-desc-title">Modelo de E-Mail</span> que vai ser usado na resposta ao Ticket.
+  links:
+    - 
+      title: Criar modelos de correio electrónico no painel de administração
+      href: /scp/templates.php

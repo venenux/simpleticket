@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Proovi e-kirja saatmist
+  content: >
+    E-kirja saatmine sõltub serveri seadetest (php.ini) ja/või SMTP konfiguratsioonist.
+  links:
+    - 
+      title: Vali e-kirja aadress häälestamaks SMTP (saatmine) seaded
+      href: /scp/emails.php
+from:
+  title: Kellelt
+  content: >
+    
+to:
+  title: Kellele
+  content: >
+    
+subject:
+  title: Pealkiri
+  content: >
+    
+message:
+  title: Sõnum
+  content: >
+    

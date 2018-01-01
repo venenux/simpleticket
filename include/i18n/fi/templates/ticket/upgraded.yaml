@@ -1,0 +1,25 @@
+---
+source: Web
+name: osTicket tuki
+email: support@osticket.com
+subject: osTicket päivitetty!
+message: |
+  <p>
+  osTicket päivitetty onnistuneesti! Ole ystävällinen ja tutustu julkaisutietoihin
+  (http://osticket.com/wiki/Release_Notes) saadaksesi lisätietoja muutoksista 
+  ja uusista ominaisuuksista.
+  </p><p>
+  Muista liittyä<a href="http://osticket.com/forums">osTicket
+  foorumeille</a> sekä meidän<a href="http://osticket.com/updates">postituslistalle</a> ollaksesi ajantasalla, tietoturvapäivityksistä
+  ja hälytyksistä! Panostasi osTicket yhteisölle arvostetaan!
+  </p><p>
+  osTicket tiimi on sitoutunut antamaan tukea kaikille käyttäjille ilmaisten online-resurssien ja täyden valikoiman maksullisen tuen paketeilla ja palveluilla.
+  Löytääksesi lisätietoja, tai keskustellaksesi tarpeistasi, ota ystävällisesti yhteyttä tänään osoitteessa http://osticket.com/support/. Kaikki palaute on tervetullutta!
+  </p><p>
+  Mikäli osTicketin hallinta ja päivittäminen on pelottavaa/uuvuttavaa, voit kokeilla osTicketin isännöityä palveluversiota osoitteessa  http://www.supportsystem.com/ --
+  Ei enää koskaan päivityksiä, me voimme tuoda tietosi puolestasi!  Tukitikettijärjestelmän avaimet käteen infrastruktuurin ansiosta voit keskittyä asiakkaihisi ilman huolen taakkaa. Me pidämme huolen, että järjestelmä on vakaa, ylläpidetty ja turvallinen.
+  </p><p>
+  -<br/>
+  osTicket Tiimi<br/>
+  http://osticket.com/
+  </p>

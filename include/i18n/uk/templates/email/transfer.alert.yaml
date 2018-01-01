@@ -1,0 +1,24 @@
+---
+notes: |
+  
+subject: |
+  Заявка №%{ticket.number} передана - %{ticket.dept.name}
+body: |2
+  <h3>Доброго дня, %{recipient.name},</h3>
+  Заявка <a href="%{ticket.staff_link}">№%{ticket.number}</a> була
+  передана у відділ %{ticket.dept.name} спеціалистом
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Для перегляду або відповіді на заявку, будь ласка <a
+  href="%{ticket.staff_link}">увійдіть</a> в систему підтримки.
+  </div>
+  <em style="font-size: small; ">Служба пыдтримки</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

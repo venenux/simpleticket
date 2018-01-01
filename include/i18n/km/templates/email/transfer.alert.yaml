@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  ករណី #%{ticket.number} បានផ្ទេរទៅ - %{ticket.dept.name}
+body: |2
+  <h3>សួស្តី %{recipient.name},</h3>
+  ករណី <a href="%{ticket.staff_link}">#%{ticket.number}</a> ត្រូវបានគេផ្ទេរទៅ នាយកដ្ឋាន %{ticket.dept.name}  ដោយ
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>ដើម្បីមើលឬឆ្លើយតបទៅនឹងសំបុត្រនេះទេសូម <a
+  href="%{ticket.staff_link}">ចូល</a> ទៅប្រព័ន្ធករណីនេះ។
+  </div>
+  <em style="font-size: small; ">ប្រព័ន្ធផ្តល់ជំនួយដល់អតិថិជនដែលងាយស្រួលរបស់អ្នក</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

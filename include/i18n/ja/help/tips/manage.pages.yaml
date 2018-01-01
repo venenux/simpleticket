@@ -1,0 +1,11 @@
+---
+site_pages:
+  title: サイトのページ
+  content: サイトページは、ミニコンテンツ管理システム (CMS) として使用できます。複数のランディングページ、オフラインページ、お問い合わせ完了ページを定義でき、会社設定とヘルプトピックでそれらを設定できます。
+  links:
+    - 
+      title: 会社設定
+      href: /scp/settings.php?t=pages
+type:
+  title: タイプ
+  content: '<span class="doc-desc-opt">オフライン</span>ページは、ヘルプデスクが無効になっている場合に表示されます。<span class="doc-desc-opt">ランディング</span>ページは、クライアントポータルのホームページに表示されます。<span class="doc-desc-opt">お問い合わせ完了</span>ページは、ユーザーがチケットを送信後に表示されます。<span class="doc-desc-opt">その他</span>ページは、シンプルなコンテンツ管理システム (CMS) として使用できます。'

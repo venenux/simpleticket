@@ -1,0 +1,31 @@
+---
+notes: |
+  Se pošlje uporabniku, kadar zaposleni poda zahtevek v uporabnikovem imenu.
+  Do tega največkrat pride pri oddaji zahtevkov preko telefona.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Pozdravljen %{recipient.name.first},</strong></h3>
+  Naš center za pomoč uporabnikom je oddal zahtevek za pomoč, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> v vašem imenu s sledečo vsebino:
+  <br>
+  <br>
+  Tema: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Zadeva: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Naš predstavnik bo zahtevek pregledal v najkrajšem možnem času in vas o tem obvestil. 
+  Na sledečem naslovu lahko spremljate <a href="%{recipient.ticket_link}">napredovanje vašga zahtevka</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Ekipa podjetja %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Če želite k zahtevku podati dodatne informacIje ali komentarje,
+  odgovorite na to sporočilo ali <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >se prijavite</span></a> za ogled zgodovine oddanega zahtevka.</em></div>

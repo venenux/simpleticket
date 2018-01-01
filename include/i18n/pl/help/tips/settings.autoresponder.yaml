@@ -1,0 +1,44 @@
+---
+new_ticket:
+  title: Nowe zgłoszenie
+  content: >
+    Włącz tę opcję jeśli chcesz wysyłać automatyczną odpowiedź do użytkownika po założeniu nowego zgłoszenia.
+  links:
+    - 
+      title: Szablon automatycznej odpowiedzi przy założeniu zgłoszenia
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Nowy zgłoszenie przez personel
+  content: >
+    Powiadomienie wysyłane, gdy przedstawiciel tworzy zgłoszenie za użytkownika. <em>Przedstawiciel może obejść to tworząc nowe zgłoszenia.</em>
+  links:
+    - 
+      title: Nowy szablon powiadomienia o nowym zgłoszeniu
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Potwierdzenie Nowej Wiadomości
+  content: >
+    Potwierdzenie powiadomienia wysyłanego, gdy nowa wiadomość jest dołączana do istniejącego zgłoszenia.
+  links:
+    - 
+      title: Nowy szablon potwierdzenia wiadomości
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Powiadomienie o nowej wiadomości
+  content: >
+    Nadawanie wiadomości otrzymanych od wysyłającego wiadomość do wszystkich innych uczestników zgłoszenia.
+  links:
+    - 
+      title: Nowy szablon powiadomienia o aktywności
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Wiadomość o przekroczeniu limitu
+  content: >
+    Wysłano do użytkownika zawiadomienie o odmowie utworzenia zgłoszenia z powodu przekroczenia <span class="doc-desc-title">maksymalnej liczby otwartych zgłoszeń</span>.
+  links:
+    - 
+      title: Szablon wiadomości o przekroczeniu limitu
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: Ustaw <em>maksymalną liczbę otwartych zgłoszeń</em>
+      href: /scp/settings?t=tickets

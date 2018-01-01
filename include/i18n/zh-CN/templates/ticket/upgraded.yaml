@@ -1,0 +1,23 @@
+---
+source: 网页
+name: osTicket 支持
+email: support@osticket.com
+subject: osTicket 已经升级 ！
+message: |
+  <p>
+  osTicket 成功升级! 请参考发布报告
+  (http://osticket.com/wiki/Release_Notes)获得更多的有关修改和新特色方面的信息。
+  </p><p>
+  请务必加入 <a href="http://osticket.com/forums">osTicket
+  论坛</a> 和我们的<a href="http://osticket.com/updates">电子新闻稿</a>来获得最新通知，安全更新和警告! 您对osTicket 社区的贡献将获得大家的感激!
+  </p><p>
+  osTicket 团队使命是通过我们的免费在线资料给所有用户提供帮助， 我们还提供一系列商业支援套餐和服务。为了获得更多咨询，或者是讨论一下您的需求，请通过http://osticket.com/support/来联系我们. 您的所有反馈都是值得感激的!
+  </p><p>
+  如果您认为管理和安装升级 osTicket 是一项艰巨的任务, 您可以通过<a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a>以托管的形式来使用osTicket --
+  您不需要安装任何程序，我们会导入您的数据！通过SupportSystem's 的承包建设方案，您能够最有效的使用osTicket，把自己解放出来去关注您的客户，而不用再担忧您的应用程序是否稳定，已经被维护好，也不用担心是否安全。
+  </p><p>
+  -<br/>
+  osTicket 团队<br/>
+  http://osticket.com/
+  </p>

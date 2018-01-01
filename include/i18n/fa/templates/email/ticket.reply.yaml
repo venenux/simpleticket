@@ -1,0 +1,12 @@
+---
+notes: |
+  زمانی برای کاربر ارسال می شود که یکی از کارشناسان پاسخی برای درخواست کاربر در سیستم ثبت کرده باشد.
+  پاسخ ها تنها توسط کارشناسان سایت تولید می شود.
+subject: |
+  پاسخ: % {ticket.subject}
+body: |
+  <h3><strong>%{recipient.name} عزیز،</strong></h3>
+  %{response}<br><br>
+  <div style="color: rgb(127, 127, 127);">
+  تیم پشتیبانی %{company.name}، <br>%{signature}</div><hr><div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>امیدواریم این پاسخ رضایت‌بخش باشد.اگر این‌طور نیست، لطفا ایمیل دیگری ارسال نکنید. به جای آن، به این ایمیل پاسخ دهید یا برای تکمیل سابقه تمام درخواست‌های پشتیبانی خود و پاسخ آن‌ها <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" > وارد سامانه شوید</a>.</em></div>

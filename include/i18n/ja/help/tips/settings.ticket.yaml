@@ -1,0 +1,63 @@
+---
+number_format:
+  title: チケット番号フォーマット
+  content: 'この設定は、チケット番号を生成するために使用します。数字を配置するハッシュ記号 (`#`) を使用してください。<span class="doc-desc-title">ヘルプトピック</span>ではカスタム番号フォーマットを定義できます。<br/><br/> たとえば、6桁の数字を示すには<code>######</code>を使用してください。'
+sequence_id:
+  title: チケット番号シーケンス
+  content: '新しいチケット番号を得るシーケンスを選択します。システムは、デフォルトで増分シーケンスとランダムシーケンスを備えています。希望する数のシーケンスを作成できます。ヘルプトピックに対し<span class="doc-desc-title">チケット番号フォーマット</span>設定でさまざまなシーケンスを使用してください。'
+default_ticket_status:
+  title: 新着チケットのデフォルトステータス
+  content: 新着チケットのデフォルトのステータスを選択します。希望する場合、これは各ヘルプトピックに定義できます。これは、チケットフィルターで上書きできます。
+  links:
+    - 
+      title: チケットのステータスを管理する
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: デフォルトのSLA
+  content: チケットが期限切れになるまでオープンとして保持できる期間を管理するデフォルトのサービスレベル合意書 (SLA) を選択します。
+  links:
+    - 
+      title: さらにSLAプランを作成
+      href: /scp/slas.php
+default_priority:
+  title: デフォルト優先順位
+  content: '自動的に優先順位をアサインされないチケットの<span class="doc-desc-title">優先順位</span>を選択します。 <br/><br/> 優先順位は、ヘルプトピック、ルーティングされた部門、またはチケットフィルターの設定を通じてアサインできます。'
+maximum_open_tickets:
+  title: 最大オープンチケット
+  content: 'ヘルプデスクでユーザーが<strong>オープン</strong>として持つことを許可されたチケットの最大<em>数</em>を入力します。<br><br> この制限を無効にする場合は 、<span class="doc-desc-opt">0</span>を入力します。'
+agent_collision_avoidance:
+  title: エージェントの衝突防止
+  content: 'アクティビティなしにエージェントがチケットをロックできる最大時間を入力します。<br><br> ロック機能を無効にするには、<span class="doc-desc-opt">0</span>を入力します。'
+email_ticket_priority:
+  title: メールするチケットの優先順位
+  content: 宛先のメールサービスによりアサインされたメールの優先順序を使用します。
+show_related_tickets:
+  title: 関連するチケットを見る
+  content: 'ユーザーのログインですべての関連したチケットを表示します - それ以外はアクセスはログインごとに1つのチケットに制限されます。'
+human_verification:
+  title: 人間による検証
+  content: 'クライアントポータルでCAPTCHAを有効にして、着信チケットが人間によって送信されていることを検証します。<br><br> GDLibライブラリが必要です'
+claim_tickets:
+  title: 返信でチケットを請求
+  content: '応答しているエージェントにアサインされていないチケットを自動的にアサインするには、これを有効にします。<br><br> 再開されたチケットは常に、前回の返信者にアサインされます。'
+assigned_tickets:
+  title: アサインされたチケット
+  content: '<span class="doc-desc-title">オープンチケットキュー</span>からアサインされたチケットを除外するには、この機能を有効にします。'
+answered_tickets:
+  title: 回答されたチケット
+  content: '<span class="doc-desc-title">回答されたチケットキュー</span>に、回答済みのチケットを表示するには、この機能を有効にします。有効にしない場合、これらのチケットは<span class="doc-desc-title">オープンチケットキュー</span>に含まれます。'
+staff_identity_masking:
+  title: スタッフの識別情報を非表示
+  content: 有効にすると、あらゆる通信中にクライアントからエージェントの名前を非表示にします。
+enable_html_ticket_thread:
+  title: HTMLチケットスレッドを有効にする
+  content: 有効にすると、クライアントとエージェント間でリッチテキストフォーマットを使用できます。
+ticket_attachment_settings:
+  title: チケットスレッド添付ファイル
+  content: '<span class="doc-desc-title">課題詳細</span>フィールドに添付するファイルの設定を行います。これらの設定は、ソースチャネル (webポータル、メール、apiなど) にかかわらず、すべての新着チケットと新しいメッセージに使用されます。'
+max_file_size:
+  title: 最大ファイルサイズ
+  content: エージェントがアップロードする添付ファイルの最大サイズを選択します。これには、canned添付ファイル、ナレッジベースの記事、チケットの返信に含める添付ファイルが含まれます。
+ticket_response_files:
+  title: チケット返信ファイル
+  content: 有効にすると、エージェントがチケットの返信に含めることができる添付ファイルがユーザー宛てのメールにも含まれます。

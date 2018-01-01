@@ -1,0 +1,41 @@
+---
+ticket_activity:
+  title: Aktywność zgłoszeń
+  content: >
+    Wybierz przedział czasowy dla wykresu i tabeli znajdującej się poniżej (patrz <span class="doc-desc-title">Statystyki</span>), aby zdefiniować żądany zakres czasowy. Domyślnie wykres odzwierciedla przegląd całego systemu (od założenia). Używając tabeli <span class="doc-desc-title">Statystyki</span> można zawęzić interesujący nas obszar (np. Dział, Tematy lub pracownik). Dodatkowo, można wyeksportować dane aktualnie wyświetlane w tabeli <span class="doc-desc-title">Statystyki </span> .
+report_timeframe:
+  title: Raport za okres
+  content: >
+    Wybierz datę początkową dla danych. Następnie wybierz okres czasu od daty początkowej aby wyznaczyć datę końcową.
+statistics:
+  title: Statystyki
+  content: >
+    Przejdź do przedmiotu twojego zainteresowania klikając odpowiednią kartę, aby wyświetlić konkretne próbki danych. W tabeli, koła odpowiadają wielkością nominalnym danych. W związku z tym, im większa liczba w określonej komórce, tym większe będzie obok koło.
+opened:
+  title: Otwarte
+  content: >
+    Poniżej  prezentowane są zgłoszenia otwarte przez przedstawicieli (tj., wewnętrznie otwarte) a nie przez klientów.
+assigned:
+  title: Przypisane
+  content: >
+    System śledzi każde zdarzenie, przy czym zgłoszenie jest automatycznie lub ręcznie przydzielane do poszczególnego Departamentu lub Przedstawiciela. Automatyczne przydziały będą zależeć od ustawień dla <span class="doc-desc-title">Tematów Pomocy</span> i <span class="doc-desc-title">Filtrów poczty</span> w Panelu Administracyjnym.
+overdue:
+  title: Przedawnione
+  content: >
+    Jest to ilość zgłoszeń, które zostały przekroczone względem "SLA Plan" do którego należały dane zgłoszenia.
+closed:
+  title: Zamknięte
+  content: >
+    Jest to ilość zgłoszeń, które zostały zamknięte.
+reopened:
+  title: Ponownie otwarte
+  content: >
+    To jest liczba zgłoszeń, które zostały ponownie otwarte przez Przedstawiciela lub Klienta kiedy on/a odpowiedział/a na zgłoszenie mające status Zamknięte.
+service_time:
+  title: Czas obsługi
+  content: >
+    <span class="doc-desc-title">Czas obsługi</span> jest ilością czasu od otwarcia zgłoszenia do jego zamknięcia. Kolumna <span class="doc-desc-title">Czas obsługi</span> podaje średni Czas obsługi na zgłoszenie, w godzinach w zadanym okresie czasu.
+response_time:
+  title: Czas reakcji
+  content: >
+    <span class="doc-desc-title"> Czas reakcji </span> jest okresem czasu, który zaczyna się od korespondencji klienta i kończy się, gdy przedstawiciel udzieli odpowiedzi. Ten pomiar czasu nie odnosi się wyłącznie do inicjującej korespondencji klienta, która powoduje utworzenie zgłoszenia. Odnosi się to do każdego zgłoszenia/informacji pochodzącej od Klienta.

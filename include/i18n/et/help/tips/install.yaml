@@ -1,0 +1,66 @@
+---
+helpdesk_name:
+  title: Tugiteenuse nimi
+  content: |
+    <p>Teie tugiteenuse nimetus, näiteks [Ettevõtte] tugiteenus</p>
+system_email:
+  title: Süsteemi üldine e-posti aadress
+  content: |
+    <p>Vaikimisi e-posti aadress. Näiteks tugi@ettevõte.ee - ülejäänu saad lisada hiljem!</p>
+default_lang:
+  title: Süsteemi keel vaikimisi
+  content: |
+    <p>Esialgsed andmed selle keele jaoks salvestatakse andmebaasi, nagu näiteks e-kirjade mallid ja süsteemi vaikimis leheküljed.</p>
+  links:
+    - 
+      title: osTicketi keelepaketid
+      href: 'http://osticket.com/download?product=langs'
+first_name:
+  title: Eesnimi
+  content: |
+    <p>Adminni eesnimi</p>
+last_name:
+  title: Perenimi
+  content: |
+    <p>Adminni perenimi</p>
+email:
+  title: E-posti aadress
+  content: |
+    <p>Adminni isiklik e-posti aadress. Peab erinema süsteemi vaikeaadressist.</p>
+username:
+  title: Kasutajanimi
+  content: |
+    <p>Adminni kasutajanimi. Peab olema vähemalt kolm (3) tähemärki.</p>
+password:
+  title: Parool
+  content: |
+    <p>Adminni parool Peab olema vähemalt viis (5) märki.</p>
+password2:
+  title: Kinnita parool
+  content: |
+    <p>Kinnita parool. Peab kattuma eelnevaga.</p>
+db_prefix:
+  title: MySQL tabeli prefix
+  content: |
+    <p>osTicket vajab andmebaasi tabeli nime prefixit vältimaks võimalikke konflikte jagatud andmebaasi puhul.</p>
+db_host:
+  title: MySQL server
+  content: |
+    <p>
+    Enamik hoste kasutavad 'localhost' kohaliku andmebaasi hosti nimena. Kontrolli oma hosti, kui localhost ei sobi.
+    </p>
+    <p>
+    Vaikimisi port on määratud php.ini failis. Mittestandardse pordi numbri saab määrata nii <code>hostname:port</code>
+    </p>
+db_schema:
+  title: MySQL andmebaas
+  content: |
+    <p>osTicketi poolt kasutatava andmebaasi nimi.</p>
+db_user:
+  title: MySQL kasutajanimi
+  content: |
+    <p>MySQL kasutajal peavad olema kõik andmebaasi õigused.</p>
+db_password:
+  title: MySQL parool
+  content: |
+    <p>MySQL parool on seotud eespool mainitud kasutajaga.</p>

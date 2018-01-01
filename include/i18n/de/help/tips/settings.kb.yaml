@@ -1,0 +1,29 @@
+---
+knowledge_base_settings:
+  title: Wissensdatenbank-Einstellungen
+  content: >
+    
+knowledge_base_status:
+  title: Wissendatenbank-Status
+  content: >
+    Aktivieren Sie diese Einstellung, um Benutzern den Zugang zu Ihren öffentlichen Wissensdatenbank-Artikeln zu ermöglichen. <br><br> Wissensdatenbank-Kategorien und FAQs können so eingestellt werden, dass sie nur intern sichtbar sind (für die Agenten).
+  links:
+    - 
+      title: Wissensdatenbank verwalten
+      href: /scp/kb.php
+restrict_kb:
+  title: Zugang zur Wissensdatenbank einschränken
+  content: >
+    Aktivieren Sie diese Einstellung, um zu verhindern, dass nicht registrierte Benutzer Zugang zu Artikeln der Wissensdatenbank im Benutzerportal haben.
+  links:
+    - 
+      title: Zugangseinstellungen
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Vordefinierte Antworten
+  content: >
+    Aktivieren Sie diese Einstellung, um Agenten die Verwendung von <span class="doc-desc-title">Vordefinierte Antworten</span> zu erlauben, wenn Sie auf Tickets antworten.
+  links:
+    - 
+      title: Vordefinierte Antworten verwalten
+      href: /scp/canned.php

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Membros da equipa
+  content: >
+    A tabela a seguir exibe os resultados do filtro acima. Se não as configurações de filtro são escolhidas, então todos os <span class="doc-desc-title"> membros</span> (pessoal) <span class="doc-desc-title"> Membros</span> são exibidos e pelas páginas. Consulte a seção de páginas abaixo para navegar através de mais resultados.
+apply_filtering_criteria:
+  title: Aplicar critérios de filtragem
+  content: >
+    Escolha um <span class="doc-desc-title"> Departamento</span> que seja relevante para seus interesses atuais. Você também pode realizar uma pesquisa para um agente específico.

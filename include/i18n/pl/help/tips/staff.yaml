@@ -1,0 +1,22 @@
+---
+signature:
+  title: Linia na podpis personelu
+  content: |
+    Tworzenie podpisu pracownika do odpowiedzi na zgłoszenia. Ten podpis
+    pojawi opcjonalnie na dole odpowiedzi na zgłoszenie
+type:
+  title: Typ konta
+  content: |
+    Tylko Administratorzy mają dostęp do Panelu Administracyjnego. Pracownicy 
+    mają dostęp tylko do zarządzania zgłoszeniami i bazy wiedzy
+group:
+  title: Przypisana grupa
+  content: |
+    Członkostwo grupy określa rolę pracownika w systemie. Odwiedź
+    stronę zarządzanie grupą, aby zdefiniować do czego dostęp ma 
+    personel centrum pomocy
+notes:
+  title: Wewnętrzne Notatki
+  content: |
+    Umieść wewnętrzne notatki dotyczące pracowników; notatki widoczne są tylko dla
+    Pracowników, których konto jest typu Admin

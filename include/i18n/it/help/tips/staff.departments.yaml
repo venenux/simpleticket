@@ -1,0 +1,10 @@
+---
+type:
+  title: Tipo
+  content: >
+    Se il tipo del reparto è privato, allora la firma del reparto non sarà disponibile nelle risposte né verrà visualizzata nelll'assegnazione del reparto dal Client Portal.
+dept_manager:
+  title: Responsabile di reparto
+  content: >
+    Si può scegliere un operatore come un responsabile di un reparto per ricevere avvisi e notizie per i ticket nel reparto.
+  0: Gli operatori non devono essere membri del reparto per gestire il reparto

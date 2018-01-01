@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: 연락처 정보
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: 메일 주소
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: 성명
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: 전화번호
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: 내부 노트
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: 티켓 상세
+  instructions: 문제에 대해 자세히 기입해 주세요.
+  notes: |
+    이 양식은 티켓의 내용에 관계 없이 모든 티켓에 추가됩니다. 이 양식에 임의의 필드를 모든 티켓에 대해 추가할 수 있으며, 이를 정밀 검색 혹은 필터링에 사용할 수 있습니다.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: 이슈 요약
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: 이슈 상세 정보
+      hint: 티켓을 작성하고자 하는 자세한 이유
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: 우선순위
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: 회사 정보
+  instructions: 이메일 양식에서 사용 가능한 자세한 정보
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: 회사 이름
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: 웹사이트
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: 전화번호
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: 주소
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: 조직 정보
+  instructions: 사용자 조직에 관한 상세 내용
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: 이름
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: 주소
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: 전화
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: 웹사이트
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: 내부 노트
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

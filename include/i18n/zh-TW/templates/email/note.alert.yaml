@@ -1,0 +1,42 @@
+---
+notes: |
+  當有內部通知或是有專員對案件做回覆等內部活動，便發送通知給全部專員。
+subject: |
+  新的内部活動警報
+body: |
+  <h3><strong>%{recipient.name} 您好，</strong></h3>
+  有專員針對此案號 <a href="%{ticket.staff_link}">#%{ticket.number}</a>做出回覆。
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>From</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Title</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  若要觀看或回覆案件，請<a href="%{ticket.staff_link}">登入</a> 至支援中心查看。
+  <br>
+  <br>
+  <em style="font-size: small; ">適合您的高親合性支援系統</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

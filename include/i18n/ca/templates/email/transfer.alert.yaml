@@ -1,0 +1,23 @@
+---
+notes: |
+  
+subject: |
+  El Ticket #%{ticket.number} ha estat transferit - %{ticket.dept.name}
+body: |2
+  <h3>Hola %{recipient.name},</h3>
+  El Ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> ha estat transferit al departament %{ticket.dept.name} per
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Per veure o respondre el Ticket, per favor  <a
+  href="%{ticket.staff_link}">entreu</a> al sistema de suport.
+  </div>
+  <em style="font-size: small; ">El vostre estimat Sistema de Suport</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Generat per osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

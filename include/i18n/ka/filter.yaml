@@ -1,0 +1,14 @@
+---
+- 
+  isactive: 1
+  execorder: 99
+  reject_ticket: 1
+  target: Email
+  name: SYSTEM BAN LIST
+  notes: ბლოკირებული ელ. მისამართების შიდა მოხმარების სია. არ წაშალოთ
+  rules:
+    - 
+      isactive: 1
+      what: email
+      how: equal
+      val: test@magaliti.ge

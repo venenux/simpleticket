@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Δοκιμή Εξερχόμενης Αλληλογραφίας
+  content: >
+    Η παράδοση του ηλεκτρονικού μηνύματος εξαρτάται από τις ρυθμίσεις του εξυπηρετητή σας (php.ini) ή/και τις ρυθμίσεις SMTP.
+  links:
+    - 
+      title: Επιλέξτε ένα email για την διαμόρφωση των Ρυθμίσεων SMTP (Εξερχόμενη Αλληλογραφία)
+      href: /scp/emails.php
+from:
+  title: Από
+  content: >
+    
+to:
+  title: Προς
+  content: >
+    
+subject:
+  title: Θέμα
+  content: >
+    
+message:
+  title: Μήνυμα
+  content: >
+    

@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Nhân viên
+  content: >
+    Bảng sau hiển thị các kết quả của việc lọc nhân viên. Nếu không mục lọc nào được lựa chọn, thì tên của tất cả <span class="doc-desc-title"> Nhân viên</span> sẽ được hiển thị, và chia ra thành nhiều trang. Xem phần trang dưới đây để điều hướng thông qua kết quả.
+apply_filtering_criteria:
+  title: Áp dụng các tiêu chí lọc
+  content: >
+    Chọn một <span class="doc-desc-title"> phòng ban</span> mà bạn muốn tìm kiếm. Bạn cũng có thể tìm kiếm một nhân viên cụ thể.

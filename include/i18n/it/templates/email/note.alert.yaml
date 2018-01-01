@@ -1,0 +1,44 @@
+---
+notes: |
+  Avviso inviato agli agenti quando una attività interna come una nota privata o una risposta di un agente viene aggiunta ad un ticket.
+subject: |
+  Nuovo Avviso di Attività Interna
+body: |
+  <h3><strong>Ciao %{recipient.name},</strong></h3>
+  Un agente ha registrato attività su un ticket <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Da</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Titolo</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Per leggere/rispondere al ticket, esegui il <a
+  href="%{ticket.staff_link}">login</a> sul sistema di supporto dei ticket
+  <br>
+  <br>
+  <em style="font-size: small; ">Il Supporto Clienti</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

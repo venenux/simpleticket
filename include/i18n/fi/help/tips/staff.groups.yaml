@@ -1,0 +1,13 @@
+---
+groups:
+  title: Ryhmät
+  content: >
+    Ryhmiä käytetään määrittelemään Käsittelijöiden oikeuksia tukijärjestelmässä. Ryhmillä voidaan myös antaa pääsyjä muihin Osastoihin joihin Käsittelijä ei normaalisti kuulu.
+status:
+  title: Tila
+  content: >
+    Jos <span class="doc-desc-opt">Poistettu</span>, tämän Ryhmän Käsittelijät eivät voi kirjautua sisään ja eivätkä voi ottaa vastaan Osaston Ilmoituksia &amp; Muistutuksia.
+department_access:
+  title: Osaston Pääsynhallinta
+  content: >
+    Valitse kaikki osastot, joihin Ryhmän jäsenille sallitaan pääsy.

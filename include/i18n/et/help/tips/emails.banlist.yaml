@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Blokeeritud e-kirja aadressid
+  content: >
+    Blokeeritud aadressid tulnud e-kirjad lükatakse automaatselt tagasi.

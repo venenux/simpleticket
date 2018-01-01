@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: Támogatás
+  signature: Támogatási részleg
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: Értékesítés
+  signature: |
+    Értékesítés és ügyfélmegtartás
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: Karbantartás
+  signature: |
+    Karbantartási részleg
+  ispublic: 0
+  group_membership: 1

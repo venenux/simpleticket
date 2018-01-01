@@ -1,0 +1,13 @@
+---
+canned_response:
+  title: Phản hồi trước
+  content: >
+    Tạo một<span class="doc-desc-title">Phản hồi trước</span>có thể bao gồm trong lệnh phản hồi. Nó có thể được sử dụng như một<span class="doc-desc-title">Phản hồi tự động cho lệnh</span>cài đặt bởi<span class="doc-desc-title">Bộ lọc lệnh</span>.
+  links:
+    - 
+      title: Cài đặt bộ lọc lệnh
+      href: /scp/filters.php
+canned_attachments:
+  title: Thư mục đính kèm trước
+  content: >
+    Đính kèm một thư mục bạn muốn tự động có trong phần phản hồi lệnh, sử dụng<span class="doc-desc-title">Phản hồi trước mới</span>.

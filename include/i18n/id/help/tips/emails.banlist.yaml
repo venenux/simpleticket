@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Alamat Email
+  content: >
+    Email yang diterima dari alamat email yang terdaftar dalam daftar larangan akan secara otomatis ditolak.

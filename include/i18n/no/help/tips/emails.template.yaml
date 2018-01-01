@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-post maler
+  content: >
+    E-post maler brukes til Auto-svar og varsler for ulike handlinger som kan skje under en saks levetid.
+template_to_clone:
+  title: Mal som skal kopieres
+  content: >
+    Velg et tema å klone eller bare begynn med standard e-post maler.
+language:
+  title: Språk
+  content: >
+    Velg ønsket språk for <span class="doc-desc-opt"> Standard</span> <span class="doc-desc-title"> E-post mal sett</span>. Språkpakker er tilgjengelige på osTicket.com.
+  links:
+    - 
+      title: osTicket språkpakker
+      href: 'http://osticket.com/download'
+status:
+  title: Status
+  content: >
+    <span class="doc-desc-opt"> aktivert</span> Mal sett er tilgjengelig for å tilknyttes avdelinger og satt til systemstandard.  Malsett som for tiden er i bruk kan ikke <span class="doc-desc-opt"> deaktiveres</span>.

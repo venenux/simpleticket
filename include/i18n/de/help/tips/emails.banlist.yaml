@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Gesperrte E-Mail-Adressen
+  content: >
+    Von gesperrten E-Mail-Adressen empfangene E-Mails, werden automatisch verworfen.

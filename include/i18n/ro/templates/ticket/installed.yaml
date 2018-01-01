@@ -1,0 +1,29 @@
+---
+deptId: 1
+topicId: 1
+name: Suport osTicket
+email: support@osticket.com
+source: Web
+subject: osTicket a fost instalat!
+message: |
+  <p>
+  Va multumim pentru ca folositi osTicket
+  </p><p>
+  Va recomandam sa va alaturati <a
+  href="http://osticket.com/forums">forumului osTicket</a> si <a
+  href="http://osticket.com/updates">listei de newsletter</a> pentru a fi la curent cu ultimele stiri, alerte de securitate si actualizari. Forumul osTicket este potrivit pentru a obtine asistenta, ghiduri, sfaturi si ajutor de la alti utilizatori osTicket. Pe langa forum, wiki-ul osTicket contine o colectie utila de materiale educationale, documentatie si notite de la comunitate. Puteti sa contribuiti si dvs. in comunitatea osTicket.
+  </p><p>
+  Daca doriti un nivel mai inalt de suport, va putem oferi servicii profesionale si suport comercial cu raspunsuri intr-un timp garantat, inclusiv acces la echipa de dezvoltare osTicket. Va putem ajuta cu personalizarea sistemului osTicket si adaugarea unor functii noi pentru a intampina necesitatile dvs.
+  </p><p>
+  Daca administrarea si actualizarea aceastei instalari osTicket vi se par dificile, puteti incerca osTicket in serviciul gazduit la <a
+  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
+  nu este nevoie de instalare si va putem importa datele! Cu infrastructura SupportSystem disponibila instant, puteti obtine un sistem perfect functional. Va puteti concentra astfel pe clientii dvs. fara grija administrarii, securitatii si stabilitatii sistemului.
+  </p><p>
+  Va multumim,
+  </p><p>
+  -<br/>
+  Echipa osTicket http://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Don't just make customers happy, make happy
+  customers!
+  </p>

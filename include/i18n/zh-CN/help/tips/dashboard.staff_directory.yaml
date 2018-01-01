@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: 工作人员
+  content: >
+    列表为筛选的结果。如果取消筛选，会将 <span class="doc-desc-title"> 显示全部工作人员</span>分页显示，具体请见页面菜单。
+apply_filtering_criteria:
+  title: 应用筛选标准
+  content: >
+    选择一个<span class="doc-desc-title">部门</span>，你也可以寻找一个特定的代理。

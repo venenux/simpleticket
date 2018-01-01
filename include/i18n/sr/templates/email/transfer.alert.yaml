@@ -1,0 +1,22 @@
+---
+notes: |
+  
+subject: |
+  Tiкet #%{ticket.number} преусмерен - %{ticket.dept.name}
+body: |2
+  <h3>Здраво %{recipient},</h3>
+  <strong>%{staff.name.short}</strong> је преусмерио Ваш тикет број <a href="%{ticket.staff_link}">#%{ticket.number}</a> одељењу %{ticket.dept.name} 
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>За преглед или допуну Вашег предмета <a
+  href="%{ticket.staff_link}">приступите</a> систему.
+  </div>
+  <em style="font-size: small; ">Систем за подршку корисницима</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Покреће osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

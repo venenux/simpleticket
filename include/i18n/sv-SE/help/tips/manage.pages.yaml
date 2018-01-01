@@ -1,0 +1,13 @@
+---
+site_pages:
+  title: Hemsidan
+  content: >
+    Hemsidan kan användas som ett litet Content Management System (CMS). Du kan ställa in flera start, offline, och tack-sidor samt konfigurera dessa i företagsinställningar och hjälpämnen.
+  links:
+    - 
+      title: Företagsinställningar
+      href: /scp/settings.php?t=pages
+type:
+  title: Skriv
+  content: >
+    <span class="doc-desc-opt">Offline</span>-sidor visas på klientportalen om din helpdesk är deaktiverad. <span class="doc-desc-opt">Start</span>-sidor visas på hemsidan för din klientportal.<span class="doc-desc-opt">Tack</span>sidor visas efter en användare skickar ett ärende. <span class="doc-desc-opt">Andra</span> sidor kan användas som ett enkelt content management system (CMS).

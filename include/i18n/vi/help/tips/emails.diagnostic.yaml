@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Kiểm tra Email gửi đi
+  content: >
+    Việc gửi email phụ thuộc vào chế độ cài đặt máy chủ (php.ini) của bạn và/hoặc cấu hình SMTP.
+  links:
+    - 
+      title: Chọn email để cấu hình cài đặt SMTP (gửi đi)
+      href: /scp/emails.php
+from:
+  title: Từ
+  content: >
+    
+to:
+  title: Đến
+  content: >
+    
+subject:
+  title: Tiêu đề
+  content: >
+    
+message:
+  title: Tin nhắn
+  content: >
+    

@@ -1,0 +1,21 @@
+---
+notes: ""
+subject: 'ბილეთი #%{ticket.number} გადაცემა - %{ticket.dept.name}'
+body: |2
+  <h3>გამარჯობა %{recipient},</h3>
+  ბილეთი <a href="%{ticket.staff_link}">#%{ticket.number}</a> გადაცემულ იქნა.... სთვის %{ticket.dept.name} დეპარტამენტი მიერ
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>ბილეთის სანახავად ან საპასუხოდ, გთხოვთ <a
+  href="%{ticket.staff_link}">შესვლა</a> მხარდაჭერის საბილეთე სისტემაში.
+  </div>
+  <em style="font-size: small; ">თქვენი მეგობრული, მომხმარებლის მხარდაჭერის სისტემა</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      alt="Powered By osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

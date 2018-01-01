@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Endereços de email banidos
+  content: >
+    Os email recebidos que constem na lista de banidos são automaticamente rejeitados.

@@ -1,0 +1,13 @@
+---
+name:
+  title: Nome
+  content: >
+    Scegliere un nome descrittivo per questo <span class="doc-desc-title"> Piano di SLA</span> che rifletta il suo utilizzo.
+grace_period:
+  title: Periodo di grazia
+  content: >
+    Indicare il numero di ore dopo le quali un ticket verrà automaticamente contrassegnato come in ritardo. <br><br><em>Le ore sono conteggiate dalla data di creazione del ticket.</em>
+transient:
+  title: Transitorio
+  content: >
+    Gli SLA transitori sono considerati temporanei e possono essere sovrascritti da uno SLA non temporaneo durante il trasferimento del <span class="doc-desc-opt"> reparto</span> o quando viene modificato il suo <span class="doc-desc-title"> argomento della guida</span>.

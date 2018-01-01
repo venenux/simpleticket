@@ -1,0 +1,44 @@
+---
+notes: |
+  Enviado para um membro da equipa quando um novo pedido de assistência é criado no sistema. Aplica-se a pedidos de assistência criados via email, portal web ou api.
+subject: |
+  Alerta de Novo Pedido de Assistência
+body: |
+  <h2>Hi %{recipient},</h2>
+  Novo Pedido de Asist~encia #%{ticket.number} created
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>From</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Department</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Para ver resposta ao Pedido de Assistência, por favor <a
+  href="%{ticket.staff_link}">entre</a> no sistema de Suporte Técnico </div>
+  <em style="font-size: small">O seu Sistema de Suporte Técnico</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Powered By osTicket"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>
+  Hide context | Request context
+  -> body

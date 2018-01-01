@@ -1,0 +1,11 @@
+---
+notes: |
+  Strona Offline pojawi się w Portalu Klienta, gdy system pomocy jest w trybie offline.
+name: Offline
+body: |
+  <div><h1>
+  <span style="font-size: medium">System Obsługi Zgłoszeń Nieaktywny</span>
+  </h1>
+  <p>Dziękujemy za skontaktowanie się z nami.</p>
+  <p>Nasze biuro obsługi jest w tej chwili nieaktywne, proszimy sprawdzić później.</p>
+  </div>

@@ -1,0 +1,21 @@
+---
+email_templates:
+  title: E-poçt şablonları
+  content: >
+    E-poçt şablon tənzimləmələri müxtəlif fəaliyyətlər sorğunun aktiv olduğu dövr ərzində yerini tutduqda avtomatik cavabların və siqnalların göndərilməsi üçün istifadə olunur.
+template_to_clone:
+  title: Klonlaşdırılan şablon
+  content: >
+    Klonlaşdırmaq üçün şablon tənzimləməsi seç və ya ən sadəsi satışda olan e-poçt şablonlarından başla.
+language:
+  title: Dil
+  content: >
+    <span class="doc-desc-opt">Satışda</span> olan <span class="doc-desc-title">e-poçt şablonunun tənzimlənməsi</span> üçün tələb olunan dili seçin. Dil seçim paketləri osTicket.com-da mövcuddur.
+  links:
+    - 
+      title: osTicket dil paketləri
+      href: 'http://osticket.com/download'
+status:
+  title: Vəziyyət
+  content: >
+    <span class="doc-desc-opt">Aktiv</span> şablon tənzimləmələri şöbələrlə əlaqəli olmaq və mövcud sistemi quraşdırmaq üçündür. Hal-hazırda istifadədə olan şablon tənzimləmələri <span class="doc-desc-opt">deaktiv edilə</span> bilməz.

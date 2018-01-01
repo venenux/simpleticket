@@ -1,0 +1,10 @@
+---
+type:
+  title: Typ
+  content: >
+    Jeśli typ Departamentu ustawiony jest jako Prywatny, to Podpis Departamentu nie będzie dostępny przy odpowiedzi, a przypisanie Działu nie będzie widoczne z Portalu Klienta.
+dept_manager:
+  title: Kierownik departamentu
+  content: >
+    Możesz wybrać Przedstawiciela jako Kierownika Działu, aby otrzymywać powiadomienia i uwagi na zgłoszenia w działach.
+  0: Przedstawiciele nie muszą być członkami Departamentu być Kierownikiem tego Departamentu

@@ -1,0 +1,17 @@
+---
+notes: |
+  Hierdie templaat definieer die inhoud wat vertoon word op die Dankie blad nadat 'n klient 'n nuwe versoek op die Klient Portaal ingedien het.
+name: Thank You
+body: |
+  <div>%{ticket.name},
+  <br>
+  <br>
+  Thank you for contacting us.
+  <br>
+  <br>
+  A support ticket request has been created and a representative will be
+  getting back to you shortly if necessary.</p>
+  <br>
+  <br>
+  Support Team
+  </div>

@@ -1,0 +1,17 @@
+---
+email_templates:
+  title: Imejl šabloni
+  content: Imejl šabloni se koriste kod slanja automatskih odgovora i upozorenja kod raznih situacija koje se mogu dogoditi za vreme dok je tiket otvoren.
+template_to_clone:
+  title: Šablon za kopirati
+  content: Odaberite šablon koji želite kopirati ili jednostavno započnite sa jednim od spremljenih šablona.
+language:
+  title: Jezik
+  content: 'Odaberite željeni jezik za <span class="doc-desc-opt">zaliha</span> <span class="doc-desc-title">Imejl šablon</span>. Jezički paketi dostupni su na osTicket.com.'
+  links:
+    - 
+      title: osTiket jezički paket
+      href: http://osticket.com/download
+status:
+  title: Status
+  content: '<span class="doc-desc-opt">Omogućeni</span> šabloni se mogu povezati sa odsecima i postaviti kao osnovna za sistem. Šabloni koji se trenutno koriste ne mogu se <span class="doc-desc-opt">Onemogućiti</span>.'

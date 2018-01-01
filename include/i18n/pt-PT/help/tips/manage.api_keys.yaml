@@ -1,0 +1,13 @@
+---
+api_key:
+  title: Chave da API
+  content: >
+    As chaves da API são usadas para autenticar os clientes que submetem novos pedidos através da API (Application Programming Interface). As chaves substituem as passwords. Visto que as chaves da API podem ser enviadas de forma não encriptada, as mesmas estão associadas a cada endereço IP do cliente.
+  links:
+    - 
+      title: Documentação da API osTicket
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: Endereço IP
+  content: >
+    Endereço IP da rede do cliente. Cada IP requer uma chave de API separada

@@ -1,0 +1,6 @@
+---
+notes: >
+  Ini menyusun header klien Log di laman. Hal ini dapat berguna untuk memberitahu klien tentang login Anda dan kebijakan registrasi Anda.
+name: "Sign in ke %{company.name}"
+body: >
+  Untuk lebih baik melayani Anda, kami mendorong klien kami untuk mendaftar untuk sebuah account.

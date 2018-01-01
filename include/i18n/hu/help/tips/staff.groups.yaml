@@ -1,0 +1,13 @@
+---
+groups:
+  title: Csoportok
+  content: >
+    A csoportok határozzák meg az munkatársak hozzáféréseit a rendszeren belül. A csoport hozzáférést biztosíthat a sajáton kívül, más részlegekhez is.
+status:
+  title: Állapot
+  content: >
+    Ha<span class="doc-desc-opt">ez jelenik meg</span>, a csoporthoz rendelt agent nem tud bejelentkezni és nem fog kapni figyelmeztetéseket &amp; jelzéseket az osztálytól.
+department_access:
+  title: Részlegek hozzáférési engedélyei
+  content: >
+    Jelölje meg az összes részleget amelyekhez a csoport tagjainak hozzáférési engedélyt akar adni.

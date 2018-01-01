@@ -1,0 +1,6 @@
+---
+notes: >
+  Šis parametrs nosaka galvenes saturu klienta autentifikācijas lapā. Tas var noderēt, lai sniegtu klientiem informāciju par lietošanas noteikumiem un registrāciju.
+name: "Laipni lūgti %{company.name}"
+body: >
+  Lai veiksmīgāk Jums palīdzētu, mēs rekomendējam Klientiem reģistrēt savus kontus sistēmā.

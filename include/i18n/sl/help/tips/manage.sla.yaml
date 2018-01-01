@@ -1,0 +1,13 @@
+---
+name:
+  title: Naziv
+  content: >
+    Izberi opisno ime za ta <span class="doc-desc-title"> SLA plan</span> ki bo označil njegov namen.
+grace_period:
+  title: Vmesno obdobje
+  content: >
+    Določite število preteklih ur po ustvarjenem zahtevku, po katerih bo zahtevek avtomatsko označen za pretečen.<br><br><em>Ure se štejejo od časa ustvarjenega zahtevka.</em>
+transient:
+  title: Prehodna
+  content: >
+    Prehodni SLA-ji so smatrani začasni in so lahko preglašeni z ne-prehodnim SLA-jem na <span class="doc-desc-opt">Oddelek</span>v prenosu ali ko je <span class="doc-desc-title"> tema pomoči</span> spremenjena.

@@ -1,0 +1,13 @@
+---
+name:
+  title: Naam
+  content: >
+    Kies een naam die omschrijft wat de opzet is van dit <span class="doc-desc-title">SLA Plan</span>.
+grace_period:
+  title: Responstijd
+  content: >
+    Bepaal het aantal uren nadat een ticket aangemaakt is, het automatisch gemarkeerd zal worden als overtijd. <br><br> <em>Uren worden geteld vanaf de aanmaaktijd van het ticket.</em>
+transient:
+  title: Dynamisch
+  content: >
+    Dynamische Service Plans worden beschouwd als tijdelijk en kunnen worden overschreven door een niet-dynamisch Service Plan op <span class="doc-desc-opt">Departement</span> overdracht of wanneer het <span class="doc-desc-title">Help-onderwerp</span> gewijzigd wordt.

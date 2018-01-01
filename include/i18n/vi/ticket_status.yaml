@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Mở
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Mở Tickets.
+- 
+  id: 2
+  name: Đã giải quyết
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Tickets được giải quyết là một tickets đã được đóng, nó có thể được mở lại bởi người dùng trực tiếp. Nó sẽ hữu ích khi một kích hoạt được sử dụng để đóng ticket đã giải quyết với thông báo gửi đến người dùng cuối.
+- 
+  id: 3
+  name: Đã đóng
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Tickets đã đánh dấu là đóng thì không thể mở lại bởi người dùng cuối. Chỉ có thể truy cập vào bảng điều khiển của khách hàng và nhân viên.
+- 
+  id: 4
+  name: Đã lưu trữ
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tickets Quản trị có sẵn nhưng không thể truy cập vào hàng đợi vé.
+- 
+  id: 5
+  name: Đã xóa
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tickets xếp hàng đợi để xóa. Không thể truy cập vào hàng đợi ticket.

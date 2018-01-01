@@ -1,0 +1,45 @@
+---
+helpdesk_status:
+  title: Stan Biura Obsługi Klienta
+  content: >
+    Jeśli stan zostanie zmieniony na <span class="doc-desc-opt"> Offline</span>, interfejs klienta zostanie wyłączony. Nie wpływa to jednak na dalsze działania pełnomocników w Panelu Przedstawiciela.
+helpdesk_url:
+  title: URL Biura Obsługi Klienta
+  content: >
+    Jest to domyślny adres URL Twojej instalacji osTicket. Jest używany do komunikacji za pośrednictwem poczty elektronicznej pomiędzy końcowymi użytkownikami i helpdeskiem.
+helpdesk_name_title:
+  title: 'Biuro Obsługi Klienta: nazwa/tytuł'
+  content: >
+    Jest to tytuł, który pojawi się w karcie przeglądarki. Jeśli strona systemu pomocy zostanie dodana do ulubionych, będzie to jej tytuł / nazwa strony.
+default_department:
+  title: Domyślny departament
+  content: >
+    Wybierz domyślny <span class="doc-desc-title">Departament</span> dla zgłoszeń, które nie są automatycznie kierowane do Departamentu. <br/><br/> Zgłoszenia mogą być kierowane w oparciu o temat pomocy, e-mail nadawcy lub ustawienia filtra zgłoszeń.
+default_page_size:
+  title: Domyślny rozmiar strony
+  content: >
+    Wybierz liczbę pozycji wyświetlanych na pojedynczej stronie w kolejce zgłoszeń w Panelu pracownika. Każdy Przedstawiciel może sam ustawić tą wielkość dla swojego konta w <span class="doc-desc-title">Moje Preferencje</span>.
+default_log_level:
+  title: Domyślny poziom logowania
+  content: >
+    Określa minimalny poziom logowanie zdarzeń w <span class="doc-desc-title">logach systemowych</span>. <span class="doc-desc-opt">Debug</span> oznacza najmniejszy poziom, a <span class="doc-desc-opt">Error</span> największy. Na przykład, jeżeli chcesz zobaczyć wszystkie problemy w <span class="doc-desc-title">Logach Systemu</span>, wybierz <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Wyczyść logi
+  content: >
+    Definiuje jak długo chcesz zachować <span class="doc-desc-title">Logi systemowe</span> zanim zostaną usunięte.
+default_name_formatting:
+  title: Domyślne formatowanie nazw
+  content: >
+    Wybierz formaty nazw używanych w całym systemie. Szablony e-mail będą go wykorzystywać jako nazwę, jeżeli nie zostanie zdefiniowany inny format zmiennej.
+  links:
+    - 
+      title: Zmienne obsługiwane przez szablony e-mail
+      href: 'http://osticket.com/wiki/Email_templates'
+date_time_options:
+  title: Opcje daty i czasu
+  content: >
+    Poniższe ustawienia konfiguracyjne dla czasu i daty klienta. Możesz zmienić sposób w jaki są one wyświetlane, poprzez użycie znaków formatujących datę w języku PHP. Data pokazana poniżej przedstawia wynik tych ustawień.
+  links:
+    - 
+      title: Zobacz tabelę zawierającą znaki formatujące daty w języku PHP
+      href: 'http://www.php.net/manual/en/function.date.php'

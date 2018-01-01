@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Lijst type
+  content: >
+    Kies <span class="doc-desc-opt"> openbaar (publiceren)</span> als u deze <span class="doc-desc-title"> FAQ</span> wil publiceren op de openbare kennisdatabase (als de bovenliggende categorie openbaar is).
+  links:
+    - 
+      title: Schakel de publieke Knowledgebase in voor het klantenportaal
+      href: /scp/settings.php?t=kb

@@ -1,0 +1,36 @@
+---
+- 
+  type: ticket-status
+  name: ស្ថានភាពសំបុត្រ
+  name_plural: ស្ថានភាពករណី ticket
+  sort_mode: SortCol
+  masks: 13
+  notes: ស្ថានភាពករណី ticket
+  properties:
+    title: លក្ខណៈសម្បត្តិ នៃស្ថានភាពករណី ticket
+    instructions: លក្ខណៈសម្បត្តិ ដែលអាចត្រូវបានកំណត់នៅលើស្ថានភាព ករណី ticket ។
+    deletable: false
+    fields:
+      - 
+        type: state
+        name: state
+        label: សភាព state
+        required: true
+        sort: 1
+        edit_mask: 63
+        configuration:
+          prompt: សភាព នៃករណី
+      - 
+        type: memo
+        name: description
+        label: សង្ខេប
+        required: false
+        sort: 3
+        edit_mask: 15
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

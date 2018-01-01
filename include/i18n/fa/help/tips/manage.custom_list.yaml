@@ -1,0 +1,29 @@
+---
+custom_lists:
+  title: لیستهای سفارشی
+  content: >
+    <span class="doc-desc-title"> لیستهای سفارشی </span> شما به شما این اجازه را می دهد که  لیستهای از پیش تعریف شده ای تعیین نمایید تا یک مشتری بتواند از بین آنها یکی را در <span class="doc-desc-title"> فرمهای سفارشی </span> انتخاب نماید . اگر شما مایل به استفاده از <span class="doc-desc-title"> لیستهای سفارشی </span> به عنوان <span class="doc-desc-title"> هدف </span> در یک <span class="doc-desc-title"> فیلتر درخواست </span> دارید باید مطمن باشید که این لیست را به فرم  <span class="doc-desc-title"> جزییات درخواست </span> اضافه کرده باشید .
+name:
+  title: نام
+  content: >
+    
+plural_name:
+  title: نام جمع
+  content: >
+    
+sort_order:
+  title: مرتب کردن بر اساس سفارش
+  content: >
+    
+list_s_initial_items:
+  title: ليست موارد اولیه
+  content: >
+    
+value:
+  title: ارزش
+  content: >
+    
+extra:
+  title: اضافی
+  content: >
+    اختصارات و مانند آنها . اگر شما میخواهید که از کدهای داخلی برای عناصر این لیست استفاده نمایید ان کدها و اختصارات می تواند در این ستون وارد شود اگر لیست سفارشی به عنوان <span class="doc-desc-option"> TypeAhead </span>  رندر شود این اختصارات میتوانند برای جستجو در عناصر لیست سفارشی استفاده گردند .

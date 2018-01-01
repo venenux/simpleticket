@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Typ procházení
+  content: >
+    Vyber <span class="doc-desc-opt">veřejnou(publikovanou),</span>, pokud chceš toto<span class="doc-desc-title">FAQ</span>zveřejnit ve Veřejné znalostní bázi pokud je veřejný vzor.
+  links:
+    - 
+      title: Povol veřejnou Znalostní bázi pro Klientský Portál
+      href: /scp/settings.php?t=kb

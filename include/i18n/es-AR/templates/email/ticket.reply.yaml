@@ -1,0 +1,19 @@
+---
+notes: |
+  Enviado a los usuarios cuando los miembros del personal responden tu ticket.
+  Las respuestas son generadas solamente por los miembros del equipo.
+subject: |
+  Re: %{ticket.subject}
+body: |
+  <h3><strong>Estimado %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Equipo de %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Esperamos que esta respuesta haya respondido tus preguntas. En caso contrario, por favor no envíes otro email. En lugar de esto, contesta este email o 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >accedecon tu cuenta</a> para ver el archivo completo de todas las solicitudes enviadas junto a sus respuestas.</em></div>

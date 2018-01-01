@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Відкрита
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Відкриті заявки.
+- 
+  id: 2
+  name: Вирішена
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Вирішені заявки - це закриті заявки, які можуть бути відкриті знову кінцевим користувачем (клієнтом).
+- 
+  id: 3
+  name: Закрита
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Закриті заявки не можуть бути відкриті знову кінцевим користувачем. Закриті заявки все одно доступні на панелях співробітників і клієнтів.
+- 
+  id: 4
+  name: Архівна
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Заявки доступні тільки адміністраторам, приховані в інтерфейсі користувача або співробітника.
+- 
+  id: 5
+  name: Видалена
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Заявки в черзі для видалення. Не доступні в загальному списку заявок.

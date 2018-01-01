@@ -1,0 +1,29 @@
+---
+company_information:
+  title: Firmaoplysninger
+  content: >
+    Dette henviser til den virksomhed eller organisation, der vil drage fordel af OsTicket's software og dens support personale. Oplysningerne her vises i Email signaturer (dvs. sidefoden) hvornår sager er besvaret af en medarbejder.
+  links:
+    - 
+      title: Firma oplysninger formular
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Landings side
+  content: >
+    <span class="doc-desc-title">Landings siden</span> vises på forsiden af du din support side.
+offline_page:
+  title: Offlineside
+  content: >
+    <span class = "doc-desc-title"> Offline siden </span> vises i supportsiden når helpdesken er offline, se Admin Panel - &gt; Indstilling - &gt; System - &gt; Helpdesk status.
+default_thank_you_page:
+  title: Standard Tak Side
+  content: >
+    <span class="doc-desc-title"> tak siden</span> vises til kunden, når en <span class="doc-desc-title"> klient</span> sender en ny bestilling. <br/> <br/> <span class="doc-desc-title"> tak</span> sider kan være forbundet med hjælp-emner.
+logos:
+  title: Logoer
+  content: >
+    Du kan tilpasse det <span class="doc-desc-title"> Logo</span>, der vil blive vist til klienten i klient portalen (dvs. dit Support websted).
+upload_a_new_logo:
+  title: Upload et nyt logo
+  content: >
+    Vælg et billede i .gif, .jpg eller .png formater. Vi vil proportionalt ændre størrelsen på visning af dit billede. Vi vil ikke, ændre størrelsen af billeddata. Derfor, for at fremskynde belastningstid, det kan anbefales at du holder dit billede tæt på standardbilledstørrelse (817px &times; 170px).

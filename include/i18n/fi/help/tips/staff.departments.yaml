@@ -1,0 +1,10 @@
+---
+type:
+  title: Tyyppi
+  content: >
+    Jos Osaston tyyppi on Yksityinen, tällöin Osaston allekirjoitusta ei käytetä vastauksissa eikä osastoa näytetä Asiakasportaalissa.
+dept_manager:
+  title: Osastopäällikkö
+  content: >
+    Voit valita Käsittelijän Osaston Esimieheksi joka saa Ilmoitukset & Muistutukset osaston tiketeistä.
+  0: Käsittelijän ei tarvitse olla kyseisen Osaston jäsen, jotta hän voi olla Osaston Esimies

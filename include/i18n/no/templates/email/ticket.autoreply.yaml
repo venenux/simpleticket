@@ -1,0 +1,9 @@
+---
+notes: |
+  Sendt til en bruker når et automatisk forhåndslaget svar legges til en sak når den opprettes.
+  
+  Tilgjengelige variabler for erstatning: %{ticket.*}, %{response}
+subject: |
+  Sv: %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>Kjære %{recipient.name.first},</strong></h3> En sakshendvendelse er opprettet og tilordnet saksnummer <a href="%{recipient.ticket_link}"> #%{ticket.number}</a> med følgende automatiske svar <br><br>Emne: <strong>%{ticket.topic.name}</strong> <br>Emne: <strong>%{ticket.subject}</strong> <br><br>%{response}<br><br><div style="color: rgb(127, 127, 127);"> din %{company.name} Team <br>%{signature}</div> <hr><div style="color: rgb(127, 127, 127); font-size: small;"> <em>Vi håper dette svaret har tilstrekkelig besvart ditt spørsmål.  Hvis du ønsker å gi ytterligere kommentarer eller information, kan du svare på denne e-post eller <a href="%{recipient.ticket_link}"> <span style="color: rgb(84, 141, 212);" > Logg på kontoen</span></a> for en komplett arkiv om dine sakshenvendelser.</em></div>

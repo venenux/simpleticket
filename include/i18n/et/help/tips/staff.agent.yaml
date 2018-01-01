@@ -1,0 +1,67 @@
+---
+username:
+  title: Kasutajanimi
+  content: >
+    Palun vali agendi <span class="doc-desc-title">kasutajanimi</span>, mis on sinu <span class="doc-desc-title">kasutajatoe</span> keskkonnas unikaalne.
+email_address:
+  title: E-posti aadress
+  content: >
+    Sisesta agendi e-posti aadress, millele ta hakkab saama <span class="doc-desc-title">kasutajatoe</span> <span class="doc-desc-title">hoiatusi ja teateid</span>.
+  0: <br><br>
+  1: Töötajad saavad töötajate menüüsse sisse logida kas kasutajanime või e-posti aadressiga.
+welcome_email:
+  title: Tervitusmeil
+  content: >
+    Saada uuele agendile link, mille kaudu agent saab määtrata omakontole parooli. Kui pole märgistatud, siis pead ise parooli seadma ja sisselogimise infot uuele meeskonnaliikmele vahendama.
+account_password:
+  title: Konto parool
+  content: >
+    Kui oled <span class="doc-desc-title">administraator</span>, siis saad agendi parooli muuta.
+forced_password_change:
+  title: Sunniviisiline paroolivahetus
+  content: >
+    Märgi see, kui soovid, et uus agent muudaks järgmisel sisselogimisel parooli.
+agents_signature:
+  title: Agendi signatuur
+  content: >
+    Loo agendile signatuur, mille ta saab valida pöördumisele vastates.
+account_status:
+  title: Konto staatus
+  content: >
+    Kui agendi staatus on <span class="doc-desc-opt">lukus</span>, siis ei saa nad kasutajatoe süsteemi sisse logida.
+assigned_group:
+  title: Määratud grupp
+  content: >
+    <span class="doc-desc-title">Grupp</span>, millesse agent kuulub, määrab tema õigused <span class="doc-desc-title">kasutajatoe süsteemis</span>.
+  links:
+    - 
+      title: Halda gruppe
+      href: /scp/groups.php
+primary_department:
+  title: Esmane osakond
+  content: >
+    Vali esmane <span class="doc-desc-title">osakond</span>, millesse agent kuulub.
+  links:
+    - 
+      title: Halda osakondi
+      href: /scp/departments.php
+daylight_saving:
+  title: Suveaeg
+  content: >
+    Vali see, kui soovid, et suveaeg ilmub automaatselt agendi ajavööndis.
+limited_access:
+  title: Piiratud ligipääs
+  content: >
+    Kui valitud, siis agendil on ligipääs vaid pöördumistele, mis on määratud otse temale või tema meeskonnale.
+directory_listing:
+  title: Kataloogi sisu
+  content: >
+    Märgi see, kui soovid, et agendi nimi kuvatakse <span class="doc-desc-title">töötajate kataloogis</span>.
+  links:
+    - 
+      title: Vaata meeskonna kataloogi
+      href: /scp/directory.php
+vacation_mode:
+  title: Puhkuse režiim
+  content: >
+    Kui agendi staatus on <span class="doc-desc-opt">puhkuse režiim</span>, siis ei saadeta agendile <span class="doc-desc-title">hoiatusi ja teateid</span> ega määrata talle pöördumisi.

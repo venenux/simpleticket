@@ -1,0 +1,13 @@
+---
+groups:
+  title: Grupe
+  content: >
+    Grupe služe za definiranje ovlasti djelatnika u centru tehničke podrške. Grupe mogu omogučiti djelatniku pristup i drugim odjelima osim njegovog osnovnog odjela.
+status:
+  title: Status
+  content: >
+    Ako je<span class="doc-desc-opt">onemogućeno</span>, djelatnici u ovoj grupi ne mogu se prijavljivati i neće primati upozorenja &amp; obavijesti odjela.
+department_access:
+  title: Pristup odjelu
+  content: >
+    Označite sve odjele kojima članovi grupe imaju pristup.

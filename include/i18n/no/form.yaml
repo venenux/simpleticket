@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Kontaktinformasjon
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: E-postadresse
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Fullt navn
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefonnummer
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Interne notater
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Saks detaljer
+  instructions: Beskriv problemet
+  notes: |
+    Dette skjemaet knyttes til hver sak, uavhengig av kilde. Du kan legge til felt i dette skjemaet, og de vil være tilgjengelig for alle saker, vil være søkbare med avansert søk og filtrerbare.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Problemsammendrag
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Problemdetaljer
+      hint: Detaljer om grunn(ene) til å åpne saken.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Prioritetsnivå
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Firmainformasjon
+  instructions: Detaljer tilgjengelig i e-postmaler
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Firmanavn
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Nettsted
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Telefonnummer
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Adresse
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Organisasjonsinformasjon
+  instructions: Informasjon om organisasjonen
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: navn
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Adresse
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Telefon
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Nettsted
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Interne notater
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

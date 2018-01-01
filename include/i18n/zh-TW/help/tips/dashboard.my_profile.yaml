@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: 聯絡人資訊
+  content: >
+    
+username:
+  title: 使用者名稱 
+  content: >
+    具有代理商資格與行政人員身分才能更改使用者名稱. 如果你已有優先資格權限、您將透過專用代理商工具來編修<span class="doc-desc-title">工作人員</span> 列表。
+  links:
+    - 
+      title: 以管理員身份更改使用者名
+      href: /scp/staff.php
+time_zone:
+  title: 時區
+  content: >
+    
+daylight_saving:
+  title: 冬令時光節約
+  content: >
+    
+maximum_page_size:
+  title: 最大頁面大小
+  content: >
+    
+auto_refresh_rate:
+  title: 自動更新頻率
+  content: >
+    
+default_signature:
+  title: 預設簽名
+  content: >
+    
+default_paper_size:
+  title: 預設紙張大小
+  content: >
+    
+show_assigned_tickets:
+  title: 顯示已簽出的票
+  content: >
+    開啓隱藏姓名功能 <span class="doc-desc-title">票券管理開始畫面</span> 將已經簽出的票券依序整理藏好。 <span class="doc-desc-title">部門</span>  您原始票券上的簽票的姓名將會被取代。
+password:
+  title: 密碼
+  content: >
+    
+current_password:
+  title: 目前密碼
+  content: >
+    
+new_password:
+  title: 新密碼
+  content: >
+    
+confirm_new_password:
+  title: 確認新密碼
+  content: >
+    
+signature:
+  title: 簽名
+  content: >
+    新建的選項 <span class="doc-desc-title">簽名檔</span> 可能出現再票券底部. 無論這 <span class="doc-desc-title">簽名檔</span> 有顯示, 或無、均按者<span class="doc-desc-title">電子郵件範例</span>使用再票券上。
+  links:
+    - 
+      title: 管理介面上建立新的電子郵件範例
+      href: /scp/templates.php

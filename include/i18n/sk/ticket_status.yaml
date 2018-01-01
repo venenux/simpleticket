@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: Otvoriť
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Otvorené tikety.
+- 
+  id: 2
+  name: Vyriešené
+  state: resolved
+  mode: 3
+  sort: 2
+  flags: 0
+  properties:
+    description: >
+      Vyriešené sú také tikety, ktoré sú uzavreté, ale môžu byť opäť otvorené koncovým užívateľom. To môže byť užitočné ak je k uzavretiu používaný triger, ktorý pošle oznámenie koncovému užívateľovi.
+- 
+  id: 3
+  name: Uzavreté
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    description: >
+      Tikety označené ako uzavreté, nemôžu byť opäť otvorené koncovým užívateľom. Tikety sú stále dostupné pre užívateľa aj riešiteľa (agenta).
+- 
+  id: 4
+  name: Archivované
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Tikety sú dostupné iba administratívne, už nie sú zobrazované v zoznamoch tiketov.
+- 
+  id: 5
+  name: Vymazané
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Tikety čakajúce na zmazanie. Už nie sú zobrazované v zozname tiketov.

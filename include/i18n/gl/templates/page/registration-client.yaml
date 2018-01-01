@@ -1,0 +1,6 @@
+---
+notes: >
+  Este modelo define o e-mail enviado aos clientes cando a conta foi creada no portal do cliente ou por un axente no seu nome. Este e-mail serve para a verificación do enderezo de e-mail. Por favor, use %{link} algures no corpo da mensaxe.
+name: "Benvido/a a %{company.name}"
+body: >
+  <h3><strong>Ola %{recipient.name.first},</strong></h3> <div> Creamos unha conta para vostede no noso sistema de "helpdesk" en %{url}.<br /> <br /> Por favor, use a ligazón seguinte para confirmar a súa conta e obter acceso aos seus pedidos de soporte.<br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">O Sistema de Soporte ao Cliente <br /> %{company.name}</em> </div>

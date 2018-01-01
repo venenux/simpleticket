@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Общий вопрос
+  notes: Вопросы о продуктах или услугах
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: Обратная связь
+  notes: |
+    Заявки, прежде всего касающиеся отделов продаж и расчетов
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: Сообщить о проблеме
+  notes: |
+    Вопросы по продуктам, услугам или оборудованию
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: Проблема доступа
+  notes: |
+    Сообщить о недоступности физического или виртуального окружения

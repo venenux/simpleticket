@@ -1,0 +1,43 @@
+---
+notes: |
+  Este trimis la membrii echipei atunci cand un nou mesaj este adaugat de catre un utilizator la un tichet. Acest lucru se intampla cand utilizatorul raspunde la un email din partea sistemului sau adauga un mesaj folosing pagina web a sistemului de suport  tehnic.
+subject: |
+  Alerta Mesaj Nou
+body: |2
+  <h3><strong>Salut %{recipient},</strong></h3>
+  Un mesaj nou a fost adaugat la tichetul <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>De la</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Departament</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pentru a vizualiza/raspunde la tichet, te rugam <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >logheaza-te</span></a> la sistemul de suport</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Your friendly
+  Customer Support System</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

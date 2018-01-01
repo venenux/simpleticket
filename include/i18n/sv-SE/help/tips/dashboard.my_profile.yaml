@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktinformation
+  content: >
+    
+username:
+  title: Användarnamn
+  content: >
+    Endast de i supportpersonalen som har Administratörsrättigheter kan redigera användarnamn. Om du är en person i supportpersonalen och har administratörsrättigheter så kan du åstadkomma detta genom att välja någon ur supportpersonalen att redigera i <span class="doc-desc-title">Personal-</span>tabellen.
+  links:
+    - 
+      title: Redigera ett användarnamn som administratör
+      href: /scp/staff.php
+time_zone:
+  title: Tidszon
+  content: >
+    
+daylight_saving:
+  title: Sommartid
+  content: >
+    
+maximum_page_size:
+  title: Maximal sidstorlek
+  content: >
+    
+auto_refresh_rate:
+  title: Intervall för automatisk uppdatering
+  content: >
+    
+default_signature:
+  title: Standardsignatur
+  content: >
+    
+default_paper_size:
+  title: Standardpappersstorlek
+  content: >
+    
+show_assigned_tickets:
+  title: Visa tilldelade ärenden
+  content: >
+    Aktivera för att dölja ditt namn från listan över <span class="doc-desc-title">Öppna ärenden</span> för de ärenden som tilldelats dig. När du döljer dessa ersätts ditt namn med namnet på den <span class="doc-desc-title">avdelning</span> du tillhör.
+password:
+  title: Lösenord
+  content: >
+    
+current_password:
+  title: Nuvarande lösenord
+  content: >
+    
+new_password:
+  title: Nytt lösenord
+  content: >
+    
+confirm_new_password:
+  title: Bekräfta nytt lösenord
+  content: >
+    
+signature:
+  title: Signatur
+  content: >
+    Skapa en valfri <span class="doc-desc-title">Signatur</span> som kan visas i slutet av dina meddelanden. Om <span class="doc-desc-title">Signaturen</span> visas eller ej regleras i <span class="doc-desc-title">E-postmallen</span> som används när du svarar på ett meddelande.
+  links:
+    - 
+      title: Skapa e-postmallar i Administrations-panelen
+      href: /scp/templates.php

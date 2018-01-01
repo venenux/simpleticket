@@ -1,0 +1,9 @@
+---
+listing_type:
+  title: Vrsta sortiranja
+  content: >
+    Označite <span class="doc-desc-opt">Javno (objavljeno)</span>, če želite ta <span class="doc-desc-title"> FAQ</span> objavljen v javni bazi znanja. Pogoj je, da je tudi nadrejena skupina javno objavljena.
+  links:
+    - 
+      title: Omogoči javno bazo znanja na portalu za stranke
+      href: /scp/settings.php?t=kb

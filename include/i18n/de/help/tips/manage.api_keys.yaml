@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API-Schlüssel
+  content: >
+    API-Schlüssel werden zur Authentifizierung der Client-Anwendung verwendet, wenn neue Tickets über die Programmierschnittstelle von osTicket (API) eröffnet werden. API-Schlüssel werden anstelle von Passwörtern verwendet. Weil die API-Schlüssel nicht verschlüsselt übertragen werden können, sind sie mit der IP-Adresse der jeweiligen Client-Anwendung verknüpft.
+  links:
+    - 
+      title: osTicket API-Dokumentation
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: IP-Adresse
+  content: >
+    IP-Adresse der Client-Anwendung. Jede eindeutige IP-Adresse einer Client-Anwendung wird einen eigenen API-Schlüssel benötigen.

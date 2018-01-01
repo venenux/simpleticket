@@ -1,0 +1,42 @@
+---
+notes: |
+  Odošle sa zamestnancovi pri vytvorení nového tiketu. To platí pre všetky tikety vytvorené prostredníctvom e-mailu, webového portálu alebo api.
+subject: |
+  Upozornenie na nový tiket
+body: |2
+  <h2>Dobrý deň %{recipient},</h2>
+  Nová požiadavka č. %{ticket.number} je vytvorená
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>Od</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Oddelenie</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pozrieť si alebo reagovať na požiadavku, prosím <a
+  href="%{ticket.staff_link}">prihláste sa</a>do systému podpory</div>
+  <em style="font-size: small">Váš Support System</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

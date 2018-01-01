@@ -1,0 +1,13 @@
+---
+api_key:
+  title: API מפתח
+  content: >
+    מפתחות API משמשים לאימות לקוחות ששולחים כרטיסים חדשים באמצעות ממשק תכנות יישומים (API). מפתחות API משמשים במקום ססמאות. מאחר ומפתחות API עשויים להישלח לא מוצפנים, הם מקושרים לכתובת ה-IP ברשת של כל לקוח.
+  links:
+    - 
+      title: osTicket תיעוד ממשק אפליקציית התכנות
+      href: 'https://github.com/osTicket/osTicket-1.8/blob/develop/setup/doc/api.md'
+ip_addr:
+  title: כתובת IP
+  content: >
+    כתובת IP של הלקוח. כל כתובת IP לקוח ייחודית תדרוש מפתחות API נפרדים

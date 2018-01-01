@@ -1,0 +1,42 @@
+---
+notes: |
+  Bude odesláno zaměstnanci v okamžiku připojení nové zprávy k zákaznickému požadavku. Situace může nastat, pokud uživatelé reagují na systémový e-mail nebo navštíví stránky zákaznické podpory a zveřejní novou zprávu.
+subject: |
+  Upozornění na novou zprávu
+body: |2
+  <h3><strong>Dobrý den %{recipient},</strong></h3>
+  K zákaznickému požadavku <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a> byla připojena nová zpráva
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Od</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Oddělení</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Pro zobrazení nebo odpověď na zákaznický požadavek se prosím <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >přihlaste</span></a> do systému zákaznické podpory</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Vaše zákaznická podpora</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Provozováno na osTicket" width="126" height="19" style="width: 126px;">

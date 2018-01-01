@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Kontaktné informácie
+  content: >
+    
+username:
+  title: Užívateľské meno
+  content: >
+    Len agenti s Admin právami môžu zmeniť užívateľské meno. Ak ste Agent s Admin právami, môže tak urobiť výberom Agenta a voľbou upraviť v <span class="doc-desc-title">Personál</span>.
+  links:
+    - 
+      title: Zmeniť používateľské meno ako Administrátor
+      href: /scp/staff.php
+time_zone:
+  title: Časové pásmo
+  content: >
+    
+daylight_saving:
+  title: Letný čas
+  content: >
+    
+maximum_page_size:
+  title: Maximálna veľkosť strany
+  content: >
+    
+auto_refresh_rate:
+  title: Automatické obnovenie
+  content: >
+    
+default_signature:
+  title: Predvolený podpis
+  content: >
+    
+default_paper_size:
+  title: Predvolená veľkosť papiera
+  content: >
+    
+show_assigned_tickets:
+  title: Zobraziť aj priradené tikety
+  content: >
+    Povoliť ukrytie vášho mena z fronty <span class="doc-desc-title"> Otvorené tikety</span> pre tie tikety, ktoré vám boli priradené. Počas ukrytia sa zobrazí názov <span class="doc-desc-title"> oddelenia</span> namiesto vášho mena.
+password:
+  title: Heslo
+  content: >
+    
+current_password:
+  title: Súčasné heslo
+  content: >
+    
+new_password:
+  title: Nové heslo
+  content: >
+    
+confirm_new_password:
+  title: Potvrdiť nové heslo
+  content: >
+    
+signature:
+  title: Podpis
+  content: >
+    Vytvoriť voliteľný <span class="doc-desc-title"> podpis</span>, ktorý sa môže zobraziť na konci vašej odpovede na tiket. Či sa tento <span class="doc-desc-title"> podpis</span> zobrazí, alebo nie, závisí na <span class="doc-desc-title">šablóne emailu</span>, ktorá bude použitá v odpovedi na tiket.
+  links:
+    - 
+      title: Vytvorenie šablón emailov v Admin paneli
+      href: /scp/templates.php

@@ -1,0 +1,13 @@
+---
+name:
+  title: Vardas, Pavardė
+  content: >
+    Pasirinkite vaizduojamą vardą šiam<span class="doc-desc-title">SLA planui</span>, kuris atspindėtų jo paskirtį.
+grace_period:
+  title: Lengvatinis laikotarpis
+  content: >
+    Nustatyti valandų skaičių, kurioms praėjus sukurta užklaus bus automatiškai pažymėta, kaip vėluojanti<br><br><em>Valandos skaičiuojamos nuo užklausos sukūrimo laiko.</em>
+transient:
+  title: Trumpalaikis
+  content: >
+    Trumpalaikiai SLA planai yra laikomi laikinais ir gali būti pakeisti ne trumpalaikių SLA palnų <span class="doc-desc-opt">Departamente</span> perkėlimo metu arba kuomet<span class="doc-desc-title">Pagalbos tema</span>yra pakeičiama.

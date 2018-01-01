@@ -1,0 +1,28 @@
+---
+notes: |
+  បានផ្ញើទៅឱ្យអ្នកប្រើនៅពេលដែលបុគ្គលិកម្នាក់បង្កើតសំបុត្រក្នុងនាមអ្នកប្រើ។ នេះត្រូវបានអនុវត្តជាទូទៅច្រើនបំផុតនៅពេលដែលការហៅរបស់អ្នកប្រើនៅលើទូរស័ព្ទ។
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>ទៅ %{recipient.name.first}, ជាទីគោរព</strong></h3>
+  ក្រុមថែរក្សាអតិថិជនរបស់យើងបានបង្កើតសំបុត្រមួយ, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> ក្នុងនាមរបស់អ្នកដោយមានលំអិតដូចខាងក្រោមនិងសេចក្ដីសង្ខេប:
+  <br>
+  <br>
+  Topic: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Subject: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  ប្រសិនបើចាំបាច់អ្នកត្រូវតំណាងមួយនឹងតាមដានជាមួយអ្នកបានឆាប់តាមដែលអាចធ្វើទៅបាន។ អ្នក​ក៏​អាច​ <a href="%{recipient.ticket_link}">មើលការវិវត្តន៍សំបុត្រលើបណ្តាញ online</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  ក្រុមការងារពី %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>ប្រសិនបើ​អ្នក មានបំណងចង់ផ្តល់យោបល់បន្ថែមឬដំណឹងរបស់បញ្ហានេះ, សូមឆ្លើយតបទៅនឹងអ៊ីមែលនេះឬ <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >ចូលទៅគណនីរបស់អ្នក</span></a> សម្រាប់ ប័ណ្ណសារពេញលេញនៃករណីរបស់អ្នក</em></div>

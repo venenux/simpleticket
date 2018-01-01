@@ -1,0 +1,9 @@
+---
+staff_members:
+  title: Ansatte
+  content: >
+    Følgende tabell viser resultatene av filteret ovenfor. Hvis ingen filterinnstillingene blir valgt, så vises alle <span class="doc-desc-title"> Ansatte</span>, delt over flere sider. Se del-sider under for å se flere resultater.
+apply_filtering_criteria:
+  title: Bruk filtervilkårene
+  content: >
+    Velg en <span class="doc-desc-title"> avdeling</span> som er relevant for gjeldende tema. Du kan også utføre et søk for en spesifikk Agent.

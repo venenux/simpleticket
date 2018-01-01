@@ -1,0 +1,24 @@
+---
+notes: |
+  Saadetakse meeskonna liikmele, kui pöördumise lahendamiseks määratud aeg on möödas. Üle aja pöördumised tekivad nii pöördumisele määratud lahendamise aja ületamisel kui ka SLA järgi üle aja läinud lahendus.
+subject: |
+  Hoiatus aegunud pöördumisest
+body: |2
+  <h3><strong>Tere, %{recipient.name}</strong>!</h3>
+  Pöördumine <a href="%{ticket.staff_link}">#%{ticket.number}</a> on aegunud
+  <br>
+  <br>
+  Me kõik peaksime kõvasti tööd tegema tagamaks, et kõik pöördumised oleksid õigeaegselt lahendatud.
+  <br>
+  <br>
+  Teie<br>
+  %{ticket.dept.manager.name}
+  <hr>
+  <div>Et vaadata või vastata pöördumisele <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >logi sisse</span></a> kasutajatoe süsteemi. Sa said selle hoiatuse, sest see pöördumine on määratud Sulle, Sinu meeskonnale või osakonnale lahendamiseks.</div>
+  <em style="font-size: small">Sinu sõbralik <span style="font-size: smaller"
+  >(kuigi piiratud kannatlikkusega)</span> klienditugi
+  System</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" height="19"
+      alt="Powered by osTicket" width="126" style="width: 126px;">

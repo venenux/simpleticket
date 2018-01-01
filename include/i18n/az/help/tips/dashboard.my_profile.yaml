@@ -1,0 +1,65 @@
+---
+contact_information:
+  title: Əlaqə məlumatı
+  content: >
+    
+username:
+  title: İstifadəçi adı
+  content: >
+    Yalnız İnzibatçı statuslu əməkdaşlar istifadəçi adını dəyişə bilər. Əgər Siz - İnzibatçı hüququna maliksinizsə <span class="doc-desc-title">Əməkdaşlar</span> table cədvəlindən seçib, istifadəçi adını dəyişə bilərsiniz.
+  links:
+    - 
+      title: İnzibatçı kimi istifadəçi adını dəyişmək
+      href: /scp/staff.php
+time_zone:
+  title: Saat qurşağı
+  content: >
+    
+daylight_saving:
+  title: Yay vaxtı
+  content: >
+    
+maximum_page_size:
+  title: Səhifənin maksimal ölçüsü
+  content: >
+    
+auto_refresh_rate:
+  title: Avtomatik yenilənmə müddəti
+  content: >
+    
+default_signature:
+  title: Susmaya görə imza
+  content: >
+    
+default_paper_size:
+  title: Susmaya görə kağızın ölçüsü
+  content: >
+    
+show_assigned_tickets:
+  title: Tapşırılmış sorğuları göstər
+  content: >
+    Sizin üçün təyin edilmiş <span class="doc-desc-title">Açıq sorğular</span>  bölməsindən adınızı gizlətmək üçün bunu yandırın. Adınız gizlədildikdən sonra onun yerinə <span class="doc-desc-title">departamentinizin</span> adı göstəriləcək.
+password:
+  title: Şifrə
+  content: >
+    
+current_password:
+  title: Hazırki şifrə
+  content: >
+    
+new_password:
+  title: Yeni şifrə
+  content: >
+    
+confirm_new_password:
+  title: Yeni şifrəni təsdiq edin
+  content: >
+    
+signature:
+  title: İmza
+  content: >
+    Sizin sorğu cavablarının sonunda ortaya çıxacaq ixtiyari <span class="doc-desc-title">imza</span> yaradın. Bu <span class="doc-desc-title">imzanın</span> görünüb görünməməsi sorğu cavabında istifadə olunan <span class="doc-desc-title">e-poçt şablonundan</span> asılıdır.
+  links:
+    - 
+      title: İnzibatçı panelində yeni məktub şablonlarını yaradın
+      href: /scp/templates.php

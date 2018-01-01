@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Pabandyti išsiųsti el.laišką
+  content: >
+    Elektroninių laiškų pristatymas priklauso nuo pašto serverio nustatymų (php.ini) ir/arba SMTP konfigūracijos.
+  links:
+    - 
+      title: Pasirinkite elektoninio pašto dėžutę, kuriai konfigūruosite SMTP (išeinantis ) nustatymus
+      href: /scp/emails.php
+from:
+  title: Nuo
+  content: >
+    
+to:
+  title: Kam
+  content: >
+    
+subject:
+  title: Tema
+  content: >
+    
+message:
+  title: Pranešimas
+  content: >
+    

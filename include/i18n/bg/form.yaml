@@ -1,0 +1,176 @@
+---
+- 
+  id: 1
+  type: U
+  title: Информация за контакта
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: email
+      label: Имейл адрес
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Име и фамилия
+      required: true
+      sort: 2
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Телефонен номер
+      required: false
+      sort: 3
+    - 
+      type: memo
+      name: notes
+      label: Вътрешни съобщения
+      required: false
+      private: true
+      sort: 4
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Информация за заявката
+  instructions: Моля, опишете Вашия проблем
+  notes: |
+    Този формуляр ще бъде прикачен към всяка заявка, независимо от нейния източник. Можете да добавите всякакви полета към него и те ще бъдат достъпни за всички заявки и ще може да се търси и филтрира по тях.
+  deletable: false
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Кратко описание на проблема
+      required: true
+      edit_mask: 15
+      sort: 1
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Информация за проблема
+      hint: Подробности относно причината(-ите) за създаване на заявката.
+      required: true
+      edit_mask: 15
+      sort: 2
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Ниво на приоритет
+      required: false
+      private: true
+      edit_mask: 3
+      sort: 3
+- 
+  type: C
+  title: Информация за фирма
+  instructions: Подробности, достъпни в шаблони за ел. поща
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Име на фирмата
+      required: true
+      sort: 1
+      edit_mask: 3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Уеб сайт
+      sort: 2
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Телефонен номер
+      required: false
+      sort: 3
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Адрес
+      required: false
+      sort: 4
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Информация за организацията
+  instructions: Подробна информация за организацията потребителя
+  deletable: false
+  fields:
+    - 
+      type: text
+      name: name
+      label: Име
+      required: true
+      sort: 1
+      edit_mask: 15
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Адрес
+      required: false
+      sort: 2
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Телефон
+      required: false
+      sort: 3
+    - 
+      type: text
+      name: website
+      label: Сайт
+      required: false
+      sort: 4
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Вътрешни съобщения
+      required: false
+      sort: 5
+      configuration:
+        rows: 4
+        cols: 40

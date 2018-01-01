@@ -1,0 +1,43 @@
+---
+notes: |
+  Saadetakse meeskonna liikmele, kui pöördumine on talle lahendamiseks määratud. Määramine võib olla süsteemi või kaastöötaja poolt. Kasuta %{assigner}, et täpsustada, kes oli määraja.
+subject: |
+  Pöördumine on määratud Sulle lahendamiseks
+body: |2
+  <h3><strong>Tere, %{assignee.name.first}!</strong></h3>
+  Pöördumine <a href="%{ticket.staff_link}">#%{ticket.number}</a> on määratud Sulle lahendamiseks %{assigner.name.short}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>Kellelt</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Teema</strong>:
+      </td>
+      <td>
+           %{ticket.subject}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{comments}
+  <br>
+  <br>
+  <hr>
+  <div>Selleks, et näha või vastata pöördumisele palun <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >logi sisse</span></a> kasutajatoe süsteemi</div>
+  <em style="font-size: small; ">Sinu sõbralik kasutajatugi
+  System</em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

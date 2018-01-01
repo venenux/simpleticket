@@ -1,0 +1,25 @@
+---
+knowledge_base_settings:
+  title: Podešavanja baze znanja
+  content: ""
+knowledge_base_status:
+  title: Status baze znanja
+  content: 'Osposobiti ovo podešavanje da bi se dozvolio korisnicima samouslužni pristup vašim javnim artiklima baza znanja. <br><br> Moguće je postaviti kategorije baza znanja i često postavljena pitanja na "interno" (samo ih agenti mogu videti).'
+  links:
+    - 
+      title: Upravljanje bazom znanja
+      href: /scp/kb.php
+restrict_kb:
+  title: Ograniči pristup bazi znanja
+  content: Osposobiti ovo podešavanje da bi se neregistrovanim korisnicima onemogućio pristup vašim artiklima baze znanja na klijentskom interfejsu.
+  links:
+    - 
+      title: Pristupite kontrolnim postavkama
+      href: /scp/settings.php?t=access
+canned_responses:
+  title: Pripremljen odgovor
+  content: 'Osposobiti ovo podešavanje da bi se dozvolio agentima da koriste <span class="doc-desc-title">pripremljene odgovore</span> kada odgovaraju na tikete.'
+  links:
+    - 
+      title: Upravljanje pripremljenim odgovorima
+      href: /scp/canned.php

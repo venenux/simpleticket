@@ -1,0 +1,33 @@
+---
+teams:
+  title: Takımlar
+  content: >
+    Takımlar bir veya daha fazla Temsilciden oluşup talep için takım haline gelmişlerdir. Takım üyeliği Bölümün sınırlarını aşabilir.
+status:
+  title: Durum
+  content: >
+    Eğer <span class="doc-desc-opt">Kapanırsa</span>, bu takım eski görevlendirmeler için talep görevlendirilmelerine ve Uyarı &amp; Bildirimlere cevap veremeyeceklerdir.
+lead:
+  title: Takım Lideri
+  content: >
+    <span class="doc-desc-title">Takım</span>ın atanmış bir lideri olabilir. Bu lider üyelerden farklı olarak <span class="doc-desc-title">Uyarı &amp; Bildirimleri</span>alacaktır.
+  links:
+    - 
+      title: Uyarıları &amp; Bilgilendirmeleri Yönet
+      href: /scp/settings.php?t=alerts
+assignment_alert:
+  title: Atama Uyarısı
+  content: >
+    İsterseniz bu takıma atanan talepler için <span class="doc-desc-title">Talep Görevlendirme Uyarısı</span>nı kapatabilirsiniz.
+  links:
+    - 
+      title: Uyarıları &amp; Bilgilendirmeleri Yönet
+      href: /scp/settings.php?t=alerts
+members:
+  title: Takım Üyeleri
+  content: >
+    Takım üyeliği Temsicli profili ile ayarlanmaktadır.
+  links:
+    - 
+      title: Personeli Yönet
+      href: /scp/staff.php

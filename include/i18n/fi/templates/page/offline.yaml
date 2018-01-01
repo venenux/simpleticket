@@ -1,0 +1,11 @@
+---
+notes: |
+  Offline-sivu näkyy asiakasportaalissa, kun palvelu on poissa käytöstä.
+name: Offline-tilassa
+body: |
+  <div><h1>
+  <span style="font-size: medium">Tukijärjestelmä poissa käytöstä</span>
+  </h1>
+  <p>Kiitos yhteydenottoyrityksestä, pahoittelemme hetkellistä palvelukatkoa.</p>
+  <p>Tukijärjestelmämme on hetkellisesti poissa käytöstä, pyydämme teitä palaamaan hetken kuluttua uudestaan.</p>
+  </div>

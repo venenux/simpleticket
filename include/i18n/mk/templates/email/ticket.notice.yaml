@@ -1,0 +1,26 @@
+---
+notes: Испрати порака кон корисникот кога вработениот креира тикет во негово име. Оваа најчесто се прави кога корисникот воспоставува повик на телефон.
+subject: '%{ticket.subject} [#%{ticket.number}]'
+body: |
+  <h3><strong>До %{recipient.name.first},</strong></h3>
+  Нашиот тим за грижа на корисници креира тикет <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> на ваше име со следниве детали:
+  <br>
+  <br>
+  Наслов: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Тема: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Ако е потребно, претставник ќе стапи со вас колку што е можно побрзо. Исто така може да го видите овај  <a href="%{recipient.ticket_link}">и да го следите прогресот онлајн</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  Вашиот %{company.name} тим,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em> Ако сакате да додадете дополнителни коментари или информации <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >логирајте се на вашиот акаунт</span></a> за комплетна архива од вашите побарувања за техничка поддршка.</em></div>

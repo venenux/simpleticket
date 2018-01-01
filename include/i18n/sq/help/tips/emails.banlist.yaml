@@ -1,0 +1,5 @@
+---
+ban_list:
+  title: Email Adresat e Bllokuara
+  content: >
+    Emails received from banned email addresses listed in the ban list will be automatically rejected.
