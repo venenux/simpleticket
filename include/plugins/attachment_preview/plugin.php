@@ -1,11 +1,11 @@
 <?php
 
 return array(
-    'id' => 'clonemeagain:attachment_preview', # notrans
+    'id' => 'venenux:attachment_preview', # notrans
     'version' => '1.0',
     'name' => 'Attachment Inline Plugin',
     'author' => 'clonemeagain@gmail.com',
-    'description' => 'Modifies the page to include as many attachments as would make sense, directly into the Thread.',
-    'url' => 'https://github.com/clonemeagain/attachment_preview',
+    'description' => 'Simpleticket modification of attachment preview plugin, can see files attachments directly in threath',
+    'url' => 'https://gitlab.com/venenux/simpleticket109/tree/master/include/plugins/attachment_preview',
     'plugin' => 'class.AttachmentPreviewPlugin.php:AttachmentPreviewPlugin'
 );

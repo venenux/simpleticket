@@ -1,6 +1,6 @@
 language: php
 php:
-  - '5.6'
+  - '5.3'
   - '7.1'
 
 matrix:
@@ -12,4 +12,4 @@ install:
 
 before_script:
   - '! find . -type f -name "*.php" -exec php -d error_reporting=32767 -l {} \; 2>&1 >&- | grep "^"'
-  - echo 'date.timezone = "Europe/Paris"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+  - echo 'date.timezone = "America/Upata"' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini

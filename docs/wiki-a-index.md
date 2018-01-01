@@ -49,16 +49,17 @@ plus adition, has a extra status "solved" apart of "open" and "closed" derivated
 * [Storage :: Attachments in Amazon S3](https://github.com/osTicket/osTicket-plugins/tree/develop/storage-s3) - Allows attachments to be stored in AWS's S3 instead of the database.
 * [Storage :: Attachments on the Filesystem](https://github.com/osTicket/osTicket-plugins/tree/develop/storage-fs) - Allows attachments to be stored on the webserver's filesystem instead of the database.
 
-### Community Plugins
+### Simpleticket Plugins
 
 *Modifies how the software works, without changing it.*
+
+* [Attachment Preview](../include/plugins/attachment_preview/README.md): Allows files attached to tickets to be embedded in the thread and auto preview directly.
 
 * [TinyMCE](https://github.com/Micke1101/OSTicket-plugin-TinyMCE) - changes editor with advanced more rich-value editor for both client and agents.
 * [Merging](https://github.com/indefero/OSTicket-plugin-Merging) - addeds merging tickets for osticket as plugin.
 * [Autotask](https://github.com/indefero/OSTicket-plugin-Autotask) - Automaticly creates a task when a ticket is created
 * [Notefirst](https://github.com/indefero/osticket-plugin-notefirst) - Ensures that when you view a ticket, the "Post Internal Note" tab is highlighted event the response tab.
 * [Archiver](https://github.com/clonemeagain/osticket-plugin-archiver) - Archives tickets before delete, and allows for auto-pruning of old tickets.
-* [Attachment Preview](https://github.com/clonemeagain/attachment_preview) - Allows files attached to tickets to be embedded in the thread.
 * [Autocloser](https://github.com/clonemeagain/plugin-autocloser) - Automatically closes open tickets.
 * [Fetch Note](https://github.com/bkonetzny/osticket-fetch-note) - Automatically fetch additional note content on ticket creation.
 * [Field Radio Buttons](https://github.com/Micke1101/OSTicket-plugin-field-radiobuttons) - Enables the use of HTML form element Radio Buttons.
