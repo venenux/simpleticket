@@ -46,7 +46,11 @@ but also including the improvement of some people hard work...
 * Route inquiries without exposing internal departments or priorities.
 * Agent Collision Avoidance with Ticket locking mechanism to allow staff avoid conflicting.
 * Auto-Assign or/and Transfer beetween departaments or teams for tickets.
+* Works with old browsers and runs in olders systems! no limits!
+* Allow non-email accounts for logins specially used on intranet's.
+* Mantain noifications independently of To email users
 
+The new **features and diferences from original can be detailed in** [wiki-diferences-from-original.md](wiki-diferences-from-original.md)
 
 License
 -------

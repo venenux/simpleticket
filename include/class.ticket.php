@@ -2009,6 +2009,10 @@ class Ticket {
 
         $this->onResponse($response, array('assignee' => $assignee)); //do house cleaning..
 
+        if($vars['emailcollab'])
+            $this->notifyCollaborators($response,
+                    array('signature' => $signature));
+
         /* email the user??  - if disabled - then bail out */
         if (!$alert) return $response;
 
@@ -2042,10 +2046,6 @@ class Ticket {
             $email->send($this->getOwner(), $msg['subj'], $msg['body'], $attachments,
                 $options);
         }
-
-        if($vars['emailcollab'])
-            $this->notifyCollaborators($response,
-                    array('signature' => $signature));
 
         return $response;
     }
