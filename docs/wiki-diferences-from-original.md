@@ -12,6 +12,7 @@ Differences from original:
 -------------------------
 
 * Attachments are opened in new pop-up window, no more angry!
+* Auto ticket cross-referenced in staff, using #XXXXX when click will redirect to that ticket if exits
 * Collaborators from internal creating new ticket without reply!
 * Works with old browsers and runs in olders systems! no limits!
 * Responsive theming, improved interface (WIP).

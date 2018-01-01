@@ -35,7 +35,7 @@ due all the rejected contribution that the dictators of osticket dont merged in 
 but also including the improvement of some people hard work... 
 
 * Creating tickets as easy as send emails!
-* Customer Portal, customizable rich text forms.
+* Customer Portal, customizable rich text forms, auto ticket cross-reference in staff.
 * User can login using email and ticket ID only, if not can be autoregistered!
 * Collaborators on email and responsive theming for mobile and modern browsers
 * Optionally, No user account or registration required to submit a ticket!
