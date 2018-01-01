@@ -4,14 +4,7 @@
 simpleticket : osTicket 1.9 fork WIKI INDEX
 ==========================================
 
-firts of all there's two osticket excelent forks, apart of this, 
-
-* **[https://github.com/indefero/osTicketLARUEX](https://github.com/indefero/osTicketLARUEX)** a osticket very 
-customized, permits at the site of the users to customize the request of service, extended notifications alerts 
-expanded to groups and teams, redone some behaviour and focuses in easy of usage for nebiews. As a 
-plus adition, has a extra status "solved" apart of "open" and "closed" derivated status. but use 1.10 version unless.
-
-* **[]()** 
+https://venenux.github.io/simpleticket109/
 
 ## Installation and configuration
 
@@ -26,6 +19,13 @@ plus adition, has a extra status "solved" apart of "open" and "closed" derivated
 * [Core Plugins](https://github.com/osTicket/osTicket-plugins) - Plugins written by core developers.
 * [Forum](http://www.osticket.com/forum/) - Forum hosted by osTicket.
 * [FAQ](http://osticket.com/faq) - Technical requirements etc.
+
+## UnOfficial osticker forks active
+
+* **[https://github.com/indefero/osTicketLARUEX](https://github.com/indefero/osTicketLARUEX)** a osticket very 
+customized, permits at the site of the users to customize the request of service, extended notifications alerts 
+expanded to groups and teams, redone some behaviour and focuses in easy of usage for nebiews. As a 
+plus adition, has a extra status "solved" apart of "open" and "closed" derivated status. but use 1.10 version unless.
 
 ## Translations/Language-Packs
 

@@ -1,5 +1,5 @@
-* [README/index](docs/README.md)
-* [wiki/documentation](docs/wiki-a-index.md)
+* [README/index](README.md)
+* [wiki/documentation](wiki-a-index.md)
 
 simpleticket : osTicket 1.9 fork DIFFERENCES FROM ORIGINAL OSTICKET
 ================================

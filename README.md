@@ -4,7 +4,7 @@
 simpleticket : osTicket 1.9 fork
 ================================
 
-<a href="simpleticket109.venenux.io"><img src="docs/media/simpleticketlogo.gif"
+<a href="https://venenux.github.io/simpleticket109/"><img src="docs/media/simpleticketlogo.gif"
 align="left" hspace="10" vspace="6"></a>
 
 Fork from **osTicket** 1.9 version series, widely-used open source support 
