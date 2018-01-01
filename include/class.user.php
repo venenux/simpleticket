@@ -796,6 +796,7 @@ class PersonsName {
 
 class UserEmail extends UserEmailModel {
     static function ensure($address) {
+        $address = (string) $address;
         $email = static::lookup(array('address'=>$address));
         if (!$email) {
             $email = static::create(array('address'=>$address));
