@@ -18,6 +18,7 @@ Differences from original:
 * Responsive theming, improved interface (WIP).
 * Allow non-email accounts for logins specially used on intranet's.
 * Mantain noifications independently of To email users
+* Title bar auto-internal refresher with alert flashing if there a new ticket
 
 Features and improvements:
 ----------------------

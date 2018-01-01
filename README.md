@@ -42,7 +42,7 @@ Differences from original:
 * Responsive theming, improved interface (WIP).
 * Allow non-email accounts for logins specially used on intranet's.
 * Mantain noifications independently of To email users
-* .. details of differences are in the [docs/wiki-diferences-from-original.md](docs/wiki-diferences-from-original.md)
+* .. many **more details of differences** in the [docs/wiki-diferences-from-original.md](docs/wiki-diferences-from-original.md)
 
 More information:
 ----------------

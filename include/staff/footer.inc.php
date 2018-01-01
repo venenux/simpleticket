@@ -56,6 +56,7 @@ if ($thisstaff && $thisstaff->getLanguage() != 'en_US') { ?>
         echo $thisstaff->getLanguage(); ?>/js"></script>
 <?php } ?>
 <script type="text/javascript" src="js/autolink-tickets.js"></script>
+<script type="text/javascript" src="js/open-tickets.js"></script>
 </body>
 </html>
 <?php } # endif X_PJAX ?>
