@@ -69,11 +69,14 @@ plus adition, has a extra status "solved" apart of "open" and "closed" derivated
 * [Reporting](http://software-mods.com/reports.html) - Paid plugin for extensive reporting.
 * [Rewriter](https://github.com/clonemeagain/plugin-fwd-rewriter) - An osTicket plugin to rewrite incoming emails.
 
-### Extra scripts
+### Extra scripts and proyects around
 
+* [https://github.com/techsavyravi/osticketdashboard](https://github.com/techsavyravi/osticketdashboard) perfect and siple great impelmentation of a dashboard easy to manage in php.
+* [https://github.com/IFARHU/osticket_dashing](https://github.com/IFARHU/osticket_dashing) project that implement a dashboar in ruby
 * [https://github.com/monkiki/osTicket-Addons](https://github.com/monkiki/osTicket-Addons) php script to assing to most free agent in cola. can find here in include/others
 * [https://github.com/magisjay/OsTicketProxy](https://github.com/magisjay/OsTicketProxy) php script to redirect Zappier php request to osticket url. can find here original script.
 * [https://github.com/SovGVD/osticket-api-class.git](https://github.com/SovGVD/osticket-api-class.git) php class to use own made api, can find here in include/others
+* [https://github.com/indefero/osticket-customtabs](https://github.com/indefero/osticket-customtabs) mod to make customized tabs from ui of osticket
 
 ### Third Party Integration 
 
@@ -82,7 +85,7 @@ plus adition, has a extra status "solved" apart of "open" and "closed" derivated
 * [Magento Contact Integration](https://github.com/CopeX/magento-osticket-api) - Plugin for Magento to send contact form details to osTicket via the API.
 * [Trello](https://github.com/kyleladd/OSTicket-Trello-Plugin) - Integrates Trello with osTicket.
 * [Slack](https://github.com/clonemeagain/osticket-slack) - Sends notifications of new and updated tickets to a Slack channel.
- 
+
 ## Themes
 
 *Require modifications to osTicket core.*
