@@ -217,9 +217,9 @@ class RandomSequence extends Sequence {
     // Override the ORM constructor and do nothing
     function __construct() {}
 
-    function __next($digits=6) {
-        if ($digits < 6)
-            $digits = 6;
+    function __next($digits=12) {
+        if ($digits < 12)
+            $digits = 12;
 
         return Misc::randNumber($digits);
     }
