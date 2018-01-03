@@ -54,7 +54,7 @@ Original osTicket forum can be point of help in old info: [http://osticket.com/f
 ### Requirements ###
 ------------
 
-Documentation for install are all in: [docs/wiki-install1.md](docs/wiki-install1.md) 
+Documentation **for download and install are all in**: [docs/wiki-install1.md](docs/wiki-install1.md) 
 the process it's so easy as easy to use like send a email to the system.
 
   * HTTPD: prefered lighttpd or hiawatta
@@ -66,12 +66,11 @@ the process it's so easy as easy to use like send a email to the system.
 Contributing
 ------------
 
-Contribution rules are in the [docs/wiki-contributingrules.md](docs/wiki-contributingrules.md) document.
-
-In quick resumen, create your own fork of the project and use
-[git-flow](https://github.com/nvie/gitflow) to create a new feature. Once
-the feature is published in your fork, send a pull request to begin the
-conversation of integrating your new feature into osTicket.
+All the work are made in gitlab repository: https://gitlab.com/venenux/simpleticket109 
+In quick resumen, create your own fork of the project/repository and use
+[gitlab-flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html#introduction-to-gitlab-flow) 
+to create a new feature or added code changes. Once the feature/change is published/commited in your fork, 
+send a pull request to begin the conversation of integrating your new feature into.
 
 Rules for that pulls/merge requests:
 * must be php 5.3 compatible and mysql 5.2 compatible
@@ -79,6 +78,8 @@ Rules for that pulls/merge requests:
 * must provide explanations and documentations
 * code must be well idented, if not pull/merge must be editable
 * all must be in gitlab, github its a privative piece of shit only mirror!
+
+PLEASE READ Contribution rules in the [docs/wiki-contributingrules.md](docs/wiki-contributingrules.md) document.
 
 License
 -------

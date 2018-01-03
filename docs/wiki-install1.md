@@ -36,7 +36,19 @@ Any OsX, BSD like or linux distribution older or newer can run this software, th
   * PHP JSON extension (faster performance ?¡?) not necesary.
   * Phar extension - recommended for plugins and language packs from official osticket, not mandatory.
 
-## PRocedure install ##
+## Download ##
+
+Please download from gitlab or use the mirror github in the remote web server place:
+`git clone https://gitlab.com/venenux/simpleticket109 simpleticket`
+and a new directory `simpleticket` will be created with the sources.
+
+You can download a single file with all compresed, as tarball, only click here for lasted:
+* from gitlab tags marks releases: https://gitlab.com/venenux/simpleticket109/tags
+* from github read only mirrored: https://github.com/venenux/simpleticket109/tags
+or use the releases page here:
+* [https://venenux.github.io/simpleticket109/releases](releases.md)
+
+## Installation ##
 
 Lest assume the following environment:
 1. a local install, so all will be **refered into the** `127.0.0.1` **address ip** machine.
@@ -46,8 +58,42 @@ Lest assume the following environment:
 The easy and simples way its **put all the files in root web server**, by example if root web server are `/var/www/html` 
 then put the complete osticket files inside a new directory as `/var/www/html/simpleticket/` then..
 
+A **professional way its to use aliasing**, this means download in a directory away from webroot, 
+then make aliasing of the real path directory to the webb root place into the web server.
+
+**For specific installations cases, use our specific documentation for each OS or cases at the end of the page!**
+
+### Download case: XAMP and remote console access ###
+
+We will **assumed that a XAMP installation its for test and no production usage** so 
+will use lasted development in this case: in the console, clone it into the web root, 
+so by example, if web root (htdocs) are in `/opt/xamp/htdoc`, so then:
+
+`cd /opt/xamp/htdoc;git clone https://gitlab.com/venenux/simpleticket109 websupport`
+
+In that command the osticket "simpleticket109" software will be downloaded into the 
+directory `htdoc` of the XAMP software at the `/opt/xamp/` place, but in a specific 
+subpath directory named `websuppor` so for the web server the browser call will 
+be as: `http://<serverip>/websupport` so if your webserver has ip `192.168.1.10` as example 
+the call will be in the web browser as: `http://192.168.1.10/websupport`
+
+### Download case: COMPRESED file and no console accesss ###
+
+If **no direct console/ssh access are allowed with the web server, download a compresed single file** 
+firts, using this link https://venenux.github.io/simpleticket109/releases
+and then upload decompressed using a ftp client or webfilemanager clien, 
+directly in the htdoc directory of the web server, by example `/var/www/html` or 
+in some cases if you are using a provider could be `/home/userxyz/public_html/` ...
+
+You can also download lasted development from gitlab directly:
+using this link (for lasted development) https://gitlab.com/venenux/simpleticket109/repository/master/archive.tar.gz
+or also use the mirror readonly github directly too:
+using this link (for lasted clone mirror) https://github.com/venenux/simpleticket109/archive/master.tar.gz
+
+### Pre-setup preparation and file permission###
+
 osTicket installer requires ability to write to the configuration file, `include/ost-config.php` so then 
-before start to install, copy by the following command assuming the previous environment described in first paragraph:
+before start to install, copy by the following command assuming directory path are in `/var/www/html` as:
 
 `cp /var/www/html/simpleticket/include/ost-sampleconfig.php /var/www/html/simpleticket/ost-config.php`
 
@@ -58,6 +104,8 @@ by example, in mayor linux distros are `www-data` or `httpd` in BSD-like/OsX so 
 
 **once done, open a browser and call `http://127.0.0.1/simpleticket`** the setup program will redirect 
 to proper screen to install.
+
+### Procedure setup screen ###
 
 **Pre-setup installation data**: osTicket's installation script will attempt to auto-detect paths and any permission issues. 
 
@@ -81,9 +129,11 @@ Further configuration is required, post-install, to make the system fully functi
 Now with last command, your osTicket installation has been completed successfully. 
 Your next step is to fully configure your new support ticket system by the web interface.
 
-## Specific procedures by OS
+# Installation guides - Specific procedures by OS and special cases
 
-* Devuan [wiki-install2-devuan.md](wiki-install2-devuan.md)
+* XAMP [wiki-install1-xamp.md](wiki-install1-xamp.md)
+* Devuan and lighty [wiki-install2-devuan.md](wiki-install2-devuan.md)
+* Debian and apache2 [wiki-install2-devuan.md](wiki-install2-debian.md)
 * hiawatta [wiki-install2-hiawatta.md](wiki-install2-hiawatta.md)
 
 ## external usefully information.

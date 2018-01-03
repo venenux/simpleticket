@@ -1,1 +1,1 @@
-/home/jennifer/Devel/simpleticket109/docs/LICENSE.txt
+docs/LICENSE.txt

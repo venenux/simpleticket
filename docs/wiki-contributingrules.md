@@ -14,10 +14,11 @@ simple easy-to-use multi-user interface.
 Contributing introductions
 --------------------------
 
-In quick resumen, create your own fork of the project and use
-[git-flow](https://github.com/nvie/gitflow) to create a new feature. Once
-the feature is published in your fork, send a pull request to begin the
-conversation of integrating your new feature into osTicket.
+All the work are made in gitlab repository: https://gitlab.com/venenux/simpleticket109 
+In quick resumen, create your own fork of the project/repository and use
+[gitlab-flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html#introduction-to-gitlab-flow) 
+to create a new feature or added code changes. Once the feature/change is published/commited in your fork, 
+send a pull request to begin the conversation of integrating your new feature into.
 
 Translation information guide
 -----------------------------
