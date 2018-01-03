@@ -24,10 +24,10 @@ Translation information guide
 -----------------------------
 
 Please read the  [wiki-translators.md](wiki-translators.md) document for specific guidelines 
-respect translation rules. Original osticket used Crowdin to manage translations, but not simpleticket.
+respect translation rules. All the tools for tranlating can be done offline, please read it.
 
-Basically can use the `en_US` directory as template and rename to the new lang or 
-can visit translation page at http://i18n.crowdin.com/ and copy the 
+Alternativelly can use the `en_US` directory as template and rename to the new lang or 
+can visit translation page at https://crowdin.com/project/osticket-official and copy the 
 template or a based file to work inside simpleticket and conver all entries to.
 
 # Code and source Contribution Guidelines #
