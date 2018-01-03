@@ -74,7 +74,10 @@ if (($lang = Internationalization::getCurrentLanguage())
             <?php }else{ ?>
             | <a href="index.php" class="no-pjax"><?php echo __('Agent Panel'); ?></a>
             <?php } ?>
+           <?php
+            if($thisstaff->canBanEmails() || ($thisstaff->canEditTickets() && $thisstaff->isAdmin()) || $thisstaff->isAdmin()) { ?>
             | <a href="profile.php"><?php echo __('My Preferences'); ?></a>
+            <?php } ?>
             | <a href="logout.php?auth=<?php echo $ost->getLinkToken(); ?>" class="no-pjax"><?php echo __('Log Out'); ?></a>
         </p>
         <a href="index.php" class="no-pjax" id="logo">
