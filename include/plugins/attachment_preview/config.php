@@ -7,14 +7,14 @@ class AttachmentPreviewPluginConfig extends PluginConfig {
   // translation support (v1.9.4)
   function translate() {
     if (! method_exists('Plugin', 'translate')) {
-      return [
+      return array(
         function ($x) {
           return $x;
         },
         function ($x, $y, $n) {
           return $n != 1 ? $y : $x;
         }
-      ];
+      );
     }
     return Plugin::translate('attachment_preview');
   }
@@ -29,72 +29,70 @@ class AttachmentPreviewPluginConfig extends PluginConfig {
   function getOptions() {
     list ($__, $_N) = self::translate();
     
-    return [
+    return array(
       'attachment-enabled' => new BooleanField(
-        [
+        array(
           'label' => $__('Permission'),
           'default' => TRUE,
           'hint' => 'Check to enable attachments inline, uncheck only allows the API to function.'
-        ]),
+        )),
         'attachment-size' => new TextboxField(
-        [
+        array(
           'label' => $__('Max Size'),
           'default' => 1024,
           'hint' => 'Enter maximum Kilobytes of an attachment to inline. Larger attachments are ignored.'
-        ]),      
+        )),
       'attach-pdf' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline PDF files as <object>s'),
           'default' => TRUE
-        ]),
+        )),
       'attach-image' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline image files as <img>s'),
           'default' => TRUE
-        ]),
+        )),
       'attach-text' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline textfiles (txt,csv) as <pre>'),
           'default' => TRUE
-        ]),
+        )),
       'attach-html' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline HTML files into a <div>'),
           'hint' => $__(
             'Dangerous: While we filter/sanitize the HTML, make sure it is something you really need before turning on.'),
           'default' => FALSE
-        ]),
+        )),
       'attach-audio' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline audio attachments as Players'),
           'default' => FALSE
-        ]),
+        )),
       'attach-video' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline video attachments as Players'),
           'hint' => $__("Embeds video attachments "),
           'default' => FALSE
-        ]),
+        )),
       'attach-youtube' => new BooleanField(
-        [
+        array(
           'label' => $__('Inline Youtube links to Players'),
           'default' => FALSE
-        ]),
+        )),
       'show-ms-upgrade-help' => new BooleanField(
-        [
+        array(
           'label' => $__('Show IE upgrade link'),
-          'hint' => $__(
-            'Enable help link to abetterbrowser.org for PDFs when on Internet Explorer'),
+          'hint' => $__('Enable help link to abetterbrowser.org for PDFs when on Internet Explorer'),
           'default' => TRUE
-        ]),
+        )),
       'show-initially' => new ChoiceField(
-        [
+        array(
           'label' => $__('Number of attachments to show initially'),
           'default' => "ALL", 
-          'hint' => $__(
-            'If you find too many attachments displaying at once is slowing you down, change this to only show some of them at first.'),
-        'choices' =>
-                [
+          'hint' => $__('If you find too many attachments displaying at once is slowing you down, change this to only show some of them at first.'),
+          'choices' =>
+                array(
                     "NONE" => '0',
                     '1'    => '1',
                     '2'    => '2',
@@ -107,8 +105,8 @@ class AttachmentPreviewPluginConfig extends PluginConfig {
                     '9'    => '9',
                     '10'   => '10',
                     "ALL"  => $__('All') // Woo.
-                ]
-                    ])
-        ];
+                )
+        ))
+    );
   }
 }

@@ -27,7 +27,7 @@ class AttachmentPreviewPlugin extends Plugin {
      *
      * @var array
      */
-    static $foreign_elements = [];
+    static $foreign_elements = array();
 
     /**
      * You will want this off! It will post an error log entry for every single
@@ -44,14 +44,14 @@ class AttachmentPreviewPlugin extends Plugin {
      *
      * @var array
      */
-    private $messages = [];
+    private $messages = array();
 
     /**
      * An array of scripts to be injected.
      *
      * @var array
      */
-    static $scripts = [];
+    static $scripts = array();
 
     /**
      * A string of HTML to be appended madly to the end of the normal output.
@@ -93,8 +93,7 @@ class AttachmentPreviewPlugin extends Plugin {
         // Looks like there is no central router in osTicket yet, so I'll just parse REQUEST_URI
         // Can't go injecting this into every page.. we only want it for the actual ticket pages & Knowledgebase Pages
         if (self::isTicketsView() && $config->get('attachment-enabled')) {
-            $this->debug_log(
-                    "Agent requested a tickets-view: Starting the attachments plugin.");
+            $this->debug_log("Agent requested a tickets-view: Starting the attachments plugin.");
             // We could hack at core, or we can simply capture the whole page output and modify the HTML then..
             // Not "easier", but less likely to break core.. right?
             // There appears to be a few uses of ob_start in the codebase, but they stack, so it works!
@@ -236,10 +235,7 @@ class AttachmentPreviewPlugin extends Plugin {
                 if (method_exists($this, $func)) {
                     $this->debug_log("Calling %s for %s", $func, $link->getAttribute('href'));
                     // Call the method to insert the linked attachment into the DOM:
-                    call_user_func([
-                        $this,
-                        $func
-                            ], $dom, $link);
+                    call_user_func(array($this, $func), $dom, $link);
                 }
             }
             elseif ($config->get('attach-youtube')) {
@@ -275,33 +271,33 @@ class AttachmentPreviewPlugin extends Plugin {
      */
     private function get_allowed_extensions(PluginConfig $config) {
         // Determine what method to run for each extension type:
-        $allowed_extensions = [];
+        $allowed_extensions = array();
 
         // If you know browsers can handle more, please, submit a pull request!
-        $types = [
-            'pdf'   => [
+        $types = array(
+            'pdf'   => array(
                 'pdf'
-            ],
-            'text'  => [
+            ),
+            'text'  => array(
                 'csv',
                 'txt'
-            ],
-            'html'  => [
+            ),
+            'html'  => array(
                 'html'
-            ],
-            'image' => [
+            ),
+            'image' => array(
                 'bmp',
                 'svg',
                 'gif',
                 'png',
                 'jpg',
                 'jpeg'
-            ],
-            'audio' => [
+            ),
+            'audio' => array(
                 'wav',
                 'mp3'
-            ],
-            'video' => [
+            ),
+            'video' => array(
                 'mp4',
                 'ogv',
                 'ogg',
@@ -309,8 +305,8 @@ class AttachmentPreviewPlugin extends Plugin {
                 'webm',
                 '3gp',
                 'flv'
-            ]
-        ];
+            )
+        );
         foreach ($types as $type => $extensions) {
             if (!$config->get("attach-{$type}")) {
                 continue;
@@ -511,11 +507,11 @@ class AttachmentPreviewPlugin extends Plugin {
             $toggle_script->setAttribute('name', 'Attachments Preview Toggle Script');
 
             // This makes it translateable.
-            $replace                  = [
+            $replace                  = array(
                 '#SHOW#'  => __('Show Attachment'),
                 '#HIDE#'  => __('Hide Attachment'),
                 '#LIMIT#' => $limit
-            ];
+            );
             $toggle_script->nodeValue = str_replace(array_keys($replace), array_values($replace), file_get_contents(__DIR__ . '/script.js'));
 
             // Insert the script into the first wrapped element
@@ -755,13 +751,13 @@ class AttachmentPreviewPlugin extends Plugin {
         $dom        = self::getDom("<html><div>$html</div></html>");
         // Now everything that they added can be injected as a "Foreign Element"
         // Note the selector selects the first <div> which is what we injected two lines up:
-        $structures = [];
+        $structures = array();
         foreach ($dom->getElementsByTagName('div')->item(0)->childNodes as $node) {
-            $structures[] = (object) [
+            $structures[] = (object) array(
                         'element'    => $node,
                         'locator'    => $locator,
                         'expression' => $expression
-            ];
+            );
         }
         if (count($structures)) {
             self::$foreign_elements['raw-' . $foreigners++] = $structures;
@@ -786,13 +782,13 @@ class AttachmentPreviewPlugin extends Plugin {
         $script_element->nodeValue = $script;
 
         // Connect to the attachment_previews API wrapper and save the structure:
-        self::$foreign_elements['raw-script-' . $script_count++] = [
-            (object) [
+        self::$foreign_elements['raw-script-' . $script_count++] = array(
+            (object) array(
                 'locator'    => 'tag', // References an HTML tag, in this case <body>
                 'expression' => 'body', // Append to the end of the body (persists through pjax loads of the container)
                 'element'    => $script_element
-            ]
-        ];
+            )
+        );
     }
 
     /**
@@ -1034,7 +1030,7 @@ class AttachmentPreviewPlugin extends Plugin {
      * Plugin seems to want this.
      */
     public function getForm() {
-        return [];
+        return array();
     }
 
 }
