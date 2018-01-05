@@ -653,7 +653,7 @@ class ThreadEntry {
             if($attachment['size'])
                 $size=sprintf('<em>(%s)</em>', Format::file_size($attachment['size']));
 
-            $str.=sprintf('<a class="Icon file no-pjax" href="%s" target="%s">%s</a>%s&nbsp;%s',
+            $str.=sprintf('<a class="Icon file no-pjax" href="%s" target="_blank" onClick="window.open(this.href, this.target, \'width=900,height=700\'); return false;">%s%s&nbsp;%s</a>',
                     $attachment['download_url'], $target, Format::htmlchars($attachment['name']), $size, $separator);
         }
 
