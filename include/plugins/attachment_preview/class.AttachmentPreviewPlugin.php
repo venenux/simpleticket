@@ -35,7 +35,7 @@ class AttachmentPreviewPlugin extends Plugin {
      *
      * @var string
      */
-    const DEBUG = TRUE;
+    const DEBUG = FALSE;
 
     /**
      * An array of messages to be logged. This plugin is called before $ost is
@@ -59,10 +59,15 @@ class AttachmentPreviewPlugin extends Plugin {
      * @var string
      */
     static $appended = '';
+
+    /**
+     * Singleton reference to itself, used for static functions to find the one object.
+     * @var type 
+     */
     static $instance = null;
 
     /**
-     * Explicitly define a constructor, to wrap a $this reference
+     * Explicitly define a constructor, to wrap a $this reference as $instance
      * @param type $id
      */
     public function __construct($id) {
@@ -72,7 +77,7 @@ class AttachmentPreviewPlugin extends Plugin {
 
     /**
      * Replacing the register_shutdown_function's anonymous use of $this
-     * with the object's destructor for PHP5.3
+     * with the object's destructor for PHP5.3 compatibility
      */
     public function __destruct() {
         if (count($this->messages)) {
@@ -81,7 +86,7 @@ class AttachmentPreviewPlugin extends Plugin {
     }
 
     /**
-     * Kinda like a Singleton factory, but without the "factory" part.. 
+     * Singleton pattern
      * Relies on the normal bootstrap phase from osTicket to construct the 
      * only instance we want. 
      * 
@@ -147,7 +152,6 @@ class AttachmentPreviewPlugin extends Plugin {
      * Hopefully the Singleton factory pattern works properly..
      */
     public static function shutdownHandler() {
-
         $plugin = AttachmentPreviewPlugin::getInstance();
         $plugin->debug_log("Shutdown handler for inline attachments running");
         // Output the buffer
@@ -214,36 +218,67 @@ class AttachmentPreviewPlugin extends Plugin {
             return $html;
         }
 
+        $this->debug_log("Looking for linked files with ext: " . implode(',', array_values($allowed_extensions)));
+
+
         // Let's not get regex happy.. we all have the tendency.. :-)
         $dom   = self::getDom($html);
         $xpath = new DOMXPath($dom);
+        // $xpath->registerNamespace('html', 'http://www.w3.org/1999/xhtml');
 
+        $links_seen          = 0;
+        $attachments_inlined = 0;
 
+        $rewrite_youtube = (bool) $config->get('attach-youtube'); // cache responses
+        $rewrite_links   = (bool) $config->get('newtab-links');
 
         // Find all <a> elements: http://stackoverflow.com/a/29272222 as DOMElement's
         foreach ($dom->getElementsByTagName('a') as $link) {
+            // All links.. could be messy
+            $this->debug_log("Saw link: %s", $link->textContent);
+            $links_seen ++;
+
             // Check the link points to osTicket's "attachments" provider:
             // osTicket uses /file.php for all attachments
+            // we could have used XPATH: //a[@class="file"] however, that would break the youtube one.
             if (strpos($link->getAttribute('href'), '/file.php') !== FALSE) {
+                if ($rewrite_links && !$link->getAttribute('target')) {
+                    $this->debug_log("CHANGING ATTRIBUTE OF ATTACHMENT LINK");
+                    // Set the target attribute of the attachment link to _blank to make the browser open in new-window/tab
+                    // Have to do it before we append to this element.
+                    // Rebuild the link with the attributes we want.. ffs DOM
+                    $new_link      = $dom->createElement('a', $link->nodeValue);
+                    $new_link->setAttribute('href', $link->getAttribute('href'));
+                    $new_link->setAttribute('class', $link->getAttribute('class'));
+                    $new_link->setAttribute('target', '_blank');
+                    // Simply using NodeElement::replaceChild on the $link's parent element didn't work.. 
+                    // So.. Let's get creative. 
+                    // We want to put it before the <em> element containing the size.. 
+                    $em_to_prepend = $link->nextSibling;
+                    $link->parentNode->insertBefore($new_link, $em_to_prepend);
 
+                    // If we delete it now, we can't use it to inject the attachment.., so, we delete later.
+                    // $link->parentNode->removeChild($link);
+                }
                 // Luckily, the attachment link contains the filename.. which we can use!
                 // Grab the extension of the file from the filename:
                 $ext        = $this->getExtension($link->textContent);
                 if ($size_limit = (int) $config->get('attachment-size') && $size_limit) {
+                    $this->debug_log("size filter found: %b kb", $size_limit);
                     $size_element = $xpath->query("following-sibling::*[1]", $link)->item(0);
 
                     if ($size_element instanceof DomElement) {
                         $size_b  = $this->unFormatSize($size_element->nodeValue);
-                        $this->debug_log("$ext is roughly: $size_b bytes in size.");
+                        $this->debug_log("%s is roughly: %d bytes in size.", $ext, $size_b);
                         $size_kb = $size_b / 1024;
                         if ($size_kb > $size_limit) {
                             // Skip this one, got a bit of an ass on it!
-                            $this->debug_log("Skipping attachment, size filter");
+                            $this->debug_log("Skipping attachment, size filter restricted it.");
                             continue;
                         }
                     }
                 }
-                $this->debug_log("Attempting to add $ext file.");
+                $this->debug_log("Attempting to add %s file.", $ext);
 
                 // See if admin allowed us to inject files with this extension:
                 if (!$ext || !isset($allowed_extensions[$ext])) {
@@ -256,16 +291,25 @@ class AttachmentPreviewPlugin extends Plugin {
                     $this->debug_log("Calling %s for %s", $func, $link->getAttribute('href'));
                     // Call the method to insert the linked attachment into the DOM:
                     $this->{$func}($dom, $link);
+                    $attachments_inlined++;
+                }
+
+                if ($rewrite_links) {
+                    $link->parentNode->removeChild($link);
                 }
             }
-            elseif ($config->get('attach-youtube')) {
+            elseif ($rewrite_youtube) {
                 // This link isn't to /file.php & admin have asked us to check if it is a youtube link.
                 // The overhead of checking strpos on every URL is less than the overhead of checking for a youtube ID!
                 if (strpos($link->getAttribute('href'), 'youtub') !== FALSE) {
                     $this->add_youtube($dom, $link);
+                    $attachments_inlined++;
                 }
             }
         }
+
+        $this->debug_log("Saw %d link elements in the osTicket page.", $links_seen);
+        $this->debug_log("Inlined: %d attachment[s].", $attachments_inlined);
 
         // Before we return this, let's see if any foreign_elements have been provided by other plugins, we'll insert them.
         // This allows those plugins to edit this plugin.. seat-of-the-pants stuff!
@@ -276,7 +320,7 @@ class AttachmentPreviewPlugin extends Plugin {
         // just return the original if error
         $modified_html = self::printDom($dom);
         if (!$modified_html) {
-            $this->log("Error manipulating the DOM");
+            $this->log("Error manipulating the DOM, original returned.");
             return $html;
         }
         // The edited HTML can be sent to the browser (end of shutdown_handler calls print)
@@ -508,10 +552,10 @@ class AttachmentPreviewPlugin extends Plugin {
     private function wrap(DOMDocument $doc, DOMElement $source, DOMElement $new_child) {
         // Implement a limit for attachments. Only show the admin configured amount at first
         // if there are any more, we will inject them, however they will be shown as buttons
-        static $number;
-        static $limit;
+        static $number = 0;
+        static $limit  = 0;
 
-        if (!isset($number)) {
+        if (!$number) {
             $number         = 1;
             // Fetch the attachment limit from the config for later
             $limit          = $this->getConfig()->get('show-initially');
@@ -610,13 +654,18 @@ class AttachmentPreviewPlugin extends Plugin {
     }
 
     /**
-     * Converts and HTML string into a DOMDocument.
+     * Converts an HTML string into a DOMDocument.
      *
      * @param string $html
      * @return \DOMDocument
      */
     public static function getDom($html = '') {
+        $p                        = self::getInstance();
+        $p->debug_log("Loading HTML into DOM object.");
         $dom                      = new \DOMDocument('1.0', 'UTF-8');
+        $dom->validateOnParse     = true;
+        $dom->resolveExternals    = true;
+        $dom->preserveWhiteSpace  = false;
         // Turn off XML errors.. if only it was that easy right?
         $dom->strictErrorChecking = FALSE;
         libxml_use_internal_errors(true);
@@ -632,19 +681,38 @@ class AttachmentPreviewPlugin extends Plugin {
         }
 
         // Convert the HTML into a DOMDocument, however, don't imply it's HTML, and don't insert a default Document Type Template
-        @$dom->loadHTML($html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        // Note, we can't use the Options parameter until PHP 5.4 http://php.net/manual/en/domdocument.loadhtml.php
+        $loaded = false;
+        if (version_compare(PHP_VERSION, '5.4', '>=')) {
+            $loaded = $dom->loadHTML($html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        }
+        else {
+            $loaded = $dom->loadHTML($html);
+        }
+        if (!$loaded) {
+            if (DEBUG) {
+                $error = libxml_get_errors();
+                print_r($error);
+            }
+            $p->debug_log("There was a problem loading the DOM.");
+        }
+        else {
+            $p->debug_log("%d chars of HTML was inserted into a DOM", strlen($html));
+        }
         libxml_use_internal_errors(FALSE); // restore xml parser error handlers
+        $p->debug_log('DOM Loaded.');
         return $dom;
     }
 
     /**
-     * Wrapper around DOMDocument::saveHTHML() that strips any pjax prefix we
-     * added Ensure you check for null!
+     * Gets the DOM back as HTML
      *
      * @param DOMDocument $dom
      * @return mixed|string
      */
     public static function printDom(DOMDocument $dom) {
+        $p        = self::getInstance();
+        $p->debug_log("Converting the DOM back to HTML");
         // Check for failure to generate HTML
         // DOMDocument::saveHTML() returns null on error
         $new_html = $dom->saveHTML();
@@ -658,7 +726,7 @@ class AttachmentPreviewPlugin extends Plugin {
     }
 
     /**
-     * Wrapper around log method
+     * Wrapper around log method that checks for DEBUG first.
      */
     private function debug_log($text, $_ = null) {
         if (self::DEBUG) {
@@ -683,13 +751,16 @@ class AttachmentPreviewPlugin extends Plugin {
         if (!$format) {
             return;
         }
-        if (is_array($args[0])) { // handle debug_log or array of variables
+        if (is_array($args[0])) {
+            // handle debug_log's version or array of variables passed
             $text = vsprintf($format, $args[0]);
         }
-        elseif (count($args)) { // handle normal variables as arguments
+        elseif (count($args)) {
+            // handle normal variables as arguments
             $text = vsprintf($format, $args);
         }
-        else {// no variables passed
+        else {
+            // no variables passed
             $text = $format;
         }
 
@@ -759,7 +830,10 @@ class AttachmentPreviewPlugin extends Plugin {
 
         if (self::DEBUG) {
             // note: static function can't call $this->debug_log()
-            error_log("Received arbitrary HTML injection");
+            if (self::DEBUG) {
+                $p = self::getInstance();
+                $p->debug_log("Received %d chars of arbitrary HTML", strlen($html));
+            }
         }
 
         // Wrap in a <div> then check for children of it immediately after:
@@ -768,7 +842,7 @@ class AttachmentPreviewPlugin extends Plugin {
         // Now everything that they added can be injected as a "Foreign Element"
         // Note the selector selects the first <div> which is what we injected two lines up:
         $structures = array();
-        foreach ($dom->getElementsByTagName('div')->item(0)->childNodes as $node) {
+        foreach ($dom->getElementsByTagName('div')->item(0)->childNodes as $node) { //Might fail on 5.3
             $structures[] = (object) array(
                         'element'    => $node,
                         'locator'    => $locator,
@@ -790,7 +864,8 @@ class AttachmentPreviewPlugin extends Plugin {
     public static function add_arbitrary_script($script) {
         static $script_count = 1;
         if (self::DEBUG) {
-            error_log("Received arbitrary script injection");
+            $p = self::getInstance();
+            $p->debug_log("Received %d chars of arbitrary script injection", strlen($script));
         }
         $dom                       = new DOMDocument();
         $script_element            = $dom->createElement('script');
@@ -815,7 +890,8 @@ class AttachmentPreviewPlugin extends Plugin {
      */
     public static function appendHtml($html) {
         if (self::DEBUG) {
-            error_log("Received html append");
+            $p = self::getInstance();
+            $p->debug_log("Received %d chars of HTML to append", strlen($html));
         }
         //$plugin           = self::getInstance();
         self::$appended .= $html;
@@ -972,10 +1048,13 @@ class AttachmentPreviewPlugin extends Plugin {
      * @return string
      */
     public static function getExtension($string) {
+        // Why reinvent the wheel? 
         return trim(strtolower(pathinfo($string, PATHINFO_EXTENSION)));
     }
 
     /**
+     * Determines based on the current URI if the page is a tickets page or not.
+     * 
      * We only want to inject when viewing tickets, not when EDITING tickets.. or
      * any other view. Available statically via:
      * AttachmentPreviewPlugin::isTicketsView()
@@ -984,7 +1063,7 @@ class AttachmentPreviewPlugin extends Plugin {
      */
     public static function isTicketsView() {
         $tickets_view = false;
-        $url = $_SERVER['REQUEST_URI'];
+        $url          = $_SERVER['REQUEST_URI'];
 
         // Run through the most likely candidates first:
         // Ignore POST data, unless we're seeing a new ticket, then don't ignore.
@@ -1038,7 +1117,7 @@ class AttachmentPreviewPlugin extends Plugin {
      *
      * @see Plugin::uninstall()
      */
-    function uninstall(&$errors="none") {
+    function uninstall(&$errors) {
         parent::uninstall($errors);
     }
 
