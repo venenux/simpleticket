@@ -87,6 +87,7 @@ $_SESSION['orgs_qs_'.$qhash] = $query;
     </form>
  </div>
 
+<?php if( ($thisstaff->canEditTickets() && $thisstaff->isAdmin()) || $thisstaff->isAdmin() ){ ?>
 <div class="pull-right">
     <a class="action-button add-org"
         href="#">
@@ -106,7 +107,7 @@ $_SESSION['orgs_qs_'.$qhash] = $query;
         </ul>
     </div>
 </div>
-
+<?php } ?>
 <div class="clear"></div>
 <?php
 $showing = $search ? __('Search Results').': ' : '';

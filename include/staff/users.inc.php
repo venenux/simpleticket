@@ -92,6 +92,7 @@ $_SESSION['users_qs_'.$qhash] = $query;
  </div>
 
 <div class="pull-right">
+<?php if($thisstaff->isAdmin()) { ?>
     <a class="action-button popup-dialog"
         href="#users/add">
         <i class="icon-plus-sign"></i>
@@ -102,6 +103,7 @@ $_SESSION['users_qs_'.$qhash] = $query;
         <i class="icon-upload"></i>
         <?php echo __('Import'); ?>
     </a>
+<?php } ?>
     <span class="action-button" data-dropdown="#action-dropdown-more"
         style="/*DELME*/ vertical-align:top; margin-bottom:0">
         <i class="icon-caret-down pull-right"></i>
@@ -109,22 +111,26 @@ $_SESSION['users_qs_'.$qhash] = $query;
     </span>
     <div id="action-dropdown-more" class="action-dropdown anchor-right">
         <ul>
+<?php if($thisstaff->isAdmin()) { ?>
             <li><a class="users-action" href="#delete">
                 <i class="icon-trash icon-fixed-width"></i>
                 <?php echo __('Delete'); ?></a></li>
+<?php } ?>
             <li><a href="#orgs/lookup/form" onclick="javascript:
 $.dialog('ajax.php/orgs/lookup/form', 201);
 return false;">
                 <i class="icon-group icon-fixed-width"></i>
                 <?php echo __('Add to Organization'); ?></a></li>
 <?php
-if ('disabled' != $cfg->getClientRegistrationMode()) { ?>
+if ('disabled' != $cfg->getClientRegistrationMode()) {
+ if($thisstaff->isAdmin()) { ?>
             <li><a class="users-action" href="#reset">
                 <i class="icon-envelope icon-fixed-width"></i>
                 <?php echo __('Send Password Reset Email'); ?></a></li>
             <li><a class="users-action" href="#register">
                 <i class="icon-smile icon-fixed-width"></i>
                 <?php echo __('Register'); ?></a></li>
+<?php } ?>
             <li><a class="users-action" href="#lock">
                 <i class="icon-lock icon-fixed-width"></i>
                 <?php echo __('Lock'); ?></a></li>

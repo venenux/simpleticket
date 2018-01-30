@@ -113,7 +113,14 @@ class AttachmentPreviewPluginConfig extends PluginConfig {
                 'label'   => $__('Open attachment links in new tab'),
                 'default' => FALSE,
                 'hint'    => $__('Rewrites links to files instructing the browser to open them in a new window/tab based on browser settings, instead of opening in the same window.')
-                    ))
+                    )
+            ),
+            'newtab-links-preview'         => new BooleanField(array(
+                'label'   => $__('Open previewed attachment links in new tab'),
+                'default' => TRUE,
+                'hint'    => $__('The preview of attachments are instructing the browser to open them in a new window/tab based on browser settings, instead of opening in the same window.')
+                    )
+            )
         );
     }
 
