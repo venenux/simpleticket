@@ -53,7 +53,7 @@ class SpreaderPlugin extends Plugin {
             self::$config = self::getConfig();
             if (self::isCategorySelected($cid)){
                 $staff_id = self::getCurrentStaffId();
-                $object->assignToStaff($staff_id,"Auto assigning", true);
+                $object->setStaffId($staff_id);
                 return true;
             }
         }
