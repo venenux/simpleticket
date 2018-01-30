@@ -208,22 +208,22 @@ class MentionerPlugin extends Plugin {
 		}
 		
 		// Build a message to notify each collaborator
-		$vars = [ 
+		$vars = array( 
 				'message' => ( string ) $entry,
 				'poster' => $poster ?: _S ( 'A collaborator' ),
 				'note' => array (
 						'title' => $entry->getTitle (),
 						'message' => $entry->getBody ()->getClean () 
 				) 
-		];
+		);
 		
 		// Use the ticket to convert the template to a message: (replaces variables with content)
 		$msg = $ticket->replaceVars ( $msg->asArray (), $vars );
 		
 		$attachments = $cfg->emailAttachments () ? $entry->getAttachments () : array ();
-		$options = [ 
+		$options = array( 
 				'thread' => $entry 
-		];
+		);
 		
 		foreach ( $recipients as $recipient ) {
 			// Skip the skippable
@@ -377,13 +377,13 @@ class MentionerPlugin extends Plugin {
 		$msg->id = 'plugin-fake';
 		
 		// Simulate correct EmailTemplate variables:
-		$msg->ht = [ 
+		$msg->ht = array( 
 				'tpl_id' => PHP_INT_MAX - 1, // It's unlikely any normal install would have that many templates... famous last words
 				'code_name' => 'cannedresponse', // HACK: trigger "ticket" root context for the VariableReplacer
 				'subject' => $this->getConfig ()->get ( 'notice-subject' ),
 				'body' => $this->getConfig ()->get ( 'notice-template' ),
 				'updated' => time ()  // We're always updating this template.. :-)
-		];
+		);
 		$msg->_group = 3; // HTML Group
 		
 		$dept = $ticket->getDept ();
@@ -391,19 +391,19 @@ class MentionerPlugin extends Plugin {
 		$poster = $entry->getPoster ();
 		
 		// Build data for the template processor: (no need to inject $ticket, it does that)
-		$vars = [ 
+		$vars = array( 
 				'message' => ( string ) $entry,
 				'poster' => $poster,
 				'comments' => $entry->getBody ()->getClean () 
-		];
+		);
 		// Use the ticket to convert the template to a message: (replaces variables with content)
 		// Note: $msg->asArray returns subject as subj.. annoying
 		$msg = $ticket->replaceVars ( $msg->asArray (), $vars );
 		$attachments = $cfg->emailAttachments () ? $entry->getAttachments () : array ();
-		$options = [ 
+		$options = array( 
 				'thread' => $entry,
 				'notice' => TRUE  // Automated notice, don't bounce back to me!
-		];
+		);
 		// Send to each
 		foreach ( $recipients as $recipient ) {
 			$notice = $ticket->replaceVars ( $msg, array (
@@ -425,14 +425,14 @@ class MentionerPlugin extends Plugin {
 		static $ticket;
 		if (! $ticket) {
 			// aquire ticket from $entry.. I suspect there is a more efficient way.
-			$ticket_id = Thread::objects ()->filter ( [ 
-					'id' => $entry->getThreadId () 
-			] )->values_flat ( 'object_id' )->first () [0];
-			
+			$filterticket = array( 'id' => $entry->getThreadId () );
+			$ticketfiltered = Thread::objects ()->filter ( $filterticket )->values_flat ( 'object_id' )->first ();
+			$ticket_id =  $ticketfiltered [0];
+			// maybe the call fgor id ticket will faild due api/php differences.. there's another only for 1.9:
+			//$ticket_id = db_result(db_query('SELECT object_id FROM ' . TICKET_THREAD_TABLE. ' WHERE thread.id=' . $entry.getThreadId() . ' LIMIT 1'));
+
 			// Force lookup rather than use cached data..
-			$ticket = Ticket::lookup ( array (
-					'ticket_id' => $ticket_id 
-			) );
+			$ticket = Ticket::lookup ( array ('ticket_id' => $ticket_id) );
 		}
 		return $ticket;
 	}

@@ -32,58 +32,58 @@ class MentionerPluginConfig extends PluginConfig
     {
         list ($__, $_N) = self::translate();
         return array(
-            'sbm' => new SectionBreakField([
+            'sbm' => new SectionBreakField(array(
                 'label' => $__('Who can be @mentioned and added as a Collaborator?'),
                 'hint' => $__('By default, all Agents and Users are available to be @mentioned')
-            ]),
-            'at-mentions' => new BooleanField([
+            )),
+            'at-mentions' => new BooleanField(array(
                 'label' => $__("Notice @mentions"),
                 'hint' => $__('Enables adding @collaborators'),
                 'default' => true
-            ]),
-            'agents-only' => new BooleanField([
+            )),
+            'agents-only' => new BooleanField(array(
                 'label' => $__('Only allow @mentions OF Agents (staff)'),
                 'hint' => $__('Add Agent collaborators only')
-            ]),
-            'sba' => new SectionBreakField([
+            )),
+            'sba' => new SectionBreakField(array(
                 'label' => $__("Who can make mentions?"),
                 'hint' => $__('Default is all Users/Staff/System via email/web/API/scp')
-            ]),
-            'by-agents-only' => new BooleanField([
+            )),
+            'by-agents-only' => new BooleanField(array(
                 'label' => $__('Only allow #/@ mentions BY Agents'),
                 'hint' => $__('Uncheck to allow Users to mention'),
                 'default' => TRUE
-            ]),
-            'on' => new SectionBreakField([
+            )),
+            'on' => new SectionBreakField(array(
                 'label' => $__('Override Notifications'),
                 'hint' => 'Ensure collaborators receive notifications about all Messages, if collaborator is Staff, they will receive notifications about Notes.'
-            ]),
-            'override-notifications' => new BooleanField([
+            )),
+            'override-notifications' => new BooleanField(array(
                 'label' => $__("Override Notifications"),
                 'hint' => $__('Can be dangerous..')
-            ]),
-            'sbe' => new SectionBreakField([
+            )),
+            'sbe' => new SectionBreakField(array(
                 'label' => $__('Match email addresses?'),
                 'hint' => $__('If you put domain.com here, we\'ll try and match @user as user@domain.com and lookup their account (also works for #mention).')
-            ]),
-            'email-domain' => new TextboxField([
+            )),
+            'email-domain' => new TextboxField(array(
                 'label' => $__('Which domains to match emails for?'),
                 'configuration' => array(
                     'html' => FALSE,
                     'size' => 40,
                     'length' => 256
                 )
-            ]),
-            'sbh' => new SectionBreakField([
+            )),
+            'sbh' => new SectionBreakField(array(
                 'label' => $__('Use #mentions for ticket notifications'),
                 'hint' => $__('Doesn\'t add as a collaborator, just notifies: "You were mentioned!".'),
                 'default' => TRUE
-            ]),
-            'notice-hash' => new BooleanField([
+            )),
+            'notice-hash' => new BooleanField(array(
                 'label' => $__('Notice #Mentions'),
                 'hint' => $__('Sends notices to staff mentioned with #name')
-            ]),
-            'notice-subject' => new TextboxField([
+            )),
+            'notice-subject' => new TextboxField(array(
                 'label' => $__('Notification Template: Subject'),
                 'hint' => $__('Subject of the notfication message'),
                 'default' => $__('You were mentioned in ticket #%{ticket.number}'),
@@ -91,8 +91,8 @@ class MentionerPluginConfig extends PluginConfig
                     'size' => 40,
                     'length' => 256
                 )
-            ]),
-            'notice-template' => new TextareaField([
+            )),
+            'notice-template' => new TextareaField(array(
                 'label' => $__('Notification Template: Message'),
                 'hint' => $__('Use variables the same as Internal Note alert'),
                 'default' => '
@@ -107,7 +107,7 @@ class MentionerPluginConfig extends PluginConfig
 <em style="font-size:small">Your friendly Customer Support System</em>
 <br /><img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" alt="Powered by osTicket" width="126" height="19" style="width:126px" />
 '
-            ]) // not sure if this src id will work for others.. might be better as a plaintext message template.
+            )) // not sure if this src id will work for others.. might be better as a plaintext message template.
         
         );
     }
