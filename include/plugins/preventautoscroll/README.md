@@ -1,6 +1,6 @@
 # osTicket plugin: Prevent Autoscroll
 
-Stops agent ticket views from auto-scrolling to the last thread-entry. 
+Osticket 10 only plugin that Stops agent ticket views from auto-scrolling to the last thread-entry. 
 
 Possibly overkill, but by making a plugin I am stopping myself from editing core.
 

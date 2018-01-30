@@ -43,11 +43,11 @@ class PreventAutoscrollPlugin extends Plugin {
 			// Let's build the required signal structure for where we want it to appear, inside the <body>, default is append, so
 			// it will be at the bottom before the </body> tag. Passed by ref, so has to be defined first.
 			$sendable = array (
-					( object ) [ 
+					( object ) array( 
 							'locator' => 'tag',
 							'expression' => 'body',
 							'element' => $script 
-					] 
+					)
 			);
 			
 			// Connect to the attachment_previews plugin and done!
