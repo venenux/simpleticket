@@ -29,7 +29,7 @@ Please read the [i18n.md](i18n.md) fiel to learn how to locally manual translati
 # Plugin list:
 
 * [attachment_preview](attachment_preview/README.md) autopreview each attachment in the thread view of a ticket
-* [mentioner](mentioner/README.md) allow `#username` and `@username` add as collaborators and send notifications
+* [tinymce](tinymce/README.md) allow change and provide better compelte editor inline
 * [notefirst](notefirst/README.md) permits to use the note tab directly in the thread view of a ticket event the response
 * [auth-oauth](auth-oauth/README.md) permits to reuse the Google authentication to osticket
 * [auth-passthru](auth-passthru/README.md) permits to reuse the HTTP basic authentication to osticket
