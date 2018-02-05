@@ -1,6 +1,15 @@
-# OSTicket-plugin-TinyMCE
-Allows you to replace the built in editor with TinyMCE
+# osTicket plugin: TinyMCE
+
+simpleticket/osticket 1.9 seires plugin that allows to replace the built in editor with TinyMCE better complete editor
+
 Below you can see the difference between redactor and tinymce visually
+
+## Installation:
+
+Please see the file [INSTALL.md](INSTALL.md) with the proper instructions, some files need to tune for work.
+
+## How it looks:
+
 Redactor
 ![Redactor](https://user-images.githubusercontent.com/22049466/30656151-5fd24ba4-9e33-11e7-8d0f-4f29cc7c3d25.png)
 
