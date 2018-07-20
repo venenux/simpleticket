@@ -298,7 +298,7 @@ define('I18N_DIR', INCLUDE_DIR.'i18n/');
 /*############## Do NOT monkey with anything else beyond this point UNLESS you really know what you are doing ##############*/
 
 #Current version && schema signature (Changes from version to version)
-define('THIS_VERSION','1.8-git'); //Shown on admin panel
+define('THIS_VERSION','1.9-git'); //Shown on admin panel
 define('GIT_VERSION','$git');
 define('MAJOR_VERSION', '1.9');
 //Path separator
