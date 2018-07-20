@@ -37,6 +37,6 @@ if (count($ext_bks)) { ?>
 } ?>
 </div>
 <div id="copyRights"><?php echo __('Copyright'); ?> &copy;
-<a href='http://www.osticket.com' target="_blank">osTicket.com</a></div>
+<a href='https://venenux.github.io/simpleticket109' target="_blank">https://venenux.github.io/simpleticket109</a></div>
 </body>
 </html>

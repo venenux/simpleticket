@@ -1,8 +1,8 @@
         </div>
     </div>
     <div id="footer">
-        <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo (string) $ost->company ?: 'osTicket.com'; ?> - All rights reserved.</p>
-        <a id="poweredBy" href="http://osticket.com" target="_blank"><?php echo __('Helpdesk software - powered by osTicket'); ?></a>
+        <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo 'https://venenux.github.io/simpleticket109'; ?> - All rights reserved.</p>
+        <a id="poweredBy" href="https://venenux.github.io/simpleticket109" target="_blank"><?php echo __('Helpdesk software - powered by Simpleticket'); ?></a>
     </div>
 <div id="overlay"></div>
 <div id="loading">
