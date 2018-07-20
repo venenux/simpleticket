@@ -24,12 +24,12 @@ else
     <div><strong><?php echo Format::htmlchars($errors['login']); ?></strong></div>
     <div>
         <label for="email"><?php echo __('E-Mail Address'); ?>:
-        <input id="email" placeholder="<?php echo __('e.g. john.doe@osticket.com'); ?>" type="text"
+        <input id="email" placeholder="<?php echo __('e.g. gomez_jhon@intranet.net'); ?>" type="text"
             name="lemail" size="30" value="<?php echo $email; ?>"></label>
     </div>
     <div>
         <label for="ticketno"><?php echo __('Ticket Number'); ?>:
-        <input id="ticketno" type="text" name="lticket" placeholder="<?php echo __('e.g. 051243'); ?>"
+        <input id="ticketno" type="text" name="lticket" placeholder="<?php echo __('e.g. 201504051243'); ?>"
             size="30" value="<?php echo $ticketid; ?>"></label>
     </div>
     <p>
