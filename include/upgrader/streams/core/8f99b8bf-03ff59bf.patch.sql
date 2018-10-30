@@ -31,7 +31,7 @@ SET @random = (SELECT `value` FROM `%TABLE_PREFIX%config`
 -- Sequence (id=1) will be loaded in the task file
 INSERT INTO `%TABLE_PREFIX%config` (`namespace`, `key`, `value`)
     VALUES
-    ('core', 'number_format', IF(@random, '############', '#')),
+    ('core', 'number_format', IF(@random, '###############', '#')),
     ('core', 'sequence_id', IF(@random, 0, 1));
 
 ALTER TABLE `%TABLE_PREFIX%help_topic`

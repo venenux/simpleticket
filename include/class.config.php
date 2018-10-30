@@ -963,7 +963,7 @@ class OsticketConfig extends Config {
             $this->update('default_storage_bk', $vars['default_storage_bk']);
 
         return $this->updateAll(array(
-            'number_format'=>$vars['number_format'] ?: '############',
+            'number_format'=>$vars['number_format'] ?: '###############',
             'sequence_id'=>$vars['sequence_id'] ?: 0,
             'default_priority_id'=>$vars['default_priority_id'],
             'default_help_topic'=>$vars['default_help_topic'],
