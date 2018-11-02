@@ -136,8 +136,7 @@ class Format {
             // Remove empty nodes
             $xpath = new DOMXPath($doc);
             static $eE = array('area'=>1, 'br'=>1, 'col'=>1, 'embed'=>1,
-                    'iframe' => 1, 'hr'=>1, 'img'=>1, 'input'=>1,
-                    'isindex'=>1, 'param'=>1);
+                'hr'=>1, 'img'=>1, 'input'=>1, 'isindex'=>1, 'param'=>1);
             do {
                 $done = true;
                 $nodes = $xpath->query('//*[not(text()) and not(node())]');
@@ -219,17 +218,6 @@ class Format {
     static function __html_cleanup($el, $attributes=0) {
         static $eE = array('area'=>1, 'br'=>1, 'col'=>1, 'embed'=>1,
             'hr'=>1, 'img'=>1, 'input'=>1, 'isindex'=>1, 'param'=>1);
-
-        // We're dealing with closing tag
-        if ($attributes === 0)
-            return "</{$el}>";
-
-        // Remove iframe and embed without src (perhaps striped by spec)
-        // It would be awesome to rickroll such entry :)
-        if (in_array($el, array('iframe', 'embed'))
-                && (!isset($attributes['src']) || empty($attributes['src'])))
-            return '';
-
         // Clean unexpected class values
         if (isset($attributes['class'])) {
             $classes = explode(' ', $attributes['class']);
@@ -280,20 +268,7 @@ class Format {
         }
     }
 
-    function safe_html($html, $options=array()) {
-
-        $options = array_merge(array(
-                    // Balance html tags
-                    'balance' => 1,
-                    // Decoding special html char like &lt; and &gt; which
-                    // can be used to skip cleaning
-                    'decode' => true
-                    ),
-                $options);
-
-        if ($options['decode'])
-            $html = Format::htmldecode($html);
-
+    function safe_html($html, $balance=1) {
         // Remove HEAD and STYLE sections
         $html = preg_replace(
             array(':<(head|style|script).+?</\1>:is', # <head> and <style> sections
@@ -303,11 +278,9 @@ class Format {
             ),
             array('', '', '', ''),
             $html);
-
-        // HtmLawed specific config only
         $config = array(
             'safe' => 1, //Exclude applet, embed, iframe, object and script tags.
-            'balance' => $options['balance'],
+            'balance' => $balance,
             'comment' => 1, //Remove html comments (OUTLOOK LOVE THEM)
             'tidy' => -1,
             'deny_attribute' => 'id',
@@ -555,20 +528,28 @@ class Format {
         return date($format, ($gmtimestamp+ ($offset*3600)));
     }
 
-    // Thanks, http://stackoverflow.com/a/2955878/1025836
-    /* static */
-    function slugify($text) {
-        // replace non letter or digits by -
-        $text = preg_replace('~[^\p{L}\p{N}]+~u', '-', $text);
 
-        // trim
-        $text = trim($text, '-');
-
-        // lowercase
-        $text = strtolower($text);
-
-        return (empty($text)) ? 'n-a' : $text;
-    }
+	function slugify($text)
+	{
+  		// replace non letter or digits by -
+  		$text = preg_replace('~[^\\pL\d]+~u', '-', $text);
+		// trim
+  		$text = trim($text, '-');
+		// transliterate
+  		if (function_exists('iconv'))
+  			{
+    		$text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+  			}
+		// lowercase
+  		$text = strtolower($text);
+		// remove unwanted characters
+  		$text = preg_replace('~[^-\w]+~', '', $text);
+  		if (empty($text))
+		   {
+            return 'n-a';
+           }
+  		return $text;
+	}
 
     /**
      * Parse RFC 2397 formatted data strings. Format according to the RFC

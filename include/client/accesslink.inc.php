@@ -1,4 +1,33 @@
 <?php
+/*********************************************************************
+
+	Responsive Bootstrap Theme "Extended Basic" 1.0.1
+    Stable Version "Great Pumpkin" | Released 2015.10.31
+	
+	Jürgen Buchberger <jbuchberger@direktmarketingtool.de>
+	Copyright (c) 2015 DMT direktmarketingtool.de GmbH
+	http://www.direktmarketingtool.de
+
+	Follow us on Facebook in English: https://www.facebook.com/dmtgmbhen
+	Folge uns auf Facebook in Deutsch: https://www.facebook.com/dmtgmbh
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+**********************************************************************/
+?>
+
+<?php
 if(!defined('OSTCLIENTINC')) die('Access Denied');
 
 $email=Format::input($_POST['lemail']?$_POST['lemail']:$_GET['e']);
@@ -9,48 +38,71 @@ if ($cfg->isClientEmailVerificationRequired())
 else
     $button = __("View Ticket");
 ?>
-<h1><?php echo __('Check Ticket Status'); ?></h1>
-<p><?php
-echo __('Please provide your email address and a ticket number.');
-if ($cfg->isClientEmailVerificationRequired())
-    echo ' '.__('An access link will be emailed to you.');
-else
-    echo ' '.__('This will sign you in to view your ticket.');
-?></p>
-<form action="login.php" method="post" id="clientLogin">
-    <?php csrf_token(); ?>
-<div style="display:table-row">
-    <div class="login-box">
-    <div><strong><?php echo Format::htmlchars($errors['login']); ?></strong></div>
-    <div>
-        <label for="email"><?php echo __('E-Mail Address'); ?>:
-        <input id="email" placeholder="<?php echo __('e.g. gomez_jhon@intranet.net'); ?>" type="text"
-            name="lemail" size="30" value="<?php echo $email; ?>"></label>
-    </div>
-    <div>
-        <label for="ticketno"><?php echo __('Ticket Number'); ?>:
-        <input id="ticketno" type="text" name="lticket" placeholder="<?php echo __('e.g. 201504051243'); ?>"
-            size="30" value="<?php echo $ticketid; ?>"></label>
-    </div>
-    <p>
-        <input class="btn" type="submit" value="<?php echo $button; ?>">
-    </p>
-    </div>
-    <div class="instructions">
-<?php if ($cfg && $cfg->getClientRegistrationMode() !== 'disabled') { ?>
-        <?php echo __('Have an account with us?'); ?>
-        <a href="login.php"><?php echo __('Sign In'); ?></a> <?php
-    if ($cfg->isClientRegistrationEnabled()) { ?>
-<?php echo sprintf(__('or %s register for an account %s to access all your tickets.'),
-    '<a href="account.php?do=create">','</a>');
-    }
-}?>
+
+<!-- DMT EXTENDED Header -->
+<div class="row">
+	<div class="col-lg-12">
+		<h2 class="page-header"><?php echo __('Check Ticket Status'); ?><br />
+        	<small class="page-header-meta">
+            <?php
+                            echo __('Please provide your email address and a ticket number.');
+                            if ($cfg->isClientEmailVerificationRequired())
+                                echo '<br />'.__('An access link will be emailed to you.');
+                            else
+                            echo '<br />'.__('This will sign you in to view your ticket.');
+                        ?>
+            </small>
+         </h2>
     </div>
 </div>
+
+<!-- DMT EXTENDED Content -->
+<form action="login.php" method="post" id="clientLogin"  ng-non-bindable>
+	<?php csrf_token(); ?>
+         <div class="row row-grid">
+
+
+                <div class="col-md-4 col-md-offset-4 col-xs-12 text-center">
+	                <div class="form-group">
+        	        	<label for="email"><?php echo __('Email'); ?></label>
+            	        <input type="text" name="lemail" id="email" class="form-control" value="<?php echo $email; ?>" size="20"
+                           tabindex="10"
+                           placeholder="" autofocus="autofocus"/>
+    	            </div>
+                	<div class="form-group">
+                        <label for="ticketno"><?php echo __('Ticket Number'); ?></label>
+                    	<input type="text" name="lticket" id="ticketno" class="form-control" value="<?php echo $ticketid; ?>" size="20"
+                           tabindex="20"
+                           placeholder=""/>
+                	</div>
+                	<div class="form-group">
+                    	<input class="btn btn-success" type="submit" value="<?php echo __('Submit'); ?>"
+                           tabindex="100"/>
+                	</div>
+                </div>
+
+
+                <?php if ($cfg && $cfg->getClientRegistrationMode() !== 'disabled') { ?>
+                    <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+		               <?php echo __('Have an account with us?'); ?> <a href="login.php"><?php echo __('sign in here'); ?></a>
+                    </div>
+				<?php	}?>
+
+				<?php if ($cfg->isClientRegistrationEnabled()) { ?>
+                    <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+						<?php echo sprintf(__('or %s register for an account %s to access all your tickets.'),
+                            '<a href="account.php?do=create">','</a>');?>
+                	</div>
+                <?php	}?>		
+                    <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+						<?php echo sprintf(__("If this is your first time contacting us or you've lost the ticket number, please %s open a new ticket %s"),
+                            '<a href="open.php">','</a>'); 
+                        ?> 
+                	</div>
+                    <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+                		<strong><?php echo Format::htmlchars($errors['login']); ?></strong>
+                	</div>
+      </div>
 </form>
-<br>
-<p>
-<?php echo sprintf(
-__("If this is your first time contacting us or you've lost the ticket number, please %s open a new ticket %s"),
-    '<a href="open.php">','</a>'); ?>
-</p>
+
+

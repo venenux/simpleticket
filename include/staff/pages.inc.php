@@ -6,7 +6,7 @@ $sql='SELECT page.id, page.isactive, page.name, page.created, page.updated, '
      .'page.type, count(topic.topic_id) as topics '
      .' FROM '.PAGE_TABLE.' page '
      .' LEFT JOIN '.TOPIC_TABLE.' topic ON(topic.page_id=page.id) ';
-$where = ' WHERE type in ("other","landing","thank-you","offline") ';
+$where = ' WHERE type in ("other","footer","landing","thank-you","offline") ';
 $sortOptions=array(
         'name'=>'page.name', 'status'=>'page.isactive',
         'created'=>'page.created', 'updated'=>'page.updated',

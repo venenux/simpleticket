@@ -195,6 +195,14 @@ class Page {
     function getActiveThankYouPages() {
         return self::getActivePages(array('type' => 'thank-you'));
     }
+	
+	function getActiveOtherPages() {
+        return self::getActivePages(array('type' => 'other'));
+    }
+	
+	function getActiveFooterPages() {
+        return self::getActivePages(array('type' => 'footer'));
+    }
 
     function getIdByName($name, $lang=false) {
 

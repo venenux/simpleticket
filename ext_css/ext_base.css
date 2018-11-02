@@ -1,0 +1,492 @@
+/*********************************************************************
+
+	Responsive Bootstrap Theme "Extended Basic" 1.0.1
+    Stable Version "Great Pumpkin" | Released 2015.10.31
+	
+	Jürgen Buchberger <jbuchberger@direktmarketingtool.de>
+	Copyright (c) 2015 DMT direktmarketingtool.de GmbH
+	http://www.direktmarketingtool.de
+
+	Follow us on Facebook in English: https://www.facebook.com/dmtgmbhen
+	Folge uns auf Facebook in Deutsch: https://www.facebook.com/dmtgmbh
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+**********************************************************************/
+
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+@media screen and (max-width:640px) {
+    body {
+    padding: 70px 25px 25px 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color: #337AB7;
+	background: url(../ext_images/ext_bg_002_large.jpg)  no-repeat fixed;
+        -webkit-background-size: cover; /*for webKit*/
+        -moz-background-size: cover; /*Mozilla*/
+        -o-background-size: cover; /*opera*/
+        background-size: cover; /*generic*/
+}
+}
+
+@media screen and (min-width:641px) {
+    body {
+    padding: 153px 25px 25px 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color: #337AB7;
+	background: url(../ext_images/ext_bg_002_large.jpg)  no-repeat fixed;
+        -webkit-background-size: cover; /*for webKit*/
+        -moz-background-size: cover; /*Mozilla*/
+        -o-background-size: cover; /*opera*/
+        background-size: cover; /*generic*/
+}
+}
+
+
+
+small {
+	font-size: 14px !important;
+}
+
+@media screen and (max-width:640px) {
+    #logo img { height: 60px; }
+}
+
+@media screen and (min-width:641px) {
+    #logo img { height: 83px; }
+}
+
+ blockquote {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.25;
+	padding: 5px 5px 5px 10px;
+}
+
+@grid-float-breakpoint:     @screen-tablet;
+
+/* Global Helpers */
+.spacer-top {
+	margin-top: 20px;
+}
+
+.spacer-bottom {
+	margin-bottom: 20px;
+}
+
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 10px;
+    }
+}
+
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+	input[type="submit"], 
+	input[type="submit"]:hover, 
+	input[type="submit"]:active,
+	input[type="submit"]:focus {
+        color: #ffffff !important;
+    }
+	
+.meta {
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.page-header {
+	text-align: center;
+}
+
+.page-header-meta {
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+}
+
+	
+/* Navbar */
+.navbar {
+	z-index: 99999 !important;
+}
+
+.navbar-nav > li > a{
+  padding: 15px 10px;
+}
+
+.dropdown-menu-language {
+    width: 401px !important;
+}
+/* Frontpage */
+.banner {
+	background: url(../ext_images/ext_bg_001.jpg)  no-repeat fixed;
+	background-size:auto 100%;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 20px;
+	  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+@media screen and (max-width:640px) {
+    .banner { min-height: 120px;
+		      padding: 20px 20px;
+			}
+}
+
+@media screen and (min-width:641px) {
+    .banner { min-height: 300px; 
+		      padding: 20px 60px;
+			}
+}
+
+.banner:hover {
+  background-size: auto 120%;
+}
+
+.banner h1 {
+	font-size: 64px !important;
+	text-transform: uppercase;
+	margin: 24px 0;
+}
+
+/* Content Area */
+.content {
+	margin-top: 25px;
+	background-color: #fff;
+	min-height: 570px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+/* Footer */
+.footer {
+	background-color: #fff;
+	margin-bottom: 25px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding-bottom: 18px;
+}
+
+/* Popup */
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba (0 0 0 0.5);
+    z-index: 1000;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#loading {
+    border:solid 1px #0099ff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	padding: 10px 10px 10px 60px;
+    width: 300px;
+    height: 100px;
+    background: rgb( 255, 255, 255) url('../ext_images/ext_spinner_1.gif') 10px 50% no-repeat;
+    position: fixed;
+    display: none;
+    z-index: 3000;
+}
+
+#loading h4 { margin: 3px 0 0 0; padding: 0;}
+
+/* Branding */
+
+.branding-logo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (max-width:640px) {
+	.branding {
+		background-color: white;
+		height: 0;
+		padding: 0;
+		}
+    .branding-logo { 
+		visibility: hidden;
+		}
+}
+
+@media screen and (min-width:641px) {
+	.branding {
+		background-color: white;
+		height: 103px;
+		padding: 10px 0;
+		}
+    .branding-logo { 
+		visibility: visible;
+		}
+}
+
+.branding-footer {
+	background-color: #222222;
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px 5px;
+	border-top: 3px solid #337AB7;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 4px;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+.branding-footer-info a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.branding-footer-info a:hover {
+	color: #5BC0DE;
+}
+
+.branding-footer .btn {
+	margin-top: 10px;
+}
+
+.branding-footer .btn a:hover {
+	color: #FFFFFF !important;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/* Page Login Override */
+#clientLogin
+{
+  display: block;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.loginSection
+{
+  text-align:center;
+  margin: 0 auto;
+}
+.loginSection input[type="text"],
+.loginSection input[type="password"] {
+	padding-left: 32px;
+}
+
+.loginSection #username,
+.loginSection #passwd,
+.loginSection #email,
+.loginSection #ticketno {
+    background: url('../ext_images/login-sprite.png') no-repeat;
+    }
+
+.loginSection #passwd, 
+.loginSection #ticketno {
+        background-position: 5px -56px;
+    }
+
+.loginSection #username, 
+.loginSection #email {
+        background-position: 5px 7px;
+    }
+
+
+/* OVERRIDE REPLY */
+
+#reply
+{
+  margin: 0;
+  padding: 0;
+ background: none;
+ border: none;
+}
+
+/* ORDERD LIST RECTANGLE */
+
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.rectangle-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;   
+}
+
+.rectangle-list a:hover{
+    background: #eee;
+}   
+
+.rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #337AB7;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+	color: #ffffff;
+}
+
+.rectangle-list a:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.rectangle-list a:hover:after{
+    left: -.5em;
+    border-left-color: #337AB7;             
+}
+
+/* Panel Heading Breadcrumb */
+
+.panel-heading a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.panel-heading a:hover {
+	color: #5BC0DE;
+}
+
+/* Rows equal height */
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
