@@ -159,8 +159,6 @@ if (($lang = Internationalization::getCurrentLanguage())
                             <li class="dropdown">
                  				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo __('Language')?><b class="caret"></b></a>
                          			<ul class="dropdown-menu dropdown-menu-language">
-                                        <li class="text-center"><a href="<?php echo ROOT_PATH; ?>/ext_languages.php"><?php echo __('Important')?> <?php echo __('Info')?></a></li>
-                                        <li role="separator" class="divider"></li>
                                         <ul class="list-inline">
                             			<?php foreach ($all_langs as $code=>$info) {
        						 			list($lang, $locale) = explode('_', $code); ?>
