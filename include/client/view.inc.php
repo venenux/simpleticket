@@ -1,7 +1,7 @@
 <?php
 /*********************************************************************
 
-	Responsive Bootstrap Theme "Extended Basic" 1.0.1
+	Responsive Bootstrap Theme "Extended Basic" 1.0.3.2
     Stable Version "Great Pumpkin" | Released 2015.10.31
 	
 	Jürgen Buchberger <jbuchberger@direktmarketingtool.de>

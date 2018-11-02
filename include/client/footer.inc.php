@@ -1,7 +1,7 @@
 <?php
 /*********************************************************************
 
-	Responsive Bootstrap Theme "Extended Basic" 1.0.1
+	Responsive Bootstrap Theme "Extended Basic" 1.0.3.2
     Stable Version "Great Pumpkin" | Released 2015.10.31
 	
 	Jürgen Buchberger <jbuchberger@direktmarketingtool.de>
@@ -51,7 +51,7 @@
                         		</ul>
                     <?php } ?>
         			<p class="branding-footer-info">Copyright &copy; <?php echo date('Y'); ?> <?php echo (string) $ost->company ?: 'osTicket.com'; ?><br />
-        			<a id="poweredBy" href="http://osticket.com" target="_blank"><?php echo 'Powered by simpleticket'; ?></a></p>
+        			<a id="poweredBy" href="http://osticket.com" target="_blank"><?php echo __('Helpdesk software - powered by osTicket'); ?></a></p>
 
         </footer>
         </div>

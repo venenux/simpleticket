@@ -1,7 +1,7 @@
 <?php
 /*********************************************************************
 
-	Responsive Bootstrap Theme "Extended Basic" 1.0.1
+	Responsive Bootstrap Theme "Extended Basic" 1.0.3.2
     Stable Version "Great Pumpkin" | Released 2015.10.31
 	
 	Jürgen Buchberger <jbuchberger@direktmarketingtool.de>
@@ -38,8 +38,9 @@
     			<?php echo Format::htmlchars($form->getTitle()); ?>
     		</div>
    			<div class="panel-body">
+            <?php if ($form->getInstructions()){?>
    				<blockquote><?php echo Format::htmlchars($form->getInstructions()); ?></blockquote>
-
+			<?php } ?>
     <?php
     // Form fields, each with corresponding errors follows. Fields marked
     // 'private' are not included in the output for clients

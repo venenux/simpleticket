@@ -1,7 +1,7 @@
 <?php
 /*********************************************************************
 
-	Responsive Bootstrap Theme "Extended Basic" 1.0.1
+	Responsive Bootstrap Theme "Extended Basic" 1.0.3.2
     Stable Version "Great Pumpkin" | Released 2015.10.31
 	
 	Jürgen Buchberger <jbuchberger@direktmarketingtool.de>
@@ -133,7 +133,7 @@ if (($lang = Internationalization::getCurrentLanguage())
                     <?php $links = Page::getActiveOtherPages(); 
 						  if (count($links) >= 1){?>
                         <li class="dropdown">
-                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo __('Info'); ?><b class="caret"></b></a>
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo __('Information'); ?><b class="caret"></b></a>
                          	<ul class="dropdown-menu">
 								<?php  foreach ($links as $link) {?>
                                     <?php 

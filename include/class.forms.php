@@ -291,7 +291,7 @@ class FormField {
 
         # Validates a user-input into an instance of this field on a dynamic
         # form
-        if ($this->get('required') && !strlen($value) && $this->hasData())
+        if ($this->get('required') && !$value && $this->hasData())
             $this->_errors[] = sprintf(__('%s is a required field'),
                 $this->getLabel());
 
@@ -747,10 +747,6 @@ class TextboxField extends FormField {
             if (!call_user_func($func[0], $value))
                 $this->_errors[] = $error;
     }
-
-    function parse($value) {
-        return Format::striptags($value);
-    }
 }
 
 class PasswordField extends TextboxField {
@@ -1157,13 +1153,6 @@ class ThreadEntryField extends FormField {
         return false;
     }
 
-    function getConfiguration() {
-        global $cfg;
-        $config = parent::getConfiguration();
-        $config['html'] = (bool) ($cfg && $cfg->isHtmlThreadEnabled());
-        return $config;
-    }
-
     function getConfigurationOptions() {
         global $cfg;
 
@@ -1528,9 +1517,6 @@ class FileUploadField extends FormField {
         if (!($id = AttachmentFile::upload($file)))
             Http::response(500, 'Unable to store file: '. $file['error']);
 
-        // This file is allowed for attachment in this session
-        $_SESSION[':uploadedFiles'][$id] = 1;
-
         return $id;
     }
 
@@ -1781,7 +1767,7 @@ class TextboxWidget extends Widget {
             $disabled = 'disabled="disabled"';
         ?>
         <span style="display:inline-block">
-        <input type="<?php echo static::$input_type; ?>"
+        <input type="<?php echo static::$input_type; ?>" class="form-control"
             id="<?php echo $this->id; ?>"
             <?php echo implode(' ', array_filter(array(
                 $size, $maxlength, $classes, $autocomplete, $disabled)))
@@ -1840,21 +1826,6 @@ class TextareaWidget extends Widget {
         </span>
         <?php
     }
-
-    function parseValue() {
-        parent::parseValue();
-        if (isset($this->value)) {
-            $value = $this->value;
-            $config = $this->field->getConfiguration();
-            // Trim empty spaces based on text input type.
-            // Preserve original input if not empty.
-            if ($config['html'])
-                $this->value = trim($value, " <>br/\t\n\r") ? $value : '';
-            else
-                $this->value = trim($value) ? $value : '';
-        }
-    }
-
 }
 
 class PhoneNumberWidget extends Widget {
@@ -1862,12 +1833,12 @@ class PhoneNumberWidget extends Widget {
         $config = $this->field->getConfiguration();
         list($phone, $ext) = explode("X", $this->value);
         ?>
-        <input id="<?php echo $this->id; ?>" type="text" name="<?php echo $this->name; ?>" value="<?php
+        <input id="<?php echo $this->id; ?>" type="text" class="form-control" name="<?php echo $this->name; ?>" value="<?php
         echo Format::htmlchars($phone); ?>"/><?php
         // Allow display of extension field even if disabled if the phone
         // number being edited has an extension
         if ($ext || $config['ext']) { ?> <?php echo __('Ext'); ?>:
-            <input type="text" name="<?php
+            <input type="text" class="" name="<?php
             echo $this->name; ?>-ext" value="<?php echo Format::htmlchars($ext);
                 ?>" size="5"/>
         <?php }
@@ -2002,7 +1973,7 @@ class CheckboxWidget extends Widget {
         if (!isset($this->value))
             $this->value = $this->field->get('default');
         ?>
-        <input id="<?php echo $this->id; ?>" style="vertical-align:top;"
+        <input id="<?php echo $this->id; ?>" class="" style="vertical-align:top;"
             type="checkbox" name="<?php echo $this->name; ?>[]" <?php
             if ($this->value) echo 'checked="checked"'; ?> value="<?php
             echo $this->field->get('id'); ?>"/>
@@ -2111,8 +2082,8 @@ class SectionBreakWidget extends Widget {
 
 class ThreadEntryWidget extends Widget {
     function render($client=null) {
+        global $cfg;
 
-        $config = $this->field->getConfiguration();
         ?><div style="margin-bottom:0.5em;margin-top:0.5em"><strong><?php
         echo Format::htmlchars($this->field->get('label'));
         ?></strong>:</div>
@@ -2124,10 +2095,11 @@ class ThreadEntryWidget extends Widget {
                 data-draft-namespace="ticket.client"
                 data-draft-object-id="<?php echo substr(session_id(), -12); ?>"
             <?php } ?>
-            class="<?php if ($config['html']) echo 'richtext'; ?> draft draft-delete ifhtml"
+            class="richtext draft draft-delete ifhtml"
             cols="21" rows="8" style="width:80%;"><?php echo
             Format::htmlchars($this->value); ?></textarea>
     <?php
+        $config = $this->field->getConfiguration();
         if (!$config['attachments'])
             return;
 
@@ -2151,21 +2123,6 @@ class ThreadEntryWidget extends Widget {
         $field->setForm($this->field->getForm());
         return $field;
     }
-
-    function parseValue() {
-        parent::parseValue();
-        if (isset($this->value)) {
-            $value = $this->value;
-            $config = $this->field->getConfiguration();
-            // Trim spaces based on text input type.
-            // Preserve original input if not empty.
-            if ($config['html'])
-                $this->value = trim($value, " <>br/\t\n\r") ? $value : '';
-            else
-                $this->value = trim($value) ? $value : '';
-        }
-    }
-
 }
 
 class FileUploadWidget extends Widget {
@@ -2249,32 +2206,7 @@ class FileUploadWidget extends Widget {
         elseif ($data && is_array($data) && !isset($data[$this->name]))
             return array();
 
-
-        // Files uploaded here MUST have been uploaded by this user and
-        // identified in the session
-        if ($files = parent::getValue()) {
-            $allowed = array();
-            // Files already attached to the field are allowed
-            foreach ($this->field->getFiles() as $F) {
-                // FIXME: This will need special porting in v1.10
-                $allowed[$F['id']] = 1;
-            }
-            // New files uploaded in this session are allowed
-            if (isset($_SESSION[':uploadedFiles'])) {
-                $allowed += $_SESSION[':uploadedFiles'];
-            }
-
-            // Canned attachments initiated by this session
-            if (isset($_SESSION[':cannedFiles']))
-               $allowed += $_SESSION[':cannedFiles'];
-
-            foreach ($files as $i=>$F) {
-                if (!isset($allowed[$F])) {
-                    unset($files[$i]);
-                }
-            }
-        }
-        return $files;
+        return parent::getValue();
     }
 }
 
