@@ -92,6 +92,8 @@ if(!$dept || !$dept->isPublic())
       <?php echo Format::htmlchars($dept instanceof Dept ? $dept->getName() : ''); ?> </li>
     <li class="list-group-item"> <b><?php echo __('Email');?>:</b><br />
       <?php echo Format::htmlchars($ticket->getEmail()); ?> </li>
+    <li class="list-group-item"> <b><?php echo __('Help Topic');?>:</b><br />
+      <?php echo $ticket->getHelpTopic(); ?> </li>
     <li class="list-group-item"> <b><?php echo __('Create Date');?>:</b><br />
       <?php echo Format::db_datetime($ticket->getCreateDate()); ?> </li>
     <?php if ($ticket->getPhoneNumber()>""){?>
