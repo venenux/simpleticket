@@ -61,26 +61,6 @@ require(CLIENTINC_DIR.'header.inc.php');
 <!-- OS Ticket Landing Page -->    
 <div id="landing_page">
     <!-- OS Ticket Sections -->
-        <div class="row">
-            <div class="container">
-            	<div class="panel panel-default banner hidden-xs">
-                	<div class="panel-body text-center">
-                        <?php
-    					if($cfg && ($page = $cfg->getLandingPage()))
-        				echo $page->getBodyWithImages();
-    					else
-        				echo  '<h1 class="page-header">'.__('Welcome to the Support Center').'</h1>';
-   						 ?>
-                   </div>
-                </div>
-                <div class="panel panel-default banner visible-xs">
-                	<div class="panel-body">
-                        <?php echo '<h2>'.__('Welcome to the Support Center').'</h2>'; ?>
-                   </div>
-                </div>
-            </div>
-         <!-- /.row -->
-        </div>
             
 <!-- DMT EXTENDED HOMEPAGE IF KNOWLEDGEBASE ENABLED -->
             <?php
@@ -92,7 +72,7 @@ require(CLIENTINC_DIR.'header.inc.php');
                     <div class="panel-body text-center">
                         <div class="center-block"><i class="fa fa-fw fa-4x fa-cog" style="color:#337AB7"></i></div>
 						<h4><?php echo __('Open a New Ticket');?></h4>
-                        <p style="min-height: 80px;"><?php echo __('Please provide as much detail as possible so we can best assist you. To update a previously submitted ticket, please login.');?></p>
+                        <p style="min-height: 40px;"><?php echo __('Please provide as much detail as possible so we can best assist you. To update a previously submitted ticket, please login.');?></p>
                         <a href="open.php" class="btn btn-primary"><?php echo __('Open a New Ticket');?></a>
                     </div>
                 </div>
@@ -102,7 +82,7 @@ require(CLIENTINC_DIR.'header.inc.php');
                     <div class="panel-body text-center">
                     	<div class="center-block"><i class="fa fa-fw fa-4x fa-refresh" style="color:#337AB7"></i></div>
                     	<h4><?php echo __('Check Ticket Status');?></h4>
-                        <p style="min-height: 80px;"><?php echo __('We provide archives and history of all your current and past support requests complete with responses.');?></p>
+                        <p style="min-height: 40px;"><?php echo __('We provide archives and history of all your current and past support requests complete with responses.');?></p>
                         <a href="<?php if(is_object($thisclient)){ echo 'tickets.php';} else {echo 'view.php';}?>" class="btn btn-primary"><?php echo __('Check Ticket Status');?></a>
                     </div>
                 </div>
@@ -112,7 +92,7 @@ require(CLIENTINC_DIR.'header.inc.php');
                     <div class="panel-body text-center">
                         <div class="center-block"><i class="fa fa-fw fa-4x fa-question-circle" style="color:#337AB7"></i></div>
 						<h4><?php echo __('Frequently Asked Questions'); ?></h4>
-                        <p style="min-height: 80px;"><?php echo sprintf(
+                        <p style="min-height: 40px;"><?php echo sprintf(
     __('Be sure to browse our %s before opening a ticket'),
     sprintf(__('Frequently Asked Questions')
     )); ?></p>
@@ -133,7 +113,7 @@ require(CLIENTINC_DIR.'header.inc.php');
                     <div class="panel-body text-center">
                         <div class="center-block"><i class="fa fa-fw fa-4x fa-check" style="color:#337AB7"></i></div>
 						<h4><?php echo __('Open a New Ticket');?></h4>
-                        <p style="min-height: 80px;"><?php echo __('Please provide as much detail as possible so we can best assist you. To update a previously submitted ticket, please login.');?></p>
+                        <p style="min-height: 40px;"><?php echo __('Please provide as much detail as possible so we can best assist you. To update a previously submitted ticket, please login.');?></p>
                         <a href="open.php" class="btn btn-primary"><?php echo __('Open a New Ticket');?></a>
                     </div>
                 </div>
@@ -143,7 +123,7 @@ require(CLIENTINC_DIR.'header.inc.php');
                     <div class="panel-body text-center">
                     	<div class="center-block"><i class="fa fa-fw fa-4x fa-gift" style="color:#337AB7"></i></div>
                     	<h4><?php echo __('Check Ticket Status');?></h4>
-                        <p style="min-height: 80px;"><?php echo __('We provide archives and history of all your current and past support requests complete with responses.');?></p>
+                        <p style="min-height: 40px;"><?php echo __('We provide archives and history of all your current and past support requests complete with responses.');?></p>
                         <a href="<?php if(is_object($thisclient)){ echo 'tickets.php';} else {echo 'view.php';}?>" class="btn btn-primary"><?php echo __('Check Ticket Status');?></a>
                     </div>
                 </div>
@@ -153,6 +133,26 @@ require(CLIENTINC_DIR.'header.inc.php');
            <?php
 }?>
 <!-- DMT EXTENDED -->
+        <div class="row">
+            <div class="container">
+            	<div class="panel panel-default banner hidden-xs">
+                	<div class="panel-body text-center">
+                        <?php
+    					if($cfg && ($page = $cfg->getLandingPage()))
+        				echo $page->getBodyWithImages();
+    					else
+        				echo  '<h1 class="page-header">'.__('Welcome to the Support Center').'</h1>';
+   						 ?>
+                   </div>
+                </div>
+                <div class="panel panel-default banner visible-xs">
+                	<div class="panel-body">
+                        <?php echo '<h2>'.__('Welcome to the Support Center').'</h2>'; ?>
+                   </div>
+                </div>
+            </div>
+         <!-- /.row -->
+        </div>
 
 </div>
 
