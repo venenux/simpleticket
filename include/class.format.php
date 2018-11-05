@@ -651,7 +651,7 @@ class Format {
         if (false && class_exists('IntlBreakIterator')) {
             // Split by word boundaries
             if ($tokenizer = IntlBreakIterator::createWordInstance(
-                    $lang ?: ($cfg ? $cfg->getSystemLanguage() : 'en_US'))
+                    $lang ?: ($cfg ? $cfg->getSystemLanguage() : 'es_ES'))
             ) {
                 $tokenizer->setText($text);
                 $tokens = array();

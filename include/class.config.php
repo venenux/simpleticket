@@ -154,7 +154,7 @@ class OsticketConfig extends Config {
         'allow_attachments' =>  true,
         'name_format' =>        'full', # First Last
         'auto_claim_tickets'=>  true,
-        'system_language' =>    'en_US',
+        'system_language' =>    'es_ES',
         'default_storage_bk' => 'D',
         'allow_client_updates' => false,
         'message_autoresponder_collabs' => true,
