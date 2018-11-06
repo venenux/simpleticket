@@ -34,12 +34,12 @@ $category=$faq->getCategory();
 
 ?>
 <!-- DMT EXTENDED Header -->
-<div class="row">
+<!--<div class="row">
 	<div class="col-lg-12">
 		<h4 class="page-header"><?php echo __('Frequently Asked Questions');?></a>
 		</h4> 
 	</div>
-</div>
+</div>--><!-- removed title of kb due user need all space possible in a 16:4 widescreen monitor to see context-->
 <!-- DMT EXTENDED Content -->
 
 <div class="row">
