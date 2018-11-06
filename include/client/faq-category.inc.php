@@ -33,8 +33,8 @@ if(!defined('OSTCLIENTINC') || !$category || !$category->isPublic()) die('Access
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Frequently Asked Questions');?></a>
-		</h2> 
+		<h4 class="page-header"><?php echo __('Frequently Asked Questions');?></a>
+		</h4> 
 	</div>
 </div>
 <!-- DMT EXTENDED Content -->

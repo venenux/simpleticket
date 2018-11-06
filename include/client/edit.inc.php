@@ -36,7 +36,7 @@ if(!defined('OSTCLIENTINC') || !$thisclient || !$ticket || !$ticket->checkUserAc
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo sprintf(__('Editing Ticket #%s'), $ticket->getNumber()); ?></h2>
+		<h4 class="page-header"><?php echo sprintf(__('Editing Ticket #%s'), $ticket->getNumber()); ?></h4>
     </div>
 </div>
 

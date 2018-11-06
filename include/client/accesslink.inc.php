@@ -42,7 +42,7 @@ else
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Check Ticket Status'); ?><br />
+		<h4 class="page-header"><?php echo __('Check Ticket Status'); ?><br />
         	<small class="page-header-meta">
             <?php
                             echo __('Please provide your email address and a ticket number.');
@@ -52,7 +52,7 @@ else
                             echo '<br />'.__('This will sign you in to view your ticket.');
                         ?>
             </small>
-         </h2>
+         </h4>
     </div>
 </div>
 

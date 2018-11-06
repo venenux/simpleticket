@@ -30,9 +30,9 @@
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Manage Your Profile Information'); ?><br />
+		<h4 class="page-header"><?php echo __('Manage Your Profile Information'); ?><br />
         <small class="page-header-meta"><?php echo __('Use the forms below to update the information we have on file for your account'); ?></small>
-        </h2>
+        </h4>
     </div>
 </div>
 

@@ -36,7 +36,7 @@ $userid=Format::input($_POST['userid']);
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Forgot My Password'); ?></h2>
+		<h4 class="page-header"><?php echo __('Forgot My Password'); ?></h4>
     </div>
 </div>
 

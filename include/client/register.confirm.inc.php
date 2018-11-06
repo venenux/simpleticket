@@ -34,15 +34,15 @@
     				list($title, $body) = $ost->replaceTemplateVariables(
         			array($content->getName(), $content->getBody())); 
 				?>
-					<h2 class="page-header">
-						<?php echo Format::display($title); ?>
-                    </h2>
+				<h4 class="page-header">
+					<?php echo Format::display($title); ?>
+                		</h4>
 		
 		<?php } else { ?>
         
-					<h2 class="page-header">
-						<?php echo __('Account Registration'); ?>
-                    </h2>
+				<h4 class="page-header">
+					<?php echo __('Account Registration'); ?>
+                		</h4>
 		<?php } ?>
    </div>
 </div>

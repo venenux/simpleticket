@@ -147,9 +147,9 @@ $negorder=$order=='DESC'?'ASC':'DESC'; //Negate the sorting
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Tickets');?>
+		<h4 class="page-header"><?php echo __('Tickets');?>
             <a class="btn btn-success" href="<?php echo Format::htmlchars($_SERVER['REQUEST_URI']); ?>" title="Reload" role="button"><i class="fa fa-refresh"></i></a>
-		</h2> 
+		</h4> 
 	</div>
 </div>
 <!-- DMT EXTENDED Content -->

@@ -49,9 +49,9 @@ $info = Format::htmlchars(($errors && $_POST)?$_POST:$info);
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Account Registration'); ?><br />
-        <small class="page-header-meta"><?php echo __('Use the forms below to create or update the information we have on file for your account'); ?></small>
-        </h2>
+		<h4 class="page-header"><?php echo __('Account Registration'); ?><br />
+			<small class="page-header-meta"><?php echo __('Use the forms below to create or update the information we have on file for your account'); ?></small>
+		</h4>
     </div>
 </div>
 

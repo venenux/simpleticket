@@ -55,8 +55,8 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo __('Open a New Ticket');?><br />
-        <small class="page-header-meta"><?php echo __('Please fill in the form below to open a new ticket.');?></small></h2>
+		<h4 class="page-header"><?php echo __('Open a New Ticket');?><br />
+        <small class="page-header-meta"><?php echo __('Please fill in the form below to open a new ticket.');?></small></h4>
     </div>
 </div>
 

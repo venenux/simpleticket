@@ -48,7 +48,7 @@ if(!$dept || !$dept->isPublic())
 <!-- DMT EXTENDED Header -->
 <div class="row">
 	<div class="col-lg-12">
-		<h2 class="page-header"><?php echo sprintf(__('Ticket #%s'), $ticket->getNumber()); ?> 
+		<h4 class="page-header"><?php echo sprintf(__('Ticket #%s'), $ticket->getNumber()); ?> 
 
           <a class="btn btn-success" href="tickets.php?id=<?php echo $ticket->getId(); ?>" title="Reload" role="button"><i class="fa fa-refresh"></i>
           </a>
@@ -69,7 +69,7 @@ if(!$dept || !$dept->isPublic())
                     </span>
 		  <?php } ?>
             
-        </h2>
+        </h4>
     </div>
 </div>
 
