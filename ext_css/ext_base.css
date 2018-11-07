@@ -34,7 +34,7 @@ body {
 }
 @media screen and (max-width:640px) {
     body {
-    padding: 70px 25px 25px 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding: 60px 25px 25px 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 	background-color: #337AB7;
 	background: url(../ext_images/ext_bg_002_large.jpg)  no-repeat fixed;
         -webkit-background-size: cover; /*for webKit*/
@@ -46,7 +46,7 @@ body {
 
 @media screen and (min-width:641px) {
     body {
-    padding: 153px 25px 25px 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding: 83px 25px 25px 25px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 	background-color: #337AB7;
 	background: url(../ext_images/ext_bg_002_large.jpg)  no-repeat fixed;
         -webkit-background-size: cover; /*for webKit*/
@@ -63,11 +63,11 @@ small {
 }
 
 @media screen and (max-width:640px) {
-    #logo img { height: 60px; }
+    #logo img { height: 20px; }
 }
 
 @media screen and (min-width:641px) {
-    #logo img { height: 83px; }
+    #logo img { height: 28px; }
 }
 
  blockquote {
@@ -274,8 +274,8 @@ small {
 @media screen and (min-width:641px) {
 	.branding {
 		background-color: white;
-		height: 103px;
-		padding: 10px 0;
+		height: 33px;
+		padding: 5px 0;
 		}
     .branding-logo { 
 		visibility: visible;
