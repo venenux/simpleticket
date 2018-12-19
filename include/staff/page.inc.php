@@ -5,6 +5,7 @@ $pageTypes = array(
         'offline' => __('Offline page'),
         'thank-you' => __('Thank you page'),
         'other' => __('Other'),
+		'footer' => __('Footer'),
         );
 $info = $qs = array();
 if($page && $_REQUEST['a']!='add'){
@@ -74,6 +75,17 @@ $info=Format::htmlchars(($errors && $_POST)?$_POST:$info);
             </td>
         </tr>
         <?php if ($info['name'] && $info['type'] == 'other') { ?>
+        <tr>
+            <td width="180" class="required">
+                <?php echo __('Public URL'); ?>:
+            </td>
+            <td><a href="<?php echo sprintf("%s/pages/%s",
+                    $ost->getConfig()->getBaseUrl(), urlencode($slug));
+                ?>">pages/<?php echo $slug; ?></a>
+            </td>
+        </tr>
+        <?php } ?>
+        <?php if ($info['name'] && $info['type'] == 'footer') { ?>
         <tr>
             <td width="180" class="required">
                 <?php echo __('Public URL'); ?>:

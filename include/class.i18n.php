@@ -21,7 +21,7 @@ class Internationalization {
 
     // Languages in order of decreasing priority. Always use en_US as a
     // fallback
-    var $langs = array('en_US');
+    var $langs = array('es_ES');
 
     function Internationalization($language=false) {
         global $cfg;
@@ -423,7 +423,7 @@ class DataTemplate {
      * template itself does not have to keep track of the language for which
      * it is defined.
      */
-    function DataTemplate($path, $langs=array('en_US')) {
+    function DataTemplate($path, $langs=array('es_ES')) {
         foreach ($langs as $l) {
             if (file_exists("{$this->base}/$l/$path")) {
                 $this->lang = $l;

@@ -547,7 +547,7 @@ class EmailTemplate {
      */
     function fromInitialData($name, $group=null) {
         $templ = new EmailTemplate(0, $group);
-        $lang = ($group) ? $group->getLanguage() : 'en_US';
+        $lang = ($group) ? $group->getLanguage() : 'es_ES';
         $i18n = new Internationalization($lang);
         if ((!($tpl = $i18n->getTemplate("templates/email/$name.yaml")))
                 || (!($info = $tpl->getData())))

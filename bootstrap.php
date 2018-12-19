@@ -120,6 +120,7 @@ class Bootstrap {
 
         define('API_KEY_TABLE',$prefix.'api_key');
         define('TIMEZONE_TABLE',$prefix.'timezone');
+
     }
 
     function loadConfig() {
@@ -135,8 +136,9 @@ class Bootstrap {
             if(!strcasecmp(basename($_SERVER['SCRIPT_NAME']), 'settings.php'))
                 Http::response(500,
                     'Please rename config file include/settings.php to include/ost-config.php to continue!');
-        } elseif(file_exists(ROOT_DIR.'setup/'))
-            Http::redirect($_SERVER['REQUEST_URI'].'/setup/');
+        } 
+        elseif(file_exists(ROOT_DIR.'setup/'))
+            Http::redirect(BASEURIL.'setup/');
 
         if(!$configfile || !file_exists($configfile))
             Http::response(500,'<b>Error loading settings. Contact admin.</b>');
@@ -287,6 +289,11 @@ $here = dirname(__FILE__);
 $here = ($h = realpath($here)) ? $h : $here;
 define('ROOT_DIR',str_replace('\\', '/', $here.'/'));
 unset($here); unset($h);
+
+$uril = isset($_SERVER['HTTPS']) ? 'https' : 'http';
+$uril .= '://' . $_SERVER['HTTP_HOST'];
+$uril .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+define('BASEURIL',$uril);
 
 define('INCLUDE_DIR',ROOT_DIR.'include/'); //Change this if include is moved outside the web path.
 define('PEAR_DIR',INCLUDE_DIR.'pear/');

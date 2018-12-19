@@ -47,9 +47,14 @@ $nav=null;
 //Make sure the user is valid..before doing anything else.
 $thisclient = UserAuthenticationBackend::getUser();
 
+
+
 if (isset($_GET['lang']) && $_GET['lang']) {
+
+    $_SESSION['client:lang'] = 'es';
     if (Internationalization::getLanguageInfo($_GET['lang']))
         $_SESSION['client:lang'] = $_GET['lang'];
+
 }
 
 // Bootstrap gettext translations as early as possible, but after attempting
