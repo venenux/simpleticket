@@ -1,24 +1,31 @@
-* [README/index](README.md)
-* [wiki/documentation](wiki-a-index.md)
+ --**** [README/index](docs/README.md) --***-- [wiki/documentation](docs/wiki-a-index.md) ****--
 
-simpleticket : osTicket 1.9 fork WIKI INDEX
+simpleticket : osTicket fork WIKI INDEX
 ==========================================
 
-https://venenux.github.io/simpleticket109/
+Fork from **osTicket** 1.9 and 1.10 version series, widely-used open source support ticket system 
+integrates inquiries created via email, phone or web-based simple easy-to-use multi-user interface.
 
-## Installation and configuration
+This forks try to commit and merge great feature improvements rejected by original developers.
 
-* Documentation for install are all in: [wiki-install1.md](wiki-install1.md) 
-* Contribution rules are in the [wiki-contributingrules.md](wiki-contributingrules.md) document.
-* Some wiki sql querys for reporting tools or specific made: [wiki-db-sqlreports.md](wiki-db-sqlreports.md) 
+* Contribution rules are in the [wiki-contributingrules.1.md](wiki-contributingrules.1.md) document.
 
-## Official osTicker original Resources
+# Quick start index / Indice inicio rapido
 
-* [GitHub repo](https://github.com/osTicket/osTicket) - Main repository.
-* [Main Website](http://osticket.com) - Main website.
-* [Core Plugins](https://github.com/osTicket/osTicket-plugins) - Plugins written by core developers.
-* [Forum](http://www.osticket.com/forum/) - Forum hosted by osTicket.
-* [FAQ](http://osticket.com/faq) - Technical requirements etc.
+1. [wiki-install-index.md](wiki-install-index.md)
+2. [wiki-configure-index.md](wiki-configure-index.md)
+3. [wiki-usage-index.md](wiki-usage-index.md)
+
+![simpleticket main interface](readme-img-109-1.png)
+
+## Releases/Descargas
+
+* Español: [releases.es.md](releases.es.md)
+* English: [releases.en.md](releases.en.md)
+
+## Changelog/Historico
+
+* Español mixed: [Changelog](changelog.md)
 
 ## UnOfficial osticker forks active
 
@@ -95,6 +102,14 @@ plus adition, has a extra status "solved" apart of "open" and "closed" derivated
 * [osTicket Themes.com](https://osticketthemes.com/) - Commercial Theme developers.
 * [THEMEDOST](http://themedost.com/) - Commercial Themes.
 
+## Official osTicker original Resources
+
+* [GitHub repo](https://github.com/osTicket/osTicket) - Main repository.
+* [Main Website](http://osticket.com) - Main website.
+* [Core Plugins](https://github.com/osTicket/osTicket-plugins) - Plugins written by core developers.
+* [Forum](http://www.osticket.com/forum/) - Forum hosted by osTicket.
+* [FAQ](http://osticket.com/faq) - Technical requirements etc.
+
 ## Guides
 
 * [Wiki](http://osticket.com/wiki/Main_Page) - Has useful getting-started and configuration tips.
@@ -108,6 +123,7 @@ plus adition, has a extra status "solved" apart of "open" and "closed" derivated
 
 ## Development Resources
 
+* Some wiki sql querys for reporting tools or specific made: [wiki-db-sqlreports.md](wiki-db-sqlreports.md) 
 * [Repo - Signals Docs](https://github.com/osTicket/osTicket/blob/develop/setup/doc/signals.md) - How signals work.
 * [Unofficial Plugin Development Guide](https://github.com/poctob/OSTEquipmentPlugin/wiki/Plugin-Development-Introduction) - Provides reverse-engineered instructions on how to develop an osTicket plugin.
 

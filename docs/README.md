@@ -1,60 +1,38 @@
-* [README/index](README.md)
-* [wiki/documentation](wiki-a-index.md)
+ --**** [README/index](docs/README.md) --***-- [wiki/documentation](docs/wiki-a-index.md) ****--
 
-simpleticket : osTicket 1.9 fork
-================================
+simpleticket : osTicket with steroids
+=====================================
 
-<a href="https://venenux.github.io/simpleticket109/"><img src="media/simpleticketlogo.gif"
-align="left" hspace="10" vspace="6"></a>
+Fork from **osTicket** 1.9 and 1.10 version series, widely-used open source support ticket system 
+integrates inquiries created via email, phone or web-based simple easy-to-use multi-user interface.
 
-Fork from **osTicket** 1.9 version series, widely-used open source support 
-ticket system; integrates inquiries created via email, phone or web-based 
-simple easy-to-use multi-user interface.
+This forks try to commit and merge great feature improvements rejected by original developers.
+
+![simpleticket user interface](readme-img-109-2.png)
 
 It's main target: Manage support requests and responses in organized place 
 archiving while providing customers with accountability and responsiveness they deserve.
 
+About this featured project / Acerca de este proyecto:
+-----------------------------------------------------
 
-More information:
------------------
+Documentation **for download and install are all in: [wiki-install-index.md](wiki-install-index.md)** 
 
-We all forked the stupid poor wiki to more improved: [wiki-a-index.md](wiki-a-index.md) 
+Documentation **for configure and parametrize are all in: [wiki-configure-index.md](wiki-configure-index.md)** 
 
-But for admins/devels can go directly to install: [wiki-install1.md](wiki-install1.md) 
+Documentation **for users and agents are all in: [wiki-usage-index.md](wiki-usage-index.md)** 
 
-Original osTicket forum can be point of help in old info: [http://osticket.com/forums/](http://osticket.com/forums/).
+![simpleticket main interface](readme-img-109-1.png)
 
-Contribution rules are in the [wiki-contributingrules.md](wiki-contributingrules.md) document.
+> We all forked the stupid poor wiki to more improved: [wiki-a-index.md](wiki-a-index.md) 
 
 
-Features and improvements:
-----------------------
+**PLEASE READ Contribution rules in the [wiki-contributingrules.1.md](wiki-contributingrules.1.md) document.**
 
-The simpleticket osTicket's fork core features not only rival, but also exceed most high-priced help desk solutions 
-due all the rejected contribution that the dictators of osticket dont merged in 1.9 series 
-but also including the improvement of some people hard work... 
-
-* Creating tickets as easy as send emails!
-* Customer Portal, customizable rich text forms, auto ticket cross-reference in staff.
-* User can login using email and ticket ID only, if not can be autoregistered!
-* Collaborators on email and responsive theming for mobile and modern browsers
-* Optionally, No user account or registration required to submit a ticket!
-* Configurable automatic reply sent out when a new ticket is opened or a message is received.
-* Rich text or HTML email/forms, also in staff replies and internal notes posted to the ticket thread
-* Custom data collected using filters for email/incoming tickets or by custom inputs in forms.
-* Configurable help topics and template answers for all tickets also for customers/clients access.
-* Route inquiries without exposing internal departments or priorities.
-* Agent Collision Avoidance with Ticket locking mechanism to allow staff avoid conflicting.
-* Auto-Assign or/and Transfer beetween departaments or teams for tickets.
-* Works with old browsers and runs in olders systems! no limits!
-* Allow non-email accounts for logins specially used on intranet's.
-* Mantain noifications independently of To email users
-
-The new **features and diferences from original can be detailed in** [wiki-diferences-from-original.md](wiki-diferences-from-original.md)
 
 License
 -------
-simpleticket109 are released under GPL2 license too, due as original, 
+simpleticket109 are released under GPL2 license too, diue as original, 
 osTicket is released under the GPL2 license. See the included [LICENSE.txt](LICENSE.txt)
 file for the gory details of the General Public License.
 
@@ -74,3 +52,4 @@ osTicket is supported by several magical open source projects including:
   * [php-gettext](https://launchpad.net/php-gettext/)
   * [phpseclib](http://phpseclib.sourceforge.net/)
   * [Spyc](http://github.com/mustangostang/spyc)
+

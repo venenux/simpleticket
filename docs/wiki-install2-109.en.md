@@ -8,14 +8,21 @@ integrates inquiries created via email, phone or web-based simple easy-to-use mu
 
 This forks try to commit and merge great feature improvements rejected by original developers.
 
-* Contribution rules are in the [wiki-contributingrules.1.md](wiki-contributingrules.1.md) document.
-
-
 ## PRE-install and requirements ##
 
-Any Devuan or Debian release and normal osticket requirements 
-as your read in the [wiki-install1.en.md](wiki-install1.en.md) document.
+This guide will use 1.9 release with a Debian or Devuan operating system as example setup, 
+for any other cases, please see the [wiki-install2-109-debian-apache.md](wiki-install2-109-debian-apache.md) 
+or the [wiki-install2-alpine-hiawatta.md](wiki-install2-alpine-hiawatta.md) documents.
 
+Any Devuan or Debian release and normal osticket requirements 
+as your read in the [wiki-install1.en.md](wiki-install1.en.md) document, but those specific will be used:
+
+* webserver will be lighttpd
+* php version will be php 5 series
+* mysql/mariadb will be 5.X series
+
+Recent versions of the Debian or Devuan use only php 7 series and mariadb 10 series, those only 
+applies to 1.10 release of simpleticket, for that cases please see [wiki-install2-110.en.md](wiki-install2-110.en.md)
 
 ### prepare software pre-requisites ###
 
