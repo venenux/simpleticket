@@ -39,4 +39,11 @@ then take the manifiest.php file and change to proper the directory.
 
 each translations are inside a unique directory xx_YY by example es_VE for Venezuelan spanish.
 
+the jrun following commands:
+
+* `msgfmt -f messages.po -o messages.mo`
+* `php include/class.translation.php include/i18n/es_ES/LC_MESSAGES/messages.mo > include/i18n/es_ES/LC_MESSAGES/messages.mo.php`
+* reload php fpm and web server to take effect
+
+to generate a po file use pre pot as `php setup/cli/manage.php i18n make-pot > include/i18n/es_ES/LC_MESSAGES/message.po`
 
