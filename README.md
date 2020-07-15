@@ -1,14 +1,14 @@
  --**** [README/index](docs/README.md) --***-- [wiki/documentation](docs/wiki-a-index.md) ****--
 
-simpleticket : osTicket forks
+simpleticket
 ================================
 
-Fork from **osTicket** 1.9 and 1.10 version series, widely-used open source support ticket system 
+Fork from **osTicket** 1.9 version series, widely-used open source support ticket system 
 integrates inquiries created via email, phone or web-based simple easy-to-use multi-user interface.
 
 This forks try to commit and merge great feature improvements rejected by original developers.
 
-![simpleticket user interface](docs/readme-img-109-2.png)
+![simpleticket user interface](docs/README-img-109-2.png)
 
 It's main target: Manage support requests and responses in organized place 
 archiving while providing customers with accountability and responsiveness they deserve.
@@ -25,11 +25,13 @@ Documentation **for configure and parametrize are all in: [docs/wiki-configure-i
 
 Documentation **for users and agents are all in: [docs/wiki-usage-index.md](docs/wiki-usage-index.md)** 
 
-![simpleticket main interface](docs/readme-img-109-1.png)
+![simpleticket main interface](docs/README-img-109-1.png)
 
 
 About this repository and Contributing:
 --------------------------------------
+
+https://gitlab.com/venenux/simpleticket
 
 All the **work are made in gitlab repository: https://gitlab.com/venenux/simpleticket** 
 has **two branch, one for each version**, currently the 1.9 branch are focus of commits and 
