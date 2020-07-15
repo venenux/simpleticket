@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Ovaj predložak definira inicijalni email (opcionalno) poslan djelatnicima kada je račun otvoren u njihovo ime.
 name: "Dobro došli u osTicket"

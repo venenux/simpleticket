@@ -19,7 +19,7 @@
     - 
       type: text
       name: name
-      label: Full Name
+      label: Име и презиме
       required: true
       sort: 2
       edit_mask: 15
@@ -29,13 +29,13 @@
     - 
       type: phone
       name: phone
-      label: Phone Number
+      label: Телефонски број
       required: false
       sort: 3
     - 
       type: memo
       name: notes
-      label: Internal Notes
+      label: Забелешки
       required: false
       private: true
       sort: 4
@@ -44,16 +44,17 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Детали за тикетот
   instructions: Ве молиме опишете го вашиот проблем
-  notes: Оваа форма ќе биде прикачена на секој тикет, без разлика на изворот. Можете да додавате полиња на оваа форма и тие ќе бидат достапни за сите тикети, и ќе може да се пребарува со напредно пребарување и филтрирање.
+  notes: |
+    Оваа форма ќе биде прикачена на секој тикет, без разлика на изворот. Можете да додавате полиња на оваа форма и тие ќе бидат достапни за сите тикети, и ќе може да се пребарува со напредно пребарување и филтрирање.
   deletable: false
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Накратко за проблемот
       required: true
       edit_mask: 15
@@ -63,8 +64,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Детели за проблемот
       hint: Детали поради причина(и) за отварање на тикет.
       required: true
@@ -72,22 +73,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
-      label: Priority Level
+      type: priority #notrans
+      name: priority #notrans
+      label: Ниво на приоритет
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Информации за компанијата
   instructions: Детали поврзани со емаил темплејти
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Име на компанијата
       required: true
       sort: 1
@@ -96,23 +97,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Веб страна
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
-      label: Phone Number
+      type: phone #notrans
+      name: phone #notrans
+      label: Телефонски број
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Адреси
       required: false
@@ -123,14 +124,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Информации за организацијата
   instructions: Детали за организацијата на корисникот
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Име
       required: true
       sort: 1
@@ -141,7 +142,7 @@
     - 
       type: memo
       name: address
-      label: Address
+      label: Адреси
       required: false
       sort: 2
       configuration:
@@ -152,22 +153,22 @@
     - 
       type: phone
       name: phone
-      label: Phone
+      label: Телефон
       required: false
       sort: 3
     - 
       type: text
       name: website
-      label: Website
+      label: Веб страна
       required: false
       sort: 4
       configuration:
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
-      label: Internal Notes
+      label: Забелешки
       required: false
       sort: 5
       configuration:

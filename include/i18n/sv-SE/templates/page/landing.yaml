@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Startsidan refererar till innehållet för kundportalens startsida. Mallen ändrar innehållet ovanför de två länkarna <strong>Öppna ett nytt Ticket</strong> och <strong>Kontrollera Ticket status</strong>.
 name: Startsida

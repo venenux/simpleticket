@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Wysłane do obsługi kiedy zgłoszenie otrzymuje status zaniedbane / przedawnione (kiedy zgłoszenie nie zostanie rozwiązane w terminie). Stan zaniedbania / przedawnienia może zostać wywołany przez przekroczenie czasu SLA lub czasu jaki upłynął od otwarcia zgłoszenia.
 subject: |
   Alert przeterminowanych zgłoszeń
-body: |2
+body: |
   <h3><strong>Witaj %{recipient.name}</strong>,</h3>
   wygląda na to, że w zgłoszeniu <a href="%{ticket.staff_link}">#%{ticket.number}</a> ostatnio nic się nie dzieje.<br>
   <br>

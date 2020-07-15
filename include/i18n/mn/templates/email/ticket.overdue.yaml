@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Хүсэлт шийдвэрлэх хугацаа хэтэрсэн тохиолдолд ажилтан руу илгээнэ. Хүсэлтийн шийдвэрлэх хугацаа нь хүсэлтэд сонгогдсон SLA-р тодорхойлогдоно.
 subject: |
   Хуучирсан хүсэлтийн сануулга
-body: |2
+body: |
   <h3><strong>Сайн байна уу, %{recipient.name} ?</strong></h3>
   <a href="%{ticket.staff_link}">#%{ticket.number}</a> дугаартай хүсэлтийн шийдвэрлэх хугацаа хэтэрсэн байна.
   <br>

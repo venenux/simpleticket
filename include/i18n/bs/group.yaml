@@ -20,7 +20,8 @@
 - 
   isactive: 1
   name: Elephant Walkers
-  notes: Inhabitants of the ivory tower
+  notes: |
+    Inhabitants of the ivory tower
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -38,7 +39,8 @@
 - 
   isactive: 1
   name: Flea Trainers
-  notes: Lowly staff members
+  notes: |
+    Lowly staff members
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

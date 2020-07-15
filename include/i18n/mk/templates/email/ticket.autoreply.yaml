@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Испрати до корисник кога одговорот е автоматски испратен до тикетот кога е креиран.
-  
+
   Достапни променливи за замена: %{ticket.*}, %{response}
-subject: 'Re: %{ticket.subject} [#%{ticket.number}]'
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
 body: |
   <h3><strong>До %{recipient.name.first},</strong></h3>
   Побарување за поддршка беше креирано и доделено до тикет <a

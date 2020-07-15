@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Acest template defineste emailul trimis catre Angajati care acceseaza link-ul de <strong>Mi-am uitat Parola</strong> din pagina de autentificare Angajati.
 name: "Resetare parola pentru membrii personalului osTicket"

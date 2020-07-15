@@ -1,9 +1,13 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Дотоод тэмдэглэл оруулах эсвэл хүсэлтэд хэн нэг нь хариу өгөх зэрэг системийн дотоод үйл явдлын тухай ажилтанд илгээх Сануулга.
 subject: |
   Шинэ дотоод үйл ажиллагааны мэдэгдэл
-body: |2
+body: |
   <h3><strong>Сайн байна уу, %{recipient.name} ?</strong></h3>
   <a href="%{ticket.staff_link}">#%{ticket.number}</a> дугаартай Хүсэлт дээр Тусгай тэмдэглэл нэмэгдсэн байна
   <br>

@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Denne malen definerer epost sendt til klienter som velger lenken <strong>Glemt mitt passord</strong> på klient Logg på-siden.
 name: "%{company.name} sakssystem tilgang"

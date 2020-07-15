@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Filter
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 execution_order:
   title: Ordine di esecuzione
   content: >
@@ -69,7 +80,7 @@ auto_assign:
       title: Gestisci Gruppi
       href: /scp/teams.php
 help_topic:
-  title: Argomento della guida
+  title: Motivo della Richiesta
   content: >
     Scegli il livello di <span class="doc-desc-title"> SLA</span> che volete applicare al <span class="doc-desc-title"> filtro del Ticket</span>.
   links:

@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Ta predloga določa e-sporočilo poslano strankam, ki so izbrale povezavo <strong>Pozabljeno geslo</strong> na strankini strani za prijavo.
 name: "%{company.name} dostop do mize pomoči"

@@ -1,6 +1,10 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
-  A página inicial refere-se ao conteúdo da exibição inicial do Portal do Cliente. O modelo modifica o conteúdo visto acima os dois links para <strong>Abrir um novo Ticket</strong> e <strong>Verificar Status do Ticket</strong>.
+  A página inicial refere-se ao conteúdo da exibição inicial do Portal do Cliente. O modelo modifica o conteúdo visto acima dos links <strong>Abrir um novo Chamado</strong> e <strong>Verificar Status do Chamado</strong>.
 name: Pagina Inicial
 body: >
   <h1>Bem Vindo ao Sistema de Suporte</h1>

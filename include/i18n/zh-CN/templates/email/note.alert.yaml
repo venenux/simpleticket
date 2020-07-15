@@ -1,4 +1,8 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   发送给代理人的提醒。该提醒在发生工单内部活动如内部备注或代理回复工单时触发。
 subject: |

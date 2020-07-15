@@ -1,7 +1,13 @@
 ---
-notes: Испрати до вработениот кога ќе биде креиран нов тикет во системот. Оваа се однесува на тикетите кои што се креирани од емаил, веб портал или од API.
-subject: Нов тикет алерт
-body: |2
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
+notes: |
+  Испрати до персоналот кога нов тикет е креиран во системот. Ова се додава на тикетите креирани преку емаил, веб порталот или преку аpi.
+subject: |
+  Нов тикет алерт
+body: |
   <h2>Здраво %{recipient.name},</h2>
   Креиран е нов тикет #%{ticket.number} 
   <br>

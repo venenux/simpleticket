@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Enviada aos membros da equipe quando umas transições de multa para atraso no sistema. Tickets em atrasos ocorrerem com base na data de vencimento do ticket, bem como o SLA definido para o atendimento.
 subject: |
   Alerta de Chamados Atrasados
-body: |2
+body: |
   <h3><strong>Olá %{recipient}</strong>,</h3>
   Um chamado, <a href="%{ticket.staff_link}">#%{ticket.number}</a> está atrasado.
   <br>

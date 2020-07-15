@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Tiketin tiedot
   instructions: Kuvaile ongelmaasi
   notes: |
@@ -53,8 +53,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Ongelman yhteenveto
       required: true
       edit_mask: 15
@@ -64,8 +64,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Tarkemmat tiedot ongelmasta
       hint: Tarkemmat syyt tiketin avaamiseen.
       required: true
@@ -73,22 +73,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Tärkeys
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Yrityksen tiedot
   instructions: Tarkemmat tiedot saatavilla sähköpostiviestipohjissa
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Yrityksen nimi
       required: true
       sort: 1
@@ -97,23 +97,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Verkkosivu
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Puhelinnumero
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Katuosoite
       required: false
@@ -124,14 +124,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Organisaation tiedot
   instructions: Lisätiedot käyttäjän organisaatiosta
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Nimi
       required: true
       sort: 1
@@ -166,7 +166,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Sisäiset muistiinpanot
       required: false

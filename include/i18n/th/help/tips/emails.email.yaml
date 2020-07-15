@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Ticket ใหม่ หัวข้อการช่วยเหลือ
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: ชื่อผู้ใช้
   content: >
-    
+
 password:
   title: รหัสผ่าน
   content: >
-    
+
 login_information:
   title: ข้อมูลเข้าสู่ระบบอีเมล
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: อนุญาตให้แก้ไขส่วนหัว
   content: >
     เปิดใช้งานนี่เพื่ออนุญาตให้ส่งอีเมลผ่าน mail box นี้ จากที่อยู่อันนึงที่ได้รับจากการตั้งค่า <span class="doc-desc-title">ที่อยู่อีเมล</span> ด้านบน <br/><br/> การตั้งค่าขั้นสูงนี้โดยทั่วไปจะใช้เมื่องส่งอีเมลจากชื่อแทน(aliases) ของ mail box นี้
+

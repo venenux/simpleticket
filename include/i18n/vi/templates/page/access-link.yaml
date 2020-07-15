@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Khung mẫu này dùng để thông báo cho khách hàng link truy cập đã gởi tới email của họ. Số lệnh và địa chỉ email chứa link truy cập.
 name: "Lệnh [#%{ticket.number}] Link truy cập"

@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Munkatársaknak küldve, mikor új hibajegyet hoznak létre a rendszerben. Ez vonatkozik az emailben, a portálon vagy az api-n keresztül létrehozott hibajegyekre is.
 subject: |
   Új hibajegy riasztás
-body: |2
+body: |
   <h2>Kedves %{recipient.name},</h2>
   Új hibajegy létrehozva: #%{ticket.number}
   <br>

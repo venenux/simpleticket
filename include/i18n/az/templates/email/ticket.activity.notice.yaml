@@ -1,4 +1,7 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Sorğu fəaliyyəti haqqında əməkdaşlara göndərilən bildiriş, məs., cavab verin və ya mesaj yazın.
 subject: |

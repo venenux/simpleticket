@@ -1,0 +1,49 @@
+---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
+notes: |
+  انتباہ ایجنٹوں کو بھیجا جاتا ہے جب اندرونی سرگرمی جیسے اندرونی نوٹ یا ایجنٹ کا جواب ایک ٹکٹ پر لگا ہو.
+subject: |
+  New Internal Activity Alert
+body: |
+  <h3><strong>سلام %{recipient.name},</strong></h3>
+  ایک ایجنٹ نے ٹکٹ <a
+  href="%{ticket.staff_link}">#%{ticket.number} پر سرگرمی کو لاگ کیا ہے</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>ازطرف</strong>:
+  </td>
+  <td>
+  %{note.poster}
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>مضمون</strong>:
+  </td>
+  <td>
+  %{note.title}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  ٹکٹ کو دیکھنے/جواب دینے کے لیے برائے کرم ہمارے ٹکٹ سسٹم میں <a
+  href="%{ticket.staff_link}">لاگ ان کریں</a> 
+  <br>
+  <br>
+  <em style="font-size: small; ">آپ کا دوستانہ سپورٹ سسٹم
+  </em>
+  <br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

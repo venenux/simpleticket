@@ -1,12 +1,16 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
-  Saadetakse kliendile, kui kasutajatoe töötaja registreerib pöördumise tema eest. Enamasti tehakse seda siis, kui kasutaja on kasutajatoele helistanud.
+  Saadetakse kasutajale, kui töötaja loob pileti tema eest. Enamasti tehakse seda siis, kui kasutaja on helistanud.
 subject: |
   %{ticket.subject} [#%{ticket.number}]
 body: |
-  <h3><strong>Lugupeetud %{recipient.name.first}</strong></h3>
-  Meie klienditugi on regisreerinud Teie nimel pöördumise <a
-  href="%{recipient.ticket_link}">#%{ticket.number}</a> järgneva sisuga:
+  <h3><strong>Tere %{recipient.name.first},</strong></h3>
+  Meie klienditoe meeskond koostas pileti <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> sinu nimel, järgmiste üksikasjadega:
   <br>
   <br>
   Pealkiri: <strong>%{ticket.topic.name}</strong>
@@ -17,12 +21,12 @@ body: |
   %{message}
   <br>
   <br>
-  Kui vaja, siis võetakse Teiega peagi ühendust. Saate pöördumise <a href="%{recipient.ticket_link}">lahenduse progressi jälgida ka onlain</a>.
+  Võimalusel jätkab meie esindaja teiega nii kiiresti kui võimalik. Te saate ka <a href="%{recipient.ticket_link}">pileti progressi jälgida onlines</a>.
   <br>
   <br>
   <div style="color: rgb(127, 127, 127);">
   Teie %{company.name} meeskond<br>
   %{signature}</div>
   <hr>
-  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Kui soovite lisada infot või kommentaare, siis palun vastake sellele e-kirjale või <a href="%{recipient.ticket_link}"><span
-  style="color: rgb(84, 141, 212);" >logige sisse</span></a>, et näha kõiki oma registreeritud pöördumisi</em></div>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Juhul kui soovid lisada täienavaid kommentaare või infot, seoses ülalmainituga, siis lihtsalt vasta sellele emailile või <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >logi sisse oma kontole</span></a>, et näha kogu oma klienditoe arhiivi ja ajalugu.</em></div>

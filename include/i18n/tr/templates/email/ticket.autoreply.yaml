@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Bir kayıt oluşturulurken hazır yanıt gönderildiğinde kullanıcıya gönderilir. 
-  
+
   Kullanılabilecek değişkenler: %{ticket.*}, %{response}
 subject: |
   Yanıt: %{ticket.subject} [#%{ticket.number}]

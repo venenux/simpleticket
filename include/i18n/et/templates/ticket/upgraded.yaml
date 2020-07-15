@@ -1,19 +1,23 @@
 ---
-source: Veeb
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: Veeb #notrans
 name: osTicket tugi
 email: support@osticket.com
 subject: osTicket on uuendatud!
 message: |
   <p>
-  osTicket on edukalt uuendatud! Rohkem infot muudatuste ja uuenduste kohta leiad veebisaidilt
-  (http://osticket.com/wiki/Release_Notes). 
+  osTicket on edukalt uuendatud! Rohkem infot muudatuste ja uuenduste kohta leiad veebisaidilt (http://osticket.com/wiki/Release_Notes). 
   </p><p>
   Liitu foorumiga <a href="http://osticket.com/forums">osTicket
-  forums</a> ja meie <a href="http://osticket.com/updates">meililistiga</a>, et saada teateid turvalisuse uuenduste ja teiste muudatuste kohta! Teie panus osTicket kogukond on teretulnud!
+  forums</a> ja meie <a href="http://osticket.com/updates">meililistiga</a>, et saada teateid turvalisuse uuenduste ja teiste muudatuste kohta! Teie panus osTicket kogukonnas on teretulnud!
   </p><p>
-  OsTicket meeskond pakub pühendunult tuge kõigile kasutajatele meie tasuta online-juhendite ja tasuliste pakkettide kaudu. Lisainformatsiooni või erivajaduste läbiarutamiseks võtke meiega õhendust http://osticket.com/support/. Oleme tnulikud mistahes tadasiside eest!
+  OsTicket meeskond pakub pühendunult tuge kõigile kasutajatele meie tasuta online-juhendite ja tasuliste pakkettide kaudu. Lisainformatsiooni või erivajaduste läbiarutamiseks võtke meiega ühendust juba täna http://osticket.com/support/. Oleme tänulikud mistahes tagasiside eest!
   </p><p>
-  Kui osTicket süsteemi haldamine või uuendamine on teie jaoks heidutav, siis võite proovida osTicket süsteemi hostitud teenusena http://www.supportsystem.com/ -- pole vaja enam kunagi uuendustega tegeleda ning me saame Teie andmed importida! Teenus võimaldab Teil pühenduda oma klientidele muretsemata rakenduse stabiilsuse, hooldamise ja turvalisuse eest.
+  Kui osTicket süsteemi haldamine või uuendamine on teie jaoks heidutav, siis võite proovida osTicket süsteemi majutatud teenusena http://www.supportsystem.com/ -- pole vaja enam kunagi uuendustega tegeleda ning me saame Teie andmed importida! Teenus võimaldab Teil pühenduda oma klientidele muretsemata rakenduse stabiilsuse, hooldamise ja turvalisuse eest.
   </p><p>
   -<br/>
   osTicket meeskond<br/>

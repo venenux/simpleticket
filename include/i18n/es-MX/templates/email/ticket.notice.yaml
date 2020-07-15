@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Enviado a un usuario cuando un miembro del personal crea un ticket en nombre del usuario.
   Esto sucede comunmente cuando un usuario llama por teléfono.

@@ -1,5 +1,10 @@
 ---
-source: Veb
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: Veb #notrans
 name: osTicket texniki dəstəyi
 email: support@osticket.com
 subject: osTicket təkmilləşdi!
@@ -9,4 +14,4 @@ message: |
   </p><p>
   <a href="http://osticket.com/forums">osTicket forumlarına</a> və bizim <a href="http://osticket.com/updates">mesaj göndərmə siyahımıza</a> xəbərdarlıqlar, təhlükəsizlik yenilənmələri və siqnallarından xəbərdar olmaq üçün qoşulduğunuza əmin olun. Sizin osTicketlə əməkdaşlıq əlaqələriniz dəyərləndiriləcək!
   </p><p>
-  
+

@@ -1,35 +1,56 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
   title: Status sistema za podršku
-  content: 'Ukoliko je status promenjen u <span class="doc-desc-opt">Isključen</span>, klijentski ekran će biti onemogućen. Ovo ipak ne utiče na normalan rad agenta u agent panelu.'
+  content: >
+    Ukoliko je status promenjen u <span class="doc-desc-opt">Isključen</span>, klijentski ekran će biti onemogućen. Ovo ipak ne utiče na normalan rad agenta u agent panelu.
 helpdesk_url:
   title: URL adresa sistema za podršku
-  content: Ovaj URL je osnova Vaše osTicket instalacije. Koristi se u komunikaciji elektronskom poštom da usmeri krajnjeg korisnika nazad na Vaš tiketing sistem.
+  content: >
+    Ovaj URL je osnova Vaše osTicket instalacije. Koristi se u komunikaciji elektronskom poštom da usmeri krajnjeg korisnika nazad na Vaš tiketing sistem.
 helpdesk_name_title:
   title: Ime tiketing sistema
-  content: Ovo je naslov koji se pojavljuje u pretraživaču. Ako je Vaša stranica tiketing sistema zapamćena u pretaživaču ovo će biti naziv stranice.
+  content: >
+    Ovo je naslov koji se pojavljuje u pretraživaču. Ako je Vaša stranica tiketing sistema zapamćena u pretaživaču ovo će biti naziv stranice.
 default_department:
   title: Podrazumevano odeljenje
-  content: 'Odaberite osnovno <span class="doc-desc-title">Odeljenje</span> za tikete koji nisu automatski usmereni na odeljenja. <br/><br/> Tiket može biti usmeren na osnovu Teme pomoći, dolazne pošte i podešavanja filtriranja tiketa.'
+  content: >
+    Odaberite osnovno <span class="doc-desc-title">Odeljenje</span> za tikete koji nisu automatski usmereni na odeljenja. <br/><br/> Tiket može biti usmeren na osnovu Teme pomoći, dolazne pošte i podešavanja filtriranja tiketa.
 default_page_size:
   title: Podrazumevana veličina strane
-  content: 'Odaberite broj predmeta po stranici u spisku tiketa u panelu zaposlenih. Svaki agent takođe može da uredi ovaj broj za sopstveni nalog pod <span class="doc-desc-title">Moja podešavanja</span>.'
+  content: >
+    Odaberite broj predmeta po stranici u spisku tiketa u panelu zaposlenih. Svaki agent takođe može da uredi ovaj broj za sopstveni nalog pod <span class="doc-desc-title">Moja podešavanja</span>.
 default_log_level:
   title: Osnovni nivo beleženja
-  content: 'Odredite minimalni nivo događaja koji će se snimati u <span class="doc-desc-title">Sistemskim beleškama</span>. <span class="doc-desc-opt">Debug</span> predstavlja najmanji nivo ozbiljnosti, a <span class="doc-desc-opt">Error</span> predstavlja najveći nivo ozbiljnosti. Na primer, ukoliko želite da vidite sva dešavanja u <span class="doc-desc-title">Sistemskim beleškama</span>, odaberite <span class="doc-desc-opt">Debug</span>.'
+  content: >
+    Odredite minimalni nivo događaja koji će se snimati u <span class="doc-desc-title">Sistemskim beleškama</span>. <span class="doc-desc-opt">Debug</span> predstavlja najmanji nivo ozbiljnosti, a <span class="doc-desc-opt">Error</span> predstavlja najveći nivo ozbiljnosti. Na primer, ukoliko želite da vidite sva dešavanja u <span class="doc-desc-title">Sistemskim beleškama</span>, odaberite <span class="doc-desc-opt">Debug</span>.
 purge_logs:
   title: Očisti dnevnike
-  content: 'Odredite koliko dugo želite da čuvate <span class="doc-desc-title">Sistemske dnevnike</span> pre njihovog brisanja.'
+  content: >
+    Odredite koliko dugo želite da čuvate <span class="doc-desc-title">Sistemske dnevnike</span> pre njihovog brisanja.
 default_name_formatting:
   title: Osnovno formatiranje imena
-  content: Odaberite format za imena u sistemu. Primeri imejlova će se koristiti za imena ukoliko nije naveden nijedan drugi format u promenljivoj.
+  content: >
+    Odaberite format za imena u sistemu. Primeri imejlova će se koristiti za imena ukoliko nije naveden nijedan drugi format u promenljivoj.
   links:
     - 
       title: Podržane promenljive u imejl šablonima
       href: http://osticket.com/wiki/Email_templates
+#Date and time options
 date_time_options:
   title: Datum i vreme
-  content: Sledeće podešavanje definiše podešavanje datuma i vremena za klijente. Možete promeniti kako se oni prikazuju prateći PHP format datuma. Datumi prikazani ispod jednostavno ilustruju rezultat njihovih odgovarajućih vrednosti.
+  content: >
+    Sledeće podešavanje definiše podešavanje datuma i vremena za klijente. Možete promeniti kako se oni prikazuju prateći PHP format datuma. Datumi prikazani ispod jednostavno ilustruju rezultat njihovih odgovarajućih vrednosti.
   links:
     - 
       title: Pogledajte tabelu PHP formatiranja datuma

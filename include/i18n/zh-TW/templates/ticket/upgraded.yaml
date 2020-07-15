@@ -1,5 +1,10 @@
 ---
-source: 網頁
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: 網頁 #notrans
 name: OsTicket 技術支援
 email: support@osticket.com
 subject: osTicket 升級成功 ！

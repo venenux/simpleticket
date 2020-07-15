@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Энэ загвар нь хүсэлт уруу хандах холбоосыг имэйлээр явуулсан тухай хэрэглэгчид илгээх мэдэгдэлд ашиглагдана. Хүсэлтийн дугаар ба имэйл хаяг нь холбоосыг тодорхойлж өгнө.
 name: "Хүсэлт [#%{ticket.number}] уруу хандах холбоос"

@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Nosūtās atbalsta grupas darbiniekiem, kad pieteikums tiek nozīmēts viņiem. Pieteikumi var tikt nozīmēti automātiski caur sistēmu vai manuāli, ja to paveic cits atbalsta grupas darbinieks. Izmantojiet %{assigner}, lai noteiktu kurš ir veicis nozīmējumu.
 subject: |
   Jums piešķirtais pieteikums
-body: |2
+body: |
   <h3><strong>Hi %{assignee.name.first},</strong></h3>
   Jums ir piešķirts pieteikums <a href="%{ticket.staff_link}">#%{ticket.number}</a> no  %{assigner.name.short}
   <br>

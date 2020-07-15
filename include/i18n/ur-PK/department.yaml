@@ -1,0 +1,22 @@
+---
+- 
+  id: 1
+  name: سپورٹ
+  signature: محکمہ سپورٹ
+  ispublic: 1
+  group_membership: 1
+- 
+  id: 2
+  name: سیلز
+  signature: |
+    سیل اور کسٹمر کو برقرار رکھنا
+  ispublic: 1
+  sla_id: 1
+  group_membership: 1
+- 
+  id: 3
+  name: دیکھ بھال
+  signature: |
+    دیکھ بھال کا ادارہ
+  ispublic: 0
+  group_membership: 0

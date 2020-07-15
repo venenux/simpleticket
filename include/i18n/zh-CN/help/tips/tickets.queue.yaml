@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: 搜索字段
   content: >
-    
+
 advanced:
   title: 高级
   content: >
@@ -14,27 +25,27 @@ open_tickets_table:
 ticket:
   title: 咨询
   content: >
-    
+
 date:
   title: 日期
   content: >
-    
+
 subject:
   title: 主题
   content: >
-    
+
 from:
   title: 发自
   content: >
-    
+
 priority:
   title: 优先级
   content: >
-    
+
 assigned_to:
   title: 分配至
   content: >
-    
+
 export:
   title: 导出
   content: >
@@ -42,7 +53,7 @@ export:
 advanced_search_dialog:
   title: 高级搜索
   content: >
-    
+
 adv_keyword:
   title: 关键词搜索
   content: >

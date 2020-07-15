@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Oznámenie odoslané spolupracovníkom ticketu, napr. odpoveď alebo správa.
 subject: |
   Re: %{ticket.subject}
-body: |2
+body: |
   <h3><strong>Vážený/á%{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> zaznamenal správu na ticket, na ktorom pracujete.

@@ -1,17 +1,17 @@
 ---
 - 
   id: 0
-  name: 'crwdns5011:0crwdne5011:0'
-  state: 'crwdns5012:0crwdne5012:0'
+  name: crwdns5011:0crwdne5011:0
+  state: crwdns5012:0crwdne5012:0
   mode: 0
   sort: 0
   flags: 0
   properties:
-    description: 'crwdns5016:0crwdne5016:0'
+    description: crwdns5016:0crwdne5016:0
 - 
   id: 0
-  name: 'crwdns5018:0crwdne5018:0'
-  state: 'crwdns5019:0crwdne5019:0'
+  name: crwdns5018:0crwdne5018:0
+  state: crwdns5019:0crwdne5019:0
   mode: 0
   sort: 0
   flags: 0
@@ -20,8 +20,8 @@
       crwdns5023:0crwdne5023:0
 - 
   id: 0
-  name: 'crwdns5025:0crwdne5025:0'
-  state: 'crwdns5026:0crwdne5026:0'
+  name: crwdns5025:0crwdne5025:0
+  state: crwdns5026:0crwdne5026:0
   mode: 0
   sort: 0
   flags: 0
@@ -30,8 +30,8 @@
       crwdns5030:0crwdne5030:0
 - 
   id: 0
-  name: 'crwdns5032:0crwdne5032:0'
-  state: 'crwdns5033:0crwdne5033:0'
+  name: crwdns5032:0crwdne5032:0
+  state: crwdns5033:0crwdne5033:0
   mode: 0
   sort: 0
   flags: 0
@@ -40,8 +40,8 @@
       crwdns5037:0crwdne5037:0
 - 
   id: 0
-  name: 'crwdns5039:0crwdne5039:0'
-  state: 'crwdns5040:0crwdne5040:0'
+  name: crwdns5039:0crwdne5039:0
+  state: crwdns5040:0crwdne5040:0
   mode: 0
   sort: 0
   flags: 0

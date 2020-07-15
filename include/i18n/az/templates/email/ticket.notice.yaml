@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Heyət üzvləri istifadəçilərin adından sorğu yaradanda göndərin. Bu, daha çox istifadəçinin telefonuna zəng gələndə baş verir.
 subject: |

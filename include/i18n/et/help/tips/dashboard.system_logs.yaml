@@ -1,11 +1,22 @@
 ---
+#This is popup help messages for the Admin Panel -> Dashboard  -> System Logs page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 system_logs:
   title: Süsteemi logid
   content: >
     Siit leiad kõiksugu veaotsinguga seotud logisid (nt vead, hoiatused, programmivead).
   links:
     - 
-      title: Kohanda, millist tegevust logitakse, muutes <br /><span class="doc-desc-title">logimise tase vaikimisi</span>.
+      title: Kohanda, millist tegevust logitakse, muutes <br /><span class="doc-desc-title">logimise vaiketaset</span>.
       href: /scp/settings.php?t=system
 date_span:
   title: Ajavahemik
@@ -14,15 +25,15 @@ date_span:
 type:
   title: Tüüp
   content: >
-    Tee valik, et kitsendada tegevuste tüübi fookust. <span class="doc-desc-opt">Silumine </span> esindab vähimat tõsidust ja <span class="doc-desc-opt">viga</span> esindab suurimat tõsidust.
+    Tee valik, et kitsendada tegevuste tüübi fookust. <span class="doc-desc-opt">silumine </span> esindab vähimat tõsidust ja <span class="doc-desc-opt">viga</span> esindab suurimat tõsidust.
 showing_logs:
-  title: Näitame&hellip;logisid
+  title: Näitab&hellip;logisid
   content: >
     Kontrolli, et <span class="doc-desc-title">lehed</span> alajaotuses allpool pole rohkem lehti, mis kuvaksid süsteemi logisid.
 log_title:
   title: Logi pealkiri
   content: >
-    Klõpsa <span class="doc-desc-title">logi pealkiri</span> tabeli päist, kui soovid vastust sorteerida <span class="doc-desc-title">logi pealkirja</span> järgi.
+    Vajuta <span class="doc-desc-title">logi pealkiri</span> tabeli päises, kui soovid vastust sorteerida <span class="doc-desc-title">logi pealkirja</span> järgi.
 log_type:
   title: Logi tüüp
   content: >
@@ -30,7 +41,7 @@ log_type:
 log_date:
   title: Logi kuupäev
   content: >
-    See on kuupäev, mil tarkvara logi tekitas. Kui Sa soovid vastuseid sorteerida <span class="doc-desc-title">logi kuupäeva</span> järgi, siis klõpsa <span class="doc-desc-title">logi kuupäeva</span> tabeli päisel. (Kasuta <span class="doc-desc-title">ajavahemikku</span> allpool, et vähendada logide hulka.)
+    See on kuupäev, mil tarkvara logi tekitas. Kui Sa soovid vastuseid sorteerida <span class="doc-desc-title">logi kuupäeva</span> järgi, siis vajuta <span class="doc-desc-title">logi kuupäeva</span> tabeli päisel. (Kasuta <span class="doc-desc-title">ajavahemikku</span> allpool, et vähendada logide hulka.)
 ip_address:
   title: IP aadress
   content: >

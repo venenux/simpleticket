@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Odošle sa zamestnancovi pri vytvorení nového tiketu. To platí pre všetky tikety vytvorené prostredníctvom e-mailu, webového portálu alebo api.
 subject: |
   Upozornenie na nový tiket
-body: |2
+body: |
   <h2>Dobrý deň %{recipient},</h2>
   Nová požiadavka č. %{ticket.number} je vytvorená
   <br>

@@ -1,8 +1,11 @@
 ---
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
 notes: |
   새로운 티켓이 등록되면 사용자에게 전송됩니다.
 subject: |
-  티켓이 오픈되었습니다 [#%{ticket.number}]
+  티켓이 오픈 되었습니다 [#%{ticket.number}]
 body: |
   <h3><strong> %{recipient.name.first}님,</strong></h3>
   <p>

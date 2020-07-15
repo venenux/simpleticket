@@ -1,50 +1,75 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
-  title: Contact Information
-  content: ""
+  title: Контакт информации
+  content: >
+
 username:
-  title: Username
-  content: 'Само агентите со администраторски статус може да го променат корисничкото име. Доколку вие сте агент со администраторски привилегии, можете тоа да го направите со одбирање на агентот од листата <span class="doc-desc-title">Вработени</span>.'
+  title: Корисничко име
+  content: >
+    Само агентите со администраторски статус може да го променат корисничкото име. Доколку вие сте агент со администраторски привилегии, можете тоа да го направите со одбирање на агентот од листата <span class="doc-desc-title">Вработени</span>.
   links:
     - 
       title: Промени го корисничкото име како Администратор
       href: /scp/staff.php
 time_zone:
   title: Временска зона
-  content: ""
+  content: >
+
 daylight_saving:
   title: Летно сметање на времето
-  content: ""
+  content: >
+
 maximum_page_size:
   title: Максимална големина на страница
-  content: ""
+  content: >
+
 auto_refresh_rate:
   title: Брзина на автоматско освежување
-  content: ""
+  content: >
+
 default_signature:
   title: Основен потпис
-  content: ""
+  content: >
+
 default_paper_size:
   title: Основна големина на страница
-  content: ""
+  content: >
+
 show_assigned_tickets:
   title: Прикажи ги доделените Тикети
-  content: 'Овозможете го ова за да го сокриете вашето име од листата <span class="doc-desc-title">Отворени Тикети</span> за оние тикети на кои што сте ги доделиле. Одкако ќе го сокритете името, ќе се испиши текст <span class="doc-desc-title">Оддел</span> на кој што припаѓате.'
+  content: >
+    Овозможете го ова за да го сокриете вашето име од листата <span class="doc-desc-title">Отворени Тикети</span> за оние тикети на кои што сте ги доделиле. Одкако ќе го сокритете името, ќе се испиши текст <span class="doc-desc-title">Оддел</span> на кој што припаѓате.
 password:
-  title: Password
-  content: ""
+  title: Лозинка
+  content: >
+
 current_password:
   title: Моментална лозинка
-  content: ""
+  content: >
+
 new_password:
   title: Нова лозинка
-  content: ""
+  content: >
+
 confirm_new_password:
   title: Потврди нова лозинка
-  content: ""
+  content: >
+
 signature:
   title: Потпис
-  content: 'Креирајте опционален <span class="doc-desc-title">Потпис</span> кој можеби ќе се наоѓа на дното на одговорот на тикетот. Дали овој <span class="doc-desc-title">Потпис</span> ќе се наоѓа или не, зависи од <span class="doc-desc-title">Емаил темплејтот</span> кој што ќе биде користен во одговорот на тикетот.'
+  content: >
+    Креирајте опционален <span class="doc-desc-title">Потпис</span> кој можеби ќе се наоѓа на дното на одговорот на тикетот. Дали овој <span class="doc-desc-title">Потпис</span> ќе се наоѓа или не, зависи од <span class="doc-desc-title">Емаил темплејтот</span> кој што ќе биде користен во одговорот на тикетот.
   links:
     - 
       title: Креирајте емаил темплејт во Администраторскиот панел

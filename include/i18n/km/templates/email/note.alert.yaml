@@ -1,4 +1,8 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   ការជូនដំណឹងត្រូវបានផ្ញើចេញទៅភ្នាក់ងារ ពេលសកម្មភាពផ្ទៃក្នុង ដូចជា ការចំណាំផ្ទៃក្នុង internal note ឬការឆ្លើយតបភ្នាក់ងារត្រូវបានបន្ថែមទៅករណី ticket ។
 subject: |

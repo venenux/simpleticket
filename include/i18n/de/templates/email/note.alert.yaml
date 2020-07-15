@@ -1,9 +1,13 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Benachrichtigung, die an Agenten versendet wird, wenn eine interne Aktivität wie etwa eine interne Notiz oder eine Antwort eines Agenten an ein Ticket angefügt wird.
 subject: |
   Benachrichtigung bei neuer interner Aktivität
-body: |2
+body: |
   <h3><strong>Hallo %{recipient.name},</strong></h3>
   ein Agent hat eine Aktivität zum Ticket <a
   href="%{ticket.staff_link}">#%{ticket.number}</a> hinzugefügt.

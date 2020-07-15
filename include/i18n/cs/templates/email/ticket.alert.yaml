@@ -1,11 +1,16 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
-  Bude odesláno zaměstnanci v okamžiku zadání nového zákaznického požadavku v systému. Nastavení platí pro požadavky vytvořené prostřednictvím e-mailu, portálu zákaznické podpory nebo API.
+  Zasláno zaměstnancům v momentě, kdy je v systému vytvořen nový požadavek.
+  Toto platí pro požadavky vytvořené pomocí e-mailu, webu nebo API.
 subject: |
   Upozornění na nový požadavek
-body: |2
-  <h2>Dobrý den %{recipient},</h2>
-  Byl vytvořen nový zákaznický požadavek #%{ticket.number}
+body: |
+  <h2>Vážený/á %{recipient.name},</h2>
+  byl vytvořen nový požadavek č. %{ticket.number}
   <br>
   <br>
   <table>
@@ -33,9 +38,9 @@ body: |2
   <br>
   <br>
   <hr>
-  <div>Pro zobrazení nebo odpověď na zákaznický požadavek se prosím <a
-  href="%{ticket.staff_link}">přihlaste</a> do systému zákaznické podpory</div>
-  <em style="font-size: small">Vaše zákaznická podpora</em>
+  <div>Pro zobrazení či odpověď na tento požadavek, prosím, <a
+  href="%{ticket.staff_link}">přihlašte se</a>do systému zákazn. podpory.</div>
+  <em style="font-size: small">Zákaznická podpora</em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
       style="width: 126px; " alt="Provozováno na osTicket"

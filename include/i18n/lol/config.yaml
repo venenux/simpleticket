@@ -1,4 +1,7 @@
 ---
+#Default configuration. The format is key: value and the data will be
+#inserted into the %config table at install time
+#---
 core:
   time_format: 'crwdns283:0crwdne283:0'
   date_format: 'crwdns284:0crwdne284:0'
@@ -8,6 +11,7 @@ core:
   default_priority_id: 0
   enable_daylight_saving: 0
   reply_separator: 'crwdns825:0crwdne825:0'
+  #Do not translate below here
   allowed_filetypes: 'crwdns282:0crwdne282:0'
   isonline: 0
   staff_ip_binding: 0

@@ -1,10 +1,21 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: 연락처 정보
   content: >
-    
+
 username:
-  title: 계정명
+  title: 사용자명
   content: >
     관리 권한을 가진 에이전트만 계정명을 변경할 수 있습니다. 관리 권한을 가지고 있으시다면 <span class="doc-desc-title">스태프 멤버</span> 표에서 에이전트를 선택하여 이를 변경할 수 있습니다.
   links:
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: 시간대
   content: >
-    
+
 daylight_saving:
   title: 서머 타임
   content: >
-    
+
 maximum_page_size:
   title: 최대 페이지 크기
   content: >
-    
+
 auto_refresh_rate:
   title: 자동 새로고침 주기
   content: >
-    
+
 default_signature:
   title: 기본 서명
   content: >
-    
+
 default_paper_size:
   title: 기본 종이 크기
   content: >
-    
+
 show_assigned_tickets:
   title: 할당된 티켓 보기
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: 비밀번호
   content: >
-    
+
 current_password:
   title: 현재 암호
   content: >
-    
+
 new_password:
   title: 새 암호
   content: >
-    
+
 confirm_new_password:
   title: 암호 확인
   content: >
-    
+
 signature:
   title: 서명
   content: >

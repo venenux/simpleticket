@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Thông tin chi tiết Ticket 
   instructions: Hãy mô tả vấn đề của bạn
   notes: |
@@ -53,8 +53,8 @@
   fields:
     - 
       id: 20
-      type: văn bản
-      name: subject
+      type: văn bản #notrans
+      name: subject #notrans
       label: Tóm tắt vấn đề
       required: true
       edit_mask: 15
@@ -64,8 +64,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Chi tiết vấn đề
       hint: Nội dung chi tiết vấn đề cần hỗ trợ.
       required: true
@@ -73,22 +73,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: mức độ ưu tiên
+      type: priority #notrans
+      name: mức độ ưu tiên #notrans
       label: Mức độ ưu tiên
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Thông tin công ty
   instructions: Thông tin chi tiết có sẵn trong khung mẫu email 
   deletable: false
   fields:
     - 
-      type: văn bản
-      name: name
+      type: văn bản #notrans
+      name: name #notrans
       label: Tên công ty
       required: true
       sort: 1
@@ -97,23 +97,23 @@
         size: 40
         length: 64
     - 
-      type: văn bản ngắn
-      name: website
+      type: văn bản ngắn #notrans
+      name: website #notrans
       label: Website
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: số điện thoại
-      name: số điện thoại
+      type: số điện thoại #notrans
+      name: số điện thoại #notrans
       label: Số điện thoại
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: ghi nhớ
+      type: ghi nhớ #notrans
       name: address
       label: Địa chỉ
       required: false
@@ -124,14 +124,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Thông tin doanh nghiệp
   instructions: Thông tin công ty của người dùng
   deletable: false
   fields:
     - 
-      type: văn bản ngắn
-      name: tên
+      type: văn bản ngắn #notrans
+      name: tên #notrans
       label: Tên
       required: true
       sort: 1
@@ -166,7 +166,7 @@
         size: 40
         length: 0
     - 
-      type: ghi nhớ
+      type: ghi nhớ #notrans
       name: ghi chú
       label: Ghi chú nội bộ
       required: false

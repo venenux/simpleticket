@@ -1,5 +1,10 @@
 ---
-notes: The Offline Page appears in the Customer Portal when the Help Desk is offline.
+#Page template: offline.yaml
+#The offline page is served to the customer portal when the help desk is
+#configured offline in the Admin Panel
+#---
+notes: |
+  The Offline Page appears in the Customer Portal when the Help Desk is offline.
 name: კავშირგარეშე
 body: |
   <div><h1>

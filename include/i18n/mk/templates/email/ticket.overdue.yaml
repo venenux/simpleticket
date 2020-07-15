@@ -1,7 +1,14 @@
 ---
-notes: 'Испратено е известување до вработените, кога тикето е задоцнет во системот. Задоцнетите тикети се пресметуваат врз основа на SLА кој што е  дефинирано за тикетот.'
-subject: Известување за заостанати тикети
-body: |2
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
+notes: |
+  Испратено е известување до вработените, кога тикето е задоцнет во системот. Задоцнетите тикети се пресметуваат врз основа на SLА кој што е  дефинирано за тикетот.
+subject: |
+  Известување за заостанати тикети
+body: |
   <h3><strong>Здраво, %{recipient.name}</strong>,</h3>
   Тикетот, <a href="%{ticket.staff_link}">#%{ticket.number}</a> е со сериозно задоцнување.
   <br>

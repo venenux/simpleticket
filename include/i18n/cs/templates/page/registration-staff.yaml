@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Tato šablona definuje úvodní email (volitelný) zaslaný pracovníkovi, pokud byl jeho účet vytvořen za něj.
 name: "Vítejte do systému zákaznické podpory"

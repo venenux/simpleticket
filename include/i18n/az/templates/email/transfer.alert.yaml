@@ -1,9 +1,14 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
-  
+
 subject: |
-  Sorğu #%{ticket.number} transferi - %{ticket.dept.name}
-body: |2
+  Sorğu #%{ticket.number} transferi - %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
   <h3>Salam %{recipient.name},</h3>
   Sorğu <a href="%{ticket.staff_link}">#%{ticket.number}</a> şöbəyə %{ticket.dept.name} transfer edildi, 
   <strong>%{staff.name.short}</strong> tərəfindən

@@ -1,24 +1,35 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add New Department -> Department Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 type:
   title: Typ
   content: >
-    Zvolte <span class="doc-desc-opt">Soukromé</span>, pokud si přejete skrýt přiřazená do tohoto oddělení na klientském portále.  Navíc, je-li označeno jako <span class="doc-desc-opt">Soukromé</span>, nebude uveden <span class="doc-desc-title">Podpis oddělení</span>  v emailových odpovědích. <br/><br/> Nejméně jedno oddělení musí být <span class="doc-desc-opt">Veřejné</span>
+    Zvolte <span class="doc-desc-opt">soukromé</span>, pokud si přejete skrýt přiřazení požadavků tomuto oddělení na zákaznickém portále. Navíc, je-li označeno jako <span class="doc-desc-opt">soukromé</span>, nebude <span class="doc-desc-title">podpis oddělení</span> přidán do e-mailových oznámení o odpovědích na požadavky.<br/><br/> Nejméně jedno oddělení musí být označeno jako <span class="doc-desc-opt">veřejné</span>.
 email:
   title: E-mail
   content: >
-    Emailová adresa použitá při odesílaní odpovědí agentů na požadavky uživatelům.
+    E-mailová adresa použitá při zasílání odpovědí pracovníků na požadavky uživatelům.
 template:
-  title: Nastavení šablony
+  title: Sada šablon
   content: >
-    <span class="doc-desc-title">Sada šablon</span> emailů použitá pro automatické odpovědi, upozornění a oznámení pro požadavky přiřazené tomuto oddělení.
+    <span class="doc-desc-title">Sada šablon</span> e-mailů použitá pro automatické odpovědi, upozornění a oznámení požadavků přiřazených tomuto oddělení.
   links:
     - 
       title: Správa šablon
       href: /scp/templates.php
 sla:
-  title: SLA
+  title: Plán SLA
   content: >
-    SLA pro požadavky přiřazené tomuto oddělení.
+    Plán SLA pro požadavky přiřazených tomuto oddělení.
   links:
     - 
       title: Správa plánů SLA
@@ -26,7 +37,7 @@ sla:
 manager:
   title: Vedoucí oddělení
   content: >
-    Vyberte <span class="doc-desc-title">Vedoucího</span> tohoto oddělení. <br/><br/> Vedoucím může být nastaveno zasílální zvláštních upozornění a též mají právo zrušit přiřazení požadavků.
+    Vyberte pracovníka jako <span class="doc-desc-title">vedoucího</span> tohoto oddělení. <br/><br/> Vedoucí oddělení může dostávat zvláštní upozornění a taky má právo zrušit přiřazení požadavků.
   links:
     - 
       title: Správa upozornění a oznámení
@@ -46,24 +57,24 @@ sandboxing:
 auto_response_settings:
   title: Nastavení systému automatických odpovědí
   content: >
-    Povoluje přepsat globální nastavení automatických odpovědí pro toto oddělení.
+    Povoluje potlačit globální nastavení systému automatických odpovědí pro toto oddělení.
 new_ticket:
-  title: Automatická odpověď na nový tiket
+  title: Automatická odpověď na nový požadavek
   content: >
-    Můžete zakázat zasílání automatických odpovědí, když je tiket přesměrovaný tomuto oddělení.
+    Můžete zakázat zaslání automatické odpovědi, pokud je požadavek vytvořen a přiřazen tomuto oddělení.
 new_message:
   title: Automatická odpověď na novou zprávu
   content: >
-    Můžete zakázat zasílání automatických odpovědí, když je vytvořená nová odpověď pro tiket pro toto oddělení.
+    Můžete zakázat zasílání automatických odpovědí, pokud je vytvořena nová odpověď na požadavku tohoto oddělení.
 auto_response_email:
   title: E-mailová adresa automatické odpovědi
   content: >
     Vyberte e-mailovou adresu, ze které jsou posílany automatické odpovědi tohoto oddělení.
 department_access:
-  title: Přístup pro skupiny
+  title: Přístup skupiny
   content: >
-    Povolte pracovníkům jiných oddělení přístup k tiketům přiřazeným k tomuto oddělení.
+    Povolte pracovníkům jiných oddělení přístup k požadavkům přiřazeným tomuto oddělení.
 department_signature:
   title: Podpis oddělení
   content: >
-    Podpis je použitý jako volba pro  <span class="doc-desc-opt">veřejné</span> oddělení v odpovědi pracovníka.
+    Podpis je možné zvolit při odpovědi na požadavek, který je přiřazen oddělení označenému jako <span class="doc-desc-opt">veřejné</span>.

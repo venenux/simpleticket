@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Saks detaljer
   instructions: Beskriv problemet
   notes: |
@@ -53,8 +53,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Problemsammendrag
       required: true
       edit_mask: 15
@@ -64,8 +64,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Problemdetaljer
       hint: Detaljer om grunn(ene) til å åpne saken.
       required: true
@@ -73,22 +73,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Prioritetsnivå
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Firmainformasjon
   instructions: Detaljer tilgjengelig i e-postmaler
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Firmanavn
       required: true
       sort: 1
@@ -97,23 +97,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Nettsted
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Telefonnummer
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Adresse
       required: false
@@ -124,14 +124,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Organisasjonsinformasjon
   instructions: Informasjon om organisasjonen
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: navn
       required: true
       sort: 1
@@ -166,7 +166,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Interne notater
       required: false

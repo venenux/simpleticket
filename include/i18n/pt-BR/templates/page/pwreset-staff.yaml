@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Este modelo define o e-mail que será enviado para os usuários que selecionarem o link <strong>Esqueci minha senha</strong> na página de Controle do Painel do usuário.
 name: "osTicket Equipe de Redefinição de Senha"

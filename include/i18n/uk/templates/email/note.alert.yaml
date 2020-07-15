@@ -1,9 +1,13 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Повідомляти співробітників, коли проявляється внутрішня активність. Наприклад, внутрішня замітка або відповідь співробітника на заявку.
 subject: |
   Повідомлення про нову внутрішню активність
-body: |2
+body: |
   <h3><strong> Доброго дня, %{recipient.name}!</strong></h3>
   Внутрішня примітка, була додана до заявки  <a href="%{ticket.staff_link}">№%{ticket.number}</a>
   <br>

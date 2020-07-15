@@ -3,7 +3,7 @@
   isenabled: 1
   title: Τι είναι το osTicket (δείγμα);
   response: Το osTicket είναι ένα ευρέως χρησιμοποιούμενο σύστημα υποστήριξης ανοιχτού κώδικα, μια ελκυστική εναλλακτική λύση έναντι των υψηλότερου κόστους και πολύπλοκων συστημάτων υποστήριξης πελατών - απλό, ελαφρύ, αξιόπιστο, ανοικτού κώδικα, βασισμένο στο web και εύκολο στην εγκατάσταση και χρήση.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -13,6 +13,7 @@
   isenabled: 1
   title: Δείγμα (με μεταβλητές)
   response: |
-    Αγαπητέ/ή %{ticket.name.first}, <br><br> Ανοίχθηκε για εσάς το δελτίο αιτήματος με αριθμό #%{ticket.number} στις %{ticket.create_date} και ανατέθηκε στο τμήμα %{ticket.dept.name}.
+    Αγαπητέ/ή %{ticket.name.first}, <br><br> Ανοίχθηκε για εσάς το δελτίο αιτήματος με αριθμό #%{ticket.number} στις %{ticket.create_date} και ανατέθηκε στο τμήμα %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

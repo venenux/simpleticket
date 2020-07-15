@@ -1,82 +1,93 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Filter
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 execution_order:
-  title: 'crwdns1761:0crwdne1761:0'
+  title: crwdns1761:0crwdne1761:0
   content: >
     crwdns1762:0crwdne1762:0
 target_channel:
-  title: 'crwdns1763:0crwdne1763:0'
+  title: crwdns1763:0crwdne1763:0
   content: >
     crwdns1764:0crwdne1764:0
 rules_matching_criteria:
-  title: 'crwdns1765:0crwdne1765:0'
+  title: crwdns1765:0crwdne1765:0
   content: >
     crwdns1766:0crwdne1766:0
 reject_ticket:
-  title: 'crwdns1767:0crwdne1767:0'
+  title: crwdns1767:0crwdne1767:0
   content: >
     crwdns1768:0crwdne1768:0
 reply_to_email:
-  title: 'crwdns1769:0crwdne1769:0'
+  title: crwdns1769:0crwdne1769:0
   content: >
     crwdns1770:0crwdne1770:0
 ticket_auto_response:
-  title: 'crwdns1771:0crwdne1771:0'
+  title: crwdns1771:0crwdne1771:0
   content: >
     crwdns1772:0crwdne1772:0
 canned_response:
-  title: 'crwdns1773:0crwdne1773:0'
+  title: crwdns1773:0crwdne1773:0
   content: >
     crwdns1774:0crwdne1774:0
   links:
     - 
-      title: 'crwdns1775:0crwdne1775:0'
-      href: 'crwdns1776:0crwdne1776:0'
+      title: crwdns1775:0crwdne1775:0
+      href: crwdns1776:0crwdne1776:0
     - 
-      title: 'crwdns1777:0crwdne1777:0'
-      href: 'crwdns1778:0crwdne1778:0'
+      title: crwdns1777:0crwdne1777:0
+      href: crwdns1778:0crwdne1778:0
     - 
-      title: 'crwdns1779:0crwdne1779:0'
-      href: 'crwdns1780:0crwdne1780:0'
+      title: crwdns1779:0crwdne1779:0
+      href: crwdns1780:0crwdne1780:0
 department:
-  title: 'crwdns1781:0crwdne1781:0'
+  title: crwdns1781:0crwdne1781:0
   content: >
     crwdns1782:0crwdne1782:0
   links:
     - 
-      title: 'crwdns1783:0crwdne1783:0'
-      href: 'crwdns5286:0crwdne5286:0'
+      title: crwdns1783:0crwdne1783:0
+      href: crwdns5286:0crwdne5286:0
 priority:
-  title: 'crwdns1785:0crwdne1785:0'
+  title: crwdns1785:0crwdne1785:0
   content: >
     crwdns1786:0crwdne1786:0
 sla_plan:
-  title: 'crwdns1787:0crwdne1787:0'
+  title: crwdns1787:0crwdne1787:0
   content: >
     crwdns1788:0crwdne1788:0
   links:
     - 
-      title: 'crwdns1789:0crwdne1789:0'
-      href: 'crwdns5287:0crwdne5287:0'
+      title: crwdns1789:0crwdne1789:0
+      href: crwdns5287:0crwdne5287:0
 auto_assign:
-  title: 'crwdns1791:0crwdne1791:0'
+  title: crwdns1791:0crwdne1791:0
   content: >
     crwdns1792:0crwdne1792:0
   links:
     - 
-      title: 'crwdns1793:0crwdne1793:0'
-      href: 'crwdns1794:0crwdne1794:0'
+      title: crwdns1793:0crwdne1793:0
+      href: crwdns1794:0crwdne1794:0
     - 
-      title: 'crwdns1795:0crwdne1795:0'
-      href: 'crwdns1796:0crwdne1796:0'
+      title: crwdns1795:0crwdne1795:0
+      href: crwdns1796:0crwdne1796:0
 help_topic:
-  title: 'crwdns1797:0crwdne1797:0'
+  title: crwdns1797:0crwdne1797:0
   content: >
     crwdns1798:0crwdne1798:0
   links:
     - 
-      title: 'crwdns1799:0crwdne1799:0'
-      href: 'crwdns1800:0crwdne1800:0'
+      title: crwdns1799:0crwdne1799:0
+      href: crwdns1800:0crwdne1800:0
 admin_notes:
-  title: 'crwdns1801:0crwdne1801:0'
+  title: crwdns1801:0crwdne1801:0
   content: >
     crwdns1802:0crwdne1802:0

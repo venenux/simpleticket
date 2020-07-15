@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Sistemdə yeni sorğu yaradılanda heyət üzvünə göndərin. Bu, e-poçt, veb portal və ya api vəsitəsilə yaradılan sorğulara müraciət edir.
 subject: |
   Yeni sorğu siqnalı
-body: |2
+body: |
   <h2>Salam %{recipient.name},</h2>
   Yeni sorğu #%{ticket.number} yaradıldı
   <br>

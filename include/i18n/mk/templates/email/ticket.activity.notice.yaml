@@ -1,7 +1,12 @@
 ---
-notes: Забелешката е испратена до тимот за поддршка.
-subject: 'Re: %{ticket.subject} [#%{ticket.number}]'
-body: |2
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
+notes: |
+  Забелешката е испратена до тимот за поддршка.
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
+body: |
   <h3><strong>Драг/а %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> само што е запишана е порака за тикетот во кој што учествувате.

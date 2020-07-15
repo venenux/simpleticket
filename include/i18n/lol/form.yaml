@@ -1,25 +1,25 @@
 ---
 - 
   id: 0
-  type: 'crwdns321:0crwdne321:0'
-  title: 'crwdns322:0crwdne322:0'
+  type: crwdns321:0crwdne321:0
+  title: crwdns322:0crwdne322:0
   deletable: false
   fields:
     - 
-      type: 'crwdns324:0crwdne324:0'
-      name: 'crwdns325:0crwdne325:0'
-      label: 'crwdns326:0crwdne326:0'
+      type: crwdns324:0crwdne324:0
+      name: crwdns325:0crwdne325:0
+      label: crwdns326:0crwdne326:0
       required: true
       sort: 0
       edit_mask: 0
       configuration:
         size: 0
         length: 0
-        validator: 'crwdns332:0crwdne332:0'
+        validator: crwdns332:0crwdne332:0
     - 
-      type: 'crwdns5117:0crwdne5117:0'
-      name: 'crwdns5118:0crwdne5118:0'
-      label: 'crwdns5119:0crwdne5119:0'
+      type: crwdns5117:0crwdne5117:0
+      name: crwdns5118:0crwdne5118:0
+      label: crwdns5119:0crwdne5119:0
       required: true
       sort: 0
       edit_mask: 0
@@ -27,15 +27,15 @@
         size: 0
         length: 0
     - 
-      type: 'crwdns5124:0crwdne5124:0'
-      name: 'crwdns5125:0crwdne5125:0'
-      label: 'crwdns5126:0crwdne5126:0'
+      type: crwdns5124:0crwdne5124:0
+      name: crwdns5125:0crwdne5125:0
+      label: crwdns5126:0crwdne5126:0
       required: false
       sort: 0
     - 
-      type: 'crwdns5128:0crwdne5128:0'
-      name: 'crwdns5129:0crwdne5129:0'
-      label: 'crwdns5130:0crwdne5130:0'
+      type: crwdns5128:0crwdne5128:0
+      name: crwdns5129:0crwdne5129:0
+      label: crwdns5130:0crwdne5130:0
       required: false
       private: true
       sort: 0
@@ -44,18 +44,18 @@
         cols: 0
 - 
   id: 0
-  type: 'crwdns355:0crwdne355:0'
-  title: 'crwdns356:0crwdne356:0'
-  instructions: 'crwdns357:0crwdne357:0'
+  type: crwdns355:0crwdne355:0 #notrans
+  title: crwdns356:0crwdne356:0
+  instructions: crwdns357:0crwdne357:0
   notes: |
     crwdns358:0crwdne358:0
   deletable: false
   fields:
     - 
       id: 0
-      type: 'crwdns360:0crwdne360:0'
-      name: 'crwdns361:0crwdne361:0'
-      label: 'crwdns362:0crwdne362:0'
+      type: crwdns360:0crwdne360:0 #notrans
+      name: crwdns361:0crwdne361:0 #notrans
+      label: crwdns362:0crwdne362:0
       required: true
       edit_mask: 0
       sort: 0
@@ -64,32 +64,32 @@
         length: 0
     - 
       id: 0
-      type: 'crwdns5135:0crwdne5135:0'
-      name: 'crwdns5136:0crwdne5136:0'
-      label: 'crwdns5137:0crwdne5137:0'
-      hint: 'crwdns5138:0crwdne5138:0'
+      type: crwdns5135:0crwdne5135:0 #notrans
+      name: crwdns5136:0crwdne5136:0 #notrans
+      label: crwdns5137:0crwdne5137:0
+      hint: crwdns5138:0crwdne5138:0
       required: true
       edit_mask: 0
       sort: 0
     - 
       id: 0
-      type: 'crwdns5142:0crwdne5142:0'
-      name: 'crwdns5143:0crwdne5143:0'
-      label: 'crwdns5144:0crwdne5144:0'
+      type: crwdns5142:0crwdne5142:0 #notrans
+      name: crwdns5143:0crwdne5143:0 #notrans
+      label: crwdns5144:0crwdne5144:0
       required: false
       private: true
       edit_mask: 0
       sort: 0
 - 
-  type: 'crwdns606:0crwdne606:0'
-  title: 'crwdns607:0crwdne607:0'
-  instructions: 'crwdns608:0crwdne608:0'
+  type: crwdns606:0crwdne606:0 #notrans
+  title: crwdns607:0crwdne607:0
+  instructions: crwdns608:0crwdne608:0
   deletable: false
   fields:
     - 
-      type: 'crwdns610:0crwdne610:0'
-      name: 'crwdns611:0crwdne611:0'
-      label: 'crwdns612:0crwdne612:0'
+      type: crwdns610:0crwdne610:0 #notrans
+      name: crwdns611:0crwdne611:0 #notrans
+      label: crwdns612:0crwdne612:0
       required: true
       sort: 0
       edit_mask: 0
@@ -97,25 +97,25 @@
         size: 0
         length: 0
     - 
-      type: 'crwdns5147:0crwdne5147:0'
-      name: 'crwdns5148:0crwdne5148:0'
-      label: 'crwdns5149:0crwdne5149:0'
+      type: crwdns5147:0crwdne5147:0 #notrans
+      name: crwdns5148:0crwdne5148:0 #notrans
+      label: crwdns5149:0crwdne5149:0
       sort: 0
       configuration:
         size: 0
         length: 0
     - 
-      type: 'crwdns5153:0crwdne5153:0'
-      name: 'crwdns5154:0crwdne5154:0'
-      label: 'crwdns5155:0crwdne5155:0'
+      type: crwdns5153:0crwdne5153:0 #notrans
+      name: crwdns5154:0crwdne5154:0 #notrans
+      label: crwdns5155:0crwdne5155:0
       required: false
       sort: 0
       configuration:
         ext: false
     - 
-      type: 'crwdns5157:0crwdne5157:0'
-      name: 'crwdns5158:0crwdne5158:0'
-      label: 'crwdns5159:0crwdne5159:0'
+      type: crwdns5157:0crwdne5157:0 #notrans
+      name: crwdns5158:0crwdne5158:0
+      label: crwdns5159:0crwdne5159:0
       required: false
       sort: 0
       configuration:
@@ -124,15 +124,15 @@
         html: false
         length: 0
 - 
-  type: 'crwdns880:0crwdne880:0'
-  title: 'crwdns881:0crwdne881:0'
-  instructions: 'crwdns882:0crwdne882:0'
+  type: crwdns880:0crwdne880:0 #notrans
+  title: crwdns881:0crwdne881:0
+  instructions: crwdns882:0crwdne882:0
   deletable: false
   fields:
     - 
-      type: 'crwdns883:0crwdne883:0'
-      name: 'crwdns884:0crwdne884:0'
-      label: 'crwdns885:0crwdne885:0'
+      type: crwdns883:0crwdne883:0 #notrans
+      name: crwdns884:0crwdne884:0 #notrans
+      label: crwdns885:0crwdne885:0
       required: true
       sort: 0
       edit_mask: 0
@@ -140,9 +140,9 @@
         size: 0
         length: 0
     - 
-      type: 'crwdns5164:0crwdne5164:0'
-      name: 'crwdns5165:0crwdne5165:0'
-      label: 'crwdns5166:0crwdne5166:0'
+      type: crwdns5164:0crwdne5164:0
+      name: crwdns5165:0crwdne5165:0
+      label: crwdns5166:0crwdne5166:0
       required: false
       sort: 0
       configuration:
@@ -151,24 +151,24 @@
         length: 0
         html: false
     - 
-      type: 'crwdns5171:0crwdne5171:0'
-      name: 'crwdns5172:0crwdne5172:0'
-      label: 'crwdns5173:0crwdne5173:0'
+      type: crwdns5171:0crwdne5171:0
+      name: crwdns5172:0crwdne5172:0
+      label: crwdns5173:0crwdne5173:0
       required: false
       sort: 0
     - 
-      type: 'crwdns5175:0crwdne5175:0'
-      name: 'crwdns5176:0crwdne5176:0'
-      label: 'crwdns5177:0crwdne5177:0'
+      type: crwdns5175:0crwdne5175:0
+      name: crwdns5176:0crwdne5176:0
+      label: crwdns5177:0crwdne5177:0
       required: false
       sort: 0
       configuration:
         size: 0
         length: 0
     - 
-      type: 'crwdns5181:0crwdne5181:0'
-      name: 'crwdns5182:0crwdne5182:0'
-      label: 'crwdns5183:0crwdne5183:0'
+      type: crwdns5181:0crwdne5181:0 #notrans
+      name: crwdns5182:0crwdne5182:0
+      label: crwdns5183:0crwdne5183:0
       required: false
       sort: 0
       configuration:

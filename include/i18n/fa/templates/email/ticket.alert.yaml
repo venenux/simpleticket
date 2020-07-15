@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   زمانی برای کارشناس ارسال می شود که یک درخواست جدید در سیستم ثبت شده است. این مورد شامل تمام درخواست های ثبت شده از طریق ایمیل، درگاه وب یا رابط برنامه نویسی نرم افزار می شود.
 subject: |
   هشدار درخواست جدید
-body: |2
+body: |
   <h2>سلام %{recipient},</h2>
   یک درخواست جدید به شماره ی  #%{ticket.number} در سیستم افزوده شده است
   <br>

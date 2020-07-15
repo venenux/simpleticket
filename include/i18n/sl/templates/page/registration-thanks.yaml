@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Ta predloga definira vsebino, ki se pokaže ko se stranka uspešno registrira in potrdi upor. račun. Ta stran naj sporoča stranki, da je z registracijo zaključila in lahko sedaj odda zahtevek ali dostopa do obstoječih.
 name: "Uporabniški račun potrjen!"

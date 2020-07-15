@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Táto šablóna slúži ako základ e-mailu posladného pracovníkovi, ktorý klikol na odkaz <strong>Zabudnuté heslo</strong> na prihlasovacej obrazovke.
 name: "osTicket reset hesla pre pracovníkov"

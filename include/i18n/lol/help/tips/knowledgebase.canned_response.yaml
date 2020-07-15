@@ -1,13 +1,24 @@
 ---
+#This is popup help messages for the Staff Panel -> Knowledgebase -> Canned Responses -> Add New Response
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 canned_response:
-  title: 'crwdns1715:0crwdne1715:0'
+  title: crwdns1715:0crwdne1715:0
   content: >
     crwdns1716:0crwdne1716:0
   links:
     - 
-      title: 'crwdns1717:0crwdne1717:0'
-      href: 'crwdns1718:0crwdne1718:0'
+      title: crwdns1717:0crwdne1717:0
+      href: crwdns1718:0crwdne1718:0
 canned_attachments:
-  title: 'crwdns1727:0crwdne1727:0'
+  title: crwdns1727:0crwdne1727:0
   content: >
     crwdns1728:0crwdne1728:0

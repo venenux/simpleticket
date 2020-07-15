@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Munkatársaknak küldve, mikor egy új ügyfél üzenet érkezik a hibajegyre. Ezt emailre válaszolva vagy az ügyfél portálon keresztül egy új üzenet küldésével tudja megtenni.
 subject: |
   Új üzenet riasztás
-body: |2
+body: |
   <h3><strong>Kedves %{recipient.name},</strong></h3>
   Új üzenetet küldtek a <a
   href="%{ticket.staff_link}">#%{ticket.number}</a> hibajegyhez

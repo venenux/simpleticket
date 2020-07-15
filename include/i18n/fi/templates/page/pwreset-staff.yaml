@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Tämä pohja määrittelee sähköpostin joka lähetetään henkilökunnalle, joka on seurannut<strong>Unohdin salasanani</strong> linkkiä henkilökunnan sivuston kirjautumissivulla.
 name: "osTicket Henkilökunnan Salasanan resetointi"

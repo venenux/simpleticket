@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   当系统里面有新的咨询时，发送给工作人员。不管这些咨询是通过邮件生成，网页入口还是通过API生成，工作人员都将收到邮件。
 subject: |
   新咨询通知
-body: |2
+body: |
   <h2>您好%{recipient},</h2>
   有新的咨询 #%{ticket.number} 
   <br>

@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Šis šablons definē e-pastu, kāds tiks nosūtīts atbalsta grupas darbiniekam, kurš nospiedīs uz <strong>Aimirsu savu paroli</strong> saites Staff Control Panel autentifikācijas lapā.
 name: "osTicket Staff Password Reset"

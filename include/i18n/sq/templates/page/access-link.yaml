@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Kjo mostër përcakton njoftimin që i dërgohet klientit që linku i çasjes është dërguar në e-mail. Numri i tiketës dhe e-mail adresa mundësojnë çasjen në linkun e dërguar.
 name: "Çasja në Tiketën [#%{ticket.number}]"

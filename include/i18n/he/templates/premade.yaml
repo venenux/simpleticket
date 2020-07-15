@@ -3,7 +3,7 @@
   isenabled: 1
   title: מה זה osTicket (דוגמה)?
   response: osTicket היא מערכת כרטיסי תמיכה בקוד-פתוח אשר נמצאת בשימוש רחב ומספקת תחליף מושך למערכות תמיכה מסובכות ויקרות יותר - המערכת פשוטה, קלה, אמינה, בקוד פתוח, מבוססת אינטרנט ופשוטה להתקנה ושימוש.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     היי %{ticket.name.first},
     <br>
     <br>
-    כרטיסך #%{ticket.number} אשר נוצר בתאריך %{ticket.create_date} נמצא במחלקת %{ticket.dept.name}.
+    כרטיסך #%{ticket.number} אשר נוצר בתאריך %{ticket.create_date} נמצא במחלקת %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

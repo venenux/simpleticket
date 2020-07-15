@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Ажилтны Удирдах Самбар уруу нэвтрэх хуудасны <strong>Нууц үгээ мартсан</strong> холбоосоор орсон ажилтнуудад илгээх имэйлийн загварыг тодорхойлно.
 name: "osTicket Ажилтны нууц үг сэргээх"

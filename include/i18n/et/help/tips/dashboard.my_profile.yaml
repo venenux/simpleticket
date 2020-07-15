@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Kontaktinfo
   content: >
-    
+
 username:
   title: Kasutajanimi
   content: >
@@ -14,52 +25,52 @@ username:
 time_zone:
   title: Ajavöönd
   content: >
-    
+
 daylight_saving:
   title: Suveaeg
   content: >
-    
+
 maximum_page_size:
-  title: Maksimaalne lehe suurus
+  title: Maksimaalne lehekülje suurus
   content: >
-    
+
 auto_refresh_rate:
-  title: Automaatse värksendamise sagedus
+  title: Automaatse uuendamise sagedus
   content: >
-    
+
 default_signature:
   title: Vaikimisi signatuur
   content: >
-    
+
 default_paper_size:
-  title: Vaikimisi paberi suurus
+  title: Paberi vaikesuurus
   content: >
-    
+
 show_assigned_tickets:
-  title: Näita suunatud pöördumisi
+  title: Näita suunatud pileteid
   content: >
-    Aktiveeri, et peita oma nimi <span class="doc-desc-title">avatud pöördumised</span> nimekirjas pöördumiste juures, mis on Sulle lahendamiseks määratud. Peale peitmist <span class="doc-desc-title">osakonna</span> nimi, millesse Sa kuulud, kuvatakse seal, kus muidu oleks Sinu nimi.
+    Luba see, kui soovid peita oma nime <span class="doc-desc-title">avatud piletite</span> nimekirja juures. Peale peitmist, kuvatakse sinu nime asemel <span class="doc-desc-title">osakonna</span> nimi, millesse Sa kuulud.
 password:
-  title: Parool
+  title: Salasõna
   content: >
-    
+
 current_password:
-  title: Praegune parool
+  title: Praegune salasõna
   content: >
-    
+
 new_password:
-  title: Uus parool
+  title: Uus salasõna
   content: >
-    
+
 confirm_new_password:
-  title: Kinnita uus parool
+  title: Kinnita uus salasõna
   content: >
-    
+
 signature:
   title: Signatuur
   content: >
-    Soovi korral saad koostada <span class="doc-desc-title">signatuuri</span>, mis võib-olla lisatakse pöördumise vastuse jalusesse. <span class="doc-desc-title">Signatuuri</span> lisamine sõltub <span class="doc-desc-title">e-kirja mallist</span>, mida pöördumisele vastates kasutatakse.
+    Loo vabalt valitav <span class="doc-desc-title">allkiri</span>, mille võiks lisada sinu vastusele. <span class="doc-desc-title">Allirja</span> lisamise võimalus sõltub <span class="doc-desc-title">emaili mallist</span>, mida piletile vastates kasutatakse.
   links:
     - 
-      title: Loo e-kirja malle administraatori menüüs
+      title: Loo emaili malle administraatori juhtpaneelis
       href: /scp/templates.php

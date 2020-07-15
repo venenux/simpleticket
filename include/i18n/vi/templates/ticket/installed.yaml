@@ -1,9 +1,14 @@
 ---
-deptId: 1
-topicId: 1
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
 name: Hỗ trợ osTicket 
 email: support@osticket.com
-source: Web
+source: Web #notrans
 subject: osTicket đã được cài đặt!
 message: |
   <p>Cảm ơn bạn đã chọn osTicket.</p><p>Xin vui lòng chắc chắn rằng bạn tham gia <a href="http://osticket.com/forums"> diễn đàn osTicket</a> và <a href="http://osticket.com/updates"> danh sách gửi thư</a> để cập nhật các tin tức mới nhất, các cảnh báo bảo mật và Cập Nhật. Diễn đàn osTicket cũng là một nơi tuyệt vời để có được sự trợ giúp, hướng dẫn, lời khuyên, và giúp đỡ từ những người dùng osTicket.  Ngoài các diễn đàn, osTicket wiki cung cấp một bộ sưu tập hữu ích tài liệu hướng dẫn và ghi chú từ cộng đồng. Chúng tôi hoan nghênh đóng góp của bạn cho cộng đồng osTicket. </p> <p>Nếu bạn đang tìm kiếm một mức độ cao hơn hỗ trợ, chúng tôi cung cấp dịch vụ chuyên nghiệp và hỗ trợ thương mại với thời gian đáp ứng được đảm bảo, và truy cập vào nhóm phát triển cốt lõi. Chúng tôi cũng có thể giúp tùy chỉnh osTicket hoặc thậm chí thêm tính năng mới cho hệ thống để đáp ứng nhu cầu duy nhất của bạn. </p> <p>Nếu ý tưởng quản lý và nâng cấp này cài đặt osTicket là khó khăn, bạn có thể thử osTicket như là một dịch vụ được lưu trữ tại <a href="http://www.supportsystem.com"> http://www.supportsystem.com/</a>--không cần cài đặt và chúng tôi có thể nhập dữ liệu của bạn!  Với cơ sở hạ tầng chìa khóa trao tay của SupportSystem, bạn nhận được osTicket lúc tốt nhất, để lại bạn tự do để tập trung vào khách hàng của bạn mà không có gánh nặng của đảm bảo rằng các ứng dụng là ổn định, duy trì, và an toàn của nó. </p> <p>Chúc mừng,</p> <p>-<br/> osTicket đội http://osticket.com/</p> <p><strong>PS.</strong> không chỉ làm cho khách hàng hạnh phúc,mà làm cho khách hàng hài lòng!</p>

@@ -1,0 +1,46 @@
+---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
+notes: |
+  ایک اسٹاف کے رکن کو بھیجا جاتا ہے جب نظام میں ایک نیا ٹکٹ بنتا ہے. یہ ای میل، ویب پورٹل، یا اے پی آئی کے ذریعہ تشکیل کردہ ٹکٹوں پربھی لاگو ہوتا ہے.
+subject: |
+  نئے ٹکٹ کا انتباہ
+body: |
+  <h2>سلام %{recipient.name},</h2>
+  نیا ٹکٹ #%{ticket.number} بنایا گیا ہے۔
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>ازطرف</strong>:
+      </td>
+      <td>
+          %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>ادارہ</strong>:
+      </td>
+      <td>
+          %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>ٹکٹ کو دیکھنے/جواب دینے کے لیے براہ کرم ہمارے سپورٹ ٹکٹ سسٹم میں <a
+  href="%{ticket.staff_link}">لاگ ین کریں</a></div>
+  <em style="font-size: small">آپ کا دوستانہ سپورٹ سسٹم</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

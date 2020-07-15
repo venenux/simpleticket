@@ -1,4 +1,9 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Envía a los miembros del personal cuando un ticket esté asignado a ellos. Los tickets pueden ser asignados automáticamente por el sistema o manualmente por otro miembro del personal. Use %{assigner} para distinguir quien lo asignó.
 subject: |

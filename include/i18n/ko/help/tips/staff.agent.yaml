@@ -1,6 +1,17 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
-  title: 계정명
+  title: 사용자명
   content: >
     담당자의 <span class="doc-desc-title">사용자명</span>(<span class="doc-desc-title">헬프 데스크</span>에서 유일한)을 선택하세요.
 email_address:
@@ -65,3 +76,4 @@ vacation_mode:
   title: 휴가 모드
   content: >
     담당자의 상태를 <span class="doc-desc-opt">휴가 모드</span>로 변경하면 담당자는 <span class="doc-desc-title">경고 및 알림</span>을 받지 않고 티켓 할당을 받지 않게 됩니다.
+

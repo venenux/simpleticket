@@ -1,11 +1,22 @@
 ---
+#This is popup help messages for the Admin Panel -> Dashboard  -> System Logs page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 system_logs:
-  title: Systémové logy
+  title: Systémové záznamy
   content: >
-    Tady najdete veškeré logy (jako chyby, varování nebo bugy) potřebné při odstraňování problémů.
+    Zde najdete veškeré systémové záznamy (např. chyby, varování atp.) potřebné při odstraňování problémů.
   links:
     - 
-      title: Uprav jaký typ aktivit bude logován změnou <br /><span class="doc-desc-title">Výchozí úroveň logování</span>.
+      title: Nastavte jaký typ aktivit bude zaznamenáván změnou položky <br /><span class="doc-desc-title">Výchozí úroveň systémových záznamů</span>.
       href: /scp/settings.php?t=system
 date_span:
   title: Období
@@ -14,9 +25,9 @@ date_span:
 type:
   title: Typ
   content: >
-    Zvolte možnost zúžit zaměření na konkrétní typ činnosti. <span class="doc-desc-opt">Debug</span> představuje nejmenší závažnost, a <span class="doc-desc-opt">Error</span> představuje největší závažnost.
+    Zde můžete zúžit zaměření na konkrétní typ události. <span class="doc-desc-opt">Debug</span> představuje nejnižší závažnost a <span class="doc-desc-opt">Error</span> představuje nejvyšší závažnost.
 showing_logs:
-  title: Zobrazení systénových záznamů
+  title: Zobrazení systémových záznamů
   content: >
     Nezapomeňte zkontrolovat sekci <span class="doc-desc-title">stránkování</span>, abyste se ujistil, že zde není více stránek pro zobrazení systémovými záznamů.
 log_title:
@@ -26,7 +37,7 @@ log_title:
 log_type:
   title: Typ systémového záznamu
   content: >
-    Klikněte na <span class="doc-desc-title">typ systémovéhé záznamu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">typu systémového záznamu</span>.
+    Klikněte na <span class="doc-desc-title">typ systémového záznamu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">typu systémového záznamu</span>.
 log_date:
   title: Datum systémového záznamu
   content: >
@@ -34,4 +45,4 @@ log_date:
 ip_address:
   title: IP adresa
   content: >
-    Toto ukazuje na <span class="doc-desc-title">IP</span><span class="doc-desc-title"> Address</span> agent nebo client který použil osTicket v době vygenerování záznamu.
+    Toto odkazuje na <span class="doc-desc-title">IP adresu</span> pracovníka nebo uživatele, který používal systém zákaznické podpory v době vygenerování záznamu.

@@ -1,4 +1,16 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
+#Authentication settings
 password_reset:
   title: Politica de expirare a parolei
   content: >
@@ -29,9 +41,9 @@ bind_staff_session_to_ip:
     Bifează dacă vrei ca pentru agenți să fie memorate IP-urile curente, pentru autentificările viitoare.<br><br>Nu se recomandă pentru agenții care ale căror adrese IP sunt asignate dinamic (DHCP).
 registration_method:
   title: Opțiuni pentru înregistrare
-  content: |2
+  content: >
     Setările <span class="doc-desc-title">„Metoda de înregistrare”</span> și <span class="doc-desc-title">„Înregistrare obligatorie”</span> sunt utilizate împreună pentru a configura modul în care utilizatorii se înregistrează și utilizează portalul web al aplicației. Tabelul de mai jos sintetizează modul în care cele două setări sunt interpretate de sistem.
-    
+
     <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" >
     	<tbody style="vertical-align:top;">
     		<tr>

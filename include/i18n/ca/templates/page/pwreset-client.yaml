@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Aquesta plantilla defineix l'e-mail enviat als Clients que seleccionen l'enllaç <strong>He oblidat la meua contrasenya</strong> a la pàgina d'autenticació de client.
 name: "%{company.name} Acces al sistema de suport"

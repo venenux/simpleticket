@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Šis ruošinys naudojamas kaip elektroninis laiškas siunčiamas darbuotojui, kuris pasirenka<strong>Pamiršau savo slaptažodį</strong> nuorodą prisijungimo prie Darbuotojų valdymo skydo puslapyje.
 name: "osTicket pagalbos darbuotojo slaptažodžio atstatymas"

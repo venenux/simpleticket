@@ -3,7 +3,7 @@
   isenabled: 1
   title: Hva er osTicket (eksempel)?
   response: osTicket er ett mye brukt åpen kildekode støttesystem, et attraktivt alternativ til dyrere og mer komplekse systemer - enkel, lett, pålitelig, åpen kildekode, webbasert og enkel å installere og bruke.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Din sak #%{ticket.number} laget den %{ticket.create_date} er i
-    %{ticket.dept.name} avdelingen.
+    %{ticket.dept.name} avdelingen. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

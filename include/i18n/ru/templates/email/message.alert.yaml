@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Отправляется сотрудникам службы поддержки, когда пользователь размещает новое сообщение в заявке. Это происходит, когда пользователь отвечает на сообщение электронной почты от системы или посещает страницу портала и оставляет сообщение там.
 subject: |
   Оповещение о новом сообщении
-body: |2
+body: |
   <h3><strong>Здравствуйте, %{recipient.name},</strong></h3>
   Новое сообщение добавлено в заявку <a
   href="%{ticket.staff_link}">№%{ticket.number}</a>

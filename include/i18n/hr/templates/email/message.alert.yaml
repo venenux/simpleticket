@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Obavijest poslana djelatnicima da je klijent odgovorio na karticu. Ovo može značiti da je klijent odgovorio putem emaila ili je postavio odgovor na stranici tehničke podrške.
 subject: |
   Obavijest o novopristigloj poruci
-body: |2
+body: |
   <h3><strong>Pozdrav %{recipient.name},</strong></h3>
   Nova poruka je postavljena na karticu <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

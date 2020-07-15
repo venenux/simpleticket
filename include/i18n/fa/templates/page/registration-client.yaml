@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   این قالب فرمت ایمیلی که در هنگام ایجاد حساب کاربری توسط کاربر یا وکیلشان به انها  ارسال میشود را تعیین میکند . این ایمیل به عنوان یک ادرس ایمیل برای تایید کاربر استفاده میشود لطفا از  %{link} در جایی از متن ایمیل استفاده نمایید .
 name: "به %{company.name} خوش آمدید"

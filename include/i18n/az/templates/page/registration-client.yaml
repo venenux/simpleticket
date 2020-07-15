@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Bu şablon müştərilərə onların hesabı müştəri portalında və ya agentlər tərəfindən yaradılanda e-poçt göndərilməsini müəyyən edir. Bu e-poçt, e-poçt ünvanı təsdiqləməsinə xidmət edir. Xahiş edirik mətndə hər hansı bir yerdə %{link} istifadə edin.
 name: "%{company.name} xoş gəlmisiniz"

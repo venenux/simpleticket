@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Bu şablon heyət idarə paneli səhifəsində <strong>şifrəmi unutmuşam</strong> linkini seçən heyətə göndərilən e-poçtu müəyyən edir.
 name: "osTicket heyət şifrə sıfırlaması"

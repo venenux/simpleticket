@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   發送通知給案件的合作者，觸發原因為案件有新的回覆或訊息。
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>親愛的 %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> 您所參與的案件已經有新的進展。

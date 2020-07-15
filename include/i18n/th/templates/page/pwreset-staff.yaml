@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   เทมเพลตนี้สำหรับกำหนด email ที่ส่งไปยัง Staff ที่คลิก Link <strong>Forgot My Password</strong> 
 name: "osTicket Staff Password Reset"

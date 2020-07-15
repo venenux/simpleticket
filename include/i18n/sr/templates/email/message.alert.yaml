@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Порука се шаље оператерима када се прими нова порука од стране корисника у вези неког тикета. Ово може да се деси ако корисник одговори на емаил који му је послао тицкетинг систем или ако посети портал за корисничку подршку и пошаље тим путем нову поруку.
 subject: |
   Упозорење Нова порука
-body: |2
+body: |
   <h3><strong>Здраво %{recipient},</strong></h3>
   Нова порука је додата у вези тикета <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

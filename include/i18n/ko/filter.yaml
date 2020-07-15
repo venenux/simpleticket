@@ -5,7 +5,7 @@
   reject_ticket: 1
   target: Email
   name: SYSTEM BAN LIST
-  notes: 이메일 금지를 위한 내부 리스트입니다. 삭제하지 마십시오.
+  notes: 이메일 금지에 대한 내부 목록입니다. 삭제하지 마십시오.
   rules:
     - 
       isactive: 1

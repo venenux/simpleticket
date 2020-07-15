@@ -1,16 +1,28 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Tickets
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 number_format:
   title: Formát čísla tiketu
   content: >
-    Nastavuje generování čísel požadavků. Použijte znak  křížek (`#`) na místě číslic. Jakýkoli jiný text ve formátovacím řetězci zůstane zachován.  <span class="doc-desc-title">Druhy požadavků</span> mohou definovat vlastní číslování. <br/><br/>Například pro šestimístná čísla použijte  <code>######</code>.
+    Nastavuje generování čísel požadavků. Použijte znak mřížky (`#`) na místě číslic. Jakýkoli jiný text ve formátovacím řetězci zůstane zachován. <span class="doc-desc-title">Témata podpory</span> mohou definovat vlastní číslování.<br/><br/> Například pro šestimístná čísla použijte <code>######</code>.
 sequence_id:
-  title: Číslování požadavků
+  title: Číselná řada požadavků
   content: >
-    Zvolte číselnou řadu pro číslování požadavků. Ve výchozím stavu jsou v systému inkrementální a náhodné číslování. Počet číselných řad není omezen. Můžete použít různé číselné řady ve <span class="doc-desc-title">formátu čísla požadavku</span> pro různé druhy požadavků.
+    Zvolte číselnou řadu pro určení číslování požadavků. Ve výchozím stavu jsou v systému inkrementální a náhodné číselné řady. Počet číselných řad není omezen. Můžete použít různé číselné řady ve 
+    <span class="doc-desc-title">formátu čísla požadavku</span> v nastavení témat požadavků.
 default_ticket_status:
-  title: Výchozí stav pro nové Tickety
+  title: Výchozí stav pro nové požadavky
   content: >
-    Zvolte výchozí stav pro nové požadavky. Může být definován zvlášť pro každý druh požadavku. Též může být změněn pomocí filtrování požadavků.
+    Zvolte výchozí stav pro nové požadavky. Pokud je vyžadováno, stav může být definován zvlášť pro každé téma podpory. Taktéž může být přepsán filtrem požadavků.
   links:
     - 
       title: Správa stavů požadavků
@@ -18,7 +30,7 @@ default_ticket_status:
 default_sla:
   title: Výchozí SLA
   content: >
-    Zvolte výchozí SLA určující, jak dlouho zůstane požadavek otevřen než bude označen jako zmeškaný.
+    Zvolte výchozí plán SLA určující lhůtu, jak dlouho zůstane požadavek otevřen, než bude označen jako zpožděný.
   links:
     - 
       title: Správa plánů SLA
@@ -26,36 +38,36 @@ default_sla:
 default_priority:
   title: Výchozí priorita
   content: >
-    Zvolte výchozí <span class="doc-desc-title">prioritu</span> pro požadavky bez priority nastavené automaticky. <br/><br/> Priorita může být přiřazena dle druhu požadavku, směrování na oddělení nebo nastavením filtrováním požadavků.
+    Zvolte výchozí <span class="doc-desc-title">prioritu</span> pro požadavky bez automaticky nastavené priority. <br/><br/> Priorita může být přiřazena dle tématu podpory, cílového oddělení nebo nastavením filtru požadavků.
 maximum_open_tickets:
-  title: Maximální počet otevřených ticketů
+  title: Maximální počet otevřených požadavků
   content: >
-    Zadejte maximální <em>počet</em> požadavků, které může uživatel na helpdesku mít současně <strong>otevřen</strong>. <br><br> Vložte <span class="doc-desc-opt">0 </span> pro možnost bez omezení.
+    Zadejte maximální <em>počet</em> požadavků, které může uživatel mít současně <strong>otevřen</strong>. <br><br> Zadejte <span class="doc-desc-opt">0</span>, pokud nechcete počet omezovat.
 agent_collision_avoidance:
   title: Zamykání požadavků
   content: >
     Zadejte maximální čas po který může agent mít uzamčen požadavek bez jakékoliv aktivity.
     <br><br> Vložte <span class="doc-desc-opt">0</span> pokud nechcete požadavky automaticky odemykat.
 email_ticket_priority:
-  title: Priorita ticketů založených z e-mailu
+  title: Priorita požadavků zaslaných e-mailem
   content: >
-    Použití příznaku priority z došlého emailu
+    Použití priority z příznaku doručeného e-mailu
 show_related_tickets:
   title: Zobrazit související tickety
   content: >
-    Zobrazí při přihlášení uživatele všechny jeho požadavky - jinak je přístup omezen pouze na jeden požadavek na jedno přihlášení
+    Zobrazení všech souvisejících požadavků při přihlášení uživatele - jinak je přístup omezen pouze na jeden požadavek na jedno přihlášení
 human_verification:
-  title: Verifikace člověka
+  title: Ověření člověka
   content: >
-    Zapne CAPTCHA v Klientském portálu pro ověření jestli je příchozí tiket výsledkem lidské aktivity.<br><br>Vyžaduje GDLib knihovnu
+    Zapnutí CAPTCHA v zákaznickém portálu pro ověření, zda-li je požadavek zadáván lidskou osobou. <br><br> Vyžaduje GDLib knihovnu
 claim_tickets:
-  title: Převzetí požadavku na základě odpovědi
+  title: Při odpovědi si přiřadit požadavek
   content: >
-    Povolte pro automatické přiřazení nepřiřazených požadavků agentovi, který na ně odpověděl. <br><br> Znovuotevřené požadavky jsou vždy přiřazeny tomu, kdo naposledy odpověděl.
+    Přiřazení nepřiřazených požadavků pracovníku, který na ně odpověděl. <br><br> Znovuotevřené požadavky jsou přiřazeny tomu, kdo naposledy odpověděl.
 assigned_tickets:
-  title: Přiřazené tickety
+  title: Přiřazené požadavky
   content: >
-    Povolte pro vyloučení přiřazených požadavků ze  <span class="doc-desc-title">seznamu otevřených požadavků</span>.
+    Volba pro vyloučení přiřazených požadavků ze <span class="doc-desc-title">seznamu otevřených požadavků</span>.
 answered_tickets:
   title: Zodpovězené požadavky
   content: >

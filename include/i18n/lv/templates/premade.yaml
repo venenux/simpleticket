@@ -3,7 +3,7 @@
   isenabled: 1
   title: Kas ir osTicket (paraugs)?
   response: osTicker ir plaši lietota atvērtā koda problēmu pieteikumu sistēma, kas ir patīkama alternatīva lielizmaksu komplesām lietotājatbalsta sistēmām - vienkārša, viegla, uzticama, bezmaksas, web-orientēta un vienkārša gan uzstādīšanā, gan lietošanā.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     Sveiki %{ticket.name.first}
     <br>
     <br>
-    Jūsu pieteikums #%{ticket.number} tika izveidots %{ticket.create_date} un ir adresēts %{ticket.dept.name} nodaļai.
+    Jūsu pieteikums #%{ticket.number} tika izveidots %{ticket.create_date} un ir adresēts %{ticket.dept.name} nodaļai. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

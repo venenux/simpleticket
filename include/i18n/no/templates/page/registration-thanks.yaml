@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Denne malen definerer innholdet som vises etter at kunder registrerer seg ved å bekrefte kontoen. Denne siden bør informere brukeren om at registreringen er fullført og at klienten kan nå sende en sak eller få tilgang til eksisterende saker.
 name: "Konto bekreftet!"

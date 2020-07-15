@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Gửi đến các nhân viên khi có một thông báo mới được đăng bởi người dùng gửi yêu cầu.  Điều này có thể xảy ra nếu người dùng phản hồi một email từ hệ thống hoặc truy cập cổng thông tin và gửi một thông báo mới.
 subject: |
   Cảnh báo khi có thông báo mới
-body: |2
+body: |
   <h3><strong>Xin chào %{recipient},</strong></h3>
   Một thông báo mới được bổ sung vào yêu cầu <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

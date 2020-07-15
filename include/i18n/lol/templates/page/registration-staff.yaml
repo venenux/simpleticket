@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   crwdns954:0crwdne954:0
 name: "crwdns955:0crwdne955:0"

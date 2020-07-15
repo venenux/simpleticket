@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Autoresponder
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket:
   title: Nový požadavek
   content: >
-    Povolte tuto možnost, pokud chcete automaticky odpovědět uživateli při zadání nového tiketu.
+    Nastavením povolíte odeslání automatické odpovědi zadavateli nového požadaavku.
   links:
     - 
       title: Šablona automatické odpovědi při zadání nového požadavku
@@ -18,7 +29,7 @@ new_ticket_by_staff:
 new_message_for_submitter:
   title: Potvrzení nové zprávy
   content: >
-    Odeslat zadavateli potvrzení o příjmu nové zprávy k jeho existujícímu zákaznickému požadavku.
+    Potvrzovací oznámení, že k existujícímu požadavku byla zaslána nová zpráva.
   links:
     - 
       title: Šablona potvrzení nové zprávy
@@ -26,7 +37,7 @@ new_message_for_submitter:
 new_message_for_participants:
   title: Upozornění na novou zprávu
   content: >
-    Rozešle zprávy přijaté od odesílatele všem ostatním pracujícím na tiketu.
+    Oznámení uživateli a ostatním pracovníkům, že byla zadána nová zpráva k existujícímu požadavku.
   links:
     - 
       title: Šablona pro zprávu o nové události
@@ -34,11 +45,11 @@ new_message_for_participants:
 overlimit_notice:
   title: Oznámení o překročení limitu
   content: >
-    Zpráva yaslaná uživateli při odmítnutí tiketu pro překročení<span class="doc-desc-title">maximálního počtu otevřených tiketů</span>.
+    Oznámení zaslané uživateli při odmítnutí požadavku z důvodu překročení <span class="doc-desc-title">maxima otevřených požadavků</span>.
   links:
     - 
-      title: Šablona oznámení na překročení limitu
+      title: Šablona oznámení o překročení limitu
       href: /scp/templates.php?default_for=ticket.overlimit
     - 
-      title: <em>Max. počet otevřených tiketů</em>
+      title: Nastavení <em>maxima otevřených požadavků</em>
       href: /scp/settings?t=tickets

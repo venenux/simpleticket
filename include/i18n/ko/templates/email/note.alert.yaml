@@ -1,6 +1,10 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
-  티켓에 내부 노트가 등록되거나 담당자가 답변을 추가하는 등의 내부 활동이 일어나면 담당자에게 알림을 보냅니다.
+  티켓에 내부 노트가 등록되거나 담당자가 답변을 추가하는 등의 내부 활동이 생기면 담당자에게 알림을 보냅니다.
 subject: |
   새 내부 활동 알림
 body: |

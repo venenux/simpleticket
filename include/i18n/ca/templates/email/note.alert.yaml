@@ -1,12 +1,15 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
-  Alert sent out to Agents when internal activity such as an internal
-  note or an agent reply is appended to a ticket.
+  Alerta enviada als Agents quan hi ha una activitat interna, com ara una nota interna o un agent afegeix una resposta a un tiquet.
 subject: |
   Alerta de nova activitat interna
 body: |
-  <h3><strong>Hi %{recipient.name},</strong></h3>
-  An agent has logged activity on ticket <a
+  <h3><strong>Hola %{recipient.name},</strong></h3>
+  Un agent ha registrat una activitat al tiquet <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>
   <br>
@@ -14,7 +17,7 @@ body: |
   <tbody>
   <tr>
   <td>
-  <strong>From</strong>:
+  <strong>De</strong>:
   </td>
   <td>
   %{note.poster}
@@ -22,7 +25,7 @@ body: |
   </tr>
   <tr>
   <td>
-  <strong>Title</strong>:
+  <strong>Títol</strong>:
   </td>
   <td>
   %{note.title}
@@ -35,12 +38,11 @@ body: |
   <br>
   <br>
   <hr>
-  To view/respond to the ticket, please <a
-  href="%{ticket.staff_link}">login</a> to the support ticket system
+  Per veure/respondre al tiquet, si us plau <a
+  href="%{ticket.staff_link}">identifica't</a> al sistema de gestió de tiquets
   <br>
   <br>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  <em style="font-size: small; ">El seu amistós sistema d'assistència al client </em>
   <br>
   <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
   alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

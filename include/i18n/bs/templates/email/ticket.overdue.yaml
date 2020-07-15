@@ -1,10 +1,16 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Sent to staff members when a ticket transitions to overdue in the system.
   Overdue tickets occur based on the ticket's due-date as well as the SLA
   defined for the ticket.
-subject: Stale Ticket Alert
-body: |2
+subject: |
+  Stale Ticket Alert
+body: |
   <h3><strong>Hi %{recipient.name}</strong>,</h3>
   A ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> is
   seriously overdue.

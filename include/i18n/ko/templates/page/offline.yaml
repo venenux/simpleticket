@@ -1,4 +1,8 @@
 ---
+#Page template: offline.yaml
+#The offline page is served to the customer portal when the help desk is
+#configured offline in the Admin Panel
+#---
 notes: |
   헬프데스크가 오프라인일 때 고객 포탈에 표시되는 오프라인 페이지입니다.
 name: 오프라인

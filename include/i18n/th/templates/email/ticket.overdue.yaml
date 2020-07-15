@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   ส่งไปยัง Staff เมื่อ Ticket มีสถานะเกินกำหนด ตาม Ticket's Die-date ตลอดจนแผน SLA ที่กำหนดไว้ในการจัดการ Ticket
 subject: |
   แจ้งเตือนทิคเก็ตเก่า
-body: |2
+body: |
   <h3><strong>Hi %{recipient.name}</strong>,</h3>
   A ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> is
   seriously overdue.

@@ -1,0 +1,9 @@
+---
+- 
+  id: 1
+  isactive: 1
+  enable_priority_escalation: 1
+  disable_overdue_alert: 0
+  grace_period: 48
+  name: پہلے سے طے شدہ سروس کے درجہ کا معاہدہ
+  notes:

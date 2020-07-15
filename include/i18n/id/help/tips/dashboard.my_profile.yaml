@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Informasi Kontak
   content: >
-    
+
 username:
   title: Nama pengguna
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Zona waktu
   content: >
-    
+
 daylight_saving:
   title: Daylight Saving
   content: >
-    
+
 maximum_page_size:
   title: Maksimum ukuran halaman
   content: >
-    
+
 auto_refresh_rate:
   title: Kecepatan Refresh otomatis
   content: >
-    
+
 default_signature:
   title: Default tanda tangan
   content: >
-    
+
 default_paper_size:
   title: Ukuran kertas standar
   content: >
-    
+
 show_assigned_tickets:
   title: Tampilkan tiket ditugaskan
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Kata Sandi
   content: >
-    
+
 current_password:
   title: Kata sandi saat ini
   content: >
-    
+
 new_password:
   title: Kata sandi baru
   content: >
-    
+
 confirm_new_password:
   title: Konfirmasi kata sandi baru
   content: >
-    
+
 signature:
   title: Tanda tangan
   content: >

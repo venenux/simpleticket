@@ -2,7 +2,7 @@
 - 
   isactive: 1
   name: Domadores de Leões
-  notes: Administradores do sistema. Essas pessoas (inicialmente) têm controle total para todos os departamentos aos quais têm acesso.
+  notes: Responsáveis pelo sistema. Essas pessoas (inicialmente) tem controle total de todos os departamentos que têm acesso.
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1

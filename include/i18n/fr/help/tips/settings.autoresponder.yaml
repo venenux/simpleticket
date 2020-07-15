@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Autoresponder
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket:
   title: Nouveau ticket
   content: >
@@ -24,17 +35,17 @@ new_message_for_submitter:
       title: Modèle d'un nouveau message de confirmation
       href: /scp/templates.php?default_for=message.autoresp
 new_message_for_participants:
-  title: Nouvelle notification
+  title: Alerte de nouveau message
   content: >
     Diffuser des messages reçus de l'expéditeur du message à tous les autres participants du ticket.
   links:
     - 
-      title: Nouveau template de notification d'activité
+      title: Modèle d'avis de nouvelle activité
       href: /scp/templates.php?default_for=ticket.activity.notice
 overlimit_notice:
   title: Avis de dépassement
   content: >
-    Ticket refusé. Un avis a été envoyé à l'utilisateur concernant le dépassement du nombre <span class="doc-desc-title">Maximum Billets</span>.
+    Ticket refusé. Un avis a été envoyé à l'utilisateur concernant le dépassement du nombre <span class="doc-desc-title">Maximum de Billets Ouverts</span>.
   links:
     - 
       title: Modèle d'avis de dépassement

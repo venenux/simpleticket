@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Template ini mendefinisikan email yang dikirim kepada klien ketika account mereka telah dibuat di Portal klien atau seorang agen atas nama mereka. Email ini berfungsi sebagai verifikasi alamat email. Silakan gunakan %{link} di suatu tempat dalam tubuh.
 name: "Selamat datang di %{company.name}"

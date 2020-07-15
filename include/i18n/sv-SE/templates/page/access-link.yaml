@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Denna mall definierar notificeringen för klienter som får en åtkomstlänk skickad till deras e-post. Supportärendenummer samt e-postadress triggar åtkomstlänken.
 name: "Ärendenummer [#%{ticket.number}] Åtkomstlänk"

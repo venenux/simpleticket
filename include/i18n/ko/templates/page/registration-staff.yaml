@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   이 템플릿은 에이전트 계정이 등록되었을 때 에이전트에게 보내는 첫 번째 편지(옵션)를 정의합니다.
 name: "osTicket에 오신 것을 환영합니다."

@@ -1,11 +1,16 @@
 ---
-deptId: 1
-topicId: 1
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
 name: osTicket-н тусламж
 email: support@osticket.com
-source: Вэб
+source: Вэб #notrans
 subject: osTicket амжилттай суулаа!
-message: |2
+message: |
   <p>
   osTicket-г сонгосон танд баярлалаа.
   </p><p>

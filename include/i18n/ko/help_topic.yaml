@@ -14,16 +14,16 @@
   priority_id: 1
   topic: 피드백
   notes: |
-    주로 판매와 지불에 관련된 티켓들
+    티켓은 주로 영업 및 청구 부서와 관련이 있습니다.
 - 
   topic_id: 10
   isactive: 1
   ispublic: 1
   dept_id: 1
   priority_id: 2
-  topic: 문제 보고
+  topic: 문제 보고서
   notes: |
-    제품, 서비스, 장비에 관한 이슈
+    제품, 서비스 또는 장비와 관련된 이슈입니다.
 - 
   topic_pid: 10
   isactive: 1
@@ -33,4 +33,4 @@
   priority_id: 3
   topic: 이슈 접근
   notes: |
-    물리적 또는 가상의 자산에 대한 접근 불가 보고
+    물리적 또는 가상의 자산에 대한 접근 불가 보고서

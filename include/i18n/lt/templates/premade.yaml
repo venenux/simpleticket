@@ -3,7 +3,7 @@
   isenabled: 1
   title: Kas yra osTicket (pavyzdys)?
   response: osTicket - plačiai naudojama sistema paremta atvirojo kodo pagalbos bilietų sistema. Ji patraukli alternatyva brangioms ir sudėtingoms klientų aptarnavimo sistemos - paprasta, lengva, patikima, nemokama, interneto pagrindu, lengvai įdiegiama ir paprasta naudoti.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Jūsų bilietas #%{ticket.number} sukurtas %{ticket.create_date} yra
-    %{ticket.dept.name} skyriuje.
+    %{ticket.dept.name} skyriuje. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

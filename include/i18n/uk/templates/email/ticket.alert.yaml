@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Відправляється співробітникові служби підтримки, коли в системі створюється нова заявка. Це відноситься до заявки створеним через електронну пошту, веб-портал або API.
 subject: |
   Оповіщення про нову заявку
-body: |2
+body: |
   <h2>Доброго дня, %{recipient.name}!</h2>
   Заявка №%{ticket.number} створена
   <br>

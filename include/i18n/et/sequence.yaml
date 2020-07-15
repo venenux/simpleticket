@@ -1,7 +1,7 @@
 ---
 - 
   id: 1
-  name: Üldised Pöördumised
+  name: Üldised piletid
   next: 1
   padding: 0
   increment: 1

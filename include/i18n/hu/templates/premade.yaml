@@ -3,7 +3,7 @@
   isenabled: 1
   title: Mi az az osTicket (minta)?
   response: Az osTicket egy széles körben használt, nyílt forráskódú hibajegy kezelő rendszer, vonzó alternatívája a magasabb árfekvésű és komplex ügyfélszolgálati rendszereknek - egyszerű, könnyű, megbízható, nyílt forráskódú, web-alapú, könnyen beállítható és használható.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     A #%{ticket.number} számú hibajegye kelt: %{ticket.create_date} dátummal a(z)
-    %{ticket.dept.name} részleghez került.
+    %{ticket.dept.name} részleghez került. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

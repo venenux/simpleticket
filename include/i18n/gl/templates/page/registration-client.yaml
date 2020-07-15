@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Este modelo define o e-mail enviado aos clientes cando a conta foi creada no portal do cliente ou por un axente no seu nome. Este e-mail serve para a verificación do enderezo de e-mail. Por favor, use %{link} algures no corpo da mensaxe.
 name: "Benvido/a a %{company.name}"

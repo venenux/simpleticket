@@ -1,53 +1,64 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
-  title: 'crwdns2018:0crwdne2018:0'
+  title: crwdns2018:0crwdne2018:0
   content: >
     crwdns2019:0crwdne2019:0
 advanced:
-  title: 'crwdns2020:0crwdne2020:0'
+  title: crwdns2020:0crwdne2020:0
   content: >
     crwdns2021:0crwdne2021:0
 open_tickets_table:
-  title: 'crwdns2022:0crwdne2022:0'
+  title: crwdns2022:0crwdne2022:0
   content: >
     crwdns2023:0crwdne2023:0
 ticket:
-  title: 'crwdns2024:0crwdne2024:0'
+  title: crwdns2024:0crwdne2024:0
   content: >
     crwdns2025:0crwdne2025:0
 date:
-  title: 'crwdns2026:0crwdne2026:0'
+  title: crwdns2026:0crwdne2026:0
   content: >
     crwdns2027:0crwdne2027:0
 subject:
-  title: 'crwdns2028:0crwdne2028:0'
+  title: crwdns2028:0crwdne2028:0
   content: >
     crwdns2029:0crwdne2029:0
 from:
-  title: 'crwdns2030:0crwdne2030:0'
+  title: crwdns2030:0crwdne2030:0
   content: >
     crwdns2031:0crwdne2031:0
 priority:
-  title: 'crwdns2032:0crwdne2032:0'
+  title: crwdns2032:0crwdne2032:0
   content: >
     crwdns2033:0crwdne2033:0
 assigned_to:
-  title: 'crwdns2034:0crwdne2034:0'
+  title: crwdns2034:0crwdne2034:0
   content: >
     crwdns2035:0crwdne2035:0
 export:
-  title: 'crwdns2036:0crwdne2036:0'
+  title: crwdns2036:0crwdne2036:0
   content: >
     crwdns2037:0crwdne2037:0
 advanced_search_dialog:
-  title: 'crwdns2038:0crwdne2038:0'
+  title: crwdns2038:0crwdne2038:0
   content: >
     crwdns2039:0crwdne2039:0
 adv_keyword:
-  title: 'crwdns2040:0crwdne2040:0'
+  title: crwdns2040:0crwdne2040:0
   content: >
     crwdns2041:0crwdne2041:0
 adv_date_range:
-  title: 'crwdns2042:0crwdne2042:0'
+  title: crwdns2042:0crwdne2042:0
   content: >
     crwdns2043:0crwdne2043:0

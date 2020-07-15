@@ -1,4 +1,8 @@
 ---
+#banner-client.yaml
+#This forms the header on the staff login page. It can be useful to inform
+#your clients about your login and registration policies.
+#---
 notes: >
   Itt szerkeszthető az ügyfél bejelentkezési oldal fejléce. Hasznos lehet az ügyfelek tájékoztatására a belépési és regisztrációs szabályokról.
 name: "%{company.name} bejelentkezés"

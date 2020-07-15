@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
 notes: |
   當案件建立後發送通知給使用者
 subject: |
   案件已列為處理中 [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>親愛的 %{recipient.name.first},</strong></h3>
   <p>
   您的案件已被建立且被分配 #%{ticket.number}.

@@ -1,8 +1,12 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   티켓 생성 시 자동 답변이 달렸을 때 사용자에게 전송됩니다.
-  
-  교체를 위해 사용 가능한 변수: %{ticket.*}, %{response}
+
+  교체할 수 있는 변수: %{ticket.*}, %{response}
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
 body: |

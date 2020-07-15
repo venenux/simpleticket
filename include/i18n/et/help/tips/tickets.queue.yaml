@@ -1,52 +1,64 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: Otsinguväli
   content: >
-    
+
 advanced:
   title: Täpsemalt
   content: >
-    Kitsenda otsingu parameetreid. Kui oled valinud otsingu kriteeriumi ja otsingu käivitanud, siis saad <span class="doc-desc-title">eksportida </span> andmed pöördumiste lehe alaosast.
+    Kitsenda otsingu parameetreid. Kui oled valinud otsingu kriteeriumi ja otsingu käivitanud, siis saad <span class="doc-desc-title">eksportida </span> andmed piletite lehe alaosast.
 open_tickets_table:
   title: Avatud piletite tabel
   content: >
-    Kõik avatud ja tähelepanu vajavad pöördumised
+    Kõik hetkel avatud ja tähelepanu vajavad piletid
 ticket:
   title: Pilet
   content: >
-    
+
 date:
   title: Kuupäev
   content: >
-    
+
 subject:
-  title: Pealkiri
+  title: Teema
   content: >
-    
+
 from:
   title: Kellelt
   content: >
-    
+
 priority:
   title: Tähtsus
   content: >
-    
+
 assigned_to:
-  title: Suunatud >
+  title: Suunatud
   content: >
-    
+
 export:
   title: Eksport
   content: >
-    Ekspordi kuvatavad andmedCSV failiks. CSV faile saab avada tabelarvutus tarkvaraga (nt Microsoft Excel, Apple Pages, OpenOffice jne).
+    Ekspordi hetkel kuvatavad andmed CSV failiks. CSV faile saab avada tabelarvutus tarkvaraga (nt Microsoft Excel, Apple Pages, OpenOffice jne).
 advanced_search_dialog:
   title: Täpsem otsing
   content: >
-    
+
 adv_keyword:
   title: Märksõna otsing
   content: >
-    Leia vasteid teema realt või sõnumi sisust pöördumiste nimekirjas, samuti kohandatud väljade tekstist.
+    Leia vasteid teema realt või sõnumi sisust piletite sissekannetes, samuti
+    kasutajate ja piletite kohandatud väljadega seotud tekstisisust.
 adv_date_range:
   title: Otsing kuupäevade vahemiku järgi
   content: >

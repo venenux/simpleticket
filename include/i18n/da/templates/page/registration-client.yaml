@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Denne skabelon definerer at Emails sendes til klienter, når deres konto er blevet oprettet i portal klienten eller af en agent på deres vegne. Denne Email tjener som en bekræftelse af Email-adressen. Brug venligst %{link} et eller andet sted i teksten.
 name: "Velkommen til %{company.name}"

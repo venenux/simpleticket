@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Detalles del ticket
   instructions: Por favor, describa su problema
   notes: |
@@ -53,8 +53,8 @@
   fields:
     - 
       id: 20
-      type: texto
-      name: Asunto
+      type: texto #notrans
+      name: Asunto #notrans
       label: Resumen del problema
       required: true
       edit_mask: 15
@@ -64,8 +64,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Detalles del problema
       hint: Detalles de los motivos para abrir el ticket.
       required: true
@@ -73,22 +73,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Nivel de prioridad
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Informacion de la compañía
   instructions: Detalles disponibles en las plantillas de correo electrónico
   deletable: false
   fields:
     - 
-      type: texto
-      name: name
+      type: texto #notrans
+      name: name #notrans
       label: Nombre de la compañía
       required: true
       sort: 1
@@ -97,23 +97,23 @@
         size: 40
         length: 64
     - 
-      type: texto
-      name: website
+      type: texto #notrans
+      name: website #notrans
       label: Sitio web
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Teléfono
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Dirección
       required: false
@@ -124,14 +124,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Información de la organización
   instructions: Detalles sobre la organización del usuario
   deletable: false
   fields:
     - 
-      type: texto
-      name: name
+      type: texto #notrans
+      name: name #notrans
       label: Nombre
       required: true
       sort: 1
@@ -166,7 +166,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Notas internas
       required: false

@@ -6,4 +6,4 @@
   disable_overdue_alert: 0
   grace_period: 48
   name: 預設服務層級協議(SLA)
-  notes: ""
+  notes:

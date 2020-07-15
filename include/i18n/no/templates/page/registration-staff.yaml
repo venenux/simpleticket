@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Denne malen definerer den første eposten (valgfritt) som sendt til agenter når en konto opprettes på deres vegne.
 name: "Velkommen til osTicket"

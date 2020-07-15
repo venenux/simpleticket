@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Gửi đến các nhân viên khi một thẻ hỗ trợ được chuyển giao cho họ. Thẻ hỗ trợ có thể được chuyển giao tự động bởi hệ thống hoặc thủ công bởi một nhân viên khác.  Sử dụng %{assigner} để xem người người chuyển giao nhiệm vụ.
 subject: |
   Thẻ yêu cầu được chuyển giao cho bạn
-body: |2
+body: |
   <h3><strong>Chào %{assignee.name.first},</strong></h3>
   Thẻ hỗ trợ <a href="%{ticket.staff_link}">#%{ticket.number}</a> đã được chuyển giao cho bạn bởi
    %{assigner.name.short}

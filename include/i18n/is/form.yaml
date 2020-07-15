@@ -8,7 +8,7 @@
     - 
       type: text
       name: email
-      label: Tölvupóstfang
+      label: Tölvupóstur
       required: true
       sort: 1
       edit_mask: 15
@@ -44,10 +44,10 @@
         cols: 40
 - 
   id: 2
-  type: T
-  title: Ítarupplýsingar um beiðni
+  type: T #notrans
+  title: Upplýsingar
   instructions: Vinsamlegast lýstu vandamálinu
-  notes: |2
+  notes: |
     Þetta form verður hengt við allar beiðnir óháð uppruna.
     Þú getur bætt við reitum við þetta form og þeir verða aðgengilegir á
      öllum beiðnum og hægt að leita eftir þeim í ítarleit og síanlegir.
@@ -55,8 +55,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Yfirlit máls
       required: true
       edit_mask: 15
@@ -66,8 +66,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Upplýsingar beiðnar
       hint: Upplýsingar um ástæðu(ur) þess að beiðni var stofnuð.
       required: true
@@ -75,22 +75,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Priority Level
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Upplýsingar um fyrirtæki
   instructions: Upplýsingar eru aðgengilegar í sniðmáti tölvupósts
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Fyrirtæki
       required: true
       sort: 1
@@ -99,23 +99,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Vefsíða
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Phone Number
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Heimilisfang
       required: false
@@ -126,15 +126,15 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Upplýsingar um stofnun
   instructions: Upplýsingar um stofnun notanda
   deletable: false
   fields:
     - 
-      type: text
-      name: name
-      label: Nafn
+      type: text #notrans
+      name: name #notrans
+      label: Fullt Nafn
       required: true
       sort: 1
       edit_mask: 15
@@ -168,7 +168,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Internal Notes
       required: false

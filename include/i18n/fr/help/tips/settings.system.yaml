@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
   title: Statut du helpdesk
   content: >
@@ -22,7 +33,7 @@ default_page_size:
 default_log_level:
   title: Niveau de journalisation par défaut
   content: >
-    Détermine le niveau minimum des entrées qui sont enregistrés dans le <span class="doc-desc-title">journal système</span>. <span class="doc-desc-opt">Debug</span> représente la plus petite sévérité, et  <span class="doc-desc-opt">Erreurs</span> représente la plus grande sévérité. Par exemple, si vous voulez voir toutes les entrées dans le <span class="doc-desc-title">journal système</span>, choisissez<span class="doc-desc-opt">Debug</span>.
+    Détermine le niveau minimum des entrées qui sont enregistrés dans le <span class="doc-desc-title">journal système</span>. <span class="doc-desc-opt">Debug</span> représente la plus petite gravité, et <span class="doc-desc-opt">Erreurs</span> représente la plus grande gravité. Par exemple, si vous voulez voir toutes les entrées dans le <span class="doc-desc-title">journal système</span>, choisissez<span class="doc-desc-opt">Debug</span>.
 purge_logs:
   title: Purger les journaux
   content: >
@@ -34,12 +45,13 @@ default_name_formatting:
   links:
     - 
       title: Variables de modèle de courriel supportées
-      href: 'http://osticket.com/wiki/Email_templates'
+      href: http://osticket.com/wiki/Email_templates
+#Date and time options
 date_time_options:
   title: Options de date et d'heure
   content: >
-    Les paramètres suivants définissent les paramètres de la  date &amp; de l'heure pour les clients. Vous pouvez modifier la façon dont elles apparaissent en utilisant les caractères de format de date PHP. Les dates indiquées ci-dessous ne font qu'illustrer le résultat de leurs valeurs correspondantes.
+    Les paramètres suivants définissent les paramètres de la date et de l'heure pour les clients. Vous pouvez modifier la façon dont elles apparaissent en utilisant les caractères de format de date PHP. Les dates indiquées ci-dessous ne font qu'illustrer le résultat de leurs valeurs correspondantes.
   links:
     - 
       title: Consultez le tableau des formats de date PHP
-      href: 'http://php.net/manual/fr/function.date.php'
+      href: http://php.net/manual/fr/function.date.php

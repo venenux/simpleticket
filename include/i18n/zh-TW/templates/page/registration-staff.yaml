@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   此範本定義了當專員帳號已建立，電子郵件通知（可選）將傳送並通知專員。
 name: "歡迎來到 osTicket"

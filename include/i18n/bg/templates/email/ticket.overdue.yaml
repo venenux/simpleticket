@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Изпраща се до служители, след като времето за изпълнение на заявката е просрочено в системата.
   Просрочените заявки възникват поради указания краен срок за изпълнение и поради "Споразумението за ниво на обслужване", което е дефинирано за заявката.
 subject: |
   Предупреждение за застояла заявка
-body: |2
+body: |
   <h3><strong>Здравейте, %{recipient.name}</strong>,</h3>
   Заявката <a href="%{ticket.staff_link}">#%{ticket.number}</a> е със сериозно закъснение.
   <br>

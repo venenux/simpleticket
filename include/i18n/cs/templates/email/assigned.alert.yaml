@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Bude odesláno zaměstnanci v okamžiku přiřazení požadavku. Zákaznický požadavek může být přiřazen systémem automaticky nebo ručně jiným zaměstnancem. Použijte %{assigner} pro rozlišení, kdo požadavek přidělil.
 subject: |
   Přiřazený zákaznický požadavek
-body: |2
+body: |
   <h3><strong>Dobrý den %{assignee.name.first},</strong></h3>
   Uživatel %{assigner.name.short} Vám přiřadil zákaznický požadavek <a href="%{ticket.staff_link}">#%{ticket.number}</a> 
   <br>

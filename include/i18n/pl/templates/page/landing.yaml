@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Strona docelowa odnosi się do zawartości widoku początkowego portalu klienta. Szablon zmienia zawartość widoczną powyżej dwóch łączy, <strong>Otwórz nowe zgłoszenie</strong> i <strong>Sprawdź Status zgłoszenia</strong>.
 name: Docelowa

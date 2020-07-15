@@ -16,7 +16,8 @@
   sort: 2
   flags: 0
   properties:
-    description: Rešeni zahtevi su zatvoreni zahtevi koji se mogu ponovo otvoriti od strane krajnjeg korisnika. To bi moglo biti korisno kada se okidač koristi za zatvaranje rešenog zahteva sa obaveštenjem upućenim krajnjem korisniku.
+    description: >
+      Rešeni zahtevi su zatvoreni zahtevi koji se mogu ponovo otvoriti od strane krajnjeg korisnika. To bi moglo biti korisno kada se okidač koristi za zatvaranje rešenog zahteva sa obaveštenjem upućenim krajnjem korisniku.
 - 
   id: 3
   name: Zatvoren
@@ -25,7 +26,8 @@
   sort: 3
   flags: 0
   properties:
-    description: Zahtevi obeleženi kao zatvoreni ne mogu biti ponovo otvoreni od strane krajnjeg korisnika. Zahtevi će i dalje bili dostupni na klijentskom i menadžerskom panelu.
+    description: >
+      Zahtevi obeleženi kao zatvoreni ne mogu biti ponovo otvoreni od strane krajnjeg korisnika. Zahtevi će i dalje bili dostupni na klijentskom i menadžerskom panelu.
 - 
   id: 4
   name: Arhivirani
@@ -34,7 +36,8 @@
   sort: 4
   flags: 0
   properties:
-    description: Zahtevi koji su na raspolaganju samo administrativno ali nisu dostupni u redovima zahteva.
+    description: >
+      Zahtevi koji su na raspolaganju samo administrativno ali nisu dostupni u redovima zahteva.
 - 
   id: 5
   name: Obrisani
@@ -43,4 +46,5 @@
   sort: 5
   flags: 0
   properties:
-    description: Zahtevi na čekanju za brisanje. Nije dostupno u redovima zahteva.
+    description: >
+      Zahtevi na čekanju za brisanje. Nije dostupno u redovima zahteva.

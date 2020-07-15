@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Контактна інформація
   content: >
-    
+
 username:
   title: Ім'я користувача
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Часовий пояс
   content: >
-    
+
 daylight_saving:
   title: Літній час
   content: >
-    
+
 maximum_page_size:
   title: Максимальний розмір сторінки
   content: >
-    
+
 auto_refresh_rate:
   title: Частота автообновлення
   content: >
-    
+
 default_signature:
   title: Підпис за умовчуванням
   content: >
-    
+
 default_paper_size:
   title: Розмір паперу за умовчуванням
   content: >
-    
+
 show_assigned_tickets:
   title: Показати призначені заявки
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Пароль
   content: >
-    
+
 current_password:
   title: Поточний пароль
   content: >
-    
+
 new_password:
   title: Новий пароль
   content: >
-    
+
 confirm_new_password:
   title: Підтвердити новий пароль
   content: >
-    
+
 signature:
   title: Підпис
   content: >

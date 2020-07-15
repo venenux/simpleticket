@@ -1,73 +1,85 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
-  title: New Ticket Help Topic
+  title: Topik Bantuan Tiket Baru
   content: >
-    Choose a <span class="doc-desc-title">Help Topic</span> to be automatically associated with tickets created via this Email Address. <br/><br/> Forms associated with the Help Topic will be added to the ticket, but will not have any data.
+    Pilih <span class="doc-desc-title"> topik bantuan </span> secara automatik dikaitkan dengan tiket yang dibuat melalui alamat E-mel ini. <br/><br/> Borang yang berkaitan dengan topik bantuan akan dimasukkan ke dalam tiket, tetapi tidak akan mempunyai apa-apa data.
   links:
     - 
-      title: Manage Help Topics
+      title: Mengurus topik bantuan
       href: /scp/helptopics.php
 new_ticket_priority:
-  title: New Ticket Priority
+  title: Keutamaan tiket baru
   content: >
-    Choose the <span class="doc-desc-title">priority</span> for new tickets created via this Email Address.
+    Pilih <span class="doc-desc-title"> keutamaan </span> untuk tiket baru yang dibuat melalui alamat E-mel ini.
 new_ticket_department:
-  title: New Ticket Department
+  title: Tiket Jabatan Baru
   content: >
-    Choose the <span class="doc-desc-title">Department</span> to which new tickets created via this Email Address will be routed.
+    Pilih <span class="doc-desc-title"> Jabatan </span> yang mana tiket baru yang dibuat melalui alamat E-mel ini akan dihalakan.
   links:
     - 
-      title: Manage Departments
+      title: Urus Jabatan
       href: /scp/departments.php
 auto_response:
-  title: New Ticket Auto-Response
+  title: Auto-respon tiket baru
   content: >
-    You may disable the Auto-Response sent to the User when a new ticket is created via this Email Address.
+    Anda boleh menutup Auto-Respon dihantar kepada pengguna apabila tiket baru dicipta melalui Alamat E-mel ini.
 username:
-  title: Username
+  title: Nama pengguna
   content: >
-    
+
 password:
-  title: Password
+  title: Kata laluan
   content: >
-    
+
 login_information:
-  title: Email Login Information
+  title: Maklumat log masuk e-mel
   content: >
-    The <span class="doc-desc-title">Username</span> and <span class="doc-desc-title">Password</span> are required to fetch email from IMAP / POP mail boxes as well as to send email through SMTP.
+    <span class="doc-desc-title">Namapengguna</span> dan <span class="doc-desc-title">Kata laluan</span>adalah diperlukan untuk mengambil e-mel dari peti mel IMAP / POP serta menghantar e-mel melalui SMTP.
 mail_account:
-  title: Fetching Email
+  title: Mengambil e-mel
   content: >
-    Fetch emails from a remote IMAP or POP mail box and convert them to tickets in your help desk.
+    Ambil e-mel daripada IMAP yang jauh atau kotak mel POP dan tukar mereka kepada tiket di meja bantuan anda.
   links:
     - 
-      title: Manage <span class="doc-desc-title">Email Polling</span> &amp; <span class="doc-desc-title">AutoCron</span> settings.
+      title: Uruskan tetapan <span class="doc-desc-title">Pengundian E-mel</span> &amp; <span class="doc-desc-title">AutoKron</span>.
       href: /scp/settings.php?t=emails
 host_and_port:
-  title: Remote Host
+  title: Hos Jauh
   content: >
-    Enter the <span class="doc-desc-title">hostname</span> and <span class="doc-desc-title">port</span> number for your mail server. This may be available in the documentation for your hosting account or from your email administrator.
+    Masukkan <span class="doc-desc-title">namahos</span> dan nombor <span class="doc-desc-title">port</span> untuk pelayan emel anda. Ini mungkin boleh didapati dalam dokumentasi untuk akaun hos anda atau daripada pentadbir e-mel anda.
 protocol:
-  title: Mail Box Protocol
+  title: Protokol peti surat
   content: >
-    Select the mail box protocol supported by your remote mail server. IMAP is recommended and SSL is encouraged if at all possible.
+    Pilih protokol kotak mel disokong oleh server mel jauh anda. IMAP adalah disyorkan dan SSL digalakkan jika mungkin.
 fetch_frequency:
-  title: Fetch Frequency
+  title: Ambil Kekerapan
   content: >
-    Enter how often, in minutes, the system will poll the mail box. <br/><br/> This will define the average delay in receiving an Auto-Response after a User sends an email to this mail box.
+    Masukkan berapa kerap, dalam minit, sistem akan membuat tinjauan terhadap kotak mel. <br/><br/> Ini akan mentakrifkan purata kelewatan dalam menerima Auto-Respon selepas Pengguna menghantar e-mel ke kotak mel ini.
 emails_per_fetch:
-  title: Emails Per Fetch
+  title: E-mel Setiap Pengambilan
   content: >
-    Enter the number of emails processed at one time.
+    Masukkan bilangan e-mel yang diproses pada satu masa.
 fetched_emails:
-  title: Fetched Emails
+  title: E-mel diambil
   content: >
-    Decide what to do with processed emails: <br/><br/> <span class="doc-desc-opt"><b>Move to Folder</b></span>: This will backup your email from the INBOX to a folder you specify. If the folder does not yet exist on the server, the system will attempt to automatically create it. (<b>Recommended</b>) <hr> <span class="doc-desc-opt"><b>Delete Emails</b></span>: This will delete your email from the INBOX once it is processed. <hr> <span class="doc-desc-opt"><b>Do Nothing</b></span>: This will leave emails in your INBOX. The system will record the message ids of your email and attempt not to refetch it. However, this option may cause duplicate tickets to be created. (<em>Not Recommended</em>)
+    Memutuskan apa yang perlu dilakukan dengan e-mel yang diproses: <br/><br/><span class="doc-desc-opt"><b> Pindah ke Fail </b></span>: Ini akan membuat sandaran e-mel anda daripada peti masuk ke fail yang anda tentukan. Jika fail tersebut tidak lagi wujud pada server, sistem akan cuba untuk secara automatik menciptakannya. (<b> Disyorkan </b>) <hr><span class="doc-desc-opt"><b> Padam E-mel </b></span>: Ini akan memadam e-mel anda dari peti masuk apabila ia diproses. <hr><span class="doc-desc-opt"><b> Tidak buat apa-apa </b></span>: Ini akan meninggalkan e-mel dalam peti masuk anda. Sistem ini akan merekodkan id mesej e-mel anda dan tidak cuba untuk mengambilnya semula. Walau bagaimanapun, pilihan ini boleh menyebabkan tiket salinan diwujudkan. (<em> Tidak disokong </em>)
 smtp_settings:
-  title: SMTP Settings
+  title: Tetapan SMTP
   content: >
-    Email sent from the help desk can be sent through an SMTP server. This is recommended, if possible, as it will increase the likelyhood of email delivery and will make the emails less likely to be marked as spam.
+    E-mel yang dihantar dari meja bantuan boleh dihantar melalui pelayan SMTP. Ini adalah disyorkan, jika boleh, kerana ia akan meningkatkan kemungkinan penghantaran e-mel dan akan membuat e-mel kurang kemungkinan ditandakan sebagai spam.
 header_spoofing:
-  title: Allow Header Spoofing
+  title: Benarkan Pengepala Menipu
   content: >
-    Enable this to allow sending emails via this mail box from an address other that the one given in the <span class="doc-desc-title">Email Address</span> setting above. <br/><br/> This advanced setting is generally used when sending mail from aliases of this mail box.
+    Aktifkan ini untuk membenarkan menghantar e-mel melalui kotak mail ini dari alamat yang lain dari satu yang diberikan dalam <span class="doc-desc-title"> Alamat E-mel </span> ditetapkan di atas. <br/><br/> tetapan lanjutan ini biasanya digunakan apabila menghantar mel daripada alias kotak mel ini.
+

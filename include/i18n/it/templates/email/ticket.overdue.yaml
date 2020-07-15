@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Inviate ai membri del personale quando un ticket risulta in scadenza nel sistema. I ticket in scadenza in ritardo si verificano in base alla data di scadenza del biglietto, così come definiti dal SLA  per il ticket.
 subject: |
   Avviso di Ticket in scadenza
-body: |2
+body: |
   <h3><strong>Hi %{recipient}</strong>,</h3>
   Un ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> è
   in scadenza.

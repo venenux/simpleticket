@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Axuda sobre como crear un novo Ticket
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Username
   content: >
-    
+
 password:
   title: Password
   content: >
-    
+
 login_information:
   title: Información de inicio de sesión de correo
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Permitir suplantación de encabezado
   content: >
     Active esta opción para permitir o envío de correos electrónicos por medio desta caixa de correo procedente dun enderezo diferente do <span class="doc-desc-title">Enderezo Email </span> definido anteriormente. <br/><br/> Esta configuración avanzada é xeralmente usada cando se envían correos electrónicos como alias dende esta caixa de correo.
+

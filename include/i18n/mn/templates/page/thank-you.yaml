@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   "Талархал"-ын хуудас нь хэрэглэгчийн портал дээр харилцагч шинэ хүсэлт үүсгэсний дараа түүнд харуулах хуудас юм.
 name: Талархал

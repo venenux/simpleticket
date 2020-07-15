@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Sistemdə sorğuya keçid vaxtı bitəndə heyət üzvlərinə göndərin. Vaxtı bitmiş sorğular onların tarixinə görə əsaslanmış baş verir, həmçinin sorğu üçün SLA müəyyən olunur.
 subject: |
   Köhnə sorğu siqnalı
-body: |2
+body: |
   <h3><strong>Salam %{recipient.name}</strong>,</h3>
   Sorğunun <a href="%{ticket.staff_link}">#%{ticket.number}</a> doğrudan da vaxtı bitib.
   <br>

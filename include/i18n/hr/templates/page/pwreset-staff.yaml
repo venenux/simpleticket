@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Ovaj predložak definira email poslan djelatnicima koji kliknu na link <strong>Zaboravljena zaporka</strong> na kontrolnoj ploči djelatnika.
 name: "Poništavanje zaporke djelatnika osTicketa"

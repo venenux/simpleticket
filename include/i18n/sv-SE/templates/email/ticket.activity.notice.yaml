@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Information om ärendeaktivitet skickad till medarbetare t.e.x svar/meddelande.
 subject: |
   Re: %{ticket.subject}
-body: |2
+body: |
   <h3><strong>Hej %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em>uppdaterade precis ett ärende som du medverkar i med ett nytt meddelande.

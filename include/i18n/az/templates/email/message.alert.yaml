@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   İstifadəçi tərəfindən sorğuya yeni mesaj əlavə olunanda heyət üzvlərinə göndərin. Bu, istifadəçilər sistemdən olan e-poçtlara cavab verəndə və ya sifarişçi veb portalını ziyarət edəndə və oraya yeni mesaj yazanda meydana gələ bilər.
 subject: |
   Siqnal: yeni mesaj
-body: |2
+body: |
   <h3><strong>Salam%{recipient.name},</strong></h3>
   Sorğuya yeni mesaj əlavə olundu ticket.staff link}"&gt;"><a<br>
   href="%{ticket.staff_link}">#%{ticket.number}</a>

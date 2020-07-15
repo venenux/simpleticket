@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Questo modello definisce l'email inviata al personale che fa clic sul link <strong> Password dimenticata</strong> nella pagina di autenticazione del pannello di controllo dello staff.
 name: "Reset della password dello Staff in osTicket"

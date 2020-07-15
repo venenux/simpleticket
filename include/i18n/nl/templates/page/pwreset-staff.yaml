@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Deze template definieert de email die naar medewerkers verzonden wordt die de <strong>Mijn Wachtwoord Vergeten</strong> link gebruikt hebben, op de login pagina van het medewerkers controle paneel.
 name: "osTicket medewerker wachtwoord reset"

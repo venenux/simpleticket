@@ -1,12 +1,23 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Knowledgebase
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 knowledge_base_settings:
   title: تنظیمات پایگاه دانش
   content: >
-    
+
 knowledge_base_status:
   title: وضعیت پایگاه دانش
   content: >
-    این قسمت را فعال کنید تا کاربران به مقاله های پایگاه دانش دسترسی داشته باشند.<br><br> دسته های پایگاه دانش و سوال های متداول می توانند بصورت داخلی در بیایند (فقط توس کارمندان قابل مشاهده باشند).
+    این قسمت را فعال کنید تا کاربران به مقاله های پایگاه دانش دسترسی داشته باشند.<br><br> دسته های پایگاه دانش و سوال های متداول می توانند بصورت داخلی در بیایند (فقط توسط کارشناسان قابل مشاهده باشند).
   links:
     - 
       title: مدیریت پایگاه دانش
@@ -14,7 +25,7 @@ knowledge_base_status:
 restrict_kb:
   title: محدود ساختن دسترسی به پایگاه دانش
   content: >
-    به منظور جلوگیری از دسترسی کاربران غیر عضو از طریق رابط کاربری به آیتمهای پایگاه دانش  ، این مورد را فعال کنید.
+    به منظور جلوگیری از دسترسی کاربران ثبت نام نشده از طریق رابط کاربری به آیتمهای پایگاه دانش، این مورد را فعال کنید.
   links:
     - 
       title: تنظیمات کنترل دسترسی
@@ -22,7 +33,7 @@ restrict_kb:
 canned_responses:
   title: پاسخ های آماده
   content: >
-    فعال کردن این قسمت باعث می شود تا کارمندان بتوانند از<span class="doc-desc-title"> پاسخ های آماده</span> هنگام پاسخ دادن استفاده کنند.
+    فعال کردن این قسمت باعث می شود تا کارشناسان بتوانند از<span class="doc-desc-title"> پاسخ های آماده</span> هنگام پاسخ دادن استفاده کنند.
   links:
     - 
       title: مدیریت پاسخ آماده

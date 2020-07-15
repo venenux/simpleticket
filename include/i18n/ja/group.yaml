@@ -20,7 +20,8 @@
 - 
   isactive: 1
   name: エレファントウォーカー
-  notes: Inhabitants of the ivory tower
+  notes: |
+    Inhabitants of the ivory tower
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -38,7 +39,8 @@
 - 
   isactive: 1
   name: フレアトレーナー
-  notes: 少ないスタッフメンバー
+  notes: |
+    少ないスタッフメンバー
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

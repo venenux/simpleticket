@@ -5,10 +5,10 @@
   reject_ticket: 1
   target: Email
   name: SYSTEM BAN LIST
-  notes: Sisemine e-kirjade blokeerimise nimekiri. Ära kustuta
+  notes: Sisemine emaili must nimekiri. Ära kustuta
   rules:
     - 
       isactive: 1
       what: email
       how: equal
-      val: test@näide.ee
+      val: test@example.com

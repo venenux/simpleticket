@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Deze template definieert de notificatie voor klanten dat een toegangslink naar hun e-mail adres werd verzonden. Het ticket nummer en email adres activeren de toegangslink.
 name: "Ticket [#%{ticket.number}] Toegangs Link"

@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Этот шаблон определяет содержимое, которое будет показано на странице "Спасибо" после создания клиентом новой заявки в клиентской части портала.
 name: Спасибо

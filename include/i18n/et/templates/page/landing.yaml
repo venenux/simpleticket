@@ -1,6 +1,10 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
-  Avaleht viitab kasutajatoe portaali esimese lehe sisule. Mall muudab sisu, mida näeb allpool kahte linki <strong>Loo uus pöördumine</strong> ja <strong>Vaata pöördumise staatust</strong>.
+  Avaleht viitab kasutajatoe portaali esimese lehe sisule. Mall muudab sisu, mida näeb allpool kahte linki <strong>Loo uus pilet</strong> ja <strong>Vaata pileti staatust</strong>.
 name: Algus
 body: >
-  <h1>Tere tulemast tugikeskusesse!</h1> <p> Selleks, et Sind paremini teenindada, kasutame me pöördumiste registreerimise süsteemi. Iga pöördumine saab unikaalse numbri, mida Sa saad kasutada pöördumise onlain jälgimiseks ja vastuste saamiseks. Kõik Sinu pöördumised arhiveeritakse ja nende ajalugu on alati kättesaadav. Pöördumise registreerimiseks on vaja kehtivat e-posti aadressi.</p>
+  <h1>Tere tulemast kasutajatoe keskusesse!</h1> <p> Selleks, et muuta sujuvamaks päringutele vastamine ja sind paremini teenindada, kasutame piletite registreerimise süsteemi. Iga kasutajatoe päring saab unikaalse pileti numbri, mida sa saad kasutada online jälgimiseks ja vastuste saamiseks. Kõik sinu päringud arhiveeritakse ja nende ajalugu on alati kättesaadav. Pileti registreerimiseks on vaja kehtivat emaili aadressi.</p>

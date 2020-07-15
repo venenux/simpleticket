@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Pagina inițială se refera la continutul pentru prima pagina din Portalul pentru Clienti. Sablonul afectează continutul vizibul deasupra celor doua link-uri <strong>Deschide un Tichet Nou</strong> si <strong>Verifica Stare Tichet</strong>.
 name: Pagina Inițială

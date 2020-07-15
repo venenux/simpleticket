@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Sendt til personalet når en bestilling er tildelt dem. Sager kan automatisk blive tildelt af systemet eller manuelt af andet personale. Brug %{assigner} til at skelne mellem hvem som har lavet opgaven.
 subject: |
   Sag tildelt til dig
-body: |2
+body: |
   <h3> <strong> Hej %{assignee.name.first} </strong></h3>
   Bestilling <a href="%{ticket.staff_link}">#%{ticket.number}</a> er blevet
   tildelt til dig af %{assigner.name.short}

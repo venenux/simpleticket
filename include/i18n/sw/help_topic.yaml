@@ -13,7 +13,8 @@
   dept_id: 1
   priority_id: 1
   topic: Maoni
-  notes: Tiketi ambazo kihalisi inahusu idara ya mauzo na malipo
+  notes: |
+    Tiketi ambazo kihalisi inahusu idara ya mauzo na malipo
 - 
   topic_id: 10
   isactive: 1
@@ -21,7 +22,8 @@
   dept_id: 1
   priority_id: 2
   topic: Repoti tatizo
-  notes: Bidhaa, huduma, au maswali inayohusu vifaa
+  notes: |
+    Bidhaa, huduma, au maswali inayohusu vifaa
 - 
   topic_pid: 10
   isactive: 1
@@ -30,4 +32,5 @@
   sla_id: 1
   priority_id: 3
   topic: Kupata suala
-  notes: Ripoti kutoweza kupata mali ya kimwili au ya pepe
+  notes: |
+    Ripoti kutoweza kupata mali ya kimwili au ya pepe

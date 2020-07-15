@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Līdzautoram tiek nosūtīts paziņojums par pieteikuma aktivitāti, piemēram - par pieteikumam pievienotu atbildi.
 subject: |
   Atb: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Dear %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> just logged a message to a ticket in which you participate.

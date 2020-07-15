@@ -1,37 +1,49 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
+#Authentication settings
 password_reset:
-  title: Parooli aegumise poliitika
+  title: Salasõna aegumise poliitika
   content: >
-    Määrab, kui tihti (kuudes) meeeskonna liige peab parooli vahetama. Kui see on välja lülitatud, siis parooli vahetama ei pea.
+    Määrab, kui tihti (kuudes) peab töötaja vahetama salasõna. Kui see on deaktiveeritud (seatud "Ei aegu"), siis salasõna vahetama ei pea.
 password_expiration_policy:
-  title: Parooli aegumise poliitika
+  title: Salasõna aegumise poliitika
   content: >
-    Vali, kui tihti agendid peavad parooli vahetama. Kui see on välja lülitatud (st <span class="doc-desc-opt">ei aegu</span>), siis parooli vahetama ei pea.
+    Vali, kui tihti agendid peavad salasõna vahetama. Kui see on deaktiveeritud (st <span class="doc-desc-opt">ei aegu</span>), siis salasõna vahetama ei pea.
 allow_password_resets:
-  title: Luba parooli lähtestamine
+  title: Luba salasõna lähtestamine
   content: >
-    Aktiveeri, kui soovid näidata <span class="doc-desc-title">Unustasin parooli</span> linki <span class="doc-desc-title">meeskonnaliikme sisselogimise menüüs</span> peale sisselogimise ebaõnnestumist.
+    Aktiveeri see võimalus, kui soovid näidata <span class="doc-desc-title">Unustasin salasõna</span> linki <span class="doc-desc-title">töötajate sisselogimise juhtpaneelis</span> peale sisselogimise ebaõnnestumist.
 reset_token_expiration:
-  title: Parooli lähtestamise aken
+  title: Salasõna lähtestamise aken
   content: >
-    Vali aeg (minutites), mille jooksul <span class="doc-desc-title">parooli vahetamise tunnus</span> kehtib. Kui agent valib <span class="doc-desc-title">parooli vahetamine</span>, siis saadetakse talle e-kirjas link, mis võimaldab parooli vahetada.
+    Vali aeg (minutites), mille jooksul <span class="doc-desc-title">salasõna vahetamise tunnus</span> kehtib. Kui agent valib <span class="doc-desc-title">salasõna vahetamine</span>, siis saadetakse talle emailis link, mis võimaldab salasõna vahetada.
 staff_session_timeout:
   title: Meeskonna sessioon on aegunud
   content: >
-    Vali maksimaalne jõudeoleku aeg (minutites), pärast mida agent peab uuesti sisse logima.<br><br>Kui soovid <span class="doc-desc-title">meeskonna sessiooni pikkust</span> määramata jätta, siis sisesta 0.
+    Vali maksimaalne jõudeoleku aeg (minutites), pärast mida agent peab uuesti sisse logima.<br><br> Kui soovid <span class="doc-desc-title">meeskonna sessiooni pikkuse</span> määramata jätta, siis sisesta 0.
 client_session_timeout:
   title: Kasutaja sessioon aegus
   content: >
-    Vali maksimaalne jõudeoleku aeg (minutites), pärast mida kasutaja peab uuesti sisse logima.<br><br>Kui soovid <span class="doc-desc-title">kasutaja sessiooni pikkuse</span> määramata jätta, siis sisesta 0.
+    Vali maksimaalne jõudeoleku aeg (minutites), pärast mida kasutaja peab uuesti sisse logima.<br><br> Kui soovid <span class="doc-desc-title">kasutaja sessiooni pikkuse</span> määramata jätta, siis sisesta 0.
 bind_staff_session_to_ip:
   title: Seo meeskonna sessioon IP-aadressiga
   content: >
-    Aktiveeri see, kui soovid, et agenti seostatakse tema sisselogimise IP-aadressiga.<br><br>Seda seadet ei saa aktiveerida, kui kasutatakse dünaamilisi IP-aadresse.
+    Luba see, kui soovid, et agent seostatakse tema sisselogimise IP-aadressiga.<br><br> Ei soovita seda seda seadet aktiveerida, kui kasutatakse dünaamilisi IP-aadresse.
 registration_method:
   title: Registreerimisvalikud
   content: >
-    <span class="doc-desc-title">Registreerimismeetod</span> koos <span class="doc-desc-title">registreerimise kohustusega</span> määravad, kuidas kasutajad registreeruvad ning kasutavad kasutajatoe veebiportaali. Allolev tabel võtab kokku, kuidas süsteem neid kahte seadet tõlgendab.<table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"><tr><th>Registreerimine on kohustuslik</th><th>Registreerimismeetod</th><th>Tulemus</th></tr><tr><td>Ei</td><td>Avalik</td><td>Registreerimine on soovituslik, kuid mitte kohustuslik.</td></tr><tr><td>Jah</td> <td>Avalik</td><td>Registreerimine ja sisselogimine on kohustuslik</td></tr><tr><td>Ei</td><td>Personaalne</td><td>Kõik võivad registreerida pöördumise, kuid vaid agendid saavad luua konto</td></tr><tr><td>Jah</td><td>Personaalne</td><td>Sisenemine on vaid kutsetega</td></tr><tr><td>Ei</td><td>Välja lülitatud</td><td>Keegi ei saa registreerida kontot, kuid kõik saavad registreerida pöördumist.<em>Nii oli osTicket varasemas kui 1.9 versioonis</em></td></tr><tr><td>Jah</td><td>Välja lülitatud</td><td>Veebiportaalis ei saa pöördumisi registreerida</td></tr></tbody></table>
+    <span class="doc-desc-title">Registreerimise meetod</span> koos <span class="doc-desc-title">registreerimise kohustusega</span> määravad, kuidas kasutajad registreeruvad ning kasutavad kasutajatoe veebiportaali. Allolev tabel võtab kokku, kuidas süsteem neid kahte seadet tõlgendab.<table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"><tr><th>Registreerimine on kohustuslik</th><th>Registreerimismeetod</th><th>Tulemus</th></tr><tr><td>Ei</td><td>Avalik</td><td>Registreerimine on soovituslik, kuid mitte kohustuslik uutele piletitele.</td></tr><tr><td>Jah</td> <td>Avalik</td><td>Registreerimine ja sisselogimine on kohustuslik uutele piletitele</td></tr><tr><td>Ei</td><td>Isiklik</td><td>Kõik võivad registreerida pileti, kuid vaid agendid saavad luua konto</td></tr><tr><td>Jah</td><td>Isiklik</td><td>Sisenemine on vaid kutsetega</td></tr><tr><td>Ei</td><td>Keelatud</td><td>Keegi ei saa registreerida kontot, kuid kõik saavad registreerida piletit.<em>Nii oli osTicket varasemas kuni 1.9 versioonini</em></td></tr><tr><td>Jah</td><td>Keelatud</td><td>Veebiportaalis ei saa pileteid registreerida</td></tr></tbody></table>
 client_verify_email:
-  title: Nõua e-kirja kinnitust
+  title: Nõua emaili kinnitust
   content: >
-    Lülita see valik välja, kui soovid, et kasutajad saavad pöördumistele otseligipääsu "Kontrolli pöördumise staatust" lehe kaudu kliendi portaalis. Kui see valik on sisse lülitatud (mis on vaikimisi väärtus), peavad kasutajad klõpsama e-kirjas oleval lingil, et pöördumist vaadata. <br><br>E-kirja kinnituse väljalülitamine võimaldab kolmandal osapoolel (nt kaastöötajatel) pöördumise omanikuna esineda.
+    Keela see valik, kui soovid, et kasutajad saavad piletitele otseligipääsu "Kontrolli pileti staatust" lehe kaudu kliendi portaalis. Kui lubatud (mis on vaikimisi väärtus), peavad kasutajad minema emailis olevale lingile, et piletit vaadata. <br><br>Emaili kinnituse keelamine võimaldab kolmandatel pooltel (nt pileti kaastöötajatel) esineda pileti omanikuna.

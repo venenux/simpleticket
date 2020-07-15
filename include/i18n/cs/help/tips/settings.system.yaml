@@ -1,30 +1,41 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
   title: Status Helpdesku
   content: >
-    Pokud se stav změní na <span class = "doc-desc-opt"> Offline </ span>, klientské rozhraní bude zakázáno. Nemá však vliv na běžnou činnost v agentském rozhraní.
+    Pokud je stav změněn na <span class="doc-desc-opt">Mimo provoz</span>, zákaznické rozhraní bude zakázáno. Neovlivňuje však běh rozhraní pracovníka.
 helpdesk_url:
   title: URL Helpdesku
   content: >
     Tento URL odkaz je základní pro osTicket instalaci. Používá se v e-mailové komunikaci pro směrování koncových uživatelů zpět na Helpdesk.
 helpdesk_name_title:
-  title: Helpdesk jméno/název
+  title: Název systému zákaznické podpory
   content: >
-    Název zobrazení v kartě prohlížeče. Pokud je Váš help-desk v záložkách, bude tento název zobrazen jako jméno stránky.
+    Název systému, který bude zobrazován v kartě prohlížeče. Pokud bude uložen do záložek, tento název se bude zobrazovat jako název webu.
 default_department:
   title: Výchozí oddělení
   content: >
-    Vyberte výchozí <span class="doc-desc-title">oddělení</span> pro požadavky které nejsou automaticky směrovány do oddělení. <br/><br/> Požadavky mohou být směrovány na základě druhu požadavku, příchozího emailu a nastavení filtrování požadavků.
+    Vyberte výchozí <span class="doc-desc-title">oddělení</span> pro požadavky, které nejsou automaticky směrovány na oddělení. <br/><br/> Požadavky mohou být směrovány podle nastavení tématu podpory, příchozího e-mailu a filtru požadavků.
 default_page_size:
-  title: Výchozí velikost stránky
+  title: Výchozí počet záznamů na stránce
   content: >
-    Zvolte požet záznamů zobrazených na stránce ve frontách požadavků na panelu zaměstnance. Každý agent si může nastavit tento počet pro svůj vlastní účet na stránce  <span class="doc-desc-title">Mé předvolby</span>.
+    Zvolte počet záznamů zobrazených na stránce v seznamech požadavků na panelu pracovníka. Každý pracovník si může tento počet nastavit na stránce <span class="doc-desc-title">uživatelských předvoleb</span>.
 default_log_level:
-  title: Výchozí úroveň logu
+  title: Výchozí úroveň záznamů
   content: >
-    Určuje nejnižší úroveň problémů, které budou zaznamenávány do <span class="doc-desc-title">systémového logu</span>. <span class="doc-desc-opt">Debug</span> znamená nejnižší závažnost a <span class="doc-desc-opt">Error</span> znamená nejvyšší. Pokud například chcete vidět všechny problémy v <span class="doc-desc-title">systémovém logu</span>, zvolte <span class="doc-desc-opt">Debug</span>.
+    Určuje nejnižší úroveň problémů, které budou zapisovány do <span class="doc-desc-title">systémového záznamů</span>. <span class="doc-desc-opt">Debug</span> zapisuje nejnižší závažnost a <span class="doc-desc-opt">Error</span> znamená jen záznamy nejvyšší závažnosti. Pokud například chcete vidět všechny problémy v <span class="doc-desc-title">systémových záznamech</span>, zvolte <span class="doc-desc-opt">Debug</span>.
 purge_logs:
-  title: Mazání systémových záznamů logu
+  title: Mazání systémových záznamů
   content: >
     Určuje dobu, po kterou budou uchovávány <span class="doc-desc-title">systémové záznamy</span>, než budou smazány.
 default_name_formatting:
@@ -34,7 +45,8 @@ default_name_formatting:
   links:
     - 
       title: Podporované proměnné v šablonách e-mailů
-      href: 'http://osticket.com/wiki/Email_templates'
+      href: http://osticket.com/wiki/Email_templates
+#Date and time options
 date_time_options:
   title: Možnosti data a času
   content: >
@@ -42,4 +54,4 @@ date_time_options:
   links:
     - 
       title: Formátovacích znaky data v PHP
-      href: 'http://www.php.net/manual/en/function.date.php'
+      href: http://www.php.net/manual/en/function.date.php

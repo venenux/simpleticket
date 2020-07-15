@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Strona podziękowania jest wyświetlana w portalu klienta kiedy użytkownik otworzy nowe zgłoszenie poprzez portal klienta.
 name: Dziękujemy

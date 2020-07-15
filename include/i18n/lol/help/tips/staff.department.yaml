@@ -1,69 +1,80 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add New Department -> Department Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 type:
-  title: 'crwdns1921:0crwdne1921:0'
+  title: crwdns1921:0crwdne1921:0
   content: >
     crwdns1922:0crwdne1922:0
 email:
-  title: 'crwdns1923:0crwdne1923:0'
+  title: crwdns1923:0crwdne1923:0
   content: >
     crwdns1924:0crwdne1924:0
 template:
-  title: 'crwdns1925:0crwdne1925:0'
+  title: crwdns1925:0crwdne1925:0
   content: >
     crwdns1926:0crwdne1926:0
   links:
     - 
-      title: 'crwdns1927:0crwdne1927:0'
-      href: 'crwdns1928:0crwdne1928:0'
+      title: crwdns1927:0crwdne1927:0
+      href: crwdns1928:0crwdne1928:0
 sla:
-  title: 'crwdns1929:0crwdne1929:0'
+  title: crwdns1929:0crwdne1929:0
   content: >
     crwdns1930:0crwdne1930:0
   links:
     - 
-      title: 'crwdns1931:0crwdne1931:0'
-      href: 'crwdns5418:0crwdne5418:0'
+      title: crwdns1931:0crwdne1931:0
+      href: crwdns5418:0crwdne5418:0
 manager:
-  title: 'crwdns1933:0crwdne1933:0'
+  title: crwdns1933:0crwdne1933:0
   content: >
     crwdns1934:0crwdne1934:0
   links:
     - 
-      title: 'crwdns1935:0crwdne1935:0'
-      href: 'crwdns1936:0crwdne1936:0'
+      title: crwdns1935:0crwdne1935:0
+      href: crwdns1936:0crwdne1936:0
 group_membership:
-  title: 'crwdns1937:0crwdne1937:0'
+  title: crwdns1937:0crwdne1937:0
   content: >
     crwdns1938:0crwdne1938:0
   links:
     - 
-      title: 'crwdns1939:0crwdne1939:0'
-      href: 'crwdns1940:0crwdne1940:0'
+      title: crwdns1939:0crwdne1939:0
+      href: crwdns1940:0crwdne1940:0
 sandboxing:
-  title: 'crwdns1941:0crwdne1941:0'
+  title: crwdns1941:0crwdne1941:0
   content: >
     crwdns1942:0crwdne1942:0
 auto_response_settings:
-  title: 'crwdns1943:0crwdne1943:0'
+  title: crwdns1943:0crwdne1943:0
   content: >
     crwdns1944:0crwdne1944:0
 new_ticket:
-  title: 'crwdns1945:0crwdne1945:0'
+  title: crwdns1945:0crwdne1945:0
   content: >
     crwdns1946:0crwdne1946:0
 new_message:
-  title: 'crwdns1947:0crwdne1947:0'
+  title: crwdns1947:0crwdne1947:0
   content: >
     crwdns1948:0crwdne1948:0
 auto_response_email:
-  title: 'crwdns1949:0crwdne1949:0'
+  title: crwdns1949:0crwdne1949:0
   content: >
     crwdns1950:0crwdne1950:0
 department_access:
-  title: 'crwdns1951:0crwdne1951:0'
+  title: crwdns1951:0crwdne1951:0
   content: >
     crwdns1952:0crwdne1952:0
 department_signature:
-  title: 'crwdns1953:0crwdne1953:0'
+  title: crwdns1953:0crwdne1953:0
   content: >
     crwdns1954:0crwdne1954:0

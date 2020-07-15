@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   当员工为客户创建新的咨询时通知客户。这种操作一般用于在客户已经来电过的情况下。
 subject: |

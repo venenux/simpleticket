@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Diese Vorlage definiert die E-Mail, welche an die Agenten versendet wird, die den <strong>Passwort vergessen</strong>-Link der Login-Seite des Agenten-Bereichs ausgewählt haben.
 name: "osTicket Agenten-Passwort zurücksetzen"

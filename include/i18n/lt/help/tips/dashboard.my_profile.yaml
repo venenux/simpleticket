@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Kontaktai
   content: >
-    
+
 username:
   title: Vartotojo vardas
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Laiko juosta
   content: >
-    
+
 daylight_saving:
   title: Vasaros laikas
   content: >
-    
+
 maximum_page_size:
   title: Maksimalus puslapio dydis
   content: >
-    
+
 auto_refresh_rate:
   title: Automatinio atnaujinimo dažnis
   content: >
-    
+
 default_signature:
   title: Numatytasis parašas
   content: >
-    
+
 default_paper_size:
   title: Numatytasis lapo dydis
   content: >
-    
+
 show_assigned_tickets:
   title: Rodyti priskirtas užklausas
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Slaptažodis
   content: >
-    
+
 current_password:
   title: Dabartinis slaptažodis
   content: >
-    
+
 new_password:
   title: Naujas slaptažodis
   content: >
-    
+
 confirm_new_password:
   title: Pakartokite naują slaptažodį
   content: >
-    
+
 signature:
   title: Parašas
   content: >

@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Pagrindinis puslapis susisjęs su Kliento portalo pradinės peržiūros turiniu. Šablonas keičia turinį matoma iš pirmiau nurodytų dviejų nuorodų <strong> Atidaryti naują užklausą</strong>ir <strong>Patikrinti užklausos statusą</strong>.
 name: Pradinis

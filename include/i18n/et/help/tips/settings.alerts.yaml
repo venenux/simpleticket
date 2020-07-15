@@ -1,67 +1,78 @@
 ---
+#This is popup help messages for the Account Panel ->
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 page_title:
   title: Hoiatused ja teated
   content: >
-    Hoiatused ja teated on automaatsed e-kirjad, mis saadetakse agentidele, kui pöördumise juures on muudatusi.
+    Hoiatused ja teated on automaatsed emaili teavitused, mis saadetakse agentidele, kui piletiga leiavad aset erinevad sündmused.
 ticket_alert:
-  title: Teade uuest pöördumisest
+  title: Uue pileti teade
   content: >
-    <p>Hoiatus, mis saadetakse agendile uue pöördumise loomisel.</p><p class="info-banner"><i class="icon-info-sign"></i>Seda hoiatust ei saadeta, kui pöördumine on automaatselt lahendamiseks määratud pöördumiste filtri või abiteema kaudu.</p>
+    <p>Agentidele saadetav teade uue pileti loomisel.</p><p class="info-banner"><i class="icon-info-sign"></i>Seda tevitust ei saadeta, kui pilet on automaatselt suunatud piletite filtri või abiteema kaudu.</p>
   links:
     - 
-      title: Uue pöördumise hoiatuse mall vaikimisi
+      title: Uue pileti teavituse vaikemall
       href: /scp/templates.php?default_for=ticket.alert
 message_alert:
-  title: Teade uue sõnumi saabumisest
+  title: Uue sõnumi teavitus
   content: >
-    Hoiatus, mis saadetakse, kui kasutaja lisab pöördumisele uue teate.
+    Agentidele saadetav teade, kui kasutaja vastab olemasolevale piletile.
   links:
     - 
-      title: Uue teate hoiatuse mall vaikimisi
+      title: Uue sõnumi teate vaikemall
       href: /scp/templates.php?default_for=message.alert
 internal_note_alert:
-  title: Uus sisemise aktiivsuse hoiatus
+  title: Uus sisemise aktiivsuse teavitus
   content: >
-    Hoiatus, mis saadetakse agendile, kui on pöördumisele on lisatud sisemine märge või agendi teade.
+    Agentidele saadetav teade, juhul kui piletile on lisatud sisemine märkus või sellele on vastatud.
   links:
     - 
-      title: Pöördumise tegevuse mall vaikimisi
+      title: Pileti tegevuse vaikemall
       href: /scp/templates.php?default_for=note.alert
 assignment_alert:
-  title: Pöördumise määramise hoiatus
+  title: Pileti suunamise teavitus
   content: >
-    Agendile saadetakse pöördumise määramise hoiatus.
+    Agentidele saadetav teade, uue pileti suunamise kohta.
   links:
     - 
-      title: Pöördumise määramise hoiatuse mall vaikimisi
+      title: Pileti suunamise teavituse vaikemall
       href: /scp/templates.php?default_for=assigned.alert
 transfer_alert:
-  title: Pöördumise teisaldamise hoiatus
+  title: Pileti üle andmise teavitus
   content: >
-    Hoiatus, mis saadetakse agendile, kui pöördumine suunatakse teisele osakonnale.
+    Agentidele saadetav teade, kui pilet antakse üle teisele osakonnale.
   links:
     - 
-      title: Pöördumise ümbersuunamise hoiatuse mall vaikimisi
+      title: Pileti üle andmise teavituse vaikemall
       href: /scp/templates.php?default_for=transfer.alert
 overdue_alert:
-  title: Üle aja pöördumise hoiatus
+  title: Tähtaja ületanud pileti teavitus
   content: >
-    Hoiatus, mis saadetakse agentidele, kui pöördumise lähendamiseks määratud aeg on SLA või tähtaja järgi möödas.
+    Agentidele saadetav teade, kui pilet lahendamiseks määratud TTL aeg läbi saab või tähtaeg möödub.
   links:
     - 
-      title: Aegunud pöördumise hoiatuse mall vaikimisi
+      title: Aegunud pileti teavituse vaikemall
       href: /scp/templates.php?default_for=ticket.overdue
     - 
-      title: Halda SLA-sid
+      title: Halda TTL-e
       href: /scp/slas.php
 system_alerts:
   title: Süsteemi hoiatused
   content: >
-    Oluline süsteemi sündmus, mille kohta saadetakse teade administraatorile (%{config.admin_email}). Sõltuvalt <span class="doc-desc-title">logi taseme</span> seadistusest, on sündmused kättesaadavad ka <span class="doc-desc-title">süsteemi logides</span>
+    Oluline süsteemi sündmus, mille kohta saadetakse teade administraatorile (%{config.admin_email}). Sõltuvalt <span class="doc-desc-title">logi taseme</span> konfiguratsioonist, on sündmused kättesaadavad ka <span class="doc-desc-title">süsteemi logides</span>
   links:
     - 
       title: Vaata süsteemi logisid
       href: /scp/logs.php
     - 
-      title: Muuda administraatori e-posti aadressi
+      title: Muuda administraatori emaili
       href: /scp/settings.php?t=emails

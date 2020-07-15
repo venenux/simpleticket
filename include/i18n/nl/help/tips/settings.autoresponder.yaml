@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Autoresponder
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket:
   title: Nieuw ticket
   content: >
@@ -10,7 +21,7 @@ new_ticket:
 new_ticket_by_staff:
   title: Nieuw ticket van Staff
   content: >
-    Het bericht dat namens de gebruiker gestuurd wordt als een ticket wordt aangemaakt<em>Een agent kan dit overrulen bij het maken van nieuwe tickets</em>
+    Het bericht dat namens de gebruiker gestuurd wordt als een ticket wordt aangemaakt<em> Een agent kan dit overrulen bij het maken van nieuwe tickets</em>
   links:
     - 
       title: Nieuw ticket berichtlayout
@@ -21,7 +32,7 @@ new_message_for_submitter:
     Bevestigingsmelding verzonden wanneer een nieuw bericht is toegevoegd aan een bestaand ticket.
   links:
     - 
-      title: Nieuw bevestigingsbericht template
+      title: Nieuw bevestigingsbericht sjabloon
       href: /scp/templates.php?default_for=message.autoresp
 new_message_for_participants:
   title: Nieuw bericht melding

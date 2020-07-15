@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Predložak definira email koji će biti poslan klijentu kada klikne na <strong>Zaboravljena zaporka</strong> link na stranici za klijente.
 name: "%{company.name} pristup centru za podršku"

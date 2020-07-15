@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   ពុម្ពនេះកំណត់អ៊ីម៉ែលដែលបានផ្ញើទៅបុគ្គលិកដែលបានជ្រើស <strong> ភ្លេចពាក្យសម្ងាត់របស់ខ្ញុំ </ strong> តំណនៅលើផ្ទាំងការត្រួតពិនិត្យបុគ្គលិកចូលនៅក្នុងទំព័រ។
 name: "osTicket ពាក្យសម្ងាត់កំណត់ឡើងវិញបុគ្គលិក"

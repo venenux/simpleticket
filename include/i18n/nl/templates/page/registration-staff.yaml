@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Dit sjabloon is voor de eerste e-mail(optioneel) die verzonden wordt naar het personeelslid als er een account op zijn naam wordt aangemaakt.
 name: "Welkom bij osTicket"

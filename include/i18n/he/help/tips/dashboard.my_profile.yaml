@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: פרטי התקשרות
   content: >
-    
+
 username:
   title: שם משתמש
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: אזור זמן
   content: >
-    
+
 daylight_saving:
   title: שעון קיץ
   content: >
-    
+
 maximum_page_size:
   title: גודל דף מקסימלי
   content: >
-    
+
 auto_refresh_rate:
   title: קצב רענון אוטומטי
   content: >
-    
+
 default_signature:
   title: חתימת ברירת מחדל
   content: >
-    
+
 default_paper_size:
   title: גודל נייר ברירת מחדל
   content: >
-    
+
 show_assigned_tickets:
   title: הצג קריאות פעילות
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: סיסמה
   content: >
-    
+
 current_password:
   title: הסיסמה הנוכחית
   content: >
-    
+
 new_password:
   title: סיסמה חדשה
   content: >
-    
+
 confirm_new_password:
   title: אשר סיסמא חדשה
   content: >
-    
+
 signature:
   title: חתימה
   content: >

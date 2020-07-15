@@ -1,20 +1,31 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Help Topic
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 help_topic_information:
   title: Abiteema info
   content: >
-    <span class="doc-desc-title">Abiteemad</span> juhendavad, millist infot kasutajalt kogutakse ja kuidas pöördumisi suunatakse või lahendamiseks määratakse.
+    <span class="doc-desc-title">Abiteemad</span> juhendavad, millist infot kasutajatelt kogutakse, ja kuidas piletid liiguvad või suunatakse.
 topic:
-  title: Teema nimi
+  title: Pealkirja nimi
   content: >
     Unikaalne abiteema nimi.
 status:
   title: Staatus
   content: >
-    Kui välja lülitatud, siis <span class="doc-desc-title">abiteemad</span> pole kättesaadavad.
+    Kui keelatud, siis <span class="doc-desc-title">abiteema</span> pole kättesaadav.
 type:
   title: Tüüp
   content: >
-    Kui <span class="doc-desc-title">abiteema</span> on märgitud privaatseks, siis on see kättesaadav vaid agentidele, kui nad avavad uue pöördumise meeskonna menüüs.
+    Kui <span class="doc-desc-title">abiteema</span> on märgitud privaatseks, siis on see kättesaadav vaid agentidele, kui nad avavad uue pileti töötajate juhtpaneelil.
 parent_topic:
   title: Peateema
   content: >
@@ -30,48 +41,48 @@ custom_form:
 priority:
   title: Tähtsus
   content: >
-    Vali prioriteet, mis määratakse selle <span class="doc-desc-title">abiteemaga</span> seotud pöördumistele.<br><br> Pöördumiste filter võib uue pöördumise prioriteeti muuta.
+    Vali, milline prioriteedi tase määratakse <span class="doc-desc-title">abiteemaga</span> avatud piletitele.<br><br> Piletite filter saab selle ülekirjutada.
 department:
   title: Osakond
   content: >
-    Vali osakond, millele selle abiteema all olevad pöördumised määratakse.
+    Vali osakond, millele selle abiteema all olevad piletid määratakse.
   links:
     - 
       title: Halda osakondi
       href: /scp/departments.php
 sla_plan:
-  title: Teenustaseme leping (SLA)
+  title: TTL plaan
   content: >
-    Vali SLA, mis on seotud selle <span class="doc-desc-title">abiteemaga</span>. <br><br> See valik muudab ükskõik millise valitud osakonna SLA
+    Vali TTL plaan, mis on seotud selle <span class="doc-desc-title">abiteemaga</span>. <br><br> See valik kirjutab üle ükskõik millise valitud osakonna TTL-i
   links:
     - 
-      title: Halda SLA-sid
+      title: Halda TTL plaane
       href: /scp/slas.php
 thank_you_page:
   title: Tänu lehekülg
   content: >
-    Vali tänu lehekülg, millele kasutaja suunatakse peale selle <span class="doc-desc-title">abiteema</span> alt pöördumise saatmist.
+    Vali tänu lehekülg, kuhu kasutaja suunatakse peale selle <span class="doc-desc-title">abiteema</span> alt pileti registreerimist.
   links:
     - 
       title: Halda tänu lehekülgi
       href: /scp/pages.php
 auto_assign_to:
-  title: Uute pöördumiste automaatne lahendamiseks määramine
+  title: Suuna automaatselt uued piletid
   content: >
-    Soovi korral vali agent või meeskond, kellele pöördumine määratakse, kui see on saadetud selle <span class="doc-desc-title">abiteema</span> alt. <br><br> Pöördumiste filter saab seda muuta.
+    Vali agent või meeskond, kellele automaatselt suunatakse edasi <span class="doc-desc-title">abiteema</span> poolt avatud piletid. <br><br> Piletite filter saab selle ülekirjutada.
   links:
     - 
       title: Halda töötajaid ja meeskondi
       href: /scp/staff.php
 ticket_auto_response:
-  title: Pöördumise automaatvastus
+  title: Pileti automaatvastus
   content: >
-    Kui märgistatud, siis seadistus lülitab välja selle <span class="doc-desc-title">abiteema</span> pöördumise automaatvastused.<br><br> See kirjutab üle nii <span class="doc-desc-title">osakonna</span>, kui ka üldised <span class="doc-desc-title">automaatvastuste seaded</span>.
+    Kui märgistatud, siis seadistus keelab selle <span class="doc-desc-title">abiteema</span> pietite automaatvastused.<br><br> See kirjutab üle nii <span class="doc-desc-title">osakonna</span>, kui ka üldised <span class="doc-desc-title">automaatvastuste seaded</span>.
   links:
     - 
       title: Automaatvastaja seaded
       href: /scp/settings.php?t=autoresp
 custom_numbers:
-  title: Kohandatud pöördumiste nummerdamine
+  title: Kohandatud piletite nummerdamine
   content: >
-    Vali "kohandatud", et üle kirjutada süsteemi poolt vaikimisi antava abiteema pöördumise järjekorranumbri vorming. Lisainfot selle seadistuse kohta vaata Seaded/Pöördumised lehelt.
+    Vali "kohandatud", et kirjutada üle süsteemi poolt vaikimisi abiteema poolt loodud piletite numbri vorming. Vaata lisainfot selle seadistuse seaded / piletid lehelt.

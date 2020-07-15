@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   ពុម្ពគំរូនេះកំណត់មាតិកាអ៊ីមែលដែលនឹងផ្ញើទៅអតិថិជនដែលបានជ្រើស <strong> ភ្លេចពាក្យសម្ងាត់របស់ខ្ញុំ </strong> តំណ link នៅលើទំព័រម៉ាស៊ីនភ្ញៀវចូល Client Log In page ។
 name: "%{company.name} Help Desk Access"

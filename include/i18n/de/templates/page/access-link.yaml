@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Diese Vorlage definiert die Benachrichtigung für Benutzer, die einen Zugangslink an ihre E-Mail-Adresse gesendet bekommen haben. Mit Hilfe der Ticketnummer und E-Mail-Adresse wird der Zugangslink erzeugt.
 name: "Ticket [#%{ticket.number}] Zugangslink"

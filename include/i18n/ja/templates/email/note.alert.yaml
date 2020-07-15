@@ -1,7 +1,13 @@
 ---
-notes: 内部ノートの更新やエージェントに返信があった際にエージェントへアラートが送信されます。
-subject: 新着内部アクティビティアラート
-body: |2
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
+notes: |
+  内部ノートの更新やエージェントに返信があった際にエージェントへアラートが送信されます。
+subject: |
+  新着内部アクティビティアラート
+body: |
   <h3><strong>%{recipient.name}様</strong></h3>
   チケット<a href="%{ticket.staff_link}">#%{ticket.number}</a>にエージェントのアクティビティが記録されました
   <br>

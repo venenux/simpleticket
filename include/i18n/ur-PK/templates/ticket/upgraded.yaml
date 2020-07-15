@@ -1,0 +1,25 @@
+---
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: جال #notrans
+name: osTicket سپورٹ
+email: support@osticket.com
+subject: osTicket اپ گریڈیڈ!
+message: |
+  <p>
+   کامیابی سے اپ گریڈ ہو گیا! براہ کرم تبدیلیوں اور نئی خصوصیات  کے بارے میں مزید معلومات کے لئے ریلیز نوٹسز (http://osticket.com/wiki/Release_Notes) دیکھیں۔
+  </p><p>
+  اس بات کو یقینی بنائیں کہ آپ ہمارے <a href="http://osticket.com/forums">osTicket
+  انجمن</a> اور ہمارے <a href="http://osticket.com/updates">مراسلات کی فہرست</a> سے جڑے رہیں اور جانتے رہیں اعلانات، حفاظتی ترقی اور انتباہات کے بارے میں! osTicket کمیونٹی میں آپ کے تعاون کی تعریف کی جائے گی!
+  </p><p>
+  osTicket ٹیم ہمارے مفت آن لائن وسائل اور تجارتی معاونت پیکجوں اور خدمات کی مکمل رینج کے ذریعہ تمام صارفین کو مدد فراہم کرنے کے لئے کوشاں ہے. مزید معلومات کے لئے، یا اپنی ضروریات پر تبادلہ خیال کرنے کے لئے، آج ہی ہم سے رابطہ کریں http://osticket.com/support/. کسی بھی رائے کی تعریف کی جائے گی!
+  </p> <p>
+    اگر اس osTicket کی تنصیب کا انتظام اور اپ گریڈ کرنا مشکل ہے، تو آپ http://supportsystem.com/ پر میزبانی کی خدمات کے طور پر osTicket کو دیکھ سکتے ہیں - کبھی اپ گریڈ نہیں کرنے کی ضرورت، اور ہم آپ کے ڈیٹا درآمد کر سکتے ہیں! سپورٹ سسٹم کے بنیادی ڈھانچے کے ساتھ، آپ osTicket کو بہترین طور پر حاصل کرتے ہیں تاکہ آپ  آزادانہ طور پر اپنے گاہکوں پر توجہ مرکوز کر سکیں اور اس کی فکر چھوڑ دیں کہ سسٹم مستحکم، برقرار اور محفوظ ہے یا نہیں.
+  </p><p>
+  -<br/>
+  osTicket ٹیم<br/>
+  http://osticket.com/
+  </p>

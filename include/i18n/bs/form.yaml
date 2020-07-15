@@ -44,10 +44,10 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Detalji Kartice
   instructions: Molimo vas da opišete svoj problem
-  notes: |2
+  notes: |
     Ovaj obrazac će biti dodan svakoj kartici, bez obzirna na izvor.
     Možete dodati bilo kakvo polje na ovaj obrazac i ono će biti dostupno svim karticama
      i biti će pretraživi sa naprednim traženjem i može se filtrirati.
@@ -55,8 +55,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Kratak pregled problema
       required: true
       edit_mask: 15
@@ -66,8 +66,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Detalji problema
       hint: Detalji o razloga otvaranja kartice.
       required: true
@@ -75,22 +75,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Priority Level
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Informacije o Kompaniji
   instructions: Detalji dopušteni u email šablonima
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Ime Kompanije
       required: true
       sort: 1
@@ -99,23 +99,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Web-sajt
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Phone Number
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Adresa
       required: false
@@ -126,14 +126,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Informacija o uređenju
   instructions: Detalji o korisničkom uređenju
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Ime
       required: true
       sort: 1
@@ -168,7 +168,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Internal Notes
       required: false

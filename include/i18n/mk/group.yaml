@@ -20,7 +20,8 @@
 - 
   isactive: 1
   name: Шетачи на слонови
-  notes: Супервизори
+  notes: |
+    Супервизори
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -38,7 +39,8 @@
 - 
   isactive: 1
   name: Тренери на бувови
-  notes: Членови од ниско ниво
+  notes: |
+    Членови од ниско ниво
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   زمانی برای کارشناس ارسال می شود که پیام جدیدی توسط یک کاربر برای یک درخواست موجود ارسال شده باشد. این اتفاق هنگامی  رخ می دهد که  کاربران به ایمیلی که از سیستم پشتیبانی دریافت نموده پاسخ دهد یا با مراجعه به پایگاه وب سامانه پشتیبانی و ورود به حساب کاربری خود پیام جدیدی را در دنباله یکی از درخواست های خود ارسال نموده باشد.
 subject: |
   هشدار پیام جدید
-body: |2
+body: |
   <h3><strong>سلام  %{recipient},</strong></h3>
   یک پیام جدید به دنباله درخواست اضافه شده است 
    <a

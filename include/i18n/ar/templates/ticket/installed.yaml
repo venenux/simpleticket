@@ -1,9 +1,14 @@
 ---
-deptId: 1
-topicId: 1
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
 name: دعم osTicket
 email: support@osticket.com
-source: الويب
+source: الويب #notrans
 subject: تم تنصيب osTicket!
 message: |
   <p>

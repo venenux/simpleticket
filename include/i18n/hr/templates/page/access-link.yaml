@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Ovaj predložak definira obavijest za klijente da je pristupni link poslan na njihovu email adresu. Broj kartice i e-mail adresa aktiviraju pristupnu vezu .
 name: "Kartica [#%{ticket.number}] pristupni link"

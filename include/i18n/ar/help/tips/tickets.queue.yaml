@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: حقل بحث
   content: >
-    
+
 advanced:
   title: متقدم
   content: >
@@ -14,27 +25,27 @@ open_tickets_table:
 ticket:
   title: التذكرة
   content: >
-    
+
 date:
   title: التاريخ
   content: >
-    
+
 subject:
   title: الموضوع
   content: >
-    
+
 from:
   title: من
   content: >
-    
+
 priority:
   title: الأولوية
   content: >
-    
+
 assigned_to:
   title: تم إسنادها إلى
   content: >
-    
+
 export:
   title: تصدير
   content: >
@@ -42,7 +53,7 @@ export:
 advanced_search_dialog:
   title: بحث متقدم
   content: >
-    
+
 adv_keyword:
   title: البحث عن الكلمات المفتاحية
   content: >

@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Notificare trimisa colaboratorilor cand este activitate legata de tichet (ex: raspuns sau mesaj).
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Salut %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> a inregistrat un mesaj asociat tichetului in care participi.

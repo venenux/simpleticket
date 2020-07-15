@@ -1,7 +1,12 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
-  
+
 subject: |
-  Ticket #%{ticket.number} overdragen - %{ticket.dept.name}
+  Ticket #%{ticket.number} overdragen - %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
 body: |
   <h3>Beste %{recipient},</h3> Ticket <a href="%{ticket.staff_link}"> #%{ticket.number}</a> is overgedragen aan de afdeling %{ticket.dept.name} door <strong>%{staff.name.short}</strong> <br><br><blockquote>%{comments}</blockquote> <hr><div>Om dit ticket bekijken of om er op te reageren, moet u eerst <a href="%{ticket.staff_link}">inloggen</a> in het Support Ticket systeem.</div> <em style="font-size: small;"> Uw vriendelijke Support Ticket systeem</em> <br><a href="http://osticket.com/"> <img width="126" height="19" alt="Powered By osTicket" style="width: 126px;" src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

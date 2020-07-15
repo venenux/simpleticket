@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Tiek nosūtīts atbalsta grupas darbiniekam, kad pieteikums sistēmā tiek atzīmēts ar beigušos derīguma termiņu. Pieteikuma derīguma termiņa beigas tiek norādītas pieteikumā kā pēdējais vēlamais darba izpildes datums, kā arī SLA definīcija attiecīgā tipa biļetei.
 subject: |
   Stale Ticket Alert
-body: |2
+body: |
   <h3><strong>Hi %{recipient.name}</strong>,</h3>
   A ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> is
   seriously overdue.

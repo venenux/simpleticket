@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Αυτό το πρότυπο ορίζει το email που αποστέλλεται στο προσωπικό που επιλέγει τον σύνδεσμο <strong>Αλλαγή Κωδικού</strong> στη σελίδα Σύνδεσης Προσωπικού.
 name: "Αλλαγή Κωδικού Πρόσβασης Προσωπικού osTicket"

@@ -1,8 +1,8 @@
 ---
 - 
   isactive: 1
-  name: Lion Tamers
-  notes: "System overlords. These folks (initially) have full control to all the\ndepartments they have access to."
+  name: Singa tamer
+  notes: Sistem terlebih muatan. Orang-orang ini (pada awalnya) mempunyai kawalan penuh terhadap semua jabatan yang mereka dapat akses.
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -19,9 +19,9 @@
     - 3
 - 
   isactive: 1
-  name: Elephant Walkers
+  name: Pejalan kaki gajah
   notes: |
-    Inhabitants of the ivory tower
+    Penduduk menara gading
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -38,9 +38,9 @@
     - 3
 - 
   isactive: 1
-  name: Flea Trainers
+  name: Jurulatih lambak
   notes: |
-    Lowly staff members
+    Ahli kakitangan bawahan
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

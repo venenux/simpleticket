@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Denna mall anger innehållet i e-postmeddelandet som skickas till kunden när dennes konto har skapats i kund-portalen eller för deras räkning av någon i supportpersonalen. E-postmeddelandet är en e-postverifiering. Vänligen använd %{link} någonstans i meddelandetexten.
 name: "Välkommen till %{company.name}"

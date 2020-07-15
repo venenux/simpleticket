@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Kennisgeving die naar deelnemers gestuurd wordt bij ticket activiteit, bijv. een reactie of bericht.
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Beste %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> Heeft zojuist een bericht toegevoegd aan een ticket waar u aan deelneemt.

@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   ផ្ញើទៅឱ្យអ្នកប្រើនៅពេលដែលការឆ្លើយតបដោយស្វ័យប្រវត្តិ canned respond ត្រូវបានបង្ហោះទៅសំបុត្រ ticket ពេលវា ត្រូវបានបង្កើត។ អថេរអាចប្រើបានសម្រាប់ការជំនួស: %{ticket.*}, %{response}
 subject: |

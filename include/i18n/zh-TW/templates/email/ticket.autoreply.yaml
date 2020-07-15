@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   當事件建立及公告後即傳送客戶罐頭訊息回覆。
-  
+
   可使用參數：%{ticket.*}, %{response}
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Nou Ticket de tema d'ajuda
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Usuari
   content: >
-    
+
 password:
   title: Contrasenya
   content: >
-    
+
 login_information:
   title: Informació d'accés al Email
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Permeten Spoofing la capçalera
   content: >
     Permetre això permetre enviar correus electrònics a través d'aquesta casella de correu d'una adreça altres que el que s'atorga en el marc <span class="doc-desc-title"> d'Adreça d'E-mail</span> anterior. <br/> <br/> Avançats entorn generalment s'aplica quan enviant correu d'àlies d'aquesta casella de correu.
+

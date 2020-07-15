@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Este trimis la membrii echipei atunci cand un nou tichet este creat in sistem. Se aplica tichetelor create prin email, de pe pagina web a sistemului, sau prin API.
 subject: |
   Alerta Tichet Nou
-body: |2
+body: |
   <h2>Buna %{recipient.name},</h2>
   Un nou tichet #%{ticket.number} creat
   <br>

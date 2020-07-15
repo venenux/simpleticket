@@ -1,10 +1,21 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Help Topic
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 help_topic_information:
   title: Informácie k predmetu tiketu (nápovedy)
   content: >
     Sprievodca  <span class="doc-desc-title"> predmetom tiketov </span> aké informácie sú získavané od užívateľov a ako sú tikety smerované a priraďované.
 topic:
-  title: Názov predmetu
+  title: Názov témy
   content: >
     Jednoznačné meno pre predmet tiketu.
 status:

@@ -1,4 +1,11 @@
 ---
+#Help popup items for the installer
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_name:
   title: 客服中心名稱
   content: |
@@ -14,7 +21,7 @@ default_lang:
   links:
     - 
       title: osTicket 語言包
-      href: 'http://osticket.com/download?product=langs'
+      href: http://osticket.com/download?product=langs
 first_name:
   title: 名
   content: |
@@ -43,7 +50,7 @@ db_prefix:
   title: MySql資料表前綴
   content: |
     <p> osTicket 需要資料表前綴以避免使用分享資料庫時產生衝突 。</p>
-    
+
 db_host:
   title: MySQL 主機名稱
   content: |

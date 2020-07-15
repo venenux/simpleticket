@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Naujos užklausos tema
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Vartotojo vardas
   content: >
-    
+
 password:
   title: Slaptažodis
   content: >
-    
+
 login_information:
   title: Elektroninio pašto prisijungimo informacija
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Leisti antraštės apsimetimą kitu
   content: >
     Įgalinkite šią parinktį, kad būtų leidžiama siųsti  elektroninius laiškus per šią pašto dėžutę iš  kito adreso, negu nurodyta<span class="doc-desc-title"> El.pašto adreso</span> nustatyme aukščiau.<br/><br/> Šis papildomas nustatymas paprastai naudojamas, kuomet laiškas siunčiamas iš pašto dežutės alternatyvių vardų.
+

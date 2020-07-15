@@ -1,13 +1,24 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> SLA Plan
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 name:
-  title: 'crwdns1845:0crwdne1845:0'
+  title: crwdns1845:0crwdne1845:0
   content: >
     crwdns1846:0crwdne1846:0
 grace_period:
-  title: 'crwdns1847:0crwdne1847:0'
+  title: crwdns1847:0crwdne1847:0
   content: >
     crwdns1848:0crwdne1848:0
 transient:
-  title: 'crwdns1849:0crwdne1849:0'
+  title: crwdns1849:0crwdne1849:0
   content: >
     crwdns1850:0crwdne1850:0

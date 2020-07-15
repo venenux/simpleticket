@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Táto šablóna definuje email zaslaný klientovi keď bude vytvorený jeho účet na klientskom portály alebo agentom. Tento email obsahuje verifikáciu emailovej adresy. Prosím, použite  %{link} niekde v tele správy.
 name: "Vitajte v %{company.name}"

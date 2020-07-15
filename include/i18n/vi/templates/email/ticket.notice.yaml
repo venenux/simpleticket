@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Gửi đến một người dùng khi một nhân viên thay mặt người dùng tạo ra một yêu cầu. Trường hợp này thường được thực hiện khi người dùng gọi điện thoại đến nhân viên.
 subject: |

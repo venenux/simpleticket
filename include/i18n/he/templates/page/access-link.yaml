@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   תבנית זו מגדירה את ההודעה למשתמשים שקבלו קישור לכתובת הדואר האלקטרוני שלהם. מספר פניה וכתובת דוא"ל מפעילים את משלוח הקישור.
 name: "כרטיס [#%{ticket.number}] קישור כניסה"

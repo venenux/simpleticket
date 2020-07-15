@@ -1,4 +1,11 @@
 ---
+#Help popup items for the installer
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_name:
   title: Tên bộ phận trợ giúp
   content: |
@@ -14,7 +21,7 @@ default_lang:
   links:
     - 
       title: Các gói ngôn ngữ khác của os Ticket
-      href: 'http://osticket.com/download?product=langs'
+      href: http://osticket.com/download?product=langs
 first_name:
   title: Họ
   content: |

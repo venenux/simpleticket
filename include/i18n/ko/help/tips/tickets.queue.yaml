@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: 검색 필드
   content: >
-    
+
 advanced:
   title: 고급
   content: >
@@ -14,27 +25,27 @@ open_tickets_table:
 ticket:
   title: 티켓
   content: >
-    
+
 date:
   title: 날짜
   content: >
-    
+
 subject:
   title: 제목
   content: >
-    
+
 from:
   title: 발신자
   content: >
-    
+
 priority:
   title: 우선순위
   content: >
-    
+
 assigned_to:
   title: 할당
   content: >
-    
+
 export:
   title: 내보내기
   content: >
@@ -42,7 +53,7 @@ export:
 advanced_search_dialog:
   title: 고급 검색
   content: >
-    
+
 adv_keyword:
   title: 키워드 검색
   content: >

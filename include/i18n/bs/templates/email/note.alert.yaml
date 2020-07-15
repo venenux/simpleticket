@@ -1,6 +1,12 @@
 ---
-notes: Upozorenje će biti poslano kada unutarnja aktivnost kao što je unutarnja poruka ili agentov odgovor bude dodan na karticu.
-subject: New Internal Activity Alert
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
+notes: |
+  Upozorenje će biti poslano kada unutarnja aktivnost kao što je unutarnja poruka ili agentov odgovor bude dodan na karticu.
+subject: |
+  New Internal Activity Alert
 body: |
   <h3><strong>Zdravo %{recipient.name},</strong></h3>
   Agentova bilješka je dodana na karticu <a

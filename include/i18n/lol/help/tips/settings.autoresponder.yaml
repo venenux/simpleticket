@@ -1,44 +1,55 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Autoresponder
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket:
-  title: 'crwdns997:0crwdne997:0'
+  title: crwdns997:0crwdne997:0
   content: >
     crwdns998:0crwdne998:0
   links:
     - 
-      title: 'crwdns999:0crwdne999:0'
-      href: 'crwdns667:0crwdne667:0'
+      title: crwdns999:0crwdne999:0
+      href: crwdns667:0crwdne667:0
 new_ticket_by_staff:
-  title: 'crwdns1000:0crwdne1000:0'
+  title: crwdns1000:0crwdne1000:0
   content: >
     crwdns1001:0crwdne1001:0
   links:
     - 
-      title: 'crwdns1002:0crwdne1002:0'
-      href: 'crwdns1003:0crwdne1003:0'
+      title: crwdns1002:0crwdne1002:0
+      href: crwdns1003:0crwdne1003:0
 new_message_for_submitter:
-  title: 'crwdns1004:0crwdne1004:0'
+  title: crwdns1004:0crwdne1004:0
   content: >
     crwdns1005:0crwdne1005:0
   links:
     - 
-      title: 'crwdns1006:0crwdne1006:0'
-      href: 'crwdns1007:0crwdne1007:0'
+      title: crwdns1006:0crwdne1006:0
+      href: crwdns1007:0crwdne1007:0
 new_message_for_participants:
-  title: 'crwdns1008:0crwdne1008:0'
+  title: crwdns1008:0crwdne1008:0
   content: >
     crwdns1009:0crwdne1009:0
   links:
     - 
-      title: 'crwdns1010:0crwdne1010:0'
-      href: 'crwdns1011:0crwdne1011:0'
+      title: crwdns1010:0crwdne1010:0
+      href: crwdns1011:0crwdne1011:0
 overlimit_notice:
-  title: 'crwdns676:0crwdne676:0'
+  title: crwdns676:0crwdne676:0
   content: >
     crwdns1012:0crwdne1012:0
   links:
     - 
-      title: 'crwdns1013:0crwdne1013:0'
-      href: 'crwdns679:0crwdne679:0'
+      title: crwdns1013:0crwdne1013:0
+      href: crwdns679:0crwdne679:0
     - 
-      title: 'crwdns1014:0crwdne1014:0'
-      href: 'crwdns1015:0crwdne1015:0'
+      title: crwdns1014:0crwdne1014:0
+      href: crwdns1015:0crwdne1015:0

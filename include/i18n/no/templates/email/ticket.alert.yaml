@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Sendt til en medarbeider når en ny sak opprettes i systemet. Dette gjelder saker opprettet via e-post, kundeportalen eller via API.
 subject: |
   Nytt sak varsel
-body: |2
+body: |
   <h2>Hei %{recipient},</h2>
   Ny sak #%{ticket.number} er laget
   <br>

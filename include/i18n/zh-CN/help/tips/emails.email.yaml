@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: 新咨询帮助主题
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: 用户名
   content: >
-    
+
 password:
   title: 密码
   content: >
-    
+
 login_information:
   title: 电子邮件登录信息
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: 允许标题欺骗
   content: >
     启用此功能，即可允许邮箱通过与上述<span class="doc-desc-title">电子邮件地址</span>设置给出的不同地址发送电子邮件。<br/><br/>从此邮箱别名发送电子邮件时通常使用此高级设置。
+

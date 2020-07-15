@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Этот шаблон определяет первоначальное письмо (необязательное), отправляемое агентам, при создании учётной записи от их имени.
 name: "Добро пожаловать в osTicket"

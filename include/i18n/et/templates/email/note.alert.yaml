@@ -1,11 +1,15 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
-  Agentidele saadetakse teade, kui pöördumisele on lisatud märkus või vastus.
+  Agentidele saadetav teade, kui piletile on lisatud sisemine märkus või agent on vastanud piletile.
 subject: |
-  Uus sisemise aktiivsuse hoiatus
+  Uus sisemise aktiivsuse teavitus
 body: |
-  <h3><strong>Tere, %{recipient.name}!</strong></h3>
-  Agent on loginud tegevust <a
+  <h3><strong>Tere %{recipient.name}!</strong></h3>
+  Agent on loginud tegevust piletile <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>
   <br>
@@ -34,11 +38,11 @@ body: |
   <br>
   <br>
   <hr>
-  Selleks, et vaadata/vstata <a
-  href="%{ticket.staff_link}">logi sisse</a> kastajatoe süsteemi
+  Pileti vaatamiseks/vastamiseks, palun <a
+  href="%{ticket.staff_link}">logi sisse</a> piletite haldussüsteem
   <br>
   <br>
-  <em style="font-size: small; ">Sinu sõbralik klienditugi</em>
+  <em style="font-size: small; ">Sinu sõbralik kasutajatugi</em>
   <br>
   <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
   alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,77 +1,88 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Emails
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 default_email_templates:
-  title: E-kirja mallide komplekt vaikimisi
+  title: Emaili mallide vaikekogum
   content: >
-    Vali <span class="doc-desc-title">e-kirja mallide komplekt</span>, mida kasutatakse <span class="doc-desc-title">automaatvastuste</span> ja <span class="doc-desc-title">hoiatuste</span> saatmiseks pöördumise eluea jooksul. <br><br> Osakondadele saab määrata spetsiifilisi e-kirja mallide komplekte.
+    Vali <span class="doc-desc-title">emaili mallide komplekt</span>, mida kasutatakse <span class="doc-desc-title">automaatvastuste</span> ja <span class="doc-desc-title">teavituste</span> saatmiseks erinevate toimingute puhul pileti eluea jooksul. <br><br> Osakondadele saab määrata spetsiifilisi emaili mallide kogumeid.
   links:
     - 
-      title: Halda e-kirja mallide komplekte
+      title: Halda emaili mallide kogumeid
       href: /scp/templates.php
 default_system_email:
-  title: Väljaminev e-kiri vaikimisi
+  title: Väljamineva emaili vaikeaadress
   content: >
-    Vali e-posti aadress, millelt e-kirjad saadetakse. <br><br><span class="doc-desc-title">Osakond</span> saab määrata oma <span class="doc-desc-title">e-posti aadressi</span>, mis kirjutab siinoleva üle.
+    Vali emaili aadress, millelt väljaminevad emailid saadetakse. <br><br><span class="doc-desc-title">Osakond</span> saab määrata oma <span class="doc-desc-title">emaili aadressi</span>, mis kirjutab siinoleva üle.
   links:
     - 
-      title: Halda e-posti aadresse
+      title: Halda emaili aadresse
       href: /scp/emails.php
 default_alert_email:
-  title: Hoiatuse e-kiri vaikimisi
+  title: Hoiatuse vaike-email
   content: >
-    Vali e-posti aadress, millelt agentidele <span class="doc-desc-title">hoiatusi ja teateid</span> saadetakse.
+    Vali emaili aadress, millelt agentidele <span class="doc-desc-title">hoiatusi ja teateid</span> saadetakse.
   links:
     - 
-      title: Halda e-posti aadresse
+      title: Halda emaili aadresse
       href: /scp/emails.php
 admins_email_address:
-  title: Administraatori e-posti aadress
+  title: Administraatori emaili aadress
   content: >
-    Sisesta administraatori e-posti aadress, millele <span class="doc-desc-title">süsteemi vigu</span> ja <span class="doc-desc-title">uue pöördumise hoiatusi</span> (kui on aktiveeritud) saadetakse.
+    Sisesta administraatori emaili aadress, millele <span class="doc-desc-title">süsteemi vigu</span> ja <span class="doc-desc-title">uue pileti teavitusi</span> (kui on lubatud) saadetakse.
   links:
     - 
       title: Halda hoiatusi ja teateid
       href: /scp/settings.php?t=alerts
 email_fetching:
-  title: E-kirjade allalaadimine
+  title: Emaili allalaadimine
   content: >
-    Luba IMAP/POP pollimine konfigureeritud ja aktiivsetele <span class="doc-desc-title">postkastidele</span>.
+    Luba IMAP/POP pollimine konfigureeritud ja lubatud <span class="doc-desc-title">postkastidele</span>.
   links:
     - 
       title: Halda postkaste
       href: /scp/emails.php
 enable_autocron_fetch:
-  title: Tõmba e-kirjad alla kasutades automaatset ajastamist (Auto-cron)
+  title: Tõmba emailid alla Auto-cron-ga
   content: >
-    Võimaldab perioodilist e-kirjade allalaadimist kasutades sisemist ülesannete haldurit, mida aktiveerib agendi tegevus.<br><br> Tähelepanu! Kui keegi pole meeskonna menüüsse sisse loginud, siis e-kirju alla ei laeta. Soovitatav on kasutada välist ülesannete haldurit e-kirjade allalaadimise intervalli määramiseks.
+    Võimaldab perioodilist eemailide allalaadimist kasutades sisemist ülesannete haldurit, mida aktiveerib agendi tegevus.<br><br> Tähelepanu! Kui keegi pole meeskonna menüüsse sisse loginud, siis emaile alla ei laeta. Soovitatav on kasutada välist ülesannete haldurit emailide allalaadimise intervalli määramiseks.
   links:
     - 
-      title: Kasutusel on väline ülesannete ajastaja
-      href: 'http://osticket.com/wiki/POP3/IMAP_Setting_Guide'
+      title: Kasuta välist ülesannete ajastajat
+      href: http://osticket.com/wiki/POP3/IMAP_Setting_Guide
 strip_quoted_reply:
-  title: Esialgse sõnumi vastus
+  title: Eemalda tsiteeritud vastus
   content: >
-    Kui aktiivne, siis see eemaldab kirjavahetusest eelneva kirjavahetuse. <br><br> See seade sõltub <span class="doc-desc-title">vastuse eraldusmärgist</span> allpool.
+    Kui on lubatud, siis see eemaldab kirjavahetusest eelneva kirjavahetuse. <br><br> See seade sõltub <span class="doc-desc-title">vastuse eraldusmärgist</span> allpool.
 reply_separator_tag:
   title: Vastuse eraldusmärk
   content: >
-    See on märk, mis näitab kasutajale, et vastus tuleb kirjutada sellest ülespoole.<br><br><strong>Märkus.</strong> See kehtib vaid juhul, kui <span class="doc-desc-title">vastus esialgsele teatele</span> on aktiveeritud allpool.
+    See on märk, mis näitab kasutajale, et vastus tuleb kirjutada sellest ülespoole.<br><br><strong>Pea meeles:</strong> See kehtib vaid juhul, kui <span class="doc-desc-title">vastus esialgsele teatele</span> on lubatud allpool.
 emailed_tickets_priority:
-  title: E-kirjaga saadetud pöördumiste prioriteet
+  title: Emailiga saadetud piletite prioriteet
   content: >
-    Vali, kas soovid uue pöördumise prioriteedi/tähtsuse määrata sõltuvalt kasutaja e-posti aadressist (nt. OutLook). <br><br> Selle seade saab üle kirjutada <span class="doc-desc-title">pöördumiste filtriga</span>.
+    Vali, kas soovid uue pileti prioriteedi/tähtsuse määrata sõltuvalt kasutaja emaili aadressist (nt OutLook). <br><br> Selle seade saab üle kirjutada <span class="doc-desc-title">piletite filtriga</span>.
   links:
     - 
-      title: Loo &amp; halda pöördumiste filtreid
+      title: Loo &amp; halda piletite filtreid
       href: /scp/filters.php
 accept_all_emails:
-  title: Nõustu kõikide e-kirjadega
+  title: Aktsepteeri kõiki emaile
   content: >
-    Võta e-kirju vastu tundmatutelt kasutajatelt. <br><br> Kui see on välja lülitatud, siis pöördumisi ei registreerita.
+    Aktsepteeri emaile tundmatutelt kasutajatelt. <br><br> Kui see on märkimata, siis piletid lükatakse tagasi.
 accept_email_collaborators:
-  title: Aktsepteeri e-kirja kaastöötajaid
+  title: Aktsepteeri emailis kaastöötajaid
   content: >
-    Lisa e-kirja saajaid väljadele <code> <strong>Kellele</strong></code> ja <code><strong>Koopia</strong></code>.<br /><br /><em>Neid aadresse saab agent lisada käsitsi pöördumise juurde, kui ta seda vaatab.</em>
+    Lisa emaili saajaid väljadele <code> <strong>Kellele</strong></code> ja <code><strong>Koopia</strong></code> kui pileti kaastöötajad.<br /><br /><em>Agendid saavad kaastöötajaid saab alati lisada käsitsi, kui nad parasjagu vaatavad piletit.</em>
 default_mta:
-  title: MTA (meiliedastusagent) vaikimisi
+  title: Vaike-MTA
   content: >
     <span class="doc-desc-title">MTA vaikimisi</span> hoolitseb ilma SMTP seadeteta e-kirjade saatmise eest.

@@ -1,6 +1,17 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add New Department -> Department Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 type:
-  title: النوع
+  title: Type
   content: >
     اختر <span class="doc-desc-opt">خاص</span> إذا كنت ترغب في عدم إظهار الإسنادات لهذا القسم في بوابة العميل. إضافة إلى ذلك، عندما تصنف كـ <span class="doc-desc-opt">خاص</span>, ، فلن يتم عرض <span class="doc-desc-title">توقيع القسم</span> في ردود البريد الإلكتروني. <br/><br/> يجب على الأقل لقسم واحد أن يكون <span class="doc-desc-opt">عاماًّ</span>
 email:
@@ -32,17 +43,17 @@ manager:
       title: إدارة التنبيهات و الإشعارات
       href: /scp/settings.php?t=alerts
 group_membership:
-  title: مستلمي التنبيهات &amp; الإشعارات
+  title: مستلمي التنبيهات و الإشعارات
   content: >
-    اختر مستلمي <span class="doc-desc-title">التنبيهات &amp; الإشعارت</span>.
+    اختر مستلمي <span class="doc-desc-title">التنبيهات و الإشعارت</span>.
   links:
     - 
-      title: ضبط التنبيهات &amp; الإشعارت
+      title: ضبط التنبيهات و الإشعارت
       href: /scp/settings.php?t=alerts
 sandboxing:
   title: قيود إسناد التذكرة
   content: >
-    قم بتمكين هذا  الخيار لتقييد إسناد التذكرة إلى أعضاء هذا القسم فقط. يمكن تمديد الوصول إلى المجموعات، إذا كانت <span class="doc-desc-title">عضوية الفريق</span> مفعلة أيضاً.
+    قم بتمكين هذا الخيار لتقييد إسناد التذكرة إلى أعضاء هذا القسم فقط. يمكن تمديد العضوية إلى المجموعات، إذا كانت <span class="doc-desc-title"> التنبيهات و مستقبلي الإشعارات</span> مفعلان أيضاً.
 auto_response_settings:
   title: إعدادات الرد التلقائي
   content: >
@@ -58,7 +69,7 @@ new_message:
 auto_response_email:
   title: البريد الإلكتروني للرد التلقائي
   content: >
-    اختر بريداً إلكترونياً الذي تُرسل من خلاله الردود التلقائية لهذا القسم.
+    اختر البريد الإلكتروني الذي ستُرسل من خلاله الردود التلقائية لهذا القسم.
 department_access:
   title: الوصول للمجموعة
   content: >

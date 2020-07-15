@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Obavijet poslana djelatnicima kada je otvorena nova kartica u sistemu. Ovo se odnosi na kartice otvorene putem emaila, stranice za tehničku podršku ili aplikacije.
 subject: |
   Obavijest o novoj kartici
-body: |2
+body: |
   <h2>Pozdrav %{recipient.name},</h2>
   Otvorena je nova kartica #%{ticket.number}
   <br>

@@ -8,13 +8,15 @@
 - 
   id: 2
   name: 営業
-  signature: 営業および顧客維持
+  signature: |
+    営業および顧客維持
   ispublic: 1
   sla_id: 1
   group_membership: 1
 - 
   id: 3
   name: メンテナンス
-  signature: メンテナンス部門
+  signature: |
+    メンテナンス部門
   ispublic: 0
   group_membership: 0

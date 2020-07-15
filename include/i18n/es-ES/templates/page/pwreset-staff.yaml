@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Esta plantilla define el correo electrónico enviado al personal que seleccione el vínculo<strong>Olvidé mi contraseña</strong> en la página del control de acceso del personal.
 name: "Reinicio de contraseña del Personal de osTicket"

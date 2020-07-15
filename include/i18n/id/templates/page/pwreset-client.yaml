@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Template ini mendefinisikan email yang dikirimkan ke klien yang pilih link <strong>Lupa Password saya</strong> klien Log di laman.
 name: "%{company.name} membantu meja akses"

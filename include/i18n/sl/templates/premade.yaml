@@ -3,7 +3,7 @@
   isenabled: 1
   title: Kaj je osTicket (primer)?
   response: "osTicket je široko uporabljan odprtokodni sistem za sledenje podpornim\nzahtevkom, privlačna alternativa dražjim in kompleksnejšim sistemom\nEnostaven, lahek, zanesljiv, odprtokoden, osnovan za spletno delovanje\nin enostaven za namestitev in uporabo."
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Vaš zahtevek št. #%{ticket.number} ustvarjen %{ticket.create_date} je v oddelku
-    %{ticket.dept.name}.
+    %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

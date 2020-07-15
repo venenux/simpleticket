@@ -1,14 +1,18 @@
 ---
+#Default configuration. The format is key: value and the data will be
+#inserted into the %config table at install time
+#---
 core:
-  time_format: H:i
-  date_format: d/m/Y
-  datetime_format: d/m/Y H:i
-  daydatetime_format: j D, M Y H:i
+  time_format: 'H:i'
+  date_format: 'd/m/Y'
+  datetime_format: 'd/m/Y H:i'
+  daydatetime_format: 'j D, M Y H:i'
   default_timezone_id: 8
   default_priority_id: 2
   enable_daylight_saving: 0
   reply_separator: '-- поставете одговор над оваа линија --'
-  allowed_filetypes: .doc, .pdf, .jpg, .jpeg, .gif, .png, .xls, .docx, .xlsx, .txt
+  #Do not translate below here
+  allowed_filetypes: '.doc, .pdf, .jpg, .jpeg, .gif, .png, .xls, .docx, .xlsx, .txt'
   isonline: 1
   staff_ip_binding: 0
   staff_max_logins: 4
@@ -74,4 +78,4 @@ core:
   sequence_id: 0
   log_level: 2
   log_graceperiod: 12
-  client_registration: public
+  client_registration: 'public'

@@ -1,22 +1,23 @@
 ---
 - 
   isenabled: 1
-  title: What is osTicket (sample)?
-  response: "osTicket is a widely-used open source support ticket system, an\nattractive alternative to higher-cost and complex customer support\nsystems - simple, lightweight, reliable, open source, web-based and easy\nto setup and use."
-  notes: ""
+  title: Apakah osTicket (sampel)?
+  response: osTicket adalah sistem tiket sokongan sumber terbuka yang meluas digunakan, alternatif yang menarik kepada kos yang lebih tinggi dan sistem sokongan pelanggan yang kompleks - mudah, ringan, boleh dipercayai, sumber terbuka, berasaskan web dan mudah untuk disediakan dan digunakan.
+  notes:
   attachments:
     - 
       name: osTicket.txt
       type: text/plain
-      data: Canned Attachments Rock!
+      data: Lampiran tin Rock!
 - 
   isenabled: 1
-  title: Sample (with variables)
+  title: Sampel (dengan pembolehubah)
   response: |
     Hi %{ticket.name.first},
     <br>
     <br>
-    Your ticket #%{ticket.number} created on %{ticket.create_date} is in
-    %{ticket.dept.name} department.
+    Tiket anda #%{ticket.number} dicipta pada %{ticket.create_date} adalah dalam
+    %{ticket.dept.name} jabatan. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

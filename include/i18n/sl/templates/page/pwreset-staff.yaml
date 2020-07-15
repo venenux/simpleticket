@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Ta predloga določa e-sporočilo poslano osebju, ki je izbralo <strong>pozabljeno geslo</strong> povezavo na prijavni strani nadzorne plošče osebja.
 name: "Ponastavitev gesla osebja osTicket"

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Emails
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 default_email_templates:
   title: 默认电子邮件模板集合
   content: >
@@ -46,7 +57,7 @@ enable_autocron_fetch:
   links:
     - 
       title: 使用外部任务调度器
-      href: 'http://osticket.com/wiki/POP3/IMAP_Setting_Guide'
+      href: http://osticket.com/wiki/POP3/IMAP_Setting_Guide
 strip_quoted_reply:
   title: 条状引用回复
   content: >

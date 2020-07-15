@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Diese Vorlage definiert den Inhalt, der angezeigt wird, nachdem ein Benutzer sich erfolgreich registriert, indem er sein Konto bestätigt. Diese Seite soll den Benutzer informieren, dass seine Registrierung abgeschlossen ist und er jetzt Tickets übermitteln kann und Zugang zu bestehenden Tickets hat.
 name: "Konto bestätigt!"

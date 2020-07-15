@@ -1,12 +1,23 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
   title: Uživatelské jméno
   content: >
-    Prosím, zvolte <span class="doc-desc-title">uživatelské jméno</span> agenta, které je jedinečné ve vašem <span class="doc-desc-title">helpdesku</span>.
+    Zadejte <span class="doc-desc-title">uživatelské jméno</span> pracovníka, které je jedinečné ve vašem <span class="doc-desc-title">systému zákaznické podpory</span>.
 email_address:
   title: E-mail
   content: >
-    Zadejte email agenta, který obdrží <span class="doc-desc-title">výstrahy a upozornění</span> od <span class="doc-desc-title">helpdesku</span>.
+    Zadejte e-mailovou adresu pracovníka, na kterou bude dostávat <span class="doc-desc-title">výstrahy a oznámení</span> od <span class="doc-desc-title">systému zákaznické podpory</span>.
   0: <br><br>
   1: Pracovníci se mohou přihlásit do ovládacího panelu pracovníka buď uživatelským jménem nebo e-mailovou adresou.
 welcome_email:
@@ -14,13 +25,13 @@ welcome_email:
   content: >
     Systém zašle novému pracovníkovi přístupový odkaz, pomocí nějž bude moci nastavit své heslo. Není-li vybráno, musíte heslo nastavit a přihlašovací informace sdělit novému pracovníkovi.
 account_password:
-  title: Heslo účtu
+  title: Heslo
   content: >
-    Jako <span class="doc-desc-title">administrátor</span> můžete měnit heslo agenta.
+    Jako <span class="doc-desc-title">správce</span> můžete měnit heslo pracovníka.
 forced_password_change:
   title: Vynucená změna hesla
   content: >
-    Povolte, pokud si přejete, aby si agent při dalším přihlášení musel změnit heslo.
+    Tato volba vynutí při příštím přihlášení nového pracovníka změnu jeho hesla.
 agents_signature:
   title: Podpis pracovníka
   content: >
@@ -28,19 +39,19 @@ agents_signature:
 account_status:
   title: Stav účtu
   content: >
-    Je-li stav agenta <span class="doc-desc-opt">uzamčen</span>, nebude se moci přihlásit na helpdesk.
+    Je-li stav pracovníka nastaven na <span class="doc-desc-opt">uzamčen</span>, nebude se moci přihlásit do systému zákaznické podpory.
 assigned_group:
-  title: Přiřazená skupina
+  title: Členství ve skupině
   content: >
-    <span class="doc-desc-title">Skupina</span> kterou označíte, že do ní tento agent náleží, bude určovat oprávnění agenta v <span class="doc-desc-title">helpdesku</span>.
+    <span class="doc-desc-title">Skupina</span>, do které pracovníka zařadíte, bude určovat oprávnění pracovníka v <span class="doc-desc-title">systému zákaznické podpory</span>.
   links:
     - 
       title: Správa skupin
       href: /scp/groups.php
 primary_department:
-  title: Primární oddělení
+  title: Hlavní oddělení
   content: >
-    Vyberte primární<span class="doc-desc-title">oddělení</span> agenta.
+    Vyberte hlavní <span class="doc-desc-title">oddělení</span>, ke kterému pracovník patří.
   links:
     - 
       title: Správa oddělení
@@ -48,15 +59,15 @@ primary_department:
 daylight_saving:
   title: Letní čas
   content: >
-    Povolte, pokud si přejete automaticky nastavovat letní čas pro časovou zónu tohoto agenta.
+    Tato volba určuje, zda-li se má automaticky nastavovat letní čas pro časovou zónu tohoto pracovníka.
 limited_access:
   title: Omezený přístup
   content: >
-    Je-li vybráno, bude agent mít přístup pouze k požadavkům přiřazeným přímo jemu či jeho týmu.
+    Volba určuje, zda-li bude mít pracovník přístup pouze k požadavkům přiřazeným jemu či jeho týmu.
 directory_listing:
-  title: Výpis adresáře
+  title: Výpis v adresáři
   content: >
-    Zvolte, chcete-li vypsat tohoto agenta v  <span class="doc-desc-title">Adresáři zaměstnanců</span>.
+    Tato volba určuje, zda-li bude pracovník vypsán v <span class="doc-desc-title">seznamu pracovníků</span>.
   links:
     - 
       title: Zobrazit seznam pracovníků
@@ -64,4 +75,5 @@ directory_listing:
 vacation_mode:
   title: Na dovolené
   content: >
-    Změníte-li stav agenta na<span class="doc-desc-opt">Na dovolené</span>, agent nedostane žádné <span class="doc-desc-title">výstrahy a upozornění</span> ani mu nebude požno přiřadit požadavek.
+    Změníte-li stav pracovníka na <span class="doc-desc-opt">na dovolené</span>, pracovníkovi nebudou zasílány žádné <span class="doc-desc-title">výstrahy a oznámení</span> a ani mu nebude možné přiřadit požadavek.
+

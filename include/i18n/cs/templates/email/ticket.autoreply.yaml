@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Bude odesláno uživateli v okamžiku, kdy bude zveřejněna automatická odpověď na vytvořený zákaznický požadavek.
-  
+
   Dostupné proměnné pro přepsání: %{ticket.*}, %{response}
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]

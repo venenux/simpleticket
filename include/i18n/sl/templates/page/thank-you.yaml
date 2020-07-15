@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Ta predloga definira vsebino, ki se prikaže na Hvala-vam strani, potem
   ko stranka odda zahtevek na portalu za stranke.

@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Ten szablon definiuje wiadomości e-mail wysyłane do klientów, którzy wybiorą link <strong>Zapominałem moje hasło</strong> na stronie klienta.
 name: "%{company.name} dostęp do pomocy"

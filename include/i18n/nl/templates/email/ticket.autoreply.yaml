@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Wordt naar een gebruiker verzonden wanneer een vooraf gedefinieerde reactie wordt geplaatst op een ticket wanneer deze wordt aangemaakt. Beschikbare variabelen voor vervanging: %{ticket.*}, %response}
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Beste %{recipient.name.first},</strong></h3> 
   Een ondersteuningsverzoek is aangemaakt en toegewezen aan ticket <a
   href="%{recipient.ticket_link}">#%{ticket.number}</a> met het volgende automatische antwoord. 

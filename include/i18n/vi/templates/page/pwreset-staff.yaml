@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Khung mẫu này là mẫu email được gửi đến nhân viên đã bấm link <strong>Forgot My Password</strong> trên trang đăng nhập của nhân viên.
 name: "Cài đặt lại mật khẩu cho nhân viên của osTicket "

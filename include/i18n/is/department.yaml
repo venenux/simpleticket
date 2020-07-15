@@ -1,20 +1,22 @@
 ---
 - 
   id: 1
-  name: Þjónusta
-  signature: Þjónustudeild
+  name: Aðstoð
+  signature: Aðstoð Deild
   ispublic: 1
   group_membership: 1
 - 
   id: 2
   name: Sala
-  signature: Sala og viðskiptavernd
+  signature: |
+    Sala og viðskiptavernd
   ispublic: 1
   sla_id: 1
   group_membership: 1
 - 
   id: 3
   name: Viðhald
-  signature: Viðhaldsdeild
+  signature: |
+    Viðhaldsdeild
   ispublic: 0
   group_membership: 0

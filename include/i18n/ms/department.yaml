@@ -1,22 +1,22 @@
 ---
 - 
   id: 1
-  name: Support
-  signature: Support Department
+  name: Sokongan
+  signature: Jabatan Sokongan
   ispublic: 1
   group_membership: 1
 - 
   id: 2
-  name: Sales
+  name: Jualan
   signature: |
-    Sales and Customer Retention
+    Jualan dan Pengekalan Pelanggan
   ispublic: 1
   sla_id: 1
   group_membership: 1
 - 
   id: 3
-  name: Maintenance
+  name: Penyelenggaraan
   signature: |
-    Maintenance Department
+    Jabatan Penyelenggaraan
   ispublic: 0
   group_membership: 0

@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   crwdns942:0crwdne942:0
 name: "crwdns943:0%{company.name}crwdne943:0"

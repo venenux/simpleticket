@@ -1,8 +1,20 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
+#Authentication settings
 password_reset:
   title: Zásady pro vypršení platnosti hesla
   content: >
-    Nastaví jak často (v měsících) budou zaměstnanci nuceni si změnit jejich heslo. Jestliže je toto vypnuto (nastaveno "bez vypršení platnosti hesla"), platnost hesla nikdy neskončí.
+    Nastavuje, jak často (v měsících) budou pracovníci povinni změnit své heslo. Pokud je toto vypnuto (nastaveno "Bez časového omezení"), tak hesla nikdy nevyprší.
 password_expiration_policy:
   title: Zásady pro vypršení platnosti hesla
   content: >
@@ -14,24 +26,24 @@ allow_password_resets:
 reset_token_expiration:
   title: Lhůta obnovy hesla
   content: >
-    Zvol jak dlouho (v minutách) bude <span class="doc-desc-title"> žádost o změnu hesla </span> platná. Když si agent zažádá o  <span class="doc-desc-title">reset hesla</span>, email  na reset hesla je po tuto dobu platný.
+    Vyberte délku (v minutách), za jak dlouho bude <span class="doc-desc-title"> odkaz na obnovu hesla</span> zneplatněn. Když pracovník požádá o <span class="doc-desc-title">obnovu hesla</span>, je mu zaslán e-mail s odkazem, který mu umožní změnu hesla provést.
 staff_session_timeout:
   title: Maximální délka nečinnosti pracovníka
   content: >
-    Vyberte maximální délku nečinnosti pracovníka (v minutách), než bude vyžadováno, aby se pracovník znovu přihlásil. <br><br> Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti pracovníka</span> vypnout, zadejte 0.
+    Vyberte maximální délku (v minutách) nečinnosti pracovníka, než bude vyžadováno, aby se pracovník znovu přihlásil. <br><br> Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti pracovníka</span> vypnout, zadejte 0.
 client_session_timeout:
-  title: Vypršel časový limit uživatele
+  title: Maximální doba nečinnosti uživatele
   content: >
-    Vyberte maximální délku nečinnosti uživatele (v minutách), než bude vyžadováno, aby se uživatel znovu přihlásil. <br><br> Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti uživatele</span> vypnout, zadejte 0.
+    Vyberte maximální délku (v minutách) nečinnosti uživatele, než bude vyžadováno, aby se uživatel znovu přihlásil. <br><br> Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti uživatele</span> vypnout, zadejte 0.
 bind_staff_session_to_ip:
-  title: Svázat relaci zaměstnance s IP adresou
+  title: Spárovat relaci pracovníka s IP adresou
   content: >
-    Zapnout, pokud chcete, aby byl agent zapamatován podle jeho IP adresy při přihlášení.<br><br>  Toto nastavení není doporučeno pro uživatele, kteří mají dynamicky přidělované IP adresy.
+    Tato volba zajistí, aby přihlášení pracovníka bylo spárováno s IP adresou. <br><br> Toto nastavení není doporučováno dynamicky přidělované IP adresy pracovníků.
 registration_method:
   title: Možnosti registrace
   content: >
     <span class="doc-desc-title">Metoda registrace</span> a <span class="doc-desc-title">vyžadovaná registrace</span> se používají společně k nastavení, jak se zákazníci registrují a přihlašují k vašemu systému zákaznické podpory. Tabulka níže shrnuje, jak je toto nastavení vykládáno systémem. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Registratce vyžadována</th> <th>Metoda registrace</th> <th>Výsledek</th></tr> <tr><td>Ne</td><td>Veřejný</td> <td>Registrace je doporučována, ale není vyžadována pro nové požadavky.</td></tr> <tr><td>Ano</td><td>Veřejný</td> <td>Registrace a přihlášení jsou vyžadovány pro nové požadavky.</td></tr> <tr><td>Ne</td><td>Soukromé</td> <td>Kdokoliv může vytvořit požadavek, ale jen zaměstnanci mohou registrovat účty zákazníků.</td></tr> <tr><td>Ano</td><td>Soukromé</td> <td>Zákaznický přístup je pouze na základě pozvánky.</td></tr> <tr><td>Ne</td><td>Zakázáno</td> <td>Nikdo nemůže zaregistrovat účet, ale každý může vytvořit požadavek. <em>Takto to fungovalo v osTicket před verzí 1.9</em></td></tr> <tr><td>Ano</td><td>Zakázáno</td> <td>Zakázat vytváření požadavků přes webový portál</td></tr> </tbody></table>
 client_verify_email:
-  title: Vyžadovat ověření emailem
+  title: Vyžadovat ověření e-mailem
   content: >
-    Zakázáním této volby dáte zákazníkům okamžitý přístup k požadavkům pomocí funkce "Zjisti stav požadavku" zákaznického portálu. Je-li povolena (výchozí), uživatelé nejdříve musí obdržet zaslaný e-mail s odkazem na tento požadavek. <br><br>Zakázání ověřování pomocí e-mailu by mohlo umožnit třetím stranám (např spolupracovníci na požadavcích) se vydávat za vlastníka požadavku.
+    Pokud je tato volba vypnuta, uživatelé dostanou okamžitý přístup k požadavkům skrze stránku pro kontrolu stavu požadavku na zákaznickém portále. Pokud je tato volba zapnuta (výchozí stav), pak je nutné, aby byl uživateli nejdříve doručen e-mail s odkazem na zobrazení požadavku. <br><br> Vypnutím této volby umožníte ostatním (např. spolupracovníkům) vydávat se za zadavatele požadavku.

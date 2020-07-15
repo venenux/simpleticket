@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Denne skabelon definerer det indhold, som bliver vist på Tak-siden efter en kunde afsender en ny sag i kundeportalen.
 name: Tak

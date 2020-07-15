@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Account Panel ->
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 page_title:
   title: התראות והודעות
   content: >
@@ -28,7 +39,7 @@ internal_note_alert:
       title: תבנית ברירת מחדל של תהליך הטיפול בקריאה
       href: /scp/templates.php?default_for=note.alert
 assignment_alert:
-  title: התראת "קישור הקריאה לסוכן המטפל"
+  title: התראת "\קישור הקריאה לסוכן המטפל"\
   content: >
     התראה נשלחה לסוכנים המטפלים.
   links:
@@ -44,7 +55,7 @@ transfer_alert:
       title: תבנית התראת ברירת מחדל כאשר מעבירים קריאה לגורם מטפל אחר.
       href: /scp/templates.php?default_for=transfer.alert
 overdue_alert:
-  title: התראת "זמן הטיפול חרג מהמוגדר"
+  title: התראת "/זמן הטיפול חרג מהמוגדר"/
   content: >
     התראה נשלחת לסוכנים כאשר קריאה עוברת את תאריך תפוגתה בהתאם למה שהוגדר ב"אמנת לקוח" וב"תאריך התפוגה" של הקריאה.
   links:

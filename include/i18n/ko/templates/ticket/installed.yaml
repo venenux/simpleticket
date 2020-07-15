@@ -1,9 +1,14 @@
 ---
-deptId: 1
-topicId: 1
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
 name: osTicket 서포트
 email: support@osticket.com
-source: 웹
+source: 웹 #notrans
 subject: osTicket이 설치되었습니다!
 message: |
   <p>
@@ -12,7 +17,7 @@ message: |
   <p>최신 뉴스와 보안 경고, 업데이트를 유지하기 위해 <a
   href="http://osticket.com/forums">osTicket 포럼</a>과 <a
   href="http://osticket.com/updates">메일링 리스트</a>에 반드시 가입하세요.
-  
+
   osTicket 포럼은 다른 사용자들로부터 지원과 가이드, 팁과 도움을 받을 수 있는 곳입니다. 이에 더해 osTicket 위키는 커뮤니티의 유용한 교육자료와 문서, 노트를 제공합니다. 우리는 osTicket에 대한 여러분의 기여를 환영합니다.</p>
   <p>
   만약 더 높은 레벨의 지원을 받고자 하면, 우리는 일정한 시간 내에 전문적인 서비스와 유상 지원을 해드리며, 핵심 개발팀에 접근할 수 있습니다. 또한 osTicket의 커스터마이징을 돕거나 당신의 특별한 요구사항을 충족시킬 수 있도록 새로운 기능을 추가할 수 있습니다.

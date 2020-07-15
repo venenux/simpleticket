@@ -1,6 +1,12 @@
 ---
-notes: Испрати порака кон корисникот кога вработениот креира тикет во негово име. Оваа најчесто се прави кога корисникот воспоставува повик на телефон.
-subject: '%{ticket.subject} [#%{ticket.number}]'
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
+notes: |
+  Испрати порака кон корисникот кога вработениот креира тикет во негово име. Оваа најчесто се прави кога корисникот воспоставува повик на телефон.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
 body: |
   <h3><strong>До %{recipient.name.first},</strong></h3>
   Нашиот тим за грижа на корисници креира тикет <a

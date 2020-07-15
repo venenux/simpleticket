@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 form_title:
   title: تیتر فرم
   content: >
@@ -34,4 +45,4 @@ field_variable:
 field_delete:
   title: پاک کردن این فیلد
   content: >
-    فیلد مورد نظر را برای حذف از این فرم انتخاب کنید.<br><br><em> حذف یک فیلد اطلاعات وارد شده مربوط به فرم های تکمیل شده ی قدیمی را ازبین نمی برد. برای مثال اگر نامه ای در گذشته ارسال کردید که حاوی فیلد و اطلاع خاصی بود و در حال حاضر آنرا پاک کرده اید مشکلی برای نامه ی قدیمی پیش نخواهد آمد.</em>
+    فیلد مورد نظر را برای حذف از این فرم انتخاب کنید.<br><br><em> حذف یک فیلد اطلاعات وارد شده مربوط به فرم های تکمیل شده ی قدیمی را ازبین نمی برد. برای مثال اگر تیکتی در گذشته ارسال کردید که حاوی فیلد و اطلاع خاصی بود و در حال حاضر آنرا پاک کرده اید مشکلی برای تیکت قدیمی پیش نخواهد آمد.</em>

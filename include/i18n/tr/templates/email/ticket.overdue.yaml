@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Personele sistemdeki bir talebin süresi geçtiğinde  gönder. Taleplerin SLA süresi 
   ya da talebe atanmış son kapanma tarihi esas alınarak,  işlemler yürütülür.
@@ -19,7 +24,7 @@ body: |
   <div>Talebi görüntülemek ya da cevap yazmak için lütfen Destek Talep Sistemine
   <a href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);">giriş</span>
   </a> yapın. 
-  
+
   Bu uyarıyı almanızın nedeni; talebin size, takımınıza ya da departmanınıza
   atanmış bir talep olmasıdır.
   </div>

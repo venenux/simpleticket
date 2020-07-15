@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   當新訊息事件已新建成功於系統內之後、將會發送訊息給工作人員。這方式可經由電子郵件、網站或是api.
 subject: |

@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   ส่งให้เจ้าหน้าที่เมื่อเขาได้รับมอบหมาย Ticket โดย Ticket สามารถถูกมอบหมายอัตโนมัติด้วยระบบหรือเจ้าหน้าที่คนอื่น ใช้ %{assigner} เพื่อดูว่าใครเป็นผู้มอบหมาย
 subject: |
   Ticket ถูกมอบหมายให้คุณ
-body: |2
+body: |
   <h3><strong>เรียนคุณ %{assignee.name.first},</strong></h3>
   Ticket หมายเลข <a href="%{ticket.staff_link}">#%{ticket.number}</a> ถูกมอบหมายมาให้คุณดูแลโดย %{assigner.name.short}
   <br>

@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Αυτό το πρότυπο ορίζει το αρχικό email (προαιρετικό) που αποστέλλεται στους Εκπροσώπους όταν δημιουργείται ένας λογαριασμός γι' αυτούς.
 name: "Καλώς ήλθατε στο osTicket"

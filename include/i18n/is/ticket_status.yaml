@@ -16,7 +16,8 @@
   sort: 2
   flags: 0
   properties:
-    description: Leystar beiðnir eru lokaðar beiðnir sem hægt er að enduropna af notanda. Þetta getur verið hjálplegt þegar leystar beiðnir eru lokaðar sjálfvirkt með orðsendingu til notanda.
+    description: >
+      Leystar beiðnir eru lokaðar beiðnir sem hægt er að enduropna af notanda. Þetta getur verið hjálplegt þegar leystar beiðnir eru lokaðar sjálfvirkt með orðsendingu til notanda.
 - 
   id: 3
   name: Lokað
@@ -25,7 +26,8 @@
   sort: 3
   flags: 0
   properties:
-    description: Einungis starfsfólk getur opnað beiðnir sem er búið að loka. Hinsvegar getur bæði starfsfólk og viðskiptavinur skoðað beiðnina.
+    description: >
+      Einungis starfsfólk getur opnað beiðnir sem er búið að loka. Hinsvegar getur bæði starfsfólk og viðskiptavinur skoðað beiðnina.
 - 
   id: 4
   name: Geymt
@@ -34,7 +36,8 @@
   sort: 4
   flags: 0
   properties:
-    description: Beiðnir aðeins opnar stjórnendum en ekki lengur aðgengilegar á beiðna listum.
+    description: >
+      Beiðnir aðeins opnar stjórnendum en ekki lengur aðgengilegar á beiðna listum.
 - 
   id: 5
   name: Eytt
@@ -43,4 +46,5 @@
   sort: 5
   flags: 0
   properties:
-    description: Beiðnir sem bíða eftir að verða eytt. Eru ekki sjáanlegar í beiðnalista.
+    description: >
+      Beiðnir sem bíða eftir að verða eytt. Eru ekki sjáanlegar í beiðnalista.

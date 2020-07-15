@@ -1,11 +1,16 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
-  
+
 subject: |
-  티켓 #%{ticket.number} 이관 : %{ticket.dept.name}
-body: |2
+  티켓 #%{ticket.number} 이관 : %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
   <h3>안녕하세요, %{recipient.name}님</h3>
-  티켓  <a href="%{ticket.staff_link}">#%{ticket.number}</a>가 <strong>%{staff.name.short}</strong>에 의해 %{ticket.dept.name}로 이관되었습니다.
+  티켓  <a href="%{ticket.staff_link}">#%{ticket.number}</a>가 <strong>%{staff.name.short}</strong>에 의해 %{ticket.dept.name}로 이관 되었습니다.
   <br>
   <br>
   <blockquote>

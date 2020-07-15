@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Este modelo define o e-mail enviado aos funcionários que selecionem a ligação <strong>Esqueci a minha palavra-passe</strong> na página de autenticação de funcionários.
 name: "Recuperação de palavra-passe de funcionário osTicket"

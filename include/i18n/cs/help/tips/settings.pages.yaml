@@ -1,28 +1,39 @@
 ---
+#This is popup help messages for the Account Panel ->
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 company_information:
   title: Informace o společnosti
   content: >
-    Vztahuje se na firmu či organizaci provozující tento systém a její zaměstnance. Zde uvedené informace se objeví v podpisech (patičkách) emailu odesílaných jako odpovědi při zpracování požadavků.
+    Toto se vztahuje na firmu či společnost provozující tento osTicket systém a její pracovníky podpory. Zde uvedené informace se objeví v podpisech (např. v patičkách) odesílaných e-mailů s odpověďmi pracovníků.
   links:
     - 
       title: Základní informace o společnosti
       href: /scp/forms.php?type=C
 landing_page:
-  title: Vstupní Stránka
+  title: Úvodní stránka
   content: >
-    <span class="doc-desc-title">Vstupní Stránka</span> se zobrazí na titulní stránce vašeho webu podpory.
+    <span class="doc-desc-title">Úvodní stránka</span> se zobrazí na hlavní stránce vašeho zákaznického portálu.
 offline_page:
   title: Stránka mimo provoz
   content: >
     <span class="doc-desc-title">Offline stránka</span> se zobrazí na zákaznického portálu, pokud je  mimo provoz, viz Panel správce -&gt; Nastavení -&gt; Systém -&gt; Stav systému zákaznické podpory.
 default_thank_you_page:
-  title: Výchozí děkovná stránka
+  title: Výchozí stránka s poděkováním
   content: >
-    <span class="doc-desc-title">Stránka Děkujeme</span> se zobrazí zákazníkovi, když <span class="doc-desc-title">Klient</span> založí nový požadavek. <br/><br/> <span class="doc-desc-title">Stránka Děkujeme</span> může být různá pro každý druh požadavku.
+    <span class="doc-desc-title">Stránka s poděkováním</span> se zobrazí uživateli po tom, co <span class="doc-desc-title">uživatel</span> založí nový požadavek. <br/><br/> <span class="doc-desc-title">Stránka s poděkováním</span> může být různá pro každé téma podpory.
 logos:
   title: Loga
   content: >
-    Můžete si zvolit <span class="doc-desc-title">Logo</span>,  které se zobrazí klientům na klientském portálu  (např. Stránky podpory zákazníků).
+    Zde si zvolte <span class="doc-desc-title">logo</span>, které se bude zobrazovat uživatelům na zákaznickém portálu.
 upload_a_new_logo:
   title: Nahrát nové logo
   content: >

@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Wird an Agenten versendet, wenn eine neue Nachricht von einem Benutzer zu einem Ticket erstellt wurde. Dies kann auftreten, wenn der Benutzer auf eine E-Mail aus dem System antwortet oder das Benutzerportal besucht und dort eine neue Nachricht erstellt.
 subject: |
   Neue Nachricht
-body: |2
+body: |
   <h3><strong>Hallo %{recipient.name},</strong></h3>
   es wurde eine neue Nachricht zum Ticket <a
   href="%{ticket.staff_link}">#%{ticket.number}</a> hinzugefügt.

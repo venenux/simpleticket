@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   يعرّف هذا القالب البريد الإلكتروني المرسل إلى الفريق الذي فتح رابط <strong>نسيت كلمة المرور الخاصة بي</strong> في صفحة تسجيل دخول لوحة تحكم أعضاء الفريق.
 name: "إعادة تعيين كلمة المرور لموظفي osTicket"

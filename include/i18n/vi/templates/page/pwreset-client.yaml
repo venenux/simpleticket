@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Khung mẫu này được dùng cho email gửi đến những khách hàng chọn link <strong>Quên mật khẩu của tôi</strong> trên trang  đăng nhập của khách hàng.
 name: "%{company.name} Truy cập hỗ trợ hệ thống"

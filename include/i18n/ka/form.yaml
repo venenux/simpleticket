@@ -8,7 +8,7 @@
     - 
       type: text
       name: email
-      label: E-mail მისამართი
+      label: ელფოსტის მისამართი
       required: true
       sort: 1
       edit_mask: 15
@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: მოთხოვნის დეტალები
   instructions: გთხოვთ აღწეროთ თქვენი პრობლემა
   notes: |
@@ -55,8 +55,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: პრობლემის არსი
       required: true
       edit_mask: 15
@@ -66,31 +66,31 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
-      label: Issue Details
-      hint: Details on the reason(s) for opening the ticket.
+      type: thread #notrans
+      name: message #notrans
+      label: პრობლემის დეტალები
+      hint: მთხოვნის შექმნის მიზეზის (ების) დეტალები
       required: true
       edit_mask: 15
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Priority Level
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: ინფორმაცია კომპანიის შესახებ
   instructions: წერილების შაბლონებში ხელმისაწვდომი დეტალები
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: კომპანიის სახელწოდება
       required: true
       sort: 1
@@ -99,25 +99,25 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
-      label: Website
+      type: text #notrans
+      name: website #notrans
+      label: ვებ-საიტი
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Phone Number
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
-      label: Address
+      label: მისამართი
       required: false
       sort: 4
       configuration:
@@ -126,15 +126,15 @@
         html: false
         length: 100
 - 
-  type: O
-  title: Organization Information
-  instructions: Details on user organization
+  type: O #notrans
+  title: ორგანიზაციის ინფორმაცია
+  instructions: დეტალური ინფორმაცია მომხმარებლის ორგანიზაციის შესახებ
   deletable: false
   fields:
     - 
-      type: text
-      name: name
-      label: Name
+      type: text #notrans
+      name: name #notrans
+      label: სახელი
       required: true
       sort: 1
       edit_mask: 15
@@ -144,7 +144,7 @@
     - 
       type: memo
       name: address
-      label: Address
+      label: მისამართი
       required: false
       sort: 2
       configuration:
@@ -161,14 +161,14 @@
     - 
       type: text
       name: website
-      label: Website
+      label: ვებ-საიტი
       required: false
       sort: 4
       configuration:
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Internal Notes
       required: false

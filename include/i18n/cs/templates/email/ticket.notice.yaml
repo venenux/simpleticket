@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
-  Bude odesláno uživateli v okamžiku vytvoření nového zákaznického požadavku zaměstnancem, a to na základě pověření uživatele.
-  Toto se nejčastěji stává, když uživatel kontaktuje Helpdesk telefonicky.
+  Odesláno uživateli v momentě, kdy pracovník podpory za něj vytvoří požadavek.
+  Toto se nejčastěji děje, když zákazník volá telefonem.
 subject: |
   %{ticket.subject} [č. %{ticket.number}]
 body: |

@@ -1,50 +1,57 @@
 ---
+#Help popup items for the installer
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_name:
-  title: Tugiteenuse nimi
+  title: Kasutajatoe nimi
   content: |
-    <p>Teie tugiteenuse nimetus, näiteks [Ettevõtte] tugiteenus</p>
+    <p>Teie kasutajatoe nimetus, nt [ettevõtte nimi] tugiteenus</p>
 system_email:
-  title: Süsteemi üldine e-posti aadress
+  title: Süsteemi vaikeemail
   content: |
-    <p>Vaikimisi e-posti aadress. Näiteks tugi@ettevõte.ee - ülejäänu saad lisada hiljem!</p>
+    <p>Vaikeemaili aadress, näiteks support@yourcompany.com - ülejäänu saad lisada hiljem!</p>
 default_lang:
-  title: Süsteemi keel vaikimisi
+  title: Süsteemi vaikekeel
   content: |
-    <p>Esialgsed andmed selle keele jaoks salvestatakse andmebaasi, nagu näiteks e-kirjade mallid ja süsteemi vaikimis leheküljed.</p>
+    <p>Esialgsed andmed selle keele jaoks salvestatakse andmebaasi, nagu näiteks emailide mallid ja süsteemi vaikimis leheküljed.</p>
   links:
     - 
       title: osTicketi keelepaketid
-      href: 'http://osticket.com/download?product=langs'
+      href: http://osticket.com/download?product=langs
 first_name:
   title: Eesnimi
   content: |
-    <p>Adminni eesnimi</p>
+    <p>Administraatori eesnimi</p>
 last_name:
-  title: Perenimi
+  title: Perekonnanimi
   content: |
-    <p>Adminni perenimi</p>
+    <p>Administraatori perekonnanimi</p>
 email:
-  title: E-posti aadress
+  title: Emaili aadress
   content: |
-    <p>Adminni isiklik e-posti aadress. Peab erinema süsteemi vaikeaadressist.</p>
+    <p>Administraatori isiklik emaili aadress. See peab erinema süsteemi vaikeaadressist.</p>
 username:
   title: Kasutajanimi
   content: |
-    <p>Adminni kasutajanimi. Peab olema vähemalt kolm (3) tähemärki.</p>
+    <p>Administraatori kasutajanimi. Peab olema vähemalt kolm (3) tähemärki.</p>
 password:
-  title: Parool
+  title: Salasõna
   content: |
-    <p>Adminni parool Peab olema vähemalt viis (5) märki.</p>
+    <p>Administraatori salasõna. Peab olema vähemalt viis (5) või rohkem tähemärki pikk.</p>
 password2:
-  title: Kinnita parool
+  title: Kinnita salasõna
   content: |
-    <p>Kinnita parool. Peab kattuma eelnevaga.</p>
+    <p>Korda administraatori salasõna. Peab kattuma eelnevaga.</p>
 db_prefix:
-  title: MySQL tabeli prefix
+  title: MySQL tabeli eesliide
   content: |
-    <p>osTicket vajab andmebaasi tabeli nime prefixit vältimaks võimalikke konflikte jagatud andmebaasi puhul.</p>
+    <p>osTicket vajab andmebaasi tabeli nime eesliidet vältimaks võimalikke konflikte jagatud andmebaasi puhul.</p>
 db_host:
-  title: MySQL server
+  title: MySQL hostinimi
   content: |
     <p>
     Enamik hoste kasutavad 'localhost' kohaliku andmebaasi hosti nimena. Kontrolli oma hosti, kui localhost ei sobi.
@@ -61,6 +68,6 @@ db_user:
   content: |
     <p>MySQL kasutajal peavad olema kõik andmebaasi õigused.</p>
 db_password:
-  title: MySQL parool
+  title: MySQL salasõna
   content: |
-    <p>MySQL parool on seotud eespool mainitud kasutajaga.</p>
+    <p>MySQL salasõna on seotud eespool mainitud kasutajaga.</p>

@@ -1,7 +1,14 @@
 ---
-notes: 'თანამშრომლებისთვის გაგზავნა, როდესაც ბილეთი გადადის ვადაგადაცილებულ სისტემაში. ბილეთები ვადაგადაცილებული  ხდება ბილეთების  დადგენილ ვადაზე დაფუძნებით, ისევე როგორც SLA განისაზღვრება ბილეთებისთვის.'
-subject: შემორჩენილი ბილეთის გაფრთხილება
-body: |2
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
+notes: |
+  თანამშრომლებისთვის გაგზავნა, როდესაც ბილეთი გადადის ვადაგადაცილებულ სისტემაში. ბილეთები ვადაგადაცილებული  ხდება ბილეთების  დადგენილ ვადაზე დაფუძნებით, ისევე როგორც SLA განისაზღვრება ბილეთებისთვის.
+subject: |
+  შემორჩენილი ბილეთის გაფრთხილება
+body: |
   <h3><strong>გამარჯობა %{recipient}</strong>,</h3>
   ბილეთი, <a href="%{ticket.staff_link}">#%{ticket.number}</a> 
   სერიოზულად ვადაგადაცილებულია.

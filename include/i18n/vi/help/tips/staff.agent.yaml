@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
   title: Tên đăng nhập
   content: >
@@ -31,7 +42,7 @@ account_status:
     Nếu trạng thái của nhân viên là  <span class="doc-desc-opt">khóa</span>, họ sẽ không thể đăng nhập tới bảng trợ giúp.
 assigned_group:
   title: Nhóm được chỉ định
-  content: |2-
+  content: >
      <span class="doc-desc-title">Nhóm</span>mà bạn muốn chọn  cho nhân viên này sẽ quyết định quyền của nhân viên đó trong  <span class="doc-desc-title">Bảng trợ giúp</span>.
   links:
     - 
@@ -65,3 +76,4 @@ vacation_mode:
   title: Chế độ nghỉ
   content: >
     Nếu bạn thay đổi trạng thái nhân viên thành <span class="doc-desc-opt"> Trạng thái nghỉ </span>, nhân viên sẽ không nhận được bất cứ <span class="doc-desc-title"> cảnh báo &amp; thông báo </span> cũng như sẵn sàng nhận chuyển giao công việc.
+

@@ -3,7 +3,7 @@
   isenabled: 1
   title: Apakah itu osTicket (contoh)?
   response: osTicket adalah sistem dukungan tiket yang open-source, sebuah alternatif dari sistem dukungan pelanggan yang kompleks dan harga yang lebih mahal - sederhana, ringan, terpercaya, open source, berbasiskan web, dan mudah dipasang dan digunakan.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Tiket Anda #%{ticket.number} dibuat pada %{ticket.create_date} saat ini 
-    berada di departemen %{ticket.dept.name}.
+    berada di departemen %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

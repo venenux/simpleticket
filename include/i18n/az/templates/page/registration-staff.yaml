@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Bu şablon agentlərin adına hesab yaradılanda ilkin göndərilən e-poçtu (qeyri-məcburi) müəyyənləşdirir.
 name: "osTicketə xoş gəlmisiniz"

@@ -1,9 +1,13 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Notificare trimisa agentilor cand se inregistreaza activitate la un tichet, activitate cum ar fi o nota interna sau se ataseaza raspunsul unui agent la tichet.
 subject: |
   Alerta Interna de Activitate Noua
-body: |2
+body: |
   <h3><strong>Buna %{recipient.name},</strong></h3>
   Un agent a intervenit asupra tichetului <a href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>

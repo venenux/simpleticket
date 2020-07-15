@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Ce modèle définit le courriel envoyé aux employés qui choisissent le lien <strong>J'ai oublié mon mot de passe</strong> sur la page de connexion du personnel.
 name: "Réinitialisation du mot de passe pour le personnel d'osTicket"

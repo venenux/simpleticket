@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Kontaktinformācija
   content: >
-    
+
 username:
   title: Lietotāja vārds
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Laika josla
   content: >
-    
+
 daylight_saving:
   title: Pāreja uz vasaras laiku
   content: >
-    
+
 maximum_page_size:
   title: Maksimālais lapas izmērs
   content: >
-    
+
 auto_refresh_rate:
   title: Automātiskās atsvaidzināšanas intervāls
   content: >
-    
+
 default_signature:
   title: Noklusētais paraksts
   content: >
-    
+
 default_paper_size:
   title: Noklusētais papīra izmērs
   content: >
-    
+
 show_assigned_tickets:
   title: Parādīt piešķirtos pieteikumus
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Parole
   content: >
-    
+
 current_password:
   title: Pašreizējā parole
   content: >
-    
+
 new_password:
   title: Jaunā parole
   content: >
-    
+
 confirm_new_password:
   title: Apstiprināt jauno paroli
   content: >
-    
+
 signature:
   title: Paraksts
   content: >

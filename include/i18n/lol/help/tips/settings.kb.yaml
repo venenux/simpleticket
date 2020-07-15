@@ -1,29 +1,40 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Knowledgebase
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 knowledge_base_settings:
-  title: 'crwdns2044:0crwdne2044:0'
+  title: crwdns2044:0crwdne2044:0
   content: >
     crwdns2045:0crwdne2045:0
 knowledge_base_status:
-  title: 'crwdns2046:0crwdne2046:0'
+  title: crwdns2046:0crwdne2046:0
   content: >
     crwdns2047:0crwdne2047:0
   links:
     - 
-      title: 'crwdns2048:0crwdne2048:0'
-      href: 'crwdns2049:0crwdne2049:0'
+      title: crwdns2048:0crwdne2048:0
+      href: crwdns2049:0crwdne2049:0
 restrict_kb:
-  title: 'crwdns5424:0crwdne5424:0'
+  title: crwdns5424:0crwdne5424:0
   content: >
     crwdns5425:0crwdne5425:0
   links:
     - 
-      title: 'crwdns5426:0crwdne5426:0'
-      href: 'crwdns5427:0crwdne5427:0'
+      title: crwdns5426:0crwdne5426:0
+      href: crwdns5427:0crwdne5427:0
 canned_responses:
-  title: 'crwdns2050:0crwdne2050:0'
+  title: crwdns2050:0crwdne2050:0
   content: >
     crwdns2051:0crwdne2051:0
   links:
     - 
-      title: 'crwdns2052:0crwdne2052:0'
-      href: 'crwdns2053:0crwdne2053:0'
+      title: crwdns2052:0crwdne2052:0
+      href: crwdns2053:0crwdne2053:0

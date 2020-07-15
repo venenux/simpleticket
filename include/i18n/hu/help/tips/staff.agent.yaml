@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
   title: Felhasználónév
   content: >
@@ -38,7 +49,7 @@ assigned_group:
       title: Csoportok kezelése
       href: /scp/groups.php
 primary_department:
-  title: Elsődleges osztály
+  title: Elsődleges részleg
   content: >
     Válassza ki az elsődleges <span class="doc-desc-title">részleget</span> amihez a kezelő tartozik.
   links:
@@ -65,3 +76,4 @@ vacation_mode:
   title: Szabadság mód
   content: >
     Ha megváltoztatja a kezelő státuszát <span class="doc-desc-opt">Vakáció módra</span>, a kezelő nem fog semmilyen <span class="doc-desc-title">Riasztást&amp;Jegyzetet</span>kapni és nem lesz elérhető a hibajegyek besorolásához.
+

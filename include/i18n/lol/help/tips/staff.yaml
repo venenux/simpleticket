@@ -1,17 +1,24 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 signature:
-  title: 'crwdns2010:0crwdne2010:0'
+  title: crwdns2010:0crwdne2010:0
   content: |
     crwdns2011:0crwdne2011:0
 type:
-  title: 'crwdns2012:0crwdne2012:0'
+  title: crwdns2012:0crwdne2012:0
   content: |
     crwdns2013:0crwdne2013:0
 group:
-  title: 'crwdns2014:0crwdne2014:0'
+  title: crwdns2014:0crwdne2014:0
   content: |
     crwdns2015:0crwdne2015:0
 notes:
-  title: 'crwdns2016:0crwdne2016:0'
+  title: crwdns2016:0crwdne2016:0
   content: |
     crwdns2017:0crwdne2017:0

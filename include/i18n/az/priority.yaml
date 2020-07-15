@@ -1,4 +1,6 @@
 ---
+#Default system data for ticket priorities
+#---
 low:
   priority_id: 1
   priority_desc: Aşağı

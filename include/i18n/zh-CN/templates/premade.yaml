@@ -3,7 +3,7 @@
   isenabled: 1
   title: OsTicket （示例） 是什么？
   response: osTicket是一个被广泛使用的开源咨询支援系统,  是那些价高且复杂的客户支援系统的有效替代。它简单，轻巧，可靠，开源，基于网页并且容易安装和使用。
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     您在 %{ticket.create_date} 新建的咨询#%{ticket.number} 现在已经被交给我们的
-    %{ticket.dept.name} 部门.
+    %{ticket.dept.name} 部门. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

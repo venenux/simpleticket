@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Šalje se članu osoblja kada se novi tiket kreira u sistemu. Ovo
   se odnosi na tikete koji su kreirani putem imejla, veb portala, ili API-ja.
-subject: Obaveštenje o novom tiketu
-body: |2
+subject: |
+  Obaveštenje o novom tiketu
+body: |
   <h2>Poštovani %{recipient.name},</h2>
   Novi tiket #%{ticket.number} je kreiran
   <br>

@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   إشعار يتم إرساله إلى المتعاونين عن نشاط التذكرة (مثال رد أو رسالة).
 subject: |
   إعادة إرسال: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>عزيزي %{recipient.name.first},</strong></h3>
   <div>
   <em>قام %{poster.name}</em> بتسجيل رسالة إلى تذكرة قمت بالمشاركة بها. participate.

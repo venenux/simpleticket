@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
   title: Helpdesk állapota
   content: >
@@ -12,11 +23,11 @@ helpdesk_name_title:
   content: >
     Ez a cím jelenik meg a böngésző lapfülén. Ha az ügyfélszolgálat lapja be van állítva könyvjezőként, ezt a nevet fogja kapni a honlap.
 default_department:
-  title: Alapértelmezett Részleg
+  title: Alapértelmezett részleg
   content: >
-    Válasszon egy alapértelmezett <span class="doc-desc-title">Részleget</span> azoknak a Hibajegyeknek, amik nem irányítódnak automatikusan egy előre definiált részleghez. <br/><br/> A hibajegyek átirányítása a súgó témák, a beérkező emailek és a hibajegy szűrő beállításaiban állíthatóak be.
+    Válasszon egy alapértelmezett <span class="doc-desc-title">Részleget</span> azoknak a hibajegyeknek, amik nem irányítódnak automatikusan egy előre definiált részleghez. <br/><br/> A hibajegyek átirányítása a súgó témák, a beérkező emailek és a hibajegy szűrő beállításaiban állíthatóak be.
 default_page_size:
-  title: Alapértelmezett oldal méret
+  title: Alapértelmezett oldal mérete
   content: >
     Válassza ki hány tételt szeretne egy oldalon megjeleníteni a feldolgozásra váró hibajegyek közül a kezelő panelen. Minden egyes kezelő beállíthat tetszése szerint eltérő számot a <span class="doc-desc-title">Saját beállításaim</span> menüpont alatt.
 default_log_level:
@@ -34,12 +45,13 @@ default_name_formatting:
   links:
     - 
       title: Támogatott Email Sablon Változók
-      href: 'http://osticket.com/wiki/Email_templates'
+      href: http://osticket.com/wiki/Email_templates
+#Date and time options
 date_time_options:
-  title: Idő&amp;beállítások
+  title: Dátum és Idő beállítások
   content: >
     Az alábbi beállítások határozzák meg az Ügyfelek Dátum &amp; Idő beállításait. Megváltoztathatja ezek megjelenését a PHP dátum formátum karakterek követésével. Az alábbi adatok csupán az ezeknek megfelelő értékeket illusztrálják.
   links:
     - 
       title: Lásd a PHP Dátum Formázó táblán
-      href: 'http://www.php.net/manual/en/function.date.php'
+      href: http://www.php.net/manual/en/function.date.php

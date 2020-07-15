@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overlimit.yaml
+#Sent to users when they have exceeded the maximum open ticket limit. The
+#limit is configurable in the Admin Panel, and is defined by the number of
+#tickets open by a particular email address.
+#---
 notes: |
   បានផ្ញើទៅឱ្យអ្នកប្រើនៅពេលពួកគេបានលើសដែនកំណត់សំបុត្របើកចំហអតិបរមា។ដែនកំណត់កំណត់រចនាសម្ព័ន្ធក្នុងផ្ទាំងគ្រប់គ្រងនិងត្រូវបានកំណត់ដោយចំនួននៃការលក់សំបុត្របើកចំហដោយអាសយដ្ឋានអ៊ីម៉ែលមួយពិសេស។
 subject: |

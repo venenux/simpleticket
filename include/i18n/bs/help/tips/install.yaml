@@ -1,7 +1,15 @@
 ---
+#Help popup items for the installer
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_name:
   title: Helpdesk Name
-  content: '<p>The name of your support system e.g [Company Name] Support</p>'
+  content: |
+    <p>The name of your support system e.g [Company Name] Support</p>
 system_email:
   title: Default System Email
   content: |
@@ -19,10 +27,12 @@ default_lang:
       href: http://osticket.com/download?product=langs
 first_name:
   title: First Name
-  content: "<p>Admin's first name</p>"
+  content: |
+    <p>Admin's first name</p>
 last_name:
   title: Last Name
-  content: "<p>Admin's last name</p>"
+  content: |
+    <p>Admin's last name</p>
 email:
   title: Email adresa
   content: |
@@ -30,13 +40,16 @@ email:
     default email.</p>
 username:
   title: Username
-  content: "<p>Admin's login name. Must be at least three (3) characters.</p>"
+  content: |
+    <p>Admin's login name. Must be at least three (3) characters.</p>
 password:
   title: Password
-  content: "<p>Admin's password.  Must be five (5) characters or more.</p>"
+  content: |
+    <p>Admin's password.  Must be five (5) characters or more.</p>
 password2:
   title: Confirm Password
-  content: "<p>Retype admin's password. Must match.</p>"
+  content: |
+    <p>Retype admin's password. Must match.</p>
 db_prefix:
   title: MySQL Table Prefix
   content: |
@@ -55,10 +68,13 @@ db_host:
     </p>
 db_schema:
   title: MySQL Database
-  content: '<p>Name of the database osTicket will use.</p>'
+  content: |
+    <p>Name of the database osTicket will use.</p>
 db_user:
   title: MySQL Username
-  content: '<p>The MySQL user must have full rights to the database.</p>'
+  content: |
+    <p>The MySQL user must have full rights to the database.</p>
 db_password:
   title: MySQL Password
-  content: '<p>MySQL password associated with above user.</p>'
+  content: |
+    <p>MySQL password associated with above user.</p>

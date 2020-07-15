@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> Dashboard
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 ticket_activity:
   title: Aktywność zgłoszeń
   content: >
@@ -6,7 +17,7 @@ ticket_activity:
 report_timeframe:
   title: Raport za okres
   content: >
-    Wybierz datę początkową dla danych. Następnie wybierz okres czasu od daty początkowej aby wyznaczyć datę końcową.
+    Wybierz datę początkową za pomocą kalendarza. Następnie wybierz okres czasu od tej daty, aby wyznaczyć datę końcową zbioru danych.
 statistics:
   title: Statystyki
   content: >

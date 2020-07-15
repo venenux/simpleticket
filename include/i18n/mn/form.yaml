@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Хүсэлтийн дэлгэрэнгүй
   instructions: Асуудлаа тодорхой бичнэ үү
   notes: |
@@ -53,8 +53,8 @@
   fields:
     - 
       id: 20
-      type: текст
-      name: гарчиг
+      type: текст #notrans
+      name: гарчиг #notrans
       label: Асуудлын тойм
       required: true
       edit_mask: 15
@@ -64,8 +64,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: зурвас
+      type: thread #notrans
+      name: зурвас #notrans
       label: Асуудлын дэлгэрэнгүй
       hint: Хүсэлт үүсгэх болсон шалтгааны дэлгэрэнгүй.
       required: true
@@ -73,22 +73,22 @@
       sort: 2
     - 
       id: 22
-      type: зэрэглэл
-      name: зэрэглэл
+      type: зэрэглэл #notrans
+      name: зэрэглэл #notrans
       label: Зэрэглэлийн түвшин
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Байгууллагын мэдээлэл
   instructions: Дэлгэрэнгүй нь имэйлийн загварт бий
   deletable: false
   fields:
     - 
-      type: текст
-      name: нэр
+      type: текст #notrans
+      name: нэр #notrans
       label: Байгууллагын нэр
       required: true
       sort: 1
@@ -97,23 +97,23 @@
         size: 40
         length: 64
     - 
-      type: текст
-      name: вэб сайт
+      type: текст #notrans
+      name: вэб сайт #notrans
       label: Вэб сайт
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: утас
-      name: утас
+      type: утас #notrans
+      name: утас #notrans
       label: Утасны дугаар
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: санамж
+      type: санамж #notrans
       name: хаяг
       label: Хаяг
       required: false
@@ -124,14 +124,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Байгууллагын мэдээлэл
   instructions: Хэрэглэгчийн байгууллагын тухай дэлгэрэнгүй
   deletable: false
   fields:
     - 
-      type: текст
-      name: нэр
+      type: текст #notrans
+      name: нэр #notrans
       label: Нэр
       required: true
       sort: 1
@@ -166,7 +166,7 @@
         size: 40
         length: 0
     - 
-      type: санамж
+      type: санамж #notrans
       name: тэмдэглэл
       label: Тусгай тэмдэглэл
       required: false

@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Táto šablóna definuje záklaný e-mail, ktorý bude zaslaný agentovi keď si vytvorí účet.
 name: "Vitajte v osTicket"

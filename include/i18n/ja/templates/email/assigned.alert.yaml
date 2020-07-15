@@ -1,10 +1,16 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   チケットにアサインされた場合スタッフのメンバー宛に送信されます。
   チケットはシステムによる自動アサイン、もしくは他のスタッフメンバーによりアサインすることが出来ます。
   アサインする人を区別する場合は%{assigner}パラメータを使ってください。
-subject: チケットにアサインされました。
-body: |2
+subject: |
+  チケットにアサインされました。
+body: |
   <h3><strong>Hi %{assignee.name.first},</strong></h3>
    %{assigner.name.short}によってチケット <a href="%{ticket.staff_link}">#%{ticket.number}</a> にアサインされました。
   <br>

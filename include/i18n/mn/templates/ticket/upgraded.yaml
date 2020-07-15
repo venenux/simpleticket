@@ -1,5 +1,10 @@
 ---
-source: Вэб
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: Вэб #notrans
 name: osTicket-н тусламж
 email: support@osticket.com
 subject: osTicket шинэчлэгдлээ!

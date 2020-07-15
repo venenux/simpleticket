@@ -9,7 +9,7 @@
   id: 2
   name: 영업
   signature: |
-    영업과 고객유지
+    영업 및 고객 응대
   ispublic: 1
   sla_id: 1
   group_membership: 1

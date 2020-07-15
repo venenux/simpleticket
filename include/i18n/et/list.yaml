@@ -1,14 +1,14 @@
 ---
 - 
   type: ticket-status
-  name: Pöördumise staatus
-  name_plural: Pöördumise olekud
+  name: Pileti staatus
+  name_plural: Pileti olekud
   sort_mode: SortCol
   masks: 13
-  notes: Pöördumise olekud
+  notes: Pileti olekud
   properties:
-    title: Pöördumise oleku parameetrid
-    instructions: Pöördumise olekule seatavad parameetrid.
+    title: Pileti staatuse omadused
+    instructions: Pileti staatusele võimalikud seatavad omadused.
     deletable: false
     fields:
       - 

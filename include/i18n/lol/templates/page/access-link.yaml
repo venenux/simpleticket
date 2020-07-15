@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   crwdns933:0crwdne933:0
 name: "crwdns934:0%{ticket.number}crwdne934:0"

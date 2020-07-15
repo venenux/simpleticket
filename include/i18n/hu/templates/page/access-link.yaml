@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Ez a sablon határozza meg az ügyfélnek kiküldött értesítést a hozzáférési linkről. A hibajegy száma és az email cím alkotja a hivatkozást.
 name: "Hibajegy [#%{ticket.number}] hozzáférési link"

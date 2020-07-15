@@ -1,11 +1,16 @@
 ---
-source: 웹
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: 웹 #notrans
 name: osTicket 서포트
 email: support@osticket.com
 subject: osTicket이 업그레이드 되었습니다!
-message: |2
+message: |
   <p> 
-  osTicket이 성공적으로 업그레이드되었습니다! 새로운 기능과 변경사항에 대한 더 많은 정보를 보려면 릴리즈 노트(http://osticket.com/wiki/Release_Notes)를 참조하세요.
+  osTicket이 성공적으로 업그레이드 되었습니다! 새로운 기능과 변경사항에 대한 더 많은 정보를 보려면 릴리즈 노트(http://osticket.com/wiki/Release_Notes)를 참조하세요.
   </p><p>
   최신 소식과 보안 업데이트 및 경보 등 최신 상태를 유지하기 위해 <a href="http://osticket.com/forums">osTicket 포럼</a>과 <a href="http://osticket.com/updates">메일링 리스트</a>에 가입하십시오! osTicket 커뮤니티에 기여해 주시면 감사하겠습니다.
   </p><p>

@@ -1,6 +1,11 @@
 ---
-notes: Šalje se korisniku kada se kreira novi tiket
-subject: 'Otvoren tiket podrške [#%{ticket.number}]'
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
+notes: |
+  Šalje se korisniku kada se kreira novi tiket
+subject: |
+  Otvoren tiket podrške [#%{ticket.number}]
 body: |
   <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
   <p>

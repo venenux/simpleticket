@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Šī template generē saiti klientam, caur kuru viņš varēs skatīties savu pieteikumu. Epasts un pieprasījuma numurs ģenerēs piekļuves saiti.
 name: "Pieprasījuma [#%{ticket.number}] piekļūves saite"

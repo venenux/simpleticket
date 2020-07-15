@@ -1,0 +1,68 @@
+---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
+search_field:
+  title: crwdns11528:0crwdne11528:0
+  0: >
+    crwdns11530:0crwdne11530:0
+advanced:
+  title: crwdns11532:0crwdne11532:0
+  content: >
+    crwdns11534:0crwdne11534:0
+open_tickets_table:
+  title: crwdns11536:0crwdne11536:0
+  content: >
+    crwdns11538:0crwdne11538:0
+ticket:
+  title: crwdns11540:0crwdne11540:0
+  0: >
+    crwdns11542:0crwdne11542:0
+date:
+  title: crwdns11544:0crwdne11544:0
+  0: >
+    crwdns11546:0crwdne11546:0
+subject:
+  title: crwdns11548:0crwdne11548:0
+  0: >
+    crwdns11550:0crwdne11550:0
+from:
+  title: crwdns11552:0crwdne11552:0
+  0: >
+    crwdns11554:0crwdne11554:0
+priority:
+  title: crwdns11556:0crwdne11556:0
+  0: >
+    crwdns11558:0crwdne11558:0
+assigned_to:
+  title: crwdns11560:0crwdne11560:0
+  0: >
+    crwdns11562:0crwdne11562:0
+export:
+  title: crwdns11564:0crwdne11564:0
+  content: >
+    crwdns11566:0crwdne11566:0
+advanced_search_dialog:
+  title: crwdns11568:0crwdne11568:0
+  0: >
+    crwdns11570:0crwdne11570:0
+adv_keyword:
+  title: crwdns11572:0crwdne11572:0
+  content: >
+    crwdns11574:0crwdne11574:0
+adv_date_range:
+  title: crwdns11576:0crwdne11576:0
+  content: >
+    crwdns11578:0crwdne11578:0
+reply_types:
+  title: crwdns11580:0crwdne11580:0
+  content: >
+    crwdns11582:0crwdne11582:0

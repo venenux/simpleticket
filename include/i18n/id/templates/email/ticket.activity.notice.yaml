@@ -1,4 +1,7 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Pemberitahuan yang dikirim ke kolaborator pada tiket aktivitas misalnya Balasan atau pesan.
 subject: |

@@ -3,7 +3,7 @@
   isenabled: 1
   title: osTicket nədir?
   response: osTicket sorğu sistemini dəstəkləyən geniş istifadəli açıq mənbədir, 
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Sizin sorğu #%{ticket.number} yaradılıb %{ticket.create_date}
-    %{ticket.dept.name} şöbədə.
+    %{ticket.dept.name} şöbədə. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

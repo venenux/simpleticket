@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: 새 티켓 문의 분류
   content: >
@@ -24,13 +35,13 @@ auto_response:
   content: >
     이 이메일 주소로 생성되는 티켓에는 자동 응답을 비활성화 할 수 있습니다.
 username:
-  title: 계정명
+  title: 사용자명
   content: >
-    
+
 password:
   title: 비밀번호
   content: >
-    
+
 login_information:
   title: 이메일 로그인 정보
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: 헤더 스푸핑 허용
   content: >
     이 옵션을 활성화하면 <span class="doc-desc-title">이메일 주소</span> 설정에 기입한 메일 주소 중 하나를 발신자로 지정하여 메일을 송신할 수 있습니다. <br/><br/> 이는 고급 설정이며, 메일 서버의 별칭으로 이메일을 보낼 때 주로 사용됩니다.
+

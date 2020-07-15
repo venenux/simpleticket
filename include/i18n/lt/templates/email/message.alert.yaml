@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Siųsti pagalbos tarnybos darbuotojui, kai naudotojas bilietui atsiunčia naują žinutę. Taip gali nutikti, kai naudotojas atsako į sistemos el. laišką arba aplanko naudotojo interneto portalą ir ten paskelbia naują žinutę.
 subject: |
   Naujas perspėjimo pranešimas
-body: |2
+body: |
   <h3><strong>Sveiki %{recipient},</strong></h3>
   Naujas pranešimas pridedamas prie bilieto <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

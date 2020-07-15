@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Acest template defineste notificarea pentru clienti cand un link de acces le este trimis prin email. Numarul de tichet si adresa de email genereaza linkul de acces.
 name: "Link de acces tichet [#%{ticket.number}] "

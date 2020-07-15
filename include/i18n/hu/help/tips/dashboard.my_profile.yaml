@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Elérhetőségi adatok
   content: >
-    
+
 username:
   title: Felhasználónév
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Időzóna
   content: >
-    
+
 daylight_saving:
   title: Nyári időszámítás
   content: >
-    
+
 maximum_page_size:
   title: Maximális lapméret
   content: >
-    
+
 auto_refresh_rate:
   title: Automatikus frissítési gyakoriság
   content: >
-    
+
 default_signature:
   title: Alapértelmezett aláírás
   content: >
-    
+
 default_paper_size:
   title: Alapértelmezett papírméret
   content: >
-    
+
 show_assigned_tickets:
   title: Hozzárendelt hibajegyek megjelenítése
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Jelszó
   content: >
-    
+
 current_password:
   title: Jelenlegi jelszó
   content: >
-    
+
 new_password:
   title: Új jelszó
   content: >
-    
+
 confirm_new_password:
   title: Új jelszó megerősítése
   content: >
-    
+
 signature:
   title: Aláírás
   content: >

@@ -2,8 +2,8 @@
 - 
   isenabled: 1
   title: Mis asi on osTicket (näidis)?
-  response: "osTicket on laialt kasutusel olev avatud lähtekoodiga pöördumiste süsteem, atraktiivne alternatiiv kallitele ja kompleksetele kasutajatoe süsteemidele - lihtne, arusaadav, usaldusväärne, avatud lähtekoodiga, veebipõhine ning lihtne rakendada ja\n kasutada."
-  notes: ""
+  response: "osTicket on laialt kasutusel olev avatud lähtekoodiga piletite süsteem, atraktiivne alternatiiv kallitele ja kompleksetele kasutajatoe süsteemidele - lihtne, arusaadav, usaldusväärne, avatud lähtekoodiga, veebipõhine ning lihtne rakendada ja\n kasutada."
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -11,11 +11,12 @@
       data: Etteantud manused rokivad!
 - 
   isenabled: 1
-  title: Näide (muutujatega)
+  title: Näidis (muutujatega)
   response: |
     Tere %{ticket.name.first},
     <br>
     <br>
-    Sinu %{ticket.create_date} loodud pöördumine numbriga #%{ticket.number} on saadetud %{ticket.dept.name} osakonda.
+    Sinu %{ticket.create_date} loodud pilet numbriga #%{ticket.number} on saadetud %{ticket.dept.name} osakonda. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

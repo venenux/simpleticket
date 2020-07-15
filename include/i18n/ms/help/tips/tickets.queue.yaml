@@ -1,53 +1,64 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
-  title: Search Field
+  title: Cari bidang
   content: >
-    
+
 advanced:
-  title: Advanced
+  title: Maju
   content: >
-    Narrow down your search parameters. Once you have selected your advanced search criteria and run the search, you can <span class="doc-desc-title">Export </span> the data at the bottom of the tickets page.
+    Sempitkan parameter carian anda. Sebaik sahaja anda telah memilih kriteria carian lanjutan anda dan menjalankan carian, anda boleh <span class = " doc -desc - title" > Eksport </span> data di bahagian bawah halaman tiket.
 open_tickets_table:
-  title: Open Tickets Table
+  title: Jadual tiket terbuka
   content: >
-    All tickets currently opened and requiring attention
+    Semua tiket kini dibuka dan memerlukan perhatian
 ticket:
-  title: Ticket
+  title: Tiket
   content: >
-    
+
 date:
-  title: Date
+  title: Tarikh
   content: >
-    
+
 subject:
-  title: Subject
+  title: Subjek
   content: >
-    
+
 from:
-  title: From
+  title: Daripada
   content: >
-    
+
 priority:
-  title: Priority
+  title: Keutamaan
   content: >
-    
+
 assigned_to:
-  title: Assigned To
+  title: Diberikan kepada
   content: >
-    
+
 export:
-  title: Export
+  title: Eksport
   content: >
-    Export your data currently in view in a CSV file. CSV files may be opened with any spreadsheet software (i.e., Microsoft Excel, Apple Pages, OpenOffice, etc.).
+    Eksport data anda yang kini dalam paparan dalam fail CSV. fail CSV boleh dibuka dengan mana-mana perisian hamparan (iaitu, Microsoft Excel, Apple Pages, OpenOffice, dan lain-lain).
 advanced_search_dialog:
-  title: Advanced Search
+  title: Carian Terperinci
   content: >
-    
+
 adv_keyword:
-  title: Keyword Search
+  title: Carian kata kunci
   content: >
-    Find hits based on the subject and message bodies of the ticket thread as well as all textual content associated with custom fields for the users and the tickets.
+    Cari kejayaan berdasarkan subjek dan isi-isi mesej jaluran tiket serta semua kandungan teks yang berkaitan dengan bidang tersuai untuk pengguna dan tiket.
 adv_date_range:
-  title: Search by Date Range
+  title: Dicari oleh julat tarikh
   content: >
-    Definition here
+    Definisi sini

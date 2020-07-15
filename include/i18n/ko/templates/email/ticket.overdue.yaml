@@ -1,7 +1,12 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
-  티켓의 처리기한이 넘어가면 스태프에게 전송됩니다.
-  티켓에 설정된 SLA의 처리기한을 기준으로 만료된 티켓이 관리됩니다.
+  티켓의 처리기한이 초과되면 직원에게 전송됩니다.
+  지연된 티켓은 티켓의 만기일과 티켓에 정의된 SLA 정책에 따라 발생합니다.
 subject: |
   만료된 티켓 알림
 body: |

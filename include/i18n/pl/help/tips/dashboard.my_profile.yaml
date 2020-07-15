@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Informacje Kontaktowe
   content: >
-    
+
 username:
   title: Nazwa użytkownika
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Strefa czasowa
   content: >
-    
+
 daylight_saving:
   title: Czas letni
   content: >
-    
+
 maximum_page_size:
   title: Maksymalny rozmiar strony
   content: >
-    
+
 auto_refresh_rate:
   title: Automatyczna częstotliwość odświeżania
   content: >
-    
+
 default_signature:
   title: Domyślny podpis
   content: >
-    
+
 default_paper_size:
   title: Domyślny rozmiar papieru
   content: >
-    
+
 show_assigned_tickets:
   title: Pokaż przypisane zgłoszenia
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Hasło
   content: >
-    
+
 current_password:
   title: Aktualne hasło
   content: >
-    
+
 new_password:
   title: Nowe hasło
   content: >
-    
+
 confirm_new_password:
   title: Potwierdź nowe hasło
   content: >
-    
+
 signature:
   title: Podpis
   content: >

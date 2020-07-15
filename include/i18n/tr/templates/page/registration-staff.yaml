@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Bu şablon tesilciler adına yeni bir hesap tanımlandığında onlara gönderilen ilk e-postayı (opsiyonel) tanımlar.
 name: "OsTicket'a hoş geldiniz"

@@ -1,31 +1,52 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> Dashboard
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 ticket_activity:
   title: チケットのアクティビティ
-  content: '以下のグラフとテーブル (cf. <span class="doc-desc-title">統計</span>) の両方がこれらの日付の対応するデータに集中する日付の範囲を選択します。以下のグラフは、常にシステム全体のデータ  (すなわち母集団 ) の広範囲の概要を反映します。ただし、以下の<span class="doc-desc-title">統計</span>テーブルをナビゲートして、関心のある件名 (たとえば、部署、トピック、スタッフ) を絞り込むことができます。さらに、<span class="doc-desc-title">統計</span>テーブルに現在表示されているあらゆるデータをエクスポートすることもできます。'
+  content: >
+    以下のグラフとテーブル (cf. <span class="doc-desc-title">統計</span>) の両方がこれらの日付の対応するデータに集中する日付の範囲を選択します。以下のグラフは、常にシステム全体のデータ  (すなわち母集団 ) の広範囲の概要を反映します。ただし、以下の<span class="doc-desc-title">統計</span>テーブルをナビゲートして、関心のある件名 (たとえば、部署、トピック、スタッフ) を絞り込むことができます。さらに、<span class="doc-desc-title">統計</span>テーブルに現在表示されているあらゆるデータをエクスポートすることもできます。
 report_timeframe:
   title: レポート期間
-  content: 日付ピッカーを使用して希望するデータサンプルの開始日を選択します。次に、その日付の時間の長さを選択して、データサンプルの終了日を定義します。
+  content: >
+    日付ピッカーを使用して希望するデータサンプルの開始日を選択します。次に、その日付の時間の長さを選択して、データサンプルの終了日を定義します。
 statistics:
   title: 統計
-  content: 特定のデータサンプルを表示するために該当するタブをクリックして関心のある件名にナビゲートします。テーブル内で、円は名目データのサイズを示します。そのため、特定のセルで数字が大きいほど、隣接する円が大きくなります。
+  content: >
+    特定のデータサンプルを表示するために該当するタブをクリックして関心のある件名にナビゲートします。テーブル内で、円は名目データのサイズを示します。そのため、特定のセルで数字が大きいほど、隣接する円が大きくなります。
 opened:
   title: オープン済み
-  content: これは、クライアントでなくエージェントがオープンした (すなわち内部でオープンされた) チケットを表します。
+  content: >
+    これは、クライアントでなくエージェントがオープンした (すなわち内部でオープンされた) チケットを表します。
 assigned:
   title: アサイン済み
-  content: 'システムは、チケットが特定の部署またはエージェントに自動または手動で割り当てられた各イベントを追跡します。自動割り当ては、管理者パネルの<span class="doc-desc-title">ヘルプトピック</span>と<span class="doc-desc-title">メールフィルター</span>に指定された設定に依存します。'
+  content: >
+    システムは、チケットが特定の部署またはエージェントに自動または手動で割り当てられた各イベントを追跡します。自動割り当ては、管理者パネルの<span class="doc-desc-title">ヘルプトピック</span>と<span class="doc-desc-title">メールフィルター</span>に指定された設定に依存します。
 overdue:
   title: 期限切れ
-  content: これは、属するSLA プランに違反したチケットの量です。
+  content: >
+    これは、属するSLA プランに違反したチケットの量です。
 closed:
   title: 終了
-  content: これは終了したチケットの量です。
+  content: >
+    これは終了したチケットの量です。
 reopened:
   title: 再開
-  content: これは、チケットが終了ステータスになっていたときにエージェントまたはクライアントのいずれかが応答したときに、エージェントまたはクライアントのいずれかによって再開されたチケットの量です。
+  content: >
+    これは、チケットが終了ステータスになっていたときにエージェントまたはクライアントのいずれかが応答したときに、エージェントまたはクライアントのいずれかによって再開されたチケットの量です。
 service_time:
   title: サービス時間
-  content: '<span class="doc-desc-title">サービス時間</span>は、チケットがオープンされたときに始まりチケットの終了時に終わる持続時間です。ここで<span class="doc-desc-title">サービス時間</span>の行は、指定された日付の範囲でチケットごとに平均サービス時間を時間で測定します。'
+  content: >
+    <span class="doc-desc-title">サービス時間</span>は、チケットがオープンされたときに始まりチケットの終了時に終わる持続時間です。ここで<span class="doc-desc-title">サービス時間</span>の行は、指定された日付の範囲でチケットごとに平均サービス時間を時間で測定します。
 response_time:
   title: 応答時間
-  content: '<span class="doc-desc-title">応答時間</span>は、クライアントのあらゆる通信で始まり、エージェントが応答舌ときに終了する持続時間です。この時間の計測は、初回チケットのオープンのクライアントの通信に限られません。これは、クライアントが開始した会話のすべての行為を意味します。'
+  content: >
+    <span class="doc-desc-title">応答時間</span>は、クライアントのあらゆる通信で始まり、エージェントが応答舌ときに終了する持続時間です。この時間の計測は、初回チケットのオープンのクライアントの通信に限られません。これは、クライアントが開始した会話のすべての行為を意味します。

@@ -1,6 +1,11 @@
 ---
-notes: Испрати до корисникот, по креирањето на нов тикет
-subject: 'Отворена е поддршка за тикет [#%{ticket.number}]'
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
+notes: |
+  Испрати до корисникот, по креирањето на нов тикет
+subject: |
+  Отворена е поддршка за тикет [#%{ticket.number}]
 body: |
   <h3><strong>Драг/а %{recipient.name.first},</strong></h3>
   <p>

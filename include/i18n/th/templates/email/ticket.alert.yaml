@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   ส่งไปยังเจ้าหน้าที่เมื่อ Ticket ใหม่ถูกสร้างขึ้นในระบบ ซึ่งใช้กับตั๋วที่สร้างขึ้นผ่านทางอีเมล์, เว็บพอร์ทัลหรือ Api
 subject: |
   การแจ้งเตือน Ticket ใหม่
-body: |2
+body: |
   <h2>Hi %{recipient.name},</h2>
   New ticket #%{ticket.number} created
   <br>

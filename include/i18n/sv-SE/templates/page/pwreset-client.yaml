@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Denna mall anger innehållet i det e-postmeddelande som skickas till den kund som klickar på <strong>Glömt mitt lösenord</strong>-länken på login-sidan i kundportalen.
 name: "Ärendehanteringssystemet för %{company.name}"

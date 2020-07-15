@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Відправляється співробітникам Технічної Підтримки, коли заявка позначається системою як прострочена. Статус простроченої заявки встановлюється як на підставі зазначеного в заявці крайнього терміну виконання, так і Стандартного Часу Відпрацювання Заявок "SLA", визначеного в системі.
 subject: |
   Оповіщення про прострочену Заявку
-body: |2
+body: |
   <h3><strong>Доброго дня, %{recipient.name}</strong>!</h3>
   Заявка, <a href="%{ticket.staff_link}">№%{ticket.number}</a> прострочена.
   <br>

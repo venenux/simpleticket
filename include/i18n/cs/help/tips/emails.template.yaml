@@ -1,21 +1,32 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Templates
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 email_templates:
-  title: E-mailové šablony
+  title: Sady šablon e-mailů
   content: >
-    Email Tepmlate jsou použity pro odeslání automatické odpovědi a poplachů/alarmů pro různé akce, které mohou nastat v průběhu řešení Tiketu.
+    Sady šablony e-mailů jsou použity při odesílání automatických odpovědí a upozornění na různé události, které mohou nastat v průběhu požadavku.
 template_to_clone:
-  title: Template pro naklonování
+  title: Sada šablon ke zkopírování
   content: >
     Vyberte sadu šablon ke zkopírování nebo pro začátek použijte dodávané šablony e-mailů.
 language:
   title: Jazyk
   content: >
-    Vyberte požadovaný jazyk pro <span class="doc-desc-opt">uložené</span> <span class="doc-desc-title">Email Template Set</span>. Jazykové balíčky jsou k dipozici na osTicket.com.
+    Vyberte požadovaný jazyk <span class="doc-desc-opt">dodávané</span><span class="doc-desc-title">sady šablon e-mailů</span>. Jazykové balíčky jsou k dipozici na osTicket.com.
   links:
     - 
       title: Jazykové balíčky pro osTicket
-      href: 'http://osticket.com/download'
+      href: http://osticket.com/download
 status:
   title: Stav
   content: >
-    <span class="doc-desc-opt">Povolený</span> Template je k dispozici pro přiřazení k Oddělení a nastavení System Default. Aktuálně použitý Template nemůže být <span class="doc-desc-opt">Zakázán</span>.
+    <span class="doc-desc-opt">Povolené</span> sady šablon jsou dostupné pro přiřazení k oddělení a nastavení jako výchozí. Aktuálně používaná sada šablon nemůže být <span class="doc-desc-opt">zakázána</span>.

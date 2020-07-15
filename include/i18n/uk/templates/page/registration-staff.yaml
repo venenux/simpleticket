@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Цей шаблон визначає лист повідомлення (опціонально), що відправляється співробітникам при створенні облікового запису для них.
 name: "Ласкаво просимо в osTicket"

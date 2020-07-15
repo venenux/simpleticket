@@ -1,6 +1,10 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   crwdns511:0crwdne511:0
-name: 'crwdns512:0crwdne512:0'
+name: crwdns512:0crwdne512:0
 body: |
   crwdns600:0%{ticket.name}crwdne600:0

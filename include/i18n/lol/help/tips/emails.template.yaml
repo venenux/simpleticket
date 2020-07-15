@@ -1,21 +1,32 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Templates
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 email_templates:
-  title: 'crwdns1531:0crwdne1531:0'
+  title: crwdns1531:0crwdne1531:0
   content: >
     crwdns1532:0crwdne1532:0
 template_to_clone:
-  title: 'crwdns1533:0crwdne1533:0'
+  title: crwdns1533:0crwdne1533:0
   content: >
     crwdns1534:0crwdne1534:0
 language:
-  title: 'crwdns1535:0crwdne1535:0'
+  title: crwdns1535:0crwdne1535:0
   content: >
     crwdns1536:0crwdne1536:0
   links:
     - 
-      title: 'crwdns1537:0crwdne1537:0'
-      href: 'crwdns1538:0crwdne1538:0'
+      title: crwdns1537:0crwdne1537:0
+      href: crwdns1538:0crwdne1538:0
 status:
-  title: 'crwdns1539:0crwdne1539:0'
+  title: crwdns1539:0crwdne1539:0
   content: >
     crwdns1540:0crwdne1540:0

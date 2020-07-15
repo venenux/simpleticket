@@ -1,9 +1,15 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Hutumwa kwa  wafanyakazi wanapopewa tiketi . Tiketi zinaweza kupewa moja kwa moja na mfumo au kibinafsi na mfanyakazi mwingine
   . Tutumia % {assigner} ili  kutofautisha aliyepeana jukumu.
-subject: Tiketi imepewa kwako
-body: |2
+subject: |
+  Tiketi imepewa kwako
+body: |
   <h3><strong>Hi %{assignee.name.first},</strong></h3>
   Tiketi <a href="%{ticket.staff_link}">#%{ticket.number}</a> umepewa tiketi kutoka kwa
    %{assigner.name.short}

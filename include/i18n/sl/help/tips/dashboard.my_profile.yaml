@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Kontaktni podatki
   content: >
-    
+
 username:
   title: Uporabniško ime
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Časovni pas
   content: >
-    
+
 daylight_saving:
   title: Poletno merjenje časa
   content: >
-    
+
 maximum_page_size:
   title: Maksimalna velikost strani
   content: >
-    
+
 auto_refresh_rate:
   title: Avtomatsko osveževanje
   content: >
-    
+
 default_signature:
   title: Privzeti podpis
   content: >
-    
+
 default_paper_size:
   title: Privzeta velikost papirja
   content: >
-    
+
 show_assigned_tickets:
   title: Prikaži dodeljene karte
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Geslo
   content: >
-    
+
 current_password:
   title: Trenutno geslo
   content: >
-    
+
 new_password:
   title: Novo geslo
   content: >
-    
+
 confirm_new_password:
   title: Potrdite novo geslo
   content: >
-    
+
 signature:
   title: Podpis
   content: >

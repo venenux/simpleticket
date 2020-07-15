@@ -1,0 +1,48 @@
+---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
+notes: |
+  صارف جب ٹکٹ پر ایک نیا پیغام شائع کرتا ہے تو عملے کے ارکان کو بھیجا جاتا ہے. یہ ہوسکتا ہے کہ صارفین سسٹم سے جاری ای میل کا جواب دے دیں یا گاہک ویب پورٹل پر آئے اور وہاں ایک نیا پیغام پوسٹ کرے.
+subject: |
+  نئے پیغام کا انتباہ
+body: |
+  <h3><strong>سلام %{recipient.name}،</strong></h3>
+  نیا پیغام ٹکٹ <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a> میں شامل کیا گیا ہے
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>ازطرف</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>ادارہ</strong>:
+      </td>
+      <td>
+           %{ticket.dept.name}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>ٹکٹ کو دیکھنے/جواب دینے کے لیے برائے مہربانی ہمارے ٹکٹ سسٹم میں <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >لاگ ان کریں</span></a></div>
+  <em style="color: rgb(127,127,127); font-size: small; ">آپ کا دوستانہ سپورٹ سسٹم
+  </em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
+  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

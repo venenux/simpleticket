@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Trimis agentilor cand un Ticket devine restant in sistem. Ticketele devin restante pe baza datei limita setata in Ticket si a planului SLA corespunzator Ticketului.
 subject: |
   Alerta Ticket restant
-body: |2
+body: |
   <h3><strong>Salut %{recipient}</strong>,</h3>
   Un ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> este restant.
   <br>

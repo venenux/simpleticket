@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Tiek nosūtīts atbalsta grupas darbiniekiem, kad lietotājs pievieno jaunu ziņojumu. Tas notiek, kad lietotājs atbild uz elektronisko vēstuli, kuru nosūtījusi sistēma vai apmeklē portāla lappusi un izveido jaunu ziņojumu tur.
 subject: |
   Jauna ziņojuma signāls
-body: |2
+body: |
   <h3><strong>Sveicināts %{recipient.name},</strong></h3>
   Jauna ziņa pievienota pieteikumam <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

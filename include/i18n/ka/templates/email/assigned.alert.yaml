@@ -1,7 +1,14 @@
 ---
-notes: 'თანამშრომლებს გაუგზავნეთ მათზე დაწერილი ბილეთი. ბილეთები შეიძლება დაევალოს ავტომატურად სისტემის მიერ  ან ხელით სტაფის სხვა წევრის მიერ. გამოიყენეთ %{assigner} რომ განასხვავოთ თუ ვინ შექმნა  დავალება.'
-subject: თქვენ დაგევალათ ბილეთი
-body: |2
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
+notes: |
+  თანამშრომლებს გაუგზავნეთ მათზე დაწერილი ბილეთი. ბილეთები შეიძლება დაევალოს ავტომატურად სისტემის მიერ  ან ხელით სტაფის სხვა წევრის მიერ. გამოიყენეთ %{assigner} რომ განასხვავოთ თუ ვინ შექმნა  დავალება.
+subject: |
+  თქვენ დაგევალათ ბილეთი
+body: |
   <h3><strong>გამარჯობა %{assignee.name.first},</strong></h3>
   ბილეთი <a href="%{ticket.staff_link}">#%{ticket.number}</a> თქვენ მოგაკუთვნათ %{assigner.name.short}
   <br>

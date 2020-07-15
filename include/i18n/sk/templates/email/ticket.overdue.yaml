@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Odošle sa zamestnancom v okamihu prekročenia termínu tiketu.
   Omeškané tikety sa zobrazia na základe termínu tiketu alebo na základe SLA, ktoré je zadané v tikete.
 subject: |
   Upozornenie na omeškaný tiket
-body: |2
+body: |
   <h3><strong>Dobrý deň %{recipient}</strong>,</h3>
   Požiadavka, <a href="%{ticket.staff_link}">č. %{ticket.number}</a> je po splatnosti.
   <br>

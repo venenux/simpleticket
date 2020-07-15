@@ -1,4 +1,9 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Un nuovo messaggio viene inviato allo staff quando un utente invia un nuovo ticket.  Questo può verificarsi quando un utente risponde a un messaggio e-mail dal sistema o visita il portale web di assistenza clienti e registra un nuovo messaggio.
 subject: |

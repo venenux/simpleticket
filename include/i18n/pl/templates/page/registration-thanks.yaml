@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Ten szablon definiuje zawartość wyświetlaną po pomyślnym zarejestrowaniu się klienta poprzez potwierdzenie swojego konta. Ta strona powinna poinformować użytkownika, że rejestracja jest zakończona i że klient może teraz tworzyć nowe zgłoszenia lub uzyskać dostęp do istniejących zgłoszeń.
 name: "Konto potwierdzone!"

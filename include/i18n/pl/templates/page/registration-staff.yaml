@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Tego szablonu określa początkowy e-mail (opcjonalnie) wysłał do przedstawicieli, gdy konto jest tworzone w ich imieniu.
 name: "Witamy w osTicket"

@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Dikirim ke anggota staf ketika sebuah pesan baru dikirimkan oleh client ke sebuah tiket. Ini dapat terjadi jika pengguna tidak merespon email dari sistem atau mengunjungi portal web dan mengirimkan sebuah pesan baru di sana.
 subject: |
   Peringatan Pesan Baru
-body: |2
+body: |
   <h3><strong>Halo %{recipient},</strong></h3>
   Pesan baru ditambahkan ke tiket <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

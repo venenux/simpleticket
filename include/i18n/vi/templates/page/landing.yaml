@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Trang đích đề cập đến nội dung của cổng thông tin khách hàng xem đầu tiên. Khung mẫu dùng để chỉnh sửa nội dung phía trên trên hai liên kết <strong>Tạo một ticket</strong> và <strong>Kiểm tra trạng thái ticket</strong>.
 name: Landing

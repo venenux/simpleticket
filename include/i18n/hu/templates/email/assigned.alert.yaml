@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Munkatársnak küldve, mikor hozzárendelnek egy hibajegyet. A hibajegyek vagy automatikusan a rendszer által, vagy manuálisan egy munkatárs által rendelhetőek valakihez. Használja a %{assigner} változót hogy meg lehessen határozni a hozzárendelőt.
 subject: |
   Hozzád rendelt hibajegyek
-body: |2
+body: |
   <h3><strong>Kedves %{assignee.name.first},</strong></h3>
   %{assigner.name.short} a <a href="%{ticket.staff_link}">#%{ticket.number}</a> számú
   hibajegyet hozzád rendelte.

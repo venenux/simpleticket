@@ -1,33 +1,31 @@
 ---
-source: Vefsíða
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: Vefsíða #notrans
 name: osTicket Þjónustuborð
 email: support@osticket.com
 subject: osTicket Uppfært!
 message: |
   <p>
-  osTicket upgraded successfully! Please refer to the Release Notes
-  (http://osticket.com/wiki/Release_Notes) for more information about
-  changes and new features.
+  osTicket uppfærslan tókst! Vinsamlegast kynntu þér Útgáfu upplýsingar
+  (http://osticket.com/wiki/Release_Notes) til að fá meiri upplýsingar um
+  breytingar og nýungar.
   </p><p>
-  Be sure to join the <a href="http://osticket.com/forums">osTicket
-  forums</a> and our <a href="http://osticket.com/updates">mailing
-  list</a> to stay up to date on announcements, security updates and
-  alerts! Your contribution to osTicket community will be appreciated!
+  Gott er að skrá sig  í <a href="http://osticket.com/forums">osTicket
+  upplýsingaveituna</a> og uppfærslu <a href="http://osticket.com/updates">póstlistann</a>
+   til að fylgjast með tilkynningum um öryggisuppfærslur og aðvaranir!
+  Framlag þitt til osTicket samfélagsins er vel þegið!
   </p><p>
-  The osTicket team is committed to providing support to all users through
-  our free online resources and a full range of commercial support
-  packages and services. For more information, or to discuss your needs,
-  please contact us today at http://osticket.com/support/. Any feedback
-  will be appreciated!
+  osTicket teymið leitar leiða til að þjónusta alla notendur í gegnum frían
+  aðgang að þjónustukerfum á netinu. Meiri upplýsingar má finna á http://osticket.com/support/. Allar athugasemdir eru vel þegnar!
   </p><p>
-  If managing and upgrading this osTicket installation is daunting, you
-  can try osTicket as a hosted service at http://www.supportsystem.com/ --
-  no upgrading ever, and we can import your data!  With SupportSystem's
-  turnkey infrastructure, you get osTicket at its best, leaving you free
-  to focus on your customers without the burden of making sure the
-  application is stable, maintained, and secure.
+  Ef flókið er að uppfæra og meðhöndla osTicket uppsetningu, þá geturðu prófað hýsingarlausn á vefnum  http://www.supportsystem.com/ --
+  engar uppfærslur meir og við getum sótt gögnin þin og lesið inn í kerfin!  Með góðri viðleitni er þjónustan hjá osTicket góð, gerir þér kleift að fókusera á aðra mikilvæga þætti í þínum rekstri.
   </p><p>
   -<br/>
-  osTicket Team<br/>
+  osTicket Teymið<br/>
   http://osticket.com/
   </p>

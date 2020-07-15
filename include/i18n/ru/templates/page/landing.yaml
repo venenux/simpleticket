@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Главная страница определяет первоначальный вид содержимого клиентской части портала. Шаблон меняет содержимое, которое расположено над двумя ссылками - <strong>Открыть новую заявку</strong> и <strong>Проверить статус заявки</strong>.
 name: Главная

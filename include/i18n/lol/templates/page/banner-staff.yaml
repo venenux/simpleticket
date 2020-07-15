@@ -1,4 +1,7 @@
 ---
+#banner-staff.yaml
+#This is the initial message and banner shown on the staff login page
+#---
 notes: >
   crwdns939:0crwdne939:0
 name: "crwdns940:0crwdne940:0"

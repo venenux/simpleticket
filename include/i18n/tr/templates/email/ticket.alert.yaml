@@ -1,10 +1,14 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Sistemde yeni bir talep oluşturulduğunda personele gönder. API, web portal 
   ya da e-posta aracılığı ile oluşturulmuş talepleri kapsar.
 subject: |
   Yeni Talep Uyarısı
-body: |2
+body: |
   <h2>Merhaba %{recipient},</h2>
   #%{ticket.number} numaralı yeni talep oluşturuldu.
   <br>

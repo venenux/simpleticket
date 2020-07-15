@@ -1,21 +1,23 @@
 ---
+#Default system data for ticket priorities
+#---
 low:
   priority_id: 0
-  priority_desc: 'crwdns444:0crwdne444:0'
+  priority_desc: crwdns444:0crwdne444:0
   priority_color: "crwdns445:0crwdne445:0"
   priority_urgency: 0
 normal:
   priority_id: 0
-  priority_desc: 'crwdns448:0crwdne448:0'
+  priority_desc: crwdns448:0crwdne448:0
   priority_color: "crwdns449:0crwdne449:0"
   priority_urgency: 0
 high:
   priority_id: 0
-  priority_desc: 'crwdns452:0crwdne452:0'
+  priority_desc: crwdns452:0crwdne452:0
   priority_color: "crwdns453:0crwdne453:0"
   priority_urgency: 0
 emergency:
   priority_id: 0
-  priority_desc: 'crwdns456:0crwdne456:0'
+  priority_desc: crwdns456:0crwdne456:0
   priority_color: "crwdns457:0crwdne457:0"
   priority_urgency: 0

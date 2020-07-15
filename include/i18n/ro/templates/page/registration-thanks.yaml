@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Acest template defineste continutul afisat dupa ce Utilizatorii se inregistrarea cu succes si confirma contul lor. Aceasta pagina ar trebui sa informeze utilizatorul ca inregistrarea este finalizată si ca acum poate trimite tichete noi sau accesa tichetele existente.
 name: "Cont de utilizator cofirmat!"

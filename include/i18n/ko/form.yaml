@@ -44,17 +44,19 @@
         cols: 40
 - 
   id: 2
-  type: T
-  title: 티켓 상세
-  instructions: 문제에 대해 자세히 기입해 주세요.
+  type: T #notrans
+  title: 티켓 세부정보
+  instructions: 이슈를 자세하게 설명해 주십시요.
   notes: |
-    이 양식은 티켓의 내용에 관계 없이 모든 티켓에 추가됩니다. 이 양식에 임의의 필드를 모든 티켓에 대해 추가할 수 있으며, 이를 정밀 검색 혹은 필터링에 사용할 수 있습니다.
+    이 양식은 출처와 관계없이 모든 티켓에 첨부됩니다.
+    이 양식에 필드를 추가할 수 있으며 모든 사용자가 필드를 사용할 수 있습니다.
+    고급 검색 및 필터링 기능으로 티켓을 검색 할 수 있습니다.
   deletable: false
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: 이슈 요약
       required: true
       edit_mask: 15
@@ -64,31 +66,31 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
-      label: 이슈 상세 정보
-      hint: 티켓을 작성하고자 하는 자세한 이유
+      type: thread #notrans
+      name: message #notrans
+      label: 이슈 세부정보
+      hint: 티켓을 오픈하는 이유에 대한 상세정보
       required: true
       edit_mask: 15
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: 우선순위
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: 회사 정보
-  instructions: 이메일 양식에서 사용 가능한 자세한 정보
+  instructions: 이메일 템플릿에서 상세 정보를 사용할 수 있습니다..
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: 회사 이름
       required: true
       sort: 1
@@ -97,23 +99,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: 웹사이트
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: 전화번호
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: 주소
       required: false
@@ -124,14 +126,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: 조직 정보
-  instructions: 사용자 조직에 관한 상세 내용
+  instructions: 사용자 조직에 대한 상세정보
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: 이름
       required: true
       sort: 1
@@ -166,7 +168,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: 내부 노트
       required: false

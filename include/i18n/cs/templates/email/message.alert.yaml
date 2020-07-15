@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Bude odesláno zaměstnanci v okamžiku připojení nové zprávy k zákaznickému požadavku. Situace může nastat, pokud uživatelé reagují na systémový e-mail nebo navštíví stránky zákaznické podpory a zveřejní novou zprávu.
 subject: |
   Upozornění na novou zprávu
-body: |2
+body: |
   <h3><strong>Dobrý den %{recipient},</strong></h3>
   K zákaznickému požadavku <a
   href="%{ticket.staff_link}">#%{ticket.number}</a> byla připojena nová zpráva

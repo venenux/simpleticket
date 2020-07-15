@@ -1,12 +1,16 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
-  Alert sent out to Agents when internal activity such as an internal
-  note or an agent reply is appended to a ticket.
+  Amaran dihantar kepada ejen apabila aktiviti dalaman seperti cacatan dalaman
+   atau balasan ejen dilampirkan pada tiket.
 subject: |
-  New Internal Activity Alert
+  Amaran Aktiviti Dalaman baru
 body: |
   <h3><strong>Hi %{recipient.name},</strong></h3>
-  An agent has logged activity on ticket <a
+  Ejen telah log aktiviti di tiket <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>
   <br>
@@ -14,7 +18,7 @@ body: |
   <tbody>
   <tr>
   <td>
-  <strong>From</strong>:
+  <strong>Daripada</strong>:
   </td>
   <td>
   %{note.poster}
@@ -22,7 +26,7 @@ body: |
   </tr>
   <tr>
   <td>
-  <strong>Title</strong>:
+  <strong>Tajuk</strong>:
   </td>
   <td>
   %{note.title}
@@ -35,12 +39,11 @@ body: |
   <br>
   <br>
   <hr>
-  To view/respond to the ticket, please <a
-  href="%{ticket.staff_link}">login</a> to the support ticket system
+  Untuk melihat/membalas tiket, sila <a
+  href="%{ticket.staff_link}">log masuk</a> ke sistem tiket sokongan
   <br>
   <br>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  <em style="font-size: small; ">Sistem sokongan pelangan anda yang mesra</em>
   <br>
   <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
   alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

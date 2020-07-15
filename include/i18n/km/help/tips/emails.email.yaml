@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: សំបុត្រថ្មី Help Topic
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Username
   content: >
-    
+
 password:
   title: ពាក្យសម្ងាត់
   content: >
-    
+
 login_information:
   title: អ៊ីម៉ែលចូល Info
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Allow Header Spoofing
   content: >
     បើកជម្រើសនេះដើម្បីអនុញ្ញាតឱ្យផ្ញើអ៊ីម៉ែលតាមរយៈប្រអប់សំបុត្រនេះពីអាសយដ្ឋានផ្សេងទៀតដែលបានផ្ដល់ឱ្យក្នុង <span class="doc-desc-title">Email Address</span> ការកំណត់ខាងលើ។ <br/><br/> ការកំណត់កម្រិតខ្ពស់នេះត្រូវបានប្រើជាទូទៅនៅពេលដែលផ្ញើសំបុត្រពីឈ្មោះក្លែងក្លាយ aliases នៃប្រអប់សំបុត្រនេះ។
+

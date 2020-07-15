@@ -1,4 +1,8 @@
 ---
+#Page template: offline.yaml
+#The offline page is served to the customer portal when the help desk is
+#configured offline in the Admin Panel
+#---
 notes: |
   當支援案件系統離線時，台端將會顯示這個離線頁面
 name: 離線

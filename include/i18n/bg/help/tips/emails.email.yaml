@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Нова помощна тема за заявки
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Потребителско име
   content: >
-    
+
 password:
   title: Парола
   content: >
-    
+
 login_information:
   title: Информация за влизане в имейл
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Разреши манипулация на заглавието (spoofing)
   content: >
     Разрешава изпращането на съобщения с адрес различен от  <span class="doc-desc-title">имейл адреса</span> даден по-горе. <br/><br/> Тази допълнителна настройка се използва предимно, когато искате да изпратите писмо с някой от псевдонимите на пощенската кутия.
+

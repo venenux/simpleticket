@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Enviada para um membro da equipe, quando um novo chamado é criado no sistema. Isso se aplica a chamados criados via e-mail, portal da web ou via api.
 subject: |
   Alerta de Novo Chamado
-body: |2
+body: |
   <h2>Olá %{recipient},</h2>
   Novo chamado #%{ticket.number} criado
   <br>

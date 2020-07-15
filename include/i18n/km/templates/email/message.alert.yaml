@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   ផ្ញើទៅឱ្យបុគ្គលិកពេលសារថ្មីត្រូវបានផ្ញើដោយអ្នកប្រើ។នេះអាចកើតឡើងប្រសិនបើអ្នកប្រើបានឆ្លើយតបទៅនឹងអ៊ីមែលពីមួយប្រព័ន្ធ ឬបើកមើលអតិថិជនវិបផតថល និងផ្ញើសារថ្មីនៅទីនោះ។
 subject: |
   ដំណឹងថ្មី
-body: |2
+body: |
   <h3><strong>សួស្តី %{recipient.name},</strong></h3>
   សារថ្មីបន្ថែមទៅនឹងករណី <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

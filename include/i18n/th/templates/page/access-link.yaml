@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   แม่แบบนี้กำหนดแจ้งเตือนสำหรับลูกค้าที่ลิงค์เข้าถึงถูกส่งไปยังอีเมลของพวกเขา หมายเลข Ticket และที่อยู่อีเมลเรียกลิงค์เข้าถึง
 name: "ลิงค์เข้าถึง Ticket [#%{ticket.number}]"

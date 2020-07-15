@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   قالب لمحتوى صفحة الترحيب التي تظهر للعملاء وطالبي الخدمة عن طريق الويب في حال قام المستخدم بتقديم تذكرة جديدة من خلال صفحة الويب الخاصة بالعملاء وطالبي الخدمة.
 name: شكراً لك

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Tema pomoči novega zahtevka
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Uporabniško ime
   content: >
-    
+
 password:
   title: Geslo
   content: >
-    
+
 login_information:
   title: Informacije prijave e-sporočila
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Dovoli spreminjanje glave
   content: >
     Omogoči, da je dovoljeno pošiljanje e-sporočil preko tega poštnega predala z naslova, ki je drugačen kot  <span class="doc-desc-title">naslov e-sporočila</span> v nastavitvah zgoraj. <br/><br/> Te napredne nastavitve se uporabljajo v primeru če pošiljamo e-sporočilo iz aliasa tega poštnega predala.
+

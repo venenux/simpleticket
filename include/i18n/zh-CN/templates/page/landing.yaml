@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   登陆页即客户入口初始印象的内容。此模板修改了上述内容，两处链接如下<strong>打开新咨询</strong>和<strong>检查咨询状态</strong>。
 name: 着陆中

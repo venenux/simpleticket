@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Хэрэглэгч хүсэлтэд шинэ мессеж оруулах үед тусламжийн албаны ажилтанд илгээх имэйлийн загвар. Энэ нь хэрэглэгчид системээс илгээсэн имэйлд хариу өгөх болон вэб хуудсаар лдамжуулан шинэ мессеж бичихэд хэрэглэгдэнэ.
 subject: |
   Шинэ Мессежийн Сануулга
-body: |2
+body: |
   <h3><strong>Сайн байна уу, %{recipient.name}?</strong></h3>
   <a
   href="%{ticket.staff_link}">#%{ticket.number}</a> дугаартай хүсэлтэд тэмдэглэл нэмэгдлээ.

@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Siunčiama personalo darbuotojui, kai sistemoje sukuriamas naujas bilietas.  Tai taikoma bilietams, kurie sukurti per el. paštą, internetinį portalą arba API.
 subject: |
   Pranešimas apie naują bilietą
-body: |2
+body: |
   <h2>Sveiki %{recipient.name},</h2>
   Naujas bilietas #%{ticket.number} sukurtas
   <br>

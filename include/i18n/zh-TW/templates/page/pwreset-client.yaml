@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   這個範本為忘記密碼 <strong>忘記密碼</strong>的人。
 name: "%{company.name} 支援案件系統訪問"

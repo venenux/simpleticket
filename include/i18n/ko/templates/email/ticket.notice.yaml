@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
-  사용자 대신 스태프가 티켓을 생성했을 때 발송됩니다.
-  이는 사용자가 전화로 요청했을 때 일반적으로 수행됩니다.
+  사용자 대신 직원이 티켓을 생성했을 때 발송됩니다.
+  이 작업은 사용자와 전화 응대 시 가장 일반적으로 수행됩니다.
 subject: |
   %{ticket.subject} [#%{ticket.number}]
 body: |

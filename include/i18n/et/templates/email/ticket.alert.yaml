@@ -1,11 +1,15 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
-  Saadetakse meeskonna liikmele, kui uus pöördumine on süsteemis registreeritud. See kehtib nii e-kirja, veebiportaali kui API kaudu tulnud pöördumistele.
+  Saadetakse meeskonna liikmele, kui uus pilet on süsteemis loodud. See kehtib nii emaili, veebiportaali kui API kaudu tulnud piletitele.
 subject: |
-  Teade uuest pöördumisest
-body: |2
-  <h2>Tere, %{recipient.name}!</h2>
-  Uus pöördumine #%{ticket.number} on registreeritud
+  Uue pileti teade
+body: |
+  <h2>Tere %{recipient.name}!</h2>
+  Loodi uus pilet #%{ticket.number}
   <br>
   <br>
   <table>
@@ -33,9 +37,9 @@ body: |2
   <br>
   <br>
   <hr>
-  <div>Pöördumise vaatamiseks või sellele vastamiseks <a
-  href="%{ticket.staff_link}">logi sisse</a> kasutajatoe süsteemi</div>
-  <em style="font-size: small">Sinu sõbralik klienditugi</em>
+  <div>Pileti vaatamiseks või sellele vastamiseks, palun <a
+  href="%{ticket.staff_link}">logi sisse</a> piletite haldussüsteemi</div>
+  <em style="font-size: small">Sinu sõbralik kasutajatugi</em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
       style="width: 126px; " alt="Powered By osTicket"

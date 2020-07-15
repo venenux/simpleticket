@@ -1,10 +1,14 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   נשלח ללקוח כאשר הסוכן פותח קריאה על שמו.
   הדבר הכי נפוץ כאשר הלקוח יוצר קשר דרך הטלפון.
 subject: |
   %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>היקר %{recipient.name.first},</strong></h3>
   צוות התמיכה שלנו פתח קריאה <ahref="%{recipient.ticket_link}">#%{ticket.number}</a> בשמך
   נושא הקריאה הוא:

@@ -1,11 +1,16 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
-  
+
 subject: |
-  Pöördumise #%{ticket.number} suunamine - %{ticket.dept.name}
-body: |2
-  <h3>Tere, %{recipient.name}!</h3>
-  Pöördumine <a href="%{ticket.staff_link}">#%{ticket.number}</a> on suunatud %{ticket.dept.name} osakonnale
+  Pilet #%{ticket.number} on üle antud - %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
+  <h3>Tere %{recipient.name}!</h3>
+  Pilet <a href="%{ticket.staff_link}">#%{ticket.number}</a> on üle antud %{ticket.dept.name} osakonnale
   <strong>%{staff.name.short}</strong> poolt
   <br>
   <br>
@@ -13,10 +18,10 @@ body: |2
       %{comments}
   </blockquote>
   <hr>
-  <div>Pöördumisele vastamiseks või selle vaatamiseks <a
-  href="%{ticket.staff_link}">logi sisse</a> kasutajatoe süsteemi.
+  <div>Pileti vaatamiseks või sellele vastamiseks, palun <a
+  href="%{ticket.staff_link}">logi sisse</a> piletite haldussüsteemi.
   </div>
-  <em style="font-size: small; ">Sinu sõbralik klienditugi</em>
+  <em style="font-size: small; ">Sinu sõbralik kasutajatugi </em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
       alt="Powered By osTicket" style="width: 126px;"

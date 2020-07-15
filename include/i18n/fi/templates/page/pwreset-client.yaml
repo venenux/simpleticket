@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Tämä pohja määrittää sähköpostiviestin asiakkaille, jotka valitsevat kirjautumissivulta<strong>Unohdin salasanani</strong>-linkin.
 name: "%{company.name} - Tukijärjestelmän Pääsynhallinta"

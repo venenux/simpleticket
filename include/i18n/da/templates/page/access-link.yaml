@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Denne skabelon definerer meddelser for klienter, som har fået tilsendt et adgangslink. Sagsnummer og e-mailadresse giver adgang til sagen.
 name: "Adgangslink til sag [#%{ticket.number}]"

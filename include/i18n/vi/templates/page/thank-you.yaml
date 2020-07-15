@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Khung mẫu này là mẫu hiển thị trên trang Cảm ơn khách hàng sau khi khách hàng tạo một ticket mới trên cổng thông tin khách hàng.
 name: Cảm ơn

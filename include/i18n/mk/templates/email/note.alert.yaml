@@ -1,11 +1,15 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
-  Alert sent out to Agents when internal activity such as an internal
-  note or an agent reply is appended to a ticket.
-subject: New Internal Activity Alert
+  Известување кое се праќа до Агентите кога на тикетот ќе се додаде внатрешна активност, како што е внатрешна белешка или одговор на Агент.
+subject: |
+  Известување за внатрешна активност
 body: |
-  <h3><strong>Hi %{recipient.name},</strong></h3>
-  An agent has logged activity on ticket <a
+  <h3><strong>Здраво %{recipient.name},</strong></h3>
+  Агентот додаде активност на тикетот <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>
   <br>
@@ -13,7 +17,7 @@ body: |
   <tbody>
   <tr>
   <td>
-  <strong>From</strong>:
+  <strong>Од</strong>:
   </td>
   <td>
   %{note.poster}
@@ -21,7 +25,7 @@ body: |
   </tr>
   <tr>
   <td>
-  <strong>Title</strong>:
+  <strong>Наслов</strong>:
   </td>
   <td>
   %{note.title}
@@ -34,12 +38,11 @@ body: |
   <br>
   <br>
   <hr>
-  To view/respond to the ticket, please <a
-  href="%{ticket.staff_link}">login</a> to the support ticket system
+  За да го прегледате или одговорите на тикетот ве молиме <a
+  href="%{ticket.staff_link}">најавете се</a> во системот за поддршка
   <br>
   <br>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  <em style="font-size: small; ">Вашиот систем за поддршка на клиенти</em>
   <br>
   <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
-  alt="Powered by osTicket" width="126" height="19" style="width: 126px;">
+  alt="Овозможено од osTicket" width="126" height="19" style="width: 126px;">

@@ -1,43 +1,36 @@
 ---
-deptId: 1
-topicId: 1
-name: osTicket Support
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
+name: osTiket Sokongan
 email: support@osticket.com
-source: Web
-subject: osTicket Installed!
+source: Web #notrans
+subject: osTiket dipasang!
 message: |
   <p>
-  Thank you for choosing osTicket.
+  Terima kasih kerana memilih osTicket.
   </p><p>
-  Please make sure you join the <a
-  href="http://osticket.com/forums">osTicket forums</a> and our <a
-  href="http://osticket.com/updates">mailing list</a> to stay up to date
-  on the latest news, security alerts and updates. The osTicket forums are
-  also a great place to get assistance, guidance, tips, and help from
-  other osTicket users.  In addition to the forums, the osTicket wiki
-  provides a useful collection of educational materials, documentation,
-  and notes from the community. We welcome your contributions to the
-  osTicket community.
+  Sila pastikan anda menyertai <a
+  href="http://osticket.com/forums">forum osTicket</a>dan kami punya<a
+  href="http://osticket.com/updates">senarai mel</a> untuk kekal terkini di dalam berita terkini, amaran keselamatan dan kemaskini. Forum osTicket adalah juga merupakan tempat yang baik untuk mendapatkan bantuan, bimbingan, petua, dan bantuan daripada pengguna osTicket yang lain. Sebagai tambahan kepada forum, wiki osTicket menyediakan koleksi bahan-bahan pendidikan, dokumentasi, dan nota yang berguna dari masyarakat. Kami mengalu-alukan sumbangan anda kepada komuniti osTicket.
   </p><p>
-  If you are looking for a greater level of support, we provide
-  professional services and commercial support with guaranteed response
-  times, and access to the core development team. We can also help
-  customize osTicket or even add new features to the system to meet your
-  unique needs.
+  Jika anda sedang mencari tahap sokongan yang lebih besar, kami menyediakan perkhidmatan profesional dan sokongan komersial dengan masa respon yang terjamin, dan akses kepada pasukan pembangunan teras. Kami juga boleh membantu menyesuaikan osTicket atau menambah ciri-ciri baru kepada sistem untuk memenuhi anda keperluan anda.
   </p><p>
-  If the idea of managing and upgrading this osTicket installation is
-  daunting, you can try osTicket as a hosted service at <a
+  Jika idea menguruskan dan menaik taraf pemasangan osTicket ini adalah
+  menakutkan, anda boleh cuba osTicket sebagai perkhidmatan yang dihoskan di <a
   href="http://www.supportsystem.com">http://www.supportsystem.com/</a> --
-  no installation required and we can import your data!  With
-  SupportSystem's turnkey infrastructure, you get osTicket at its best,
-  leaving you free to focus on your customers without the burden of making
-  sure the application is stable, maintained, and secure.
+  tiada pemasangan yang diperlukan dan kami boleh mengimport data anda! Dengan
+  infrastruktur penghidup SistemSokongan, anda dapat osTicket yang terbaik,
+  meninggalkan anda bebas untuk memberi tumpuan kepada pelanggan anda tanpa beban untuk memastikan permohonan adalah stabil, dikekalkan, dan selamat.
   </p><p>
-  Cheers,
+  Terima Kasih,
   </p><p>
   -<br/>
-  osTicket Team http://osticket.com/
+  Pasukan osTicket http://osticket.com/
   </p><p>
-  <strong>PS.</strong> Don't just make customers happy, make happy
-  customers!
+  <strong>PS.</strong> Jangan hanya membuat pelanggan gembira, Buat pelanggan gembira!
   </p>

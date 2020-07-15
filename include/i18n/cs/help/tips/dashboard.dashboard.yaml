@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> Dashboard
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 ticket_activity:
   title: Aktivita Tiketu
   content: >
@@ -26,15 +37,15 @@ overdue:
 closed:
   title: Uzavřené
   content: >
-    Toto je množství tiketů, které byly uzavřeny.
+    Toto je množství požadavků, které byly uzavřeny.
 reopened:
   title: Znovu otevřené
   content: >
-    Toto je počet tiketů, které byly znovu otevřeny ať už agentem nebo klientem, který odpověděl na již uzavřený tiket.
+    Toto je počet požadavků, které byly znovu otevřeny, ať již agentem či zákazníkem, když jeden z nich odpověděl na požadavek ve stavu Zavřený.
 service_time:
   title: Délka vypořádání
   content: >
-    <span class="doc-desc-title">Délka vypořádání</span> je čas, který uplynul od doby založení ticketu do doby jeho uzavření. Sloupec  <span class="doc-desc-title">Délka vypořádání</span> uvádí průměrný čas vypořádání tiketu v hodinách a ve vybraném rozsahu dat.
+    <span class="doc-desc-title">Délka vyřízení</span> je doba, která uplynula od začátku založení požadavku do doby jeho uzavření vašim pracovníkem. Sloupec <span class="doc-desc-title">Délka vyřízení</span> měří průměrnou dobu vyřízení požadavku v hodinách v rámci vybraného časového rozsahu.
 response_time:
   title: Reakční doba
   content: >

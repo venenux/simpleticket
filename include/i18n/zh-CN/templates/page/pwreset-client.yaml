@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   此模板定义了发给那些在登陆页面上选择了<strong>忘记了我的密码</strong>的客户的邮件。
 name: "%{company.name} 帮助中心访问"

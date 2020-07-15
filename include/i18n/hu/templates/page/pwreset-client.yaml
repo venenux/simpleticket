@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Ez a sablon határozza meg az ügyfélnek kiküldött emailt, miután kiválasztotta az <strong>Elfelejtett jelszó</strong> hivatkozást a ügyfél bejelentkezési oldalon.
 name: "%{company.name} ügyfélszolgálati belépés"

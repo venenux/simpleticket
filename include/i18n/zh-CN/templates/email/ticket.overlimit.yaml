@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overlimit.yaml
+#Sent to users when they have exceeded the maximum open ticket limit. The
+#limit is configurable in the Admin Panel, and is defined by the number of
+#tickets open by a particular email address.
+#---
 notes: |
   当客户发布的未处理咨询条数超过最大限值时，发送给客户。此限制在管理面板中可以配置，特指由某一电子邮箱地址创建的咨询条数。
 subject: |

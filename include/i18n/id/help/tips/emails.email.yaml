@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Topik bantuan tiket baru
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Nama pengguna
   content: >
-    
+
 password:
   title: Kata Sandi
   content: >
-    
+
 login_information:
   title: Email Informasi Login
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Memungkinkan Header Spoofing
   content: >
     Mengaktifkan ini memungkinkan mengirim email melalui kotak surat ini dari alamat lain yang orang yang diberikan dalam pengaturan <span class="doc-desc-title"> Alamat Email</span> di atas. <br/> <br/> Canggih suasana ini umumnya digunakan ketika mengirim e-mail dari alias kotak pesan ini.
+

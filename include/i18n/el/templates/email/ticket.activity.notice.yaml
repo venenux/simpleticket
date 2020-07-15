@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Ενημέρωση που αποστέλλεται στους συνεργάτες όταν υπάρχει δραστηριότητα στο ticket π.χ. απάντηση ή μήνυμα.
 subject: |
   Απ: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Αγαπητέ %{recipient.name.first},</strong></h3>
   <div>
       Το <em>%{poster.name}</em> κατέγραψε ένα μήνυμα σε ένα ticket στο οποίο συμμετέχετε.

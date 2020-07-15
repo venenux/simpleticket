@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Изпраща се до потребител, когато при създаването на заявка, се публикува автоматичен шаблонен отговор.
-  
+
   Налични променливи за замяна: %{ticket.*}, %{response}
 subject: |
   Re: %{ticket.subject}

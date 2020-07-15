@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Αποστέλλεται σε ένα μέλος του προσωπικού, όταν ένα νέο δελτίο δημιουργείται στο σύστημα. Αυτό ισχύει για τα δελτία που δημιουργούνται μέσω email, δικτυακής πύλης ή προγραμματιστικού περιβάλλοντος.
 subject: |

@@ -1,29 +1,40 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Add New Custom List
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 custom_lists:
-  title: Enda poolt koostatud nimekiri
+  title: Kohandatud nimekiri
   content: >
-    Sinu <span class="doc-desc-title">kohandatud loetelu</span> võimaldab luua rippmenüüsid, millest klient saab valida <span class="doc-desc-title">kohandatud vormi</span>. Kui soovid kasutada <span class="doc-desc-title">kohandatud loetelu</span> kui <span class="doc-desc-title">objekti</span> <span class="doc-desc-title">pöördumiste filtris</span>, lisa see loend <span class="doc-desc-title">pöördumise detailide</span> vormi.
+    Sinu <span class="doc-desc-title">kohandatud nimekiri</span> võimaldab luua rippmenüüsid koos eelseadistatud väärtustega, millest klient saab valida <span class="doc-desc-title">kohandatud vormi</span>. Kui soovid kasutada <span class="doc-desc-title">kohandatud nimekirja</span> kui <span class="doc-desc-title">objekti</span> <span class="doc-desc-title">piletite filtris</span>, lisa see loend <span class="doc-desc-title">pileti üksikasjade</span> vormi.
 name:
   title: Nimi
   content: >
-    
+
 plural_name:
   title: Nimi mitmuses
   content: >
-    
+
 sort_order:
   title: Sorteerimisjärjekord
   content: >
-    
+
 list_s_initial_items:
-  title: Nimekirja esialgsed osad
+  title: Nimekirja lähteelemendid
   content: >
-    
+
 value:
   title: Väärtus
   content: >
-    
+
 extra:
   title: Lisa
   content: >
-    Lühendid ja muu selline. Kui kasutad sisemisi koode selles loendis, saab neid koode ja lühendeid sisestada sellesse veergu. Kui kohandatud loendile osutatakse kui <span class = "doc-desc-variant">tüübile eespool</span>, saab lühendeid kohandatud loenditest otsida.
+    Lühendid ja muu selline. Kui kasutad sisemisi koode selles loendis, saab neid koode ja lühendeid sisestada sellesse veergu. Kui kohandatud nimekiri on <span class = "doc-desc-variant">etteantud</span>, saab neid lühendeid kasutada kohandatud nimekirjast otsimiseks.

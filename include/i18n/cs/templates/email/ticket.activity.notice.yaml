@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Zasláno pracovníkům, pokud je k požadavku přidána odpověď nebo zpráva.
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Vážený/á %{recipient.name.first},</strong></h3>
   <div>
       <em>uživatel %{poster.name}</em> právě zapsal zprávu k požadavku, na kterém se podílíte.
@@ -14,8 +17,9 @@ body: |2
   <br>
   <hr>
   <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;">
-  <em>Tento e-mail dostáváte, neboť jste spolupracovníkem u požadavku č. <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
-  >%{ticket.number}</a>. Pro reakci stačí na tento e-mail odpovědět
+  <em>Tento e-mail dostáváte, neboť jste veden jako spolupracovník
+  u požadavku č. <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
+  >%{ticket.number}</a>. Pro odpověď stačí na tento e-mail odpovědět
   nebo <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);"
-  >klikněte zde</a> pro zobrazení celého archívu vlákna požadavku.</em>
+  >klikněte zde</a>, abyste zobrazil celý archív vlákna požadavku.</em>
   </div>

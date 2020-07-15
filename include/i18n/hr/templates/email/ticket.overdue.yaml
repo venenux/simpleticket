@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Obavijest poslana djelatnicima kada kartici prođe rok za odgovor i b+dobiva oznaku "prošao rok". Prekoračenje roka ovisi o zadanom roku kartice, kao i zadanom ugovoru o razini usluge za karticu.
 subject: |
   Obavijest o neaktivnoj kartici
-body: |2
+body: |
   <h3><strong>Pozdrav %{recipient.name}</strong>,</h3>
   Kartici, <a href="%{ticket.staff_link}">#%{ticket.number}</a> je prošao rok za odgovor.
   <br>

@@ -19,7 +19,7 @@
         sort: 1
         edit_mask: 63
         configuration:
-          prompt: Estado de unt Ticket
+          prompt: Estado de un Ticket
       - 
         type: memo
         name: description

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Supporto per Nuovo Ticket
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Nome utente
   content: >
-    
+
 password:
   title: Password
   content: >
-    
+
 login_information:
   title: Informazioni per l'autenticazione tramite email
   content: >
@@ -75,3 +86,4 @@ header_spoofing:
   content: >
     Permetti questo per inviare email con questa casella di posta da un indirizzo di posta diverso da quello fornito precedentemente nell'impostazione <span class="doc-desc-title">Indirizzo email</span>. <br/><br/>
     Questa impostazione avanzata è generalmente usata per inviare email da account alias con questa casella di posta.
+

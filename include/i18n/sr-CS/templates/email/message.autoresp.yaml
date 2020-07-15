@@ -1,6 +1,13 @@
 ---
-notes: Poslato korisniku kada korisnik napiše novu poruku u tiketu. Ovo može da se desi ako korisnik odgovori na sistemski imejl ili poseti korisnički veb portal i ostavi tamo novu poruku.
-subject: Potvrda primljene poruke
+#Email template: message.autoresp.yaml
+#Sent to a user when the user posts a new message to a ticket. This can
+#happen if the users responds to an email from the system or visits the
+#customer web portal and posts a new message there.
+#---
+notes: |
+  Poslato korisniku kada korisnik napiše novu poruku u tiketu. Ovo može da se desi ako korisnik odgovori na sistemski imejl ili poseti korisnički veb portal i ostavi tamo novu poruku.
+subject: |
+  Potvrda primljene poruke
 body: |
   <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
   Vaš odgovor na zahtev za podršku <a

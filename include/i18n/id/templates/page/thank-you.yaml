@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Halaman Terima Kasih dimaksudkan untuk portal pelanggan ketika seorang pengguna mengirim tiket baru lewat portal pelanggan.
 name: Terima Kasih

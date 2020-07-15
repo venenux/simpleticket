@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Bu şablon müştəri girişi səhifəsində <strong>şifrəmi unutmuşam</strong> linkini seçən müştərilərə göndərilən e-poçtu müəyyən edir.
 name: "%{company.name} Help desk girişi"

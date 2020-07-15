@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Ez a sablon határozza meg az ügyfélnek kiküldött emailt, miután elkészítette a felhasználói fiókját az ügyfél portálon keresztül vagy miután egy munkatárs létrehozta. Ez az email az email cím visszaigozálására is szolgál. Kérjük, használja a %{link} címkét valahol a szövegtörzsben.
 name: "%{company.name} üdvözli Önt"

@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   이 템플릿은 직원 제어 패널 로그인 페이지의 <strong>비밀번호 분실</strong> 링크를 선택한 직원에게 보낼 이메일을 정의합니다.
 name: "osTicket 지원 패스워드 재설정"

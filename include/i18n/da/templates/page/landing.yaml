@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Destinations siden henviser til indholdet af Kundeportalens oprindelige visning. Skabelonen ændrer indhold set over de to links <strong>åben en ny sag</strong> og <strong>Kontrollere sagens Status</strong>.
 name: Landing

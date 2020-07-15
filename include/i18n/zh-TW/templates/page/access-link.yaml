@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   這個模板定義了通知，一個接入鏈路發送到他們的電子郵件客戶端。票號碼和電子郵件地址觸發接入鏈路。
 name: "案件 [#%{ticket.number}] 狀態查詢連結"

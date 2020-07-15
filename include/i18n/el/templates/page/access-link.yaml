@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Αυτό το πρότυπο ορίζει την ενημέρωση που αποστέλλεται προς τους Πελάτες ότι ένας σύνδεσμος πρόσβασης έχει αποσταλεί στο email τους. Ο αριθμός δελτίου αιτήματος και η ηλεκτρονική διεύθυνση ενεργοποιούν τον σύνδεσμο πρόσβασης.
 name: "Σύνδεσμος Πρόσβασης στο Δελτίο [#%{ticket.number}]"

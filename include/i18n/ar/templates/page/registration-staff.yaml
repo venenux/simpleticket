@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   هذا القالب يعرف البريد الإبتدائي المرسل للوكيل عندما يتم إنشاء حساب نيابةً عنهم.(إختياري)
 name: "مرحباً بك في osTicket"

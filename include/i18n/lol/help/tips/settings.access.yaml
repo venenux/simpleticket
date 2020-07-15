@@ -1,37 +1,49 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
+#Authentication settings
 password_reset:
-  title: 'crwdns1851:0crwdne1851:0'
+  title: crwdns1851:0crwdne1851:0
   content: >
     crwdns1852:0crwdne1852:0
 password_expiration_policy:
-  title: 'crwdns1853:0crwdne1853:0'
+  title: crwdns1853:0crwdne1853:0
   content: >
     crwdns1854:0crwdne1854:0
 allow_password_resets:
-  title: 'crwdns1855:0crwdne1855:0'
+  title: crwdns1855:0crwdne1855:0
   content: >
     crwdns1856:0crwdne1856:0
 reset_token_expiration:
-  title: 'crwdns1857:0crwdne1857:0'
+  title: crwdns1857:0crwdne1857:0
   content: >
     crwdns1858:0crwdne1858:0
 staff_session_timeout:
-  title: 'crwdns1859:0crwdne1859:0'
+  title: crwdns1859:0crwdne1859:0
   content: >
     crwdns1860:0crwdne1860:0
 client_session_timeout:
-  title: 'crwdns1861:0crwdne1861:0'
+  title: crwdns1861:0crwdne1861:0
   content: >
     crwdns1862:0crwdne1862:0
 bind_staff_session_to_ip:
-  title: 'crwdns1863:0crwdne1863:0'
+  title: crwdns1863:0crwdne1863:0
   content: >
     crwdns1864:0crwdne1864:0
 registration_method:
-  title: 'crwdns1865:0crwdne1865:0'
+  title: crwdns1865:0crwdne1865:0
   content: >
     crwdns1866:0crwdne1866:0
 client_verify_email:
-  title: 'crwdns1867:0crwdne1867:0'
+  title: crwdns1867:0crwdne1867:0
   content: >
     crwdns1868:0crwdne1868:0

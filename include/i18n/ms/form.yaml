@@ -2,13 +2,13 @@
 - 
   id: 1
   type: U
-  title: Contact Information
+  title: Maklumat Perhubungan
   deletable: false
   fields:
     - 
       type: text
       name: email
-      label: Email Address
+      label: Alamat Email
       required: true
       sort: 1
       edit_mask: 15
@@ -19,7 +19,7 @@
     - 
       type: text
       name: name
-      label: Full Name
+      label: Nama Penuh
       required: true
       sort: 2
       edit_mask: 15
@@ -29,13 +29,13 @@
     - 
       type: phone
       name: phone
-      label: Phone Number
+      label: Nombor Telefon
       required: false
       sort: 3
     - 
       type: memo
       name: notes
-      label: Internal Notes
+      label: Nota-nota dalaman
       required: false
       private: true
       sort: 4
@@ -44,20 +44,20 @@
         cols: 40
 - 
   id: 2
-  type: T
-  title: Ticket Details
-  instructions: Please Describe Your Issue
+  type: T #notrans
+  title: Maklumat Terperinci Tiket
+  instructions: Sila Jelaskan Isu Anda
   notes: |
-    This form will be attached to every ticket, regardless of its source.
-    You can add any fields to this form and they will be available to all
-    tickets, and will be searchable with advanced search and filterable.
+    Borang ini akan disertakan kepada setiap tiket, tanpa mengira sumbernya.
+    Anda boleh menambah apa-apa bidang untuk borang ini dan ia terbuka kepada semua
+    tiket, dan dapat dicari dengan carian yang maju dan ditapis.
   deletable: false
   fields:
     - 
       id: 20
-      type: text
-      name: subject
-      label: Issue Summary
+      type: text #notrans
+      name: subject #notrans
+      label: Ringkasan Isu
       required: true
       edit_mask: 15
       sort: 1
@@ -66,32 +66,32 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
-      label: Issue Details
-      hint: Details on the reason(s) for opening the ticket.
+      type: thread #notrans
+      name: message #notrans
+      label: Butiran isu
+      hint: Maklumat terperinci mengenai sebab-sebab untuk membuka tiket.
       required: true
       edit_mask: 15
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
-      label: Priority Level
+      type: priority #notrans
+      name: priority #notrans
+      label: Tahap Keutamaan
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
-  title: Company Information
-  instructions: Details available in email templates
+  type: C #notrans
+  title: Maklumat syarikat
+  instructions: Maklumat yang terdapat di templat e-mel
   deletable: false
   fields:
     - 
-      type: text
-      name: name
-      label: Company Name
+      type: text #notrans
+      name: name #notrans
+      label: Nama Syarikat
       required: true
       sort: 1
       edit_mask: 3
@@ -99,25 +99,25 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
-      label: Website
+      type: text #notrans
+      name: website #notrans
+      label: Laman Sesawang
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
-      label: Phone Number
+      type: phone #notrans
+      name: phone #notrans
+      label: Nombor Telefon
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
-      label: Address
+      label: Alamat
       required: false
       sort: 4
       configuration:
@@ -126,15 +126,15 @@
         html: false
         length: 100
 - 
-  type: O
-  title: Organization Information
-  instructions: Details on user organization
+  type: O #notrans
+  title: Maklumat Organisasi
+  instructions: Maklumat terperinci mengenai organisasi pengguna
   deletable: false
   fields:
     - 
-      type: text
-      name: name
-      label: Name
+      type: text #notrans
+      name: name #notrans
+      label: Nama
       required: true
       sort: 1
       edit_mask: 15
@@ -144,7 +144,7 @@
     - 
       type: memo
       name: address
-      label: Address
+      label: Alamat
       required: false
       sort: 2
       configuration:
@@ -155,22 +155,22 @@
     - 
       type: phone
       name: phone
-      label: Phone
+      label: Telefon
       required: false
       sort: 3
     - 
       type: text
       name: website
-      label: Website
+      label: Laman Sesawang
       required: false
       sort: 4
       configuration:
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
-      label: Internal Notes
+      label: Nota-nota dalaman
       required: false
       sort: 5
       configuration:

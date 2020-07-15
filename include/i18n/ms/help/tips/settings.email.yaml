@@ -1,77 +1,89 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Emails
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 default_email_templates:
-  title: Default Email Template Set
+  title: Set templat e-mel lalai
   content: >
-    Select <span class="doc-desc-title">Email Template Set</span> used to send <span class="doc-desc-title">Auto-Responses</span> and <span class="doc-desc-title">Alerts</span> for various actions that can take place during a  Ticket’s lifetime. <br><br> Departments can be assigned a specific Email Template Set.
+    Pilih <span class="doc-desc-title"> Set Templat E-mel</span> digunakan untuk menghantar <span class="doc-desc-title"> Auto-Respon</span> dan <span class="doc-desc-title">Amaran</span> untuk pelbagai tindakan yang boleh berlaku semasa hayat Tiket. <br><br> Jabatan boleh diberikan Set Templat E-mel tertentu.
   links:
     - 
-      title: Manage Email Template Sets
+      title: Urus set templat e-mel
       href: /scp/templates.php
 default_system_email:
-  title: Default Outgoing Email
+  title: E-mel keluar lalai
   content: >
-    Choose an email address from which outgoing emails are sent. <br><br> <span class="doc-desc-title">Department</span> can set its own <span class="doc-desc-title">email address</span> which will override what is set here.
+    Pilih alamat e-mel dari yang mana e-mel keluar dihantar. <br><br> <span class="doc-desc-title">Jabatan</span> boleh menetapkan dia punya sendiri <span class="doc-desc-title">alamat e-mel</span> yang mana akan mengatasi apa yang ditetapkan di sini.
   links:
     - 
-      title: Manage Email Addresses
+      title: Urus Alamat-alamat Email
       href: /scp/emails.php
 default_alert_email:
-  title: Default Alert Email
+  title: E-mel amaran lalai
   content: >
-    Choose an email address from which <span class="doc-desc-title">Alerts &amp; Notices</span> are sent to Agents.
+    Pilih alamat e-mel daripada yang mana <span class="doc-desc-title">Amaran &amp; Notis</span> dihantar pada ejen.
   links:
     - 
-      title: Manage Email Addresses
+      title: Urus Alamat-alamat Email
       href: /scp/emails.php
 admins_email_address:
-  title: Admin’s Email Address
+  title: Alamat Emel Admin
   content: >
-    Enter an adminstrator's email address to which <span class="doc-desc-title">System Errors</span> and <span class="doc-desc-title">New Ticket Alerts</span> (if enabled) are sent.
+    Masukkan alamat e-mel pentadbir ke yang mana <span class="doc-desc-title">Ralat Sistem</span> dan <span class="doc-desc-title">Amaran Tiket Baru</span> (jika dibolehkan) dihantar.
   links:
     - 
-      title: Manage Alerts & Notices
+      title: Urus notis & amaran
       href: /scp/settings.php?t=alerts
 email_fetching:
-  title: Email Fetching
+  title: Semasa Mengambil E-mel
   content: >
-    Allow IMAP/POP polling for configured and enabled <span class="doc-desc-title">Mail Boxes</span>.
+    Benarkan IMAP / POP pengundian bagi dikonfigurasikan dan diaktifkan <span class="doc-desc-title"> peti surat </span>.
   links:
     - 
-      title: Manage Mail Boxes
+      title: Urus peti surat
       href: /scp/emails.php
 enable_autocron_fetch:
-  title: Fetch Emails using Auto-cron
+  title: Kumpulkan E-mel menggunakan Auto-kron
   content: >
-    Enables periodic email fetching using an internal task manager triggered by Agents' activity.  <br><br> Please note that emails will not be fetched if no one is logged in to Staff Control Panel. External task scheduler is highly recommended for predictable fetch intervals.
+    Membolehkan e-mel berkala semasa mengambil menggunakan pengurus tugas dalaman dicetuskan oleh Ejen aktiviti. <br><br> Sila ambil perhatian bahawa e-mel tidak akan diambil jika tiada siapa yang log masuk kepada Panel Kawalan Kakitangan. tugas Luar penjadual amat disyorkan untuk jangka masa yang boleh dijangka untuk mengambil.
   links:
     - 
-      title: Using External Task Scheduler
-      href: 'http://osticket.com/wiki/POP3/IMAP_Setting_Guide'
+      title: Menggunakan Penjadual Tugas Luaran
+      href: http://osticket.com/wiki/POP3/IMAP_Setting_Guide
 strip_quoted_reply:
-  title: Strip Quoted Reply
+  title: Balasan Petikan Jalur
   content: >
-    If enabled, this will remove preceding correspondence between email communications. <br><br> This feature is relationally dependent on the <span class="doc-desc-title">Reply Separator Tag</span> below.
+    Jika didayakan, ini akan mengeluarkan surat-menyurat sebelumnya antara komunikasi e-mel. <br><br> 
+    Ciri ini pada hubungnya bergantung kepada <span class="doc-desc-title"> Tag Pemisah Balasan</span> di bawah.
 reply_separator_tag:
-  title: Reply Separator Tag
+  title: Balas pemisah tag
   content: >
-    This is a token indicating to the User to reply above the line. <br><br> <strong>Note:</strong> this is only relevant if <span class="doc-desc-title">Strip Quoted Reply</span> is enabled above.
+    Ini adalah tanda yang menunjukkan kepada Pengguna untuk membalas garis diatas. <br><br><strong> Nota: <</strong> ini hanya relevan jika <span class="doc-desc-title"> jalur balas yang dipetik </span>dibolehkan diatas.
 emailed_tickets_priority:
-  title: Emailed Tickets Priority
+  title: Keutamaan Tiket yang Diemel
   content: >
-    Choose whether you would like the priority/importance option of the User's email (e.g. OutLook) to dictate the new ticket’s priority. <br><br> This setting can be overridden by a <span class="doc-desc-title">Ticket Filter</span>.
+    Pilih sama ada anda mahu pilihan keutamaan / kepentingan e-mel Pengguna (contohnya, pandangan) untuk menentukan keutamaan tiket yang baru<br><br> Tetapan ini boleh diatasi oleh <span class="doc-desc-title">penapis tiket</span>.
   links:
     - 
-      title: Create &amp; Manage Ticket Filters
+      title: Cipta &amp; Urus Penapis Tiket
       href: /scp/filters.php
 accept_all_emails:
-  title: Accept All Emails
+  title: Terima Semua Emel
   content: >
-    Accept emails from unknown Users. <br><br> Unchecking this setting will result in tickets getting rejected.
+    Terima e-mel daripada pengguna yang tidak diketahui. <br><br> tidak tanda semak tetapan ini akan menyebabkan tiket ditolak.
 accept_email_collaborators:
-  title: Accept Email Collaborators
+  title: Terima kolaborator Email
   content: >
-    Add email participants included in the <code><strong>To</strong></code> and <code><strong>CC</strong></code> fields as ticket collaborators. <br /><br /> <em>Collaborators can always be added manually by Agents when viewing a ticket.</em>
+    Tambah e-mel peserta termasuk dalam <code><strong> Untuk </strong></code> dan <code><strong> CC</strong></code> bidang seperti rakan usaha sama tiket. <br/><br/><em> Rakan usaha sama sentiasa boleh ditambah secara manual oleh Ejen apabila melihat tiket. </em>
 default_mta:
-  title: Default MTA
+  title: MTA lalai
   content: >
-    <span class="doc-desc-title">Default MTA</span> takes care of email delivery process for outgoing emails without SMTP setting.
+    <span class="doc-desc-title">MTA lalai</span> menjaga proses penghantaran e-mel untuk e-mel keluar tanpa tetapan SMTP.

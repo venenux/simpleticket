@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Αποστέλλεται στα μέλη του προσωπικού όταν ένα αίτημα στο σύστημα μετατρέπεται σε εκπρόθεσμο. Τα εκπρόθεσμα αιτήματα προκύπτουν με βάση την Ημερομηνία Παράδοσης του αιτήματος καθώς και με βάση την SLA που έχει οριστεί για το δελτίο.
 subject: |

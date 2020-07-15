@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   ترسل إلى الموظفين الأعضاء في حال تغير حالة التذكرة في النظام إلى متأخرة.
   التذاكر المتأخرة تحدث بناءً على تاريخ الاستحقاق للتذكرة إضافة إلى اتفاقية مستوى الخدمة المعرفة للتذكرة.

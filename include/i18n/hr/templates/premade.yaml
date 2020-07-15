@@ -3,7 +3,7 @@
   isenabled: 1
   title: Što je osTicket(uzorak)?
   response: "osTicket je široko korišteni open source sustav za tehničku podršku,\natraktivna alternativa skuplje i složene sustave tehničke podrške - jednostavan, lagan, pouzdan, open source, web baziran i jednostavan za postavljanje i upotrebu ."
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Vaša #%{ticket.number} otvorena dana %{ticket.create_date} nalazi se u
-    %{ticket.dept.name} odjelu.
+    %{ticket.dept.name} odjelu. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

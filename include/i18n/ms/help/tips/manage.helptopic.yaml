@@ -1,77 +1,89 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Help Topic
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 help_topic_information:
-  title: Help Topic Information
+  title: Bantu Maklumat Topik
   content: >
-    <span class="doc-desc-title">Help Topics</span> guide what information is gathered from Users and how tickets are routed or assigned.
+    <span class="doc-desc-title">Topik Bantuan</span> membimbing maklumat apakah yang dikumpulkan dari Pengguna dan bagaimana tiket dihalakan atau diberikan.
 topic:
-  title: Topic Name
+  title: Nama Topik
   content: >
-    Unique Help Topic name.
+    Unik nama topik bantuan.
 status:
   title: Status
   content: >
-    If disabled, this <span class="doc-desc-title">Help Topic</span> will not be available.
+    Jika tidak diaktifkan, <span class="doc-desc-title">Topik Bantuan</span> ini tidak akan boleh didapati.
 type:
-  title: Type
+  title: Jenis
   content: >
-    If a <span class="doc-desc-title">Help Topic</span> is labeled as Private, it will only be available for Agents to choose when an Agent opens a new Ticket under the Staff Panel.
+    Jika <span class="doc-desc-title">Topik Bantuan</span> dilabel sebagai Peribadi, ia hanya akan tersedia untuk Ejen untuk memilih apabila Ejen membuka tiket baru di bawah Panel Kakitangan.
 parent_topic:
-  title: Parent Topic
+  title: Topik utama
   content: >
-    Select the Parent Topic to which this <span class="doc-desc-title">Help Topic</span> will belong. The Parent Topic will appear first in the listing with this <span class="doc-desc-title">Help Topic</span> listed behind the parent.
+    Pilih Topik Induk yang mana <span class="doc-desc-title">Topik Bantuan</span> ini akan tergolong. Topik Induk akan muncul dahulu dalam senarai dengan <span class="doc-desc-title">Topik Bantuan</span> ini yang disenaraikan di belakang induk.
 custom_form:
-  title: Custom Form
+  title: Borang biasa
   content: >
-    Custom Forms will help you acquire more specific information from Users that are relevant to this <span class="doc-desc-title">Help Topic</span>.
+    Borang biasa akan membantu anda mendapatkan maklumat yang lebih khusus daripada Pengguna yang berkaitan dengan ini <span class="doc-desc-title"> Bantuan Topik </span>.
   links:
     - 
-      title: Manage Custom Forms
+      title: Urus borang biasa
       href: /scp/forms.php
 priority:
-  title: Priority
+  title: Keutamaan
   content: >
-    Select the Priority assigned to new tickets related to this <span class="doc-desc-title">Help Topic</span>. <br><br> Ticket Filters can override new ticket Priority.
+    Pilih Keutamaan yang diberikan kepada tiket baru yang berkaitan dengan <span class="doc-desc-title">Topik Bantuan</span>.<br><br> Penapis Tiket boleh mengatasi Keutamaan tiket baru.
 department:
-  title: Department
+  title: Jabatan
   content: >
-    Choose Department to which new tickets under this Help Topic will be routed.
+    Pilih Jabatan yang mana tiket baru di bawah Topik Bantuan ini akan dihalakan.
   links:
     - 
-      title: Manage Departments
+      title: Urus Jabatan
       href: /scp/departments.php
 sla_plan:
-  title: SLA Plan
+  title: Rancangan SLA
   content: >
-    Choose SLA plan associated with this <span class="doc-desc-title">Help Topic</span>. <br><br> This selection will override any selected Department's SLA plan
+    Pilih pelan SLA yang berkaitan dengan <span class="doc-desc-title">Topik Bantuan</span>ini. <br><br> 
+    Pemilihan ini akan mengatasi mana-mana pelan SLA Jabatan yang dipilih
   links:
     - 
-      title: Manage SLA Plans
+      title: Urus rancangan SLA
       href: /scp/slas.php
 thank_you_page:
-  title: Thank-You Page
+  title: Halaman Terima-Kasih
   content: >
-    Choose the Thank-You Page to which a User is directed after opening a Ticket under this <span class="doc-desc-title">Help Topic</span>.
+    Pilih halaman Terima-Kasih di mana pengguna yang diarahkan selepas membuka tiket di bawah ini <span class="doc-desc-title"> Bantuan Topik </span>.
   links:
     - 
-      title: Manage Thank-You Pages
+      title: Mengurus halaman Terima-kasih
       href: /scp/pages.php
 auto_assign_to:
-  title: Auto-assign New Tickets
+  title: Auto-tugas tiket baru
   content: >
-    Optionally choose an Agent or Team to auto-assign tickets opened with this <span class="doc-desc-title">Help Topic</span> <br><br> Ticket Filters can override assignment.
+    Secara pilihan memilih Ejen atau pasukan untuk tiket automatik menyerahhakkan dibuka dengan ini <span class="doc-desc-title">Topik Bantuan </span><br><br> Penapis Tiket boleh mengatasi tugasan.
   links:
     - 
-      title: Manage Staff and Teams
+      title: Urus Kakitangan dan Pasukan
       href: /scp/staff.php
 ticket_auto_response:
-  title: Ticket Auto-response
+  title: Auto-Respon Tiket
   content: >
-    If checked, the setting will disable new ticket auto-responses for this <span class="doc-desc-title">Help Topic</span>. <br><br> This overrides the autoresponder setting for the <span class="doc-desc-title">Department</span> as well as global <span class="doc-desc-title">Autoresponder settings</span>.
+    Jika disemak, tetapan akan melumpuhkan tiket baru auto-respon untuk ini <span class="doc-desc-title"> Topik Bantuan</span>. <br><br> ini membatalkan tetapan autorespond untuk <span class="doc-desc-title"> Jabatan </span> dan juga global <span class="doc-desc-title"> Tetapan Autorespond </span>.
   links:
     - 
-      title: Autoresponder Settings
+      title: Tetapan autorespon
       href: /scp/settings.php?t=autoresp
 custom_numbers:
-  title: Custom Ticket Numbers
+  title: Nombor Tiket Biasa
   content: >
-    Choose "Custom" here to override the system default ticket numbering format for tickets created in this help topic.  See the help tips on the Settings / Tickets page for more details on the settings.
+    Pilih "kebiasaan" di sini untuk mengatasi sistem lalai tiket format penomboran untuk tiket dicipta dalam bantuan topik ini. Lihat bantuan dalam tips pada halaman tetapan / Tiket untuk maklumat lebih lanjut mengenai tetapan.

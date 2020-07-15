@@ -1,22 +1,25 @@
 ---
+#Email template: message.autoresp.yaml
+#Sent to a user when the user posts a new message to a ticket. This can
+#happen if the users responds to an email from the system or visits the
+#customer web portal and posts a new message there.
+#---
 notes: |
-  Sent to a user when the user posts a new message to a ticket. This can
-  happen if the user responds to an email from the system or visits the
-  customer web portal and posts a new message there.
+  Dihantar ke pengguna apabila pengguna menghantar mesej baru ke tiket. Perkara ini akan berlaku sekiranya pengguna memberi maklumbalas email dari sistem ataupun melayari portal pengguna dan menghantar mesej baru melaluinya.
 subject: |
-  Message Confirmation
+  Pengesahan mesej
 body: |
   <h3><strong>Dear %{recipient.name.first},</strong></h3>
-  Your reply to support request <a
-  href="%{recipient.ticket_link}">#%{ticket.number}</a> has been noted
+  balasan anda untuk menyokong permintaan<a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> telah dicatat
   <br>
   <br>
   <div style="color: rgb(127, 127, 127); ">
-  Your %{company.name} Team,<br>
+  Anda %{company.name} Pasukan,<br>
   %{signature}
   </div>
   <hr>
   <div style="color: rgb(127, 127, 127); font-size: small; text-align:
-  center"><em>You can view the support request progress <a
+  center"><em>Anda boleh melihat kemajuan permintaan sokongan <a
   href="%{recipient.ticket_link}">online here</a></em>
   </div>

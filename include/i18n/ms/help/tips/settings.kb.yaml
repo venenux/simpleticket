@@ -1,29 +1,40 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> Knowledgebase
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 knowledge_base_settings:
-  title: Knowledge Base Settings
+  title: Tetapan asas pengetahuan
   content: >
-    
+
 knowledge_base_status:
-  title: Knowledge Base Status
+  title: Status asas pengetahuan
   content: >
-    Enable this setting to allow your users self-service access to your public knowledge base articles. <br><br> Knowledge base categories and FAQs can be made internal (viewable only by Agents).
+    Dayakan tetapan ini untuk membolehkan pengguna anda layan diri mengakses kepada artikel asas pengetahuan umum anda. <br><br> Kategori asas pengetahuan dan Soalan Lazim boleh dibuat dalaman (hanya boleh dilihat oleh Ejen).
   links:
     - 
-      title: Manage Knowledge Base
+      title: Mengurus asas pengetahuan
       href: /scp/kb.php
 restrict_kb:
-  title: Resctrict Access to the Knowledge Base
+  title: Sekat Akses kepada Asas Pengetahuan
   content: >
-    Enable this setting to prevent unregistered users from accessing your knowledge base articles on the client interface.
+    Aktifkan tetapan ini untuk menghalang pengguna yang tidak berdaftar daripada mengakses artikel asas pengetahuan anda pada antara muka pelanggan.
   links:
     - 
-      title: Access Control Settings
+      title: Tetapan Kawalan Akses
       href: /scp/settings.php?t=access
 canned_responses:
-  title: Canned Responses
+  title: Respon Terkumpul
   content: >
-    Enable this setting to allow Agents to use <span class="doc-desc-title">Canned Responses</span> when replying to tickets.
+    Aktifkan tetapan ini untuk membolehkan Ejen menggunakan <span class="doc-desc-title">Respon Terkumpul</span> ketika membalas tiket.
   links:
     - 
-      title: Manage Canned Responses
+      title: Urus Respon Terkumpul
       href: /scp/canned.php

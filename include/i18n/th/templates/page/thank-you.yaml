@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   หน้าเพจขอบคุณจะแสดงในพอร์ทัลองลูกค้าเมื่อผู้ใช้ระบบสร้างทิคเก็ตใหม่ผ่านทางพอร์ทัล
 name: ขอบคุณ

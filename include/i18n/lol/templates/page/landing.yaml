@@ -1,6 +1,10 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   crwdns931:0crwdne931:0
-name: 'crwdns506:0crwdne506:0'
+name: crwdns506:0crwdne506:0
 body: >
   crwdns507:0crwdne507:0

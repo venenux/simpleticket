@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> Dashboard
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 ticket_activity:
   title: 티켓 활동
   content: >
@@ -26,11 +37,11 @@ overdue:
 closed:
   title: 종료됨
   content: >
-    닫힌 티켓의 수를 나타냅니다.
+    종료된 티켓의 수를 나타냅니다.
 reopened:
   title: 재개됨
   content: >
-    이미 닫힌 티켓에 관리자 혹은 고객이 답변하여 다시 열리게 된 티켓의 수를 나타냅니다.
+    이미 종료된 티켓에 관리자 혹은 고객이 답변하여 다시 열리게 된 티켓의 수를 나타냅니다.
 service_time:
   title: 서비스 시간
   content: >

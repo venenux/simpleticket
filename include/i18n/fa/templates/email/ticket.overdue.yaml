@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   زمانی که یک درخواست در سیستم تاریخ گذشته می شود برای کارشناس ارسال می شود.
   درخواست ها زمانی تاریخ گذشته می شوند که دیرترین زمان پاسخ گویی تعیین شده برای آن درخواست، بر مبنای توافق نامه های سطح سرویس تعریف شده در سیستم، گذشته باشد.
 subject: |
   هشدار درخواست کهنه شده
-body: |2
+body: |
   <h3><strong>سلام %{recipient}</strong>,</h3>
   تاریخ انقضای درخواست, <a href="%{ticket.staff_link}">#%{ticket.number}</a>سر رسیده است.
   <br>

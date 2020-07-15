@@ -1,7 +1,14 @@
 ---
-notes: 'Poslato operaterima nakon što im se dodeli tiket. Tiketi mogu biti dodelјeni automatski od strane sistema ili ručno od strane drugog operatera. Koristi %{assigner} da bi odredio ko je izvršio dodelu.'
-subject: Tiket dodeljen Vama
-body: |2
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
+notes: |
+  Poslato operaterima nakon što im se dodeli tiket. Tiketi mogu biti dodelјeni automatski od strane sistema ili ručno od strane drugog operatera. Koristi %{assigner} da bi odredio ko je izvršio dodelu.
+subject: |
+  Tiket dodeljen Vama
+body: |
   <h3><strong>Zdravo %{assignee.name.first},</strong></h3>
   Tiket <a href="%{ticket.staff_link}">#%{ticket.number}</a> vam je dodelio %{assigner.name.short}
   <br>

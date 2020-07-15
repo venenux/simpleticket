@@ -1,5 +1,10 @@
 ---
-notes: Stranica zahvalnosti se prikazuje korisniku nakon uspešnog slanja novog tiketa putem korisničkog portala.
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
+notes: |
+  Stranica zahvalnosti se prikazuje korisniku nakon uspešnog slanja novog tiketa putem korisničkog portala.
 name: Hvala Vam
 body: |
   <div>%{ticket.name},

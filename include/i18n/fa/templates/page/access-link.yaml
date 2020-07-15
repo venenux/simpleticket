@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   این قالب اطلاع‌رسانی برای مشتریانی که یک لینک دسترسی به ایمیلشان ارسال شده را تعریف می کند. تعداد تیکت و آدرس ایمیل لینک دسترسی را مشخص می‌کند.
 name: "لینک دسترسی به درخواست شماره [#%{ticket.number}]"

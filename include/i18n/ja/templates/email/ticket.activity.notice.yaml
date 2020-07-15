@@ -1,6 +1,11 @@
 ---
-notes: この通知はチケットのアクティビティなどに返信した方または協力された方に送信されます。
-subject: 'Re: %{ticket.subject} [#%{ticket.number}]'
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
+notes: |
+  この通知はチケットのアクティビティなどに返信した方または協力された方に送信されます。
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
 body: |
   <h3><strong>%{recipient.name.first}　様</strong></h3>
   <div>

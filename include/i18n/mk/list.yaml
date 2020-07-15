@@ -1,7 +1,7 @@
 ---
 - 
   type: ticket-status
-  name: Ticket Status
+  name: Статус на тикет
   name_plural: Статус на тикетот
   sort_mode: SortCol
   masks: 13
@@ -23,7 +23,7 @@
       - 
         type: memo
         name: description
-        label: Description
+        label: Опис
         required: false
         sort: 3
         edit_mask: 15

@@ -7,7 +7,7 @@
   sort: 1
   flags: 0
   properties:
-    description: Avatud pöördumised.
+    description: Avatud piletid.
 - 
   id: 2
   name: Lahendatud
@@ -17,7 +17,7 @@
   flags: 0
   properties:
     description: >
-      Lahendatud pöörudmised suletakse ning neid saab lõppkasutaja taas-avada. See võiks olla kasulik, kui pöördumised auletakse automaatselt ning kasutajale saadetakse selle kohta teade.
+      Lahendatud piletid on suletud piletid, mida lõppkasutaja saab taasavada. See võiks olla kasulik, kui piletid suletakse automaatselt ning kasutajale saadetakse selle kohta teade.
 - 
   id: 3
   name: Suletud
@@ -27,7 +27,7 @@
   flags: 0
   properties:
     description: >
-      Suletud pöördumisi ei saa lõppkasutaja taas avada. Pöördumised on siiski kättesaadavad kliendi ja meeskonna lehel.
+      Suletud pileteid ei saa lõppkasutaja taas avada. Piletid on siiski kättesaadavad kliendile ja töötajate lehel.
 - 
   id: 4
   name: Arhiveeritud
@@ -37,7 +37,7 @@
   flags: 0
   properties:
     description: >
-      Pöördumine on arhiveeritud ja pole kättesaadav üldises pöördumiste järjekorras.
+      Pilet on arhiveeritud ja pole kättesaadav üldises piletite järjekorras.
 - 
   id: 5
   name: Kustutatud
@@ -47,4 +47,4 @@
   flags: 0
   properties:
     description: >
-      Pöördumised ootavad kustutamist, nad pole kättesaadavad üldises pöördumiste loendis.
+      Piletid ootavad kustutamist. Nad pole kättesaadavad üldises piletite järjekorras.

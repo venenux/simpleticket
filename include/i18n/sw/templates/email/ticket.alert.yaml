@@ -1,7 +1,13 @@
 ---
-notes: Inatumwa kwa mfanyikazi wakati tiketi mpya imetengenezwa katika mfumo. Hii inatumika kwa tiketi ambazo zimetengenezwa kwa kutumia barua pepe, mtandao portal, au api.
-subject: Tiketi mpya tahadari
-body: |2
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
+notes: |
+  Inatumwa kwa mfanyikazi wakati tiketi mpya imetengenezwa katika mfumo. Hii inatumika kwa tiketi ambazo zimetengenezwa kwa kutumia barua pepe, mtandao portal, au api.
+subject: |
+  Tiketi mpya tahadari
+body: |
   <h2>Hi %{recipient},</h2>
   Tiketi mpya #%{ticket.number} imetengenezwa
   <br>

@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
 notes: |
   נשלח למשתמש בעת פתיחת קריאה חדשה 
 subject: |
   נפתח כרטיס תמיכה [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>היקר %{recipient.name.first},</strong></h3>
   <p>
   נוצרה קריאה חדשה #%{ticket.number}.

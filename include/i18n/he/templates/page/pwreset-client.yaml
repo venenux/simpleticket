@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   תבנית זו מגדירה את המלל שישלח ללקוחות אשר לחצו על הקישור<strong>שכחתי את הסיסמה שלי</strong> במסך הכניסה.
 name: "גישת מרכז תמיכה %{company.name}"

@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   La pàgina d'inici es refereix al contingut visual del Portal del client. La plantilla modifica el contingut vist a dalt dels dos enllaços, <strong>obriu un nou Ticket</strong> i <strong>Comprovar l'estat del Ticket</strong>.
 name: Pàgina d'arribada

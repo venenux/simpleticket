@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Táto šablóna definuje oznámenia pre klientov, ktorým bol prístup poslaný na ich e-mail. Číslo podnetu a e-mailová adresa spustí prístupový odkaz.
 name: "Odkaz na číslo podnetu[#%{ticket.number}]"

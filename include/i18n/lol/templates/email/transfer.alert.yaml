@@ -1,7 +1,12 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   crwdns550:0crwdne550:0
 subject: |
-  crwdns551:0%{ticket.number}crwdnd551:0%{ticket.dept.name}crwdne551:0
+  crwdns551:0%{ticket.number}crwdnd551:0%{ticket.dept.name}crwdne551:0 #%{ticket.number} transfer - %{ticket.dept.name}
 body: |
   crwdns599:0%{recipient.name}crwdnd599:0%{ticket.staff_link}crwdnd599:0%{ticket.number}crwdnd599:0%{ticket.dept.name}crwdnd599:0%{staff.name.short}crwdnd599:0%{comments}crwdnd599:0%{ticket.staff_link}crwdne599:0

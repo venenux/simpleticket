@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Skickas till en användare när ett automatiskt svar skickas till ett ärende när det skapas.  Tillgängliga variabler för ersättning: %{ticket.*}, %{response}
 subject: |

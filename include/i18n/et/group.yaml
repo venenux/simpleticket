@@ -2,7 +2,7 @@
 - 
   isactive: 1
   name: Lõvitaltsutajad
-  notes: "Süsteemi valitseja. Nendel inimestel on (algselt) täielik kontroll kõikide\nosakondade üle, millele neil on juurdepääs."
+  notes: "Süsteemi valitsejad. Nendel inimestel on (algselt) täielik kontroll kõikide\nosakondade üle, millele neil on juurdepääs."
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -40,7 +40,7 @@
   isactive: 1
   name: Kirbu treenijad
   notes: |
-    Alandlikud töötajad
+    Tavalised töötajad
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

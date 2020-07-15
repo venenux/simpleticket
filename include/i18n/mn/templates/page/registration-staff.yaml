@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Тусламжийн төвийн ажилтныг шинээр бүртгэхэд түүнд илгээх анхны имэйлийн (тохируулсан бол) загвар.
 name: "osTicket -д тавтай морилно уу"

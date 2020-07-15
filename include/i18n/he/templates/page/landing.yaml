@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   הדף הנחיתה מתייחס לתוכן של התצוגה ראשונית של פורטל הלקוח. התבנית משנה את התוכן משני קישורים <strong>פתיחת כרטיס חדש</strong>, <strong>בדיקת מצב הכרטיס</strong>.
 name: נחיתה

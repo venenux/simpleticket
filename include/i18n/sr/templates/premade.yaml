@@ -3,7 +3,7 @@
   isenabled: 1
   title: Шта је osTicket (пример)?
   response: osTicket је често коришћен систем за подршку корисницима отвореног кода, интересантна алтернатива скупим и компликованим системима за подршку - једноставан, не оптерећује ресурсе, поуздан, web-оријентисан и лак за инсталацију и употребу.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Ваш тикет са бројем #%{ticket.number} креиран дана %{ticket.create_date} је послат одељењу 
-    %{ticket.dept.name}.
+    %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

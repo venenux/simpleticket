@@ -1,6 +1,11 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
-  This template defines the email sent to Clients when their account has been created in the Client Portal or by an Agent on their behalf. This email serves as an email address verification. Please use %{link} somewhere in the body.
-name: "Welcome to %{company.name}"
+  Templat ini merujuk kepada emel yang dihantar ke pengguna apabila akaun mereka telah dibuat melalui Portal Pengguna ataupun melalui ejen. Emel ini bertindak sebagai emel verifikasi. Sila gunakan %{link} yang terdapat di dalam emel tersebut.
+name: "Selamat datang ke %{company.name}"
 body: >
-  <h3><strong>Hi %{recipient.name.first},</strong></h3> <div> We've created an account for you at our help desk at %{url}.<br /> <br /> Please follow the link below to confirm your account and gain access to your tickets.<br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">Your friendly Customer Support System <br /> %{company.name}</em> </div>
+  <h3><strong>Hi %{recipient.name.first},</strong></h3> <div> Kami telah mencipta akuan untuk anda di meja bantuan di %{url}.<br /> <br /> Sila ikut pautan dibawah untuk mengesahkan akuan anda dan mendapatkan akses ke akuan anda.<br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">Pelanggan anda yang mesra sistem sokongan<br /> %{company.name}</em> </div>

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
   title: نام کاربری
   content: >
@@ -32,7 +43,7 @@ account_status:
 assigned_group:
   title: گروه اختصاص داده شده
   content: >
-    <span class="doc-desc-title">گروه</span>ی که برای این کارشناس تایین کردید مجوزهای این کارشناس در<span class="doc-desc-title"> برنامه</span> را مشخص می کند.
+    <span class="doc-desc-title">گروه</span>ی که برای این کارشناس تعیین کردید مجوزهای این کارشناس در<span class="doc-desc-title"> برنامه</span> را مشخص می کند.
   links:
     - 
       title: مدیریت گروه ها
@@ -52,7 +63,7 @@ daylight_saving:
 limited_access:
   title: دسترسی محدود
   content: >
-    اگر در حالت فعال باشد ، کارشناس فقط به نامه هایی که مستقیما و یا از طریق گروه به او اختصاص یافته دسترسی خواهد داشت.
+    اگر در حالت فعال باشد ، کارشناس فقط به تیکتهایی که مستقیما و یا از طریق گروه به او اختصاص یافته دسترسی خواهد داشت.
 directory_listing:
   title: نمایش فهرست
   content: >
@@ -65,3 +76,4 @@ vacation_mode:
   title: مرخصی
   content: >
     اگر وضعیت کارشناس را به <span class="doc-desc-opt">مرخصی</span> تغییر دهید ، کارشناس هیچ <span class="doc-desc-title">هشدار و اطلاعی </span> را دریافت نمی کند و همچنین نمیتوانید کاری را به او اختصاص دهید.
+

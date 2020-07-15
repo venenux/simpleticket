@@ -1,6 +1,13 @@
 ---
-notes: 'Испратено до операторите одкако ќе им се додели тикет. Тикетите можат да бидат доделени автоматски од страна на системот или рачно од страна на друг оператор. Користењето %{assigner} за да се одреди кој ја извршил доделувањето.'
-subject: Тикет доделен до тебе
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
+notes: |
+  Испратено до операторите одкако ќе им се додели тикет. Тикетите можат да бидат доделени автоматски од страна на системот или рачно од страна на друг оператор. Користењето %{assigner} за да се одреди кој ја извршил доделувањето.
+subject: |
+  Тикет доделен до тебе
 body: |
   <h3><strong>Здраво %{assignee.name.first},</strong></h3>
   Тикет <a href="%{ticket.staff_link}">#%{ticket.number}</a> вас ви го додели %{assigner.name.short}

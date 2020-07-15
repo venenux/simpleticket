@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   תבנית זו מגדירה את ה- EMail שנשלח לאנשי הצוות שלחצו על הקישור <strong>שכחתי את הסיסמה</strong> בדף הכניסה של לוח הבקרה לאנשי צוות.
 name: "איפוס ססמה לאנשי צוות"

@@ -1,11 +1,16 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Wird an Agenten versendet, wenn ein Ticket in den Status "Überfällig" wechselt. 
   Überfällige Tickets entstehen, wenn das Fälligkeitsdatum des Tickets erreicht wird oder die Frist für das
   definierte SLA abläuft.
 subject: |
   Überfälliges Ticket
-body: |2
+body: |
   <h3><strong>Hallo %{recipient.name}</strong>,</h3>
   ein Ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> ist
   überfällig.

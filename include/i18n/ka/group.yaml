@@ -1,7 +1,7 @@
 ---
 - 
   isactive: 1
-  name: Lion Tamers
+  name: ლომის მომთვინიერებლები
   notes: სისტემის მეუფეები :) ამ ბატონებს აქვთ ყველა განყოფილების სრული კონტროლის უფლება.
   can_create_tickets: 1
   can_edit_tickets: 1
@@ -19,8 +19,9 @@
     - 3
 - 
   isactive: 1
-  name: Elephant Walkers
-  notes: ზეციური კოშკების მაცხოვრებლები //ვხარხარებ
+  name: სპილოს გიდები
+  notes: |
+    ზეციური კოშკების მაცხოვრებლები //ვხარხარებ
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -37,8 +38,9 @@
     - 3
 - 
   isactive: 1
-  name: Flea Trainers
-  notes: მცირეუფლებებიანი თანამშრომლები
+  name: რწყილის მწვრთნელები
+  notes: |
+    მცირეუფლებებიანი თანამშრომლები
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

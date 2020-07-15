@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   ផ្ញើទៅឱ្យបុគ្គលិកពេលសំបុត្រហួសពេលកំណត់នៅក្នុងប្រព័ន្ធ។សំបុត្រហួសកាលកំណត់កើតមានឡើងដោយផ្អែកលើសំបុត្រ due date ព្រមទាំងសេវាកម្មដែលបានកំណត់សម្រាប់សំបុត្រ SLA។
 subject: |

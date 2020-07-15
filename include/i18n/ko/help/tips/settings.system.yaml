@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
   title: 헬프데스크 상태
   content: >
@@ -6,23 +17,23 @@ helpdesk_status:
 helpdesk_url:
   title: 헬프데스크 URL
   content: >
-    이 URL은 osTikect 설치시에 기본이 되는 URL입니다. 헬프데스크에서 직접 사용자의 메일 문의 대응을 위해 사용됩니다.
+    이 URL은 OsTicket 설치의 기본입니다. 최종 사용자가 헬프데스크로 돌아가도록 전자 메일 통신에 사용됩니다.
 helpdesk_name_title:
-  title: 헬프데스크 이름/호칭
+  title: 헬프데스크 이름/제목
   content: >
-    브라우저의 탭에 표시되는 제목입니다. 헬프데스크 페이지를 즐겨찾기로 등록할 경우 사이트 페이지의 제목/이름입니다.
+    브라우저 탭에 나타나는 제목입니다. 헬프데스크를 북마크 지정하면 사이트 페이지의 제목이 됩니다.
 default_department:
   title: 기본 부서
   content: >
-    자동으로 부서에 전달되지 않는 티켓의 기본 <span class = "doc-desc-title">부서</span>를 선택하세요. <br/> <br/> 티켓은 도움말 항목 수신 메일, 티켓 필터 설정에 따라 전달됩니다.
+    자동으로 부서로 전달되지 않는 티켓에 대해 기본값인 <span class = "doc-desc-title">부서</span>를 선택하세요. <br/> <br/> 티켓은 도움 주제, 수신 전자 메일 및 티켓 필터 설정에 따라 전달할 수 있습니다.
 default_page_size:
   title: 기본 페이지 크기
   content: >
-    Staff 패널 티켓 큐의 페이지마다 표시되는 항목의 수를 선택합니다. 각 에이전트는 <span class = "doc-desc-title">나의 설정</span>에서 자신의 계정에 이 숫자를 지정할 수 있습니다.
+    직원 패널의 티켓 대기열에서 페이지당 표시되는 항목 수를 선택합니다. 각 에이전트는 <span class = "doc-desc-title">나의 속성</span>에서 자신의 계정에 이 숫자를 지정할 수 있습니다.
 default_log_level:
   title: 기본 로그 레벨
   content: >
-    <span class = "doc-desc-title">시스템 로그</span>에 기록될 이슈의 최소 수준을 정합니다. <span class = "doc-desc-opt">디버그</span>는 가장 낮은 심각도를 의미하며 <span class = "doc-desc-opt">에러</span>는 가장 높은 심각도를 나타냅니다. 예를 들어 <span class = "doc-desc-title">시스템 로그</span>에서 모든 이슈를 보고 싶다면 <span class = "doc-desc-opt">디버그</span>를 선택하세요.
+    <span class = "doc-desc-title">시스템 로그</span>에 기록될 이슈의 최소 수준을 정합니다. <span class = "doc-desc-opt">디버그</span>는 가장 낮은 심각도를 의미하며 <span class = "doc-desc-opt">오류</span>는 가장 높은 심각도를 나타냅니다. 예를 들어 <span class = "doc-desc-title">시스템 로그</span>에서 모든 이슈를 보고 싶다면 <span class = "doc-desc-opt">디버그</span>를 선택하세요.
 purge_logs:
   title: 로그 삭제
   content: >
@@ -34,12 +45,13 @@ default_name_formatting:
   links:
     - 
       title: 지원되는 이메일 템플릿 변수
-      href: 'http://osticket.com/wiki/Email_templates'
+      href: http://osticket.com/wiki/Email_templates
+#Date and time options
 date_time_options:
-  title: 날짜 및 시간 옵션
+  title: 날짜 &amp; 시간 옵션
   content: >
     다음 설정은 클라이언트의 날짜 및 시간 설정을 정의합니다. PHP 날짜 형식 문자에 따라 표시되는 방식을 변경할 수 있습니다. 다음에 표시된 날짜와 시간은 그 해당 값의 결과를 보여줍니다.
   links:
     - 
       title: PHP 날짜 형식 테이블 참조
-      href: 'http://www.php.net/manual/en/function.date.php'
+      href: http://www.php.net/manual/en/function.date.php

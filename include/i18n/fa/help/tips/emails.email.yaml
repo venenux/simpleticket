@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: موضوع کمک درخواست جدید
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: نام کاربری
   content: >
-    
+
 password:
   title: کلمه عبور
   content: >
-    
+
 login_information:
   title: اطلاعات ورود به سیستم ایمیل
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: امکان جعل سربرگ
   content: >
     با فعال کردن این قابلیت اجازه ارسال ایمیل از این صندوق پستی با آدرس دیگر <span class="doc-desc-title">آدرس ایمیل</span> را خواهید داشت. <br/><br/>به طور کلی این تنظیمات پیشرفته  برای زمانی که میخواهید ارسال ایمیل از نام مستعار این صندوق پستی باشد استفاده می شود.
+

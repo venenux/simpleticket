@@ -10,14 +10,14 @@
     description: 處理中...
 - 
   id: 0
-  name: 已結案
+  name: 已解決
   state: resolved
   mode: 3
   sort: 0
   flags: 0
   properties:
     description: >
-      「已結案」的案件可以由客戶再次重啟。此功能會在結案時發送通知給客戶。
+      「已解決」的個案可以由求助人再次重啟。此功能會在結案時發送通知給求助人。
 - 
   id: 3
   name: 已解決
@@ -27,7 +27,7 @@
   flags: 0
   properties:
     description: >
-      案件已標為「結案」無法由客戶重啟案件。但案件內容仍然是可查閱的。
+      個案已標記為「已解決」並無法由求助人重啟。但個案內容仍然是可查閱的。
 - 
   id: 4
   name: 已封存
@@ -37,7 +37,7 @@
   flags: 0
   properties:
     description: >
-      案件只可管理，但無法再度查閱。
+      案件僅供管理查閱，但已無法再度打開處理。
 - 
   id: 5
   name: 已刪除
@@ -47,4 +47,4 @@
   flags: 0
   properties:
     description: >
-      案件等待刪除。不能進行查閱。
+      個案正等待刪除。不能打開處理。

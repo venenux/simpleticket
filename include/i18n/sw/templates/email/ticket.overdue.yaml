@@ -1,7 +1,14 @@
 ---
-notes: Inatumwa kwa wafanyikazi wakati tiketi inabadilika kuwa muafaka katika mfumo. Tiketi muafaka hutokea kutokana na tarehe tiketi inatarajiwa pamoja na SLA ambayo imeelezwa kwa tiketi.
-subject: Tahadari Tiketi mzee
-body: |2
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
+notes: |
+  Inatumwa kwa wafanyikazi wakati tiketi inabadilika kuwa muafaka katika mfumo. Tiketi muafaka hutokea kutokana na tarehe tiketi inatarajiwa pamoja na SLA ambayo imeelezwa kwa tiketi.
+subject: |
+  Tahadari Tiketi mzee
+body: |
   <h3><strong>Hi %{recipient}</strong>,</h3>
   Tiketi, <a href="%{ticket.staff_link}">#%{ticket.number}</a> ni muafaka kabisa.
   <br>

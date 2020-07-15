@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Τομέας Βοήθειας Νέου Αιτήματος
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Όνομα χρήστη
   content: >
-    
+
 password:
   title: Κωδικός πρόσβασης
   content: >
-    
+
 login_information:
   title: Στοιχεία Σύνδεσης στο email
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Να Επιτρέπεται η Τροποποίηση Κεφαλίδων (Header Spoofing)
   content: >
     Ενεργοποιήστε αυτή την επιλογή για να επιτρέπεται η αποστολή ηλ. μηνυμάτων μέσω αυτής της θυρίδας ηλεκτρονικής αλληλογραφίας από ηλ. διεύθυνση διαφορετική από αυτήν που δόθηκε με τη ρύθμιση <span class="doc-desc-title">Ηλ. Διεύθυνση</span> παραπάνω. <br/><br/> Αυτή η προηγμένη ρύθμιση χρησιμοποιείται γενικά κατά την αποστολή ηλ. μηνυμάτων από ψευδώνυμα αυτής της θυρίδας ηλ. αλληλογραφίας.
+

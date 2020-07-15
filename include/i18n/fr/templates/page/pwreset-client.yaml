@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Ce modèle définit le courriel envoyé aux Clients qui cliquent sur le lien <strong>J'ai oublié mon mot de passe</strong> sur la page de connexion du Client.
 name: "%{company.name} Accès au support d'assistance"

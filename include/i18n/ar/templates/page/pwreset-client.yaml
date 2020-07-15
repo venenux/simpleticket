@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   يعرّف هذا القالب البريد الإلكتروني المرسل إلى العملاء الذين قاموا بالضغط على رابط <strong>نسيت كلمة المرور الخاصة بي</strong> في صفحة تسجيل دخول العملاء.
 name: "الوصول إلى الدعم الفني %{company.name}"

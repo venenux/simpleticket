@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Aviso enviado aos colaboradores na atividade do ticket. Exemplo: resposta ou mensagem.
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Prezado(a) %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> acabou de registrar uma mensagem em um ticket que você participa.

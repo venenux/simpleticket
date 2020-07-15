@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Tiek nosūtīts lietotājam, kad viņa izveidotajam pieteikumam automātiski tiek nosūtīta iepriekš sagatavota vēstule.
-  
+
   Nomaiņai pieejami mainīgie: %{ticket.*}, %{response}
 subject: |
   Atb: %{ticket.subject} [#%{ticket.number}]

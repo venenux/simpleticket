@@ -1,4 +1,9 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Wordt naar medewerkers verzonden wanneer door een gebruiker een nieuw bericht is geplaatst in een ticket. Dit kan gebeuren als de gebruiker antwoordt op een systeem e-mail of via het klantenportaal een nieuw bericht heeft geplaatst.
 subject: |

@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   訊息事件若已過期、系統會自動傳送通知給工作人員。
   逾期位未處裡的事件訊息發生基於建立訊息事件的到期日，服務合約中已有其規範。
 subject: |
   逾期事件警報
-body: |2
+body: |
   <h3><strong>您好 %{recipient}</strong>,</h3>
   訊息事件, <a href="%{ticket.staff_link}">#%{ticket.number}</a> 已經逾時已久.
   <br>

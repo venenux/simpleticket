@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
   title: Nom d'utilisateur
   content: >
@@ -20,7 +31,7 @@ account_password:
 forced_password_change:
   title: Changement de mot de passe forcé
   content: >
-    Activer cette option si vous voulez forcer le nouvel Agent de changer son mot de passe à sa prochaine connexion.
+    Activer cette option si vous voulez forcer le nouvel Agent à changer son mot de passe à sa prochaine connexion.
 agents_signature:
   title: Signature de l'agent
   content: >
@@ -28,19 +39,19 @@ agents_signature:
 account_status:
   title: État du compte
   content: >
-    Si le statut de l'Agent est <span class="doc-desc-opt">verrouillé</span>, il ne pourra pas se connecter au Help-Desk.
+    Si le statut de l'Agent est <span class="doc-desc-opt">verrouillé</span>, il ne pourra pas se connecter au support.
 assigned_group:
-  title: Groupe affecté
+  title: Groupe assigné
   content: >
-    Le <span class="doc-desc-title">groupe</span> que vous choisissez pour cet Agent détermine quelles autorisations il a dans le <span class="doc-desc-title"> Help Desk</span>.
+    Le <span class="doc-desc-title">groupe</span> que vous choisissez pour cet Agent détermine quelles autorisations il a dans le <span class="doc-desc-title"> support</span>.
   links:
     - 
-      title: Gérer des groupes
+      title: Gérer les groupes
       href: /scp/groups.php
 primary_department:
-  title: Département primaire
+  title: Service principal
   content: >
-    Choisir le <span class="doc-desc-title">service</span> primaire auquel appartient cet Agent.
+    Choisir le <span class="doc-desc-title">service</span> principal auquel appartient cet Agent.
   links:
     - 
       title: Gérer les départements
@@ -64,4 +75,5 @@ directory_listing:
 vacation_mode:
   title: Mode vacances
   content: >
-    Si vous modifiez le statut de l'Agent en <span class="doc-desc-opt">Mode vacances</span>, l'Agent ne reçevra pas les <span class="doc-desc-title">alertes &amp; avis</span> et ne sera pas disponible pour l'assignation des tickets.
+    Si vous modifiez le statut de l'Agent en <span class="doc-desc-opt">Mode vacances</span>, l'Agent ne recevra pas les <span class="doc-desc-title">alertes &amp; avis</span> et ne sera pas disponible pour l'assignation des tickets.
+

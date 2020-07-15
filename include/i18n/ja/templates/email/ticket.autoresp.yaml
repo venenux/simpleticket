@@ -1,7 +1,12 @@
 ---
-notes: 新規にチケット登録された場合にユーザーへ送信されます。
-subject: 'オープンされたサポートチケット [#%{ticket.number}]'
-body: |2
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
+notes: |
+  新規にチケット登録された場合にユーザーへ送信されます。
+subject: |
+  オープンされたサポートチケット [#%{ticket.number}]
+body: |
   <h3><strong>%{recipient.name.first}様</strong></h3>
   <p>
   お問い合わせいただきましてありがとうございます。お問い合わせを受け付けました。 #%{ticket.number}。

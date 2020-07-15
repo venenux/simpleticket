@@ -1,4 +1,8 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   當有內部通知或是有專員對案件做回覆等內部活動，便發送通知給全部專員。
 subject: |

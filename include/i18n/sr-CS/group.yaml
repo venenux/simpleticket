@@ -20,7 +20,8 @@
 - 
   isactive: 1
   name: Šetači slonova
-  notes: Supervizori
+  notes: |
+    Supervizori
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -38,7 +39,8 @@
 - 
   isactive: 1
   name: Treneri buva
-  notes: Operateri nižeg ranga
+  notes: |
+    Operateri nižeg ranga
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

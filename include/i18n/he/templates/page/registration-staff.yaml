@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   זוהי התבנית שמגדירה את הדוא"ל(אופציונלי) שנשלח לכל סוכן כאשר נוצר עבורו חשבון.
 name: "ברוכים הבאים"

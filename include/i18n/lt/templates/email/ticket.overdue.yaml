@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Siunčiama darbuotojams kuomet  užklausa sistemoje tampa veluojanti.
   Užklausos vėluojančiomis tampa remiantis užklausos data-iki taip pat SLA priskirtu užklausai.
 subject: |
   Perspėjimas apie pasenusį bilietą
-body: |2
+body: |
   <h3><strong>Laba diena%{recipient.name}</strong>,</h3>Užklausa,<a href="%{ticket.staff_link}">#%{ticket.number}</a>
   yra vėluojanti.<br><br>
   Visi turime intensyviai dirbti, kad garantuotume , kad visos užklausos būtų sprendžiamos laiku.<br><br>

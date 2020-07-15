@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Nytt saksemne
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Brukernavn
   content: >
-    
+
 password:
   title: Passord
   content: >
-    
+
 login_information:
   title: Send påloggingsinformasjon på e-post
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Tillate Falskt hode
   content: >
     Aktivere dette for å tillate å sende e-post via denne postkassen fra en e-postadresse annen enn det som er angitt i innstillingen <span class="doc-desc-title"> E-postadresse</span> ovenfor. <br/> <br/> Denne avanserte innstillingen brukes vanligvis når du sender e-post fra aliasene til denne postkassen.
+

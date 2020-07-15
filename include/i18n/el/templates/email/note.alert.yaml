@@ -1,4 +1,8 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Ειδοποίηση που αποστέλλεται στους χρήστες όταν κάποια εσωτερική sent out to Agents when internal δραστηριότητα, όπως μια εσωτερική σημείωση ή μια απάντηση χρήστη επισυνάπτεται σε ένα δελτίο.
 subject: |

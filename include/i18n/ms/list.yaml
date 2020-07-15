@@ -1,29 +1,29 @@
 ---
 - 
   type: ticket-status
-  name: Ticket Status
-  name_plural: Ticket Statuses
+  name: Status Tiket
+  name_plural: Status-status tiket
   sort_mode: SortCol
   masks: 13
-  notes: Ticket statuses
+  notes: Status-status tiket
   properties:
-    title: Ticket Status Properties
-    instructions: Properties that can be set on a ticket status.
+    title: Ciri-ciri status tiket
+    instructions: Ciri-ciri yang boleh ditetapkan pada status tiket.
     deletable: false
     fields:
       - 
         type: state
         name: state
-        label: State
+        label: Negeri
         required: true
         sort: 1
         edit_mask: 63
         configuration:
-          prompt: State of a ticket
+          prompt: Keadaan tiket
       - 
         type: memo
         name: description
-        label: Description
+        label: Penerangan
         required: false
         sort: 3
         edit_mask: 15

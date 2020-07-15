@@ -1,40 +1,64 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: Поле за пребарување
-  content: ""
+  content: >
+
 advanced:
   title: Напреден
-  content: 'Смалете ги вашите параметри на пребарување. Откако ќе ја изберете вашиот напреден критериум за пребарување и ќе го извршите, вие можете да ги <span class="doc-desc-title">извадите</span> податоците на долниот дел од страницата за тикети.'
+  content: >
+    Смалете ги вашите параметри на пребарување. Откако ќе ја изберете вашиот напреден критериум за пребарување и ќе го извршите, вие можете да ги <span class="doc-desc-title">извадите</span> податоците на долниот дел од страницата за тикети.
 open_tickets_table:
   title: Табела на отворени тикети
-  content: Сите моментално отворени тикети и оние кои побаруваат одговор
+  content: >
+    Сите моментално отворени тикети и оние кои побаруваат одговор
 ticket:
   title: Тикет
-  content: ""
+  content: >
+
 date:
   title: Датум
-  content: ""
+  content: >
+
 subject:
-  title: Subject
-  content: ""
+  title: Наслов
+  content: >
+
 from:
-  title: From
-  content: ""
+  title: Од
+  content: >
+
 priority:
-  title: Priority
-  content: ""
+  title: Приоритет
+  content: >
+
 assigned_to:
   title: Доделено на
-  content: ""
+  content: >
+
 export:
   title: Извоз
-  content: Извезете ги вашите моментални податоци од погледот во CSV датотека. CSV датотеката може да биде отворена со било кој софтвер за табеларен приказ (пр. Microsoft Excel, Apple Pages, OpenOffice, итн.).
+  content: >
+    Извезете ги вашите моментални податоци од погледот во CSV датотека. CSV датотеката може да биде отворена со било кој софтвер за табеларен приказ (пр. Microsoft Excel, Apple Pages, OpenOffice, итн.).
 advanced_search_dialog:
   title: Напредно пребарување
-  content: ""
+  content: >
+
 adv_keyword:
   title: Пребарување по клучен збор
-  content: Пронајдете резултати базирани на насловот и содржината на пораката на тикетот како и сите текстуални содржини поврзани со полињата на корисниците и тикетите.
+  content: >
+    Пронајдете резултати базирани на насловот и содржината на пораката на тикетот како и сите текстуални содржини поврзани со полињата на корисниците и тикетите.
 adv_date_range:
   title: Пребарување по временски интервал
-  content: Дефиниција тука
+  content: >
+    Дефиниција тука

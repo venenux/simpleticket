@@ -1,29 +1,29 @@
 ---
 - 
-  type: 'crwdns5045:0crwdne5045:0'
-  name: 'crwdns5046:0crwdne5046:0'
-  name_plural: 'crwdns5047:0crwdne5047:0'
-  sort_mode: 'crwdns5048:0crwdne5048:0'
+  type: crwdns5045:0crwdne5045:0
+  name: crwdns5046:0crwdne5046:0
+  name_plural: crwdns5047:0crwdne5047:0
+  sort_mode: crwdns5048:0crwdne5048:0
   masks: 0
-  notes: 'crwdns5050:0crwdne5050:0'
+  notes: crwdns5050:0crwdne5050:0
   properties:
-    title: 'crwdns5051:0crwdne5051:0'
-    instructions: 'crwdns5052:0crwdne5052:0'
+    title: crwdns5051:0crwdne5051:0
+    instructions: crwdns5052:0crwdne5052:0
     deletable: false
     fields:
       - 
-        type: 'crwdns5053:0crwdne5053:0'
-        name: 'crwdns5054:0crwdne5054:0'
-        label: 'crwdns5055:0crwdne5055:0'
+        type: crwdns5053:0crwdne5053:0
+        name: crwdns5054:0crwdne5054:0
+        label: crwdns5055:0crwdne5055:0
         required: true
         sort: 0
         edit_mask: 0
         configuration:
-          prompt: 'crwdns5058:0crwdne5058:0'
+          prompt: crwdns5058:0crwdne5058:0
       - 
-        type: 'crwdns5276:0crwdne5276:0'
-        name: 'crwdns5277:0crwdne5277:0'
-        label: 'crwdns5278:0crwdne5278:0'
+        type: crwdns5276:0crwdne5276:0
+        name: crwdns5277:0crwdne5277:0
+        label: crwdns5278:0crwdne5278:0
         required: false
         sort: 0
         edit_mask: 0
@@ -33,4 +33,4 @@
           html: false
           length: 0
   configuration:
-    handler: 'crwdns5073:0crwdne5073:0'
+    handler: crwdns5073:0crwdne5073:0

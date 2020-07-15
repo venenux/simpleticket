@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Help Topic
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 help_topic_information:
   title: Informations de la rubrique d'aide
   content: >
@@ -42,7 +53,7 @@ department:
 sla_plan:
   title: Plan SLA
   content: >
-    Choisissez le SLA associé à cette <span class="doc-desc-title"> rubrique d'aide</span>. <br><br>Cette sélection écrasera tous les SLA du département
+    Choisissez le SLA associé à cette <span class="doc-desc-title"> rubrique d'aide</span>. <br><br>Cette sélection écrasera tous les SLA du service sélectionné
   links:
     - 
       title: Gérer les Plans SLA
@@ -58,7 +69,7 @@ thank_you_page:
 auto_assign_to:
   title: Affecter automatiquement les nouveaux billets
   content: >
-    Éventuellement choisissez un agent ou une équipe d'auto-affectation pour le billets ouverts avec cette <span class="doc-desc-title">rubrique d'aide</span>.<br><br>Les filtres sur les billets peuvent écraser cette affectation.
+    Vous pouvez choisir un agent ou une équipe pour l'auto-affectation des billets ouverts à partir de cette <span class="doc-desc-title">rubrique d'aide</span>.<br><br>Les filtres sur les billets peuvent écraser cette affectation.
   links:
     - 
       title: Gérer le personnel et les équipes

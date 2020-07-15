@@ -3,7 +3,7 @@
   isenabled: 1
   title: Co to jest osTicket (przykład)?
   response: osTicket jest bardzo popularnym systemem opartym na wolnym oprogramowaniu służącym do obsługi spraw klientów, atrakcyjną alternatywą w porównaniu do drogich i skomplikowanych systemów obsługi klienta - prosty, lekki, solidny, oparty na wolnym oprogramowaniu, w pełni obsługiwany przez www oraz prosty w instalacji i obsłudze.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     Witaj %{ticket.name.first},
     <br>
     <br>
-    Twoje zgłoszenie #%{ticket.number} utworzone %{ticket.create_date} znajduje się w departamencie %{ticket.dept.name}.
+    Twoje zgłoszenie #%{ticket.number} utworzone %{ticket.create_date} znajduje się w departamencie %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

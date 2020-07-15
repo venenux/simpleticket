@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   新票券訊息會透過使用者發佈給工作人員。此情形是因為使用者由系統或是客服網路管控發佈的回復信件
 subject: |
   新訊息通知
-body: |2
+body: |
   <h3><strong>您好 %{recipient},</strong></h3>
   新追加票券訊息 <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

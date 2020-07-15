@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Този шаблон дефинира известието на клиенти, че им е изпратена връзка за достъп по ел. поща. Номерът на заявката и адресът на ел. поща задействат връзката за достъп.
 name: "Връзка за достъп до заявка [#%{ticket.number}]"

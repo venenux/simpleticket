@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   此模板定义了通过确认账户客户注册成功后显示的内容。此页面应通知用户注册已完成且客户现可提交咨询或访问现有咨询。
 name: "账户已确认！"

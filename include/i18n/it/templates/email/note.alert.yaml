@@ -1,4 +1,8 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Avviso inviato agli agenti quando una attività interna come una nota privata o una risposta di un agente viene aggiunta ad un ticket.
 subject: |

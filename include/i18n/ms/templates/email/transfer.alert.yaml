@@ -1,12 +1,16 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
-  
+
 subject: |
-  Ticket #%{ticket.number} transfer - %{ticket.dept.name}
-body: |2
+  Tiket #%{ticket.number} pemindahan - %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
   <h3>Hi %{recipient.name},</h3>
-  Ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> has been
-  transferred to the %{ticket.dept.name} department by
+  Tiket <a href="%{ticket.staff_link}">#%{ticket.number}</a> telah dipindahkan ke %{ticket.dept.name} jabatan oleh
   <strong>%{staff.name.short}</strong>
   <br>
   <br>
@@ -14,11 +18,10 @@ body: |2
       %{comments}
   </blockquote>
   <hr>
-  <div>To view or respond to the ticket, please <a
-  href="%{ticket.staff_link}">login</a> to the support ticket system.
+  <div> Untuk melihat atau membalas kepada tiket, tolong <a
+  href="%{ticket.staff_link}">login</a> kepada sistem tiket sokongan.
   </div>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  <em style="font-size: small; ">sistem sokongan pelanggan anda yang mesra</em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
       alt="Powered By osTicket" style="width: 126px;"

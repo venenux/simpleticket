@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Ez a sablon határozza meg a munkatársnak kiküldött emailt, miután kiválasztotta az <strong>Elfelejtett jelszó</strong> hivatkozást a munkatársak bejelentkezési oldalán.
 name: "osTicket munkatárs jelszó visszaállítás"

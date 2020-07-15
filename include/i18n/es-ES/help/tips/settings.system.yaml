@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
   title: Estado del Sistema de Soporte
   content: >
@@ -34,7 +45,8 @@ default_name_formatting:
   links:
     - 
       title: Variables de la plantilla de correo electrónico compatibles
-      href: 'http://osticket.com/wiki/Email_templates'
+      href: http://osticket.com/wiki/Email_templates
+#Date and time options
 date_time_options:
   title: Fecha &amp; opciones de hora
   content: >
@@ -42,4 +54,4 @@ date_time_options:
   links:
     - 
       title: Consulte la tabla de formato de fecha PHP
-      href: 'htttp://www.php.net/manual/en/function.date.php'
+      href: htttp://www.php.net/manual/en/function.date.php

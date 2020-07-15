@@ -3,7 +3,7 @@
   isenabled: 1
   title: Co je osTicket (příklad)?
   response: osTicket je široce rozšířený open source systém pro správu zákaznických požadavků, zajímavá alternativa k placeným a komplexním službám zákaznické podpory - jednoduchý, nenáročný, spolehlivý, open source, přístupný na internetu, snadno nastavitelný a uživatelsky příjemný na užívání.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     Dobrý den %{ticket.name.first},
     <br>
     <br>
-    Váš požadavek #%{ticket.number} vytvořený dne %{ticket.create_date} je v oddělení %{ticket.dept.name}.
+    Váš požadavek #%{ticket.number} vytvořený dne %{ticket.create_date} je v oddělení %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

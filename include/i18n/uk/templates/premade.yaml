@@ -3,7 +3,7 @@
   isenabled: 1
   title: Що таке osTicket (зразок)?
   response: osTicket - це широко використовувана система технічної підтримки з відкритим вихідним кодом, приваблива альтернатива більш дорогим і складним системи підтримки клієнтів - проста, легка, надійна, безкоштовна, веб-орієнтована, легко настроюється і проста у використанні.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     Привіт %{ticket.name.first},
     <br>
     <br>
-    ваша заявка #%{ticket.number} створена в %{ticket.create_date} в відділі %{ticket.dept.name}.
+    ваша заявка #%{ticket.number} створена в %{ticket.create_date} в відділі %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

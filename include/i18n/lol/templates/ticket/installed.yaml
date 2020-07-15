@@ -1,9 +1,14 @@
 ---
-deptId: 0
-topicId: 0
-name: 'crwdns555:0crwdne555:0'
-email: 'crwdns556:0crwdne556:0'
-source: 'crwdns557:0crwdne557:0'
-subject: 'crwdns558:0crwdne558:0'
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 0 #support
+topicId: 0 #support
+name: crwdns555:0crwdne555:0
+email: crwdns556:0crwdne556:0
+source: crwdns557:0crwdne557:0 #notrans
+subject: crwdns558:0crwdne558:0
 message: |
   crwdns559:0crwdne559:0

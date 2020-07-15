@@ -20,7 +20,8 @@
 - 
   isactive: 1
   name: Elephant Walkers
-  notes: Wenyeji wa mnara wa pembe
+  notes: |
+    Wenyeji wa mnara wa pembe
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -38,7 +39,8 @@
 - 
   isactive: 1
   name: Flea Trainers
-  notes: Wafanyikazi wa hali ya chini
+  notes: |
+    Wafanyikazi wa hali ya chini
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

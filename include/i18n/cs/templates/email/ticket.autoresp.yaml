@@ -1,8 +1,11 @@
 ---
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
 notes: |
-  Bude odesláno uživateli v okamžiku vytvoření nového zákaznického požadavku
+  Zasláno uživateli v momentě vytvoření nového požadavku.
 subject: |
-  Otevřen požadavek na podporu č. [%{ticket.number}]
+  Otevřen nový požadavek na podporu [č. %{ticket.number}]
 body: |
   <h3><strong>Vážený/á %{recipient.name.first},</strong></h3>
   <p>

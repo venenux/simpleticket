@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Dashboard  -> System Logs page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 system_logs:
   title: رویداد های سیستم
   content: >
@@ -31,7 +42,7 @@ log_date:
   title: تاریخ
   content: >
     تاریخ گزارش ایجاد شده توسط نرم افزار.اگر شما مایل هستید می توانید نتیجه ها را مرتب کنید مطابق با<span class="doc-desc-title">تاریخ رویداد</span>به سادگی کلید کنید بر روی<span class="doc-desc-title">تاریخ رویداد</span>سر برگ جدول.(بکار کیری<span class="doc-desc-title">فاصله زمانی</span>فرم بالا برای محدود کردن زمانی گزارش.)
-    
+
 ip_address:
   title: آدرس آی پی
   content: >

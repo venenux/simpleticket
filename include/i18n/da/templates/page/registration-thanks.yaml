@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Denne skabelon definerer indholdet der vises når kunder succesfuldt har registreret en konto. Denne side skal informere brugeren om at oprettelsen er fuldført og at kunden nu kan åbne en sag eller tilgå eksisterende sager.
 name: "Konto bekræftet!"

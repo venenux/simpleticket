@@ -1,7 +1,12 @@
 ---
-notes: Notice sent to collaborators on ticket activity e.g reply or message.
-subject: 'პას: %{ticket.subject}'
-body: |2
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
+notes: |
+  Notice sent to collaborators on ticket activity e.g reply or message.
+subject: |
+  პას: %{ticket.subject}
+body: |
   <h3><strong>Dear %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> just logged a message to a ticket in which you participate.

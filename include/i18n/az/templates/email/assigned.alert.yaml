@@ -1,4 +1,9 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Sorğu heyət üzvləri üçün təyin olunanda onlara göndərin. Sorğular sistem və ya başqa heyət üzvü tərəfindən avtomatik təyin oluna bilər. Tapşırığı düzəldənin kim olduğunu ayırd etmək üçün %{assigner} istifadə edin.
 subject: |

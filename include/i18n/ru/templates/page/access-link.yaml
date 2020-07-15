@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Этот шаблон описывает уведомления для пользователей, обратившихся в поддержу по ссылке, отправленной на адрес электронной почты.
   Номер заявки и адрес электронной почты являются активными ссылками.

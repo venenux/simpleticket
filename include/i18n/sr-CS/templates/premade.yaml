@@ -2,8 +2,8 @@
 - 
   isenabled: 1
   title: Šta je osTicket (primer)?
-  response: 'osTicket je sistem za klijentsku podršku koji je otvorenog koda i široke upotrebe, interesantna alternativa skupim i komplikovanim sistemima za podršku - jednostavan, ne opterećuje resurse, pouzdan, veb-orijentisan i lak za instalaciju i upotrebu.'
-  notes: ""
+  response: osTicket je sistem za klijentsku podršku koji je otvorenog koda i široke upotrebe, interesantna alternativa skupim i komplikovanim sistemima za podršku - jednostavan, ne opterećuje resurse, pouzdan, veb-orijentisan i lak za instalaciju i upotrebu.
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,5 +17,7 @@
     <br>
     <br>
     Vaš tiket sa brojem #%{ticket.number} kreiran dana %{ticket.create_date} je poslat odelјenju 
-    %{ticket.dept.name}.
-  notes: ""
+    %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
+  notes: |
+

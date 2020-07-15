@@ -1,56 +1,80 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add New Department -> Department Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 type:
   title: タイプ
-  content: 'クライアントポータルでこの部門へのアサインを隠すには、 <span class="doc-desc-opt">プライベート</span>を選択します。また、<span class="doc-desc-opt">プライベート</span>のラベルが付けられた場合、<span class="doc-desc-title">部門の署名</span>は返信メールに表示されません。<br/><br/> 少なくとも1つの部門が <span class="doc-desc-opt">パブリック</span>になっていなければなりません。'
+  content: >
+    クライアントポータルでこの部門へのアサインを隠すには、 <span class="doc-desc-opt">プライベート</span>を選択します。また、<span class="doc-desc-opt">プライベート</span>のラベルが付けられた場合、<span class="doc-desc-title">部門の署名</span>は返信メールに表示されません。<br/><br/> 少なくとも1つの部門が <span class="doc-desc-opt">パブリック</span>になっていなければなりません。
 email:
   title: Email
-  content: エージェントがチケットに返信を投稿するときにユーザーに返信するのに使用されるメールアドレス。
+  content: >
+    エージェントがチケットに返信を投稿するときにユーザーに返信するのに使用されるメールアドレス。
 template:
   title: テンプレートセット
-  content: 'この部門にルーティングされるチケットの自動返信とアラートと通知に使用されるメール<span class="doc-desc-title">テンプレートセット</span>。'
+  content: >
+    この部門にルーティングされるチケットの自動返信とアラートと通知に使用されるメール<span class="doc-desc-title">テンプレートセット</span>。
   links:
     - 
       title: テンプレートの管理
       href: /scp/templates.php
 sla:
   title: SLA
-  content: この部門にルーティンングされるチケットのサービスレベル合意書。
+  content: >
+    この部門にルーティンングされるチケットのサービスレベル合意書。
   links:
     - 
       title: SLAプランの管理
       href: /scp/slas.php
 manager:
   title: 部門管理者
-  content: 'この部門の<span class="doc-desc-title">管理者</span>を選択します。<br/><br/> 管理者は、特別なアラートを受け取るように設定でき、また、チケットのアサインを解除する権利を有します。'
+  content: >
+    この部門の<span class="doc-desc-title">管理者</span>を選択します。<br/><br/> 管理者は、特別なアラートを受け取るように設定でき、また、チケットのアサインを解除する権利を有します。
   links:
     - 
       title: アラートと通知の管理
       href: /scp/settings.php?t=alerts
 group_membership:
   title: アラートと通知受信者
-  content: '設定された<span class="doc-desc-title">アラートと通知</span>の受信者を選択します。'
+  content: >
+    設定された<span class="doc-desc-title">アラートと通知</span>の受信者を選択します。
   links:
     - 
       title: アラートと通知の設定
       href: /scp/settings.php?t=alerts
 sandboxing:
   title: チケットアサイン制限
-  content: 'この部門のメンバーのみを含むようにチケットのアサインを制限するには、これを有効にします。 <span class="doc-desc-title">グループメンバーシップ</span>も有効になっている場合は、部門のアクセスをグループに拡大できます。'
+  content: >
+    この部門のメンバーのみを含むようにチケットのアサインを制限するには、これを有効にします。 <span class="doc-desc-title">グループメンバーシップ</span>も有効になっている場合は、部門のアクセスをグループに拡大できます。
 auto_response_settings:
   title: 自動返信設定
-  content: これは、この部門のグローバル自動返信設定を上書きできるようにします。
+  content: >
+    これは、この部門のグローバル自動返信設定を上書きできるようにします。
 new_ticket:
   title: 新着チケット自動返信
-  content: 新しいチケットが作成され、この部門にルーティングされるときにユーザーに送信される自動返信を無効にできます。
+  content: >
+    新しいチケットが作成され、この部門にルーティングされるときにユーザーに送信される自動返信を無効にできます。
 new_message:
   title: 新着メッセージ自動返信
-  content: この部門でチケットに新しく投稿されたメッセージを確認するためにユーザーに送信される自動返信を無効にできます。
+  content: >
+    この部門でチケットに新しく投稿されたメッセージを確認するためにユーザーに送信される自動返信を無効にできます。
 auto_response_email:
   title: 自動返信メール
-  content: この部門に自動返信を送信するメールアドレスを選択します。
+  content: >
+    この部門に自動返信を送信するメールアドレスを選択します。
 department_access:
   title: グループアクセス
-  content: この部門のチケットに他の部門のエージェントがアクセスすることを許可します。
+  content: >
+    この部門のチケットに他の部門のエージェントがアクセスすることを許可します。
 department_signature:
   title: 部門の署名
-  content: '署名は、エージェントの返信で<span class="doc-desc-opt">パブリック</span>部門への選択肢として使用できます。'
+  content: >
+    署名は、エージェントの返信で<span class="doc-desc-opt">パブリック</span>部門への選択肢として使用できます。

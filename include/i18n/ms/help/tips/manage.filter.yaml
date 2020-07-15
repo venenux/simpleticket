@@ -1,82 +1,93 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Filter
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 execution_order:
-  title: Execution Order
+  title: Pelaksanaan pesanan
   content: >
-    Enter a number that controls the priority of the filter. The lower the number, the higher the priority this filter will have in being executed over against another filter that might have higher order of execution. <br><br> If you want this filter to be the last filter applied on a match, enable <span class="doc-desc-title">Stop Processing Further On Match</span>.
+    Masukkan nombor yang mengawal keutamaan penapis. Semakin rendah nombor, keutamaan yang lebih tinggi penapis ini akan ada dalam dilaksanakan lebih daripada penapis lain yang mungkin mempunyai pelaksanaan yang lebih tinggi. <br><br> Jika anda mahu penapis ini menjadi penapis terakhir digunakan pada perlawanan, Bolehkan <span class="doc-desc-title"> Hentikan Pemprosesan Lanjut Pada Perlawanan</span>.
 target_channel:
-  title: Channel
+  title: Saluran
   content: >
-    Choose the target <span class="doc-desc-title">Channel</span> for your <span class="doc-desc-title">ticket Filter</span>. The <span class="doc-desc-title">Channel</span> is the source through which the ticket arrived into the system. <br><br> For example, if you choose <span class="doc-desc-opt">Web Forms</span>, you are saying that you want to apply the <span class="doc-desc-title">ticket Filter</span> to those tickets that originated from the Client Portal's webform.
+    Pilih sasaran <span class="doc-desc-title">Saluran</span> untuk anda punya <span class="doc-desc-title">Penapis tiket</span>. <span class="doc-desc-title">Saluran</span> adalah sumber lalui yang mana tiket yang tiba ke dalam sistem. <br><br> Sebagai contoh, jika anda pilih <span class="doc-desc-opt">Borang Web</span>, anda mengatakan bahawa anda mahu gunakan <span class="doc-desc-title">Penapis tiket</span> untuk tiket mereka yang berasal dari borang web Portal Pelanggan.
 rules_matching_criteria:
-  title: Rules Matching Criteria
+  title: Peraturan pemadanan kriteria
   content: >
-    Choose how elastic you want the matches of your <span class="doc-desc-title">ticket Filter</span> to be. If you would like the <span class="doc-desc-title">ticket Filter</span> to match any of the rules, and then stop, choose <span class="doc-desc-opt">Match Any</span>. If you would like <em><strong>all rules</strong></em> of the <span class="doc-desc-title">ticket Filter</span> to be matched, choose <span class="doc-desc-opt">Match All</span>.
+    Pilih bagaimana elastik yang anda mahu padan <span class="doc-desc-title"> penapis tiket anda </span> untuk menjadi. Jika anda ingin <span class="doc-desc-title"> penapis tiket</span>untuk menyesuaikan kaedah-kaedah, dan kemudian berhenti, pilih <span class="doc-desc-opt">Sebarang padanan </span>. Jika anda ingin<em><strong> semua peraturan </strong></em>daripada <span class="doc-desc-title"> penapis tiket</span> untuk dipadankan, pilih <span class="doc-desc-opt">sesuai dengan semua <</span>.
 reject_ticket:
-  title: Reject Ticket
+  title: Tolak Tiket
   content: >
-    If this is enabled, further processing is stopped and all other choices of action below will be ignored on match.
+    Jika ini diaktifkan, proses selanjutnya dihentikan dan semua pilihan tindakan lain di bawah akan diabaikan pada perlawanan.
 reply_to_email:
-  title: Reply-To Email
+  title: Jawapan-kepada e-mel
   content: >
-    Enable this if you want your Help Desk to honor a User's email application's <span class="doc-desc-title">Reply To</span> header. This field is only relevant if the <span class="doc-desc-title">Channel</span> above includes <span class="doc-desc-opt">Email</span>.
+    Aktifkan ini jika anda mahu Meja Bantuan anda untuk menghormati aplikasi e-mel yang Pengguna ini <span class="doc-desc-title">Balas Untuk</span> tajuk laporan. Bidang ini hanya berkaitan jika <span class="doc-desc-title"> saluran </span> di atas termasuk <span class="doc-desc-opt">E-mel</span>.
 ticket_auto_response:
-  title: Disable Ticket Auto-Response
+  title: Melumpuhkan tiket auto-respon
   content: >
-    <em>Note: This will override any <span class="doc-desc-title">Department</span> or <span class="doc-desc-title">Autoresponder settings</span>.</em>
+    <em> Nota:. Ini akan mengatasi mana-mana <span class="doc-desc-title"> Jabatan</span> atau <span class="doc-desc-title"> Tetapan Autorespond </span>.</em>
 canned_response:
-  title: Canned Auto-Reply
+  title: Auto-balas terkumpul
   content: >
-    Choose a <span class="doc-desc-title">Canned Response</span> you want to be emailed to the user on <span class="doc-desc-title">Ticket Filter</span> match.  The <span class="doc-desc-title">New Ticket Auto-Reply</span> template used depends on what <span class="doc-desc-title">template set</span> is assigned as default, or to a matching ticket's <span class="doc-desc-title">Department</span>.
+    Pilih <span class="doc-desc-title">Respon Terkumpul</span> yang anda mahu untuk dihantar melalui e-mel kepada pengguna pada padanan<span class="doc-desc-title">Penapis Tiket</span>. Templat <span class="doc-desc-title">Auto-Balas Tiket Baru</span> digunakan bergantung kepada apa <span class="doc-desc-title">set templat</span> yang diberikan sebagai lalai, atau kepada  padanan <span class="doc-desc-title">Jabatan</span> tiket.
   links:
     - 
-      title: Manage Canned Responses
+      title: Urus Respon Terkumpul
       href: /scp/canned.php
     - 
-      title: Manage Template Sets
+      title: Urus set templat
       href: /scp/templates.php
     - 
-      title: New Ticket Auto-Reply Template
+      title: Templat Auto-Balasan Tiket Baru
       href: /scp/templates.php?id=2&a=manage
 department:
-  title: Department
+  title: Jabatan
   content: >
-    Choose what <span class="doc-desc-title">Department</span> you want the matches of the <span class="doc-desc-title">Ticket Filter</span> to be assigned.
+    Pilih apa yang <span class="doc-desc-title"> Jabatan </span> anda mahu padanan daripada <span class="doc-desc-title"> penapis Tiket </span> yang akan diberikan.
   links:
     - 
-      title: Manage Departments
+      title: Urus Jabatan
       href: /scp/departments.php
 priority:
-  title: Priority
+  title: Keutamaan
   content: >
-    Choose the <span class="doc-desc-title">Priority</span> level you want to be applied to the matches of the <span class="doc-desc-title">Ticket Filter</span>.<br /> <br /> <em>Note: This will override <span class="doc-desc-title">Department</span> or <span class="doc-desc-title"> Help Topic</span> settings.</em>
+    Pilih <span class="doc-desc-title"> Keutamaan </span> peringkat yang anda mahu digunakan untuk padanan daripada <span class="doc-desc-title"> Penapis Tiket </span>. <br /><br /><em> Nota: Ini akan mengatasi <span class="doc-desc-title">Jabatan</span>atau<span class="doc-desc-title"> Bantuan Topik</span> tetapan. </em>
 sla_plan:
-  title: SLA Plan
+  title: Rancangan SLA
   content: >
-    Choose the <span class="doc-desc-title">SLA Plan</span> you want to be applied to the matches of the <span class="doc-desc-title">Ticket Filter</span>.
+    Pilih <span class="doc-desc-title">Rancangan SLA </span> anda mahu digunakan untuk perlawanan daripada <span class = "doc-desc-title"> penapis Tiket </span>.
   links:
     - 
-      title: Manage SLA Plans
+      title: Urus rancangan SLA
       href: /scp/slas.php
 auto_assign:
-  title: Auto-Assign
+  title: Auto-Tugasan
   content: >
-    Choose an Agent or a Team to whom you want the matches of the <span class="doc-desc-title">Ticket Filter</span> to be assigned.
+    Pilih Ejen atau Pasukan yang anda mahu perlawanan daripada <span class="doc-desc-title">penapis Tiket </span>yang akan ditugaskan.
   links:
     - 
-      title: Manage Agents
+      title: Urus ejen
       href: /scp/staff.php
     - 
-      title: Manage Teams
+      title: Urus Pasukan
       href: /scp/teams.php
 help_topic:
-  title: Help Topic
+  title: Topik bantuan
   content: >
-    Choose the <span class="doc-desc-title">Help Topic</span> you want to be applied to the matches of the <span class="doc-desc-title">Ticket Filter</span>.
+    Pilih <span class="doc-desc-title"> Bantuan Topik </span>anda mahu digunakan untuk perlawanan daripada <<span class="doc-desc-title">Penapis Tiket</span>.
   links:
     - 
-      title: Manage Help Topics
+      title: Mengurus topik bantuan
       href: /scp/helptopics.php
 admin_notes:
-  title: Admin Notes
+  title: Nota Admin
   content: >
-    These notes are only visible to those whose account type is ‘<span class="doc-desc-title">Admin</span>.’
+    Nota ini hanya boleh dilihat oleh orang-orang yang mempunyai akaun jenis <span class="doc-desc-title"> Admin </span>.'

@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   crwdns945:0crwdne945:0
 name: "crwdns946:0crwdne946:0"

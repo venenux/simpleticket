@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   A rendszer értesítést küldött a közreműködőknek a hibajegy tevékenységről pl. válasz vagy üzenet.
 subject: |
   Re: [#%{ticket.number}] %{ticket.subject}
-body: |2
+body: |
   <h3><strong>Kedves %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> küldött egy üzenetet egy hibajegyhez, melynek feldolgozásában részt vesz.

@@ -1,7 +1,14 @@
 ---
-notes: ""
-subject: 'ბილეთი #%{ticket.number} გადაცემა - %{ticket.dept.name}'
-body: |2
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
+notes: |
+
+subject: |
+  ბილეთი #%{ticket.number} გადაცემა - %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
   <h3>გამარჯობა %{recipient},</h3>
   ბილეთი <a href="%{ticket.staff_link}">#%{ticket.number}</a> გადაცემულ იქნა.... სთვის %{ticket.dept.name} დეპარტამენტი მიერ
   <strong>%{staff.name.short}</strong>

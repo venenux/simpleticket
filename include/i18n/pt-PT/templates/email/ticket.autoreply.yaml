@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Enviado para um Utilizador de forma automática quando este submete um ticket.
   Variáveis disponíveis para substituir: %{ticket.*}, %{response}

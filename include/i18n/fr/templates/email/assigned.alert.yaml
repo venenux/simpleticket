@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Envoyé aux membres du staff lorsqu'un ticket leur est affecté. Les tickets peuvent être attribuées automatiquement par le système ou manuellement par un autre membre du staff.  Utiliser % {assigner} pour distinguer qui fait l'affectation.
 subject: |
   Un ticket vous a été assigné
-body: |2
+body: |
   <h3><strong>Bonjour %{assignee.name.first},</strong></h3>
   Le ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> vous a été assigné par %{assigner.name.short}
   <br>

@@ -3,7 +3,7 @@
   isenabled: 1
   title: What is osTicket (sample)?
   response: "osTicket is a widely-used open source support ticket system, an\nattractive alternative to higher-cost and complex customer support\nsystems - simple, lightweight, reliable, open source, web-based and easy\nto setup and use."
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     Your ticket #%{ticket.number} created on %{ticket.create_date} is in
-    %{ticket.dept.name} department.
+    %{ticket.dept.name} department. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

@@ -1,7 +1,14 @@
 ---
-notes: ""
-subject: '#%{ticket.number} チケットの担当変更 - 変更先：%{ticket.dept.name}'
-body: |2
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
+notes: |
+
+subject: |
+  #%{ticket.number} チケットの担当変更 - 変更先：%{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
   <h3>%{recipient}様</h3>
   <strong>%{staff.name.short}</strong>が<a href="%{ticket.staff_link}">#%{ticket.number}</a>を%{ticket.dept.name}担当に変更しました。
   <br>

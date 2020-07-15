@@ -1,4 +1,10 @@
 ---
+#registration-confirm.yaml
+#Template of the page shown to the user after registering for an account.
+#The system will send the user an email with a link they should follow to
+#confirm the account. This page should inform them of the next step in
+#the process.
+#---
 notes: >
   此模板定义了填写注册表后显示给客户的页面。此模板还应说明系统正在发送电子邮件确认链接以及后续注册的相关步骤。
 name: "账户注册"

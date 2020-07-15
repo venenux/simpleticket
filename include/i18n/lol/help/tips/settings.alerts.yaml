@@ -1,67 +1,78 @@
 ---
+#This is popup help messages for the Account Panel ->
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 page_title:
-  title: 'crwdns966:0crwdne966:0'
+  title: crwdns966:0crwdne966:0
   content: >
     crwdns967:0crwdne967:0
 ticket_alert:
-  title: 'crwdns968:0crwdne968:0'
+  title: crwdns968:0crwdne968:0
   content: >
     crwdns969:0crwdne969:0
   links:
     - 
-      title: 'crwdns970:0crwdne970:0'
-      href: 'crwdns971:0crwdne971:0'
+      title: crwdns970:0crwdne970:0
+      href: crwdns971:0crwdne971:0
 message_alert:
-  title: 'crwdns972:0crwdne972:0'
+  title: crwdns972:0crwdne972:0
   content: >
     crwdns973:0crwdne973:0
   links:
     - 
-      title: 'crwdns974:0crwdne974:0'
-      href: 'crwdns975:0crwdne975:0'
+      title: crwdns974:0crwdne974:0
+      href: crwdns975:0crwdne975:0
 internal_note_alert:
-  title: 'crwdns5419:0crwdne5419:0'
+  title: crwdns5419:0crwdne5419:0
   content: >
     crwdns5420:0crwdne5420:0
   links:
     - 
-      title: 'crwdns978:0crwdne978:0'
-      href: 'crwdns979:0crwdne979:0'
+      title: crwdns978:0crwdne978:0
+      href: crwdns979:0crwdne979:0
 assignment_alert:
-  title: 'crwdns980:0crwdne980:0'
+  title: crwdns980:0crwdne980:0
   content: >
     crwdns981:0crwdne981:0
   links:
     - 
-      title: 'crwdns982:0crwdne982:0'
-      href: 'crwdns983:0crwdne983:0'
+      title: crwdns982:0crwdne982:0
+      href: crwdns983:0crwdne983:0
 transfer_alert:
-  title: 'crwdns654:0crwdne654:0'
+  title: crwdns654:0crwdne654:0
   content: >
     crwdns984:0crwdne984:0
   links:
     - 
-      title: 'crwdns656:0crwdne656:0'
-      href: 'crwdns657:0crwdne657:0'
+      title: crwdns656:0crwdne656:0
+      href: crwdns657:0crwdne657:0
 overdue_alert:
-  title: 'crwdns985:0crwdne985:0'
+  title: crwdns985:0crwdne985:0
   content: >
     crwdns986:0crwdne986:0
   links:
     - 
-      title: 'crwdns987:0crwdne987:0'
-      href: 'crwdns988:0crwdne988:0'
+      title: crwdns987:0crwdne987:0
+      href: crwdns988:0crwdne988:0
     - 
-      title: 'crwdns989:0crwdne989:0'
-      href: 'crwdns990:0crwdne990:0'
+      title: crwdns989:0crwdne989:0
+      href: crwdns990:0crwdne990:0
 system_alerts:
-  title: 'crwdns991:0crwdne991:0'
+  title: crwdns991:0crwdne991:0
   content: >
     crwdns992:0%{config.admin_email}crwdne992:0
   links:
     - 
-      title: 'crwdns993:0crwdne993:0'
-      href: 'crwdns994:0crwdne994:0'
+      title: crwdns993:0crwdne993:0
+      href: crwdns994:0crwdne994:0
     - 
-      title: 'crwdns995:0crwdne995:0'
-      href: 'crwdns996:0crwdne996:0'
+      title: crwdns995:0crwdne995:0
+      href: crwdns996:0crwdne996:0

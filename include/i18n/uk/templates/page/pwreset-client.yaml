@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Цей шаблон визначає текст, що відправляється клієнтам, які перейшли по посиланню <strong> Забули пароль </strong> на сторінці входу клієнта.
 name: "Доступ до системи підтримки %{company.name}"

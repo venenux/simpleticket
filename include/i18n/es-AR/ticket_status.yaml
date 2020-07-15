@@ -17,7 +17,7 @@
   flags: 0
   properties:
     description: >
-      Ticket resueltos están cerrados, estos pueden ser reabiertos por el usuario final. Esto puede ser útil cuando se usa un disparador para cerrar Tickets resueltos con aviso enviado al usuario final.
+      Tickets resueltos son tickets cerrados que pueden ser reabiertos por el usuario final. Esto puede ser útil cuando se usa un disparador para cerrar tickets resueltos con aviso enviado al usuario final.
 - 
   id: 3
   name: Cerrado

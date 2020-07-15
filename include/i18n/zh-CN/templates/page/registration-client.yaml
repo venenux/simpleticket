@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   此模板定义了在客户入口中或以代理名义创建账户时所发送至客户的电子邮件。此电子邮件用于验证电子邮件地址。请在正文的某处使用 %{link}。
 name: "欢迎来到 %{company.name}"

@@ -1,73 +1,85 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
-  title: Uue pöördumise abiteema
+  title: Uue pileti abiteema
   content: >
-    Vali <span class="doc-desc-title">Abiteema</span>, et automaatselt siduda pöördumisi e-posti aadressiga. <br/><br/>Abiteemaga seotud vormid ilma andmeteta lisatakse pöördumisele.
+    Vali <span class="doc-desc-title">Abiteema</span>, et automaatselt siduda pileteid emaili aadressiga. <br/><br/>Abiteemaga seotud vormid lisatakse piletile.
   links:
     - 
       title: Halda abiteemasid
       href: /scp/helptopics.php
 new_ticket_priority:
-  title: Uue pöördumise prioriteet
+  title: Uue pileti prioriteet
   content: >
-    Vali <span class="doc-desc-title">prioriteet</span> uutele pöördumistele, mis on saadetud sellelt e-posti aadressilt.
+    Vali sellelt emaililt tulnud uutele piletitele <span class="doc-desc-title">prioriteet</span>.
 new_ticket_department:
-  title: Uue pöördumise osakond
+  title: Uue pileti osakond
   content: >
-    Vali <span class="doc-desc-title">osakond</span> pöördumiste, mis on saadetud sellelt e-posti aadressilt, edastamiseks.
+    Vali <span class="doc-desc-title">osakond</span> nendele piletitele, mis selle emaili kaudu avatakse.
   links:
     - 
       title: Halda osakondi
       href: /scp/departments.php
 auto_response:
-  title: Uue pöördumise automaatvastus
+  title: Uue pileti automaatvastus
   content: >
-    Võid automaatteadete saatmise kasutajale välja lülitada, kui pöördumine on saadetud sellelt e-posti aadressilt.
+    Võid automaatteadete saatmise kasutajale keelata, kui pilet on loodud selle emaili aadressi kaudu.
 username:
   title: Kasutajanimi
   content: >
-    
+
 password:
-  title: Parool
+  title: Salasõna
   content: >
-    
+
 login_information:
-  title: E-posti sisselogimise andmed
+  title: Emaili sisselogimise andmed
   content: >
-    <span class="doc-desc-title">Kasutajanimi</span> ja <span class="doc-desc-title">parool</span> on vajalikud, et e-kirju IMAP/POP e-posti serverist alla laadida, samuti SMTP serveri kaudu e-kirja saatmiseks.
+    <span class="doc-desc-title">Kasutajanimi</span> ja <span class="doc-desc-title">salasõna</span> on vajalikud, et emaile IMAP/POP emaili serverist alla laadida, samuti SMTP serveri kaudu emaili saatmiseks.
 mail_account:
-  title: E-kirjade allalaadimine
+  title: Emailide allalaadimine
   content: >
-    Lae alla e-kirjad IMAP või POP postiserverist ja teisenda need kasutajatoe pöördumisteks.
+    Tõmba emailid IMAP või POP postiserverist ja teisenda need kasutajatoe piletiteks.
   links:
     - 
-      title: Halda <span class="doc-desc-title">e-posti kontrollimist</span>&amp;<span class="doc-desc-title">AutoCron</span> seadeid.
+      title: Halda <span class="doc-desc-title">emaili kontrollimise</span>&amp;<span class="doc-desc-title">AutoCron</span> seadeid.
       href: /scp/settings.php?t=emails
 host_and_port:
   title: Kaughost
   content: >
-    Sisesta oma meiliserveri <span class="doc-desc-title">hosti nimi</span> ja <span class="doc-desc-title">pordi</span> number. Seda järgi vaadata hosti konto dokumentatsioonist või küsida e-posti administraatorilt.
+    Sisesta oma emailiserveri <span class="doc-desc-title">hosti nimi</span> ja <span class="doc-desc-title">pordi</span> number. Saad selle hosti konto dokumentatsioonist või emaili administraatorilt.
 protocol:
   title: Postkasti protokoll
   content: >
-    Vali Sinu postiserveri poolt toetatav e-posti saatmise protokoll. IMAP on soovitatav, samuti SSL, kui võimalik.
+    Vali sinu postiserveri poolt toetatav emaili saatmise protokoll. IMAP on soovitatav, samuti SSL, kui võimalik.
 fetch_frequency:
   title: Allalaadimise sagedus
   content: >
-    Vali, kui sagedasti (minutites) süsteem meilikontot kontrollib. <br/><br/> See määrab kasutaja saadetud e-kirja peale saadetud automaatvastuste saamise keskmise viivituse.
+    Vali, kui sagedasti (minutites) süsteem emailikontot kontrollib. <br/><br/> See määrab automaatvastuste saamise keskmise viivituse, kui kasutaja saadab emaili sellesse postkasti.
 emails_per_fetch:
-  title: E-kirju allalaadimise kohta
+  title: Emaile allalaadimise kohta
   content: >
-    Samaaegselt töödeldavate e-kirjade kogus.
+    Sisesta samaaegselt töödeldavate emailide hulk.
 fetched_emails:
-  title: Allalaetud e-kirjad
+  title: Allalaetud emailid
   content: >
-    Otsusta, mida soovid teha töödeldud e-kirjadega:<br/><br/><span class="doc-desc-opt"><b>Teisalda kausta</b></span>: See teisaldab e-kirja kausta, mille saad määrata. Kui kausta serveris pole, loob süsteem selle. (<b>Soovituslik</b>)<hr><span class="doc-desc-opt"><b>Kustuta e-kirjad</b></span>: See kustutab e-kirjad, kui nad on töödeldud. <hr><span class="doc-desc-opt"><b>Ära tee midagi</b></span>: E-kirjad jäetakse sissetulnud kirjade kausta. Süsteem salvestab e-kirjade teadete ID-d ja püüab neid mitte uuesti alla laadida. See valik võib põhjustada pöördumiste dubleerimist. (<em>Ei soovitata</em>)
+    Otsusta, mida soovid teha töödeldud emalidega:<br/><br/><span class="doc-desc-opt"><b>Teisalda kausta</b></span>: See teisaldab emaili sinu poolt määratud kataloogi. Kui kataloogi serveris ei ole, siis süsteem loob sellea automaatselt. (<b>Soovituslik</b>)<hr><span class="doc-desc-opt"><b>Kustuta emailid</b></span>: See kustutab emailid sissetulnud kirjade kaustast. <hr><span class="doc-desc-opt"><b>Ära tee midagi</b></span>: Emailid jäetakse sissetulnud kirjade kausta. Süsteem salvestab emailide teadete ID-d ja püüab neid mitte uuesti alla laadida. See valik võib põhjustada piletite dubleerimist. (<em>Ei soovitata</em>)
 smtp_settings:
   title: SMTP seaded
   content: >
-    E-kirjad tugiteenuselt saadetakse SMTP serveri kaudu. See on soovitatav, kui võimalik, sest suurendab e-kirjade kohalejõudmise tõenäosust ning vähendab nende märkimist rämpspostiks.
+    Email sadetakse kasutajatoelt SMTP serveri kaudu. See on soovitatav, kui võimalik, sest suurendab emailide kohalejõudmise tõenäosust ning vähendab nende märkimist rämpspostiks.
 header_spoofing:
   title: Luba päise võltsimine
   content: >
-    Aktiveeri see, et lubada e-kirjade saatmine läbi selle meilikonto teiselt meiliaadressilt kui märgitud <span class="doc-desc-title">E-kirja aadress</span> seadetes allpool.<br/><br/> Seda seadet kasutatakse, kui e-kirju saadetakse selle meilikonto pseudonüümi kasutades.
+    Luba see, et lubada emailide saatmist selle postkasti kaudu, teiselt aadressilt, mis on toodud <span class="doc-desc-title">emaili aadressi</span> seadetes. emailide saatmine läbi selle emailikonto teiselt emailiaadressilt kui märgitud E-kirja aadress seadetes allpool.<br/><br/> Seda lisaseadet kasutatakse üldiselt siis, kui emaile saadetakse selle emailikonto aliast kasutades.
+

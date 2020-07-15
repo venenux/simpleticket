@@ -7,7 +7,7 @@
   sort: 1
   flags: 0
   properties:
-    description: Tiketa e hapura.
+    description: Tiketat e hapura.
 - 
   id: 2
   name: E Kompletuar
@@ -27,7 +27,7 @@
   flags: 0
   properties:
     description: >
-      Tickets marked as closed cannot be reopened by the end user. Tickets will still be accessible on client and staff panels.
+      Tiketa e shenjëzuara si te mbyllura nuk mund te happen nga shfrytezuesit, Por ende do të jenë të qashme nga paneli i Klientit dhe stafit.
 - 
   id: 4
   name: E arkivuar
@@ -37,14 +37,14 @@
   flags: 0
   properties:
     description: >
-      Tickets only adminstratively available but nolonger accessible on ticket queues.
+      Tiketat e qashme nga administrimi por jo nga ana e klientit e as nga lista e tiketave.
 - 
   id: 5
-  name: E fshire
+  name: E fshira
   state: deleted
   mode: 3
   sort: 5
   flags: 0
   properties:
     description: >
-      Tickets queued for deletion. Not accessible on ticket queues.
+      Tiketa e vendosur ne list për tu fshirë. Nuk eshte e qashme ne listen e ticketave.

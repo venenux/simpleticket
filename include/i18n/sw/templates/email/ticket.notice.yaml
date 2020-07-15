@@ -1,8 +1,13 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Inatumwa kwa mtumiaji wakati mfanyikazi anatengeneza tiketi kwa niaba ya mtumiaji.
   Hii hutumiwa kwa kawaida wakati mtumiaji anapiga simu.
-subject: '%{ticket.subject} [#%{ticket.number}]'
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
 body: |
   <h3><strong>Dear %{recipient.name.first},</strong></h3>
   Our customer care team has created a ticket, <a

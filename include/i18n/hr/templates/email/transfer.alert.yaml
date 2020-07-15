@@ -1,9 +1,14 @@
 ---
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
-  
+
 subject: |
-  Kartica #%{ticket.number} prebačena je u - %{ticket.dept.name}
-body: |2
+  Kartica #%{ticket.number} prebačena je u - %{ticket.dept.name} #%{ticket.number} transfer - %{ticket.dept.name}
+body: |
   <h3>Pozdrav %{recipient.name},</h3>
   Kartica <a href="%{ticket.staff_link}">#%{ticket.number}</a> je prebačena u odjel %{ticket.dept.name} od strane
   <strong>%{staff.name.short}</strong>

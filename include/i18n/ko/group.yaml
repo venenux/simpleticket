@@ -2,7 +2,7 @@
 - 
   isactive: 1
   name: 사자 조련사
-  notes: 시스템 최고 관리자. 이 유저들은 (초기에는) 모든 부서에 대해서 모든 권한을 가집니다.
+  notes: 시스템 최고 관리자. 이 사용자들은(초기에) 모든 부서에 대해서 모든 권한을 가집니다.
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -40,7 +40,7 @@
   isactive: 1
   name: 벼룩 트레이너
   notes: |
-    하위 직원들
+    하위 스태프
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 0

@@ -1,37 +1,48 @@
 ---
+#This is popup help messages for the Admin Panel -> Dashboard  -> System Logs page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 system_logs:
-  title: 'crwdns1463:0crwdne1463:0'
+  title: crwdns1463:0crwdne1463:0
   content: >
     crwdns1464:0crwdne1464:0
   links:
     - 
-      title: 'crwdns1465:0crwdne1465:0'
-      href: 'crwdns1466:0crwdne1466:0'
+      title: crwdns1465:0crwdne1465:0
+      href: crwdns1466:0crwdne1466:0
 date_span:
-  title: 'crwdns1467:0crwdne1467:0'
+  title: crwdns1467:0crwdne1467:0
   content: >
     crwdns1468:0crwdne1468:0
 type:
-  title: 'crwdns1469:0crwdne1469:0'
+  title: crwdns1469:0crwdne1469:0
   content: >
     crwdns1470:0crwdne1470:0
 showing_logs:
-  title: 'crwdns1471:0crwdne1471:0'
+  title: crwdns1471:0crwdne1471:0
   content: >
     crwdns1472:0crwdne1472:0
 log_title:
-  title: 'crwdns1473:0crwdne1473:0'
+  title: crwdns1473:0crwdne1473:0
   content: >
     crwdns1474:0crwdne1474:0
 log_type:
-  title: 'crwdns1475:0crwdne1475:0'
+  title: crwdns1475:0crwdne1475:0
   content: >
     crwdns1476:0crwdne1476:0
 log_date:
-  title: 'crwdns1477:0crwdne1477:0'
+  title: crwdns1477:0crwdne1477:0
   content: >
     crwdns1478:0crwdne1478:0
 ip_address:
-  title: 'crwdns1479:0crwdne1479:0'
+  title: crwdns1479:0crwdne1479:0
   content: >
     crwdns1480:0crwdne1480:0

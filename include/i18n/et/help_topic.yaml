@@ -14,7 +14,7 @@
   priority_id: 1
   topic: Tagasiside
   notes: |
-    Peamiselt müügi ja arvete osakonnaga seotud pöördumised
+    Peamiselt müügi ja arvete osakonnaga seotud piletid
 - 
   topic_id: 10
   isactive: 1
@@ -33,4 +33,4 @@
   priority_id: 3
   topic: Ligipääsu probleem
   notes: |
-    Teade füüsilistele või virtuaalsetele vahenditele ligipääsu puudumisest
+    Teavitage füüsilisest või virtuaalsest juurdepääsu puudumisele

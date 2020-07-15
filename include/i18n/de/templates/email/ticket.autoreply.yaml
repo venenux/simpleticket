@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Wird an den Benutzer versendet, wenn eine vordefinierte Antwort zu einem neu eröffneten Ticket hinzugefügt wird.
-  
+
   Verfügbare Variablen zum Ersetzen: %{ticket.*}, %{response}
 subject: |
   Aw: %{ticket.subject} [#%{ticket.number}]

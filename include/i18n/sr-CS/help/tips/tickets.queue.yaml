@@ -1,40 +1,64 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: Polje za pretragu
-  content: ""
+  content: >
+
 advanced:
   title: Još
-  content: 'Suziti parametre pretrage. Jednom kada su selektovani kriterijumi napredne pretrage i kada se pokrene pretraga, možete <span class="doc-desc-title">izvesti</span> podatke sa dna stranice tiketa.'
+  content: >
+    Suziti parametre pretrage. Jednom kada su selektovani kriterijumi napredne pretrage i kada se pokrene pretraga, možete <span class="doc-desc-title">izvesti</span> podatke sa dna stranice tiketa.
 open_tickets_table:
   title: Tabela otvorenih tiketa
-  content: Svi tiketi trenutno otvoreni i koji zahtevaju paznju
+  content: >
+    Svi tiketi trenutno otvoreni i koji zahtevaju paznju
 ticket:
   title: Tiket
-  content: ""
+  content: >
+
 date:
   title: Datum
-  content: ""
+  content: >
+
 subject:
   title: Naslov
-  content: ""
+  content: >
+
 from:
   title: Od
-  content: ""
+  content: >
+
 priority:
   title: Prioritet
-  content: ""
+  content: >
+
 assigned_to:
   title: Dodeljeno
-  content: ""
+  content: >
+
 export:
   title: Izvoz
-  content: Izvoz trenutno vidljivih podataka u CSV fajl. CSV fajlovi se mogu otvoriti bilo kojim softverom koji omogućava tabelarni prikaz (t.j. Microsoft Excel, Apple Pages, OpenOffice, itd.).
+  content: >
+    Izvoz trenutno vidljivih podataka u CSV fajl. CSV fajlovi se mogu otvoriti bilo kojim softverom koji omogućava tabelarni prikaz (t.j. Microsoft Excel, Apple Pages, OpenOffice, itd.).
 advanced_search_dialog:
   title: Napredna pretraga
-  content: ""
+  content: >
+
 adv_keyword:
   title: Pretraga po ključnim rečima
-  content: Pronađi pogotke bazirane na predmetu i telu poruka tiketa kao i sav tekstualan sadržaj asociran sa namenskim poljima za korisnike i tikete.
+  content: >
+    Pronađi pogotke bazirane na predmetu i telu poruka tiketa kao i sav tekstualan sadržaj asociran sa namenskim poljima za korisnike i tikete.
 adv_date_range:
   title: Traži po opsegu datuma
-  content: Definicija ovde
+  content: >
+    Definicija ovde

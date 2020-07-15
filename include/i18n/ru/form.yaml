@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Детали заявки
   instructions: Пожалуйста, опишите вашу проблему
   notes: |
@@ -55,8 +55,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Краткое описание
       required: true
       edit_mask: 15
@@ -66,8 +66,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Детали проблемы
       hint: Подробности о причинах создания заявки.
       required: true
@@ -75,22 +75,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Уровень Приоритета
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Информация о компании
   instructions: Детали, доступные в шаблонах email
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Название компании
       required: true
       sort: 1
@@ -99,23 +99,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Веб-сайт
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Номер телефона
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Адрес
       required: false
@@ -126,14 +126,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Сведения об организации
   instructions: Подробности об организации клиента
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Имя
       required: true
       sort: 1
@@ -168,7 +168,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Внутренние Заметки
       required: false

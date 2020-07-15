@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   Этот шаблон определяет сообщение электронной почты, отправляемое клиентам, когда их учетная запись была создана самостоятельно в клиентской части системы или по их просьбе с помощью агента. Это письмо служит проверкой адреса электронной почты. Пожалуйста, используйте %{link} где нибудь в теле сообщения.
 name: "Добро пожаловать в %{company.name}"

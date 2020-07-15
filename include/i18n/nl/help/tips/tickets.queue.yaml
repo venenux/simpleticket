@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: Zoekveld
   content: >
-    
+
 advanced:
   title: Geavanceerd zoeken
   content: >
@@ -14,27 +25,27 @@ open_tickets_table:
 ticket:
   title: Ticket
   content: >
-    
+
 date:
   title: Datum
   content: >
-    
+
 subject:
   title: Onderwerp
   content: >
-    
+
 from:
   title: Van
   content: >
-    
+
 priority:
   title: Prioriteit
   content: >
-    
+
 assigned_to:
   title: Toegewezen aan
   content: >
-    
+
 export:
   title: Exporteer
   content: >
@@ -42,7 +53,7 @@ export:
 advanced_search_dialog:
   title: Uitgebreid zoeken
   content: >
-    
+
 adv_keyword:
   title: Zoeken op trefwoord
   content: >

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Add New Custom List
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 custom_lists:
   title: Danh sách tùy thích
   content: >
@@ -6,23 +17,23 @@ custom_lists:
 name:
   title: Tên
   content: >
-    
+
 plural_name:
   title: Tên số nhiều
   content: >
-    
+
 sort_order:
   title: Thứ tự các loại
   content: >
-    
+
 list_s_initial_items:
   title: Hạng mục ban đầu của danh sách
   content: >
-    
+
 value:
   title: Giá trị
   content: >
-    
+
 extra:
   title: Phần bổ sung
   content: >

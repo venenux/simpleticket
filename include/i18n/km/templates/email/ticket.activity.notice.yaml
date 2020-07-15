@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   សេចក្តីជូនដំណឹងដែលបានផ្ញើទៅអ្នកសហការ លើសកម្មភាពសំបុត្រ ឧ សារ ឬ ឆ្លើយតប។
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>ទៅ %{recipient.name.first},  ជាទីគោរព</strong></h3>
   <div>
       <em>%{poster.name}</em> បានចូលទេសារ logged ទៅសំបុត្រដែលអ្នកចូលរួមមួយ។

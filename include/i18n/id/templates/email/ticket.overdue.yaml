@@ -1,11 +1,16 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Dikirim ke anggota staf ketika sebuah tiket mengalami keterlambatan di sistem.
   Tiket yang terlambat terjadi berdasarkan tanggal kadaluarsa seperti yang telah 
   ditetapkan di SLA.
 subject: |
   Pemberitahuan Tiket Kadaluarsa
-body: |2
+body: |
   <h3><strong>Halo %{recipient}</strong>,</h3>
   Sebuah tiket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> 
   saat ini sudah kadaluarsa.

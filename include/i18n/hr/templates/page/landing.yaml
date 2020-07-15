@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   Odredišna stranica se odnosi na inicijalni sadržaj korisničke stranice. Predložak mijenja sadržaj koji se vidi iznad dva linka <strong>Otvorite novu karticu</strong> i <strong>Provjeri status kartice</strong>.
 name: Odredišna stranica

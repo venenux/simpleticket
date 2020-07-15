@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Bu şablon bir erişim linki kendi e-posta gönderildi Müşteriler için bildirim tanımlar. Bilet numarası ve e-posta adresi ile erişim sağlayabilir.
 name: "[#%{ticket.number}]  numaralı talep erişim bağlantısı"

@@ -1,4 +1,8 @@
 ---
+#Page template: offline.yaml
+#The offline page is served to the customer portal when the help desk is
+#configured offline in the Admin Panel
+#---
 notes: |
   Η Σελίδα Διακοπής Λειτουργίας εμφανίζεται στην Ιστοσελίδα Πελατών όταν το Κέντρο Υποστήριξης είναι εκτός λειτουργίας.
 name: Διακοπή Λειτουργίας

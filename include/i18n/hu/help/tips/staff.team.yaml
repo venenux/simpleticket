@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Teams
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 teams:
   title: Csapatok
   content: >
@@ -8,7 +19,7 @@ status:
   content: >
     Ha <span class="doc-desc-opt">ez jelenik meg</span>, a csapat nem lesz választható jegyek megoldására és nem kaphatnak Figyelmeztetéseket &amp; Jelzéseket korábbi feladatokkal kapcsolatban.
 lead:
-  title: Csapat vezető
+  title: Csoportvezető
   content: >
     A <span class="doc-desc-title">Csapat</span> kijelölhet egy vezetőt, aki kaphat<span class="doc-desc-title">Figyelmeztetéseket &amp; Jelzéseket</span> a csapattagok helyett.
   links:
@@ -24,7 +35,7 @@ assignment_alert:
       title: Figyelmeztetések &amp; Jelentések konfigurálása
       href: /scp/settings.php?t=alerts
 members:
-  title: Csapat tagjai
+  title: Csoporttagok
   content: >
     A csapattagság az Agent profilon keresztül szerkeszthető.
   links:

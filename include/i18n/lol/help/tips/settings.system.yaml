@@ -1,45 +1,57 @@
 ---
+#This is popup help messages for the Admin Panel -> Settings -> System
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_status:
-  title: 'crwdns702:0crwdne702:0'
+  title: crwdns702:0crwdne702:0
   content: >
     crwdns1052:0crwdne1052:0
 helpdesk_url:
-  title: 'crwdns704:0crwdne704:0'
+  title: crwdns704:0crwdne704:0
   content: >
     crwdns705:0crwdne705:0
 helpdesk_name_title:
-  title: 'crwdns1053:0crwdne1053:0'
+  title: crwdns1053:0crwdne1053:0
   content: >
     crwdns1054:0crwdne1054:0
 default_department:
-  title: 'crwdns1055:0crwdne1055:0'
+  title: crwdns1055:0crwdne1055:0
   content: >
     crwdns1056:0crwdne1056:0
 default_page_size:
-  title: 'crwdns1057:0crwdne1057:0'
+  title: crwdns1057:0crwdne1057:0
   content: >
     crwdns1058:0crwdne1058:0
 default_log_level:
-  title: 'crwdns1059:0crwdne1059:0'
+  title: crwdns1059:0crwdne1059:0
   content: >
     crwdns1060:0crwdne1060:0
 purge_logs:
-  title: 'crwdns1061:0crwdne1061:0'
+  title: crwdns1061:0crwdne1061:0
   content: >
     crwdns1062:0crwdne1062:0
 default_name_formatting:
-  title: 'crwdns1063:0crwdne1063:0'
+  title: crwdns1063:0crwdne1063:0
   content: >
     crwdns1064:0crwdne1064:0
   links:
     - 
-      title: 'crwdns1065:0crwdne1065:0'
-      href: 'crwdns1066:0crwdne1066:0'
+      title: crwdns1065:0crwdne1065:0
+      href: crwdns1066:0crwdne1066:0
+#Date and time options
 date_time_options:
-  title: 'crwdns1067:0crwdne1067:0'
+  title: crwdns1067:0crwdne1067:0
   content: >
     crwdns1068:0crwdne1068:0
   links:
     - 
-      title: 'crwdns1069:0crwdne1069:0'
-      href: 'crwdns1070:0crwdne1070:0'
+      title: crwdns1069:0crwdne1069:0
+      href: crwdns1070:0crwdne1070:0

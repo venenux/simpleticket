@@ -1,8 +1,12 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   A página de agradecimento é utilizada pelo portal do cliente quando um utilizador submete um novo pedido de assistência directamente no portal.
 name: Obrigado
-body: |2
+body: |
   <div> %{ticket.name},
   <br>
   <br>

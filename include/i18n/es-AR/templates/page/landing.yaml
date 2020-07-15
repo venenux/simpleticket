@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   La Página de Inicio contiene lo que se verá inicialmente en el Portal del Cliente. La plantilla modifica el contenido que se ve encima de los dos enlaces <strong>Abrir un nuevo Ticket</strong> y <strong>Ver Estado de un Ticket</strong>.
 name: Página de inicio

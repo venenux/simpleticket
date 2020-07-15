@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   این قالب، ایمیل‌های ارسال شده به مشتریانی را که گزینه <strong> فراموشی رمز </strong>در صفحه ورود مشتری  انتخاب کرده‌اند، تعریف می کند.
 name: "دسترسی به میز خدمت %{company.name}"

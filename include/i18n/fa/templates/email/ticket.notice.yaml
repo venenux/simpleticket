@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   زمانی برای کاربر ارسال می شود که یک کارشناس درخواستی را از جانب کاربر باز کرده باشد. این مورد زمانی کاربرد دارد که کاربر از طریق تلفن درخواست های خود را مطرح می نمایند. 
 subject: |

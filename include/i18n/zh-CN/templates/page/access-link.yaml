@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   此模板定义了访问链接已发送至其电子邮件地址的客户通知。咨询编号和电子邮件地址可触发此访问链接。
 name: "咨询 [#%{ticket.number}] 访问链接"

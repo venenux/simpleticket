@@ -1,11 +1,16 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
-  고객이 티켓에 새 메지시를 작성했을 때 스텝 멤버에게 전송됩니다. 시스템이 발송한 이메일에 고객이 답변하거나, 웹 포털에 고객이 방문하여 메시지를 작성했을 때 발생합니다.
+  고객이 티켓에 새 메세지를 작성했을 때 직원에게 전송됩니다. 시스템이 발송한 이메일에 고객이 답변하거나, 웹포털에 고객이 방문하여 메시지를 작성했을 때 발생합니다.
 subject: |
-  새 메시지 알림
-body: |2
+  새 메세지 알림
+body: |
   <h3><strong>안녕하세요, %{recipient.name}</strong></h3>
-  새로운 메시지가 티켓 <a
+  새로운 메세지가 티켓 <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>에 등록되었습니다.
   <br>
   <br>

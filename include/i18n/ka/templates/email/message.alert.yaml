@@ -1,7 +1,14 @@
 ---
-notes: ეგზავნება დახმარების გუნდის წევრებს, როდესაც მომხმარებელი დაამატებს ახალ შეტყობინებას არსებულ მომართვას. ეს შეიძლება მოხდეს როდესაც მომხმარებელი გამოაგზავნის შეტყობინებას ელ-ფოსტით ან დახმარების სისტემიდან, მასში შესვლის შემდეგ.
-subject: ახალი შეტყობინების უწყისი
-body: |2
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
+notes: |
+  ეგზავნება დახმარების გუნდის წევრებს, როდესაც მომხმარებელი დაამატებს ახალ შეტყობინებას არსებულ მომართვას. ეს შეიძლება მოხდეს როდესაც მომხმარებელი გამოაგზავნის შეტყობინებას ელ-ფოსტით ან დახმარების სისტემიდან, მასში შესვლის შემდეგ.
+subject: |
+  ახალი შეტყობინების უწყისი
+body: |
   <h3><strong>გამარჯობა %{recipient},</strong></h3>
   ბილეთს დაემატა ახალია შეტყობინება<a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

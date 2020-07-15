@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Se pošlje zaposlenim, ko zahtevku za pomoč v sistemu preteče rok. Pretečeni rok zahtevka temelji na datumu veljavnosti zahtevka.
 subject: |
   Alarm za dlje časa neaktivni zahtevek
-body: |2
+body: |
   <h3><strong>Pozdravljen %{recipient.name}</strong>,</h3>
   Veljavnost zahtevka za pomoč <a href="%{ticket.staff_link}">#%{ticket.number}</a> je
   krepko preko roka.

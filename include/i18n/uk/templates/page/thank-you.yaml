@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Сторінка "Подяки" показується в інтерфейсі клієнта, після того, як той створив нову Заявку.
 name: Дякуємо Вам!

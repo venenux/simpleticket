@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Skickas till en handläggare när ett nytt ärende skapas i systemet. Detta gäller för ärenden som skapas via e-post, systemet eller api.
 subject: |
   Nytt ärende
-body: |2
+body: |
   <h2>Hej %{recipient},</h2>
   Ett nytt ärende #%{ticket.number} har skapats
   <br>

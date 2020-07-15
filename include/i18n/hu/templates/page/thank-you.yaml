@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Ez a sablon határozza meg a megjelenítendő tartalmat a Köszönet oldalon, miután egy ügyfél beküldött egy hibajegyet az ügyfél portálon.
 name: Köszönjük

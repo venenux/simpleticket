@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Este trimis la membrii echipei atunci cand un nou mesaj este adaugat de catre un utilizator la un tichet. Acest lucru se intampla cand utilizatorul raspunde la un email din partea sistemului sau adauga un mesaj folosing pagina web a sistemului de suport  tehnic.
 subject: |
   Alerta Mesaj Nou
-body: |2
+body: |
   <h3><strong>Salut %{recipient},</strong></h3>
   Un mesaj nou a fost adaugat la tichetul <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

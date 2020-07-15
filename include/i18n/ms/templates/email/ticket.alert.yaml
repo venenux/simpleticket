@@ -1,19 +1,22 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
-  Sent to a staff member when a new ticket is created in the system. This
-  applies to tickets created via email, the web portal, or the api.
+  Dihantar kepada ahli staf apabila tiket baru dibuat di dalam sistem. Ini termasuk tiket yang dibuat melalui emel, portal pengguna, ataupun Api.
 subject: |
-  New Ticket Alert
-body: |2
+  Isyarat tiket baru
+body: |
   <h2>Hi %{recipient.name},</h2>
-  New ticket #%{ticket.number} created
+  Tiket baru #%{ticket.number} dicipta
   <br>
   <br>
   <table>
   <tbody>
   <tr>
       <td>
-          <strong>From</strong>:
+          <strong>Daripada</strong>:
       </td>
       <td>
           %{ticket.name} &lt;%{ticket.email}&gt;
@@ -21,7 +24,7 @@ body: |2
   </tr>
   <tr>
       <td>
-          <strong>Department</strong>:
+          <strong>Jabatan</strong>:
       </td>
       <td>
           %{ticket.dept.name}
@@ -34,9 +37,9 @@ body: |2
   <br>
   <br>
   <hr>
-  <div>To view or respond to the ticket, please <a
+  <div>Untuk melihat atau membalas tiket, sila <a
   href="%{ticket.staff_link}">login</a> to the support ticket system</div>
-  <em style="font-size: small">Your friendly Customer Support System</em>
+  <em style="font-size: small">Sistem sokongan pelanggan anda yang mesra</em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
       style="width: 126px; " alt="Powered By osTicket"

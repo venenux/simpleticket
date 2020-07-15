@@ -1,4 +1,8 @@
 ---
+#Page template: offline.yaml
+#The offline page is served to the customer portal when the help desk is
+#configured offline in the Admin Panel
+#---
 notes: |
   帮助中心离线时，离线页显示在客户入口中。
 name: 离线

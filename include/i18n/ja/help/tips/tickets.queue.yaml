@@ -1,40 +1,64 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: 検索フィールド
-  content: ""
+  content: >
+
 advanced:
   title: 詳細
-  content: '検索パラメーターを絞り込みます。詳細検索基準を選択して、検索を実行すると、チケットページの下部でデータを<span class="doc-desc-title">エクスポート </span>できます。'
+  content: >
+    検索パラメーターを絞り込みます。詳細検索基準を選択して、検索を実行すると、チケットページの下部でデータを<span class="doc-desc-title">エクスポート </span>できます。
 open_tickets_table:
   title: オープンチケットテーブル
-  content: 現在オープンで対応が必要なすべてのチケット
+  content: >
+    現在オープンで対応が必要なすべてのチケット
 ticket:
   title: チケット
-  content: ""
+  content: >
+
 date:
   title: 日付
-  content: ""
+  content: >
+
 subject:
   title: 件名
-  content: ""
+  content: >
+
 from:
   title: 差出人
-  content: ""
+  content: >
+
 priority:
   title: 優先順位
-  content: ""
+  content: >
+
 assigned_to:
   title: アサイン先
-  content: ""
+  content: >
+
 export:
   title: エクスポート
-  content: 現在表示しているデータをCSVファイルにエクスポートします。CSVファイルは、スプレッドシートソフトウェア (すなわち、Microsoft Excel、Apple Pages、OpenOffice など) で開くことができます。
+  content: >
+    現在表示しているデータをCSVファイルにエクスポートします。CSVファイルは、スプレッドシートソフトウェア (すなわち、Microsoft Excel、Apple Pages、OpenOffice など) で開くことができます。
 advanced_search_dialog:
   title: 詳細検索
-  content: ""
+  content: >
+
 adv_keyword:
   title: キーワード検索
-  content: チケットスレッドの件名とメッセージの本文、およびユーザーとチケットのカスタムフィールドに関連付けられたすべてのテキスト内容に基づいて一致を検索します。
+  content: >
+    チケットスレッドの件名とメッセージの本文、およびユーザーとチケットのカスタムフィールドに関連付けられたすべてのテキスト内容に基づいて一致を検索します。
 adv_date_range:
   title: 日付の範囲で検索
-  content: ここで定義
+  content: >
+    ここで定義

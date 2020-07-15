@@ -1,0 +1,68 @@
+---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
+search_field:
+  title: حقل بحث
+  0: >
+
+advanced:
+  title: متقدم
+  content: >
+    قم بتضييق متغيرات البحث. عند اختيارك معادلة البحث المتقدم والقيام بالبحث، فإنه بإمكانك <span class="doc-desc-title">تصدير</span> البيانات في أسفل صفحة التذاكر.
+open_tickets_table:
+  title: فتح جدول التذاكر
+  content: >
+    جميع التذاكر الحالية مفتوحة وتتطلب إهتماماً
+ticket:
+  title: التذكرة
+  0: >
+
+date:
+  title: التاريخ
+  0: >
+
+subject:
+  title: الموضوع
+  0: >
+
+from:
+  title: من
+  0: >
+
+priority:
+  title: الأولوية
+  0: >
+
+assigned_to:
+  title: تم إسنادها إلى
+  0: >
+
+export:
+  title: تصدير
+  content: >
+    قم بتصدير بياناتك الحالية ليتم عرضها في ملف CSV. بإمكانك فتح ملفات الـ CSV عن طريق أي برنامج جداول مثل ( Microsoft Excel, Apple Pages, OpenOffice إلخ.. ).
+advanced_search_dialog:
+  title: بحث متقدم
+  0: >
+
+adv_keyword:
+  title: البحث عن الكلمات المفتاحية
+  content: >
+    إيجاد النتائج حسب العنوان ومحتوى الرسائل للتذكرة إضافة إلى المحتوى النصي المرتبط مع الحقول المخصصة للمستخدمين والتذاكر.
+adv_date_range:
+  title: البحث بواسطة فترة زمنية
+  content: >
+    التعريف هنا
+reply_types:
+  title: انواع الرد
+  content: >
+    <b>الرد على الكل:</b> يتم إرسال هذا الرد إلى المستخدم والمتعاونين الذين تختار تضمينهم.</br> <b>الرد على المستخدم:</b> يتم إرسال هذا الرد إلى المستخدم فقط، ولا يشمل المتعاونين.</br> <b>عدم إرسال رد بالبريد الإلكتروني:</b> لا يتم إرسال تنبيهات بالبريد الإلكتروني، ومع ذلك، فإن استجابة الوكيل تكون ظاهرة للمستخدمين <b>جميعاً</b> عند عرض التذكرة.

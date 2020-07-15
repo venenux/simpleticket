@@ -1,6 +1,11 @@
 ---
-notes: Hutumwa kwa mtumiaji wakati tiketi imetengenezwa
-subject: 'Support Ticket Opened [#%{ticket.number}]'
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
+notes: |
+  Hutumwa kwa mtumiaji wakati tiketi imetengenezwa
+subject: |
+  Support Ticket Opened [#%{ticket.number}]
 body: |
   <h3><strong>Dear %{recipient.name.first},</strong></h3>
   <p>

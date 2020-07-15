@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   ترسل للمستخدم في حال إضافة رد نسبق بشمل تلقائي للتذكرة حال إنشائها.
-  
+
   المتغيرات المتاحة للاستبدال: %{ticket.*}, %{response}
 subject: |
   إعادة إرسال: %{ticket.subject} [#%{ticket.number}]

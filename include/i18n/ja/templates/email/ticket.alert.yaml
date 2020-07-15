@@ -1,13 +1,18 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   新規にチケット投稿された時にスタッフメンバー宛に送信されます。
   メール経由、webからの投稿、api経由からの投稿時に送信されます。
-  
-subject: 新規チケットの投稿
-body: |2
+
+subject: |
+  新規チケットの投稿
+body: |
   <h2>Hi %{recipient}様</h2>
   新規チケット #%{ticket.number} が投稿されました。
-  
+
   <br>
   <br>
   <table>

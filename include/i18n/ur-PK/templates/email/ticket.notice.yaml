@@ -1,0 +1,32 @@
+---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
+notes: |
+  ایک صارف کو بھیجا جاتا ہے جب عملے کے رکن صارف کی جانب سے ٹکٹ بنائے ہیں. جب صارف کے فون پر فون آتا ہے تو یہ عام طور پر انجام دیا جاتا ہے.
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
+body: |
+  <h3><strong>عزیز %{recipient.name.first},</strong></h3>
+  ہماری کسٹمر کی دیکھ بھال کی ٹیم نے آپ کی طرف سے ایک ٹکٹ بنایا ہے, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a>, جس کی تفصیلات اور خلاصہ یہ ہے:
+  <br>
+  <br>
+  موضوع: <strong>%{ticket.topic.name}</strong>
+  <br>
+  مضمون: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  اگر ضرورت ہوئی تو ایک نمائندہ جلد از جلد آپ سے رابطے میں آجائے گا۔ آپ اس ٹکٹ پر ہونے والے <a href="%{recipient.ticket_link}">کاموں کو آن لائن دیکھ سکتے ہیں</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  آپ کی %{company.name} ٹیم,<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>اگر آپ یس مسئلے پر مزید تبصرہ یا معلومات فراہم کرنا چاہتے ہیں تو اس ای-میل پر پیغام بھیجیں یا پھر <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >اپنے اکاونٹ میں لاگ ان کریں </span></a> تاکہ آپ اپنی مدد کی تمام ضبط شدہ درخواستون کو دیکھ سکیں۔</em></div>

@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Tai e-laiško forma (neprivaloma) skirta siųsti Agentui, kuris buvo naujai sukurtas.
 name: "Sveiki prisijungę prie osTicket"

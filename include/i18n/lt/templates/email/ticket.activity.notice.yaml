@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   Pranešimas apie problemos būklę išsiųstas bendradarbiams, pvz. atsakymas ar žinutė.
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Gerb. %{recipient.name.first},</strong></h3>
   <div>
       <em>%{poster.name}</em> ką tik parašė žinutę prie problemos, kurią Jūs sprendžiate.

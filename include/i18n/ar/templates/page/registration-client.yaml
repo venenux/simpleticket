@@ -1,4 +1,9 @@
 ---
+#registration-staff.yaml
+#Confirmation email sent to clients when accounts are created for them by
+#staff or via the client portal. This email serves as an email address
+#verification.
+#---
 notes: >
   هذا القالب يعرف البريد الإلكتروني المرسل إلى العملاء عندما يتم إنشاء الحسابات الخاصة بهم في بوابة العملاء أو بواسطة الوكيل بالنيابة عنهم. هذا البريد الإلكتروني يخدم حالات التحقق من عناوين البريد إلكتروني. الرجاء استخدام %{link} في مكان ما في الجسم.
 name: "مرحباً بك في %{company.name}"

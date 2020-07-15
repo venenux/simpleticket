@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Хүсэлт шинээр үүсгэхэд урьдчилан бэлдсэн автомат хариултийн аль нэгийг хэрэглэгчид илгээхэд ашиглагдана.
-  
+
   Ашиглах боломжтой хувьсагчууд: %{ticket.*}, %{response}
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]

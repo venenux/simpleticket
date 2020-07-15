@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Šalje se korisniku kada se automatski odgovor iz liste unapred definisanih odgovora pošalje u tiketu kada se kreira.
-  
+
   Promenljive dostupne za izmene: %{ticket.*}, %{response}
-subject: 'Odgovor: %{ticket.subject}'
+subject: |
+  Odgovor: %{ticket.subject}
 body: |
   <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
   Zahtev za podršku je kreiran i dodeljen je tiket <a

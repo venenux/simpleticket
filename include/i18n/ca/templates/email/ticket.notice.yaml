@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Enviat a un usuari quan un membre del personal de suport crea un Ticket en nom de l'usuari.
   Això en general es fa quan l'usuari ha contactat per via telefònica amb el personal de suport.

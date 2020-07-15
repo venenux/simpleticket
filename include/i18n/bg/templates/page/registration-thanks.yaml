@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Този шаблон определя съдържанието, което се показва след като клиентите се регистрират успешно чрез потвърждаване на своя акаунт. Тази страница трябва да информира потребителя, че регистрацията е завършена и че клиентът вече може да изпраща заявки или да достъпва съществуващите заявки.
 name: "Акаунтът е потвърден!"

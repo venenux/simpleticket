@@ -1,4 +1,9 @@
 ---
+#Email template: message.autoresp.yaml
+#Sent to a user when the user posts a new message to a ticket. This can
+#happen if the users responds to an email from the system or visits the
+#customer web portal and posts a new message there.
+#---
 notes: |
   Изпраща се до потребител, когато потребителят е публикувал ново съобщение към заявката. Това може да се случи, ако потребителят отговори на имейл от системата или посети уеб портала и там публикува ново съобщение.
 subject: |

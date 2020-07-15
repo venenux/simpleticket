@@ -1,29 +1,40 @@
 ---
+#This is popup help messages for the Account Panel ->
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 company_information:
-  title: 'crwdns2054:0crwdne2054:0'
+  title: crwdns2054:0crwdne2054:0
   content: >
     crwdns2055:0crwdne2055:0
   links:
     - 
-      title: 'crwdns2056:0crwdne2056:0'
-      href: 'crwdns2057:0crwdne2057:0'
+      title: crwdns2056:0crwdne2056:0
+      href: crwdns2057:0crwdne2057:0
 landing_page:
-  title: 'crwdns2058:0crwdne2058:0'
+  title: crwdns2058:0crwdne2058:0
   content: >
     crwdns2059:0crwdne2059:0
 offline_page:
-  title: 'crwdns2060:0crwdne2060:0'
+  title: crwdns2060:0crwdne2060:0
   content: >
     crwdns2061:0crwdne2061:0
 default_thank_you_page:
-  title: 'crwdns2062:0crwdne2062:0'
+  title: crwdns2062:0crwdne2062:0
   content: >
     crwdns2063:0crwdne2063:0
 logos:
-  title: 'crwdns2064:0crwdne2064:0'
+  title: crwdns2064:0crwdne2064:0
   content: >
     crwdns2065:0crwdne2065:0
 upload_a_new_logo:
-  title: 'crwdns2066:0crwdne2066:0'
+  title: crwdns2066:0crwdne2066:0
   content: >
     crwdns2067:0crwdne2067:0

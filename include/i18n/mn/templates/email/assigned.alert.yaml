@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   Тусламжийн албаны ажилтнуудад Хүсэлт хуваарилахад илгээх имэйлийн загвар. Хүсэлтийг систем автоматаар эсвэл хэн нэгэн ажилтан хуваарилж болно. Хуваарилалт хэн хийснийг ялгахын тулд %{assigner}-г ашиглаарай.
 subject: |
   Танд Хүсэлт хуваарилагдлаа
-body: |2
+body: |
   <h3><strong>Сайн байна уу %{assignee.name.first},</strong></h3>
   %{assigner.name.short} <a href="%{ticket.staff_link}">#%{ticket.number}</a> хүсэлтийг танд хуваарилсан байна
   <br>

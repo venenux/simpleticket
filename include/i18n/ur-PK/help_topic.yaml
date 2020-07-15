@@ -1,0 +1,36 @@
+---
+- 
+  topic_id: 1
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: عام تحقیقات
+  notes: مصنوعات یا خدمات کے بارے میں سوالات
+- 
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 1
+  topic: رائے
+  notes: |
+    ٹکٹیں جو بنیادی طور پر فروخت اور بلنگ کے محکموں کے بارے میں ہیں
+- 
+  topic_id: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  priority_id: 2
+  topic: مسئلے کے بارے میں بتائیے
+  notes: |
+    پروڈکٹ، سروس، یا سازوسامان سے متعلقہ مسائل
+- 
+  topic_pid: 10
+  isactive: 1
+  ispublic: 1
+  dept_id: 1
+  sla_id: 1
+  priority_id: 3
+  topic: رسائی کا مسئلہ
+  notes: |
+    کسی غیر فعال یا مجازی اثاثے کی رسائی کی اطلاع دیں

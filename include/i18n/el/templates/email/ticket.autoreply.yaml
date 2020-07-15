@@ -1,4 +1,8 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Αποστέλλεται σε ένα χρήστη, όταν μια αυτόματη τυποποιημένη απάντηση αποστέλλεται σε ένα δελτίο κατά τη δημιουργία του. Διαθέσιμες μεταβλητές για αντικατάσταση: %{ticket.*}, %{response}
 subject: |

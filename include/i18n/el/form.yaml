@@ -44,7 +44,7 @@
         cols: 40
 - 
   id: 2
-  type: T
+  type: T #notrans
   title: Λεπτομέρειες Δελτίου (Αιτήματος)
   instructions: Παρακαλούμε περιγράψτε το πρόβλημά σας
   notes: |
@@ -54,8 +54,8 @@
   fields:
     - 
       id: 20
-      type: text
-      name: subject
+      type: text #notrans
+      name: subject #notrans
       label: Περίληψη Προβλήματος
       required: true
       edit_mask: 15
@@ -65,8 +65,8 @@
         length: 50
     - 
       id: 21
-      type: thread
-      name: message
+      type: thread #notrans
+      name: message #notrans
       label: Λεπτομέρειες Προβλήματος
       hint: Λεπτομέρειες σχετικά με τον/τους λόγο(υς) ανοίγματος του δελτίου (αιτήματος).
       required: true
@@ -74,22 +74,22 @@
       sort: 2
     - 
       id: 22
-      type: priority
-      name: priority
+      type: priority #notrans
+      name: priority #notrans
       label: Επίπεδο προτεραιότητας
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
-  type: C
+  type: C #notrans
   title: Στοιχεία Εταιρείας
   instructions: Λεπτομέρειες διαθέσιμες σε πρότυπα email
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Επωνυμία Εταιρείας
       required: true
       sort: 1
@@ -98,23 +98,23 @@
         size: 40
         length: 64
     - 
-      type: text
-      name: website
+      type: text #notrans
+      name: website #notrans
       label: Ιστότοπος
       sort: 2
       configuration:
         size: 40
         length: 64
     - 
-      type: phone
-      name: phone
+      type: phone #notrans
+      name: phone #notrans
       label: Αριθμός τηλεφώνου
       required: false
       sort: 3
       configuration:
         ext: false
     - 
-      type: memo
+      type: memo #notrans
       name: address
       label: Διεύθυνση
       required: false
@@ -125,14 +125,14 @@
         html: false
         length: 100
 - 
-  type: O
+  type: O #notrans
   title: Στοιχεία Οργανισμού
   instructions: Λεπτομέρειες σχετικά με τον οργανισμό του χρήστη
   deletable: false
   fields:
     - 
-      type: text
-      name: name
+      type: text #notrans
+      name: name #notrans
       label: Όνομα
       required: true
       sort: 1
@@ -167,7 +167,7 @@
         size: 40
         length: 0
     - 
-      type: memo
+      type: memo #notrans
       name: notes
       label: Εσωτερικές Σημειώσεις
       required: false

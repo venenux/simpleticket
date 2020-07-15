@@ -1,9 +1,12 @@
 ---
+#Email template: ticket.activity.notice.yaml
+#Notice sent to collaborators on ticket activity e.g reply or message
+#---
 notes: |
   发送至合作伙伴关于咨询活动的通知，例如回复或消息。
 subject: |
   Re: %{ticket.subject}
-body: |2
+body: |
   <h3><strong>尊敬的 %{recipient.name.first}，</strong></h3>
   <div>
       <em>%{poster.name}</em>刚记录一条关于您参与咨询的消息。

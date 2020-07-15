@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: تذكرة جديدة (موضوع مساعدة)
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: اسم المستخدم
   content: >
-    
+
 password:
   title: كلمة المرور
   content: >
-    
+
 login_information:
   title: ييانات تسجيل الدخول إلى البريد الإلكتروني
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: السماح بمحاكاة العنوان
   content: >
     تمكين هذا الخيار سيسمح بإرسال رسائل البريد الإلكتروني عبر صندوق البريد هذا من عنوان مختلف <span class="doc-desc-title"> عنوان البريد الإلكتروني</span> عن المذكور بالأعلى. <br/> <br/> يُستخدم هذا الخيار المتقدم عند إرسال بريد من الأسماء المستعارة لصندوق البريد هذا.
+

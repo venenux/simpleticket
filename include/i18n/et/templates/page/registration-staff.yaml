@@ -1,6 +1,10 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
-  See mall määrab e-kirja sisu, mis saadetakse agentidele, kui on loodud konto nende nimele.
-name: "Tere tulemast osTicket süsteemi!"
+  See mall määrab emaili sisu, mis saadetakse agentidele, kui konto on loodud nende nimel.
+name: "Tere tulemast osTicketisse"
 body: >
-  <h3><strong>Tere, %{recipient.name.first}</strong></h3> <div> Oleme loonud Sulle konto meie kasutajatoe süsteemi aadressil %{url}.<br /> <br /> Palun klõpsa lingile, et aktiveerida oma konto ja pääseda ligi pöördumistele. <br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">Sinu sõbralik klienditugi <br /> %{company.name}</em> </div>
+  <h3><strong>Tere, %{recipient.name.first}</strong></h3> <div> Oleme loonud sulle konto meie kasutajatoe süsteemis aadressil %{url}.<br /> <br /> Palun vajuta lingile, et aktiveerida oma konto ja pääseda ligi piletitele. <br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">Sinu sõbralik kasutajatugi <br /> %{company.name}</em> </div>

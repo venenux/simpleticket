@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Khung mẫu này này là mẫu nội dung hiển thị sau khi khách hàng xác nhận tài khoản thành công. Trang này thông báo cho người dùng rằng việc đăng ký đã hoàn tất và khách hàng có thể tạo ticket hoặc truy cập ticket đã tạo.
 name: "Xác nhận tài khoản!"

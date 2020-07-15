@@ -1,4 +1,9 @@
 ---
+#registration-thanks.yaml
+#Page shown to the user after successfully registring and confirming their
+#account. This page should inform the user that the process is complete and
+#that the user can now submit a ticket or access existing tickets
+#---
 notes: >
   Ce modèle définit le contenu affiché quand des clients s'inscrivent avec succès en confirmant leur compte. Cette page doit informer l'utilisateur que l'inscription est terminée et que le client peut maintenant soumettre un ticket ou accéder des tickets existants.
 name: "Compte confirmé!"

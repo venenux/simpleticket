@@ -3,7 +3,7 @@
   isenabled: 1
   title: ما هي عينة الـ osTicket؟
   response: osTicket نظام تذاكر دعم فني مفتوح المصدر ومستخدم على نطاق واسع، ويعتبر النظام الأكثر جاذبية والبديل الأفضل لنظم دعم العملاء الأعلى تكلفة والأكثر تعقيداً - إنه بسيط، صغير الحجم، موثوق به، مفتوح المصدر، قائم على الويب ويتمتع بسهولة الإعداد والإستخدام.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     تذكرتك #%{ticket.number} أنشات في %{ticket.create_date} بقسم
-    %{ticket.dept.name}.
+    %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   チケット作成時、自動応答で対応可能な場合にユーザー様へ送信されます。
-  
+
   利用可能な変数：%{ticket.*}, %{response}
-subject: 'Re: %{ticket.subject} [#%{ticket.number}]'
+subject: |
+  Re: %{ticket.subject} [#%{ticket.number}]
 body: |
   <h3><strong>%{recipient.name.first}様</strong></h3>
   お問い合わせいただきました内容を受け付け、チケット<a

@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   A página de entrada "Landing Page" refere-se ao conteúdo da vista inicial do Portal de Cliente. O modelo modifica o conteúdo visto acima dos dois endereços <strong>Abrir novo pedido de suporte</strong> e <strong>Verificar estado de pedido de suporte</strong>.
 name: Página Inicial

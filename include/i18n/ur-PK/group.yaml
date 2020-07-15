@@ -1,0 +1,57 @@
+---
+- 
+  isactive: 1
+  name: شیر سدھانے والے
+  notes: سسٹم کے بااثر لوگ۔ یہ لوگ (ابتدائی طور پر) ان تمام محکموں پر مکمل کنٹرول رکھتے ہیں جن تک وہ رسائی رکھتے ہیں.
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 1
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  isactive: 1
+  name: ہاتھی ٹہلانے والے
+  notes: |
+    "منیجرز" گروپ کے لئے نوٹس. انگریزی ورژن ایک ایسا فشنگ بیان ہے کہ وہ اعلی جگہ میں رہتے ہیں اور محنت پسند طبقے کے "اسٹاف" کے ارکان کے ساتھ رہا نہیں کرتے ہیں
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 1
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 1
+  can_manage_premade: 1
+  can_manage_faq: 1
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  isactive: 1
+  name: پسو ٹرینرز
+  notes: |
+    لچلے درجے کے ارکان
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 0
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 0
+  can_manage_premade: 0
+  can_manage_faq: 0
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3

@@ -3,7 +3,7 @@
   isenabled: 1
   title: osTicket гэж юу вэ (жишээ)?
   response: osTicket нь өргөн ашиглагддаг, тусламж үйлчилгээний нээлттэй эх бүхий програм хангамжийн систем юм. Өндөр үнэтэй, хэрэглэхэд түвэгтэй бусад системүүдээс ялгаатай давуу талууд нь гэвэл энгийн, авсаархан, найдвартай, нээлттэй эхийн, вэб технологи дээр суурилсан ашиглахад хялбар зэрэг болно.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -17,6 +17,7 @@
     <br>
     <br>
     #%{ticket.number} дугаартай таны хүсэлтийг %{ticket.create_date} -нд
-    %{ticket.dept.name} алба хүлээн авлаа.
+    %{ticket.dept.name} алба хүлээн авлаа. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

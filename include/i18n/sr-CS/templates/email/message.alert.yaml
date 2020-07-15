@@ -1,7 +1,14 @@
 ---
-notes: Poruka se šalјe operaterima kada se primi nova poruka od strane korisnika u vezi nekog tiketa. Ovo može da se desi ako korisnik odgovori na imejl koji mu je poslao sistem podršske ili ako poseti portal za korisničku podršku i pošalјe tim putem novu poruku.
-subject: Obaveštenje o novoj poruci
-body: |2
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
+notes: |
+  Poruka se šalјe operaterima kada se primi nova poruka od strane korisnika u vezi nekog tiketa. Ovo može da se desi ako korisnik odgovori na imejl koji mu je poslao sistem podršske ili ako poseti portal za korisničku podršku i pošalјe tim putem novu poruku.
+subject: |
+  Obaveštenje o novoj poruci
+body: |
   <h3><strong>Zdravo %{recipient},</strong></h3>
   Nova poruka je dodata u vezi tiketa <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

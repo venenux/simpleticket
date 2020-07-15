@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Nouvelle rubrique d'aide
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Nom d'utilisateur
   content: >
-    
+
 password:
   title: Mot de passe
   content: >
-    
+
 login_information:
   title: Informations de connexion par courriel
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Permettre une usurpation d'en-tête
   content: >
     Cocher pour permettre l'envoi de courriels via cette messagerie provenant d'une adresse autre que celle donnée dans le paramétrage de <span class="doc-desc-title">courriel</span> ci-dessus. <br/> <br/> Ce  paramètre est généralement utilisée lors de l'envoi de courriel d'alias de cette boîte aux lettres.
+

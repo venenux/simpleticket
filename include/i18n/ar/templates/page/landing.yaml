@@ -1,4 +1,8 @@
 ---
+#Page template: landing.yaml
+#The landing page is served on the front page of the customer portal above
+#the two links for creating new tickets and viewing ticket status.
+#---
 notes: >
   تشير صفحة النزول إلى المحتوى الذي يظهر للعميل في البوابة لأول مرة. يعدل القالب المحتوى المشاهد أعلى الرابطين <strong>فتح تذكرة جديدة</strong> و <strong> فحص حالة التذكرة</strong>.
 name: النزول

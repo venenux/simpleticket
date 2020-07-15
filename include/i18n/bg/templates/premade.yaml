@@ -3,7 +3,7 @@
   isenabled: 1
   title: Какво представлява osTicket (пример)?
   response: osTicket е широко използвана система за поддръжка с отворен код, атрактивна алтернатива на скъпите и сложните системи за поддръжка на клиенти - проста, лека, надеждна, с отворен код, уеб базирана и лесна за настройка и използване.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     Здравейте %{ticket.name.first},
     <br>
     <br>
-    Вашата заявка #%{ticket.number} създадена на %{ticket.create_date} е в отдел %{ticket.dept.name} .
+    Вашата заявка #%{ticket.number} създадена на %{ticket.create_date} е в отдел %{ticket.dept.name} . #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

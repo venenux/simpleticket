@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
   Tiek nosūtīts atbalsta grupas darbiniekam, kad sistēmā tiek izveidots jauns pieteikums. Šī darbība tiek piemērota pieteikumiem, kas tiek izveidoti caur e-pastu, portālu vai API.
 subject: |
   New Ticket Alert
-body: |2
+body: |
   <h2>Hi %{recipient.name},</h2>
   New ticket #%{ticket.number} created
   <br>

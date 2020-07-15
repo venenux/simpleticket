@@ -1,9 +1,13 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Enviado ao utilizador quando um dos membros do staff cria um novo ticket atribuido ao utilizador. Este procedimento acontece normalmente quando existe uma chamada telefónica por parte do utilizador.
 subject: |
   %{ticket.subject} [#%{ticket.number}]
-body: |2
+body: |
   <h3><strong>Caro(a) %{recipient.name.first},</strong></h3>
   A nossa equipa de apoio a clientes criou um pedido de assistência, <a
   href="%{recipient.ticket_link}">#%{ticket.number}</a> em seu nome, com o seguinte sumário e detalhes:

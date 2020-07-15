@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Esta plantilla define el correo inicial (opcional) enviado a los agentes cuando se crea una cuenta en su nombre.
 name: "Bienvenido a osTicket"

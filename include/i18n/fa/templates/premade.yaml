@@ -3,7 +3,7 @@
   isenabled: 1
   title: osTicket چیست؟(نمونه)
   response: osTicket  یک سیستم پشتیبانی درخواست متن باز است که به طور گسترده ای استفاده می شود، یک جایگزین جذاب برای  سامانه های ارتباط با مشتری گران تر و پیچیده- ساده، سبک، قابل اعتماد، متن باز، مبتنی بر وب با نصب و استفاده  آسان است.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,6 +16,7 @@
     سلام %{ticket.name.first},
     <br>
     <br>
-    درخواست شما به شماره  #%{ticket.number} در تاریخ %{ticket.create_date} به ثبت رسیده و در حال حاضر در واحد %{ticket.dept.name} قرار دارد.
+    درخواست شما به شماره  #%{ticket.number} در تاریخ %{ticket.create_date} به ثبت رسیده و در حال حاضر در واحد %{ticket.dept.name} قرار دارد. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

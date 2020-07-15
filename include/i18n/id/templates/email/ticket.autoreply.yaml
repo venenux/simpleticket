@@ -1,7 +1,11 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
   Dikirim ke pengguna ketika sebuah respon yang sudah ada otomatis dikirim ke sebuah tiket ketika dibuat.
-  
+
   Variabel yang tersedia: %{ticket.*}, %{response}
 subject: |
   Balas: %{ticket.subject} [#%{ticket.number}]

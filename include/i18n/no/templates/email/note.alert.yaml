@@ -1,9 +1,13 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Varsel sendt til agenter når intern aktivitet som internt notat eller agent svar er lagt til en sak.
 subject: |
   Varsel om ny intern aktivitet
-body: |2
+body: |
   <h3><strong>Hei %{recipient.name},</strong></h3>
   Ett internt notat har blitt lagt til saken <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

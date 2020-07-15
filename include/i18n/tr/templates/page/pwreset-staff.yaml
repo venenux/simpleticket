@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Bu şablon Personel Yönetim Paneli Giriş sayfasında <strong>Şifremi Unuttum</strong> bağlantısına tıklayan personele gönderilen e-posta içeriğini tanımlar.
 name: "osTicket Personel Parola Sıfırlama"

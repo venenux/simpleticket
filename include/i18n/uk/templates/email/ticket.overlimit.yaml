@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overlimit.yaml
+#Sent to users when they have exceeded the maximum open ticket limit. The
+#limit is configurable in the Admin Panel, and is defined by the number of
+#tickets open by a particular email address.
+#---
 notes: |
   Відправляється користувачам в разі перевищення ними обмеження на максимальну кількість одночасно відкритих Заявок. Обмеження налаштовується в Панелі Адміністратора і визначає кількість Заявок, відкритих на одній адресі електронної пошти.
 subject: |

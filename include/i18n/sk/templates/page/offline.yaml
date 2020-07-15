@@ -1,4 +1,8 @@
 ---
+#Page template: offline.yaml
+#The offline page is served to the customer portal when the help desk is
+#configured offline in the Admin Panel
+#---
 notes: |
   Stránka Offline sa zobrazí v Zákazníckom Portáli ked je Help Desk vypnutý/offline.
 name: V režime offline

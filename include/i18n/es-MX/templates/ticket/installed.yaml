@@ -1,9 +1,14 @@
 ---
-deptId: 1
-topicId: 1
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
 name: Soporte de osTicket
 email: support@osticket.com
-source: Web
+source: Web #notrans
 subject: '¡osTicket Instalado!'
 message: |
   <p>Gracias por elegir osTicket.</p><p>Por favor asegúrese de unirse a los foros de osTicket <a href="http://osticket.com/forums"> </a> y a nuestra lista de correo <a href="http://osticket.com/updates"> </a> para mantenerse al día sobre las últimas noticias, alertas de seguridad y actualizaciones. Los foros de osTicket también son un gran lugar para obtener asistencia, consejos y ayuda de otros usuarios de osTicket.  Además de los foros, el wiki de osTicket proporciona una gran colección de notas, documentación y materiales educativos de la comunidad.</p>

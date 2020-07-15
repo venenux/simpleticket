@@ -1,8 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   チケットの対応期限が過ぎた時にスタッフメンバー宛に送信されます。
   チケット内で設定された対応期限だけでなくSLAとして設定した期限にもとづき期限切れ制御が行われます。
-subject: 期限切れのチケット
+subject: |
+  期限切れのチケット
 body: |
   <h3><strong>%{recipient}</strong>様</h3>
   <a href="%{ticket.staff_link}">#%{ticket.number}</a>のチケットの対応期限が過ぎました。

@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   ពុម្ពនេះកំណត់អ៊ីម៉ែលដំបូង (optional) បានផ្ញើទៅឱ្យភ្នាក់ងារពេលដែលគណនីមួយត្រូវបានបង្កើតឡើងនៅលើក្នុងនាមរបស់ខ្លួន។
 name: "សូមស្វាគមន៍មកកាន់ osTicket"

@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Emails -> Add New Email
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 new_ticket_help_topic:
   title: Új hibajegy súgótémakör
   content: >
@@ -26,11 +37,11 @@ auto_response:
 username:
   title: Felhasználónév
   content: >
-    
+
 password:
   title: Jelszó
   content: >
-    
+
 login_information:
   title: Email bejelentkezési adatok
   content: >
@@ -71,3 +82,4 @@ header_spoofing:
   title: Fejléc megváltoztatásának engedélyezése
   content: >
     Engedélyezze ezt, hogy a fent megadott <span class="doc-desc-title">email címtől</span> eltérő postafiókból küldjön emaileket. <br/><br/> Ez a haladó beállítás általában a postafiók alias címeiről küldött emilekre alkalmazandó.
+

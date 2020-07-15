@@ -3,7 +3,7 @@
   isenabled: 1
   title: osTikectとは？
   response: osTicketは多く使用されているオープンソースのサポートチケットシステムです。高コストで複雑な顧客サポートシステムの代替となる、シンプルで軽くて信頼性の高い、Webベースでセットアップも簡単な使いやすいシステムです。
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -16,5 +16,7 @@
     こんにちは %{ticket.name.first}さん
     <br>
     <br>
-    チケット番号 #%{ticket.number}（%{ticket.dept.name}部門により%{ticket.create_date}に作成）
-  notes: ""
+    チケット番号 #%{ticket.number}（%{ticket.dept.name}部門により%{ticket.create_date}に作成） #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
+  notes: |
+

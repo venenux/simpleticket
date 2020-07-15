@@ -1,4 +1,15 @@
 ---
+#This is popup help messages for the Admin Panel -> Manage -> Add New Custom List
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 custom_lists:
   title: 사용자 정의 목록
   content: >
@@ -6,23 +17,23 @@ custom_lists:
 name:
   title: 이름
   content: >
-    
+
 plural_name:
   title: 별칭
   content: >
-    
+
 sort_order:
   title: 순서 정렬
   content: >
-    
+
 list_s_initial_items:
   title: 리스트의 초기 항목들
   content: >
-    
+
 value:
   title: 값
   content: >
-    
+
 extra:
   title: 엑스트라
   content: >

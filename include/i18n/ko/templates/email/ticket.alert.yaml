@@ -1,13 +1,17 @@
 ---
+#Email template: ticket.alert.yaml
+#Sent to a staff member when a new ticket is created in the system. This
+#applies to tickets created via email, the web portal, or the api.
+#---
 notes: |
-  신규티켓이 등록되었을 때  스탭에게 송신됩니다.
-  메일경유, 웹으로 부터의 등록,  api경유로 등록 되었을 경우에 송신됩니다.
+  시스템에 새 티켓이 생성되면 직원에게 전송됩니다. 
+  이메일, 웹포털 또는 API를 통해 생성된 티켓에 적용됩니다.
 subject: |
   새 티켓 알림
-body: |2
-  <h2>Hi %{recipient.name}님</h2>
-  신규티켓 #%{ticket.number} 가 등록되었습니다
-  
+body: |
+  <h2>안녀하세요. %{recipient.name}님</h2>
+  신규티켓 #%{ticket.number} 가(이) 등록되었습니다
+
   <br>
   <br>
   <table>

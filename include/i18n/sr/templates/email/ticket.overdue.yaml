@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Шаље се запосленима када се прекорачи временски рок за одговор на тикет.
   Прекорачење настаје или након истека дефинисаног времена за одговор или на основу "SLA" (Service Level Agreement / Договор о нивоу услуга), уколико је исти дефинисан.
 subject: |
   Обавештење о нактивном тикету
-body: |2
+body: |
   <h3><strong>Здраво %{recipient}</strong>,</h3>
   За тикет, <a href="%{ticket.staff_link}">#%{ticket.number}</a> је истекло дефинисано време за одговор.
   <br>

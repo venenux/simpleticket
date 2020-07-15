@@ -1,4 +1,8 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   Upozorenje poslano agentima kod unutarnje aktivnost kao što je unutarnja poruka ili kad je agentov odgovor dodan na karticu.
 subject: |

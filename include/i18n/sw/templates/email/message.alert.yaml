@@ -1,7 +1,14 @@
 ---
-notes: Inatumwa kwa wafanyikazi wakati ujumbe mpya imeandikwa na mtumiaji katika tiketi. Hii inaweza kutendeka kama mtumiaji anajibu barua ya pepe kutoka kwa mfumo ama akitembelea mtandao ya wateja na kuandika ujumbe mpya huko.
-subject: Ujumbe Mpya Onyo
-body: |2
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
+notes: |
+  Inatumwa kwa wafanyikazi wakati ujumbe mpya imeandikwa na mtumiaji katika tiketi. Hii inaweza kutendeka kama mtumiaji anajibu barua ya pepe kutoka kwa mfumo ama akitembelea mtandao ya wateja na kuandika ujumbe mpya huko.
+subject: |
+  Ujumbe Mpya Onyo
+body: |
   <h3><strong>Hi %{recipient},</strong></h3>
   UJumbe mpya umeongezwa kwa tiketi <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

@@ -1,8 +1,12 @@
 ---
+#Email template: ticket.autoreply.yaml
+#Sent to a user when an automatic canned response is posted to a ticket
+#when it is created
+#---
 notes: |
-  Envoyé à l'utilisateur lors de la validation une réponse automatique suite à la création d'un ticket.
-  
-  Les variables disponibles pour le remplacement: %{ticket.*}, %{response}
+  Envoyé à un utilisateur lorsqu'une réponse automatique en conserve est affichée sur un ticket .
+
+  D'autres choix disponibles pour le remplacement:%{ticket.*}, %{response}
 subject: |
   Re: %{ticket.subject} [#%{ticket.number}]
 body: |

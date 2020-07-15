@@ -1,41 +1,52 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> Dashboard
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 ticket_activity:
-  title: Ticket Activity
+  title: Tiket aktiviti
   content: >
-    Select a date range to cause both the graph and the table (cf. <span class="doc-desc-title">Statistics</span>) below to focus on any corresponding data for those dates. The graph below will always reflect  a broad overview of the whole system’s data (i.e., population). However, you may navigate through the <span class="doc-desc-title">Statistics </span> table below to focus on a narrower subject of interest (e.g., Department, Topics, or Staff). Additionally, you may export any data currently displayed in the <span class="doc-desc-title">Statistics </span> table.
+    Pilih julat tarikh untuk menyebabkan kedua-dua graf dan jadual (cf. <span class="doc-desc-title">Statistics</span>)  di bawah untuk memberi tumpuan kepada apa-apa data yang sama untuk tarikh tersebut. Graf di bawah akan sentiasa mencerminkan pandangan umum tentang data bagi keseluruhan sistem (iaitu, penduduk). Walau bagaimanapun, anda boleh menavigasi melalui <span class="doc-desc-title">Statistics </span> Jadual di bawah untuk memberi tumpuan kepada subjek menarik yang lebih sempit (contohnya, Jabatan, Topik, atau kakitangan). Tambahan, anda boleh mengeksport apa-apa data yang sedang dipaparkan dalam <span class="doc-desc-title">Statistics </span> jadual.
 report_timeframe:
-  title: Report timeframe
+  title: Laporan tempoh masa
   content: >
-    Choose a start date for the desired data sample using the date picker. Then, choose the length of time from that date to define the end date for your data sample.
+    Pilih tarikh mula bagi sampel data yang dikehendaki menggunakan pemilih tarikh. Kemudian, pilih tempoh masa dari tarikh itu untuk menentukan tarikh akhir bagi sampel data anda.
 statistics:
-  title: Statistics
+  title: Statistik
   content: >
-    Navigate to the subject of interest by clicking on the appropriate tab in order to view the specific sample of data. Within the table, the circles represent the size of the nominal data. Therefore, the larger the number in a particular cell, the larger the adjacent circle will be.
+    Navigasi ke subjekyand diminat dengan mengklik pada tab yang sesuai untuk melihat sampel data tertentu. Dalam jadual, bulatan mewakili saiz data nominal. Oleh itu, semakin besar jumlah dalam sel tertentu, semakin besar bulatan bersebelahan.
 opened:
-  title: Opened
+  title: Dibuka
   content: >
-    This represents the tickets opened by Agents (i.e., internally opened) and not by Clients.
+    Ini mewakili tiket yang dibuka oleh ejen (iaitu, dalaman dibuka) dan bukan oleh Pelanggan.
 assigned:
-  title: Assigned
+  title: Ditugaskan
   content: >
-    The system tracks every event whereby a ticket is automatically or manually assigned to a particular Department or Agent. Automatic assignments will depend on established settings for <span class="doc-desc-title">Help Topics</span> and <span class="doc-desc-title">Email Filters</span> in the Admin Panel.
+    Sistem ini menjejaki setiap acara di mana tiket secara automatik atau secara manual yang diberikan kepada Jabatan atau Agent tertentu. tugasan automatik akan bergantung kepada tetapan yang ditubuhkan bagi <span class="doc-desc-title">Bantuan Topik</span> dan <span class="doc-desc-title">Penapis E-mel </span> dalam Panel Admin.
 overdue:
-  title: Overdue
+  title: Tertunggak
   content: >
-    This is the amount of tickets that have violated the SLA Plan to which they belonged.
+    Ini adalah jumlah tiket yang telah melanggar Rancangan SLA yang mereka milik.
 closed:
-  title: Closed
+  title: Ditutup
   content: >
-    This is the amount of tickets that were closed.
+    Ini adalah jumlah tiket yang ditutup.
 reopened:
-  title: Reopened
+  title: Dibuka semula
   content: >
-    This is the amount of tickets that were reopened either by an Agent or by a Client when he/she responded while the ticket was in a Closed status.
+    Ini adalah jumlah tiket yang telah dibuka semula sama ada oleh Ejen atau oleh Pelanggan apabila dia menjawab semasa tiket adalah dalam status yang tertutup.
 service_time:
-  title: Service Time
+  title: Masa perkhidmatan
   content: >
-    <span class="doc-desc-title">Service time</span> is the duration of time that begins at the opening of a ticket and ends when the ticket is closed. The <span class="doc-desc-title">Service Time</span> column here measures the average Service Time per ticket, in hours, within the specified date span.
+    <span class="doc-desc-title"> Masa Perkhidmatan </span>adalah tempoh masa yang bermula pada pembukaan tiket dan berakhir apabila tiket ditutup. <span class="doc-desc-title">Masa Perkhidmatan </span> kolum sini mengukur purata Masa Perkhidmatan setiap tiket, dalam jam, dalam jangka tarikh span yang ditetapkan.
 response_time:
-  title: Response Time
+  title: Masa Tindak Balas
   content: >
-    <span class="doc-desc-title">Response Time</span> is a duration of time that begins with any Client’s correspondence and ends when an Agent makes a response. This measurement of time is not exclusive to a Client’s correspondence of the initial Ticket opening. This refers to every act of discourse originating with a Client.
+    <span class="doc-desc-title"> Masa Maklum Balas </span> adalah tempoh masa yang bermula dengan surat-menyurat sebarang Pelanggan dan berakhir apabila ejen membuat jawapan. Ukuran masa ini tidak eksklusif untuk surat-menyurat Pelanggan Tiket pembukaan awal. Ini merujuk kepada tiap-tiap perbuatan wacana yang berasal dengan Pelanggan.

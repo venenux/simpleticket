@@ -8,13 +8,15 @@
 - 
   id: 2
   name: გაყიდვები
-  signature: გაყიდვების და კლიენტებთან ურთიერთობის განყოფილება
+  signature: |
+    გაყიდვების და კლიენტებთან ურთიერთობის განყოფილება
   ispublic: 1
   sla_id: 1
   group_membership: 1
 - 
   id: 3
   name: მხარდაჭერა
-  signature: მხარდაჭერის განყოფილება
+  signature: |
+    მხარდაჭერის განყოფილება
   ispublic: 0
   group_membership: 0

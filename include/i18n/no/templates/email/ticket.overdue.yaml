@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Sendt til medarbeidere når en sak forfaller i systemet. Forfalte saker oppstår basert på sakens forfallsdato samt SLA som er definert.
 subject: |
   Gammel sak varsel
-body: |2
+body: |
   <h3><strong>Hei %{recipient}</strong>,</h3>
   En sak, <a href="%{ticket.staff_link}">#%{ticket.number}</a> er
   alvorlig forfalt.

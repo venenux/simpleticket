@@ -1,4 +1,9 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   נשלח לחברי הצוות כאשר זמן הטיפול חרג מהמוגדר.
   קריאות שזמן הטיפול שלהם חרג יעוברו לתיקייה נפרדת בהתאם למה שהוגדר ב"אמנת הלקוח" בעת פתיחת הקריאה.

@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Este modelo define a notificação que é enviada aos clientes alertando-os de que um link de acesso foi enviado para o seu e-mail. O e-mail contém um link para acessar as informações.
 name: "Link de acesso ao Ticket [%{ticket.number}]"

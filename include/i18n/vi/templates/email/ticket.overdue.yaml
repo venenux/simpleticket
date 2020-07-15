@@ -1,9 +1,14 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Gửi đến các nhân viên khi một lệnh bị quá hạn trong hệ thống. Những lệnh quá hạn này xảy ra dựa trên ngày hết hạn của lệnh cũng như SLA được xác định cho lệnh này.
 subject: |
   Cảnh báo lệnh cũ
-body: |2
+body: |
   <h3><strong>Chào%{recipient.name}</strong>,</h3>
   Một lệnh,<a href="%{ticket.staff_link}">#%{ticket.number}</a>bị quá hạn một cách nghiêm trọng.
   <br>

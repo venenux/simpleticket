@@ -3,7 +3,7 @@
   isenabled: 1
   title: Ce este osTicket (mostra)?
   response: osTIcket este un sistem "Open Source" de suport tehnic folosit pe scara larga, o alternativa la sistemele de suport tehnic costisitoare - simplu, compact, solid, Open Source, bazat pe site web si foarte usor de instalat si de folosit.
-  notes: ""
+  notes:
   attachments:
     - 
       name: osTicket.txt
@@ -12,11 +12,12 @@
 - 
   isenabled: 1
   title: Mostra (cu variabile)
-  response: |2
+  response: |
     Buna ziua %{ticket.name.first},
      <br>
     <br>
     tichetul #%{ticket.number} creat la %{ticket.create_date} este atribuit departamentului   
-    %{ticket.dept.name}.
+    %{ticket.dept.name}. #%{ticket.number} created on %{ticket.create_date} is in
+%{ticket.dept.name} department.
   notes: |
-    
+

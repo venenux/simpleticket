@@ -1,8 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   チケットに対してユーザーが新規投稿を行った場合スタッフメンバーに送信されます。
   ユーザーがシステム上受信したメールに返信、もしくはweb画面へアクセスしそこで新規投稿を行った場合に送信されます。
-subject: 新着メッセージのアラート
+subject: |
+  新着メッセージのアラート
 body: |
   <h3><strong>%{recipient}様</strong></h3>
   チケットに対して新規に投稿がありました。 <a

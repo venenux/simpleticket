@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Deze sjabloon bepaalt de e-mail gestuurd naar klanten die selecteert u de koppeling <strong>Mijn wachtwoord vergeten</strong> op de Client Log In pagina.
 name: "%{company.name} Help Desk Access"

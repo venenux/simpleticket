@@ -6,4 +6,4 @@
   disable_overdue_alert: 0
   grace_period: 48
   name: SLA predefinita
-  notes: ""
+  notes:

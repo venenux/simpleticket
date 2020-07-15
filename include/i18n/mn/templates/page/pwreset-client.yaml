@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Хэрэглэгч нэвтрэх хуудасны <strong>Нууц үгээ мартсан</strong> холбоосоор орсон хэрэглэгчдэд илгээх имэйлийн загварыг тодорхойлно.
 name: "%{company.name} Тусламж үйлчилгээний төвд хандах"

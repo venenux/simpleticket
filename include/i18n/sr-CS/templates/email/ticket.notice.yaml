@@ -1,8 +1,13 @@
 ---
+#Email template: ticket.notice.yaml
+#Sent to a user when a staff member creates a ticket on the user's behalf.
+#This is most commonly performed when user's call in on the phone.
+#---
 notes: |
   Šalјe se korisniku kada zaposleni kreira novi tiket u ime korisnika.
   Najčešće se dešava kada korisnik postavlјa pitanje ili zahtev telefonom.
-subject: '%{ticket.subject} [#%{ticket.number}]'
+subject: |
+  %{ticket.subject} [#%{ticket.number}]
 body: |
   <h3><strong>Poštovani %{recipient.name.first},</strong></h3>
   Naša tehnička podrška otvorila je tiket za tehničku podršku, <a

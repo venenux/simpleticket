@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Denne malen definerer epost sendt til ansatte som velger lenken <strong>Glemt mitt passord</strong> på personalets Kontrollpanel Logg på-siden.
 name: "osTicket ansatte tilbakestilling av passord"

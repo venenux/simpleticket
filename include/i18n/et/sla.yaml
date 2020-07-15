@@ -5,5 +5,5 @@
   enable_priority_escalation: 1
   disable_overdue_alert: 0
   grace_period: 48
-  name: Vaikimisi SLA
-  notes: ""
+  name: Vaikimisi TTL
+  notes:

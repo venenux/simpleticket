@@ -1,41 +1,52 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> Dashboard
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 ticket_activity:
-  title: 'crwdns1399:0crwdne1399:0'
+  title: crwdns1399:0crwdne1399:0
   content: >
     crwdns1400:0crwdne1400:0
 report_timeframe:
-  title: 'crwdns1401:0crwdne1401:0'
+  title: crwdns1401:0crwdne1401:0
   content: >
     crwdns1402:0crwdne1402:0
 statistics:
-  title: 'crwdns1403:0crwdne1403:0'
+  title: crwdns1403:0crwdne1403:0
   content: >
     crwdns1404:0crwdne1404:0
 opened:
-  title: 'crwdns1405:0crwdne1405:0'
+  title: crwdns1405:0crwdne1405:0
   content: >
     crwdns1406:0crwdne1406:0
 assigned:
-  title: 'crwdns1407:0crwdne1407:0'
+  title: crwdns1407:0crwdne1407:0
   content: >
     crwdns1408:0crwdne1408:0
 overdue:
-  title: 'crwdns1409:0crwdne1409:0'
+  title: crwdns1409:0crwdne1409:0
   content: >
     crwdns1410:0crwdne1410:0
 closed:
-  title: 'crwdns1411:0crwdne1411:0'
+  title: crwdns1411:0crwdne1411:0
   content: >
     crwdns1412:0crwdne1412:0
 reopened:
-  title: 'crwdns1413:0crwdne1413:0'
+  title: crwdns1413:0crwdne1413:0
   content: >
     crwdns1414:0crwdne1414:0
 service_time:
-  title: 'crwdns1415:0crwdne1415:0'
+  title: crwdns1415:0crwdne1415:0
   content: >
     crwdns1416:0crwdne1416:0
 response_time:
-  title: 'crwdns1417:0crwdne1417:0'
+  title: crwdns1417:0crwdne1417:0
   content: >
     crwdns1418:0crwdne1418:0

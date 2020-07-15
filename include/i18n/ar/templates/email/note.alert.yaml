@@ -1,11 +1,15 @@
 ---
+#Email template: note.alert.yaml
+#Sent to staff members when a new internal note is appended to a ticket.
+#Internal notes can only be added by staff members.
+#---
 notes: |
   سيتم إرسال تنبيه إلى موظفي الدعم الفني عند حدوث أي نشاط على التذكرة, كإضافة ملاحظة أو رد جديد.
 subject: |
   تنبيه نشاط داخلي جديد
 body: |
   <h3><strong>Hi %{recipient.name},</strong></h3>
-  An agent has logged activity on ticket <a
+  تم إلحاق مذكرة داخلية لتذكرة <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>
   <br>
@@ -13,7 +17,7 @@ body: |
   <tbody>
   <tr>
   <td>
-  <strong>From</strong>:
+  <strong>من</strong>:
   </td>
   <td>
   %{note.poster}
@@ -21,7 +25,7 @@ body: |
   </tr>
   <tr>
   <td>
-  <strong>Title</strong>:
+  <strong>عنوان</strong>:
   </td>
   <td>
   %{note.title}
@@ -34,12 +38,11 @@ body: |
   <br>
   <br>
   <hr>
-  To view/respond to the ticket, please <a
-  href="%{ticket.staff_link}">login</a> to the support ticket system
+  لرؤية أو الرد على التذكرة، يرجى <a
+  href="%{ticket.staff_link}">تسجيل الدخول</a> لنظام تذاكر الدعم
   <br>
   <br>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  <em style="font-size: small; ">الصفحة الخاصة بك في نظام دعم العملاء</em>
   <br>
   <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
   alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

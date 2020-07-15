@@ -1,33 +1,37 @@
 ---
-source: Web
-name: osTicket Support
+#Upgrade completed ticket
+#This ticket is added to the system after the completion of an upgrade. It
+#might include information specific to the release, perhaps with some new
+#feature highlights, etc.
+#---
+source: Web #notrans
+name: osTiket Sokongan
 email: support@osticket.com
-subject: osTicket Upgraded!
+subject: osTicket telah dinaiktaraf!
 message: |
   <p>
-  osTicket upgraded successfully! Please refer to the Release Notes
-  (http://osticket.com/wiki/Release_Notes) for more information about
-  changes and new features.
+  osTicket berjaya dinaik taraf! Sila rujuk kepada Nota Keluaran
+  (Http://osticket.com/wiki/Release_Notes) untuk maklumat lebih lanjut mengenai
+  perubahan dan ciri-ciri baru.
   </p><p>
-  Be sure to join the <a href="http://osticket.com/forums">osTicket
-  forums</a> and our <a href="http://osticket.com/updates">mailing
-  list</a> to stay up to date on announcements, security updates and
-  alerts! Your contribution to osTicket community will be appreciated!
+  Pastikan anda menyertai osTicket <a href="http://osticket.com/forums">
+  forum </a>dan <a href="http://osticket.com/updates"> senarai e-mel kami
+   </a> untuk sentiasa mengetahui tentang pengumuman, kemas kini keselamatan dan
+  amaran! Sumbangan anda kepada masyarakat osTicket akan dihargai!
   </p><p>
-  The osTicket team is committed to providing support to all users through
-  our free online resources and a full range of commercial support
-  packages and services. For more information, or to discuss your needs,
-  please contact us today at http://osticket.com/support/. Any feedback
-  will be appreciated!
-  </p><p>
-  If managing and upgrading this osTicket installation is daunting, you
-  can try osTicket as a hosted service at http://www.supportsystem.com/ --
-  no upgrading ever, and we can import your data!  With SupportSystem's
-  turnkey infrastructure, you get osTicket at its best, leaving you free
-  to focus on your customers without the burden of making sure the
-  application is stable, maintained, and secure.
+  Pasukan osTicket komited untuk menyediakan sokongan kepada semua pengguna melalui
+  sumber dalam talian percuma kami dan pelbagai sokongan komersial
+  pakej dan perkhidmatan. Untuk maklumat lanjut, atau untuk membincangkan keperluan anda,
+  sila hubungi kami hari ini di http://osticket.com/support/. sebarang maklum balas
+  akan dihargai!
+  </P> <p>
+  Jika mengurus dan menaik taraf pemasangan osTicket ini adalah menakutkan, anda
+  boleh cuba osTicket sebagai perkhidmatan dihoskan di http://www.supportsystem.com/ -
+  tidak menaik taraf sebelum ini, dan kita boleh mengimport data anda! Dengan infrastruktur turnkey SokonganSistem, anda akan mendapat osTicket yang terbaik, meninggalkan anda bebas
+  untuk memberi tumpuan kepada pelanggan anda tanpa beban memastikan yang
+  permohonan adalah stabil, dikekalkan, dan selamat.
   </p><p>
   -<br/>
-  osTicket Team<br/>
+  osTicket pasukan<br/>
   http://osticket.com/
   </p>

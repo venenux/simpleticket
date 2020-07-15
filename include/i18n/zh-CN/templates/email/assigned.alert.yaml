@@ -1,9 +1,14 @@
 ---
+#Email template: assigned.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+#---
 notes: |
   当咨询被分配给员工时，则发送给他们。咨询能够被系统自动分配给员工，也能够被其他用户手动分配。使用%{assigner} 来区分由谁做这种分配。
 subject: |
   安排给您的咨询
-body: |2
+body: |
   <h3><strong>您好 %{assignee.name.first},</strong></h3>
    %{assigner.name.short}给您安排了一条咨询 <a href="%{ticket.staff_link}">#%{ticket.number}</a>
   <br>

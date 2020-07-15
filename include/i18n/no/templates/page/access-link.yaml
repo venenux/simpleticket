@@ -1,4 +1,8 @@
 ---
+#access-link.yaml
+#Ticket access link sent to clients for guest-only systems where the ticket
+#number and email address will trigger an access link sent via email
+#---
 notes: >
   Denne malen definerer varsel til klienter om at tilgang linken ble sendt til deres e-post. Sak og e-postadresse gir tilgangs linken.
 name: "Sak [#%{ticket.number}] tilgangs lenke"

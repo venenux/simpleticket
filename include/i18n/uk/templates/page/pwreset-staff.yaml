@@ -1,4 +1,8 @@
 ---
+#pwreset-staff.yaml
+#Template of the email sent to staff members when using the Forgot My
+#Password link
+#---
 notes: >
   Цей шаблон визначає текст, що відправляється співробітникам, після того як ті перейшли по посиланню <strong> Забули пароль </strong> на сторінці входу в панель управління співробітника.
 name: "Скидання паролю співробітника в osTicket"

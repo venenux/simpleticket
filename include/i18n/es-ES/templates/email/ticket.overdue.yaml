@@ -1,10 +1,15 @@
 ---
+#Email template: ticket.overdue.yaml
+#Sent to staff members when a ticket transitions to overdue in the system.
+#Overdue tickets occur based on the ticket's due-date as well as the SLA
+#defined for the ticket.
+#---
 notes: |
   Enviado a los miembros del personal cuando un Ticket sea marcado como demorado en el sistema. 
   La demora en los Tickets está basada en la fecha límite del Ticket como también en el ANS definida para el Ticket.
 subject: |
   Alerta de Ticket demorado
-body: |2
+body: |
   <h3><strong>Hola %{recipient.name}</strong>,</h3>
   El ticket, <a href="%{ticket.staff_link}">#%{ticket.number}</a> está seriamente demorado.
   <br>

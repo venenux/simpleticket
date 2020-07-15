@@ -1,9 +1,14 @@
 ---
+#Email template: message.alert.yaml
+#Sent to staff members when a new message is posted by a user to a ticket.
+#This can occur if the users responds to an email from the system or visits
+#the customer web portal and posts a new message there.
+#---
 notes: |
   Skickas till handläggare när ett nytt meddelande har skickats från en användare.  Detta kan inträffa om användarna svarar på ett mail från systemet eller besöker webbportalen och skriver ett nytt meddelande där.
 subject: |
   Nytt Meddelande
-body: |2
+body: |
   <h3><strong>Hej %{recipient},</strong></h3>
   Ett nytt meddelande bifogas i ärende <a
   href="%{ticket.staff_link}">#%{ticket.number}</a>

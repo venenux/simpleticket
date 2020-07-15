@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: ข้อมูลการติดต่อ
   content: >
-    
+
 username:
   title: ชื่อผู้ใช้
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: โซนเวลา
   content: >
-    
+
 daylight_saving:
   title: ชดเชยเวลาตามฤดูกาล
   content: >
-    
+
 maximum_page_size:
   title: ขนาดหน้าสูงสุด
   content: >
-    
+
 auto_refresh_rate:
   title: อัตราการรีเฟรชอัตโนมัติ
   content: >
-    
+
 default_signature:
   title: ลายเซ็นเริ่มต้น
   content: >
-    
+
 default_paper_size:
   title: ขนาดกระดาษเริ่มต้น
   content: >
-    
+
 show_assigned_tickets:
   title: แสดง Ticket ที่ถูกมอบหมาย
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: รหัสผ่าน
   content: >
-    
+
 current_password:
   title: รหัสผ่านปัจจุบัน
   content: >
-    
+
 new_password:
   title: รหัสผ่านใหม่
   content: >
-    
+
 confirm_new_password:
   title: ยืนยันรหัสผ่านใหม่
   content: >
-    
+
 signature:
   title: ลายเซ็น
   content: >

@@ -1,4 +1,8 @@
 ---
+#registration-staff.yaml
+#Initial (optional) email sent to staff members when accounts are created
+#for them in the staff control panel
+#---
 notes: >
   Ez a sablon határozza meg az első emailt (opcionális), ami elküldésre kerül a munkatársnak, mikor egy felhasználói fiókot létrehozunk számára.
 name: "Üdvözöljük az osTicket rendszerében"

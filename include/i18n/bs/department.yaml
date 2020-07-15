@@ -8,13 +8,15 @@
 - 
   id: 2
   name: Prodaja
-  signature: Prodaja i zadržavanje klijenata
+  signature: |
+    Prodaja i zadržavanje klijenata
   ispublic: 1
   sla_id: 1
   group_membership: 1
 - 
   id: 3
   name: Održavanje
-  signature: Odjel za održavanje
+  signature: |
+    Odjel za održavanje
   ispublic: 0
   group_membership: 0

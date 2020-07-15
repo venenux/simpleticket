@@ -1,9 +1,14 @@
 ---
-deptId: 1
-topicId: 1
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+#---
+deptId: 1 #support
+topicId: 1 #support
 name: OsTicket 技術支援
 email: support@osticket.com
-source: 網頁
+source: 網頁 #notrans
 subject: osTicket 安裝成功 ！
 message: |
   <p> 感謝您選擇 osTicket </p> <p>請加入 <a href="HTTP://osticket.com/forums"> osTicket 論壇</a> 和我們 <a href="HTTP://osticket.com/updates"> 郵寄清單</a> 保持最新的公告、 安全更新和訊息通告、osTicket 論壇可以獲得必要協助、指導、祕訣與其他使用者互動。osTicket wiki 提供有益的社區教學資源、文件與提示。也歡迎您提供 osTicket論壇 您的寶貴見解。  

@@ -1,4 +1,7 @@
 ---
+#Email template: ticket.autoresp.yaml
+#Sent to a user when a new ticket is created
+#---
 notes: |
   Envoyé a l'utilisateur lorsqu'un nouveau ticket vient d'être créé
 subject: |

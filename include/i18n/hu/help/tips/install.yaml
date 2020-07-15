@@ -1,4 +1,11 @@
 ---
+#Help popup items for the installer
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 helpdesk_name:
   title: Ügyfélszolgálat neve
   content: |
@@ -8,13 +15,13 @@ system_email:
   content: |
     <p>Alapértelmezett e-mail cím például support@yourcompany.com - később továbbiakat is hozzáadhat!</p>
 default_lang:
-  title: Rendszer alapértelmezett nyelvét
+  title: Rendszer alapértelmezett nyelve
   content: |
-    <p>Kezdeti adatokat ehhez a nyelvhez lesz telepítve az adatbázisba. Például e-mail sablonok és alapértelmezett rendszer oldalak telepítendő nyelvhez.</p>
+    <p>A kezdeti adatok ehhez a nyelvhez lesznek telepítve az adatbázisba. Például e-mail sablonok és alapértelmezett rendszer oldalak.</p>
   links:
     - 
       title: osTicket nyelvi csomagok
-      href: 'http://osticket.com/download?product=langs'
+      href: http://osticket.com/download?product=langs
 first_name:
   title: Utónév
   content: |

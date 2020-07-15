@@ -5,25 +5,25 @@
   ispublic: 1
   dept_id: 1
   priority_id: 2
-  topic: General Inquiry
-  notes: Questions about products or services
+  topic: Pertanyaan Umum
+  notes: Soalan mengenai produk atau perkhidmatan
 - 
   isactive: 1
   ispublic: 1
   dept_id: 1
   priority_id: 1
-  topic: Feedback
+  topic: Maklumbalas
   notes: |
-    Tickets that primarily concern the sales and billing departments
+    Tiket yang terutamanya membimbangkan jabatan jualan dan pengebilan
 - 
   topic_id: 10
   isactive: 1
   ispublic: 1
   dept_id: 1
   priority_id: 2
-  topic: Report a Problem
+  topic: Melaporkan masalah
   notes: |
-    Product, service, or equipment related issues
+    Produk, perkhidmatan, atau isu-isu peralatan yang berkaitan
 - 
   topic_pid: 10
   isactive: 1
@@ -31,6 +31,6 @@
   dept_id: 1
   sla_id: 1
   priority_id: 3
-  topic: Access Issue
+  topic: Isu Capaian
   notes: |
-    Report an inability access a physical or virtual asset
+    Laporkan akses ketidakupayaan aset fizikal atau maya

@@ -1,8 +1,19 @@
 ---
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 contact_information:
   title: Thông tin liên hệ
   content: >
-    
+
 username:
   title: Tên đăng nhập
   content: >
@@ -14,27 +25,27 @@ username:
 time_zone:
   title: Múi giờ
   content: >
-    
+
 daylight_saving:
   title: Daylight Saving
   content: >
-    
+
 maximum_page_size:
   title: Kích thước tối đa của trang
   content: >
-    
+
 auto_refresh_rate:
   title: Tỷ lệ tự động Refresh trang
   content: >
-    
+
 default_signature:
   title: Chữ ký mặc định
   content: >
-    
+
 default_paper_size:
   title: Kích thước trang giấy mặc định
   content: >
-    
+
 show_assigned_tickets:
   title: Hiển thị những lệnh đã được chỉ định
   content: >
@@ -42,19 +53,19 @@ show_assigned_tickets:
 password:
   title: Mật khẩu
   content: >
-    
+
 current_password:
   title: Mật khẩu hiện tại
   content: >
-    
+
 new_password:
   title: Mật khẩu mới
   content: >
-    
+
 confirm_new_password:
   title: Xác nhận Mật khẩu Mới
   content: >
-    
+
 signature:
   title: Chữ ký
   content: >

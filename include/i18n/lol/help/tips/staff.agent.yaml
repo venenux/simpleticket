@@ -1,67 +1,79 @@
 ---
+#This is popup help messages for the Admin Panel -> Staff -> Add Staff Form
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 username:
-  title: 'crwdns1873:0crwdne1873:0'
+  title: crwdns1873:0crwdne1873:0
   content: >
     crwdns1874:0crwdne1874:0
 email_address:
-  title: 'crwdns1875:0crwdne1875:0'
+  title: crwdns1875:0crwdne1875:0
   content: >
     crwdns1876:0crwdne1876:0
-  0: 'crwdns1877:0crwdne1877:0'
-  1: 'crwdns1878:0crwdne1878:0'
+  0: crwdns1877:0crwdne1877:0
+  1: crwdns1878:0crwdne1878:0
 welcome_email:
-  title: 'crwdns1879:0crwdne1879:0'
+  title: crwdns1879:0crwdne1879:0
   content: >
     crwdns1880:0crwdne1880:0
 account_password:
-  title: 'crwdns1881:0crwdne1881:0'
+  title: crwdns1881:0crwdne1881:0
   content: >
     crwdns1882:0crwdne1882:0
 forced_password_change:
-  title: 'crwdns1883:0crwdne1883:0'
+  title: crwdns1883:0crwdne1883:0
   content: >
     crwdns1884:0crwdne1884:0
 agents_signature:
-  title: 'crwdns1885:0crwdne1885:0'
+  title: crwdns1885:0crwdne1885:0
   content: >
     crwdns1886:0crwdne1886:0
 account_status:
-  title: 'crwdns1887:0crwdne1887:0'
+  title: crwdns1887:0crwdne1887:0
   content: >
     crwdns1888:0crwdne1888:0
 assigned_group:
-  title: 'crwdns1889:0crwdne1889:0'
+  title: crwdns1889:0crwdne1889:0
   content: >
     crwdns1890:0crwdne1890:0
   links:
     - 
-      title: 'crwdns1891:0crwdne1891:0'
-      href: 'crwdns1892:0crwdne1892:0'
+      title: crwdns1891:0crwdne1891:0
+      href: crwdns1892:0crwdne1892:0
 primary_department:
-  title: 'crwdns1893:0crwdne1893:0'
+  title: crwdns1893:0crwdne1893:0
   content: >
     crwdns1894:0crwdne1894:0
   links:
     - 
-      title: 'crwdns1895:0crwdne1895:0'
-      href: 'crwdns1896:0crwdne1896:0'
+      title: crwdns1895:0crwdne1895:0
+      href: crwdns1896:0crwdne1896:0
 daylight_saving:
-  title: 'crwdns1897:0crwdne1897:0'
+  title: crwdns1897:0crwdne1897:0
   content: >
     crwdns1898:0crwdne1898:0
 limited_access:
-  title: 'crwdns1899:0crwdne1899:0'
+  title: crwdns1899:0crwdne1899:0
   content: >
     crwdns1900:0crwdne1900:0
 directory_listing:
-  title: 'crwdns1901:0crwdne1901:0'
+  title: crwdns1901:0crwdne1901:0
   content: >
     crwdns1902:0crwdne1902:0
   links:
     - 
-      title: 'crwdns1903:0crwdne1903:0'
-      href: 'crwdns1904:0crwdne1904:0'
+      title: crwdns1903:0crwdne1903:0
+      href: crwdns1904:0crwdne1904:0
 vacation_mode:
-  title: 'crwdns1905:0crwdne1905:0'
+  title: crwdns1905:0crwdne1905:0
   content: >
     crwdns1906:0crwdne1906:0
+

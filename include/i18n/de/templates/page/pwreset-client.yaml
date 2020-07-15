@@ -1,4 +1,8 @@
 ---
+#pwreset-client.yaml
+#Template of the email sent to clients when using the Forgot My Password
+#link on the login page
+#---
 notes: >
   Diese Vorlage definiert die E-Mail, welche an die Benutzer versendet wird, die den <strong>Passwort vergessen</strong>-Link im Benutzerportal ausgewählt haben.
 name: "%{company.name} Helpdesk-Zugang"

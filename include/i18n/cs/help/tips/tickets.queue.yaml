@@ -1,48 +1,59 @@
 ---
+#This is popup help messages for the Staff Panel -> Tickets -> Open
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+#---
 search_field:
   title: Vyhledávání
   content: >
-    
+
 advanced:
   title: Rozšířené
   content: >
     Zde můžete zúžit parametry hledání. Jakmile vyberete pokročilá kritéria hledání a spustíte vyhledání, získaná data můžete <span class="doc-desc-title">exportovat </span> pomocí odkazu ve spodní části stránky požadavků.
 open_tickets_table:
-  title: Seznam Otevřených Tiketů
+  title: Seznam otevřených požadavků
   content: >
-    Všechny otevřené tikety kterým je potřeba se věnovat
+    Všechny aktuálně otevřené požadavky, kterým je potřeba se věnovat
 ticket:
-  title: Tiket
+  title: Požadavek
   content: >
-    
+
 date:
   title: Datum
   content: >
-    
+
 subject:
   title: Předmět
   content: >
-    
+
 from:
   title: Od
   content: >
-    
+
 priority:
   title: Priorita
   content: >
-    
+
 assigned_to:
   title: Přiděleno
   content: >
-    
+
 export:
   title: Exportovat
   content: >
-    Exportovat právě zobrazená data do CSV souboru. CSV soubory lze otevřít v jakémkoliv tabulkovém procesoru (např. Microsoft Excel, Apple Pages, OpenOffice a další).
+    Export vašich aktuálně zobrazených záznamů do CSV souboru. CSV soubory mohou být otevřeny jakýmkoliv tabulkovým programem (např. Microsoft Excel, Apple Pages, OpenOffice atd.).
 advanced_search_dialog:
   title: Rozšířené hledání
   content: >
-    
+
 adv_keyword:
   title: Hledání podle klíčových slov
   content: >
@@ -50,4 +61,4 @@ adv_keyword:
 adv_date_range:
   title: Hledat dle období
   content: >
-    Definujte zde
+    Zde definujte

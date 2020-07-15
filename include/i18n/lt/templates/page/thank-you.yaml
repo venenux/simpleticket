@@ -1,4 +1,8 @@
 ---
+#Page template: thank-you.yaml
+#The thank-you page is served to the customer portal when a user submites a
+#new ticket via the customer portal.
+#---
 notes: |
   Šis šablonas apsprendžia turinį, rodomą padėkos puslapyje po to, kai klientas pateikia naują bilietą kliento portale.
 name: Ačiū
