@@ -290,11 +290,6 @@ $here = ($h = realpath($here)) ? $h : $here;
 define('ROOT_DIR',str_replace('\\', '/', $here.'/'));
 unset($here); unset($h);
 
-$uril = isset($_SERVER['HTTPS']) ? 'https' : 'http';
-$uril .= '://' . $_SERVER['HTTP_HOST'];
-$uril .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-define('BASEURIL',$uril);
-
 define('INCLUDE_DIR',ROOT_DIR.'include/'); //Change this if include is moved outside the web path.
 define('PEAR_DIR',INCLUDE_DIR.'pear/');
 define('SETUP_DIR',ROOT_DIR.'setup/');
@@ -323,6 +318,22 @@ require(INCLUDE_DIR.'class.osticket.php');
 require(INCLUDE_DIR.'class.misc.php');
 require(INCLUDE_DIR.'class.http.php');
 require(INCLUDE_DIR.'class.validator.php');
+
+if 
+(!strcasecmp(substr(php_sapi_name(), 0, 3), 'cli')
+                || (!$_SERVER['REQUEST_METHOD'] && !$_SERVER['HTTP_HOST']) //Fallback when php-cgi binary is used via cli
+                || (!isset($_SERVER['REQUEST_METHOD']) &&
+                    !isset($_SERVER['HTTP_HOST']))
+                    //Fallback when php-cgi binary is used via cli
+                ) {
+define('BASEURIL',ROOT_DIR);
+}
+else {
+$uril = isset($_SERVER['HTTPS']) ? 'https' : 'http';
+$uril .= '://' . $_SERVER['HTTP_HOST'];
+$uril .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+define('BASEURIL',$uril);
+}
 
 // Determine the path in the URI used as the base of the osTicket
 // installation
